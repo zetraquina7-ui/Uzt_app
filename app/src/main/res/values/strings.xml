@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zé Traquina</string>
+    <string name="mascot_name">Zé Traquina</string>
+    <string name="mascot_greeting">Olá amiguinho! Vamos brincar e aprender hoje?</string>
+    <string name="mascot_feedback_activity_completed">Parabéns! Concluíste a atividade com sucesso! Ganhaste estrelas reluzentes!</string>
+    <string name="mascot_feedback_game_completed">Uau! Arrasaste no jogo! És um verdadeiro campeão!</string>
+    <string name="mascot_feedback_learn_completed">Fantástico! Aprendeste coisas novas hoje!</string>
+    <string name="mascot_feedback_default">Estou a adorar ver-te a brincar e aprender! Continua assim, campeão!</string>
+    <string name="mascot_encouragement_stars">Já tens %d estrelas! Que incrível!</string>
+    <string name="home_title_what_to_do">O que vamos fazer hoje?</string>
+    <string name="home_highlights_title">Destaques do Dia</string>
+</resources>
+

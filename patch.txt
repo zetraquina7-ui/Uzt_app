@@ -1,0 +1,39 @@
+495,517c495,508
+<                     AnimatedContent(
+<                         targetState = currentScreen,
+<                         transitionSpec = {
+<                             fadeIn(animationSpec = tween(220)) togetherWith fadeOut(animationSpec = tween(220))
+<                         },
+<                         label = "screen_transition",
+<                         modifier = Modifier.fillMaxSize()
+<                     ) { targetScreen ->
+<                         when (targetScreen) {
+<                             Screen.Home -> HomeScreen(viewModel = viewModel, onNavigate = performNavigate)
+<                             Screen.Educar -> com.example.ui.screens.EducarScreen(viewModel = viewModel)
+<                             Screen.Stories -> com.example.ui.screens.HistoriasScreen(viewModel = viewModel, onBack = { performNavigate(Screen.Home) })
+<                             Screen.Learn -> LearnScreen(viewModel = viewModel)
+<                             Screen.Games -> GamesScreen(mainViewModel = viewModel)
+<                             Screen.Media -> VideosScreen(mainViewModel = viewModel)
+<                             Screen.Music -> MusicScreen(mediaViewModel = viewModel())
+<                             Screen.ParentalControl -> MaisScreen(mainViewModel = viewModel)
+<                             Screen.Chat -> ZeAIScreen(mainViewModel = viewModel, chatViewModel = chatViewModel)
+<                             Screen.Stats -> StatsScreen(mainViewModel = viewModel)
+<                             Screen.Atualidade -> AtualidadeScreen(mainViewModel = viewModel)
+<                             Screen.More -> MaisScreen(mainViewModel = viewModel)
+<                         }
+<                     }
+---
+>                     when (currentScreen) {
+>                         Screen.Home -> HomeScreen(viewModel = viewModel, onNavigate = performNavigate)
+>                         Screen.Educar -> com.example.ui.screens.EducarScreen(viewModel = viewModel)
+>                         Screen.Stories -> com.example.ui.screens.HistoriasScreen(viewModel = viewModel, onBack = { performNavigate(Screen.Home) })
+>                         Screen.Learn -> LearnScreen(viewModel = viewModel)
+>                         Screen.Games -> GamesScreen(mainViewModel = viewModel)
+>                         Screen.Media -> VideosScreen(mainViewModel = viewModel)
+>                         Screen.Music -> MusicScreen(mediaViewModel = viewModel())
+>                         Screen.ParentalControl -> MaisScreen(mainViewModel = viewModel)
+>                         Screen.Chat -> ZeAIScreen(mainViewModel = viewModel, chatViewModel = chatViewModel)
+>                         Screen.Stats -> StatsScreen(mainViewModel = viewModel)
+>                         Screen.Atualidade -> AtualidadeScreen(mainViewModel = viewModel)
+>                         Screen.More -> MaisScreen(mainViewModel = viewModel)
+>                     }

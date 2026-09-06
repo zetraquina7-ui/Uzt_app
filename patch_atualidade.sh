@@ -1,0 +1,85 @@
+#!/bin/bash
+cat << 'PATCH_EOF' > patch_atualidade.diff
+--- app/src/main/java/com/example/ui/screens/AtualidadeScreen.kt
++++ app/src/main/java/com/example/ui/screens/AtualidadeScreen.kt
+@@ -980,6 +980,63 @@
+         contentPadding = PaddingValues(bottom = 24.dp),
+         verticalArrangement = Arrangement.spacedBy(12.dp)
+     ) {
++        if (selectedGroup == null) {
++            item {
++                Text("Selecione a sua Escola / Grupo", fontWeight = FontWeight.Bold, fontSize = 20.sp, modifier = Modifier.padding(bottom = 8.dp, top = 8.dp))
++            }
++            items(groups.size) { index ->
++                val group = groups[index]
++                Card(
++                    modifier = Modifier.fillMaxWidth().clickable {
++                        selectedGroup = group
++                        prefs.edit().putString("selected_group", group).apply()
++                    },
++                    shape = RoundedCornerShape(16.dp),
++                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
++                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
++                ) {
++                    Text(
++                        text = group,
++                        modifier = Modifier.padding(16.dp),
++                        fontWeight = FontWeight.Bold,
++                        fontSize = 18.sp
++                    )
++                }
++            }
++            item {
++                Spacer(modifier = Modifier.height(16.dp))
++                OutlinedTextField(
++                    value = newGroupName,
++                    onValueChange = { newGroupName = it },
++                    placeholder = { Text("Nome da Nova Escola/Grupo") },
++                    singleLine = true,
++                    modifier = Modifier.fillMaxWidth(),
++                    shape = RoundedCornerShape(16.dp)
++                )
++                Spacer(modifier = Modifier.height(8.dp))
++                Button(
++                    onClick = {
++                        if (newGroupName.isNotBlank()) {
++                            try {
++                                val db = com.google.firebase.database.FirebaseDatabase.getInstance("https://ze-traquina-app-default-rtdb.europe-west1.firebasedatabase.app")
++                                db.getReference("community_groups").child(newGroupName.trim()).setValue(true)
++                                selectedGroup = newGroupName.trim()
++                                prefs.edit().putString("selected_group", selectedGroup).apply()
++                                newGroupName = ""
++                            } catch (e: Exception) { }
++                        }
++                    },
++                    modifier = Modifier.fillMaxWidth(),
++                    shape = RoundedCornerShape(16.dp)
++                ) {
++                    Text("+ Criar Nova Escola/Grupo", fontWeight = FontWeight.Bold)
++                }
++            }
++        } else {
++            item {
++                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp)) {
++                    IconButton(onClick = { 
++                        selectedGroup = null
++                        prefs.edit().remove("selected_group").apply()
++                    }) {
++                        Icon(Icons.Default.ArrowBack, contentDescription = "Voltar")
++                    }
++                    Text(text = "Grupo: $selectedGroup", fontWeight = FontWeight.Bold, fontSize = 18.sp)
++                }
++            }
+         if (!isUnlocked) {
+             item {
+                 Card(
+@@ -1289,6 +1346,7 @@
+                 }
+             }
+         }
++        }
+     }
+ }
+ 
+PATCH_EOF
+patch -p0 < patch_atualidade.diff

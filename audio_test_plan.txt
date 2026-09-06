@@ -1,0 +1,1 @@
+Changed the model in GeminiAudioRecognizer.kt from gemini-2.5-flash to gemini-3.5-flash which is the standard model being used in the rest of the application.

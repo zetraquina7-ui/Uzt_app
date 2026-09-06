@@ -1,0 +1,794 @@
+[
+  {
+    "id": "em_1_f1",
+    "numero": 1,
+    "titulo": "Ficha 1: O Corpo Humano e os Sentidos",
+    "descricao": "Explora o teu corpo, os 5 sentidos e as funções de cada órgão.",
+    "dificuldade": "FACIL",
+    "emoji": "🧍",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Onde ficam localizados os nossos olhos, o nariz e a boca?",
+        "opcoes": ["Nas pernas", "Na cabeça", "Nas costas"],
+        "resposta": "Na cabeça",
+        "explicacao": "Os olhos, o nariz, as orelhas e a boca fazem todos parte da nossa cara, que fica na cabeça!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O coração faz 'tum-tum' e bombeia o sangue por todo o corpo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O coração é um músculo incrível que funciona como o motor do nosso corpo."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual é o órgão que usamos para VER as cores e as formas?",
+        "opcoes": ["👂 Orelhas / Ouvido", "👁️ Olhos", "👃 Nariz"],
+        "resposta": "👁️ Olhos",
+        "explicacao": "Usamos a nossa visão, através dos olhos, para ver tudo o que nos rodeia! 👁️"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas mãos temos no nosso corpo para agarrar brinquedos?",
+        "opcoes": ["1", "2", "3"],
+        "resposta": "2",
+        "explicacao": "Temos 2 braços e 2 mãos (a mão esquerda e a mão direita)!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Usamos o ouvido (audição) para cheirar o perfume das flores.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Usamos o ouvido para ouvir os sons. Para cheirar as flores, usamos o nariz (olfato)!"
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Que sentido ou órgão usamos para SABOREAR um gelado delicioso?",
+        "opcoes": ["👅 Língua (Paladar)", "🖐️ Mão (Tato)", "👁️ Olho (Visão)"],
+        "resposta": "👅 Língua (Paladar)",
+        "explicacao": "Através das papilas da nossa língua sentimos o sabor doce, salgado ou azedo! 👅"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Com que parte do corpo corremos e chutamos a bola?",
+        "opcoes": ["Com a cabeça", "Com os braços", "Com as pernas e pés"],
+        "resposta": "Com as pernas e pés",
+        "explicacao": "As pernas e os pés dão-nos equilíbrio e força para correr, saltar e chutar!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "A nossa pele permite-nos sentir se um objeto é macio ou áspero.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O tato está espalhado por toda a nossa pele, especialmente nas pontas dos dedos."
+      }
+    ]
+  },
+  {
+    "id": "em_1_f2",
+    "numero": 2,
+    "titulo": "Ficha 2: Higiene e Saúde",
+    "descricao": "Bons hábitos diários para nos mantermos limpos, cheirosos e cheios de saúde.",
+    "dificuldade": "FACIL",
+    "emoji": "🪥",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "O que deves usar para lavar bem os dentes depois de comer?",
+        "opcoes": ["Pente e gel", "Champô", "Escova e pasta de dentes"],
+        "resposta": "Escova e pasta de dentes",
+        "explicacao": "Devemos escovar bem os dentes com escova e pasta para evitar as cáries!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Devemos lavar bem as mãos com água e sabão antes das refeições.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Lavar as mãos elimina os germes e vírus invisíveis que nos podem adoecer."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "O que usamos para limpar e secar a nossa pele após um bom banho?",
+        "opcoes": ["🧼 Sabonete", "🛀 Toalha", "🪥 Escova de dentes"],
+        "resposta": "🛀 Toalha",
+        "explicacao": "Usamos uma toalha limpa e macia para nos secarmos muito bem! 🛀"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas vezes por dia, no mínimo, deves lavar os dentes?",
+        "opcoes": ["1 vez", "Pelo menos 2 vezes", "De 10 em 10 dias"],
+        "resposta": "Pelo menos 2 vezes",
+        "explicacao": "Devemos escovar os dentes pelo menos duas vezes ao dia: ao levantar e antes de deitar!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Está correto partilhar a nossa escova de dentes com os amigos.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! A escova de dentes é de uso estritamente pessoal e não deve ser partilhada, para evitar contágios."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes hábitos deves fazer todas as noites para o teu cérebro descansar?",
+        "opcoes": ["📺 Ver televisão até tarde", "😴 Dormir cedo (8 a 10 horas)", "🍬 Comer muitos doces"],
+        "resposta": "😴 Dormir cedo (8 a 10 horas)",
+        "explicacao": "Dormir bem permite ao nosso corpo e mente recarregar energias para o dia seguinte! 😴"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "O que deves fazer quando tossires ou espirrares para proteger os outros?",
+        "opcoes": ["Tossir para o ar", "Cobrir a boca com o cotovelo ou lenço", "Não fazer nada"],
+        "resposta": "Cobrir a boca com o cotovelo ou lenço",
+        "explicacao": "Ao usar o cotovelo interno ou um lenço de papel, evitamos espalhar gotículas com vírus pelo ar."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Devemos tomar banho regularmente para manter o corpo limpo e livre de odores.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O banho limpa a sujidade da pele e deixa-nos frescos e cheirosos."
+      }
+    ]
+  },
+  {
+    "id": "em_1_f3",
+    "numero": 3,
+    "titulo": "Ficha 3: A Família e a Escola",
+    "descricao": "Reconhece o papel dos teus familiares, as regras da escola e a convivência social.",
+    "dificuldade": "FACIL",
+    "emoji": "🏫",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quem são os pais do teu pai ou da tua mãe?",
+        "opcoes": ["Os teus tios", "Os teus avós", "Os teus primos"],
+        "resposta": "Os teus avós",
+        "explicacao": "Os pais dos nossos pais são os nossos queridos avós!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Na escola, devemos respeitar os professores e ajudar os nossos colegas.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O respeito e a entreajuda tornam a escola um sítio feliz e seguro para todos."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Onde deves deitar os teus papéis e lixo quando estás na sala de aula?",
+        "opcoes": ["🧹 No chão", "🗑️ No caixote do lixo", "🎒 Dentro da mochila"],
+        "resposta": "🗑️ No caixote do lixo",
+        "explicacao": "Devemos manter a sala limpa deitando sempre o lixo no caixote! 🗑️"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o filho do teu tio ou da tua tia?",
+        "opcoes": ["Teu irmão", "Teu primo", "Teu sobrinho"],
+        "resposta": "Teu primo",
+        "explicacao": "Os filhos dos nossos tios são os nossos primos, com quem adoramos brincar!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "No recreio da escola, está correto empurrar os colegas na fila do escorrega.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Devemos esperar pacientemente pela nossa vez para evitar acidentes e discussões."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Que divisão da escola é usada para fazer as refeições como o almoço?",
+        "opcoes": ["⚽ Ginásio / Recreio", "🏫 Sala de aula", "🍽️ Cantina / Refeitório"],
+        "resposta": "🍽️ Cantina / Refeitório",
+        "explicacao": "A cantina ou refeitório é o espaço preparado para almoçarmos com higiene e conforto! 🍽️"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a palavra 'mágica' que deves usar quando pedes um brinquedo emprestado?",
+        "opcoes": ["Dá-me já!", "Por favor", "Sai da frente"],
+        "resposta": "Por favor",
+        "explicacao": "Dizer 'Por favor' e 'Obrigado' são regras básicas de boa educação!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "A nossa família é formada apenas pelas pessoas que vivem na mesma casa.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Os tios, primos e avós também fazem parte da nossa família, mesmo que morem noutras casas."
+      }
+    ]
+  },
+  {
+    "id": "em_1_f4",
+    "numero": 4,
+    "titulo": "Ficha 4: Os Animais e as Plantas",
+    "descricao": "Aprende a distinguir animais, partes das plantas e como proteger a natureza.",
+    "dificuldade": "MEDIO",
+    "emoji": "🌱",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama um animal que pode viver connosco em casa, como o cão?",
+        "opcoes": ["Animal Selvagem", "Animal Doméstico", "Animal Aquático"],
+        "resposta": "Animal Doméstico",
+        "explicacao": "Os animais domésticos (como cães ou gatos) estão habituados a viver em harmonia com os humanos!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O leão é um exemplo de animal selvagem que vive livre na natureza.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O leão vive livre nas savanas e florestas e não deve ser mantido em casa."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas partes da planta segura a planta à terra e absorve a água?",
+        "opcoes": ["🍃 Folhas", "🌸 Flores", "🪵 Raiz"],
+        "resposta": "🪵 Raiz",
+        "explicacao": "A raiz cresce debaixo da terra para segurar a planta e sugar a água e os nutrientes! 🪵"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "O que é que a maioria das plantas precisa para crescer saudável?",
+        "opcoes": ["Sumo e gomas", "Terra, água e luz do Sol", "Escuridão e vento frio"],
+        "resposta": "Terra, água e luz do Sol",
+        "explicacao": "As plantas precisam da luz solar, água fresca e nutrientes da terra para produzir o seu próprio alimento!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Todos os animais nascem de ovos.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Alguns animais nascem de ovos (como os pássaros), mas outros nascem da barriga da mãe (como os cães e nós)!"
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes animais voa e tem o corpo coberto de penas?",
+        "opcoes": ["🐟 Peixe", "🦜 Pássaro", "🐸 Rã"],
+        "resposta": "🦜 Pássaro",
+        "explicacao": "Os pássaros são aves, têm asas para voar e penas que os protegem! 🦜"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a parte colorida e cheirosa de uma planta, que depois pode dar fruto?",
+        "opcoes": ["O caule", "A flor", "A raiz"],
+        "resposta": "A flor",
+        "explicacao": "As flores embelezam a planta, atraem as abelhas e transformam-se em frutos saborosos!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Devemos regar as plantas e não arrancar as suas folhas sem necessidade.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Devemos respeitar e cuidar de todos os seres vivos da nossa natureza."
+      }
+    ]
+  },
+  {
+    "id": "em_1_f5",
+    "numero": 5,
+    "titulo": "Ficha 5: Alimentação Saudável",
+    "descricao": "Escolhas de alimentos bons para crescermos fortes e com muita energia.",
+    "dificuldade": "MEDIO",
+    "emoji": "🍎",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes grupos de alimentos deves comer todos os dias para seres saudável?",
+        "opcoes": ["Doces e chocolates", "Frutas e legumes", "Batatas fritas e refrigerantes"],
+        "resposta": "Frutas e legumes",
+        "explicacao": "As frutas e legumes dão-nos vitaminas fundamentais e ajudam o nosso corpo a combater doenças!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Devemos beber água muitas vezes ao dia em vez de refrigerantes com muito açúcar.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! A água limpa o nosso organismo e mantém-nos hidratados sem açúcar prejudicial."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas bebidas é natural e ótima para fortalecer os nossos ossos?",
+        "opcoes": ["🥤 Refrigerante de Cola", "🥛 Leite", "☕ Café"],
+        "resposta": "🥛 Leite",
+        "explicacao": "O leite tem muito cálcio, essencial para que os nossos ossos e dentes cresçam bem fortes! 🥛"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas refeições principais (como pequeno-almoço, almoço e jantar) deves fazer por dia?",
+        "opcoes": ["Apenas 1 refeição", "Fazer as refeições principais com lanches saudáveis", "Comer de 5 em 5 minutos"],
+        "resposta": "Fazer as refeições principais com lanches saudáveis",
+        "explicacao": "Devemos fazer cerca de 5 a 6 refeições por dia, espaçadas, para dar energia contínua ao corpo!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "A sopa de legumes é uma excelente forma de iniciar o almoço e o jantar.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! A sopa de legumes tem muita água, fibras e nutrientes que nos dão muita saúde."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Escolhe a fruta vermelha e sumarenta que cresce nas macieiras:",
+        "opcoes": ["🍌 Banana", "🍎 Maçã", "🍊 Laranja"],
+        "resposta": "🍎 Maçã",
+        "explicacao": "A maçã é uma fruta maravilhosa, estaladiça e muito rica em fibra! 🍎"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "O peixe e a carne dão-nos proteínas. Para que servem principalmente?",
+        "opcoes": ["Para nos ajudar a crescer e criar músculos fortes", "Para estragar os dentes", "Para não termos energia"],
+        "resposta": "Para nos ajudar a crescer e criar músculos fortes",
+        "explicacao": "As proteínas da carne, peixe, ovos e leguminosas ajudam na construção e reparação de todo o corpo."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Está correto comer guloseimas (como gomas e chupa-chupas) a todas as refeições.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Os doces devem ser comidos muito raramente porque têm excesso de açúcar e causam cáries."
+      }
+    ]
+  },
+  {
+    "id": "em_1_f6",
+    "numero": 6,
+    "titulo": "Ficha 6: Os Nossos Dentes e a Saúde Oral",
+    "descricao": "Como cuidar dos dentes de leite e evitar que as cáries os estraguem.",
+    "dificuldade": "MEDIO",
+    "emoji": "🦷",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam os primeiros dentes que nascem na nossa infância e que depois caem?",
+        "opcoes": ["Dentes de ferro", "Dentes de leite", "Dentes definitivos"],
+        "resposta": "Dentes de leite",
+        "explicacao": "Os dentes de leite começam a cair por volta dos 6 anos para dar lugar aos dentes definitivos!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Devemos escovar os dentes fazendo movimentos circulares de cima para baixo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Escovar das gengivas para a ponta dos dentes limpa a sujidade com eficácia."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Quem é o médico especialista que trata e cuida da saúde dos nossos dentes?",
+        "opcoes": ["🩺 Pediatra", "🦷 Dentista", "👁️ Oftalmologista"],
+        "resposta": "🦷 Dentista",
+        "explicacao": "O dentista (ou médico dentista) examina os nossos dentes, trata as cáries e ensina a escovar! 🦷"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "O que deves fazer à tua escova de dentes quando ela estiver gasta e aberta?",
+        "opcoes": ["Continuar a usar para sempre", "Pedir ajuda para a trocar por uma nova", "Lavar o chão com ela"],
+        "resposta": "Pedir ajuda para a trocar por uma nova",
+        "explicacao": "Devemos trocar a escova de dentes de 3 em 3 meses para garantir uma boa lavagem."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Comer muitos doces colantes antes de deitar sem lavar os dentes é ótimo para prevenir cáries.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! O açúcar acumulado nos dentes à noite alimenta as bactérias que abrem pequenos buraquinhos (cáries)."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Escolhe o fio especial que usamos para limpar o espaço apertado entre os dentes:",
+        "opcoes": ["🧵 Fio de costura", "🦷 Fio dentário", "🔌 Cabo elétrico"],
+        "resposta": "🦷 Fio dentário",
+        "explicacao": "O fio dentário retira os restos de comida que a escova não consegue alcançar! 🦷"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "O que deves colocar na escova de dentes, em pequena quantidade (tamanho de uma ervilha)?",
+        "opcoes": ["Sabonete líquido", "Pasta de dentes com flúor", "Creme hidratante"],
+        "resposta": "Pasta de dentes com flúor",
+        "explicacao": "A pasta de dentes com flúor protege o esmalte e deixa os dentes muito mais resistentes!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Devemos ir consultar o dentista pelo menos uma vez por ano para ver se está tudo bem.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! As consultas regulares ajudam a apanhar as cáries no início antes que comecem a doer."
+      }
+    ]
+  },
+  {
+    "id": "em_1_f7",
+    "numero": 7,
+    "titulo": "Ficha 7: Os Sentidos no Dia a Dia",
+    "descricao": "Explora como usamos os cinco sentidos em situações do quotidiano.",
+    "dificuldade": "MEDIO",
+    "emoji": "👂",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quando ouves o alarme do despertador de manhã, qual é o sentido que estás a usar?",
+        "opcoes": ["Olfato", "Audição", "Visão"],
+        "resposta": "Audição",
+        "explicacao": "A audição permite-nos ouvir sons altos, baixos, agradáveis e avisos como os alarmes!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "A nossa língua consegue distinguir quatro sabores principais: doce, salgado, ácido e amargo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Cada zona da língua ajuda a captar estes sabores dos alimentos."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Se tocares num cubo de gelo frio, qual é o sentido que te avisa do frio na pele?",
+        "opcoes": ["🖐️ Tato", "👅 Paladar", "👃 Olfato"],
+        "resposta": "🖐️ Tato",
+        "explicacao": "O tato, detetado pela pele de todo o corpo, faz-nos sentir a temperatura fria ou quente! 🖐️"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes sentidos usamos para ler um livro de histórias ilustrado?",
+        "opcoes": ["Olfato", "Paladar", "Visão"],
+        "resposta": "Visão",
+        "explicacao": "Lemos as letras e vemos os belos desenhos usando os nossos olhos, ou seja, o sentido da visão."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O olfato é o sentido que nos permite sentir o cheiro a queimado se houver fumo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O olfato avisa-nos de perigos como fumo, fogueiras ou comida estragada através do cheiro."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes objetos tem um perfume forte que detetamos com o Olfato?",
+        "opcoes": ["🧴 Perfume / Flor", "📦 Caixa vazia", "🔑 Chave de metal"],
+        "resposta": "🧴 Perfume / Flor",
+        "explicacao": "As flores e os perfumes libertam substâncias no ar que o nosso nariz deteta facilmente! 🧴"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Que textura sentes na pele ao dar um abraço a um ursinho de peluche macio?",
+        "opcoes": ["Áspera e picante", "Suave e macia", "Dura como pedra"],
+        "resposta": "Suave e macia",
+        "explicacao": "O pelo dos peluches é suave e macio, transmitindo uma sensação agradável ao toque!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Se estivermos de olhos vendados, é impossível descobrir se uma fruta é uma banana ou uma laranja.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Podemos usar o olfato (cheiro), o tato (forma e casca) ou o paladar (sabor) para adivinhar!"
+      }
+    ]
+  },
+  {
+    "id": "em_1_f8",
+    "numero": 8,
+    "titulo": "Ficha 8: O Clima e as Estações do Ano",
+    "descricao": "Descobre o Outono, o Inverno, a Primavera e o Verão e as suas características.",
+    "dificuldade": "MEDIO",
+    "emoji": "🍂",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Em qual destas estações do ano faz muito calor e vamos à praia nadar?",
+        "opcoes": ["Inverno", "Verão", "Outono"],
+        "resposta": "Verão",
+        "explicacao": "No Verão os dias são longos, as temperaturas são altas e aproveitamos as férias na praia!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "No Outono, muitas árvores perdem as folhas, que ficam amarelas e castanhas e caem ao chão.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O Outono é a época de transição onde as folhas caem e o vento começa a arrefecer."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas estações é famosa por estar cheia de flores coloridas e campos verdes?",
+        "opcoes": ["❄️ Inverno", "🌸 Primavera", "🍂 Outono"],
+        "resposta": "🌸 Primavera",
+        "explicacao": "A Primavera é a estação das flores! A natureza renasce e os animais ficam mais ativos. 🌸"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "No Inverno faz muito frio. Que roupas deves vestir para te protegeres na rua?",
+        "opcoes": ["Calções e t-shirt", "Fato de banho", "Casaco grosso, cachecol e gorro"],
+        "resposta": "Casaco grosso, cachecol e gorro",
+        "explicacao": "No Inverno as temperaturas descem muito, por isso agasalhamo-nos bem para não apanhar uma constipação."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "A neve cai apenas nos dias mais quentes do Verão.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! A neve precisa de temperaturas muito frias, perto de zero graus, ocorrendo apenas no Inverno."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Que objeto deves levar contigo na mochila num dia de muita chuva?",
+        "opcoes": ["🕶️ Óculos de Sol", "☔ Guarda-chuva", "🪁 Papagaio de papel"],
+        "resposta": "☔ Guarda-chuva",
+        "explicacao": "O guarda-chuva ou uma capa impermeável servem para nos proteger da água da chuva! ☔"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o vento muito forte acompanhado de relâmpagos, trovões e chuva intensa?",
+        "opcoes": ["Geada", "Trovoada / Tempestade", "Arco-íris"],
+        "resposta": "Trovoada / Tempestade",
+        "explicacao": "A trovoada traz descargas elétricas (relâmpagos) que causam estrondos no ar (trovões)!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O arco-íris costuma aparecer no céu quando chove e faz Sol ao mesmo tempo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! A luz do Sol atravessa as gotinhas de água suspensas no ar e divide-se em 7 lindas cores."
+      }
+    ]
+  },
+  {
+    "id": "em_1_f9",
+    "numero": 9,
+    "titulo": "Ficha 9: Segurança na Escola e na Estrada",
+    "descricao": "Regras simples de trânsito e comportamentos seguros para evitar acidentes.",
+    "dificuldade": "MEDIO",
+    "emoji": "🚦",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Onde deves atravessar a rua com segurança quando andas a pé?",
+        "opcoes": ["Em qualquer sítio a correr", "Na passadeira", "Por trás de um camião parado"],
+        "resposta": "Na passadeira",
+        "explicacao": "As passadeiras (linhas brancas pintadas no chão) são as zonas reservadas para os peões atravessarem com prioridade e segurança!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Devemos andar sempre no passeio e não no meio da estrada onde passam os carros.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O passeio é para os peões e a estrada é para os veículos."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Que cor do semáforo dos carros nos diz que eles têm de PARAR obrigatoriamente?",
+        "opcoes": ["🟢 Verde (Avançar)", "🟡 Amarelo (Atenção)", "🔴 Vermelho (Parar)"],
+        "resposta": "🔴 Vermelho (Parar)",
+        "explicacao": "O vermelho indica perigo ou paragem obrigatória! Os carros param e os peões podem cruzar na passadeira. 🔴"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quando vais no carro com os teus pais, qual é o teu dever de segurança antes de a viagem começar?",
+        "opcoes": ["Ir em pé no banco de trás", "Colocar o cinto de segurança e sentar na cadeirinha", "Brincar com as maçanetas das portas"],
+        "resposta": "Colocar o cinto de segurança e sentar na cadeirinha",
+        "explicacao": "O cinto de segurança e as cadeiras auto protegem-nos contra travagens bruscas ou acidentes!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Se vires uma bola a fugir para o meio da estrada, deves correr logo atrás dela sem olhar.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Nunca corras para a estrada. Deves pedir sempre ajuda a um adulto para recuperar a bola com segurança."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "O que deves colocar sempre na cabeça antes de andar de bicicleta, trotineta ou patins?",
+        "opcoes": ["🧢 Boné de sol", "🪖 Capacete de proteção", "👑 Coroa de cartão"],
+        "resposta": "🪖 Capacete de proteção",
+        "explicacao": "O capacete protege a nossa cabeça se cairmos ao chão! 🪖"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam as pessoas que andam a caminhar a pé pelas ruas?",
+        "opcoes": ["Condutores", "Ciclistas", "Peões"],
+        "resposta": "Peões",
+        "explicacao": "Os peões são todas as pessoas que circulam a pé pelas vias públicas."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Antes de atravessar a rua, mesmo que seja na passadeira, deves olhar para a esquerda, para a direita e outra vez para a esquerda.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Devemos ter a certeza absoluta de que todos os carros pararam antes de colocarmos o pé na estrada."
+      }
+    ]
+  },
+  {
+    "id": "em_1_f10",
+    "numero": 10,
+    "titulo": "Ficha 10: O Meu Passado e o Tempo",
+    "descricao": "Explora o teu crescimento, datas especiais e como medimos o tempo.",
+    "dificuldade": "MEDIO",
+    "emoji": "⏳",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Como estavas e o que fazias quando eras um bebé recém-nascido?",
+        "opcoes": ["Andava de bicicleta sozinho", "Gatinhava, chorava e bebia leite", "Ia para a escola com mochila"],
+        "resposta": "Gatinhava, chorava e bebia leite",
+        "explicacao": "Quando somos bebés somos muito pequeninos, alimentamo-nos de leite e ainda não sabemos andar nem falar!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "À medida que crescemos, os nossos ossos aumentam de tamanho e nós ficamos mais altos.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O crescimento faz com que o nosso corpo ganhe altura, peso e novas capacidades."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Que objeto pendurado na parede nos diz as horas do dia para não nos atrasarmos?",
+        "opcoes": ["🗓️ Calendário", "⏰ Relógio", "🗺️ Mapa"],
+        "resposta": "⏰ Relógio",
+        "explicacao": "O relógio mede o tempo em horas, minutos e segundos! ⏰"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o dia do ano muito especial em que festejas o teu aniversário e ganhas mais um ano de idade?",
+        "opcoes": ["O dia de Natal", "O dia em que nasceste (dia do aniversário)", "O primeiro dia de aulas"],
+        "resposta": "O dia em que nasceste (dia do aniversário)",
+        "explicacao": "Festejamos o nosso aniversário exatamente na data do nosso nascimento!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O ano tem 12 meses no total, sendo Janeiro o primeiro mês.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O ano letivo e civil passa por 12 meses (Janeiro a Dezembro)."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "O que usamos para ver os dias da semana, as semanas e os meses do ano completo?",
+        "opcoes": ["⏰ Relógio", "🗓️ Calendário", "📖 Livro de Matemática"],
+        "resposta": "🗓️ Calendário",
+        "explicacao": "O calendário ajuda-nos a organizar os dias, marcar feriados e ver em que dia da semana estamos! 🗓️"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos dias tem uma semana completa, de Segunda-feira a Domingo?",
+        "opcoes": ["5 dias", "7 dias", "10 dias"],
+        "resposta": "7 dias",
+        "explicacao": "Uma semana tem exatamente 7 dias! 5 são de escola/trabalho e 2 são de fim de semana."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O ontem representa o tempo que ainda vai acontecer amanhã.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! O 'ontem' é o passado (o dia que já acabou), o 'hoje' é o presente, e o 'amanhã' é o futuro que ainda vai chegar!"
+      }
+    ]
+  },
+  {
+    "id": "em_1_f11",
+    "numero": 11,
+    "titulo": "Ficha 11: Meios de Transporte e Comunicação",
+    "descricao": "Distingue transportes terrestres, aquáticos e aéreos, e como falamos ao longe.",
+    "dificuldade": "MEDIO",
+    "emoji": "🚂",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama um meio de transporte que viaja pelos carris de ferro, como o comboio?",
+        "opcoes": ["Transporte Aéreo", "Transporte Terrestre", "Transporte Marítimo"],
+        "resposta": "Transporte Terrestre",
+        "explicacao": "Os comboios, carros, autocarros e bicicletas andam na terra, logo são transportes terrestres!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O avião e o helicóptero são transportes aéreos porque voam lá no alto pelo céu.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Deslocam-se pelo ar para fazer viagens muito rápidas entre países distantes."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Que meio de transporte navega pela água dos mares, rios e lagos?",
+        "opcoes": ["🚗 Carro", "⛵ Barco / Navio", "🚂 Comboio"],
+        "resposta": "⛵ Barco / Navio",
+        "explicacao": "Os barcos, navios e caravelas flutuam e deslocam-se na água! ⛵"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes objetos serve para falar com uma pessoa que está noutra casa ou cidade distante?",
+        "opcoes": ["Uma batedeira", "O telemóvel ou telefone", "Um espelho de bolso"],
+        "resposta": "O telemóvel ou telefone",
+        "explicacao": "O telemóvel liga as pessoas através de chamadas de voz e mensagens escritas ou em vídeo!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "As cartas em papel enviadas pelos correios deixaram de existir por completo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Embora usemos muito o email, as cartas e encomendas físicas ainda são distribuídas diariamente pelos carteiros."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Que meio de comunicação usas para ver notícias, desenhos animados e programas educativos com som e imagem?",
+        "opcoes": ["📻 Rádio", "📺 Televisão", "✉️ Carta"],
+        "resposta": "📺 Televisão",
+        "explicacao": "A televisão transmite imagens em movimento e som em simultâneo! 📺"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se precisares de viajar de uma ilha para o continente muito rapidamente, qual é o transporte ideal?",
+        "opcoes": ["Bicicleta", "Avião", "Elétrico de Lisboa"],
+        "resposta": "Avião",
+        "explicacao": "O avião consegue cruzar oceanos e longas distâncias pelo ar em poucas horas!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O computador ligado à Internet permite-nos pesquisar matérias e falar com familiares do outro lado do mundo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! A Internet liga computadores de todo o planeta e partilha informação instantaneamente."
+      }
+    ]
+  },
+  {
+    "id": "em_1_f12",
+    "numero": 12,
+    "titulo": "Ficha 12: Profissões e a Comunidade",
+    "descricao": "Identifica as profissões e as pessoas que ajudam a nossa localidade.",
+    "dificuldade": "DESAFIO",
+    "emoji": "🧑‍🚒",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quem é o profissional que apaga fogos, salva pessoas e animais em perigo?",
+        "opcoes": ["Padeiro", "Bombeiro", "Polícia"],
+        "resposta": "Bombeiro",
+        "explicacao": "Os bombeiros são heróis da nossa comunidade que combatem incêndios e socorrem em acidentes!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O professor é responsável por ensinar matérias interessantes e educar os alunos na escola.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O professor ajuda-nos a ler, escrever, contar e a descobrir o mundo."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Quem prepara o pão quentinho e estaladiço que compramos logo de manhã cedo?",
+        "opcoes": ["🧑‍🚒 Bombeiro", "🧑‍🍳 Padeiro", "🩺 Médico"],
+        "resposta": "🧑‍🍳 Padeiro",
+        "explicacao": "O padeiro amassa a farinha, a água e o fermento para cozer pão delicioso no forno! 🧑‍🍳"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quem é o profissional de saúde que examina os doentes nos hospitais e receita medicamentos?",
+        "opcoes": ["Carpinteiro", "Médico", "Carteiro"],
+        "resposta": "Médico",
+        "explicacao": "Os médicos (e enfermeiros) cuidam de nós quando estamos doentes para recuperarmos a saúde!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O carteiro é o profissional que conduz o comboio de passageiros.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! O carteiro distribui as cartas e encomendas nas caixas de correio das casas. Quem conduz o comboio é o maquinista!"
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Que profissional garante a nossa segurança nas ruas e orienta o trânsito dos carros?",
+        "opcoes": ["👮 Polícia", "🧑‍🌾 Agricultor", "🧑‍🎨 Pintor"],
+        "resposta": "👮 Polícia",
+        "explicacao": "Os polícias defendem os cidadãos, fazem cumprir as leis e mantêm as ruas seguras! 👮"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quem cultiva a terra, semeia legumes e cuida dos animais no campo para nos dar alimentos?",
+        "opcoes": ["Dentista", "Agricultor", "Vendedor de jornais"],
+        "resposta": "Agricultor",
+        "explicacao": "O agricultor trabalha na quinta ou fazenda para colhermos vegetais e frutas frescas!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Todas as profissões são importantes e merecem o nosso respeito e admiração.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! A cooperação de todas as pessoas com diferentes trabalhos faz com que a nossa sociedade funcione bem."
+      }
+    ]
+  }
+]

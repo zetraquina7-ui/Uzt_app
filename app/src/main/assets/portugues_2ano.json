@@ -1,0 +1,3806 @@
+[
+  {
+    "id": "pt_2_f1",
+    "numero": 1,
+    "titulo": "Sinónimos e Antónimos",
+    "title": "Sinónimos e Antónimos",
+    "descricao": "Descobre palavras com significados semelhantes (sinónimos) e contrários (antónimos).",
+    "description": "Descobre palavras com significados semelhantes (sinónimos) e contrários (antónimos).",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "🔄",
+    "imageEmoji": "🔄",
+    "exercicios": [
+      {
+        "id": "pt_2_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o sinónimo da palavra 'alegre'?",
+        "question": "Qual é o sinónimo da palavra 'alegre'?",
+        "opcoes": [
+          "Triste",
+          "Contente",
+          "Zangado"
+        ],
+        "options": [
+          "Triste",
+          "Contente",
+          "Zangado"
+        ],
+        "resposta": "Contente",
+        "correctAnswer": "Contente",
+        "explicacao": "Alegre e contente significam a mesma coisa, logo são sinónimos!",
+        "explanation": "Alegre e contente significam a mesma coisa, logo são sinónimos!"
+      },
+      {
+        "id": "pt_2_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O antónimo de 'alto' é 'baixo'.",
+        "question": "O antónimo de 'alto' é 'baixo'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Antónimos são palavras com significado oposto.",
+        "explanation": "Verdadeiro! Antónimos são palavras com significado oposto."
+      },
+      {
+        "id": "pt_2_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O sinónimo de 'começar' é ___",
+        "question": "O sinónimo de 'começar' é ___",
+        "opcoes": [
+          "iniciar",
+          "terminar",
+          "dormir"
+        ],
+        "options": [
+          "iniciar",
+          "terminar",
+          "dormir"
+        ],
+        "resposta": "iniciar",
+        "correctAnswer": "iniciar",
+        "explicacao": "Começar e iniciar são palavras sinónimas.",
+        "explanation": "Começar e iniciar são palavras sinónimas."
+      },
+      {
+        "id": "pt_2_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é o antónimo de 'dia'?",
+        "question": "Qual destas palavras é o antónimo de 'dia'?",
+        "opcoes": [
+          "🌙 Noite",
+          "☀️ Sol",
+          "⛅ Tarde"
+        ],
+        "options": [
+          "🌙 Noite",
+          "☀️ Sol",
+          "⛅ Tarde"
+        ],
+        "resposta": "🌙 Noite",
+        "correctAnswer": "🌙 Noite",
+        "explicacao": "O contrário de dia é noite! 🌙",
+        "explanation": "O contrário de dia é noite! 🌙"
+      },
+      {
+        "id": "pt_2_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o antónimo de 'rápido'?",
+        "question": "Qual é o antónimo de 'rápido'?",
+        "opcoes": [
+          "Veloz",
+          "Lento",
+          "Apressado"
+        ],
+        "options": [
+          "Veloz",
+          "Lento",
+          "Apressado"
+        ],
+        "resposta": "Lento",
+        "correctAnswer": "Lento",
+        "explicacao": "O oposto de alguém rápido é alguém lento.",
+        "explanation": "O oposto de alguém rápido é alguém lento."
+      },
+      {
+        "id": "pt_2_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As palavras 'bonito' e 'belo' são sinónimas.",
+        "question": "As palavras 'bonito' e 'belo' são sinónimas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Têm o mesmo significado.",
+        "explanation": "Verdadeiro! Têm o mesmo significado."
+      },
+      {
+        "id": "pt_2_f1_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Descobre a palavra antónima de 'cheio':",
+        "question": "Descobre a palavra antónima de 'cheio':",
+        "opcoes": [
+          "Vazio",
+          "Grande",
+          "Farto"
+        ],
+        "options": [
+          "Vazio",
+          "Grande",
+          "Farto"
+        ],
+        "resposta": "Vazio",
+        "correctAnswer": "Vazio",
+        "explicacao": "O contrário de um copo cheio é um copo vazio.",
+        "explanation": "O contrário de um copo cheio é um copo vazio."
+      },
+      {
+        "id": "pt_2_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa cada palavra ao seu antónimo:",
+        "question": "Associa cada palavra ao seu antónimo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente ligação de antónimos!",
+        "explanation": "Excelente ligação de antónimos!",
+        "pairs": {
+          "Quente": "Frio",
+          "Claro": "Escuro",
+          "Fácil": "Difícil",
+          "Gordo": "Magro"
+        },
+        "pares": {
+          "Quente": "Frio",
+          "Claro": "Escuro",
+          "Fácil": "Difícil",
+          "Gordo": "Magro"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o sinónimo da palavra 'alegre'?",
+        "question": "Qual é o sinónimo da palavra 'alegre'?",
+        "opcoes": [
+          "Triste",
+          "Contente",
+          "Zangado"
+        ],
+        "options": [
+          "Triste",
+          "Contente",
+          "Zangado"
+        ],
+        "resposta": "Contente",
+        "correctAnswer": "Contente",
+        "explicacao": "Alegre e contente significam a mesma coisa, logo são sinónimos!",
+        "explanation": "Alegre e contente significam a mesma coisa, logo são sinónimos!"
+      },
+      {
+        "id": "pt_2_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O antónimo de 'alto' é 'baixo'.",
+        "question": "O antónimo de 'alto' é 'baixo'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Antónimos são palavras com significado oposto.",
+        "explanation": "Verdadeiro! Antónimos são palavras com significado oposto."
+      },
+      {
+        "id": "pt_2_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O sinónimo de 'começar' é ___",
+        "question": "O sinónimo de 'começar' é ___",
+        "opcoes": [
+          "iniciar",
+          "terminar",
+          "dormir"
+        ],
+        "options": [
+          "iniciar",
+          "terminar",
+          "dormir"
+        ],
+        "resposta": "iniciar",
+        "correctAnswer": "iniciar",
+        "explicacao": "Começar e iniciar são palavras sinónimas.",
+        "explanation": "Começar e iniciar são palavras sinónimas."
+      },
+      {
+        "id": "pt_2_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é o antónimo de 'dia'?",
+        "question": "Qual destas palavras é o antónimo de 'dia'?",
+        "opcoes": [
+          "🌙 Noite",
+          "☀️ Sol",
+          "⛅ Tarde"
+        ],
+        "options": [
+          "🌙 Noite",
+          "☀️ Sol",
+          "⛅ Tarde"
+        ],
+        "resposta": "🌙 Noite",
+        "correctAnswer": "🌙 Noite",
+        "explicacao": "O contrário de dia é noite! 🌙",
+        "explanation": "O contrário de dia é noite! 🌙"
+      },
+      {
+        "id": "pt_2_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o antónimo de 'rápido'?",
+        "question": "Qual é o antónimo de 'rápido'?",
+        "opcoes": [
+          "Veloz",
+          "Lento",
+          "Apressado"
+        ],
+        "options": [
+          "Veloz",
+          "Lento",
+          "Apressado"
+        ],
+        "resposta": "Lento",
+        "correctAnswer": "Lento",
+        "explicacao": "O oposto de alguém rápido é alguém lento.",
+        "explanation": "O oposto de alguém rápido é alguém lento."
+      },
+      {
+        "id": "pt_2_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As palavras 'bonito' e 'belo' são sinónimas.",
+        "question": "As palavras 'bonito' e 'belo' são sinónimas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Têm o mesmo significado.",
+        "explanation": "Verdadeiro! Têm o mesmo significado."
+      },
+      {
+        "id": "pt_2_f1_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Descobre a palavra antónima de 'cheio':",
+        "question": "Descobre a palavra antónima de 'cheio':",
+        "opcoes": [
+          "Vazio",
+          "Grande",
+          "Farto"
+        ],
+        "options": [
+          "Vazio",
+          "Grande",
+          "Farto"
+        ],
+        "resposta": "Vazio",
+        "correctAnswer": "Vazio",
+        "explicacao": "O contrário de um copo cheio é um copo vazio.",
+        "explanation": "O contrário de um copo cheio é um copo vazio."
+      },
+      {
+        "id": "pt_2_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa cada palavra ao seu antónimo:",
+        "question": "Associa cada palavra ao seu antónimo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente ligação de antónimos!",
+        "explanation": "Excelente ligação de antónimos!",
+        "pairs": {
+          "Quente": "Frio",
+          "Claro": "Escuro",
+          "Fácil": "Difícil",
+          "Gordo": "Magro"
+        },
+        "pares": {
+          "Quente": "Frio",
+          "Claro": "Escuro",
+          "Fácil": "Difícil",
+          "Gordo": "Magro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f2",
+    "numero": 2,
+    "titulo": "Nomes Próprios e Nomes Comuns",
+    "title": "Nomes Próprios e Nomes Comuns",
+    "descricao": "Aprende a distinguir nomes de pessoas/lugares (maiúsculas) de objetos e animais.",
+    "description": "Aprende a distinguir nomes de pessoas/lugares (maiúsculas) de objetos e animais.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "🏷️",
+    "imageEmoji": "🏷️",
+    "exercicios": [
+      {
+        "id": "pt_2_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras é um Nome Próprio?",
+        "question": "Qual destas palavras é um Nome Próprio?",
+        "opcoes": [
+          "martelo",
+          "Portugal",
+          "janela"
+        ],
+        "options": [
+          "martelo",
+          "Portugal",
+          "janela"
+        ],
+        "resposta": "Portugal",
+        "correctAnswer": "Portugal",
+        "explicacao": "Portugal é o nome de um país, começa com maiúscula e é um nome próprio!",
+        "explanation": "Portugal é o nome de um país, começa com maiúscula e é um nome próprio!"
+      },
+      {
+        "id": "pt_2_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os nomes próprios escrevem-se sempre com letra inicial maiúscula.",
+        "question": "Os nomes próprios escrevem-se sempre com letra inicial maiúscula.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Nomes de pessoas, terras, rios e animais de estimação levam maiúscula.",
+        "explanation": "Verdadeiro! Nomes de pessoas, terras, rios e animais de estimação levam maiúscula."
+      },
+      {
+        "id": "pt_2_f2_e3",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas opções é um Nome Comum?",
+        "question": "Qual destas opções é um Nome Comum?",
+        "opcoes": [
+          "🐱 gato",
+          "🇵🇹 Lisboa",
+          "👧 Maria"
+        ],
+        "options": [
+          "🐱 gato",
+          "🇵🇹 Lisboa",
+          "👧 Maria"
+        ],
+        "resposta": "🐱 gato",
+        "correctAnswer": "🐱 gato",
+        "explicacao": "'gato' é um nome comum de animal, escreve-se com minúscula.",
+        "explanation": "'gato' é um nome comum de animal, escreve-se com minúscula."
+      },
+      {
+        "id": "pt_2_f2_e4",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'O ___ foi à praia', qual completa com um nome próprio?",
+        "question": "Na frase 'O ___ foi à praia', qual completa com um nome próprio?",
+        "opcoes": [
+          "Zé",
+          "livro",
+          "carro"
+        ],
+        "options": [
+          "Zé",
+          "livro",
+          "carro"
+        ],
+        "resposta": "Zé",
+        "correctAnswer": "Zé",
+        "explicacao": "'Zé' é o nome próprio do nosso amigo!",
+        "explanation": "'Zé' é o nome próprio do nosso amigo!"
+      },
+      {
+        "id": "pt_2_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A palavra 'Porto' nesta frase refere-se à cidade. Que tipo de nome é?",
+        "question": "A palavra 'Porto' nesta frase refere-se à cidade. Que tipo de nome é?",
+        "opcoes": [
+          "Nome Próprio",
+          "Nome Comum",
+          "Verbo"
+        ],
+        "options": [
+          "Nome Próprio",
+          "Nome Comum",
+          "Verbo"
+        ],
+        "resposta": "Nome Próprio",
+        "correctAnswer": "Nome Próprio",
+        "explicacao": "É o nome da cidade do Porto, logo é nome próprio.",
+        "explanation": "É o nome da cidade do Porto, logo é nome próprio."
+      },
+      {
+        "id": "pt_2_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'cadeira' é um nome próprio porque está na sala.",
+        "question": "A palavra 'cadeira' é um nome próprio porque está na sala.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! Cadeira é um objeto comum, logo é um nome comum.",
+        "explanation": "Falso! Cadeira é um objeto comum, logo é um nome comum."
+      },
+      {
+        "id": "pt_2_f2_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Encontra o nome próprio da lista:",
+        "question": "Encontra o nome próprio da lista:",
+        "opcoes": [
+          "Sofia",
+          "mesa",
+          "lápis"
+        ],
+        "options": [
+          "Sofia",
+          "mesa",
+          "lápis"
+        ],
+        "resposta": "Sofia",
+        "correctAnswer": "Sofia",
+        "explicacao": "Sofia é o nome de uma menina.",
+        "explanation": "Sofia é o nome de uma menina."
+      },
+      {
+        "id": "pt_2_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os nomes:",
+        "question": "Classifica os nomes:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Distinguiste perfeitamente nomes comuns e próprios.",
+        "explanation": "Muito bem! Distinguiste perfeitamente nomes comuns e próprios.",
+        "pairs": {
+          "Manuel": "Nome Próprio",
+          "caderno": "Nome Comum",
+          "Coimbra": "Nome Próprio",
+          "árvore": "Nome Comum"
+        },
+        "pares": {
+          "Manuel": "Nome Próprio",
+          "caderno": "Nome Comum",
+          "Coimbra": "Nome Próprio",
+          "árvore": "Nome Comum"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras é um Nome Próprio?",
+        "question": "Qual destas palavras é um Nome Próprio?",
+        "opcoes": [
+          "martelo",
+          "Portugal",
+          "janela"
+        ],
+        "options": [
+          "martelo",
+          "Portugal",
+          "janela"
+        ],
+        "resposta": "Portugal",
+        "correctAnswer": "Portugal",
+        "explicacao": "Portugal é o nome de um país, começa com maiúscula e é um nome próprio!",
+        "explanation": "Portugal é o nome de um país, começa com maiúscula e é um nome próprio!"
+      },
+      {
+        "id": "pt_2_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os nomes próprios escrevem-se sempre com letra inicial maiúscula.",
+        "question": "Os nomes próprios escrevem-se sempre com letra inicial maiúscula.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Nomes de pessoas, terras, rios e animais de estimação levam maiúscula.",
+        "explanation": "Verdadeiro! Nomes de pessoas, terras, rios e animais de estimação levam maiúscula."
+      },
+      {
+        "id": "pt_2_f2_e3",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas opções é um Nome Comum?",
+        "question": "Qual destas opções é um Nome Comum?",
+        "opcoes": [
+          "🐱 gato",
+          "🇵🇹 Lisboa",
+          "👧 Maria"
+        ],
+        "options": [
+          "🐱 gato",
+          "🇵🇹 Lisboa",
+          "👧 Maria"
+        ],
+        "resposta": "🐱 gato",
+        "correctAnswer": "🐱 gato",
+        "explicacao": "'gato' é um nome comum de animal, escreve-se com minúscula.",
+        "explanation": "'gato' é um nome comum de animal, escreve-se com minúscula."
+      },
+      {
+        "id": "pt_2_f2_e4",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'O ___ foi à praia', qual completa com um nome próprio?",
+        "question": "Na frase 'O ___ foi à praia', qual completa com um nome próprio?",
+        "opcoes": [
+          "Zé",
+          "livro",
+          "carro"
+        ],
+        "options": [
+          "Zé",
+          "livro",
+          "carro"
+        ],
+        "resposta": "Zé",
+        "correctAnswer": "Zé",
+        "explicacao": "'Zé' é o nome próprio do nosso amigo!",
+        "explanation": "'Zé' é o nome próprio do nosso amigo!"
+      },
+      {
+        "id": "pt_2_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A palavra 'Porto' nesta frase refere-se à cidade. Que tipo de nome é?",
+        "question": "A palavra 'Porto' nesta frase refere-se à cidade. Que tipo de nome é?",
+        "opcoes": [
+          "Nome Próprio",
+          "Nome Comum",
+          "Verbo"
+        ],
+        "options": [
+          "Nome Próprio",
+          "Nome Comum",
+          "Verbo"
+        ],
+        "resposta": "Nome Próprio",
+        "correctAnswer": "Nome Próprio",
+        "explicacao": "É o nome da cidade do Porto, logo é nome próprio.",
+        "explanation": "É o nome da cidade do Porto, logo é nome próprio."
+      },
+      {
+        "id": "pt_2_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'cadeira' é um nome próprio porque está na sala.",
+        "question": "A palavra 'cadeira' é um nome próprio porque está na sala.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! Cadeira é um objeto comum, logo é um nome comum.",
+        "explanation": "Falso! Cadeira é um objeto comum, logo é um nome comum."
+      },
+      {
+        "id": "pt_2_f2_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Encontra o nome próprio da lista:",
+        "question": "Encontra o nome próprio da lista:",
+        "opcoes": [
+          "Sofia",
+          "mesa",
+          "lápis"
+        ],
+        "options": [
+          "Sofia",
+          "mesa",
+          "lápis"
+        ],
+        "resposta": "Sofia",
+        "correctAnswer": "Sofia",
+        "explicacao": "Sofia é o nome de uma menina.",
+        "explanation": "Sofia é o nome de uma menina."
+      },
+      {
+        "id": "pt_2_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os nomes:",
+        "question": "Classifica os nomes:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Distinguiste perfeitamente nomes comuns e próprios.",
+        "explanation": "Muito bem! Distinguiste perfeitamente nomes comuns e próprios.",
+        "pairs": {
+          "Manuel": "Nome Próprio",
+          "caderno": "Nome Comum",
+          "Coimbra": "Nome Próprio",
+          "árvore": "Nome Comum"
+        },
+        "pares": {
+          "Manuel": "Nome Próprio",
+          "caderno": "Nome Comum",
+          "Coimbra": "Nome Próprio",
+          "árvore": "Nome Comum"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f3",
+    "numero": 3,
+    "titulo": "Género e Número dos Nomes",
+    "title": "Género e Número dos Nomes",
+    "descricao": "Masculino e Feminino, Singular e Plural nas palavras e frases.",
+    "description": "Masculino e Feminino, Singular e Plural nas palavras e frases.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "👫",
+    "imageEmoji": "👫",
+    "exercicios": [
+      {
+        "id": "pt_2_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o feminino da palavra 'menino'?",
+        "question": "Qual é o feminino da palavra 'menino'?",
+        "opcoes": [
+          "menina",
+          "homem",
+          "moço"
+        ],
+        "options": [
+          "menina",
+          "homem",
+          "moço"
+        ],
+        "resposta": "menina",
+        "correctAnswer": "menina",
+        "explicacao": "Menino está no masculino; menina está no feminino.",
+        "explanation": "Menino está no masculino; menina está no feminino."
+      },
+      {
+        "id": "pt_2_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O plural da palavra 'flor' é 'flores'.",
+        "question": "O plural da palavra 'flor' é 'flores'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! As palavras terminadas em 'r' fazem o plural acrescentando '-es'.",
+        "explanation": "Verdadeiro! As palavras terminadas em 'r' fazem o plural acrescentando '-es'."
+      },
+      {
+        "id": "pt_2_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O plural de 'cão' é ___",
+        "question": "O plural de 'cão' é ___",
+        "opcoes": [
+          "cães",
+          "cãos",
+          "cãozinhos"
+        ],
+        "options": [
+          "cães",
+          "cãos",
+          "cãozinhos"
+        ],
+        "resposta": "cães",
+        "correctAnswer": "cães",
+        "explicacao": "Cão no plural diz-se cães.",
+        "explanation": "Cão no plural diz-se cães."
+      },
+      {
+        "id": "pt_2_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras está no Plural?",
+        "question": "Qual destas palavras está no Plural?",
+        "opcoes": [
+          "📚 livros",
+          "✏️ lápis",
+          "🎒 mochila"
+        ],
+        "options": [
+          "📚 livros",
+          "✏️ lápis",
+          "🎒 mochila"
+        ],
+        "resposta": "📚 livros",
+        "correctAnswer": "📚 livros",
+        "explicacao": "'livros' refere-se a mais do que um livro! 📚",
+        "explanation": "'livros' refere-se a mais do que um livro! 📚"
+      },
+      {
+        "id": "pt_2_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o feminino de 'leão'?",
+        "question": "Qual é o feminino de 'leão'?",
+        "opcoes": [
+          "leoa",
+          "leoazinha",
+          "tigresa"
+        ],
+        "options": [
+          "leoa",
+          "leoazinha",
+          "tigresa"
+        ],
+        "resposta": "leoa",
+        "correctAnswer": "leoa",
+        "explicacao": "O feminino de leão é leoa!",
+        "explanation": "O feminino de leão é leoa!"
+      },
+      {
+        "id": "pt_2_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'maçãs' está no singular porque é apenas uma fruta.",
+        "question": "A palavra 'maçãs' está no singular porque é apenas uma fruta.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'maçãs' termina em 's' e indica várias maçãs (plural).",
+        "explanation": "Falso! 'maçãs' termina em 's' e indica várias maçãs (plural)."
+      },
+      {
+        "id": "pt_2_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o plural de 'jardim'?",
+        "question": "Qual é o plural de 'jardim'?",
+        "opcoes": [
+          "jardins",
+          "jardimes",
+          "jardis"
+        ],
+        "options": [
+          "jardins",
+          "jardimes",
+          "jardis"
+        ],
+        "resposta": "jardins",
+        "correctAnswer": "jardins",
+        "explicacao": "As palavras terminadas em 'm' mudam para 'ns' no plural.",
+        "explanation": "As palavras terminadas em 'm' mudam para 'ns' no plural."
+      },
+      {
+        "id": "pt_2_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o Singular ao seu Plural correto:",
+        "question": "Associa o Singular ao seu Plural correto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da formação do plural!",
+        "explanation": "Excelente domínio da formação do plural!",
+        "pairs": {
+          "farol": "faróis",
+          "pão": "pães",
+          "animal": "animais",
+          "papel": "papéis"
+        },
+        "pares": {
+          "farol": "faróis",
+          "pão": "pães",
+          "animal": "animais",
+          "papel": "papéis"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o feminino da palavra 'menino'?",
+        "question": "Qual é o feminino da palavra 'menino'?",
+        "opcoes": [
+          "menina",
+          "homem",
+          "moço"
+        ],
+        "options": [
+          "menina",
+          "homem",
+          "moço"
+        ],
+        "resposta": "menina",
+        "correctAnswer": "menina",
+        "explicacao": "Menino está no masculino; menina está no feminino.",
+        "explanation": "Menino está no masculino; menina está no feminino."
+      },
+      {
+        "id": "pt_2_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O plural da palavra 'flor' é 'flores'.",
+        "question": "O plural da palavra 'flor' é 'flores'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! As palavras terminadas em 'r' fazem o plural acrescentando '-es'.",
+        "explanation": "Verdadeiro! As palavras terminadas em 'r' fazem o plural acrescentando '-es'."
+      },
+      {
+        "id": "pt_2_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O plural de 'cão' é ___",
+        "question": "O plural de 'cão' é ___",
+        "opcoes": [
+          "cães",
+          "cãos",
+          "cãozinhos"
+        ],
+        "options": [
+          "cães",
+          "cãos",
+          "cãozinhos"
+        ],
+        "resposta": "cães",
+        "correctAnswer": "cães",
+        "explicacao": "Cão no plural diz-se cães.",
+        "explanation": "Cão no plural diz-se cães."
+      },
+      {
+        "id": "pt_2_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras está no Plural?",
+        "question": "Qual destas palavras está no Plural?",
+        "opcoes": [
+          "📚 livros",
+          "✏️ lápis",
+          "🎒 mochila"
+        ],
+        "options": [
+          "📚 livros",
+          "✏️ lápis",
+          "🎒 mochila"
+        ],
+        "resposta": "📚 livros",
+        "correctAnswer": "📚 livros",
+        "explicacao": "'livros' refere-se a mais do que um livro! 📚",
+        "explanation": "'livros' refere-se a mais do que um livro! 📚"
+      },
+      {
+        "id": "pt_2_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o feminino de 'leão'?",
+        "question": "Qual é o feminino de 'leão'?",
+        "opcoes": [
+          "leoa",
+          "leoazinha",
+          "tigresa"
+        ],
+        "options": [
+          "leoa",
+          "leoazinha",
+          "tigresa"
+        ],
+        "resposta": "leoa",
+        "correctAnswer": "leoa",
+        "explicacao": "O feminino de leão é leoa!",
+        "explanation": "O feminino de leão é leoa!"
+      },
+      {
+        "id": "pt_2_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'maçãs' está no singular porque é apenas uma fruta.",
+        "question": "A palavra 'maçãs' está no singular porque é apenas uma fruta.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'maçãs' termina em 's' e indica várias maçãs (plural).",
+        "explanation": "Falso! 'maçãs' termina em 's' e indica várias maçãs (plural)."
+      },
+      {
+        "id": "pt_2_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o plural de 'jardim'?",
+        "question": "Qual é o plural de 'jardim'?",
+        "opcoes": [
+          "jardins",
+          "jardimes",
+          "jardis"
+        ],
+        "options": [
+          "jardins",
+          "jardimes",
+          "jardis"
+        ],
+        "resposta": "jardins",
+        "correctAnswer": "jardins",
+        "explicacao": "As palavras terminadas em 'm' mudam para 'ns' no plural.",
+        "explanation": "As palavras terminadas em 'm' mudam para 'ns' no plural."
+      },
+      {
+        "id": "pt_2_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o Singular ao seu Plural correto:",
+        "question": "Associa o Singular ao seu Plural correto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da formação do plural!",
+        "explanation": "Excelente domínio da formação do plural!",
+        "pairs": {
+          "farol": "faróis",
+          "pão": "pães",
+          "animal": "animais",
+          "papel": "papéis"
+        },
+        "pares": {
+          "farol": "faróis",
+          "pão": "pães",
+          "animal": "animais",
+          "papel": "papéis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f4",
+    "numero": 4,
+    "titulo": "Separação Silábica e Número de Sílabas",
+    "title": "Separação Silábica e Número de Sílabas",
+    "descricao": "Monossílabos, dissílabos, trissílabos e polissílabos com palmas!",
+    "description": "Monossílabos, dissílabos, trissílabos e polissílabos com palmas!",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "👏",
+    "imageEmoji": "👏",
+    "exercicios": [
+      {
+        "id": "pt_2_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas sílabas tem a palavra 'BO-NE-CA'?",
+        "question": "Quantas sílabas tem a palavra 'BO-NE-CA'?",
+        "opcoes": [
+          "2 sílabas"
+        ],
+        "options": [
+          "2 sílabas"
+        ],
+        "resposta": "3 sílabas (Trissílabo)",
+        "correctAnswer": "3 sílabas (Trissílabo)",
+        "explicacao": "Batendo palmas: bo-ne-ca (3 palmas = trissílabo)!",
+        "explanation": "Batendo palmas: bo-ne-ca (3 palmas = trissílabo)!"
+      },
+      {
+        "id": "pt_2_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'sol' tem apenas 1 sílaba, por isso é um Monossílabo.",
+        "question": "A palavra 'sol' tem apenas 1 sílaba, por isso é um Monossílabo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Diz-se numa só emissão de voz.",
+        "explanation": "Verdadeiro! Diz-se numa só emissão de voz."
+      },
+      {
+        "id": "pt_2_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'borboleta' tem 4 sílabas (bor-bo-le-ta), logo é um ___",
+        "question": "A palavra 'borboleta' tem 4 sílabas (bor-bo-le-ta), logo é um ___",
+        "opcoes": [
+          "Polissílabo",
+          "Dissílabo",
+          "Monossílabo"
+        ],
+        "options": [
+          "Polissílabo",
+          "Dissílabo",
+          "Monossílabo"
+        ],
+        "resposta": "Polissílabo",
+        "correctAnswer": "Polissílabo",
+        "explicacao": "Palavras com 4 ou mais sílabas chamam-se polissílabos.",
+        "explanation": "Palavras com 4 ou mais sílabas chamam-se polissílabos."
+      },
+      {
+        "id": "pt_2_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é um Dissílabo (2 sílabas)?",
+        "question": "Qual destas palavras é um Dissílabo (2 sílabas)?",
+        "opcoes": [
+          "🐱 ga-to",
+          "☀️ sol",
+          "🍫 cho-co-la-te"
+        ],
+        "options": [
+          "🐱 ga-to",
+          "☀️ sol",
+          "🍫 cho-co-la-te"
+        ],
+        "resposta": "🐱 ga-to",
+        "correctAnswer": "🐱 ga-to",
+        "explicacao": "'Gato' divide-se em ga-to (2 sílabas = dissílabo).",
+        "explanation": "'Gato' divide-se em ga-to (2 sílabas = dissílabo)."
+      },
+      {
+        "id": "pt_2_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se separa corretamente a palavra 'passarinho' com 'ss'?",
+        "question": "Como se separa corretamente a palavra 'passarinho' com 'ss'?",
+        "opcoes": [
+          "pas-sa-ri-nho",
+          "pa-ssa-ri-nho",
+          "pass-ari-nho"
+        ],
+        "options": [
+          "pas-sa-ri-nho",
+          "pa-ssa-ri-nho",
+          "pass-ari-nho"
+        ],
+        "resposta": "pas-sa-ri-nho",
+        "correctAnswer": "pas-sa-ri-nho",
+        "explicacao": "Os dois 's' separam-se sempre: um fica numa sílaba e o outro na seguinte!",
+        "explanation": "Os dois 's' separam-se sempre: um fica numa sílaba e o outro na seguinte!"
+      },
+      {
+        "id": "pt_2_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na separação silábica, os dois 'rr' de 'carro' ficam na mesma sílaba (ca-rro).",
+        "question": "Na separação silábica, os dois 'rr' de 'carro' ficam na mesma sílaba (ca-rro).",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! O 'rr' separa-se sempre: car-ro.",
+        "explanation": "Falso! O 'rr' separa-se sempre: car-ro."
+      },
+      {
+        "id": "pt_2_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A palavra 'pé' é classificada como:",
+        "question": "A palavra 'pé' é classificada como:",
+        "opcoes": [
+          "Monossílabo",
+          "Trissílabo",
+          "Polissílabo"
+        ],
+        "options": [
+          "Monossílabo",
+          "Trissílabo",
+          "Polissílabo"
+        ],
+        "resposta": "Monossílabo",
+        "correctAnswer": "Monossílabo",
+        "explicacao": "Tem apenas uma sílaba.",
+        "explanation": "Tem apenas uma sílaba."
+      },
+      {
+        "id": "pt_2_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica quanto ao número de sílabas:",
+        "question": "Classifica quanto ao número de sílabas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita classificação silábica!",
+        "explanation": "Perfeita classificação silábica!",
+        "pairs": {
+          "pão": "Monossílabo (1)",
+          "casa": "Dissílabo (2)",
+          "música": "Trissílabo (3)",
+          "computador": "Polissílabo (4+)"
+        },
+        "pares": {
+          "pão": "Monossílabo (1)",
+          "casa": "Dissílabo (2)",
+          "música": "Trissílabo (3)",
+          "computador": "Polissílabo (4+)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas sílabas tem a palavra 'BO-NE-CA'?",
+        "question": "Quantas sílabas tem a palavra 'BO-NE-CA'?",
+        "opcoes": [
+          "2 sílabas"
+        ],
+        "options": [
+          "2 sílabas"
+        ],
+        "resposta": "3 sílabas (Trissílabo)",
+        "correctAnswer": "3 sílabas (Trissílabo)",
+        "explicacao": "Batendo palmas: bo-ne-ca (3 palmas = trissílabo)!",
+        "explanation": "Batendo palmas: bo-ne-ca (3 palmas = trissílabo)!"
+      },
+      {
+        "id": "pt_2_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'sol' tem apenas 1 sílaba, por isso é um Monossílabo.",
+        "question": "A palavra 'sol' tem apenas 1 sílaba, por isso é um Monossílabo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Diz-se numa só emissão de voz.",
+        "explanation": "Verdadeiro! Diz-se numa só emissão de voz."
+      },
+      {
+        "id": "pt_2_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'borboleta' tem 4 sílabas (bor-bo-le-ta), logo é um ___",
+        "question": "A palavra 'borboleta' tem 4 sílabas (bor-bo-le-ta), logo é um ___",
+        "opcoes": [
+          "Polissílabo",
+          "Dissílabo",
+          "Monossílabo"
+        ],
+        "options": [
+          "Polissílabo",
+          "Dissílabo",
+          "Monossílabo"
+        ],
+        "resposta": "Polissílabo",
+        "correctAnswer": "Polissílabo",
+        "explicacao": "Palavras com 4 ou mais sílabas chamam-se polissílabos.",
+        "explanation": "Palavras com 4 ou mais sílabas chamam-se polissílabos."
+      },
+      {
+        "id": "pt_2_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é um Dissílabo (2 sílabas)?",
+        "question": "Qual destas palavras é um Dissílabo (2 sílabas)?",
+        "opcoes": [
+          "🐱 ga-to",
+          "☀️ sol",
+          "🍫 cho-co-la-te"
+        ],
+        "options": [
+          "🐱 ga-to",
+          "☀️ sol",
+          "🍫 cho-co-la-te"
+        ],
+        "resposta": "🐱 ga-to",
+        "correctAnswer": "🐱 ga-to",
+        "explicacao": "'Gato' divide-se em ga-to (2 sílabas = dissílabo).",
+        "explanation": "'Gato' divide-se em ga-to (2 sílabas = dissílabo)."
+      },
+      {
+        "id": "pt_2_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se separa corretamente a palavra 'passarinho' com 'ss'?",
+        "question": "Como se separa corretamente a palavra 'passarinho' com 'ss'?",
+        "opcoes": [
+          "pas-sa-ri-nho",
+          "pa-ssa-ri-nho",
+          "pass-ari-nho"
+        ],
+        "options": [
+          "pas-sa-ri-nho",
+          "pa-ssa-ri-nho",
+          "pass-ari-nho"
+        ],
+        "resposta": "pas-sa-ri-nho",
+        "correctAnswer": "pas-sa-ri-nho",
+        "explicacao": "Os dois 's' separam-se sempre: um fica numa sílaba e o outro na seguinte!",
+        "explanation": "Os dois 's' separam-se sempre: um fica numa sílaba e o outro na seguinte!"
+      },
+      {
+        "id": "pt_2_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na separação silábica, os dois 'rr' de 'carro' ficam na mesma sílaba (ca-rro).",
+        "question": "Na separação silábica, os dois 'rr' de 'carro' ficam na mesma sílaba (ca-rro).",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! O 'rr' separa-se sempre: car-ro.",
+        "explanation": "Falso! O 'rr' separa-se sempre: car-ro."
+      },
+      {
+        "id": "pt_2_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A palavra 'pé' é classificada como:",
+        "question": "A palavra 'pé' é classificada como:",
+        "opcoes": [
+          "Monossílabo",
+          "Trissílabo",
+          "Polissílabo"
+        ],
+        "options": [
+          "Monossílabo",
+          "Trissílabo",
+          "Polissílabo"
+        ],
+        "resposta": "Monossílabo",
+        "correctAnswer": "Monossílabo",
+        "explicacao": "Tem apenas uma sílaba.",
+        "explanation": "Tem apenas uma sílaba."
+      },
+      {
+        "id": "pt_2_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica quanto ao número de sílabas:",
+        "question": "Classifica quanto ao número de sílabas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita classificação silábica!",
+        "explanation": "Perfeita classificação silábica!",
+        "pairs": {
+          "pão": "Monossílabo (1)",
+          "casa": "Dissílabo (2)",
+          "música": "Trissílabo (3)",
+          "computador": "Polissílabo (4+)"
+        },
+        "pares": {
+          "pão": "Monossílabo (1)",
+          "casa": "Dissílabo (2)",
+          "música": "Trissílabo (3)",
+          "computador": "Polissílabo (4+)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f5",
+    "numero": 5,
+    "titulo": "Tipos de Frase e Pontuação",
+    "title": "Tipos de Frase e Pontuação",
+    "descricao": "Frase declarativa, interrogativa, exclamativa e os sinais de pontuação.",
+    "description": "Frase declarativa, interrogativa, exclamativa e os sinais de pontuação.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "❓",
+    "imageEmoji": "❓",
+    "exercicios": [
+      {
+        "id": "pt_2_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que sinal de pontuação usamos no final de uma pergunta?",
+        "question": "Que sinal de pontuação usamos no final de uma pergunta?",
+        "resposta": "Ponto de interrogação (?)",
+        "correctAnswer": "Ponto de interrogação (?)",
+        "explicacao": "O ponto de interrogação (?) usa-se em perguntas!",
+        "explanation": "O ponto de interrogação (?) usa-se em perguntas!"
+      },
+      {
+        "id": "pt_2_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'Que lindo dia de sol!' é uma frase exclamativa.",
+        "question": "A frase 'Que lindo dia de sol!' é uma frase exclamativa.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Exprime admiração e termina com ponto de exclamação (!).",
+        "explanation": "Verdadeiro! Exprime admiração e termina com ponto de exclamação (!)."
+      },
+      {
+        "id": "pt_2_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A frase 'Eu gosto de ler livros.' termina com um ponto ___",
+        "question": "A frase 'Eu gosto de ler livros.' termina com um ponto ___",
+        "opcoes": [
+          "final",
+          "de interrogação",
+          "vírgula"
+        ],
+        "options": [
+          "final",
+          "de interrogação",
+          "vírgula"
+        ],
+        "resposta": "final",
+        "correctAnswer": "final",
+        "explicacao": "É uma frase declarativa afirmativa, termina com ponto final (.).",
+        "explanation": "É uma frase declarativa afirmativa, termina com ponto final (.)."
+      },
+      {
+        "id": "pt_2_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases é uma frase interrogativa?",
+        "question": "Qual destas frases é uma frase interrogativa?",
+        "opcoes": [
+          "❓ Onde está a minha bola?",
+          "⚽ Eu jogo futebol.",
+          "🎉 Que golo fantástico!"
+        ],
+        "options": [
+          "❓ Onde está a minha bola?",
+          "⚽ Eu jogo futebol.",
+          "🎉 Que golo fantástico!"
+        ],
+        "resposta": "❓ Onde está a minha bola?",
+        "correctAnswer": "❓ Onde está a minha bola?",
+        "explicacao": "Faz uma pergunta direta usando o ponto de interrogação ❓",
+        "explanation": "Faz uma pergunta direta usando o ponto de interrogação ❓"
+      },
+      {
+        "id": "pt_2_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Para que serve a vírgula (,) numa frase?",
+        "question": "Para que serve a vírgula (,) numa frase?",
+        "opcoes": [
+          "Fazer uma pequena pausa ou separar itens",
+          "Terminar a história",
+          "Gritar bem alto"
+        ],
+        "options": [
+          "Fazer uma pequena pausa ou separar itens",
+          "Terminar a história",
+          "Gritar bem alto"
+        ],
+        "resposta": "Fazer uma pequena pausa ou separar itens",
+        "correctAnswer": "Fazer uma pequena pausa ou separar itens",
+        "explicacao": "A vírgula indica uma pausa breve na leitura e separa elementos de uma lista.",
+        "explanation": "A vírgula indica uma pausa breve na leitura e separa elementos de uma lista."
+      },
+      {
+        "id": "pt_2_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Uma frase começa sempre com letra maiúscula.",
+        "question": "Uma frase começa sempre com letra maiúscula.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A primeira letra de qualquer frase é sempre maiúscula.",
+        "explanation": "Verdadeiro! A primeira letra de qualquer frase é sempre maiúscula."
+      },
+      {
+        "id": "pt_2_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que sinal usamos quando uma personagem vai começar a falar num diálogo?",
+        "question": "Que sinal usamos quando uma personagem vai começar a falar num diálogo?",
+        "resposta": "Travessão (-)",
+        "correctAnswer": "Travessão (-)",
+        "explicacao": "O travessão (-) introduz a fala de uma personagem!",
+        "explanation": "O travessão (-) introduz a fala de uma personagem!"
+      },
+      {
+        "id": "pt_2_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a frase ao seu tipo:",
+        "question": "Associa a frase ao seu tipo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Identificaste todos os tipos de frases.",
+        "explanation": "Muito bem! Identificaste todos os tipos de frases.",
+        "pairs": {
+          "Como te chamas?": "Frase Interrogativa",
+          "Hoje comi sopa.": "Frase Declarativa",
+          "Cuidado com o cão!": "Frase Exclamativa",
+          "Não quero sair.": "Frase Negativa"
+        },
+        "pares": {
+          "Como te chamas?": "Frase Interrogativa",
+          "Hoje comi sopa.": "Frase Declarativa",
+          "Cuidado com o cão!": "Frase Exclamativa",
+          "Não quero sair.": "Frase Negativa"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que sinal de pontuação usamos no final de uma pergunta?",
+        "question": "Que sinal de pontuação usamos no final de uma pergunta?",
+        "resposta": "Ponto de interrogação (?)",
+        "correctAnswer": "Ponto de interrogação (?)",
+        "explicacao": "O ponto de interrogação (?) usa-se em perguntas!",
+        "explanation": "O ponto de interrogação (?) usa-se em perguntas!"
+      },
+      {
+        "id": "pt_2_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'Que lindo dia de sol!' é uma frase exclamativa.",
+        "question": "A frase 'Que lindo dia de sol!' é uma frase exclamativa.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Exprime admiração e termina com ponto de exclamação (!).",
+        "explanation": "Verdadeiro! Exprime admiração e termina com ponto de exclamação (!)."
+      },
+      {
+        "id": "pt_2_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A frase 'Eu gosto de ler livros.' termina com um ponto ___",
+        "question": "A frase 'Eu gosto de ler livros.' termina com um ponto ___",
+        "opcoes": [
+          "final",
+          "de interrogação",
+          "vírgula"
+        ],
+        "options": [
+          "final",
+          "de interrogação",
+          "vírgula"
+        ],
+        "resposta": "final",
+        "correctAnswer": "final",
+        "explicacao": "É uma frase declarativa afirmativa, termina com ponto final (.).",
+        "explanation": "É uma frase declarativa afirmativa, termina com ponto final (.)."
+      },
+      {
+        "id": "pt_2_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases é uma frase interrogativa?",
+        "question": "Qual destas frases é uma frase interrogativa?",
+        "opcoes": [
+          "❓ Onde está a minha bola?",
+          "⚽ Eu jogo futebol.",
+          "🎉 Que golo fantástico!"
+        ],
+        "options": [
+          "❓ Onde está a minha bola?",
+          "⚽ Eu jogo futebol.",
+          "🎉 Que golo fantástico!"
+        ],
+        "resposta": "❓ Onde está a minha bola?",
+        "correctAnswer": "❓ Onde está a minha bola?",
+        "explicacao": "Faz uma pergunta direta usando o ponto de interrogação ❓",
+        "explanation": "Faz uma pergunta direta usando o ponto de interrogação ❓"
+      },
+      {
+        "id": "pt_2_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Para que serve a vírgula (,) numa frase?",
+        "question": "Para que serve a vírgula (,) numa frase?",
+        "opcoes": [
+          "Fazer uma pequena pausa ou separar itens",
+          "Terminar a história",
+          "Gritar bem alto"
+        ],
+        "options": [
+          "Fazer uma pequena pausa ou separar itens",
+          "Terminar a história",
+          "Gritar bem alto"
+        ],
+        "resposta": "Fazer uma pequena pausa ou separar itens",
+        "correctAnswer": "Fazer uma pequena pausa ou separar itens",
+        "explicacao": "A vírgula indica uma pausa breve na leitura e separa elementos de uma lista.",
+        "explanation": "A vírgula indica uma pausa breve na leitura e separa elementos de uma lista."
+      },
+      {
+        "id": "pt_2_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Uma frase começa sempre com letra maiúscula.",
+        "question": "Uma frase começa sempre com letra maiúscula.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A primeira letra de qualquer frase é sempre maiúscula.",
+        "explanation": "Verdadeiro! A primeira letra de qualquer frase é sempre maiúscula."
+      },
+      {
+        "id": "pt_2_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que sinal usamos quando uma personagem vai começar a falar num diálogo?",
+        "question": "Que sinal usamos quando uma personagem vai começar a falar num diálogo?",
+        "resposta": "Travessão (-)",
+        "correctAnswer": "Travessão (-)",
+        "explicacao": "O travessão (-) introduz a fala de uma personagem!",
+        "explanation": "O travessão (-) introduz a fala de uma personagem!"
+      },
+      {
+        "id": "pt_2_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a frase ao seu tipo:",
+        "question": "Associa a frase ao seu tipo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Identificaste todos os tipos de frases.",
+        "explanation": "Muito bem! Identificaste todos os tipos de frases.",
+        "pairs": {
+          "Como te chamas?": "Frase Interrogativa",
+          "Hoje comi sopa.": "Frase Declarativa",
+          "Cuidado com o cão!": "Frase Exclamativa",
+          "Não quero sair.": "Frase Negativa"
+        },
+        "pares": {
+          "Como te chamas?": "Frase Interrogativa",
+          "Hoje comi sopa.": "Frase Declarativa",
+          "Cuidado com o cão!": "Frase Exclamativa",
+          "Não quero sair.": "Frase Negativa"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f6",
+    "numero": 6,
+    "titulo": "Famílias de Palavras",
+    "title": "Famílias de Palavras",
+    "descricao": "Descobre como as palavras 'filhas' nascem a partir de uma palavra primitiva.",
+    "description": "Descobre como as palavras 'filhas' nascem a partir de uma palavra primitiva.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🌳",
+    "imageEmoji": "🌳",
+    "exercicios": [
+      {
+        "id": "pt_2_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras NÃO pertence à família de 'mar'?",
+        "question": "Qual destas palavras NÃO pertence à família de 'mar'?",
+        "opcoes": [
+          "marujo",
+          "marisco",
+          "martelo"
+        ],
+        "options": [
+          "marujo",
+          "marisco",
+          "martelo"
+        ],
+        "resposta": "martelo",
+        "correctAnswer": "martelo",
+        "explicacao": "Martelo vem de ferramenta; marujo e marisco vêm da palavra 'mar'!",
+        "explanation": "Martelo vem de ferramenta; marujo e marisco vêm da palavra 'mar'!"
+      },
+      {
+        "id": "pt_2_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As palavras 'florista', 'floreira' e 'florecer' pertencem à família da palavra 'flor'.",
+        "question": "As palavras 'florista', 'floreira' e 'florecer' pertencem à família da palavra 'flor'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Partilham o mesmo radical 'flor-'.",
+        "explanation": "Verdadeiro! Partilham o mesmo radical 'flor-'."
+      },
+      {
+        "id": "pt_2_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A pessoa que faz pão na padaria chama-se ___ (família de pão).",
+        "question": "A pessoa que faz pão na padaria chama-se ___ (família de pão).",
+        "opcoes": [
+          "padeiro",
+          "pescador",
+          "pastor"
+        ],
+        "options": [
+          "padeiro",
+          "pescador",
+          "pastor"
+        ],
+        "resposta": "padeiro",
+        "correctAnswer": "padeiro",
+        "explicacao": "Pão -> padaria -> padeiro pertencem à mesma família!",
+        "explanation": "Pão -> padaria -> padeiro pertencem à mesma família!"
+      },
+      {
+        "id": "pt_2_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas opções é da família de 'dente'?",
+        "question": "Qual destas opções é da família de 'dente'?",
+        "opcoes": [
+          "🦷 Dentista",
+          "👣 Sapato",
+          "🧤 Luva"
+        ],
+        "options": [
+          "🦷 Dentista",
+          "👣 Sapato",
+          "🧤 Luva"
+        ],
+        "resposta": "🦷 Dentista",
+        "correctAnswer": "🦷 Dentista",
+        "explicacao": "Dentista, dentição e dentífrico vêm da palavra dente! 🦷",
+        "explanation": "Dentista, dentição e dentífrico vêm da palavra dente! 🦷"
+      },
+      {
+        "id": "pt_2_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a palavra primitiva da família: 'sapateiro, sapataria, sapatilha'?",
+        "question": "Qual é a palavra primitiva da família: 'sapateiro, sapataria, sapatilha'?",
+        "opcoes": [
+          "sapato",
+          "salto",
+          "sopa"
+        ],
+        "options": [
+          "sapato",
+          "salto",
+          "sopa"
+        ],
+        "resposta": "sapato",
+        "correctAnswer": "sapato",
+        "explicacao": "'Sapato' é a palavra mãe (primitiva) que deu origem às outras.",
+        "explanation": "'Sapato' é a palavra mãe (primitiva) que deu origem às outras."
+      },
+      {
+        "id": "pt_2_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'leiteiro' pertence à família da palavra 'livro'.",
+        "question": "A palavra 'leiteiro' pertence à família da palavra 'livro'.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Leiteiro' pertence à família de 'leite'.",
+        "explanation": "Falso! 'Leiteiro' pertence à família de 'leite'."
+      },
+      {
+        "id": "pt_2_f6_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Completa a família de 'pedra': pedra, pedreira, ___",
+        "question": "Completa a família de 'pedra': pedra, pedreira, ___",
+        "opcoes": [
+          "pedregulho",
+          "madeira",
+          "areia"
+        ],
+        "options": [
+          "pedregulho",
+          "madeira",
+          "areia"
+        ],
+        "resposta": "pedregulho",
+        "correctAnswer": "pedregulho",
+        "explicacao": "Pedregulho é uma pedra grande!",
+        "explanation": "Pedregulho é uma pedra grande!"
+      },
+      {
+        "id": "pt_2_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga a palavra à sua família correta:",
+        "question": "Liga a palavra à sua família correta:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente associação das famílias de palavras!",
+        "explanation": "Excelente associação das famílias de palavras!",
+        "pairs": {
+          "livraria": "livro",
+          "peixeiro": "peixe",
+          "solar": "sol",
+          "geladeira": "gelo"
+        },
+        "pares": {
+          "livraria": "livro",
+          "peixeiro": "peixe",
+          "solar": "sol",
+          "geladeira": "gelo"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras NÃO pertence à família de 'mar'?",
+        "question": "Qual destas palavras NÃO pertence à família de 'mar'?",
+        "opcoes": [
+          "marujo",
+          "marisco",
+          "martelo"
+        ],
+        "options": [
+          "marujo",
+          "marisco",
+          "martelo"
+        ],
+        "resposta": "martelo",
+        "correctAnswer": "martelo",
+        "explicacao": "Martelo vem de ferramenta; marujo e marisco vêm da palavra 'mar'!",
+        "explanation": "Martelo vem de ferramenta; marujo e marisco vêm da palavra 'mar'!"
+      },
+      {
+        "id": "pt_2_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As palavras 'florista', 'floreira' e 'florecer' pertencem à família da palavra 'flor'.",
+        "question": "As palavras 'florista', 'floreira' e 'florecer' pertencem à família da palavra 'flor'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Partilham o mesmo radical 'flor-'.",
+        "explanation": "Verdadeiro! Partilham o mesmo radical 'flor-'."
+      },
+      {
+        "id": "pt_2_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A pessoa que faz pão na padaria chama-se ___ (família de pão).",
+        "question": "A pessoa que faz pão na padaria chama-se ___ (família de pão).",
+        "opcoes": [
+          "padeiro",
+          "pescador",
+          "pastor"
+        ],
+        "options": [
+          "padeiro",
+          "pescador",
+          "pastor"
+        ],
+        "resposta": "padeiro",
+        "correctAnswer": "padeiro",
+        "explicacao": "Pão -> padaria -> padeiro pertencem à mesma família!",
+        "explanation": "Pão -> padaria -> padeiro pertencem à mesma família!"
+      },
+      {
+        "id": "pt_2_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas opções é da família de 'dente'?",
+        "question": "Qual destas opções é da família de 'dente'?",
+        "opcoes": [
+          "🦷 Dentista",
+          "👣 Sapato",
+          "🧤 Luva"
+        ],
+        "options": [
+          "🦷 Dentista",
+          "👣 Sapato",
+          "🧤 Luva"
+        ],
+        "resposta": "🦷 Dentista",
+        "correctAnswer": "🦷 Dentista",
+        "explicacao": "Dentista, dentição e dentífrico vêm da palavra dente! 🦷",
+        "explanation": "Dentista, dentição e dentífrico vêm da palavra dente! 🦷"
+      },
+      {
+        "id": "pt_2_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a palavra primitiva da família: 'sapateiro, sapataria, sapatilha'?",
+        "question": "Qual é a palavra primitiva da família: 'sapateiro, sapataria, sapatilha'?",
+        "opcoes": [
+          "sapato",
+          "salto",
+          "sopa"
+        ],
+        "options": [
+          "sapato",
+          "salto",
+          "sopa"
+        ],
+        "resposta": "sapato",
+        "correctAnswer": "sapato",
+        "explicacao": "'Sapato' é a palavra mãe (primitiva) que deu origem às outras.",
+        "explanation": "'Sapato' é a palavra mãe (primitiva) que deu origem às outras."
+      },
+      {
+        "id": "pt_2_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'leiteiro' pertence à família da palavra 'livro'.",
+        "question": "A palavra 'leiteiro' pertence à família da palavra 'livro'.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Leiteiro' pertence à família de 'leite'.",
+        "explanation": "Falso! 'Leiteiro' pertence à família de 'leite'."
+      },
+      {
+        "id": "pt_2_f6_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Completa a família de 'pedra': pedra, pedreira, ___",
+        "question": "Completa a família de 'pedra': pedra, pedreira, ___",
+        "opcoes": [
+          "pedregulho",
+          "madeira",
+          "areia"
+        ],
+        "options": [
+          "pedregulho",
+          "madeira",
+          "areia"
+        ],
+        "resposta": "pedregulho",
+        "correctAnswer": "pedregulho",
+        "explicacao": "Pedregulho é uma pedra grande!",
+        "explanation": "Pedregulho é uma pedra grande!"
+      },
+      {
+        "id": "pt_2_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga a palavra à sua família correta:",
+        "question": "Liga a palavra à sua família correta:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente associação das famílias de palavras!",
+        "explanation": "Excelente associação das famílias de palavras!",
+        "pairs": {
+          "livraria": "livro",
+          "peixeiro": "peixe",
+          "solar": "sol",
+          "geladeira": "gelo"
+        },
+        "pares": {
+          "livraria": "livro",
+          "peixeiro": "peixe",
+          "solar": "sol",
+          "geladeira": "gelo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f7",
+    "numero": 7,
+    "titulo": "Verbos e Tempos Verbais",
+    "title": "Verbos e Tempos Verbais",
+    "descricao": "Identifica verbos de ação e descobre o Presente (hoje), Passado (ontem) e Futuro (amanhã).",
+    "description": "Identifica verbos de ação e descobre o Presente (hoje), Passado (ontem) e Futuro (amanhã).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🏃",
+    "imageEmoji": "🏃",
+    "exercicios": [
+      {
+        "id": "pt_2_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras indica uma AÇÃO (é um verbo)?",
+        "question": "Qual destas palavras indica uma AÇÃO (é um verbo)?",
+        "opcoes": [
+          "correr",
+          "caneta",
+          "amarelo"
+        ],
+        "options": [
+          "correr",
+          "caneta",
+          "amarelo"
+        ],
+        "resposta": "correr",
+        "correctAnswer": "correr",
+        "explicacao": "Correr é uma ação que podemos praticar, logo é um verbo!",
+        "explanation": "Correr é uma ação que podemos praticar, logo é um verbo!"
+      },
+      {
+        "id": "pt_2_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Ontem eu brinquei no parque', o verbo está no tempo Passado.",
+        "question": "Na frase 'Ontem eu brinquei no parque', o verbo está no tempo Passado.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Brinquei' refere-se a uma ação que já aconteceu.",
+        "explanation": "Verdadeiro! 'Brinquei' refere-se a uma ação que já aconteceu."
+      },
+      {
+        "id": "pt_2_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa no Presente: Hoje o Zé ___ uma história divertida.",
+        "question": "Completa no Presente: Hoje o Zé ___ uma história divertida.",
+        "opcoes": [
+          "lê",
+          "leu",
+          "lerá"
+        ],
+        "options": [
+          "lê",
+          "leu",
+          "lerá"
+        ],
+        "resposta": "lê",
+        "correctAnswer": "lê",
+        "explicacao": "'Hoje o Zé lê' expressa uma ação que acontece agora (presente).",
+        "explanation": "'Hoje o Zé lê' expressa uma ação que acontece agora (presente)."
+      },
+      {
+        "id": "pt_2_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Em que tempo verbal está a frase: 'Amanhã nós iremos ao zoológico 🦁'?",
+        "question": "Em que tempo verbal está a frase: 'Amanhã nós iremos ao zoológico 🦁'?",
+        "opcoes": [
+          "🔮 Futuro",
+          "⏪ Passado",
+          "⏰ Presente"
+        ],
+        "options": [
+          "🔮 Futuro",
+          "⏪ Passado",
+          "⏰ Presente"
+        ],
+        "resposta": "🔮 Futuro",
+        "correctAnswer": "🔮 Futuro",
+        "explicacao": "'Iremos' acontecerá amanhã, logo está no tempo Futuro! 🔮",
+        "explanation": "'Iremos' acontecerá amanhã, logo está no tempo Futuro! 🔮"
+      },
+      {
+        "id": "pt_2_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o verbo na frase 'Os pássaros cantam no jardim'?",
+        "question": "Qual é o verbo na frase 'Os pássaros cantam no jardim'?",
+        "opcoes": [
+          "cantam",
+          "pássaros",
+          "jardim"
+        ],
+        "options": [
+          "cantam",
+          "pássaros",
+          "jardim"
+        ],
+        "resposta": "cantam",
+        "correctAnswer": "cantam",
+        "explicacao": "'Cantam' é a ação realizada pelos pássaros.",
+        "explanation": "'Cantam' é a ação realizada pelos pássaros."
+      },
+      {
+        "id": "pt_2_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'mesa' é um verbo porque tem 4 pernas.",
+        "question": "A palavra 'mesa' é um verbo porque tem 4 pernas.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Mesa' é um nome comum de objeto, não é uma ação.",
+        "explanation": "Falso! 'Mesa' é um nome comum de objeto, não é uma ação."
+      },
+      {
+        "id": "pt_2_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como fica o verbo 'comer' no passado para 'Eu': 'Ontem eu ___ uma maçã'?",
+        "question": "Como fica o verbo 'comer' no passado para 'Eu': 'Ontem eu ___ uma maçã'?",
+        "opcoes": [
+          "comi",
+          "como",
+          "comerei"
+        ],
+        "options": [
+          "comi",
+          "como",
+          "comerei"
+        ],
+        "resposta": "comi",
+        "correctAnswer": "comi",
+        "explicacao": "Ontem eu comi!",
+        "explanation": "Ontem eu comi!"
+      },
+      {
+        "id": "pt_2_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a frase ao seu tempo verbal:",
+        "question": "Associa a frase ao seu tempo verbal:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente identificação dos tempos verbais!",
+        "explanation": "Excelente identificação dos tempos verbais!",
+        "pairs": {
+          "Hoje eu estudo.": "Presente (Hoje)",
+          "Ontem eu nadei.": "Passado (Ontem)",
+          "Amanhã eu viajarei.": "Futuro (Amanhã)",
+          "Agora nós cantamos.": "Presente (Hoje)"
+        },
+        "pares": {
+          "Hoje eu estudo.": "Presente (Hoje)",
+          "Ontem eu nadei.": "Passado (Ontem)",
+          "Amanhã eu viajarei.": "Futuro (Amanhã)",
+          "Agora nós cantamos.": "Presente (Hoje)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras indica uma AÇÃO (é um verbo)?",
+        "question": "Qual destas palavras indica uma AÇÃO (é um verbo)?",
+        "opcoes": [
+          "correr",
+          "caneta",
+          "amarelo"
+        ],
+        "options": [
+          "correr",
+          "caneta",
+          "amarelo"
+        ],
+        "resposta": "correr",
+        "correctAnswer": "correr",
+        "explicacao": "Correr é uma ação que podemos praticar, logo é um verbo!",
+        "explanation": "Correr é uma ação que podemos praticar, logo é um verbo!"
+      },
+      {
+        "id": "pt_2_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Ontem eu brinquei no parque', o verbo está no tempo Passado.",
+        "question": "Na frase 'Ontem eu brinquei no parque', o verbo está no tempo Passado.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Brinquei' refere-se a uma ação que já aconteceu.",
+        "explanation": "Verdadeiro! 'Brinquei' refere-se a uma ação que já aconteceu."
+      },
+      {
+        "id": "pt_2_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa no Presente: Hoje o Zé ___ uma história divertida.",
+        "question": "Completa no Presente: Hoje o Zé ___ uma história divertida.",
+        "opcoes": [
+          "lê",
+          "leu",
+          "lerá"
+        ],
+        "options": [
+          "lê",
+          "leu",
+          "lerá"
+        ],
+        "resposta": "lê",
+        "correctAnswer": "lê",
+        "explicacao": "'Hoje o Zé lê' expressa uma ação que acontece agora (presente).",
+        "explanation": "'Hoje o Zé lê' expressa uma ação que acontece agora (presente)."
+      },
+      {
+        "id": "pt_2_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Em que tempo verbal está a frase: 'Amanhã nós iremos ao zoológico 🦁'?",
+        "question": "Em que tempo verbal está a frase: 'Amanhã nós iremos ao zoológico 🦁'?",
+        "opcoes": [
+          "🔮 Futuro",
+          "⏪ Passado",
+          "⏰ Presente"
+        ],
+        "options": [
+          "🔮 Futuro",
+          "⏪ Passado",
+          "⏰ Presente"
+        ],
+        "resposta": "🔮 Futuro",
+        "correctAnswer": "🔮 Futuro",
+        "explicacao": "'Iremos' acontecerá amanhã, logo está no tempo Futuro! 🔮",
+        "explanation": "'Iremos' acontecerá amanhã, logo está no tempo Futuro! 🔮"
+      },
+      {
+        "id": "pt_2_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o verbo na frase 'Os pássaros cantam no jardim'?",
+        "question": "Qual é o verbo na frase 'Os pássaros cantam no jardim'?",
+        "opcoes": [
+          "cantam",
+          "pássaros",
+          "jardim"
+        ],
+        "options": [
+          "cantam",
+          "pássaros",
+          "jardim"
+        ],
+        "resposta": "cantam",
+        "correctAnswer": "cantam",
+        "explicacao": "'Cantam' é a ação realizada pelos pássaros.",
+        "explanation": "'Cantam' é a ação realizada pelos pássaros."
+      },
+      {
+        "id": "pt_2_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'mesa' é um verbo porque tem 4 pernas.",
+        "question": "A palavra 'mesa' é um verbo porque tem 4 pernas.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Mesa' é um nome comum de objeto, não é uma ação.",
+        "explanation": "Falso! 'Mesa' é um nome comum de objeto, não é uma ação."
+      },
+      {
+        "id": "pt_2_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como fica o verbo 'comer' no passado para 'Eu': 'Ontem eu ___ uma maçã'?",
+        "question": "Como fica o verbo 'comer' no passado para 'Eu': 'Ontem eu ___ uma maçã'?",
+        "opcoes": [
+          "comi",
+          "como",
+          "comerei"
+        ],
+        "options": [
+          "comi",
+          "como",
+          "comerei"
+        ],
+        "resposta": "comi",
+        "correctAnswer": "comi",
+        "explicacao": "Ontem eu comi!",
+        "explanation": "Ontem eu comi!"
+      },
+      {
+        "id": "pt_2_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a frase ao seu tempo verbal:",
+        "question": "Associa a frase ao seu tempo verbal:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente identificação dos tempos verbais!",
+        "explanation": "Excelente identificação dos tempos verbais!",
+        "pairs": {
+          "Hoje eu estudo.": "Presente (Hoje)",
+          "Ontem eu nadei.": "Passado (Ontem)",
+          "Amanhã eu viajarei.": "Futuro (Amanhã)",
+          "Agora nós cantamos.": "Presente (Hoje)"
+        },
+        "pares": {
+          "Hoje eu estudo.": "Presente (Hoje)",
+          "Ontem eu nadei.": "Passado (Ontem)",
+          "Amanhã eu viajarei.": "Futuro (Amanhã)",
+          "Agora nós cantamos.": "Presente (Hoje)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f8",
+    "numero": 8,
+    "titulo": "Adjetivos Qualificativos",
+    "title": "Adjetivos Qualificativos",
+    "descricao": "Descobre palavras que atribuem qualidades e características aos nomes.",
+    "description": "Descobre palavras que atribuem qualidades e características aos nomes.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "✨",
+    "imageEmoji": "✨",
+    "exercicios": [
+      {
+        "id": "pt_2_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O cãozinho é muito brincalhão', qual é o adjetivo?",
+        "question": "Na frase 'O cãozinho é muito brincalhão', qual é o adjetivo?",
+        "opcoes": [
+          "brincalhão",
+          "cãozinho",
+          "muito"
+        ],
+        "options": [
+          "brincalhão",
+          "cãozinho",
+          "muito"
+        ],
+        "resposta": "brincalhão",
+        "correctAnswer": "brincalhão",
+        "explicacao": "'Brincalhão' dá uma característica ao cãozinho, logo é um adjetivo!",
+        "explanation": "'Brincalhão' dá uma característica ao cãozinho, logo é um adjetivo!"
+      },
+      {
+        "id": "pt_2_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os adjetivos concordam em género e número com o nome (ex: menino alto / meninas altas).",
+        "question": "Os adjetivos concordam em género e número com o nome (ex: menino alto / meninas altas).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Se o nome for feminino e plural, o adjetivo também fica no feminino e plural.",
+        "explanation": "Verdadeiro! Se o nome for feminino e plural, o adjetivo também fica no feminino e plural."
+      },
+      {
+        "id": "pt_2_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A maçã vermelha é doce e ___ (adjetivo).",
+        "question": "A maçã vermelha é doce e ___ (adjetivo).",
+        "opcoes": [
+          "saborosa",
+          "comer",
+          "árvore"
+        ],
+        "options": [
+          "saborosa",
+          "comer",
+          "árvore"
+        ],
+        "resposta": "saborosa",
+        "correctAnswer": "saborosa",
+        "explicacao": "'Saborosa' é um adjetivo que qualifica a maçã.",
+        "explanation": "'Saborosa' é um adjetivo que qualifica a maçã."
+      },
+      {
+        "id": "pt_2_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras descreve uma característica da tartaruga 🐢?",
+        "question": "Qual destas palavras descreve uma característica da tartaruga 🐢?",
+        "opcoes": [
+          "🐢 Lenta",
+          "🐢 Correr",
+          "🐢 Casco"
+        ],
+        "options": [
+          "🐢 Lenta",
+          "🐢 Correr",
+          "🐢 Casco"
+        ],
+        "resposta": "🐢 Lenta",
+        "correctAnswer": "🐢 Lenta",
+        "explicacao": "'Lenta' é o adjetivo que caracteriza a velocidade da tartaruga!",
+        "explanation": "'Lenta' é o adjetivo que caracteriza a velocidade da tartaruga!"
+      },
+      {
+        "id": "pt_2_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o adjetivo na frase 'A camisola azul está limpa'?",
+        "question": "Qual é o adjetivo na frase 'A camisola azul está limpa'?",
+        "opcoes": [
+          "azul e limpa",
+          "camisola",
+          "está"
+        ],
+        "options": [
+          "azul e limpa",
+          "camisola",
+          "está"
+        ],
+        "resposta": "azul e limpa",
+        "correctAnswer": "azul e limpa",
+        "explicacao": "Tanto 'azul' (cor) como 'limpa' (estado) são adjetivos!",
+        "explanation": "Tanto 'azul' (cor) como 'limpa' (estado) são adjetivos!"
+      },
+      {
+        "id": "pt_2_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'correr' é um adjetivo bonito.",
+        "question": "A palavra 'correr' é um adjetivo bonito.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Correr' é um verbo (ação), não um adjetivo.",
+        "explanation": "Falso! 'Correr' é um verbo (ação), não um adjetivo."
+      },
+      {
+        "id": "pt_2_f8_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Escolhe o adjetivo que melhor qualifica a palavra 'palhaço':",
+        "question": "Escolhe o adjetivo que melhor qualifica a palavra 'palhaço':",
+        "opcoes": [
+          "engraçado",
+          "circo",
+          "sapato"
+        ],
+        "options": [
+          "engraçado",
+          "circo",
+          "sapato"
+        ],
+        "resposta": "engraçado",
+        "correctAnswer": "engraçado",
+        "explicacao": "'Engraçado' é uma qualidade divertida do palhaço!",
+        "explanation": "'Engraçado' é uma qualidade divertida do palhaço!"
+      },
+      {
+        "id": "pt_2_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o nome ao seu adjetivo correspondente:",
+        "question": "Associa o nome ao seu adjetivo correspondente:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Atribuíste os adjetivos com grande precisão.",
+        "explanation": "Muito bem! Atribuíste os adjetivos com grande precisão.",
+        "pairs": {
+          "noite": "estrelada",
+          "sorvete": "gelado",
+          "leão": "feroz",
+          "sol": "brilhante"
+        },
+        "pares": {
+          "noite": "estrelada",
+          "sorvete": "gelado",
+          "leão": "feroz",
+          "sol": "brilhante"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O cãozinho é muito brincalhão', qual é o adjetivo?",
+        "question": "Na frase 'O cãozinho é muito brincalhão', qual é o adjetivo?",
+        "opcoes": [
+          "brincalhão",
+          "cãozinho",
+          "muito"
+        ],
+        "options": [
+          "brincalhão",
+          "cãozinho",
+          "muito"
+        ],
+        "resposta": "brincalhão",
+        "correctAnswer": "brincalhão",
+        "explicacao": "'Brincalhão' dá uma característica ao cãozinho, logo é um adjetivo!",
+        "explanation": "'Brincalhão' dá uma característica ao cãozinho, logo é um adjetivo!"
+      },
+      {
+        "id": "pt_2_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os adjetivos concordam em género e número com o nome (ex: menino alto / meninas altas).",
+        "question": "Os adjetivos concordam em género e número com o nome (ex: menino alto / meninas altas).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Se o nome for feminino e plural, o adjetivo também fica no feminino e plural.",
+        "explanation": "Verdadeiro! Se o nome for feminino e plural, o adjetivo também fica no feminino e plural."
+      },
+      {
+        "id": "pt_2_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A maçã vermelha é doce e ___ (adjetivo).",
+        "question": "A maçã vermelha é doce e ___ (adjetivo).",
+        "opcoes": [
+          "saborosa",
+          "comer",
+          "árvore"
+        ],
+        "options": [
+          "saborosa",
+          "comer",
+          "árvore"
+        ],
+        "resposta": "saborosa",
+        "correctAnswer": "saborosa",
+        "explicacao": "'Saborosa' é um adjetivo que qualifica a maçã.",
+        "explanation": "'Saborosa' é um adjetivo que qualifica a maçã."
+      },
+      {
+        "id": "pt_2_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras descreve uma característica da tartaruga 🐢?",
+        "question": "Qual destas palavras descreve uma característica da tartaruga 🐢?",
+        "opcoes": [
+          "🐢 Lenta",
+          "🐢 Correr",
+          "🐢 Casco"
+        ],
+        "options": [
+          "🐢 Lenta",
+          "🐢 Correr",
+          "🐢 Casco"
+        ],
+        "resposta": "🐢 Lenta",
+        "correctAnswer": "🐢 Lenta",
+        "explicacao": "'Lenta' é o adjetivo que caracteriza a velocidade da tartaruga!",
+        "explanation": "'Lenta' é o adjetivo que caracteriza a velocidade da tartaruga!"
+      },
+      {
+        "id": "pt_2_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o adjetivo na frase 'A camisola azul está limpa'?",
+        "question": "Qual é o adjetivo na frase 'A camisola azul está limpa'?",
+        "opcoes": [
+          "azul e limpa",
+          "camisola",
+          "está"
+        ],
+        "options": [
+          "azul e limpa",
+          "camisola",
+          "está"
+        ],
+        "resposta": "azul e limpa",
+        "correctAnswer": "azul e limpa",
+        "explicacao": "Tanto 'azul' (cor) como 'limpa' (estado) são adjetivos!",
+        "explanation": "Tanto 'azul' (cor) como 'limpa' (estado) são adjetivos!"
+      },
+      {
+        "id": "pt_2_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'correr' é um adjetivo bonito.",
+        "question": "A palavra 'correr' é um adjetivo bonito.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Correr' é um verbo (ação), não um adjetivo.",
+        "explanation": "Falso! 'Correr' é um verbo (ação), não um adjetivo."
+      },
+      {
+        "id": "pt_2_f8_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Escolhe o adjetivo que melhor qualifica a palavra 'palhaço':",
+        "question": "Escolhe o adjetivo que melhor qualifica a palavra 'palhaço':",
+        "opcoes": [
+          "engraçado",
+          "circo",
+          "sapato"
+        ],
+        "options": [
+          "engraçado",
+          "circo",
+          "sapato"
+        ],
+        "resposta": "engraçado",
+        "correctAnswer": "engraçado",
+        "explicacao": "'Engraçado' é uma qualidade divertida do palhaço!",
+        "explanation": "'Engraçado' é uma qualidade divertida do palhaço!"
+      },
+      {
+        "id": "pt_2_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o nome ao seu adjetivo correspondente:",
+        "question": "Associa o nome ao seu adjetivo correspondente:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Atribuíste os adjetivos com grande precisão.",
+        "explanation": "Muito bem! Atribuíste os adjetivos com grande precisão.",
+        "pairs": {
+          "noite": "estrelada",
+          "sorvete": "gelado",
+          "leão": "feroz",
+          "sol": "brilhante"
+        },
+        "pares": {
+          "noite": "estrelada",
+          "sorvete": "gelado",
+          "leão": "feroz",
+          "sol": "brilhante"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f9",
+    "numero": 9,
+    "titulo": "Ortografia: C/Ç, G/GU, CH, LH, NH",
+    "title": "Ortografia: C/Ç, G/GU, CH, LH, NH",
+    "descricao": "Domina os sons especiais da língua portuguesa e escreve sem erros.",
+    "description": "Domina os sons especiais da língua portuguesa e escreve sem erros.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🔤",
+    "imageEmoji": "🔤",
+    "exercicios": [
+      {
+        "id": "pt_2_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Nunca se usa cedilha (ç) no início de palavras nem antes de quais vogais?",
+        "question": "Nunca se usa cedilha (ç) no início de palavras nem antes de quais vogais?",
+        "opcoes": [
+          "e / i",
+          "a / o",
+          "u / a"
+        ],
+        "options": [
+          "e / i",
+          "a / o",
+          "u / a"
+        ],
+        "resposta": "e / i",
+        "correctAnswer": "e / i",
+        "explicacao": "Antes de 'e' e 'i' o 'c' já tem som de 's' (ex: cinema, cedo), nunca levando cedilha!",
+        "explanation": "Antes de 'e' e 'i' o 'c' já tem som de 's' (ex: cinema, cedo), nunca levando cedilha!"
+      },
+      {
+        "id": "pt_2_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'fogueira' escreve-se com 'gu' para manter o som 'g'.",
+        "question": "A palavra 'fogueira' escreve-se com 'gu' para manter o som 'g'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Antes de 'e' e 'i' usamos 'gu' para soar como em 'gato'.",
+        "explanation": "Verdadeiro! Antes de 'e' e 'i' usamos 'gu' para soar como em 'gato'."
+      },
+      {
+        "id": "pt_2_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa a palavra: coe___o (animal de orelhas compridas).",
+        "question": "Completa a palavra: coe___o (animal de orelhas compridas).",
+        "opcoes": [
+          "lh",
+          "nh",
+          "ch"
+        ],
+        "options": [
+          "lh",
+          "nh",
+          "ch"
+        ],
+        "resposta": "lh",
+        "correctAnswer": "lh",
+        "explicacao": "Escreve-se coelho com 'lh'!",
+        "explanation": "Escreve-se coelho com 'lh'!"
+      },
+      {
+        "id": "pt_2_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras está escrita de forma 100% CORRETA?",
+        "question": "Qual destas palavras está escrita de forma 100% CORRETA?",
+        "opcoes": [
+          "🍫 Chocolate",
+          "🍫 Xocolate",
+          "🍫 Cocolate"
+        ],
+        "options": [
+          "🍫 Chocolate",
+          "🍫 Xocolate",
+          "🍫 Cocolate"
+        ],
+        "resposta": "🍫 Chocolate",
+        "correctAnswer": "🍫 Chocolate",
+        "explicacao": "'Chocolate' escreve-se com 'ch'! 🍫",
+        "explanation": "'Chocolate' escreve-se com 'ch'! 🍫"
+      },
+      {
+        "id": "pt_2_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se escreve o animal pequenino que produz mel?",
+        "question": "Como se escreve o animal pequenino que produz mel?",
+        "opcoes": [
+          "abelha",
+          "abeilha",
+          "abexa"
+        ],
+        "options": [
+          "abelha",
+          "abeilha",
+          "abexa"
+        ],
+        "resposta": "abelha",
+        "correctAnswer": "abelha",
+        "explicacao": "Escreve-se 'abelha' com 'lh'.",
+        "explanation": "Escreve-se 'abelha' com 'lh'."
+      },
+      {
+        "id": "pt_2_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'coração' escreve-se com 'ç' (cedilha).",
+        "question": "A palavra 'coração' escreve-se com 'ç' (cedilha).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Antes de 'ã' e 'o' para ter som de 's' usa-se 'ç'.",
+        "explanation": "Verdadeiro! Antes de 'ã' e 'o' para ter som de 's' usa-se 'ç'."
+      },
+      {
+        "id": "pt_2_f9_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Completa a palavra: gali___a",
+        "question": "Completa a palavra: gali___a",
+        "opcoes": [
+          "nh",
+          "lh",
+          "ch"
+        ],
+        "options": [
+          "nh",
+          "lh",
+          "ch"
+        ],
+        "resposta": "nh",
+        "correctAnswer": "nh",
+        "explicacao": "Escreve-se galinha com 'nh'!",
+        "explanation": "Escreve-se galinha com 'nh'!"
+      },
+      {
+        "id": "pt_2_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Completa com o dígrafo correto:",
+        "question": "Completa com o dígrafo correto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da ortografia dos dígrafos!",
+        "explanation": "Excelente domínio da ortografia dos dígrafos!",
+        "pairs": {
+          "cha___eu (cobertura de cabeça)": "p (chapéu)",
+          "ni___o (onde os pássaros põem ovos)": "nh (ninho)",
+          "fo___a (da árvore)": "lh (folha)",
+          "gui___arra (instrumento de cordas)": "t (guitarra)"
+        },
+        "pares": {
+          "cha___eu (cobertura de cabeça)": "p (chapéu)",
+          "ni___o (onde os pássaros põem ovos)": "nh (ninho)",
+          "fo___a (da árvore)": "lh (folha)",
+          "gui___arra (instrumento de cordas)": "t (guitarra)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Nunca se usa cedilha (ç) no início de palavras nem antes de quais vogais?",
+        "question": "Nunca se usa cedilha (ç) no início de palavras nem antes de quais vogais?",
+        "opcoes": [
+          "e / i",
+          "a / o",
+          "u / a"
+        ],
+        "options": [
+          "e / i",
+          "a / o",
+          "u / a"
+        ],
+        "resposta": "e / i",
+        "correctAnswer": "e / i",
+        "explicacao": "Antes de 'e' e 'i' o 'c' já tem som de 's' (ex: cinema, cedo), nunca levando cedilha!",
+        "explanation": "Antes de 'e' e 'i' o 'c' já tem som de 's' (ex: cinema, cedo), nunca levando cedilha!"
+      },
+      {
+        "id": "pt_2_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'fogueira' escreve-se com 'gu' para manter o som 'g'.",
+        "question": "A palavra 'fogueira' escreve-se com 'gu' para manter o som 'g'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Antes de 'e' e 'i' usamos 'gu' para soar como em 'gato'.",
+        "explanation": "Verdadeiro! Antes de 'e' e 'i' usamos 'gu' para soar como em 'gato'."
+      },
+      {
+        "id": "pt_2_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa a palavra: coe___o (animal de orelhas compridas).",
+        "question": "Completa a palavra: coe___o (animal de orelhas compridas).",
+        "opcoes": [
+          "lh",
+          "nh",
+          "ch"
+        ],
+        "options": [
+          "lh",
+          "nh",
+          "ch"
+        ],
+        "resposta": "lh",
+        "correctAnswer": "lh",
+        "explicacao": "Escreve-se coelho com 'lh'!",
+        "explanation": "Escreve-se coelho com 'lh'!"
+      },
+      {
+        "id": "pt_2_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras está escrita de forma 100% CORRETA?",
+        "question": "Qual destas palavras está escrita de forma 100% CORRETA?",
+        "opcoes": [
+          "🍫 Chocolate",
+          "🍫 Xocolate",
+          "🍫 Cocolate"
+        ],
+        "options": [
+          "🍫 Chocolate",
+          "🍫 Xocolate",
+          "🍫 Cocolate"
+        ],
+        "resposta": "🍫 Chocolate",
+        "correctAnswer": "🍫 Chocolate",
+        "explicacao": "'Chocolate' escreve-se com 'ch'! 🍫",
+        "explanation": "'Chocolate' escreve-se com 'ch'! 🍫"
+      },
+      {
+        "id": "pt_2_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se escreve o animal pequenino que produz mel?",
+        "question": "Como se escreve o animal pequenino que produz mel?",
+        "opcoes": [
+          "abelha",
+          "abeilha",
+          "abexa"
+        ],
+        "options": [
+          "abelha",
+          "abeilha",
+          "abexa"
+        ],
+        "resposta": "abelha",
+        "correctAnswer": "abelha",
+        "explicacao": "Escreve-se 'abelha' com 'lh'.",
+        "explanation": "Escreve-se 'abelha' com 'lh'."
+      },
+      {
+        "id": "pt_2_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'coração' escreve-se com 'ç' (cedilha).",
+        "question": "A palavra 'coração' escreve-se com 'ç' (cedilha).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Antes de 'ã' e 'o' para ter som de 's' usa-se 'ç'.",
+        "explanation": "Verdadeiro! Antes de 'ã' e 'o' para ter som de 's' usa-se 'ç'."
+      },
+      {
+        "id": "pt_2_f9_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Completa a palavra: gali___a",
+        "question": "Completa a palavra: gali___a",
+        "opcoes": [
+          "nh",
+          "lh",
+          "ch"
+        ],
+        "options": [
+          "nh",
+          "lh",
+          "ch"
+        ],
+        "resposta": "nh",
+        "correctAnswer": "nh",
+        "explicacao": "Escreve-se galinha com 'nh'!",
+        "explanation": "Escreve-se galinha com 'nh'!"
+      },
+      {
+        "id": "pt_2_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Completa com o dígrafo correto:",
+        "question": "Completa com o dígrafo correto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da ortografia dos dígrafos!",
+        "explanation": "Excelente domínio da ortografia dos dígrafos!",
+        "pairs": {
+          "cha___eu (cobertura de cabeça)": "p (chapéu)",
+          "ni___o (onde os pássaros põem ovos)": "nh (ninho)",
+          "fo___a (da árvore)": "lh (folha)",
+          "gui___arra (instrumento de cordas)": "t (guitarra)"
+        },
+        "pares": {
+          "cha___eu (cobertura de cabeça)": "p (chapéu)",
+          "ni___o (onde os pássaros põem ovos)": "nh (ninho)",
+          "fo___a (da árvore)": "lh (folha)",
+          "gui___arra (instrumento de cordas)": "t (guitarra)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f10",
+    "numero": 10,
+    "titulo": "Ordem Alfabética e o Dicionário",
+    "title": "Ordem Alfabética e o Dicionário",
+    "descricao": "Organiza palavras pelo alfabeto e aprende a pesquisar no dicionário.",
+    "description": "Organiza palavras pelo alfabeto e aprende a pesquisar no dicionário.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "📖",
+    "imageEmoji": "📖",
+    "exercicios": [
+      {
+        "id": "pt_2_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a terceira letra do alfabeto português?",
+        "question": "Qual é a terceira letra do alfabeto português?",
+        "opcoes": [
+          "C",
+          "B",
+          "D"
+        ],
+        "options": [
+          "C",
+          "B",
+          "D"
+        ],
+        "resposta": "C",
+        "correctAnswer": "C",
+        "explicacao": "O alfabeto começa por: A, B, C... logo a terceira letra é o C!",
+        "explanation": "O alfabeto começa por: A, B, C... logo a terceira letra é o C!"
+      },
+      {
+        "id": "pt_2_f10_e2",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as seguintes palavras por Ordem Alfabética:",
+        "question": "Ordena as seguintes palavras por Ordem Alfabética:",
+        "opcoes": [
+          "Banana",
+          "Amora",
+          "Cereja"
+        ],
+        "options": [
+          "Banana",
+          "Amora",
+          "Cereja"
+        ],
+        "resposta": "Amora-Banana-Cereja",
+        "correctAnswer": "Amora-Banana-Cereja",
+        "explicacao": "A vem antes de B, e B antes de C: Amora, Banana, Cereja!",
+        "explanation": "A vem antes de B, e B antes de C: Amora, Banana, Cereja!",
+        "correctAnswers": [
+          "Amora",
+          "Banana",
+          "Cereja"
+        ],
+        "respostasCorretas": [
+          "Amora",
+          "Banana",
+          "Cereja"
+        ]
+      },
+      {
+        "id": "pt_2_f10_e3",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Se duas palavras começarem pela mesma letra, olhamos para a segunda letra para desempatar.",
+        "question": "Se duas palavras começarem pela mesma letra, olhamos para a segunda letra para desempatar.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Por exemplo, 'Barco' vem antes de 'Bolo' porque 'a' vem antes de 'o'.",
+        "explanation": "Verdadeiro! Por exemplo, 'Barco' vem antes de 'Bolo' porque 'a' vem antes de 'o'."
+      },
+      {
+        "id": "pt_2_f2_e4",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "No dicionário, a palavra 'Dedo' surge ___ da palavra 'Fogo'.",
+        "question": "No dicionário, a palavra 'Dedo' surge ___ da palavra 'Fogo'.",
+        "opcoes": [
+          "antes",
+          "depois",
+          "no mesmo sítio"
+        ],
+        "options": [
+          "antes",
+          "depois",
+          "no mesmo sítio"
+        ],
+        "resposta": "antes",
+        "correctAnswer": "antes",
+        "explicacao": "D vem antes de F no alfabeto.",
+        "explanation": "D vem antes de F no alfabeto."
+      },
+      {
+        "id": "pt_2_f10_e5",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras vem em PRIMEIRO LUGAR no dicionário?",
+        "question": "Qual destas palavras vem em PRIMEIRO LUGAR no dicionário?",
+        "opcoes": [
+          "🥑 Abacate",
+          "🍇 Uva",
+          "🍉 Melancia"
+        ],
+        "options": [
+          "🥑 Abacate",
+          "🍇 Uva",
+          "🍉 Melancia"
+        ],
+        "resposta": "🥑 Abacate",
+        "correctAnswer": "🥑 Abacate",
+        "explicacao": "'Abacate' começa com 'A', a primeira letra do alfabeto! 🥑",
+        "explanation": "'Abacate' começa com 'A', a primeira letra do alfabeto! 🥑"
+      },
+      {
+        "id": "pt_2_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O alfabeto português completo é composto por 26 letras.",
+        "question": "O alfabeto português completo é composto por 26 letras.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Inclui as letras K, W e Y.",
+        "explanation": "Verdadeiro! Inclui as letras K, W e Y."
+      },
+      {
+        "id": "pt_2_f10_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os nomes dos amigos por ordem alfabética:",
+        "question": "Ordena os nomes dos amigos por ordem alfabética:",
+        "opcoes": [
+          "David",
+          "Ana",
+          "Carlos"
+        ],
+        "options": [
+          "David",
+          "Ana",
+          "Carlos"
+        ],
+        "resposta": "Ana-Carlos-David",
+        "correctAnswer": "Ana-Carlos-David",
+        "explicacao": "A (Ana) -> C (Carlos) -> D (David).",
+        "explanation": "A (Ana) -> C (Carlos) -> D (David).",
+        "correctAnswers": [
+          "Ana",
+          "Carlos",
+          "David"
+        ],
+        "respostasCorretas": [
+          "Ana",
+          "Carlos",
+          "David"
+        ]
+      },
+      {
+        "id": "pt_2_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Descobre qual letra vem logo a seguir no alfabeto:",
+        "question": "Descobre qual letra vem logo a seguir no alfabeto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conheces o alfabeto de uma ponta à outra!",
+        "explanation": "Conheces o alfabeto de uma ponta à outra!",
+        "pairs": {
+          "A": "B",
+          "M": "N",
+          "S": "T",
+          "X": "Y"
+        },
+        "pares": {
+          "A": "B",
+          "M": "N",
+          "S": "T",
+          "X": "Y"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a terceira letra do alfabeto português?",
+        "question": "Qual é a terceira letra do alfabeto português?",
+        "opcoes": [
+          "C",
+          "B",
+          "D"
+        ],
+        "options": [
+          "C",
+          "B",
+          "D"
+        ],
+        "resposta": "C",
+        "correctAnswer": "C",
+        "explicacao": "O alfabeto começa por: A, B, C... logo a terceira letra é o C!",
+        "explanation": "O alfabeto começa por: A, B, C... logo a terceira letra é o C!"
+      },
+      {
+        "id": "pt_2_f10_e2",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as seguintes palavras por Ordem Alfabética:",
+        "question": "Ordena as seguintes palavras por Ordem Alfabética:",
+        "opcoes": [
+          "Banana",
+          "Amora",
+          "Cereja"
+        ],
+        "options": [
+          "Banana",
+          "Amora",
+          "Cereja"
+        ],
+        "resposta": "Amora-Banana-Cereja",
+        "correctAnswer": "Amora-Banana-Cereja",
+        "explicacao": "A vem antes de B, e B antes de C: Amora, Banana, Cereja!",
+        "explanation": "A vem antes de B, e B antes de C: Amora, Banana, Cereja!",
+        "correctAnswers": [
+          "Amora",
+          "Banana",
+          "Cereja"
+        ],
+        "respostasCorretas": [
+          "Amora",
+          "Banana",
+          "Cereja"
+        ]
+      },
+      {
+        "id": "pt_2_f10_e3",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Se duas palavras começarem pela mesma letra, olhamos para a segunda letra para desempatar.",
+        "question": "Se duas palavras começarem pela mesma letra, olhamos para a segunda letra para desempatar.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Por exemplo, 'Barco' vem antes de 'Bolo' porque 'a' vem antes de 'o'.",
+        "explanation": "Verdadeiro! Por exemplo, 'Barco' vem antes de 'Bolo' porque 'a' vem antes de 'o'."
+      },
+      {
+        "id": "pt_2_f2_e4",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "No dicionário, a palavra 'Dedo' surge ___ da palavra 'Fogo'.",
+        "question": "No dicionário, a palavra 'Dedo' surge ___ da palavra 'Fogo'.",
+        "opcoes": [
+          "antes",
+          "depois",
+          "no mesmo sítio"
+        ],
+        "options": [
+          "antes",
+          "depois",
+          "no mesmo sítio"
+        ],
+        "resposta": "antes",
+        "correctAnswer": "antes",
+        "explicacao": "D vem antes de F no alfabeto.",
+        "explanation": "D vem antes de F no alfabeto."
+      },
+      {
+        "id": "pt_2_f10_e5",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras vem em PRIMEIRO LUGAR no dicionário?",
+        "question": "Qual destas palavras vem em PRIMEIRO LUGAR no dicionário?",
+        "opcoes": [
+          "🥑 Abacate",
+          "🍇 Uva",
+          "🍉 Melancia"
+        ],
+        "options": [
+          "🥑 Abacate",
+          "🍇 Uva",
+          "🍉 Melancia"
+        ],
+        "resposta": "🥑 Abacate",
+        "correctAnswer": "🥑 Abacate",
+        "explicacao": "'Abacate' começa com 'A', a primeira letra do alfabeto! 🥑",
+        "explanation": "'Abacate' começa com 'A', a primeira letra do alfabeto! 🥑"
+      },
+      {
+        "id": "pt_2_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O alfabeto português completo é composto por 26 letras.",
+        "question": "O alfabeto português completo é composto por 26 letras.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Inclui as letras K, W e Y.",
+        "explanation": "Verdadeiro! Inclui as letras K, W e Y."
+      },
+      {
+        "id": "pt_2_f10_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os nomes dos amigos por ordem alfabética:",
+        "question": "Ordena os nomes dos amigos por ordem alfabética:",
+        "opcoes": [
+          "David",
+          "Ana",
+          "Carlos"
+        ],
+        "options": [
+          "David",
+          "Ana",
+          "Carlos"
+        ],
+        "resposta": "Ana-Carlos-David",
+        "correctAnswer": "Ana-Carlos-David",
+        "explicacao": "A (Ana) -> C (Carlos) -> D (David).",
+        "explanation": "A (Ana) -> C (Carlos) -> D (David).",
+        "correctAnswers": [
+          "Ana",
+          "Carlos",
+          "David"
+        ],
+        "respostasCorretas": [
+          "Ana",
+          "Carlos",
+          "David"
+        ]
+      },
+      {
+        "id": "pt_2_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Descobre qual letra vem logo a seguir no alfabeto:",
+        "question": "Descobre qual letra vem logo a seguir no alfabeto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conheces o alfabeto de uma ponta à outra!",
+        "explanation": "Conheces o alfabeto de uma ponta à outra!",
+        "pairs": {
+          "A": "B",
+          "M": "N",
+          "S": "T",
+          "X": "Y"
+        },
+        "pares": {
+          "A": "B",
+          "M": "N",
+          "S": "T",
+          "X": "Y"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f11",
+    "numero": 11,
+    "titulo": "Textos Poéticos e Rimas",
+    "title": "Textos Poéticos e Rimas",
+    "descricao": "Versos, estrofes e rimas sonoras em poesias infantis encantadoras.",
+    "description": "Versos, estrofes e rimas sonoras em poesias infantis encantadoras.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "🎭",
+    "imageEmoji": "🎭",
+    "exercicios": [
+      {
+        "id": "pt_2_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras rima com 'coração'?",
+        "question": "Qual destas palavras rima com 'coração'?",
+        "opcoes": [
+          "canção",
+          "cadeira",
+          "sapato"
+        ],
+        "options": [
+          "canção",
+          "cadeira",
+          "sapato"
+        ],
+        "resposta": "canção",
+        "correctAnswer": "canção",
+        "explicacao": "Coração e canção terminam com o mesmo som '-ão', rimando na perfeição!",
+        "explanation": "Coração e canção terminam com o mesmo som '-ão', rimando na perfeição!"
+      },
+      {
+        "id": "pt_2_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Cada linha de um poema chama-se um Verso.",
+        "question": "Cada linha de um poema chama-se um Verso.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Cada linha é um verso e um grupo de versos forma uma estrofe.",
+        "explanation": "Verdadeiro! Cada linha é um verso e um grupo de versos forma uma estrofe."
+      },
+      {
+        "id": "pt_2_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O macaco comilão comeu uma ___ (rima com comilão).",
+        "question": "O macaco comilão comeu uma ___ (rima com comilão).",
+        "opcoes": [
+          "romã",
+          "banana",
+          "refeição"
+        ],
+        "options": [
+          "romã",
+          "banana",
+          "refeição"
+        ],
+        "resposta": "refeição",
+        "correctAnswer": "refeição",
+        "explicacao": "Comilão rima com refeição (-ão)!",
+        "explanation": "Comilão rima com refeição (-ão)!"
+      },
+      {
+        "id": "pt_2_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras rima com 'Gato'?",
+        "question": "Qual destas palavras rima com 'Gato'?",
+        "opcoes": [
+          "🦆 Pato",
+          "🐶 Cão",
+          "🐭 Ratoeira"
+        ],
+        "options": [
+          "🦆 Pato",
+          "🐶 Cão",
+          "🐭 Ratoeira"
+        ],
+        "resposta": "🦆 Pato",
+        "correctAnswer": "🦆 Pato",
+        "explicacao": "Gato rima com Pato (-ato)! 🦆",
+        "explanation": "Gato rima com Pato (-ato)! 🦆"
+      },
+      {
+        "id": "pt_2_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama um conjunto de versos separados por um espaço num poema?",
+        "question": "Como se chama um conjunto de versos separados por um espaço num poema?",
+        "opcoes": [
+          "Estrofe",
+          "Parágrafo",
+          "Capítulo"
+        ],
+        "options": [
+          "Estrofe",
+          "Parágrafo",
+          "Capítulo"
+        ],
+        "resposta": "Estrofe",
+        "correctAnswer": "Estrofe",
+        "explicacao": "Um grupo de versos é uma estrofe.",
+        "explanation": "Um grupo de versos é uma estrofe."
+      },
+      {
+        "id": "pt_2_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os trava-línguas são frases com palavras difíceis e sons parecidos para treinar a fala.",
+        "question": "Os trava-línguas são frases com palavras difíceis e sons parecidos para treinar a fala.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Exemplo: 'O rato roeu a rolha da garrafa do rei de Roma.'",
+        "explanation": "Verdadeiro! Exemplo: 'O rato roeu a rolha da garrafa do rei de Roma.'"
+      },
+      {
+        "id": "pt_2_f11_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Descobre a palavra que rima com 'janela':",
+        "question": "Descobre a palavra que rima com 'janela':",
+        "opcoes": [
+          "amarela",
+          "azul",
+          "porta"
+        ],
+        "options": [
+          "amarela",
+          "azul",
+          "porta"
+        ],
+        "resposta": "amarela",
+        "correctAnswer": "amarela",
+        "explicacao": "Janela rima com amarela (-ela)!",
+        "explanation": "Janela rima com amarela (-ela)!"
+      },
+      {
+        "id": "pt_2_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga as palavras que rimam entre si:",
+        "question": "Liga as palavras que rimam entre si:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente ouvido musical para as rimas poéticas!",
+        "explanation": "Excelente ouvido musical para as rimas poéticas!",
+        "pairs": {
+          "jardim": "pudim",
+          "castelo": "amarelo",
+          "foguete": "sorvete",
+          "balão": "sabão"
+        },
+        "pares": {
+          "jardim": "pudim",
+          "castelo": "amarelo",
+          "foguete": "sorvete",
+          "balão": "sabão"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras rima com 'coração'?",
+        "question": "Qual destas palavras rima com 'coração'?",
+        "opcoes": [
+          "canção",
+          "cadeira",
+          "sapato"
+        ],
+        "options": [
+          "canção",
+          "cadeira",
+          "sapato"
+        ],
+        "resposta": "canção",
+        "correctAnswer": "canção",
+        "explicacao": "Coração e canção terminam com o mesmo som '-ão', rimando na perfeição!",
+        "explanation": "Coração e canção terminam com o mesmo som '-ão', rimando na perfeição!"
+      },
+      {
+        "id": "pt_2_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Cada linha de um poema chama-se um Verso.",
+        "question": "Cada linha de um poema chama-se um Verso.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Cada linha é um verso e um grupo de versos forma uma estrofe.",
+        "explanation": "Verdadeiro! Cada linha é um verso e um grupo de versos forma uma estrofe."
+      },
+      {
+        "id": "pt_2_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O macaco comilão comeu uma ___ (rima com comilão).",
+        "question": "O macaco comilão comeu uma ___ (rima com comilão).",
+        "opcoes": [
+          "romã",
+          "banana",
+          "refeição"
+        ],
+        "options": [
+          "romã",
+          "banana",
+          "refeição"
+        ],
+        "resposta": "refeição",
+        "correctAnswer": "refeição",
+        "explicacao": "Comilão rima com refeição (-ão)!",
+        "explanation": "Comilão rima com refeição (-ão)!"
+      },
+      {
+        "id": "pt_2_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras rima com 'Gato'?",
+        "question": "Qual destas palavras rima com 'Gato'?",
+        "opcoes": [
+          "🦆 Pato",
+          "🐶 Cão",
+          "🐭 Ratoeira"
+        ],
+        "options": [
+          "🦆 Pato",
+          "🐶 Cão",
+          "🐭 Ratoeira"
+        ],
+        "resposta": "🦆 Pato",
+        "correctAnswer": "🦆 Pato",
+        "explicacao": "Gato rima com Pato (-ato)! 🦆",
+        "explanation": "Gato rima com Pato (-ato)! 🦆"
+      },
+      {
+        "id": "pt_2_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama um conjunto de versos separados por um espaço num poema?",
+        "question": "Como se chama um conjunto de versos separados por um espaço num poema?",
+        "opcoes": [
+          "Estrofe",
+          "Parágrafo",
+          "Capítulo"
+        ],
+        "options": [
+          "Estrofe",
+          "Parágrafo",
+          "Capítulo"
+        ],
+        "resposta": "Estrofe",
+        "correctAnswer": "Estrofe",
+        "explicacao": "Um grupo de versos é uma estrofe.",
+        "explanation": "Um grupo de versos é uma estrofe."
+      },
+      {
+        "id": "pt_2_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os trava-línguas são frases com palavras difíceis e sons parecidos para treinar a fala.",
+        "question": "Os trava-línguas são frases com palavras difíceis e sons parecidos para treinar a fala.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Exemplo: 'O rato roeu a rolha da garrafa do rei de Roma.'",
+        "explanation": "Verdadeiro! Exemplo: 'O rato roeu a rolha da garrafa do rei de Roma.'"
+      },
+      {
+        "id": "pt_2_f11_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Descobre a palavra que rima com 'janela':",
+        "question": "Descobre a palavra que rima com 'janela':",
+        "opcoes": [
+          "amarela",
+          "azul",
+          "porta"
+        ],
+        "options": [
+          "amarela",
+          "azul",
+          "porta"
+        ],
+        "resposta": "amarela",
+        "correctAnswer": "amarela",
+        "explicacao": "Janela rima com amarela (-ela)!",
+        "explanation": "Janela rima com amarela (-ela)!"
+      },
+      {
+        "id": "pt_2_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga as palavras que rimam entre si:",
+        "question": "Liga as palavras que rimam entre si:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente ouvido musical para as rimas poéticas!",
+        "explanation": "Excelente ouvido musical para as rimas poéticas!",
+        "pairs": {
+          "jardim": "pudim",
+          "castelo": "amarelo",
+          "foguete": "sorvete",
+          "balão": "sabão"
+        },
+        "pares": {
+          "jardim": "pudim",
+          "castelo": "amarelo",
+          "foguete": "sorvete",
+          "balão": "sabão"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_2_f12",
+    "numero": 12,
+    "titulo": "Compreensão de Texto e Interpretação",
+    "title": "Compreensão de Texto e Interpretação",
+    "descricao": "Lê pequenas histórias do Zé Traquina e responde a perguntas de interpretação.",
+    "description": "Lê pequenas histórias do Zé Traquina e responde a perguntas de interpretação.",
+    "dificuldade": "DESAFIO",
+    "difficulty": "CHALLENGE",
+    "emoji": "🏆",
+    "imageEmoji": "🏆",
+    "exercicios": [
+      {
+        "id": "pt_2_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Texto: 'O Zé encontrou um cachorrinho abandonado no jardim e deu-lhe água fresca.' Onde encontrou o Zé o animal?",
+        "question": "Texto: 'O Zé encontrou um cachorrinho abandonado no jardim e deu-lhe água fresca.' Onde encontrou o Zé o animal?",
+        "opcoes": [
+          "No jardim",
+          "Na praia",
+          "Dentro da escola"
+        ],
+        "options": [
+          "No jardim",
+          "Na praia",
+          "Dentro da escola"
+        ],
+        "resposta": "No jardim",
+        "correctAnswer": "No jardim",
+        "explicacao": "O texto diz claramente: 'O Zé encontrou um cachorrinho no jardim'.",
+        "explanation": "O texto diz claramente: 'O Zé encontrou um cachorrinho no jardim'."
+      },
+      {
+        "id": "pt_2_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Zé deu água fresca ao cachorrinho.",
+        "question": "O Zé deu água fresca ao cachorrinho.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Está escrito no pequeno texto.",
+        "explanation": "Verdadeiro! Está escrito no pequeno texto."
+      },
+      {
+        "id": "pt_2_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Texto: 'A Rita vestiu a camisola amarela para ir ao parque.' A Rita vestiu a camisola ___",
+        "question": "Texto: 'A Rita vestiu a camisola amarela para ir ao parque.' A Rita vestiu a camisola ___",
+        "opcoes": [
+          "amarela",
+          "azul",
+          "verde"
+        ],
+        "options": [
+          "amarela",
+          "azul",
+          "verde"
+        ],
+        "resposta": "amarela",
+        "correctAnswer": "amarela",
+        "explicacao": "A camisola era de cor amarela.",
+        "explanation": "A camisola era de cor amarela."
+      },
+      {
+        "id": "pt_2_f12_e4",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a personagem principal de uma história?",
+        "question": "Qual é a personagem principal de uma história?",
+        "opcoes": [
+          "Quem vive as maiores aventuras na narrativa",
+          "Quem só aparece na última página",
+          "O autor do livro"
+        ],
+        "options": [
+          "Quem vive as maiores aventuras na narrativa",
+          "Quem só aparece na última página",
+          "O autor do livro"
+        ],
+        "resposta": "Quem vive as maiores aventuras na narrativa",
+        "correctAnswer": "Quem vive as maiores aventuras na narrativa",
+        "explicacao": "A personagem principal (protagonista) é o centro da ação da história.",
+        "explanation": "A personagem principal (protagonista) é o centro da ação da história."
+      },
+      {
+        "id": "pt_2_f12_e5",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O título de um texto ajuda o leitor a saber sobre o que vai ler.",
+        "question": "O título de um texto ajuda o leitor a saber sobre o que vai ler.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O título resume o tema principal da narrativa.",
+        "explanation": "Verdadeiro! O título resume o tema principal da narrativa."
+      },
+      {
+        "id": "pt_2_f12_e6",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena a estrutura de uma narrativa:",
+        "question": "Ordena a estrutura de uma narrativa:",
+        "opcoes": [
+          "Início / Introdução",
+          "Desenvolvimento / Aventura",
+          "Fim / Conclusão"
+        ],
+        "options": [
+          "Início / Introdução",
+          "Desenvolvimento / Aventura",
+          "Fim / Conclusão"
+        ],
+        "resposta": "Início / Introdução-Desenvolvimento / Aventura-Fim / Conclusão",
+        "correctAnswer": "Início / Introdução-Desenvolvimento / Aventura-Fim / Conclusão",
+        "explicacao": "Toda a boa história tem introdução, aventura e um final feliz!",
+        "explanation": "Toda a boa história tem introdução, aventura e um final feliz!",
+        "correctAnswers": [
+          "Início / Introdução",
+          "Desenvolvimento / Aventura",
+          "Fim / Conclusão"
+        ],
+        "respostasCorretas": [
+          "Início / Introdução",
+          "Desenvolvimento / Aventura",
+          "Fim / Conclusão"
+        ]
+      },
+      {
+        "id": "pt_2_f12_e7",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Se o texto diz que o esquilo guardou nozes para o inverno, o que come ele?",
+        "question": "Se o texto diz que o esquilo guardou nozes para o inverno, o que come ele?",
+        "opcoes": [
+          "🌰 Nozes e frutos secos",
+          "🥩 Carne",
+          "🍕 Pizza"
+        ],
+        "options": [
+          "🌰 Nozes e frutos secos",
+          "🥩 Carne",
+          "🍕 Pizza"
+        ],
+        "resposta": "🌰 Nozes e frutos secos",
+        "correctAnswer": "🌰 Nozes e frutos secos",
+        "explicacao": "Os esquilos adoram nozes e bolotas! 🌰",
+        "explanation": "Os esquilos adoram nozes e bolotas! 🌰"
+      },
+      {
+        "id": "pt_2_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as partes de uma história à sua função:",
+        "question": "Associa as partes de uma história à sua função:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Campeão da Língua Portuguesa do 2.º Ano!",
+        "explanation": "Parabéns, Campeão da Língua Portuguesa do 2.º Ano!",
+        "pairs": {
+          "Título": "Nome da história",
+          "Personagens": "Quem participa na ação",
+          "Espaço": "Onde tudo acontece",
+          "Moral": "O ensinamento final"
+        },
+        "pares": {
+          "Título": "Nome da história",
+          "Personagens": "Quem participa na ação",
+          "Espaço": "Onde tudo acontece",
+          "Moral": "O ensinamento final"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_2_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Texto: 'O Zé encontrou um cachorrinho abandonado no jardim e deu-lhe água fresca.' Onde encontrou o Zé o animal?",
+        "question": "Texto: 'O Zé encontrou um cachorrinho abandonado no jardim e deu-lhe água fresca.' Onde encontrou o Zé o animal?",
+        "opcoes": [
+          "No jardim",
+          "Na praia",
+          "Dentro da escola"
+        ],
+        "options": [
+          "No jardim",
+          "Na praia",
+          "Dentro da escola"
+        ],
+        "resposta": "No jardim",
+        "correctAnswer": "No jardim",
+        "explicacao": "O texto diz claramente: 'O Zé encontrou um cachorrinho no jardim'.",
+        "explanation": "O texto diz claramente: 'O Zé encontrou um cachorrinho no jardim'."
+      },
+      {
+        "id": "pt_2_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Zé deu água fresca ao cachorrinho.",
+        "question": "O Zé deu água fresca ao cachorrinho.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Está escrito no pequeno texto.",
+        "explanation": "Verdadeiro! Está escrito no pequeno texto."
+      },
+      {
+        "id": "pt_2_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Texto: 'A Rita vestiu a camisola amarela para ir ao parque.' A Rita vestiu a camisola ___",
+        "question": "Texto: 'A Rita vestiu a camisola amarela para ir ao parque.' A Rita vestiu a camisola ___",
+        "opcoes": [
+          "amarela",
+          "azul",
+          "verde"
+        ],
+        "options": [
+          "amarela",
+          "azul",
+          "verde"
+        ],
+        "resposta": "amarela",
+        "correctAnswer": "amarela",
+        "explicacao": "A camisola era de cor amarela.",
+        "explanation": "A camisola era de cor amarela."
+      },
+      {
+        "id": "pt_2_f12_e4",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a personagem principal de uma história?",
+        "question": "Qual é a personagem principal de uma história?",
+        "opcoes": [
+          "Quem vive as maiores aventuras na narrativa",
+          "Quem só aparece na última página",
+          "O autor do livro"
+        ],
+        "options": [
+          "Quem vive as maiores aventuras na narrativa",
+          "Quem só aparece na última página",
+          "O autor do livro"
+        ],
+        "resposta": "Quem vive as maiores aventuras na narrativa",
+        "correctAnswer": "Quem vive as maiores aventuras na narrativa",
+        "explicacao": "A personagem principal (protagonista) é o centro da ação da história.",
+        "explanation": "A personagem principal (protagonista) é o centro da ação da história."
+      },
+      {
+        "id": "pt_2_f12_e5",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O título de um texto ajuda o leitor a saber sobre o que vai ler.",
+        "question": "O título de um texto ajuda o leitor a saber sobre o que vai ler.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O título resume o tema principal da narrativa.",
+        "explanation": "Verdadeiro! O título resume o tema principal da narrativa."
+      },
+      {
+        "id": "pt_2_f12_e6",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena a estrutura de uma narrativa:",
+        "question": "Ordena a estrutura de uma narrativa:",
+        "opcoes": [
+          "Início / Introdução",
+          "Desenvolvimento / Aventura",
+          "Fim / Conclusão"
+        ],
+        "options": [
+          "Início / Introdução",
+          "Desenvolvimento / Aventura",
+          "Fim / Conclusão"
+        ],
+        "resposta": "Início / Introdução-Desenvolvimento / Aventura-Fim / Conclusão",
+        "correctAnswer": "Início / Introdução-Desenvolvimento / Aventura-Fim / Conclusão",
+        "explicacao": "Toda a boa história tem introdução, aventura e um final feliz!",
+        "explanation": "Toda a boa história tem introdução, aventura e um final feliz!",
+        "correctAnswers": [
+          "Início / Introdução",
+          "Desenvolvimento / Aventura",
+          "Fim / Conclusão"
+        ],
+        "respostasCorretas": [
+          "Início / Introdução",
+          "Desenvolvimento / Aventura",
+          "Fim / Conclusão"
+        ]
+      },
+      {
+        "id": "pt_2_f12_e7",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Se o texto diz que o esquilo guardou nozes para o inverno, o que come ele?",
+        "question": "Se o texto diz que o esquilo guardou nozes para o inverno, o que come ele?",
+        "opcoes": [
+          "🌰 Nozes e frutos secos",
+          "🥩 Carne",
+          "🍕 Pizza"
+        ],
+        "options": [
+          "🌰 Nozes e frutos secos",
+          "🥩 Carne",
+          "🍕 Pizza"
+        ],
+        "resposta": "🌰 Nozes e frutos secos",
+        "correctAnswer": "🌰 Nozes e frutos secos",
+        "explicacao": "Os esquilos adoram nozes e bolotas! 🌰",
+        "explanation": "Os esquilos adoram nozes e bolotas! 🌰"
+      },
+      {
+        "id": "pt_2_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as partes de uma história à sua função:",
+        "question": "Associa as partes de uma história à sua função:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Campeão da Língua Portuguesa do 2.º Ano!",
+        "explanation": "Parabéns, Campeão da Língua Portuguesa do 2.º Ano!",
+        "pairs": {
+          "Título": "Nome da história",
+          "Personagens": "Quem participa na ação",
+          "Espaço": "Onde tudo acontece",
+          "Moral": "O ensinamento final"
+        },
+        "pares": {
+          "Título": "Nome da história",
+          "Personagens": "Quem participa na ação",
+          "Espaço": "Onde tudo acontece",
+          "Moral": "O ensinamento final"
+        }
+      }
+    ]
+  }
+]

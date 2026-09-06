@@ -1,0 +1,4 @@
+#!/bin/bash
+sed -i 's/putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "pt-PT")/putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "pt-PT")\n                        putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, context.packageName)/g' ./app/src/main/java/com/example/ui/components/ZeLiveAvatarComponent.kt
+sed -i 's/putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "pt-PT")/putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "pt-PT")\n            putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, context.packageName)/g' ./app/src/main/java/com/example/ui/components/ZeTraquinaMascot.kt
+sed -i 's/putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "pt-PT")/putExtra(RecognizerIntent.EXTRA_LANGUAGE_PREFERENCE, "pt-PT")\n            putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, context.packageName)/g' ./app/src/main/java/com/example/MainActivity.kt

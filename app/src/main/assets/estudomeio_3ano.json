@@ -1,0 +1,3722 @@
+[
+  {
+    "id": "em_3_f1",
+    "numero": 1,
+    "titulo": "O Sistema Digestivo e a Nutrição",
+    "title": "O Sistema Digestivo e a Nutrição",
+    "descricao": "O caminho dos alimentos: boca, esófago, estômago, intestinos e absorção.",
+    "description": "O caminho dos alimentos: boca, esófago, estômago, intestinos e absorção.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "🍎",
+    "imageEmoji": "🍎",
+    "exercicios": [
+      {
+        "id": "em_3_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde tem início o processo da digestão dos alimentos?",
+        "question": "Onde tem início o processo da digestão dos alimentos?",
+        "resposta": "Na boca (com a mastigação e a saliva)",
+        "correctAnswer": "Na boca (com a mastigação e a saliva)",
+        "explicacao": "Na boca os dentes trituram e a saliva inicia a digestão química!",
+        "explanation": "Na boca os dentes trituram e a saliva inicia a digestão química!"
+      },
+      {
+        "id": "em_3_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No estômago, os sucos gástricos misturam os alimentos transformando-os no quimo.",
+        "question": "No estômago, os sucos gástricos misturam os alimentos transformando-os no quimo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O estômago funciona como um misturador com ácidos gástricos.",
+        "explanation": "Verdadeiro! O estômago funciona como um misturador com ácidos gástricos."
+      },
+      {
+        "id": "em_3_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A absorção dos nutrientes para o sangue ocorre nas paredes do intestino ___",
+        "question": "A absorção dos nutrientes para o sangue ocorre nas paredes do intestino ___",
+        "opcoes": [
+          "delgado",
+          "grosso",
+          "médio"
+        ],
+        "options": [
+          "delgado",
+          "grosso",
+          "médio"
+        ],
+        "resposta": "delgado",
+        "correctAnswer": "delgado",
+        "explicacao": "O intestino delgado é onde as vitaminas e nutrientes passam para o sangue.",
+        "explanation": "O intestino delgado é onde as vitaminas e nutrientes passam para o sangue."
+      },
+      {
+        "id": "em_3_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes órgãos é o maior tubo muscular que conduz a comida da boca ao estômago?",
+        "question": "Qual destes órgãos é o maior tubo muscular que conduz a comida da boca ao estômago?",
+        "opcoes": [
+          "👅 Esófago",
+          "🫁 Pulmão",
+          "🧠 Cérebro"
+        ],
+        "options": [
+          "👅 Esófago",
+          "🫁 Pulmão",
+          "🧠 Cérebro"
+        ],
+        "resposta": "👅 Esófago",
+        "correctAnswer": "👅 Esófago",
+        "explicacao": "O esófago conduz o bolo alimentar através de movimentos peristálticos!",
+        "explanation": "O esófago conduz o bolo alimentar através de movimentos peristálticos!"
+      },
+      {
+        "id": "em_3_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que órgão absorve a água e forma as fezes com os restos não digeridos?",
+        "question": "Que órgão absorve a água e forma as fezes com os restos não digeridos?",
+        "opcoes": [
+          "Intestino grosso",
+          "Boca",
+          "Coração"
+        ],
+        "options": [
+          "Intestino grosso",
+          "Boca",
+          "Coração"
+        ],
+        "resposta": "Intestino grosso",
+        "correctAnswer": "Intestino grosso",
+        "explicacao": "O intestino grosso compacta os resíduos que serão eliminados.",
+        "explanation": "O intestino grosso compacta os resíduos que serão eliminados."
+      },
+      {
+        "id": "em_3_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Mastigar devagar os alimentos facilita muito o trabalho de todo o sistema digestivo.",
+        "question": "Mastigar devagar os alimentos facilita muito o trabalho de todo o sistema digestivo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Uma boa mastigação previne dores de estômago e má digestão.",
+        "explanation": "Verdadeiro! Uma boa mastigação previne dores de estômago e má digestão."
+      },
+      {
+        "id": "em_3_f1_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O fígado e o pâncreas ajudam a digestão produzindo...",
+        "question": "O fígado e o pâncreas ajudam a digestão produzindo...",
+        "opcoes": [
+          "Sucos digestivos e bílis",
+          "Sangue puro",
+          "Ossos"
+        ],
+        "options": [
+          "Sucos digestivos e bílis",
+          "Sangue puro",
+          "Ossos"
+        ],
+        "resposta": "Sucos digestivos e bílis",
+        "correctAnswer": "Sucos digestivos e bílis",
+        "explicacao": "Ajudam a digerir gorduras e açúcares.",
+        "explanation": "Ajudam a digerir gorduras e açúcares."
+      },
+      {
+        "id": "em_3_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Ordena o trajeto do alimento no tubo digestivo:",
+        "question": "Ordena o trajeto do alimento no tubo digestivo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento do funcionamento digestivo!",
+        "explanation": "Excelente conhecimento do funcionamento digestivo!",
+        "pairs": {
+          "1.º Passo": "Boca (mastigação)",
+          "2.º Passo": "Esófago (transporte)",
+          "3.º Passo": "Estômago (digestão gástrica)",
+          "4.º Passo": "Intestino Delgado (absorção)"
+        },
+        "pares": {
+          "1.º Passo": "Boca (mastigação)",
+          "2.º Passo": "Esófago (transporte)",
+          "3.º Passo": "Estômago (digestão gástrica)",
+          "4.º Passo": "Intestino Delgado (absorção)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde tem início o processo da digestão dos alimentos?",
+        "question": "Onde tem início o processo da digestão dos alimentos?",
+        "resposta": "Na boca (com a mastigação e a saliva)",
+        "correctAnswer": "Na boca (com a mastigação e a saliva)",
+        "explicacao": "Na boca os dentes trituram e a saliva inicia a digestão química!",
+        "explanation": "Na boca os dentes trituram e a saliva inicia a digestão química!"
+      },
+      {
+        "id": "em_3_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No estômago, os sucos gástricos misturam os alimentos transformando-os no quimo.",
+        "question": "No estômago, os sucos gástricos misturam os alimentos transformando-os no quimo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O estômago funciona como um misturador com ácidos gástricos.",
+        "explanation": "Verdadeiro! O estômago funciona como um misturador com ácidos gástricos."
+      },
+      {
+        "id": "em_3_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A absorção dos nutrientes para o sangue ocorre nas paredes do intestino ___",
+        "question": "A absorção dos nutrientes para o sangue ocorre nas paredes do intestino ___",
+        "opcoes": [
+          "delgado",
+          "grosso",
+          "médio"
+        ],
+        "options": [
+          "delgado",
+          "grosso",
+          "médio"
+        ],
+        "resposta": "delgado",
+        "correctAnswer": "delgado",
+        "explicacao": "O intestino delgado é onde as vitaminas e nutrientes passam para o sangue.",
+        "explanation": "O intestino delgado é onde as vitaminas e nutrientes passam para o sangue."
+      },
+      {
+        "id": "em_3_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes órgãos é o maior tubo muscular que conduz a comida da boca ao estômago?",
+        "question": "Qual destes órgãos é o maior tubo muscular que conduz a comida da boca ao estômago?",
+        "opcoes": [
+          "👅 Esófago",
+          "🫁 Pulmão",
+          "🧠 Cérebro"
+        ],
+        "options": [
+          "👅 Esófago",
+          "🫁 Pulmão",
+          "🧠 Cérebro"
+        ],
+        "resposta": "👅 Esófago",
+        "correctAnswer": "👅 Esófago",
+        "explicacao": "O esófago conduz o bolo alimentar através de movimentos peristálticos!",
+        "explanation": "O esófago conduz o bolo alimentar através de movimentos peristálticos!"
+      },
+      {
+        "id": "em_3_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que órgão absorve a água e forma as fezes com os restos não digeridos?",
+        "question": "Que órgão absorve a água e forma as fezes com os restos não digeridos?",
+        "opcoes": [
+          "Intestino grosso",
+          "Boca",
+          "Coração"
+        ],
+        "options": [
+          "Intestino grosso",
+          "Boca",
+          "Coração"
+        ],
+        "resposta": "Intestino grosso",
+        "correctAnswer": "Intestino grosso",
+        "explicacao": "O intestino grosso compacta os resíduos que serão eliminados.",
+        "explanation": "O intestino grosso compacta os resíduos que serão eliminados."
+      },
+      {
+        "id": "em_3_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Mastigar devagar os alimentos facilita muito o trabalho de todo o sistema digestivo.",
+        "question": "Mastigar devagar os alimentos facilita muito o trabalho de todo o sistema digestivo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Uma boa mastigação previne dores de estômago e má digestão.",
+        "explanation": "Verdadeiro! Uma boa mastigação previne dores de estômago e má digestão."
+      },
+      {
+        "id": "em_3_f1_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O fígado e o pâncreas ajudam a digestão produzindo...",
+        "question": "O fígado e o pâncreas ajudam a digestão produzindo...",
+        "opcoes": [
+          "Sucos digestivos e bílis",
+          "Sangue puro",
+          "Ossos"
+        ],
+        "options": [
+          "Sucos digestivos e bílis",
+          "Sangue puro",
+          "Ossos"
+        ],
+        "resposta": "Sucos digestivos e bílis",
+        "correctAnswer": "Sucos digestivos e bílis",
+        "explicacao": "Ajudam a digerir gorduras e açúcares.",
+        "explanation": "Ajudam a digerir gorduras e açúcares."
+      },
+      {
+        "id": "em_3_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Ordena o trajeto do alimento no tubo digestivo:",
+        "question": "Ordena o trajeto do alimento no tubo digestivo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento do funcionamento digestivo!",
+        "explanation": "Excelente conhecimento do funcionamento digestivo!",
+        "pairs": {
+          "1.º Passo": "Boca (mastigação)",
+          "2.º Passo": "Esófago (transporte)",
+          "3.º Passo": "Estômago (digestão gástrica)",
+          "4.º Passo": "Intestino Delgado (absorção)"
+        },
+        "pares": {
+          "1.º Passo": "Boca (mastigação)",
+          "2.º Passo": "Esófago (transporte)",
+          "3.º Passo": "Estômago (digestão gástrica)",
+          "4.º Passo": "Intestino Delgado (absorção)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f2",
+    "numero": 2,
+    "titulo": "Sistemas Respiratório e Circulatório",
+    "title": "Sistemas Respiratório e Circulatório",
+    "descricao": "Inspiração, expiração, pulmões, coração, vasos sanguíneos e pulsação.",
+    "description": "Inspiração, expiração, pulmões, coração, vasos sanguíneos e pulsação.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🫀",
+    "imageEmoji": "🫀",
+    "exercicios": [
+      {
+        "id": "em_3_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o órgão muscular que funciona como uma bomba, fazendo circular o sangue por todo o corpo?",
+        "question": "Qual é o órgão muscular que funciona como uma bomba, fazendo circular o sangue por todo o corpo?",
+        "opcoes": [
+          "Coração",
+          "Fígado",
+          "Pulmão"
+        ],
+        "options": [
+          "Coração",
+          "Fígado",
+          "Pulmão"
+        ],
+        "resposta": "Coração",
+        "correctAnswer": "Coração",
+        "explicacao": "O coração bombeia o sangue oxigenado para todos os órgãos e tecidos!",
+        "explanation": "O coração bombeia o sangue oxigenado para todos os órgãos e tecidos!"
+      },
+      {
+        "id": "em_3_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na INSPIRAÇÃO os pulmões enchem-se de ar rico em oxigénio e o peito expande-se.",
+        "question": "Na INSPIRAÇÃO os pulmões enchem-se de ar rico em oxigénio e o peito expande-se.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Na inspiração captamos oxigénio; na expiração expelimos dióxido de carbono.",
+        "explanation": "Verdadeiro! Na inspiração captamos oxigénio; na expiração expelimos dióxido de carbono."
+      },
+      {
+        "id": "em_3_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Os tubos finos que transportam o sangue do coração para todo o corpo chamam-se ___",
+        "question": "Os tubos finos que transportam o sangue do coração para todo o corpo chamam-se ___",
+        "opcoes": [
+          "Artérias e veias",
+          "Ossos",
+          "Nervos"
+        ],
+        "options": [
+          "Artérias e veias",
+          "Ossos",
+          "Nervos"
+        ],
+        "resposta": "Artérias e veias",
+        "correctAnswer": "Artérias e veias",
+        "explicacao": "As artérias levam o sangue rico em oxigénio e as veias trazem-no de volta ao coração.",
+        "explanation": "As artérias levam o sangue rico em oxigénio e as veias trazem-no de volta ao coração."
+      },
+      {
+        "id": "em_3_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes órgãos é o principal responsável pelas trocas gasosas da respiração?",
+        "question": "Qual destes órgãos é o principal responsável pelas trocas gasosas da respiração?",
+        "opcoes": [
+          "🫁 Pulmões",
+          "🧠 Cérebro",
+          "🦷 Dentes"
+        ],
+        "options": [
+          "🫁 Pulmões",
+          "🧠 Cérebro",
+          "🦷 Dentes"
+        ],
+        "resposta": "🫁 Pulmões",
+        "correctAnswer": "🫁 Pulmões",
+        "explicacao": "Os pulmões realizam a troca de oxigénio por dióxido de carbono! 🫁",
+        "explanation": "Os pulmões realizam a troca de oxigénio por dióxido de carbono! 🫁"
+      },
+      {
+        "id": "em_3_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que acontece ao ritmo dos batimentos cardíacos quando corremos velozmente?",
+        "question": "O que acontece ao ritmo dos batimentos cardíacos quando corremos velozmente?",
+        "opcoes": [
+          "Acelera para levar mais oxigénio aos músculos",
+          "Pára completamente",
+          "Fica mais lento"
+        ],
+        "options": [
+          "Acelera para levar mais oxigénio aos músculos",
+          "Pára completamente",
+          "Fica mais lento"
+        ],
+        "resposta": "Acelera para levar mais oxigénio aos músculos",
+        "correctAnswer": "Acelera para levar mais oxigénio aos músculos",
+        "explicacao": "O coração bombeia mais rápido para abastecer os músculos de energia e oxigénio!",
+        "explanation": "O coração bombeia mais rápido para abastecer os músculos de energia e oxigénio!"
+      },
+      {
+        "id": "em_3_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Devemos inspirar o ar pelo nariz porque os pelos e mucosas nasais filtram e aquecem o ar.",
+        "question": "Devemos inspirar o ar pelo nariz porque os pelos e mucosas nasais filtram e aquecem o ar.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O nariz purifica e climatiza o ar antes de chegar aos pulmões.",
+        "explanation": "Verdadeiro! O nariz purifica e climatiza o ar antes de chegar aos pulmões."
+      },
+      {
+        "id": "em_3_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde podemos sentir facilmente a nossa pulsação com os dedos?",
+        "question": "Onde podemos sentir facilmente a nossa pulsação com os dedos?",
+        "opcoes": [
+          "No pulso ou no pescoço",
+          "Na ponta da unha",
+          "Na sola do sapato"
+        ],
+        "options": [
+          "No pulso ou no pescoço",
+          "Na ponta da unha",
+          "Na sola do sapato"
+        ],
+        "resposta": "No pulso ou no pescoço",
+        "correctAnswer": "No pulso ou no pescoço",
+        "explicacao": "A artéria radial no pulso permite sentir os batimentos cardíacos.",
+        "explanation": "A artéria radial no pulso permite sentir os batimentos cardíacos."
+      },
+      {
+        "id": "em_3_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a função ao órgão vital:",
+        "question": "Associa a função ao órgão vital:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito! Compreendes a sincronia entre a respiração e a circulação sanguínea.",
+        "explanation": "Perfeito! Compreendes a sincronia entre a respiração e a circulação sanguínea.",
+        "pairs": {
+          "Coração": "Bombear o sangue pelo corpo",
+          "Pulmões": "Trocas gasosas (oxigénio/CO2)",
+          "Traqueia": "Canal que conduz o ar aos brônquios",
+          "Glóbulos vermelhos": "Transportar oxigénio no sangue"
+        },
+        "pares": {
+          "Coração": "Bombear o sangue pelo corpo",
+          "Pulmões": "Trocas gasosas (oxigénio/CO2)",
+          "Traqueia": "Canal que conduz o ar aos brônquios",
+          "Glóbulos vermelhos": "Transportar oxigénio no sangue"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o órgão muscular que funciona como uma bomba, fazendo circular o sangue por todo o corpo?",
+        "question": "Qual é o órgão muscular que funciona como uma bomba, fazendo circular o sangue por todo o corpo?",
+        "opcoes": [
+          "Coração",
+          "Fígado",
+          "Pulmão"
+        ],
+        "options": [
+          "Coração",
+          "Fígado",
+          "Pulmão"
+        ],
+        "resposta": "Coração",
+        "correctAnswer": "Coração",
+        "explicacao": "O coração bombeia o sangue oxigenado para todos os órgãos e tecidos!",
+        "explanation": "O coração bombeia o sangue oxigenado para todos os órgãos e tecidos!"
+      },
+      {
+        "id": "em_3_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na INSPIRAÇÃO os pulmões enchem-se de ar rico em oxigénio e o peito expande-se.",
+        "question": "Na INSPIRAÇÃO os pulmões enchem-se de ar rico em oxigénio e o peito expande-se.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Na inspiração captamos oxigénio; na expiração expelimos dióxido de carbono.",
+        "explanation": "Verdadeiro! Na inspiração captamos oxigénio; na expiração expelimos dióxido de carbono."
+      },
+      {
+        "id": "em_3_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Os tubos finos que transportam o sangue do coração para todo o corpo chamam-se ___",
+        "question": "Os tubos finos que transportam o sangue do coração para todo o corpo chamam-se ___",
+        "opcoes": [
+          "Artérias e veias",
+          "Ossos",
+          "Nervos"
+        ],
+        "options": [
+          "Artérias e veias",
+          "Ossos",
+          "Nervos"
+        ],
+        "resposta": "Artérias e veias",
+        "correctAnswer": "Artérias e veias",
+        "explicacao": "As artérias levam o sangue rico em oxigénio e as veias trazem-no de volta ao coração.",
+        "explanation": "As artérias levam o sangue rico em oxigénio e as veias trazem-no de volta ao coração."
+      },
+      {
+        "id": "em_3_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes órgãos é o principal responsável pelas trocas gasosas da respiração?",
+        "question": "Qual destes órgãos é o principal responsável pelas trocas gasosas da respiração?",
+        "opcoes": [
+          "🫁 Pulmões",
+          "🧠 Cérebro",
+          "🦷 Dentes"
+        ],
+        "options": [
+          "🫁 Pulmões",
+          "🧠 Cérebro",
+          "🦷 Dentes"
+        ],
+        "resposta": "🫁 Pulmões",
+        "correctAnswer": "🫁 Pulmões",
+        "explicacao": "Os pulmões realizam a troca de oxigénio por dióxido de carbono! 🫁",
+        "explanation": "Os pulmões realizam a troca de oxigénio por dióxido de carbono! 🫁"
+      },
+      {
+        "id": "em_3_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que acontece ao ritmo dos batimentos cardíacos quando corremos velozmente?",
+        "question": "O que acontece ao ritmo dos batimentos cardíacos quando corremos velozmente?",
+        "opcoes": [
+          "Acelera para levar mais oxigénio aos músculos",
+          "Pára completamente",
+          "Fica mais lento"
+        ],
+        "options": [
+          "Acelera para levar mais oxigénio aos músculos",
+          "Pára completamente",
+          "Fica mais lento"
+        ],
+        "resposta": "Acelera para levar mais oxigénio aos músculos",
+        "correctAnswer": "Acelera para levar mais oxigénio aos músculos",
+        "explicacao": "O coração bombeia mais rápido para abastecer os músculos de energia e oxigénio!",
+        "explanation": "O coração bombeia mais rápido para abastecer os músculos de energia e oxigénio!"
+      },
+      {
+        "id": "em_3_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Devemos inspirar o ar pelo nariz porque os pelos e mucosas nasais filtram e aquecem o ar.",
+        "question": "Devemos inspirar o ar pelo nariz porque os pelos e mucosas nasais filtram e aquecem o ar.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O nariz purifica e climatiza o ar antes de chegar aos pulmões.",
+        "explanation": "Verdadeiro! O nariz purifica e climatiza o ar antes de chegar aos pulmões."
+      },
+      {
+        "id": "em_3_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde podemos sentir facilmente a nossa pulsação com os dedos?",
+        "question": "Onde podemos sentir facilmente a nossa pulsação com os dedos?",
+        "opcoes": [
+          "No pulso ou no pescoço",
+          "Na ponta da unha",
+          "Na sola do sapato"
+        ],
+        "options": [
+          "No pulso ou no pescoço",
+          "Na ponta da unha",
+          "Na sola do sapato"
+        ],
+        "resposta": "No pulso ou no pescoço",
+        "correctAnswer": "No pulso ou no pescoço",
+        "explicacao": "A artéria radial no pulso permite sentir os batimentos cardíacos.",
+        "explanation": "A artéria radial no pulso permite sentir os batimentos cardíacos."
+      },
+      {
+        "id": "em_3_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a função ao órgão vital:",
+        "question": "Associa a função ao órgão vital:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito! Compreendes a sincronia entre a respiração e a circulação sanguínea.",
+        "explanation": "Perfeito! Compreendes a sincronia entre a respiração e a circulação sanguínea.",
+        "pairs": {
+          "Coração": "Bombear o sangue pelo corpo",
+          "Pulmões": "Trocas gasosas (oxigénio/CO2)",
+          "Traqueia": "Canal que conduz o ar aos brônquios",
+          "Glóbulos vermelhos": "Transportar oxigénio no sangue"
+        },
+        "pares": {
+          "Coração": "Bombear o sangue pelo corpo",
+          "Pulmões": "Trocas gasosas (oxigénio/CO2)",
+          "Traqueia": "Canal que conduz o ar aos brônquios",
+          "Glóbulos vermelhos": "Transportar oxigénio no sangue"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f3",
+    "numero": 3,
+    "titulo": "O Sistema Excretor e a Pele",
+    "title": "O Sistema Excretor e a Pele",
+    "descricao": "Rins, bexiga, urina, suor e eliminação de toxinas do organismo.",
+    "description": "Rins, bexiga, urina, suor e eliminação de toxinas do organismo.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "💧",
+    "imageEmoji": "💧",
+    "exercicios": [
+      {
+        "id": "em_3_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que órgãos em forma de feijão filtram o sangue para retirar impurezas e produzir a urina?",
+        "question": "Que órgãos em forma de feijão filtram o sangue para retirar impurezas e produzir a urina?",
+        "opcoes": [
+          "Rins",
+          "Pulmões",
+          "Estômago"
+        ],
+        "options": [
+          "Rins",
+          "Pulmões",
+          "Estômago"
+        ],
+        "resposta": "Rins",
+        "correctAnswer": "Rins",
+        "explicacao": "Os rins funcionam como filtros de alta precisão que purificam o nosso sangue!",
+        "explanation": "Os rins funcionam como filtros de alta precisão que purificam o nosso sangue!"
+      },
+      {
+        "id": "em_3_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A bexiga é o órgão elástico onde a urina é armazenada antes de ser expelida.",
+        "question": "A bexiga é o órgão elástico onde a urina é armazenada antes de ser expelida.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A bexiga guarda a urina até irmos à casa de banho.",
+        "explanation": "Verdadeiro! A bexiga guarda a urina até irmos à casa de banho."
+      },
+      {
+        "id": "em_3_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A pele elimina água e toxinas através do ___ quando fazemos esforço ou está calor.",
+        "question": "A pele elimina água e toxinas através do ___ quando fazemos esforço ou está calor.",
+        "opcoes": [
+          "suor",
+          "sangue",
+          "cabelo"
+        ],
+        "options": [
+          "suor",
+          "sangue",
+          "cabelo"
+        ],
+        "resposta": "suor",
+        "correctAnswer": "suor",
+        "explicacao": "O suor arrefece a temperatura do corpo e elimina substâncias residuais.",
+        "explanation": "O suor arrefece a temperatura do corpo e elimina substâncias residuais."
+      },
+      {
+        "id": "em_3_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é o hábito mais importante para manter os rins saudáveis e a funcionar perfeitamente?",
+        "question": "Qual é o hábito mais importante para manter os rins saudáveis e a funcionar perfeitamente?",
+        "opcoes": [
+          "💧 Beber bastante água ao longo do dia",
+          "🥤 Beber refrigerantes com corantes",
+          "🧂 Comer comida cheia de sal"
+        ],
+        "options": [
+          "💧 Beber bastante água ao longo do dia",
+          "🥤 Beber refrigerantes com corantes",
+          "🧂 Comer comida cheia de sal"
+        ],
+        "resposta": "💧 Beber bastante água ao longo do dia",
+        "correctAnswer": "💧 Beber bastante água ao longo do dia",
+        "explicacao": "A água limpa e hidrata os rins prevenindo infeções! 💧",
+        "explanation": "A água limpa e hidrata os rins prevenindo infeções! 💧"
+      },
+      {
+        "id": "em_3_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o maior órgão de todo o corpo humano?",
+        "question": "Qual é o maior órgão de todo o corpo humano?",
+        "opcoes": [
+          "A Pele",
+          "O Fígado",
+          "O Fémur"
+        ],
+        "options": [
+          "A Pele",
+          "O Fígado",
+          "O Fémur"
+        ],
+        "resposta": "A Pele",
+        "correctAnswer": "A Pele",
+        "explicacao": "A pele reveste todo o nosso corpo, protegendo-nos contra bactérias e calor!",
+        "explanation": "A pele reveste todo o nosso corpo, protegendo-nos contra bactérias e calor!"
+      },
+      {
+        "id": "em_3_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Prender a urina durante muitas horas faz muito bem à saúde da bexiga.",
+        "question": "Prender a urina durante muitas horas faz muito bem à saúde da bexiga.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! Prender a urina pode provocar infeções urinárias.",
+        "explanation": "Falso! Prender a urina pode provocar infeções urinárias."
+      },
+      {
+        "id": "em_3_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os canais que transportam a urina dos rins até à bexiga chamam-se...",
+        "question": "Os canais que transportam a urina dos rins até à bexiga chamam-se...",
+        "opcoes": [
+          "Ureteros",
+          "Brônquios",
+          "Artérias"
+        ],
+        "options": [
+          "Ureteros",
+          "Brônquios",
+          "Artérias"
+        ],
+        "resposta": "Ureteros",
+        "correctAnswer": "Ureteros",
+        "explicacao": "Os dois ureteros ligam cada rim à bexiga.",
+        "explanation": "Os dois ureteros ligam cada rim à bexiga."
+      },
+      {
+        "id": "em_3_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a função excretora ao órgão respetivo:",
+        "question": "Associa a função excretora ao órgão respetivo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento do sistema excretor humano!",
+        "explanation": "Excelente conhecimento do sistema excretor humano!",
+        "pairs": {
+          "Rins": "Filtrar o sangue e produzir urina",
+          "Bexiga": "Armazenar a urina",
+          "Glândulas sudoríparas": "Produzir suor na pele",
+          "Uretra": "Canal de saída da urina para o exterior"
+        },
+        "pares": {
+          "Rins": "Filtrar o sangue e produzir urina",
+          "Bexiga": "Armazenar a urina",
+          "Glândulas sudoríparas": "Produzir suor na pele",
+          "Uretra": "Canal de saída da urina para o exterior"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que órgãos em forma de feijão filtram o sangue para retirar impurezas e produzir a urina?",
+        "question": "Que órgãos em forma de feijão filtram o sangue para retirar impurezas e produzir a urina?",
+        "opcoes": [
+          "Rins",
+          "Pulmões",
+          "Estômago"
+        ],
+        "options": [
+          "Rins",
+          "Pulmões",
+          "Estômago"
+        ],
+        "resposta": "Rins",
+        "correctAnswer": "Rins",
+        "explicacao": "Os rins funcionam como filtros de alta precisão que purificam o nosso sangue!",
+        "explanation": "Os rins funcionam como filtros de alta precisão que purificam o nosso sangue!"
+      },
+      {
+        "id": "em_3_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A bexiga é o órgão elástico onde a urina é armazenada antes de ser expelida.",
+        "question": "A bexiga é o órgão elástico onde a urina é armazenada antes de ser expelida.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A bexiga guarda a urina até irmos à casa de banho.",
+        "explanation": "Verdadeiro! A bexiga guarda a urina até irmos à casa de banho."
+      },
+      {
+        "id": "em_3_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A pele elimina água e toxinas através do ___ quando fazemos esforço ou está calor.",
+        "question": "A pele elimina água e toxinas através do ___ quando fazemos esforço ou está calor.",
+        "opcoes": [
+          "suor",
+          "sangue",
+          "cabelo"
+        ],
+        "options": [
+          "suor",
+          "sangue",
+          "cabelo"
+        ],
+        "resposta": "suor",
+        "correctAnswer": "suor",
+        "explicacao": "O suor arrefece a temperatura do corpo e elimina substâncias residuais.",
+        "explanation": "O suor arrefece a temperatura do corpo e elimina substâncias residuais."
+      },
+      {
+        "id": "em_3_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é o hábito mais importante para manter os rins saudáveis e a funcionar perfeitamente?",
+        "question": "Qual é o hábito mais importante para manter os rins saudáveis e a funcionar perfeitamente?",
+        "opcoes": [
+          "💧 Beber bastante água ao longo do dia",
+          "🥤 Beber refrigerantes com corantes",
+          "🧂 Comer comida cheia de sal"
+        ],
+        "options": [
+          "💧 Beber bastante água ao longo do dia",
+          "🥤 Beber refrigerantes com corantes",
+          "🧂 Comer comida cheia de sal"
+        ],
+        "resposta": "💧 Beber bastante água ao longo do dia",
+        "correctAnswer": "💧 Beber bastante água ao longo do dia",
+        "explicacao": "A água limpa e hidrata os rins prevenindo infeções! 💧",
+        "explanation": "A água limpa e hidrata os rins prevenindo infeções! 💧"
+      },
+      {
+        "id": "em_3_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o maior órgão de todo o corpo humano?",
+        "question": "Qual é o maior órgão de todo o corpo humano?",
+        "opcoes": [
+          "A Pele",
+          "O Fígado",
+          "O Fémur"
+        ],
+        "options": [
+          "A Pele",
+          "O Fígado",
+          "O Fémur"
+        ],
+        "resposta": "A Pele",
+        "correctAnswer": "A Pele",
+        "explicacao": "A pele reveste todo o nosso corpo, protegendo-nos contra bactérias e calor!",
+        "explanation": "A pele reveste todo o nosso corpo, protegendo-nos contra bactérias e calor!"
+      },
+      {
+        "id": "em_3_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Prender a urina durante muitas horas faz muito bem à saúde da bexiga.",
+        "question": "Prender a urina durante muitas horas faz muito bem à saúde da bexiga.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! Prender a urina pode provocar infeções urinárias.",
+        "explanation": "Falso! Prender a urina pode provocar infeções urinárias."
+      },
+      {
+        "id": "em_3_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os canais que transportam a urina dos rins até à bexiga chamam-se...",
+        "question": "Os canais que transportam a urina dos rins até à bexiga chamam-se...",
+        "opcoes": [
+          "Ureteros",
+          "Brônquios",
+          "Artérias"
+        ],
+        "options": [
+          "Ureteros",
+          "Brônquios",
+          "Artérias"
+        ],
+        "resposta": "Ureteros",
+        "correctAnswer": "Ureteros",
+        "explicacao": "Os dois ureteros ligam cada rim à bexiga.",
+        "explanation": "Os dois ureteros ligam cada rim à bexiga."
+      },
+      {
+        "id": "em_3_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a função excretora ao órgão respetivo:",
+        "question": "Associa a função excretora ao órgão respetivo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento do sistema excretor humano!",
+        "explanation": "Excelente conhecimento do sistema excretor humano!",
+        "pairs": {
+          "Rins": "Filtrar o sangue e produzir urina",
+          "Bexiga": "Armazenar a urina",
+          "Glândulas sudoríparas": "Produzir suor na pele",
+          "Uretra": "Canal de saída da urina para o exterior"
+        },
+        "pares": {
+          "Rins": "Filtrar o sangue e produzir urina",
+          "Bexiga": "Armazenar a urina",
+          "Glândulas sudoríparas": "Produzir suor na pele",
+          "Uretra": "Canal de saída da urina para o exterior"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f4",
+    "numero": 4,
+    "titulo": "Reprodução dos Animais e Metamorfoses",
+    "title": "Reprodução dos Animais e Metamorfoses",
+    "descricao": "Vivíparos, ovíparos, ovovivíparos e a fascinante metamorfose da borboleta e da rã.",
+    "description": "Vivíparos, ovíparos, ovovivíparos e a fascinante metamorfose da borboleta e da rã.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🦋",
+    "imageEmoji": "🦋",
+    "exercicios": [
+      {
+        "id": "em_3_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam os animais cujos embriões se desenvolvem DENTRO de ovos fora do corpo da mãe?",
+        "question": "Como se chamam os animais cujos embriões se desenvolvem DENTRO de ovos fora do corpo da mãe?",
+        "opcoes": [
+          "Ovíparos",
+          "Vivíparos",
+          "Mamíferos"
+        ],
+        "options": [
+          "Ovíparos",
+          "Vivíparos",
+          "Mamíferos"
+        ],
+        "resposta": "Ovíparos",
+        "correctAnswer": "Ovíparos",
+        "explicacao": "Aves, tartarugas e a maioria dos répteis e peixes são ovíparos!",
+        "explanation": "Aves, tartarugas e a maioria dos répteis e peixes são ovíparos!"
+      },
+      {
+        "id": "em_3_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os animais vivíparos (como o cavalo, cão e humano) desenvolvem-se no útero materno até nascerem.",
+        "question": "Os animais vivíparos (como o cavalo, cão e humano) desenvolvem-se no útero materno até nascerem.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Nascem diretamente do ventre da mãe.",
+        "explanation": "Verdadeiro! Nascem diretamente do ventre da mãe."
+      },
+      {
+        "id": "em_3_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O processo de transformação radical pelo qual passa a lagarta até virar borboleta chama-se ___",
+        "question": "O processo de transformação radical pelo qual passa a lagarta até virar borboleta chama-se ___",
+        "opcoes": [
+          "Metamorfose",
+          "Germinação",
+          "Hibernação"
+        ],
+        "options": [
+          "Metamorfose",
+          "Germinação",
+          "Hibernação"
+        ],
+        "resposta": "Metamorfose",
+        "correctAnswer": "Metamorfose",
+        "explicacao": "A metamorfose transforma a lagarta em crisálida e depois em bela borboleta!",
+        "explanation": "A metamorfose transforma a lagarta em crisálida e depois em bela borboleta!"
+      },
+      {
+        "id": "em_3_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é a primeira fase aquática da rã quando nasce do ovo com cauda?",
+        "question": "Qual é a primeira fase aquática da rã quando nasce do ovo com cauda?",
+        "opcoes": [
+          "🐸 Girino",
+          "🐸 Rã adulta",
+          "🐸 Sapo com asas"
+        ],
+        "options": [
+          "🐸 Girino",
+          "🐸 Rã adulta",
+          "🐸 Sapo com asas"
+        ],
+        "resposta": "🐸 Girino",
+        "correctAnswer": "🐸 Girino",
+        "explicacao": "O girino nada com cauda e brânquias antes de desenvolver pernas e pulmões! 🐸",
+        "explanation": "O girino nada com cauda e brânquias antes de desenvolver pernas e pulmões! 🐸"
+      },
+      {
+        "id": "em_3_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes animais é um exemplo de animal VIVÍPARO?",
+        "question": "Qual destes animais é um exemplo de animal VIVÍPARO?",
+        "opcoes": [
+          "Golfinho",
+          "Galinha",
+          "Crocodilo"
+        ],
+        "options": [
+          "Golfinho",
+          "Galinha",
+          "Crocodilo"
+        ],
+        "resposta": "Golfinho",
+        "correctAnswer": "Golfinho",
+        "explicacao": "O golfinho é um mamífero marinho vivíparo!",
+        "explanation": "O golfinho é um mamífero marinho vivíparo!"
+      },
+      {
+        "id": "em_3_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As aves chocam os ovos no ninho com o calor do seu corpo para que o embrião se desenvolva.",
+        "question": "As aves chocam os ovos no ninho com o calor do seu corpo para que o embrião se desenvolva.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O choco garante a temperatura ideal para a eclosão.",
+        "explanation": "Verdadeiro! O choco garante a temperatura ideal para a eclosão."
+      },
+      {
+        "id": "em_3_f4_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as fases da metamorfose da borboleta:",
+        "question": "Ordena as fases da metamorfose da borboleta:",
+        "opcoes": [
+          "Ovo",
+          "Lagarta",
+          "Crisálida / Casulo",
+          "Borboleta adulta"
+        ],
+        "options": [
+          "Ovo",
+          "Lagarta",
+          "Crisálida / Casulo",
+          "Borboleta adulta"
+        ],
+        "resposta": "Ovo-Lagarta-Crisálida / Casulo-Borboleta adulta",
+        "correctAnswer": "Ovo-Lagarta-Crisálida / Casulo-Borboleta adulta",
+        "explicacao": "Ovo -> Lagarta comilona -> Casulo -> Borboleta espetacular!",
+        "explanation": "Ovo -> Lagarta comilona -> Casulo -> Borboleta espetacular!",
+        "correctAnswers": [
+          "Ovo",
+          "Lagarta",
+          "Crisálida / Casulo",
+          "Borboleta adulta"
+        ],
+        "respostasCorretas": [
+          "Ovo",
+          "Lagarta",
+          "Crisálida / Casulo",
+          "Borboleta adulta"
+        ]
+      },
+      {
+        "id": "em_3_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica quanto ao tipo de reprodução:",
+        "question": "Classifica quanto ao tipo de reprodução:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita compreensão da reprodução e metamorfoses animais!",
+        "explanation": "Perfeita compreensão da reprodução e metamorfoses animais!",
+        "pairs": {
+          "Águia": "Ovíparo (põe ovos)",
+          "Vaca": "Vivíparo (nasce da barriga)",
+          "Tartaruga marinha": "Ovíparo (põe ovos na areia)",
+          "Gato": "Vivíparo (mamífero)"
+        },
+        "pares": {
+          "Águia": "Ovíparo (põe ovos)",
+          "Vaca": "Vivíparo (nasce da barriga)",
+          "Tartaruga marinha": "Ovíparo (põe ovos na areia)",
+          "Gato": "Vivíparo (mamífero)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam os animais cujos embriões se desenvolvem DENTRO de ovos fora do corpo da mãe?",
+        "question": "Como se chamam os animais cujos embriões se desenvolvem DENTRO de ovos fora do corpo da mãe?",
+        "opcoes": [
+          "Ovíparos",
+          "Vivíparos",
+          "Mamíferos"
+        ],
+        "options": [
+          "Ovíparos",
+          "Vivíparos",
+          "Mamíferos"
+        ],
+        "resposta": "Ovíparos",
+        "correctAnswer": "Ovíparos",
+        "explicacao": "Aves, tartarugas e a maioria dos répteis e peixes são ovíparos!",
+        "explanation": "Aves, tartarugas e a maioria dos répteis e peixes são ovíparos!"
+      },
+      {
+        "id": "em_3_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os animais vivíparos (como o cavalo, cão e humano) desenvolvem-se no útero materno até nascerem.",
+        "question": "Os animais vivíparos (como o cavalo, cão e humano) desenvolvem-se no útero materno até nascerem.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Nascem diretamente do ventre da mãe.",
+        "explanation": "Verdadeiro! Nascem diretamente do ventre da mãe."
+      },
+      {
+        "id": "em_3_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O processo de transformação radical pelo qual passa a lagarta até virar borboleta chama-se ___",
+        "question": "O processo de transformação radical pelo qual passa a lagarta até virar borboleta chama-se ___",
+        "opcoes": [
+          "Metamorfose",
+          "Germinação",
+          "Hibernação"
+        ],
+        "options": [
+          "Metamorfose",
+          "Germinação",
+          "Hibernação"
+        ],
+        "resposta": "Metamorfose",
+        "correctAnswer": "Metamorfose",
+        "explicacao": "A metamorfose transforma a lagarta em crisálida e depois em bela borboleta!",
+        "explanation": "A metamorfose transforma a lagarta em crisálida e depois em bela borboleta!"
+      },
+      {
+        "id": "em_3_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é a primeira fase aquática da rã quando nasce do ovo com cauda?",
+        "question": "Qual é a primeira fase aquática da rã quando nasce do ovo com cauda?",
+        "opcoes": [
+          "🐸 Girino",
+          "🐸 Rã adulta",
+          "🐸 Sapo com asas"
+        ],
+        "options": [
+          "🐸 Girino",
+          "🐸 Rã adulta",
+          "🐸 Sapo com asas"
+        ],
+        "resposta": "🐸 Girino",
+        "correctAnswer": "🐸 Girino",
+        "explicacao": "O girino nada com cauda e brânquias antes de desenvolver pernas e pulmões! 🐸",
+        "explanation": "O girino nada com cauda e brânquias antes de desenvolver pernas e pulmões! 🐸"
+      },
+      {
+        "id": "em_3_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes animais é um exemplo de animal VIVÍPARO?",
+        "question": "Qual destes animais é um exemplo de animal VIVÍPARO?",
+        "opcoes": [
+          "Golfinho",
+          "Galinha",
+          "Crocodilo"
+        ],
+        "options": [
+          "Golfinho",
+          "Galinha",
+          "Crocodilo"
+        ],
+        "resposta": "Golfinho",
+        "correctAnswer": "Golfinho",
+        "explicacao": "O golfinho é um mamífero marinho vivíparo!",
+        "explanation": "O golfinho é um mamífero marinho vivíparo!"
+      },
+      {
+        "id": "em_3_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As aves chocam os ovos no ninho com o calor do seu corpo para que o embrião se desenvolva.",
+        "question": "As aves chocam os ovos no ninho com o calor do seu corpo para que o embrião se desenvolva.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O choco garante a temperatura ideal para a eclosão.",
+        "explanation": "Verdadeiro! O choco garante a temperatura ideal para a eclosão."
+      },
+      {
+        "id": "em_3_f4_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as fases da metamorfose da borboleta:",
+        "question": "Ordena as fases da metamorfose da borboleta:",
+        "opcoes": [
+          "Ovo",
+          "Lagarta",
+          "Crisálida / Casulo",
+          "Borboleta adulta"
+        ],
+        "options": [
+          "Ovo",
+          "Lagarta",
+          "Crisálida / Casulo",
+          "Borboleta adulta"
+        ],
+        "resposta": "Ovo-Lagarta-Crisálida / Casulo-Borboleta adulta",
+        "correctAnswer": "Ovo-Lagarta-Crisálida / Casulo-Borboleta adulta",
+        "explicacao": "Ovo -> Lagarta comilona -> Casulo -> Borboleta espetacular!",
+        "explanation": "Ovo -> Lagarta comilona -> Casulo -> Borboleta espetacular!",
+        "correctAnswers": [
+          "Ovo",
+          "Lagarta",
+          "Crisálida / Casulo",
+          "Borboleta adulta"
+        ],
+        "respostasCorretas": [
+          "Ovo",
+          "Lagarta",
+          "Crisálida / Casulo",
+          "Borboleta adulta"
+        ]
+      },
+      {
+        "id": "em_3_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica quanto ao tipo de reprodução:",
+        "question": "Classifica quanto ao tipo de reprodução:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita compreensão da reprodução e metamorfoses animais!",
+        "explanation": "Perfeita compreensão da reprodução e metamorfoses animais!",
+        "pairs": {
+          "Águia": "Ovíparo (põe ovos)",
+          "Vaca": "Vivíparo (nasce da barriga)",
+          "Tartaruga marinha": "Ovíparo (põe ovos na areia)",
+          "Gato": "Vivíparo (mamífero)"
+        },
+        "pares": {
+          "Águia": "Ovíparo (põe ovos)",
+          "Vaca": "Vivíparo (nasce da barriga)",
+          "Tartaruga marinha": "Ovíparo (põe ovos na areia)",
+          "Gato": "Vivíparo (mamífero)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f5",
+    "numero": 5,
+    "titulo": "As Plantas: Germinação e Fotossíntese",
+    "title": "As Plantas: Germinação e Fotossíntese",
+    "descricao": "Condições de germinação, clorofila, luz solar, dióxido de carbono e polinização.",
+    "description": "Condições de germinação, clorofila, luz solar, dióxido de carbono e polinização.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🌻",
+    "imageEmoji": "🌻",
+    "exercicios": [
+      {
+        "id": "em_3_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o processo pelo qual as folhas verdes produzem o alimento da planta usando luz solar?",
+        "question": "Como se chama o processo pelo qual as folhas verdes produzem o alimento da planta usando luz solar?",
+        "opcoes": [
+          "Fotossíntese",
+          "Digestão",
+          "Transpiração"
+        ],
+        "options": [
+          "Fotossíntese",
+          "Digestão",
+          "Transpiração"
+        ],
+        "resposta": "Fotossíntese",
+        "correctAnswer": "Fotossíntese",
+        "explicacao": "A fotossíntese capta luz solar, água e CO2 para produzir glicose e oxigénio!",
+        "explanation": "A fotossíntese capta luz solar, água e CO2 para produzir glicose e oxigénio!"
+      },
+      {
+        "id": "em_3_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O pigmento verde das folhas que absorve a luz do Sol chama-se CLOROFILA.",
+        "question": "O pigmento verde das folhas que absorve a luz do Sol chama-se CLOROFILA.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A clorofila dá a cor verde às folhas.",
+        "explanation": "Verdadeiro! A clorofila dá a cor verde às folhas."
+      },
+      {
+        "id": "em_3_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "De que necessita uma semente para germinar com vigor? Água, ar e ___ adequada.",
+        "question": "De que necessita uma semente para germinar com vigor? Água, ar e ___ adequada.",
+        "opcoes": [
+          "temperatura / calor",
+          "escuridão gelada",
+          "sal"
+        ],
+        "options": [
+          "temperatura / calor",
+          "escuridão gelada",
+          "sal"
+        ],
+        "resposta": "temperatura / calor",
+        "correctAnswer": "temperatura / calor",
+        "explicacao": "Humidade e temperatura amena despertam a semente adormecida.",
+        "explanation": "Humidade e temperatura amena despertam a semente adormecida."
+      },
+      {
+        "id": "em_3_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes insetos é o mais importante POLINIZADOR de flores na natureza?",
+        "question": "Qual destes insetos é o mais importante POLINIZADOR de flores na natureza?",
+        "opcoes": [
+          "🐝 Abelha",
+          "🦟 Mosquito",
+          "🪰 Mosca"
+        ],
+        "options": [
+          "🐝 Abelha",
+          "🦟 Mosquito",
+          "🪰 Mosca"
+        ],
+        "resposta": "🐝 Abelha",
+        "correctAnswer": "🐝 Abelha",
+        "explicacao": "As abelhas transportam o pólen entre flores permitindo a formação de frutos! 🐝",
+        "explanation": "As abelhas transportam o pólen entre flores permitindo a formação de frutos! 🐝"
+      },
+      {
+        "id": "em_3_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Durante o dia, que gás libertam as plantas para a atmosfera, essencial à vida humana?",
+        "question": "Durante o dia, que gás libertam as plantas para a atmosfera, essencial à vida humana?",
+        "opcoes": [
+          "Oxigénio",
+          "Dióxido de carbono",
+          "Fumo"
+        ],
+        "options": [
+          "Oxigénio",
+          "Dióxido de carbono",
+          "Fumo"
+        ],
+        "resposta": "Oxigénio",
+        "correctAnswer": "Oxigénio",
+        "explicacao": "As plantas purificam o ar libertando oxigénio puro!",
+        "explanation": "As plantas purificam o ar libertando oxigénio puro!"
+      },
+      {
+        "id": "em_3_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A polinização é o transporte dos grãos de pólen da antera para o estigma da flor.",
+        "question": "A polinização é o transporte dos grãos de pólen da antera para o estigma da flor.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Permite a fecundação e produção de novas sementes.",
+        "explanation": "Verdadeiro! Permite a fecundação e produção de novas sementes."
+      },
+      {
+        "id": "em_3_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como viajam as sementes na natureza para conquistar novos terrenos?",
+        "question": "Como viajam as sementes na natureza para conquistar novos terrenos?",
+        "opcoes": [
+          "Pelo vento, água e agarradas ao pelo dos animais",
+          "Apenas por comboio",
+          "Ficam sempre no mesmo centímetro"
+        ],
+        "options": [
+          "Pelo vento, água e agarradas ao pelo dos animais",
+          "Apenas por comboio",
+          "Ficam sempre no mesmo centímetro"
+        ],
+        "resposta": "Pelo vento, água e agarradas ao pelo dos animais",
+        "correctAnswer": "Pelo vento, água e agarradas ao pelo dos animais",
+        "explicacao": "A dispersão das sementes garante a sobrevivência das espécies vegetais.",
+        "explanation": "A dispersão das sementes garante a sobrevivência das espécies vegetais."
+      },
+      {
+        "id": "em_3_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o elemento vegetal à sua função na fotossíntese:",
+        "question": "Associa o elemento vegetal à sua função na fotossíntese:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecimento botânico e ecológico de nível superior!",
+        "explanation": "Conhecimento botânico e ecológico de nível superior!",
+        "pairs": {
+          "Luz Solar": "Fonte de energia captada pela clorofila",
+          "Raízes": "Absorção de água e sais minerais",
+          "Estomas das folhas": "Trocas gasosas (absorve CO2 e liberta O2)",
+          "Flor": "Órgão reprodutor que dará origem ao fruto"
+        },
+        "pares": {
+          "Luz Solar": "Fonte de energia captada pela clorofila",
+          "Raízes": "Absorção de água e sais minerais",
+          "Estomas das folhas": "Trocas gasosas (absorve CO2 e liberta O2)",
+          "Flor": "Órgão reprodutor que dará origem ao fruto"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o processo pelo qual as folhas verdes produzem o alimento da planta usando luz solar?",
+        "question": "Como se chama o processo pelo qual as folhas verdes produzem o alimento da planta usando luz solar?",
+        "opcoes": [
+          "Fotossíntese",
+          "Digestão",
+          "Transpiração"
+        ],
+        "options": [
+          "Fotossíntese",
+          "Digestão",
+          "Transpiração"
+        ],
+        "resposta": "Fotossíntese",
+        "correctAnswer": "Fotossíntese",
+        "explicacao": "A fotossíntese capta luz solar, água e CO2 para produzir glicose e oxigénio!",
+        "explanation": "A fotossíntese capta luz solar, água e CO2 para produzir glicose e oxigénio!"
+      },
+      {
+        "id": "em_3_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O pigmento verde das folhas que absorve a luz do Sol chama-se CLOROFILA.",
+        "question": "O pigmento verde das folhas que absorve a luz do Sol chama-se CLOROFILA.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A clorofila dá a cor verde às folhas.",
+        "explanation": "Verdadeiro! A clorofila dá a cor verde às folhas."
+      },
+      {
+        "id": "em_3_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "De que necessita uma semente para germinar com vigor? Água, ar e ___ adequada.",
+        "question": "De que necessita uma semente para germinar com vigor? Água, ar e ___ adequada.",
+        "opcoes": [
+          "temperatura / calor",
+          "escuridão gelada",
+          "sal"
+        ],
+        "options": [
+          "temperatura / calor",
+          "escuridão gelada",
+          "sal"
+        ],
+        "resposta": "temperatura / calor",
+        "correctAnswer": "temperatura / calor",
+        "explicacao": "Humidade e temperatura amena despertam a semente adormecida.",
+        "explanation": "Humidade e temperatura amena despertam a semente adormecida."
+      },
+      {
+        "id": "em_3_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes insetos é o mais importante POLINIZADOR de flores na natureza?",
+        "question": "Qual destes insetos é o mais importante POLINIZADOR de flores na natureza?",
+        "opcoes": [
+          "🐝 Abelha",
+          "🦟 Mosquito",
+          "🪰 Mosca"
+        ],
+        "options": [
+          "🐝 Abelha",
+          "🦟 Mosquito",
+          "🪰 Mosca"
+        ],
+        "resposta": "🐝 Abelha",
+        "correctAnswer": "🐝 Abelha",
+        "explicacao": "As abelhas transportam o pólen entre flores permitindo a formação de frutos! 🐝",
+        "explanation": "As abelhas transportam o pólen entre flores permitindo a formação de frutos! 🐝"
+      },
+      {
+        "id": "em_3_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Durante o dia, que gás libertam as plantas para a atmosfera, essencial à vida humana?",
+        "question": "Durante o dia, que gás libertam as plantas para a atmosfera, essencial à vida humana?",
+        "opcoes": [
+          "Oxigénio",
+          "Dióxido de carbono",
+          "Fumo"
+        ],
+        "options": [
+          "Oxigénio",
+          "Dióxido de carbono",
+          "Fumo"
+        ],
+        "resposta": "Oxigénio",
+        "correctAnswer": "Oxigénio",
+        "explicacao": "As plantas purificam o ar libertando oxigénio puro!",
+        "explanation": "As plantas purificam o ar libertando oxigénio puro!"
+      },
+      {
+        "id": "em_3_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A polinização é o transporte dos grãos de pólen da antera para o estigma da flor.",
+        "question": "A polinização é o transporte dos grãos de pólen da antera para o estigma da flor.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Permite a fecundação e produção de novas sementes.",
+        "explanation": "Verdadeiro! Permite a fecundação e produção de novas sementes."
+      },
+      {
+        "id": "em_3_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como viajam as sementes na natureza para conquistar novos terrenos?",
+        "question": "Como viajam as sementes na natureza para conquistar novos terrenos?",
+        "opcoes": [
+          "Pelo vento, água e agarradas ao pelo dos animais",
+          "Apenas por comboio",
+          "Ficam sempre no mesmo centímetro"
+        ],
+        "options": [
+          "Pelo vento, água e agarradas ao pelo dos animais",
+          "Apenas por comboio",
+          "Ficam sempre no mesmo centímetro"
+        ],
+        "resposta": "Pelo vento, água e agarradas ao pelo dos animais",
+        "correctAnswer": "Pelo vento, água e agarradas ao pelo dos animais",
+        "explicacao": "A dispersão das sementes garante a sobrevivência das espécies vegetais.",
+        "explanation": "A dispersão das sementes garante a sobrevivência das espécies vegetais."
+      },
+      {
+        "id": "em_3_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o elemento vegetal à sua função na fotossíntese:",
+        "question": "Associa o elemento vegetal à sua função na fotossíntese:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecimento botânico e ecológico de nível superior!",
+        "explanation": "Conhecimento botânico e ecológico de nível superior!",
+        "pairs": {
+          "Luz Solar": "Fonte de energia captada pela clorofila",
+          "Raízes": "Absorção de água e sais minerais",
+          "Estomas das folhas": "Trocas gasosas (absorve CO2 e liberta O2)",
+          "Flor": "Órgão reprodutor que dará origem ao fruto"
+        },
+        "pares": {
+          "Luz Solar": "Fonte de energia captada pela clorofila",
+          "Raízes": "Absorção de água e sais minerais",
+          "Estomas das folhas": "Trocas gasosas (absorve CO2 e liberta O2)",
+          "Flor": "Órgão reprodutor que dará origem ao fruto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f6",
+    "numero": 6,
+    "titulo": "A Terra no Espaço: O Sistema Solar e a Lua",
+    "title": "A Terra no Espaço: O Sistema Solar e a Lua",
+    "descricao": "Sol, os 8 planetas, movimentos de rotação e translação, fases da Lua e marés.",
+    "description": "Sol, os 8 planetas, movimentos de rotação e translação, fases da Lua e marés.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🪐",
+    "imageEmoji": "🪐",
+    "exercicios": [
+      {
+        "id": "em_3_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o astro central e luminoso à volta do qual giram todos os planetas do Sistema Solar?",
+        "question": "Qual é o astro central e luminoso à volta do qual giram todos os planetas do Sistema Solar?",
+        "resposta": "O Sol (uma estrela)",
+        "correctAnswer": "O Sol (uma estrela)",
+        "explicacao": "O Sol é a estrela no centro do nosso sistema planetário!",
+        "explanation": "O Sol é a estrela no centro do nosso sistema planetário!"
+      },
+      {
+        "id": "em_3_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O movimento de ROTAÇÃO da Terra sobre o seu próprio eixo dura 24 horas e dá origem aos Dias e às Noites.",
+        "question": "O movimento de ROTAÇÃO da Terra sobre o seu próprio eixo dura 24 horas e dá origem aos Dias e às Noites.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1 volta completa = 24 horas (1 dia).",
+        "explanation": "Verdadeiro! 1 volta completa = 24 horas (1 dia)."
+      },
+      {
+        "id": "em_3_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O movimento de TRANSLAÇÃO da Terra à volta do Sol demora 365 dias e dá origem às 4 ___ do ano.",
+        "question": "O movimento de TRANSLAÇÃO da Terra à volta do Sol demora 365 dias e dá origem às 4 ___ do ano.",
+        "opcoes": [
+          "estações",
+          "semanas",
+          "horas"
+        ],
+        "options": [
+          "estações",
+          "semanas",
+          "horas"
+        ],
+        "resposta": "estações",
+        "correctAnswer": "estações",
+        "explicacao": "A inclinação do eixo e a translação geram Primavera, Verão, Outono e Inverno.",
+        "explanation": "A inclinação do eixo e a translação geram Primavera, Verão, Outono e Inverno."
+      },
+      {
+        "id": "em_3_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é o único satélite natural da Terra que brilha à noite ao refletir a luz solar?",
+        "question": "Qual é o único satélite natural da Terra que brilha à noite ao refletir a luz solar?",
+        "opcoes": [
+          "🌕 A Lua",
+          "🪐 Saturno",
+          "⭐ Estrela polar"
+        ],
+        "options": [
+          "🌕 A Lua",
+          "🪐 Saturno",
+          "⭐ Estrela polar"
+        ],
+        "resposta": "🌕 A Lua",
+        "correctAnswer": "🌕 A Lua",
+        "explicacao": "A Lua é o satélite natural que orbita a Terra! 🌕",
+        "explanation": "A Lua é o satélite natural que orbita a Terra! 🌕"
+      },
+      {
+        "id": "em_3_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas fases principais tem a Lua ao longo do seu ciclo de 28 dias?",
+        "question": "Quantas fases principais tem a Lua ao longo do seu ciclo de 28 dias?",
+        "resposta": "4 fases (Nova, Quarto Crescente, Cheia, Quarto Minguante)",
+        "correctAnswer": "4 fases (Nova, Quarto Crescente, Cheia, Quarto Minguante)",
+        "explicacao": "Lua Nova, Quarto Crescente, Lua Cheia e Quarto Minguante!",
+        "explanation": "Lua Nova, Quarto Crescente, Lua Cheia e Quarto Minguante!"
+      },
+      {
+        "id": "em_3_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Terra é o 3.º planeta a contar a partir do Sol.",
+        "question": "A Terra é o 3.º planeta a contar a partir do Sol.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Mercúrio, Vénus, Terra, Marte, Júpiter, Saturno, Úrano, Neptuno.",
+        "explanation": "Verdadeiro! Mercúrio, Vénus, Terra, Marte, Júpiter, Saturno, Úrano, Neptuno."
+      },
+      {
+        "id": "em_3_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o maior planeta de todo o Sistema Solar?",
+        "question": "Qual é o maior planeta de todo o Sistema Solar?",
+        "opcoes": [
+          "Júpiter",
+          "Terra",
+          "Mercúrio"
+        ],
+        "options": [
+          "Júpiter",
+          "Terra",
+          "Mercúrio"
+        ],
+        "resposta": "Júpiter",
+        "correctAnswer": "Júpiter",
+        "explicacao": "Júpiter é o gigante gasoso do nosso sistema solar.",
+        "explanation": "Júpiter é o gigante gasoso do nosso sistema solar."
+      },
+      {
+        "id": "em_3_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os conceitos astronómicos:",
+        "question": "Associa os conceitos astronómicos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre o Universo e o Sistema Solar!",
+        "explanation": "Excelente conhecimento sobre o Universo e o Sistema Solar!",
+        "pairs": {
+          "Rotação da Terra": "Origina o Dia e a Noite (24 horas)",
+          "Translação da Terra": "Origina o Ano e as 4 Estações (365 dias)",
+          "Lua": "Satélite natural da Terra",
+          "Sol": "Estrela que emite luz e calor"
+        },
+        "pares": {
+          "Rotação da Terra": "Origina o Dia e a Noite (24 horas)",
+          "Translação da Terra": "Origina o Ano e as 4 Estações (365 dias)",
+          "Lua": "Satélite natural da Terra",
+          "Sol": "Estrela que emite luz e calor"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o astro central e luminoso à volta do qual giram todos os planetas do Sistema Solar?",
+        "question": "Qual é o astro central e luminoso à volta do qual giram todos os planetas do Sistema Solar?",
+        "resposta": "O Sol (uma estrela)",
+        "correctAnswer": "O Sol (uma estrela)",
+        "explicacao": "O Sol é a estrela no centro do nosso sistema planetário!",
+        "explanation": "O Sol é a estrela no centro do nosso sistema planetário!"
+      },
+      {
+        "id": "em_3_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O movimento de ROTAÇÃO da Terra sobre o seu próprio eixo dura 24 horas e dá origem aos Dias e às Noites.",
+        "question": "O movimento de ROTAÇÃO da Terra sobre o seu próprio eixo dura 24 horas e dá origem aos Dias e às Noites.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1 volta completa = 24 horas (1 dia).",
+        "explanation": "Verdadeiro! 1 volta completa = 24 horas (1 dia)."
+      },
+      {
+        "id": "em_3_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O movimento de TRANSLAÇÃO da Terra à volta do Sol demora 365 dias e dá origem às 4 ___ do ano.",
+        "question": "O movimento de TRANSLAÇÃO da Terra à volta do Sol demora 365 dias e dá origem às 4 ___ do ano.",
+        "opcoes": [
+          "estações",
+          "semanas",
+          "horas"
+        ],
+        "options": [
+          "estações",
+          "semanas",
+          "horas"
+        ],
+        "resposta": "estações",
+        "correctAnswer": "estações",
+        "explicacao": "A inclinação do eixo e a translação geram Primavera, Verão, Outono e Inverno.",
+        "explanation": "A inclinação do eixo e a translação geram Primavera, Verão, Outono e Inverno."
+      },
+      {
+        "id": "em_3_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é o único satélite natural da Terra que brilha à noite ao refletir a luz solar?",
+        "question": "Qual é o único satélite natural da Terra que brilha à noite ao refletir a luz solar?",
+        "opcoes": [
+          "🌕 A Lua",
+          "🪐 Saturno",
+          "⭐ Estrela polar"
+        ],
+        "options": [
+          "🌕 A Lua",
+          "🪐 Saturno",
+          "⭐ Estrela polar"
+        ],
+        "resposta": "🌕 A Lua",
+        "correctAnswer": "🌕 A Lua",
+        "explicacao": "A Lua é o satélite natural que orbita a Terra! 🌕",
+        "explanation": "A Lua é o satélite natural que orbita a Terra! 🌕"
+      },
+      {
+        "id": "em_3_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas fases principais tem a Lua ao longo do seu ciclo de 28 dias?",
+        "question": "Quantas fases principais tem a Lua ao longo do seu ciclo de 28 dias?",
+        "resposta": "4 fases (Nova, Quarto Crescente, Cheia, Quarto Minguante)",
+        "correctAnswer": "4 fases (Nova, Quarto Crescente, Cheia, Quarto Minguante)",
+        "explicacao": "Lua Nova, Quarto Crescente, Lua Cheia e Quarto Minguante!",
+        "explanation": "Lua Nova, Quarto Crescente, Lua Cheia e Quarto Minguante!"
+      },
+      {
+        "id": "em_3_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Terra é o 3.º planeta a contar a partir do Sol.",
+        "question": "A Terra é o 3.º planeta a contar a partir do Sol.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Mercúrio, Vénus, Terra, Marte, Júpiter, Saturno, Úrano, Neptuno.",
+        "explanation": "Verdadeiro! Mercúrio, Vénus, Terra, Marte, Júpiter, Saturno, Úrano, Neptuno."
+      },
+      {
+        "id": "em_3_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o maior planeta de todo o Sistema Solar?",
+        "question": "Qual é o maior planeta de todo o Sistema Solar?",
+        "opcoes": [
+          "Júpiter",
+          "Terra",
+          "Mercúrio"
+        ],
+        "options": [
+          "Júpiter",
+          "Terra",
+          "Mercúrio"
+        ],
+        "resposta": "Júpiter",
+        "correctAnswer": "Júpiter",
+        "explicacao": "Júpiter é o gigante gasoso do nosso sistema solar.",
+        "explanation": "Júpiter é o gigante gasoso do nosso sistema solar."
+      },
+      {
+        "id": "em_3_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os conceitos astronómicos:",
+        "question": "Associa os conceitos astronómicos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre o Universo e o Sistema Solar!",
+        "explanation": "Excelente conhecimento sobre o Universo e o Sistema Solar!",
+        "pairs": {
+          "Rotação da Terra": "Origina o Dia e a Noite (24 horas)",
+          "Translação da Terra": "Origina o Ano e as 4 Estações (365 dias)",
+          "Lua": "Satélite natural da Terra",
+          "Sol": "Estrela que emite luz e calor"
+        },
+        "pares": {
+          "Rotação da Terra": "Origina o Dia e a Noite (24 horas)",
+          "Translação da Terra": "Origina o Ano e as 4 Estações (365 dias)",
+          "Lua": "Satélite natural da Terra",
+          "Sol": "Estrela que emite luz e calor"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f7",
+    "numero": 7,
+    "titulo": "O Relevo de Portugal: Serras, Planaltos e Planícies",
+    "title": "O Relevo de Portugal: Serras, Planaltos e Planícies",
+    "descricao": "Serra da Estrela, montanhas do Norte/Centro, planaltos e as planícies do Sul.",
+    "description": "Serra da Estrela, montanhas do Norte/Centro, planaltos e as planícies do Sul.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "⛰️",
+    "imageEmoji": "⛰️",
+    "exercicios": [
+      {
+        "id": "em_3_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a serra com o ponto mais alto de Portugal Continental (Torre, com 1993 metros de altitude)?",
+        "question": "Qual é a serra com o ponto mais alto de Portugal Continental (Torre, com 1993 metros de altitude)?",
+        "opcoes": [
+          "Serra da Estrela",
+          "Serra do Gerês",
+          "Serra de Sintra"
+        ],
+        "options": [
+          "Serra da Estrela",
+          "Serra do Gerês",
+          "Serra de Sintra"
+        ],
+        "resposta": "Serra da Estrela",
+        "correctAnswer": "Serra da Estrela",
+        "explicacao": "A Serra da Estrela acolhe a Torre e tem neve no inverno!",
+        "explanation": "A Serra da Estrela acolhe a Torre e tem neve no inverno!"
+      },
+      {
+        "id": "em_3_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O relevo a Norte do rio Tejo é mais montanhoso e acidentado, enquanto a Sul predominam as grandes planícies.",
+        "question": "O relevo a Norte do rio Tejo é mais montanhoso e acidentado, enquanto a Sul predominam as grandes planícies.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Norte é montanhoso e o Sul (Alentejo) é plano.",
+        "explanation": "Verdadeiro! O Norte é montanhoso e o Sul (Alentejo) é plano."
+      },
+      {
+        "id": "em_3_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Uma extensão de terreno plano e pouco elevado chama-se uma ___ (típica do Alentejo).",
+        "question": "Uma extensão de terreno plano e pouco elevado chama-se uma ___ (típica do Alentejo).",
+        "opcoes": [
+          "planície",
+          "montanha",
+          "ravina"
+        ],
+        "options": [
+          "planície",
+          "montanha",
+          "ravina"
+        ],
+        "resposta": "planície",
+        "correctAnswer": "planície",
+        "explicacao": "As planícies alentejanas são amplas e douradas com sobreiros.",
+        "explanation": "As planícies alentejanas são amplas e douradas com sobreiros."
+      },
+      {
+        "id": "em_3_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "O ponto mais alto de TODO o território português (2351 m) fica nos Açores e chama-se...",
+        "question": "O ponto mais alto de TODO o território português (2351 m) fica nos Açores e chama-se...",
+        "opcoes": [
+          "🌋 Montanha do Pico",
+          "⛰️ Serra da Estrela",
+          "🏔️ Serra do Marão"
+        ],
+        "options": [
+          "🌋 Montanha do Pico",
+          "⛰️ Serra da Estrela",
+          "🏔️ Serra do Marão"
+        ],
+        "resposta": "🌋 Montanha do Pico",
+        "correctAnswer": "🌋 Montanha do Pico",
+        "explicacao": "A Montanha do Pico na ilha do Pico (Açores) é o cume mais alto de Portugal! 🌋",
+        "explanation": "A Montanha do Pico na ilha do Pico (Açores) é o cume mais alto de Portugal! 🌋"
+      },
+      {
+        "id": "em_3_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama uma elevação de terreno plano no topo situada a grande altitude?",
+        "question": "Como se chama uma elevação de terreno plano no topo situada a grande altitude?",
+        "opcoes": [
+          "Planalto",
+          "Valadares",
+          "Colina"
+        ],
+        "options": [
+          "Planalto",
+          "Valadares",
+          "Colina"
+        ],
+        "resposta": "Planalto",
+        "correctAnswer": "Planalto",
+        "explicacao": "Exemplo: Planalto Mirandês em Trás-os-Montes.",
+        "explanation": "Exemplo: Planalto Mirandês em Trás-os-Montes."
+      },
+      {
+        "id": "em_3_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O vale é o terreno mais baixo situado entre duas montanhas, por onde costuma correr um rio.",
+        "question": "O vale é o terreno mais baixo situado entre duas montanhas, por onde costuma correr um rio.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os vales são férteis e abrigados dos ventos.",
+        "explanation": "Verdadeiro! Os vales são férteis e abrigados dos ventos."
+      },
+      {
+        "id": "em_3_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o único Parque Nacional de Portugal, situado no Norte do país?",
+        "question": "Qual é o único Parque Nacional de Portugal, situado no Norte do país?",
+        "opcoes": [
+          "Parque Nacional da Peneda-Gerês",
+          "Parque da Ria Formosa",
+          "Parque de Monsanto"
+        ],
+        "options": [
+          "Parque Nacional da Peneda-Gerês",
+          "Parque da Ria Formosa",
+          "Parque de Monsanto"
+        ],
+        "resposta": "Parque Nacional da Peneda-Gerês",
+        "correctAnswer": "Parque Nacional da Peneda-Gerês",
+        "explicacao": "O Gerês é o santuário natural protegido de Portugal!",
+        "explanation": "O Gerês é o santuário natural protegido de Portugal!"
+      },
+      {
+        "id": "em_3_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as formas de relevo às suas características:",
+        "question": "Associa as formas de relevo às suas características:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito domínio da geografia física de Portugal!",
+        "explanation": "Perfeito domínio da geografia física de Portugal!",
+        "pairs": {
+          "Montanha": "Grande elevação de terreno com cume",
+          "Planície": "Terreno plano e de baixa altitude",
+          "Planalto": "Superfície plana a grande altitude",
+          "Vale": "Zona baixa entre duas montanhas"
+        },
+        "pares": {
+          "Montanha": "Grande elevação de terreno com cume",
+          "Planície": "Terreno plano e de baixa altitude",
+          "Planalto": "Superfície plana a grande altitude",
+          "Vale": "Zona baixa entre duas montanhas"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a serra com o ponto mais alto de Portugal Continental (Torre, com 1993 metros de altitude)?",
+        "question": "Qual é a serra com o ponto mais alto de Portugal Continental (Torre, com 1993 metros de altitude)?",
+        "opcoes": [
+          "Serra da Estrela",
+          "Serra do Gerês",
+          "Serra de Sintra"
+        ],
+        "options": [
+          "Serra da Estrela",
+          "Serra do Gerês",
+          "Serra de Sintra"
+        ],
+        "resposta": "Serra da Estrela",
+        "correctAnswer": "Serra da Estrela",
+        "explicacao": "A Serra da Estrela acolhe a Torre e tem neve no inverno!",
+        "explanation": "A Serra da Estrela acolhe a Torre e tem neve no inverno!"
+      },
+      {
+        "id": "em_3_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O relevo a Norte do rio Tejo é mais montanhoso e acidentado, enquanto a Sul predominam as grandes planícies.",
+        "question": "O relevo a Norte do rio Tejo é mais montanhoso e acidentado, enquanto a Sul predominam as grandes planícies.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Norte é montanhoso e o Sul (Alentejo) é plano.",
+        "explanation": "Verdadeiro! O Norte é montanhoso e o Sul (Alentejo) é plano."
+      },
+      {
+        "id": "em_3_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Uma extensão de terreno plano e pouco elevado chama-se uma ___ (típica do Alentejo).",
+        "question": "Uma extensão de terreno plano e pouco elevado chama-se uma ___ (típica do Alentejo).",
+        "opcoes": [
+          "planície",
+          "montanha",
+          "ravina"
+        ],
+        "options": [
+          "planície",
+          "montanha",
+          "ravina"
+        ],
+        "resposta": "planície",
+        "correctAnswer": "planície",
+        "explicacao": "As planícies alentejanas são amplas e douradas com sobreiros.",
+        "explanation": "As planícies alentejanas são amplas e douradas com sobreiros."
+      },
+      {
+        "id": "em_3_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "O ponto mais alto de TODO o território português (2351 m) fica nos Açores e chama-se...",
+        "question": "O ponto mais alto de TODO o território português (2351 m) fica nos Açores e chama-se...",
+        "opcoes": [
+          "🌋 Montanha do Pico",
+          "⛰️ Serra da Estrela",
+          "🏔️ Serra do Marão"
+        ],
+        "options": [
+          "🌋 Montanha do Pico",
+          "⛰️ Serra da Estrela",
+          "🏔️ Serra do Marão"
+        ],
+        "resposta": "🌋 Montanha do Pico",
+        "correctAnswer": "🌋 Montanha do Pico",
+        "explicacao": "A Montanha do Pico na ilha do Pico (Açores) é o cume mais alto de Portugal! 🌋",
+        "explanation": "A Montanha do Pico na ilha do Pico (Açores) é o cume mais alto de Portugal! 🌋"
+      },
+      {
+        "id": "em_3_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama uma elevação de terreno plano no topo situada a grande altitude?",
+        "question": "Como se chama uma elevação de terreno plano no topo situada a grande altitude?",
+        "opcoes": [
+          "Planalto",
+          "Valadares",
+          "Colina"
+        ],
+        "options": [
+          "Planalto",
+          "Valadares",
+          "Colina"
+        ],
+        "resposta": "Planalto",
+        "correctAnswer": "Planalto",
+        "explicacao": "Exemplo: Planalto Mirandês em Trás-os-Montes.",
+        "explanation": "Exemplo: Planalto Mirandês em Trás-os-Montes."
+      },
+      {
+        "id": "em_3_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O vale é o terreno mais baixo situado entre duas montanhas, por onde costuma correr um rio.",
+        "question": "O vale é o terreno mais baixo situado entre duas montanhas, por onde costuma correr um rio.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os vales são férteis e abrigados dos ventos.",
+        "explanation": "Verdadeiro! Os vales são férteis e abrigados dos ventos."
+      },
+      {
+        "id": "em_3_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o único Parque Nacional de Portugal, situado no Norte do país?",
+        "question": "Qual é o único Parque Nacional de Portugal, situado no Norte do país?",
+        "opcoes": [
+          "Parque Nacional da Peneda-Gerês",
+          "Parque da Ria Formosa",
+          "Parque de Monsanto"
+        ],
+        "options": [
+          "Parque Nacional da Peneda-Gerês",
+          "Parque da Ria Formosa",
+          "Parque de Monsanto"
+        ],
+        "resposta": "Parque Nacional da Peneda-Gerês",
+        "correctAnswer": "Parque Nacional da Peneda-Gerês",
+        "explicacao": "O Gerês é o santuário natural protegido de Portugal!",
+        "explanation": "O Gerês é o santuário natural protegido de Portugal!"
+      },
+      {
+        "id": "em_3_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as formas de relevo às suas características:",
+        "question": "Associa as formas de relevo às suas características:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito domínio da geografia física de Portugal!",
+        "explanation": "Perfeito domínio da geografia física de Portugal!",
+        "pairs": {
+          "Montanha": "Grande elevação de terreno com cume",
+          "Planície": "Terreno plano e de baixa altitude",
+          "Planalto": "Superfície plana a grande altitude",
+          "Vale": "Zona baixa entre duas montanhas"
+        },
+        "pares": {
+          "Montanha": "Grande elevação de terreno com cume",
+          "Planície": "Terreno plano e de baixa altitude",
+          "Planalto": "Superfície plana a grande altitude",
+          "Vale": "Zona baixa entre duas montanhas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f8",
+    "numero": 8,
+    "titulo": "Rios e a Costa Marítima de Portugal",
+    "title": "Rios e a Costa Marítima de Portugal",
+    "descricao": "Nascente, foz, afluentes, rios Tejo, Douro, Guadiana e Mondego, cabos e praias.",
+    "description": "Nascente, foz, afluentes, rios Tejo, Douro, Guadiana e Mondego, cabos e praias.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🌊",
+    "imageEmoji": "🌊",
+    "exercicios": [
+      {
+        "id": "em_3_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o rio mais extenso de Portugal Continental, que desagua no estuário junto a Lisboa?",
+        "question": "Qual é o rio mais extenso de Portugal Continental, que desagua no estuário junto a Lisboa?",
+        "opcoes": [
+          "Rio Tejo",
+          "Rio Douro",
+          "Rio Guadiana"
+        ],
+        "options": [
+          "Rio Tejo",
+          "Rio Douro",
+          "Rio Guadiana"
+        ],
+        "resposta": "Rio Tejo",
+        "correctAnswer": "Rio Tejo",
+        "explicacao": "O Tejo nasce em Espanha e desagua no Mar da Palha em Lisboa!",
+        "explanation": "O Tejo nasce em Espanha e desagua no Mar da Palha em Lisboa!"
+      },
+      {
+        "id": "em_3_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O rio Mondego é o maior rio que nasce e corre inteiramente em território português.",
+        "question": "O rio Mondego é o maior rio que nasce e corre inteiramente em território português.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Nasce na Serra da Estrela e desagua na Figueira da Foz.",
+        "explanation": "Verdadeiro! Nasce na Serra da Estrela e desagua na Figueira da Foz."
+      },
+      {
+        "id": "em_3_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O local onde um rio desagua no mar ou num lago chama-se a ___ do rio.",
+        "question": "O local onde um rio desagua no mar ou num lago chama-se a ___ do rio.",
+        "opcoes": [
+          "foz",
+          "nascente",
+          "margem"
+        ],
+        "options": [
+          "foz",
+          "nascente",
+          "margem"
+        ],
+        "resposta": "foz",
+        "correctAnswer": "foz",
+        "explicacao": "Nascente = onde nasce; Foz = onde desagua no mar.",
+        "explanation": "Nascente = onde nasce; Foz = onde desagua no mar."
+      },
+      {
+        "id": "em_3_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual rio famoso do Norte de Portugal banha a cidade do Porto e as vinhas do Vinho do Porto?",
+        "question": "Qual rio famoso do Norte de Portugal banha a cidade do Porto e as vinhas do Vinho do Porto?",
+        "opcoes": [
+          "🍇 Rio Douro",
+          "🏖️ Rio Sado",
+          "🌾 Rio Guadiana"
+        ],
+        "options": [
+          "🍇 Rio Douro",
+          "🏖️ Rio Sado",
+          "🌾 Rio Guadiana"
+        ],
+        "resposta": "🍇 Rio Douro",
+        "correctAnswer": "🍇 Rio Douro",
+        "explicacao": "O rio Douro esculpe as encostas dos socalcos vinhateiros! 🍇",
+        "explanation": "O rio Douro esculpe as encostas dos socalcos vinhateiros! 🍇"
+      },
+      {
+        "id": "em_3_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama uma ponta de terra rochosa e alta que entra pelo mar adentro?",
+        "question": "Como se chama uma ponta de terra rochosa e alta que entra pelo mar adentro?",
+        "resposta": "Cabo (ex: Cabo da Roca, Cabo de S. Vicente)",
+        "correctAnswer": "Cabo (ex: Cabo da Roca, Cabo de S. Vicente)",
+        "explicacao": "O Cabo da Roca é o ponto mais ocidental do continente europeu!",
+        "explanation": "O Cabo da Roca é o ponto mais ocidental do continente europeu!"
+      },
+      {
+        "id": "em_3_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um afluente é um rio mais pequeno que desagua num rio principal.",
+        "question": "Um afluente é um rio mais pequeno que desagua num rio principal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: o rio Zêzere é um grande afluente do Tejo.",
+        "explanation": "Verdadeiro! Ex: o rio Zêzere é um grande afluente do Tejo."
+      },
+      {
+        "id": "em_3_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que oceano banha toda a costa continental e ilhas de Portugal?",
+        "question": "Que oceano banha toda a costa continental e ilhas de Portugal?",
+        "opcoes": [
+          "Oceano Atlântico",
+          "Oceano Pacífico",
+          "Oceano Índico"
+        ],
+        "options": [
+          "Oceano Atlântico",
+          "Oceano Pacífico",
+          "Oceano Índico"
+        ],
+        "resposta": "Oceano Atlântico",
+        "correctAnswer": "Oceano Atlântico",
+        "explicacao": "Portugal tem uma vasta costa voltada para o Oceano Atlântico!",
+        "explanation": "Portugal tem uma vasta costa voltada para o Oceano Atlântico!"
+      },
+      {
+        "id": "em_3_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o rio à respetiva cidade por onde passa:",
+        "question": "Associa o rio à respetiva cidade por onde passa:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento hidrográfico e litoral de Portugal!",
+        "explanation": "Excelente conhecimento hidrográfico e litoral de Portugal!",
+        "pairs": {
+          "Rio Douro": "Porto",
+          "Rio Tejo": "Lisboa / Santarém",
+          "Rio Mondego": "Coimbra",
+          "Rio Guadiana": "Mértola / Vila Real de S. António"
+        },
+        "pares": {
+          "Rio Douro": "Porto",
+          "Rio Tejo": "Lisboa / Santarém",
+          "Rio Mondego": "Coimbra",
+          "Rio Guadiana": "Mértola / Vila Real de S. António"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o rio mais extenso de Portugal Continental, que desagua no estuário junto a Lisboa?",
+        "question": "Qual é o rio mais extenso de Portugal Continental, que desagua no estuário junto a Lisboa?",
+        "opcoes": [
+          "Rio Tejo",
+          "Rio Douro",
+          "Rio Guadiana"
+        ],
+        "options": [
+          "Rio Tejo",
+          "Rio Douro",
+          "Rio Guadiana"
+        ],
+        "resposta": "Rio Tejo",
+        "correctAnswer": "Rio Tejo",
+        "explicacao": "O Tejo nasce em Espanha e desagua no Mar da Palha em Lisboa!",
+        "explanation": "O Tejo nasce em Espanha e desagua no Mar da Palha em Lisboa!"
+      },
+      {
+        "id": "em_3_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O rio Mondego é o maior rio que nasce e corre inteiramente em território português.",
+        "question": "O rio Mondego é o maior rio que nasce e corre inteiramente em território português.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Nasce na Serra da Estrela e desagua na Figueira da Foz.",
+        "explanation": "Verdadeiro! Nasce na Serra da Estrela e desagua na Figueira da Foz."
+      },
+      {
+        "id": "em_3_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O local onde um rio desagua no mar ou num lago chama-se a ___ do rio.",
+        "question": "O local onde um rio desagua no mar ou num lago chama-se a ___ do rio.",
+        "opcoes": [
+          "foz",
+          "nascente",
+          "margem"
+        ],
+        "options": [
+          "foz",
+          "nascente",
+          "margem"
+        ],
+        "resposta": "foz",
+        "correctAnswer": "foz",
+        "explicacao": "Nascente = onde nasce; Foz = onde desagua no mar.",
+        "explanation": "Nascente = onde nasce; Foz = onde desagua no mar."
+      },
+      {
+        "id": "em_3_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual rio famoso do Norte de Portugal banha a cidade do Porto e as vinhas do Vinho do Porto?",
+        "question": "Qual rio famoso do Norte de Portugal banha a cidade do Porto e as vinhas do Vinho do Porto?",
+        "opcoes": [
+          "🍇 Rio Douro",
+          "🏖️ Rio Sado",
+          "🌾 Rio Guadiana"
+        ],
+        "options": [
+          "🍇 Rio Douro",
+          "🏖️ Rio Sado",
+          "🌾 Rio Guadiana"
+        ],
+        "resposta": "🍇 Rio Douro",
+        "correctAnswer": "🍇 Rio Douro",
+        "explicacao": "O rio Douro esculpe as encostas dos socalcos vinhateiros! 🍇",
+        "explanation": "O rio Douro esculpe as encostas dos socalcos vinhateiros! 🍇"
+      },
+      {
+        "id": "em_3_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama uma ponta de terra rochosa e alta que entra pelo mar adentro?",
+        "question": "Como se chama uma ponta de terra rochosa e alta que entra pelo mar adentro?",
+        "resposta": "Cabo (ex: Cabo da Roca, Cabo de S. Vicente)",
+        "correctAnswer": "Cabo (ex: Cabo da Roca, Cabo de S. Vicente)",
+        "explicacao": "O Cabo da Roca é o ponto mais ocidental do continente europeu!",
+        "explanation": "O Cabo da Roca é o ponto mais ocidental do continente europeu!"
+      },
+      {
+        "id": "em_3_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um afluente é um rio mais pequeno que desagua num rio principal.",
+        "question": "Um afluente é um rio mais pequeno que desagua num rio principal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: o rio Zêzere é um grande afluente do Tejo.",
+        "explanation": "Verdadeiro! Ex: o rio Zêzere é um grande afluente do Tejo."
+      },
+      {
+        "id": "em_3_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que oceano banha toda a costa continental e ilhas de Portugal?",
+        "question": "Que oceano banha toda a costa continental e ilhas de Portugal?",
+        "opcoes": [
+          "Oceano Atlântico",
+          "Oceano Pacífico",
+          "Oceano Índico"
+        ],
+        "options": [
+          "Oceano Atlântico",
+          "Oceano Pacífico",
+          "Oceano Índico"
+        ],
+        "resposta": "Oceano Atlântico",
+        "correctAnswer": "Oceano Atlântico",
+        "explicacao": "Portugal tem uma vasta costa voltada para o Oceano Atlântico!",
+        "explanation": "Portugal tem uma vasta costa voltada para o Oceano Atlântico!"
+      },
+      {
+        "id": "em_3_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o rio à respetiva cidade por onde passa:",
+        "question": "Associa o rio à respetiva cidade por onde passa:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento hidrográfico e litoral de Portugal!",
+        "explanation": "Excelente conhecimento hidrográfico e litoral de Portugal!",
+        "pairs": {
+          "Rio Douro": "Porto",
+          "Rio Tejo": "Lisboa / Santarém",
+          "Rio Mondego": "Coimbra",
+          "Rio Guadiana": "Mértola / Vila Real de S. António"
+        },
+        "pares": {
+          "Rio Douro": "Porto",
+          "Rio Tejo": "Lisboa / Santarém",
+          "Rio Mondego": "Coimbra",
+          "Rio Guadiana": "Mértola / Vila Real de S. António"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f9",
+    "numero": 9,
+    "titulo": "O Clima em Portugal e Fenómenos Meteorológicos",
+    "title": "O Clima em Portugal e Fenómenos Meteorológicos",
+    "descricao": "Clima temperado mediterrânico e atlântico, temperaturas, pluviosidade e vento.",
+    "description": "Clima temperado mediterrânico e atlântico, temperaturas, pluviosidade e vento.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "☀️",
+    "imageEmoji": "☀️",
+    "exercicios": [
+      {
+        "id": "em_3_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que tipo geral de clima predomina em Portugal continental?",
+        "question": "Que tipo geral de clima predomina em Portugal continental?",
+        "resposta": "Temperado Mediterrânico (com influência Atlântica)",
+        "correctAnswer": "Temperado Mediterrânico (com influência Atlântica)",
+        "explicacao": "Invernos suaves e verões quentes e secos!",
+        "explanation": "Invernos suaves e verões quentes e secos!"
+      },
+      {
+        "id": "em_3_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No Norte Litoral de Portugal chove mais do que no Sul (Algarve e Alentejo).",
+        "question": "No Norte Litoral de Portugal chove mais do que no Sul (Algarve e Alentejo).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os ventos atlânticos trazem mais pluviosidade ao Noroeste peninsular.",
+        "explanation": "Verdadeiro! Os ventos atlânticos trazem mais pluviosidade ao Noroeste peninsular."
+      },
+      {
+        "id": "em_3_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A quantidade de chuva que cai numa região durante o ano chama-se ___",
+        "question": "A quantidade de chuva que cai numa região durante o ano chama-se ___",
+        "opcoes": [
+          "Pluviosidade / Precipitação",
+          "Temperatura",
+          "Trovoada"
+        ],
+        "options": [
+          "Pluviosidade / Precipitação",
+          "Temperatura",
+          "Trovoada"
+        ],
+        "resposta": "Pluviosidade / Precipitação",
+        "correctAnswer": "Pluviosidade / Precipitação",
+        "explicacao": "Mede-se em milímetros com o pluviómetro.",
+        "explanation": "Mede-se em milímetros com o pluviómetro."
+      },
+      {
+        "id": "em_3_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual região portuguesa tem o clima mais quente e seco, com muitas horas de sol no Verão?",
+        "question": "Qual região portuguesa tem o clima mais quente e seco, com muitas horas de sol no Verão?",
+        "opcoes": [
+          "🏖️ Algarve e Alentejo",
+          "🌲 Minho",
+          "🏔️ Trás-os-Montes"
+        ],
+        "options": [
+          "🏖️ Algarve e Alentejo",
+          "🌲 Minho",
+          "🏔️ Trás-os-Montes"
+        ],
+        "resposta": "🏖️ Algarve e Alentejo",
+        "correctAnswer": "🏖️ Algarve e Alentejo",
+        "explicacao": "O Sul de Portugal beneficia de grande insolação e temperaturas quentes! 🏖️",
+        "explanation": "O Sul de Portugal beneficia de grande insolação e temperaturas quentes! 🏖️"
+      },
+      {
+        "id": "em_3_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a brisa húmida com nevoeiro frequente no arquipélago dos Açores?",
+        "question": "Como se chama a brisa húmida com nevoeiro frequente no arquipélago dos Açores?",
+        "opcoes": [
+          "Clima Temperado Marítimo Oceânico",
+          "Clima Desértico",
+          "Clima Polar"
+        ],
+        "options": [
+          "Clima Temperado Marítimo Oceânico",
+          "Clima Desértico",
+          "Clima Polar"
+        ],
+        "resposta": "Clima Temperado Marítimo Oceânico",
+        "correctAnswer": "Clima Temperado Marítimo Oceânico",
+        "explicacao": "Os Açores têm clima ameno, húmido e com vegetação luxuriante!",
+        "explanation": "Os Açores têm clima ameno, húmido e com vegetação luxuriante!"
+      },
+      {
+        "id": "em_3_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Madeira tem um clima subtropical ameno durante todo o ano, sendo chamada a ilha das flores.",
+        "question": "A Madeira tem um clima subtropical ameno durante todo o ano, sendo chamada a ilha das flores.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Tem temperaturas agradáveis e amenas todo o ano.",
+        "explanation": "Verdadeiro! Tem temperaturas agradáveis e amenas todo o ano."
+      },
+      {
+        "id": "em_3_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O nevoeiro matinal é provocado pela...",
+        "question": "O nevoeiro matinal é provocado pela...",
+        "opcoes": [
+          "Condensação do vapor de água junto ao solo frio",
+          "Fumo de queimadas",
+          "Poeira do vento"
+        ],
+        "options": [
+          "Condensação do vapor de água junto ao solo frio",
+          "Fumo de queimadas",
+          "Poeira do vento"
+        ],
+        "resposta": "Condensação do vapor de água junto ao solo frio",
+        "correctAnswer": "Condensação do vapor de água junto ao solo frio",
+        "explicacao": "Gotículas de água suspensas no ar próximo da superfície.",
+        "explanation": "Gotículas de água suspensas no ar próximo da superfície."
+      },
+      {
+        "id": "em_3_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a zona geográfica às suas características climáticas:",
+        "question": "Associa a zona geográfica às suas características climáticas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástica compreensão dos microclimas portugueses!",
+        "explanation": "Fantástica compreensão dos microclimas portugueses!",
+        "pairs": {
+          "Norte e Minho": "Mais chuvoso, fresco e verde",
+          "Interior Norte (Trás-os-Montes)": "Invernos muito frios e verões muito quentes ('nove meses de inverno e três de inferno')",
+          "Alentejo e Algarve": "Verões quentes, secos e ensolarados",
+          "Arquipélago da Madeira": "Clima ameno e subtropical todo o ano"
+        },
+        "pares": {
+          "Norte e Minho": "Mais chuvoso, fresco e verde",
+          "Interior Norte (Trás-os-Montes)": "Invernos muito frios e verões muito quentes ('nove meses de inverno e três de inferno')",
+          "Alentejo e Algarve": "Verões quentes, secos e ensolarados",
+          "Arquipélago da Madeira": "Clima ameno e subtropical todo o ano"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que tipo geral de clima predomina em Portugal continental?",
+        "question": "Que tipo geral de clima predomina em Portugal continental?",
+        "resposta": "Temperado Mediterrânico (com influência Atlântica)",
+        "correctAnswer": "Temperado Mediterrânico (com influência Atlântica)",
+        "explicacao": "Invernos suaves e verões quentes e secos!",
+        "explanation": "Invernos suaves e verões quentes e secos!"
+      },
+      {
+        "id": "em_3_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No Norte Litoral de Portugal chove mais do que no Sul (Algarve e Alentejo).",
+        "question": "No Norte Litoral de Portugal chove mais do que no Sul (Algarve e Alentejo).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os ventos atlânticos trazem mais pluviosidade ao Noroeste peninsular.",
+        "explanation": "Verdadeiro! Os ventos atlânticos trazem mais pluviosidade ao Noroeste peninsular."
+      },
+      {
+        "id": "em_3_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A quantidade de chuva que cai numa região durante o ano chama-se ___",
+        "question": "A quantidade de chuva que cai numa região durante o ano chama-se ___",
+        "opcoes": [
+          "Pluviosidade / Precipitação",
+          "Temperatura",
+          "Trovoada"
+        ],
+        "options": [
+          "Pluviosidade / Precipitação",
+          "Temperatura",
+          "Trovoada"
+        ],
+        "resposta": "Pluviosidade / Precipitação",
+        "correctAnswer": "Pluviosidade / Precipitação",
+        "explicacao": "Mede-se em milímetros com o pluviómetro.",
+        "explanation": "Mede-se em milímetros com o pluviómetro."
+      },
+      {
+        "id": "em_3_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual região portuguesa tem o clima mais quente e seco, com muitas horas de sol no Verão?",
+        "question": "Qual região portuguesa tem o clima mais quente e seco, com muitas horas de sol no Verão?",
+        "opcoes": [
+          "🏖️ Algarve e Alentejo",
+          "🌲 Minho",
+          "🏔️ Trás-os-Montes"
+        ],
+        "options": [
+          "🏖️ Algarve e Alentejo",
+          "🌲 Minho",
+          "🏔️ Trás-os-Montes"
+        ],
+        "resposta": "🏖️ Algarve e Alentejo",
+        "correctAnswer": "🏖️ Algarve e Alentejo",
+        "explicacao": "O Sul de Portugal beneficia de grande insolação e temperaturas quentes! 🏖️",
+        "explanation": "O Sul de Portugal beneficia de grande insolação e temperaturas quentes! 🏖️"
+      },
+      {
+        "id": "em_3_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a brisa húmida com nevoeiro frequente no arquipélago dos Açores?",
+        "question": "Como se chama a brisa húmida com nevoeiro frequente no arquipélago dos Açores?",
+        "opcoes": [
+          "Clima Temperado Marítimo Oceânico",
+          "Clima Desértico",
+          "Clima Polar"
+        ],
+        "options": [
+          "Clima Temperado Marítimo Oceânico",
+          "Clima Desértico",
+          "Clima Polar"
+        ],
+        "resposta": "Clima Temperado Marítimo Oceânico",
+        "correctAnswer": "Clima Temperado Marítimo Oceânico",
+        "explicacao": "Os Açores têm clima ameno, húmido e com vegetação luxuriante!",
+        "explanation": "Os Açores têm clima ameno, húmido e com vegetação luxuriante!"
+      },
+      {
+        "id": "em_3_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Madeira tem um clima subtropical ameno durante todo o ano, sendo chamada a ilha das flores.",
+        "question": "A Madeira tem um clima subtropical ameno durante todo o ano, sendo chamada a ilha das flores.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Tem temperaturas agradáveis e amenas todo o ano.",
+        "explanation": "Verdadeiro! Tem temperaturas agradáveis e amenas todo o ano."
+      },
+      {
+        "id": "em_3_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O nevoeiro matinal é provocado pela...",
+        "question": "O nevoeiro matinal é provocado pela...",
+        "opcoes": [
+          "Condensação do vapor de água junto ao solo frio",
+          "Fumo de queimadas",
+          "Poeira do vento"
+        ],
+        "options": [
+          "Condensação do vapor de água junto ao solo frio",
+          "Fumo de queimadas",
+          "Poeira do vento"
+        ],
+        "resposta": "Condensação do vapor de água junto ao solo frio",
+        "correctAnswer": "Condensação do vapor de água junto ao solo frio",
+        "explicacao": "Gotículas de água suspensas no ar próximo da superfície.",
+        "explanation": "Gotículas de água suspensas no ar próximo da superfície."
+      },
+      {
+        "id": "em_3_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a zona geográfica às suas características climáticas:",
+        "question": "Associa a zona geográfica às suas características climáticas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástica compreensão dos microclimas portugueses!",
+        "explanation": "Fantástica compreensão dos microclimas portugueses!",
+        "pairs": {
+          "Norte e Minho": "Mais chuvoso, fresco e verde",
+          "Interior Norte (Trás-os-Montes)": "Invernos muito frios e verões muito quentes ('nove meses de inverno e três de inferno')",
+          "Alentejo e Algarve": "Verões quentes, secos e ensolarados",
+          "Arquipélago da Madeira": "Clima ameno e subtropical todo o ano"
+        },
+        "pares": {
+          "Norte e Minho": "Mais chuvoso, fresco e verde",
+          "Interior Norte (Trás-os-Montes)": "Invernos muito frios e verões muito quentes ('nove meses de inverno e três de inferno')",
+          "Alentejo e Algarve": "Verões quentes, secos e ensolarados",
+          "Arquipélago da Madeira": "Clima ameno e subtropical todo o ano"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f10",
+    "numero": 10,
+    "titulo": "Recursos Naturais e Energias Renováveis",
+    "title": "Recursos Naturais e Energias Renováveis",
+    "descricao": "Energia solar, eólica, hídrica, biomassa vs combustíveis fósseis poluentes.",
+    "description": "Energia solar, eólica, hídrica, biomassa vs combustíveis fósseis poluentes.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "☀️",
+    "imageEmoji": "☀️",
+    "exercicios": [
+      {
+        "id": "em_3_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam as fontes de energia que não se esgotam na natureza e não poluem o ambiente?",
+        "question": "Como se chamam as fontes de energia que não se esgotam na natureza e não poluem o ambiente?",
+        "opcoes": [
+          "Energias Renováveis / Limpas",
+          "Combustíveis fósseis",
+          "Energias esgotáveis"
+        ],
+        "options": [
+          "Energias Renováveis / Limpas",
+          "Combustíveis fósseis",
+          "Energias esgotáveis"
+        ],
+        "resposta": "Energias Renováveis / Limpas",
+        "correctAnswer": "Energias Renováveis / Limpas",
+        "explicacao": "Sol, vento, ondas e água dos rios são fontes renováveis inesgotáveis!",
+        "explanation": "Sol, vento, ondas e água dos rios são fontes renováveis inesgotáveis!"
+      },
+      {
+        "id": "em_3_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os painéis solares fotovoltaicos transformam a luz do Sol diretamente em eletricidade limpa.",
+        "question": "Os painéis solares fotovoltaicos transformam a luz do Sol diretamente em eletricidade limpa.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Portugal é um dos países europeus com mais horas de sol para aproveitar.",
+        "explanation": "Verdadeiro! Portugal é um dos países europeus com mais horas de sol para aproveitar."
+      },
+      {
+        "id": "em_3_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A energia produzida pela força da água acumulada nas barragens chama-se energia ___",
+        "question": "A energia produzida pela força da água acumulada nas barragens chama-se energia ___",
+        "opcoes": [
+          "Hídrica / Hidroelétrica",
+          "Eólica",
+          "Nuclear"
+        ],
+        "options": [
+          "Hídrica / Hidroelétrica",
+          "Eólica",
+          "Nuclear"
+        ],
+        "resposta": "Hídrica / Hidroelétrica",
+        "correctAnswer": "Hídrica / Hidroelétrica",
+        "explicacao": "A água faz girar as turbinas das centrais hidroelétricas.",
+        "explanation": "A água faz girar as turbinas das centrais hidroelétricas."
+      },
+      {
+        "id": "em_3_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas é uma energia NÃO RENOVÁVEL que polui com fumo e gases de efeito de estufa?",
+        "question": "Qual destas é uma energia NÃO RENOVÁVEL que polui com fumo e gases de efeito de estufa?",
+        "opcoes": [
+          "🛢️ Petróleo e Carvão",
+          "☀️ Energia Solar",
+          "🌬️ Energia Eólica"
+        ],
+        "options": [
+          "🛢️ Petróleo e Carvão",
+          "☀️ Energia Solar",
+          "🌬️ Energia Eólica"
+        ],
+        "resposta": "🛢️ Petróleo e Carvão",
+        "correctAnswer": "🛢️ Petróleo e Carvão",
+        "explicacao": "Os combustíveis fósseis esgotam-se e emitem gases com efeito de estufa! 🛢️",
+        "explanation": "Os combustíveis fósseis esgotam-se e emitem gases com efeito de estufa! 🛢️"
+      },
+      {
+        "id": "em_3_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A energia Eólica aproveita a força de qual elemento natural?",
+        "question": "A energia Eólica aproveita a força de qual elemento natural?",
+        "opcoes": [
+          "Do Vento",
+          "Do Fogo",
+          "Da Terra"
+        ],
+        "options": [
+          "Do Vento",
+          "Do Fogo",
+          "Da Terra"
+        ],
+        "resposta": "Do Vento",
+        "correctAnswer": "Do Vento",
+        "explicacao": "As pás dos aerogeradores giram com o vento produzindo eletricidade.",
+        "explanation": "As pás dos aerogeradores giram com o vento produzindo eletricidade."
+      },
+      {
+        "id": "em_3_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Poupar energia elétrica em casa ajuda a reduzir a pegada ecológica do planeta.",
+        "question": "Poupar energia elétrica em casa ajuda a reduzir a pegada ecológica do planeta.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Desligar luzes e aparelhos em standby protege o meio ambiente.",
+        "explanation": "Verdadeiro! Desligar luzes e aparelhos em standby protege o meio ambiente."
+      },
+      {
+        "id": "em_3_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que é a Biomassa?",
+        "question": "O que é a Biomassa?",
+        "opcoes": [
+          "Energia obtida a partir de resíduos de madeira, florestas e agricultura",
+          "Energia do vidro",
+          "Energia do plástico"
+        ],
+        "options": [
+          "Energia obtida a partir de resíduos de madeira, florestas e agricultura",
+          "Energia do vidro",
+          "Energia do plástico"
+        ],
+        "resposta": "Energia obtida a partir de resíduos de madeira, florestas e agricultura",
+        "correctAnswer": "Energia obtida a partir de resíduos de madeira, florestas e agricultura",
+        "explicacao": "Aproveita sobras de limpezas florestais prevenindo incêndios.",
+        "explanation": "Aproveita sobras de limpezas florestais prevenindo incêndios."
+      },
+      {
+        "id": "em_3_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a fonte renovável ao seu recurso natural:",
+        "question": "Associa a fonte renovável ao seu recurso natural:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente consciência ecológica e energética!",
+        "explanation": "Excelente consciência ecológica e energética!",
+        "pairs": {
+          "Energia Solar": "Luz e calor do Sol",
+          "Energia Eólica": "Força dos ventos",
+          "Energia Hídrica": "Corrente e quedas de água nas barragens",
+          "Energia das Ondas / Marés": "Movimento dos oceanos"
+        },
+        "pares": {
+          "Energia Solar": "Luz e calor do Sol",
+          "Energia Eólica": "Força dos ventos",
+          "Energia Hídrica": "Corrente e quedas de água nas barragens",
+          "Energia das Ondas / Marés": "Movimento dos oceanos"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam as fontes de energia que não se esgotam na natureza e não poluem o ambiente?",
+        "question": "Como se chamam as fontes de energia que não se esgotam na natureza e não poluem o ambiente?",
+        "opcoes": [
+          "Energias Renováveis / Limpas",
+          "Combustíveis fósseis",
+          "Energias esgotáveis"
+        ],
+        "options": [
+          "Energias Renováveis / Limpas",
+          "Combustíveis fósseis",
+          "Energias esgotáveis"
+        ],
+        "resposta": "Energias Renováveis / Limpas",
+        "correctAnswer": "Energias Renováveis / Limpas",
+        "explicacao": "Sol, vento, ondas e água dos rios são fontes renováveis inesgotáveis!",
+        "explanation": "Sol, vento, ondas e água dos rios são fontes renováveis inesgotáveis!"
+      },
+      {
+        "id": "em_3_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os painéis solares fotovoltaicos transformam a luz do Sol diretamente em eletricidade limpa.",
+        "question": "Os painéis solares fotovoltaicos transformam a luz do Sol diretamente em eletricidade limpa.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Portugal é um dos países europeus com mais horas de sol para aproveitar.",
+        "explanation": "Verdadeiro! Portugal é um dos países europeus com mais horas de sol para aproveitar."
+      },
+      {
+        "id": "em_3_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A energia produzida pela força da água acumulada nas barragens chama-se energia ___",
+        "question": "A energia produzida pela força da água acumulada nas barragens chama-se energia ___",
+        "opcoes": [
+          "Hídrica / Hidroelétrica",
+          "Eólica",
+          "Nuclear"
+        ],
+        "options": [
+          "Hídrica / Hidroelétrica",
+          "Eólica",
+          "Nuclear"
+        ],
+        "resposta": "Hídrica / Hidroelétrica",
+        "correctAnswer": "Hídrica / Hidroelétrica",
+        "explicacao": "A água faz girar as turbinas das centrais hidroelétricas.",
+        "explanation": "A água faz girar as turbinas das centrais hidroelétricas."
+      },
+      {
+        "id": "em_3_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas é uma energia NÃO RENOVÁVEL que polui com fumo e gases de efeito de estufa?",
+        "question": "Qual destas é uma energia NÃO RENOVÁVEL que polui com fumo e gases de efeito de estufa?",
+        "opcoes": [
+          "🛢️ Petróleo e Carvão",
+          "☀️ Energia Solar",
+          "🌬️ Energia Eólica"
+        ],
+        "options": [
+          "🛢️ Petróleo e Carvão",
+          "☀️ Energia Solar",
+          "🌬️ Energia Eólica"
+        ],
+        "resposta": "🛢️ Petróleo e Carvão",
+        "correctAnswer": "🛢️ Petróleo e Carvão",
+        "explicacao": "Os combustíveis fósseis esgotam-se e emitem gases com efeito de estufa! 🛢️",
+        "explanation": "Os combustíveis fósseis esgotam-se e emitem gases com efeito de estufa! 🛢️"
+      },
+      {
+        "id": "em_3_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A energia Eólica aproveita a força de qual elemento natural?",
+        "question": "A energia Eólica aproveita a força de qual elemento natural?",
+        "opcoes": [
+          "Do Vento",
+          "Do Fogo",
+          "Da Terra"
+        ],
+        "options": [
+          "Do Vento",
+          "Do Fogo",
+          "Da Terra"
+        ],
+        "resposta": "Do Vento",
+        "correctAnswer": "Do Vento",
+        "explicacao": "As pás dos aerogeradores giram com o vento produzindo eletricidade.",
+        "explanation": "As pás dos aerogeradores giram com o vento produzindo eletricidade."
+      },
+      {
+        "id": "em_3_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Poupar energia elétrica em casa ajuda a reduzir a pegada ecológica do planeta.",
+        "question": "Poupar energia elétrica em casa ajuda a reduzir a pegada ecológica do planeta.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Desligar luzes e aparelhos em standby protege o meio ambiente.",
+        "explanation": "Verdadeiro! Desligar luzes e aparelhos em standby protege o meio ambiente."
+      },
+      {
+        "id": "em_3_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que é a Biomassa?",
+        "question": "O que é a Biomassa?",
+        "opcoes": [
+          "Energia obtida a partir de resíduos de madeira, florestas e agricultura",
+          "Energia do vidro",
+          "Energia do plástico"
+        ],
+        "options": [
+          "Energia obtida a partir de resíduos de madeira, florestas e agricultura",
+          "Energia do vidro",
+          "Energia do plástico"
+        ],
+        "resposta": "Energia obtida a partir de resíduos de madeira, florestas e agricultura",
+        "correctAnswer": "Energia obtida a partir de resíduos de madeira, florestas e agricultura",
+        "explicacao": "Aproveita sobras de limpezas florestais prevenindo incêndios.",
+        "explanation": "Aproveita sobras de limpezas florestais prevenindo incêndios."
+      },
+      {
+        "id": "em_3_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a fonte renovável ao seu recurso natural:",
+        "question": "Associa a fonte renovável ao seu recurso natural:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente consciência ecológica e energética!",
+        "explanation": "Excelente consciência ecológica e energética!",
+        "pairs": {
+          "Energia Solar": "Luz e calor do Sol",
+          "Energia Eólica": "Força dos ventos",
+          "Energia Hídrica": "Corrente e quedas de água nas barragens",
+          "Energia das Ondas / Marés": "Movimento dos oceanos"
+        },
+        "pares": {
+          "Energia Solar": "Luz e calor do Sol",
+          "Energia Eólica": "Força dos ventos",
+          "Energia Hídrica": "Corrente e quedas de água nas barragens",
+          "Energia das Ondas / Marés": "Movimento dos oceanos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f11",
+    "numero": 11,
+    "titulo": "Património e Símbolos Nacionais de Portugal",
+    "title": "Património e Símbolos Nacionais de Portugal",
+    "descricao": "A Bandeira Nacional (verde e vermelha), o Hino 'A Portuguesa', a Esfera Armilar e os Castelos.",
+    "description": "A Bandeira Nacional (verde e vermelha), o Hino 'A Portuguesa', a Esfera Armilar e os Castelos.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🇵🇹",
+    "imageEmoji": "🇵🇹",
+    "exercicios": [
+      {
+        "id": "em_3_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quais são as duas cores oficiais da Bandeira Nacional de Portugal?",
+        "question": "Quais são as duas cores oficiais da Bandeira Nacional de Portugal?",
+        "opcoes": [
+          "Verde e Vermelho",
+          "Azul e Branco",
+          "Amarelo e Verde"
+        ],
+        "options": [
+          "Verde e Vermelho",
+          "Azul e Branco",
+          "Amarelo e Verde"
+        ],
+        "resposta": "Verde e Vermelho",
+        "correctAnswer": "Verde e Vermelho",
+        "explicacao": "O Verde simboliza a Esperança e o Vermelho a Coragem e bravura!",
+        "explanation": "O Verde simboliza a Esperança e o Vermelho a Coragem e bravura!"
+      },
+      {
+        "id": "em_3_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Hino Nacional de Portugal intitula-se 'A Portuguesa' e começa por 'Heróis do mar, nobre povo...'.",
+        "question": "O Hino Nacional de Portugal intitula-se 'A Portuguesa' e começa por 'Heróis do mar, nobre povo...'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Foi composto por Alfredo Keil com letra de Henrique Lopes de Mendonça.",
+        "explanation": "Verdadeiro! Foi composto por Alfredo Keil com letra de Henrique Lopes de Mendonça."
+      },
+      {
+        "id": "em_3_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O instrumento astronómico dourado no centro da bandeira portuguesa, usado pelos navegadores, chama-se ___",
+        "question": "O instrumento astronómico dourado no centro da bandeira portuguesa, usado pelos navegadores, chama-se ___",
+        "opcoes": [
+          "Esfera Armilar",
+          "Telescópio",
+          "Bússola"
+        ],
+        "options": [
+          "Esfera Armilar",
+          "Telescópio",
+          "Bússola"
+        ],
+        "resposta": "Esfera Armilar",
+        "correctAnswer": "Esfera Armilar",
+        "explicacao": "A Esfera Armilar evoca a glória dos Descobrimentos Marítimos!",
+        "explanation": "A Esfera Armilar evoca a glória dos Descobrimentos Marítimos!"
+      },
+      {
+        "id": "em_3_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quantos Castelos amarelos estão representados na borda vermelha do Escudo de Portugal?",
+        "question": "Quantos Castelos amarelos estão representados na borda vermelha do Escudo de Portugal?",
+        "opcoes": [
+          "🏰 7 Castelos",
+          "🏰 5 Castelos",
+          "🏰 12 Castelos"
+        ],
+        "options": [
+          "🏰 7 Castelos",
+          "🏰 5 Castelos",
+          "🏰 12 Castelos"
+        ],
+        "resposta": "🏰 7 Castelos",
+        "correctAnswer": "🏰 7 Castelos",
+        "explicacao": "O escudo tem 7 castelos e 5 quinas azuis! 🏰",
+        "explanation": "O escudo tem 7 castelos e 5 quinas azuis! 🏰"
+      },
+      {
+        "id": "em_3_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que representam as 5 Quinas azuis no escudo de armas de Portugal?",
+        "question": "O que representam as 5 Quinas azuis no escudo de armas de Portugal?",
+        "opcoes": [
+          "Os 5 reis mouros vencidos por D. Afonso Henriques na Batalha de Ourique",
+          "As 5 maiores cidades",
+          "Os 5 rios"
+        ],
+        "options": [
+          "Os 5 reis mouros vencidos por D. Afonso Henriques na Batalha de Ourique",
+          "As 5 maiores cidades",
+          "Os 5 rios"
+        ],
+        "resposta": "Os 5 reis mouros vencidos por D. Afonso Henriques na Batalha de Ourique",
+        "correctAnswer": "Os 5 reis mouros vencidos por D. Afonso Henriques na Batalha de Ourique",
+        "explicacao": "As 5 quinas com besantes brancos são a marca heráldica mais antiga de Portugal!",
+        "explanation": "As 5 quinas com besantes brancos são a marca heráldica mais antiga de Portugal!"
+      },
+      {
+        "id": "em_3_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Galo de Barcelos é um dos símbolos do artesanato e tradição lendária portuguesa mais famosos no mundo.",
+        "question": "O Galo de Barcelos é um dos símbolos do artesanato e tradição lendária portuguesa mais famosos no mundo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O colorido galo de Barcelos representa a justiça e a sorte.",
+        "explanation": "Verdadeiro! O colorido galo de Barcelos representa a justiça e a sorte."
+      },
+      {
+        "id": "em_3_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Fado tradicional português, Património da Humanidade, é cantado ao som da...",
+        "question": "O Fado tradicional português, Património da Humanidade, é cantado ao som da...",
+        "opcoes": [
+          "Guitarra Portuguesa e viola de fado",
+          "Bateria eletrónica",
+          "Flauta de bisel"
+        ],
+        "options": [
+          "Guitarra Portuguesa e viola de fado",
+          "Bateria eletrónica",
+          "Flauta de bisel"
+        ],
+        "resposta": "Guitarra Portuguesa e viola de fado",
+        "correctAnswer": "Guitarra Portuguesa e viola de fado",
+        "explicacao": "A guitarra portuguesa com 12 cordas tem um timbre inconfundível!",
+        "explanation": "A guitarra portuguesa com 12 cordas tem um timbre inconfundível!"
+      },
+      {
+        "id": "em_3_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os elementos dos símbolos nacionais:",
+        "question": "Associa os elementos dos símbolos nacionais:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Orgulho e respeito pelos símbolos da nossa Pátria!",
+        "explanation": "Orgulho e respeito pelos símbolos da nossa Pátria!",
+        "pairs": {
+          "Cor Verde": "A Esperança no futuro",
+          "Cor Vermelha": "A Coragem e o sangue dos heróis",
+          "Esfera Armilar": "O mundo navegado nos Descobrimentos",
+          "7 Castelos": "As fortalezas e praças fortificadas"
+        },
+        "pares": {
+          "Cor Verde": "A Esperança no futuro",
+          "Cor Vermelha": "A Coragem e o sangue dos heróis",
+          "Esfera Armilar": "O mundo navegado nos Descobrimentos",
+          "7 Castelos": "As fortalezas e praças fortificadas"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quais são as duas cores oficiais da Bandeira Nacional de Portugal?",
+        "question": "Quais são as duas cores oficiais da Bandeira Nacional de Portugal?",
+        "opcoes": [
+          "Verde e Vermelho",
+          "Azul e Branco",
+          "Amarelo e Verde"
+        ],
+        "options": [
+          "Verde e Vermelho",
+          "Azul e Branco",
+          "Amarelo e Verde"
+        ],
+        "resposta": "Verde e Vermelho",
+        "correctAnswer": "Verde e Vermelho",
+        "explicacao": "O Verde simboliza a Esperança e o Vermelho a Coragem e bravura!",
+        "explanation": "O Verde simboliza a Esperança e o Vermelho a Coragem e bravura!"
+      },
+      {
+        "id": "em_3_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Hino Nacional de Portugal intitula-se 'A Portuguesa' e começa por 'Heróis do mar, nobre povo...'.",
+        "question": "O Hino Nacional de Portugal intitula-se 'A Portuguesa' e começa por 'Heróis do mar, nobre povo...'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Foi composto por Alfredo Keil com letra de Henrique Lopes de Mendonça.",
+        "explanation": "Verdadeiro! Foi composto por Alfredo Keil com letra de Henrique Lopes de Mendonça."
+      },
+      {
+        "id": "em_3_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O instrumento astronómico dourado no centro da bandeira portuguesa, usado pelos navegadores, chama-se ___",
+        "question": "O instrumento astronómico dourado no centro da bandeira portuguesa, usado pelos navegadores, chama-se ___",
+        "opcoes": [
+          "Esfera Armilar",
+          "Telescópio",
+          "Bússola"
+        ],
+        "options": [
+          "Esfera Armilar",
+          "Telescópio",
+          "Bússola"
+        ],
+        "resposta": "Esfera Armilar",
+        "correctAnswer": "Esfera Armilar",
+        "explicacao": "A Esfera Armilar evoca a glória dos Descobrimentos Marítimos!",
+        "explanation": "A Esfera Armilar evoca a glória dos Descobrimentos Marítimos!"
+      },
+      {
+        "id": "em_3_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quantos Castelos amarelos estão representados na borda vermelha do Escudo de Portugal?",
+        "question": "Quantos Castelos amarelos estão representados na borda vermelha do Escudo de Portugal?",
+        "opcoes": [
+          "🏰 7 Castelos",
+          "🏰 5 Castelos",
+          "🏰 12 Castelos"
+        ],
+        "options": [
+          "🏰 7 Castelos",
+          "🏰 5 Castelos",
+          "🏰 12 Castelos"
+        ],
+        "resposta": "🏰 7 Castelos",
+        "correctAnswer": "🏰 7 Castelos",
+        "explicacao": "O escudo tem 7 castelos e 5 quinas azuis! 🏰",
+        "explanation": "O escudo tem 7 castelos e 5 quinas azuis! 🏰"
+      },
+      {
+        "id": "em_3_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que representam as 5 Quinas azuis no escudo de armas de Portugal?",
+        "question": "O que representam as 5 Quinas azuis no escudo de armas de Portugal?",
+        "opcoes": [
+          "Os 5 reis mouros vencidos por D. Afonso Henriques na Batalha de Ourique",
+          "As 5 maiores cidades",
+          "Os 5 rios"
+        ],
+        "options": [
+          "Os 5 reis mouros vencidos por D. Afonso Henriques na Batalha de Ourique",
+          "As 5 maiores cidades",
+          "Os 5 rios"
+        ],
+        "resposta": "Os 5 reis mouros vencidos por D. Afonso Henriques na Batalha de Ourique",
+        "correctAnswer": "Os 5 reis mouros vencidos por D. Afonso Henriques na Batalha de Ourique",
+        "explicacao": "As 5 quinas com besantes brancos são a marca heráldica mais antiga de Portugal!",
+        "explanation": "As 5 quinas com besantes brancos são a marca heráldica mais antiga de Portugal!"
+      },
+      {
+        "id": "em_3_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Galo de Barcelos é um dos símbolos do artesanato e tradição lendária portuguesa mais famosos no mundo.",
+        "question": "O Galo de Barcelos é um dos símbolos do artesanato e tradição lendária portuguesa mais famosos no mundo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O colorido galo de Barcelos representa a justiça e a sorte.",
+        "explanation": "Verdadeiro! O colorido galo de Barcelos representa a justiça e a sorte."
+      },
+      {
+        "id": "em_3_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Fado tradicional português, Património da Humanidade, é cantado ao som da...",
+        "question": "O Fado tradicional português, Património da Humanidade, é cantado ao som da...",
+        "opcoes": [
+          "Guitarra Portuguesa e viola de fado",
+          "Bateria eletrónica",
+          "Flauta de bisel"
+        ],
+        "options": [
+          "Guitarra Portuguesa e viola de fado",
+          "Bateria eletrónica",
+          "Flauta de bisel"
+        ],
+        "resposta": "Guitarra Portuguesa e viola de fado",
+        "correctAnswer": "Guitarra Portuguesa e viola de fado",
+        "explicacao": "A guitarra portuguesa com 12 cordas tem um timbre inconfundível!",
+        "explanation": "A guitarra portuguesa com 12 cordas tem um timbre inconfundível!"
+      },
+      {
+        "id": "em_3_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os elementos dos símbolos nacionais:",
+        "question": "Associa os elementos dos símbolos nacionais:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Orgulho e respeito pelos símbolos da nossa Pátria!",
+        "explanation": "Orgulho e respeito pelos símbolos da nossa Pátria!",
+        "pairs": {
+          "Cor Verde": "A Esperança no futuro",
+          "Cor Vermelha": "A Coragem e o sangue dos heróis",
+          "Esfera Armilar": "O mundo navegado nos Descobrimentos",
+          "7 Castelos": "As fortalezas e praças fortificadas"
+        },
+        "pares": {
+          "Cor Verde": "A Esperança no futuro",
+          "Cor Vermelha": "A Coragem e o sangue dos heróis",
+          "Esfera Armilar": "O mundo navegado nos Descobrimentos",
+          "7 Castelos": "As fortalezas e praças fortificadas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_3_f12",
+    "numero": 12,
+    "titulo": "Direitos da Criança, Cidadania e Sociedade",
+    "title": "Direitos da Criança, Cidadania e Sociedade",
+    "descricao": "A Declaração dos Direitos da Criança, igualdade, inclusão, deveres e voluntariado.",
+    "description": "A Declaração dos Direitos da Criança, igualdade, inclusão, deveres e voluntariado.",
+    "dificuldade": "DESAFIO",
+    "difficulty": "CHALLENGE",
+    "emoji": "🤝",
+    "imageEmoji": "🤝",
+    "exercicios": [
+      {
+        "id": "em_3_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Segundo a Convenção dos Direitos da Criança, todas as crianças têm direito a...",
+        "question": "Segundo a Convenção dos Direitos da Criança, todas as crianças têm direito a...",
+        "opcoes": [
+          "Educação, saúde, proteção, família e brincar",
+          "Trabalhar em fábricas",
+          "Comer apenas doces"
+        ],
+        "options": [
+          "Educação, saúde, proteção, família e brincar",
+          "Trabalhar em fábricas",
+          "Comer apenas doces"
+        ],
+        "resposta": "Educação, saúde, proteção, família e brincar",
+        "correctAnswer": "Educação, saúde, proteção, família e brincar",
+        "explicacao": "Todas as crianças do mundo merecem crescer seguras, amadas e com escola!",
+        "explanation": "Todas as crianças do mundo merecem crescer seguras, amadas e com escola!"
+      },
+      {
+        "id": "em_3_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Crianças de diferentes países, etnias ou com deficiências têm exatamente os mesmos direitos fundamentais.",
+        "question": "Crianças de diferentes países, etnias ou com deficiências têm exatamente os mesmos direitos fundamentais.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O princípio da não discriminação e igualdade é universal.",
+        "explanation": "Verdadeiro! O princípio da não discriminação e igualdade é universal."
+      },
+      {
+        "id": "em_3_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A par de termos direitos, também temos o dever cívico de respeitar os outros, os professores e o ___ escolar.",
+        "question": "A par de termos direitos, também temos o dever cívico de respeitar os outros, os professores e o ___ escolar.",
+        "opcoes": [
+          "material / património",
+          "segredo",
+          "telemóvel"
+        ],
+        "options": [
+          "material / património",
+          "segredo",
+          "telemóvel"
+        ],
+        "resposta": "material / património",
+        "correctAnswer": "material / património",
+        "explicacao": "Direitos e deveres caminham juntos para uma sociedade harmoniosa.",
+        "explanation": "Direitos e deveres caminham juntos para uma sociedade harmoniosa."
+      },
+      {
+        "id": "em_3_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas atitudes demonstra espírito de solidariedade e voluntariado?",
+        "question": "Qual destas atitudes demonstra espírito de solidariedade e voluntariado?",
+        "opcoes": [
+          "🤝 Ajudar um colega novo a integrar-se na escola",
+          "😤 Rir de quem tem dificuldades",
+          "📱 Ignorar toda a gente"
+        ],
+        "options": [
+          "🤝 Ajudar um colega novo a integrar-se na escola",
+          "😤 Rir de quem tem dificuldades",
+          "📱 Ignorar toda a gente"
+        ],
+        "resposta": "🤝 Ajudar um colega novo a integrar-se na escola",
+        "correctAnswer": "🤝 Ajudar um colega novo a integrar-se na escola",
+        "explicacao": "A bondade, o respeito e a entreajuda tornam a nossa escola melhor! 🤝",
+        "explanation": "A bondade, o respeito e a entreajuda tornam a nossa escola melhor! 🤝"
+      },
+      {
+        "id": "em_3_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como devemos resolver conflitos e desentendimentos no recreio?",
+        "question": "Como devemos resolver conflitos e desentendimentos no recreio?",
+        "opcoes": [
+          "Pelo diálogo calmo e respeito mútuo",
+          "Com gritos e empurrões",
+          "Fugindo da escola"
+        ],
+        "options": [
+          "Pelo diálogo calmo e respeito mútuo",
+          "Com gritos e empurrões",
+          "Fugindo da escola"
+        ],
+        "resposta": "Pelo diálogo calmo e respeito mútuo",
+        "correctAnswer": "Pelo diálogo calmo e respeito mútuo",
+        "explicacao": "Conversar e saber ouvir resolve qualquer divergência em paz.",
+        "explanation": "Conversar e saber ouvir resolve qualquer divergência em paz."
+      },
+      {
+        "id": "em_3_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Brincar e descansar é um direito oficial reconhecido a todas as crianças pela ONU.",
+        "question": "Brincar e descansar é um direito oficial reconhecido a todas as crianças pela ONU.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O artigo 31.º consagra o direito ao lazer e ao jogo.",
+        "explanation": "Verdadeiro! O artigo 31.º consagra o direito ao lazer e ao jogo."
+      },
+      {
+        "id": "em_3_f12_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A organização internacional da ONU dedicada exclusivamente a proteger as crianças chama-se...",
+        "question": "A organização internacional da ONU dedicada exclusivamente a proteger as crianças chama-se...",
+        "opcoes": [
+          "UNICEF",
+          "NASA",
+          "FIFA"
+        ],
+        "options": [
+          "UNICEF",
+          "NASA",
+          "FIFA"
+        ],
+        "resposta": "UNICEF",
+        "correctAnswer": "UNICEF",
+        "explicacao": "A UNICEF defende os direitos das crianças em todo o mundo!",
+        "explanation": "A UNICEF defende os direitos das crianças em todo o mundo!"
+      },
+      {
+        "id": "em_3_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o Direito ao seu respetivo Dever:",
+        "question": "Associa o Direito ao seu respetivo Dever:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Campeão Cidadão do Estudo do Meio do 3.º Ano!",
+        "explanation": "Parabéns, Campeão Cidadão do Estudo do Meio do 3.º Ano!",
+        "pairs": {
+          "Direito a estudar": "Dever de fazer os trabalhos e ter atenção nas aulas",
+          "Direito a ter amigos": "Dever de respeitar e não praticar bullying",
+          "Direito a viver num ambiente limpo": "Dever de não deitar lixo para o chão",
+          "Direito a ser ouvido": "Dever de escutar a opinião dos outros com respeito"
+        },
+        "pares": {
+          "Direito a estudar": "Dever de fazer os trabalhos e ter atenção nas aulas",
+          "Direito a ter amigos": "Dever de respeitar e não praticar bullying",
+          "Direito a viver num ambiente limpo": "Dever de não deitar lixo para o chão",
+          "Direito a ser ouvido": "Dever de escutar a opinião dos outros com respeito"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_3_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Segundo a Convenção dos Direitos da Criança, todas as crianças têm direito a...",
+        "question": "Segundo a Convenção dos Direitos da Criança, todas as crianças têm direito a...",
+        "opcoes": [
+          "Educação, saúde, proteção, família e brincar",
+          "Trabalhar em fábricas",
+          "Comer apenas doces"
+        ],
+        "options": [
+          "Educação, saúde, proteção, família e brincar",
+          "Trabalhar em fábricas",
+          "Comer apenas doces"
+        ],
+        "resposta": "Educação, saúde, proteção, família e brincar",
+        "correctAnswer": "Educação, saúde, proteção, família e brincar",
+        "explicacao": "Todas as crianças do mundo merecem crescer seguras, amadas e com escola!",
+        "explanation": "Todas as crianças do mundo merecem crescer seguras, amadas e com escola!"
+      },
+      {
+        "id": "em_3_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Crianças de diferentes países, etnias ou com deficiências têm exatamente os mesmos direitos fundamentais.",
+        "question": "Crianças de diferentes países, etnias ou com deficiências têm exatamente os mesmos direitos fundamentais.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O princípio da não discriminação e igualdade é universal.",
+        "explanation": "Verdadeiro! O princípio da não discriminação e igualdade é universal."
+      },
+      {
+        "id": "em_3_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A par de termos direitos, também temos o dever cívico de respeitar os outros, os professores e o ___ escolar.",
+        "question": "A par de termos direitos, também temos o dever cívico de respeitar os outros, os professores e o ___ escolar.",
+        "opcoes": [
+          "material / património",
+          "segredo",
+          "telemóvel"
+        ],
+        "options": [
+          "material / património",
+          "segredo",
+          "telemóvel"
+        ],
+        "resposta": "material / património",
+        "correctAnswer": "material / património",
+        "explicacao": "Direitos e deveres caminham juntos para uma sociedade harmoniosa.",
+        "explanation": "Direitos e deveres caminham juntos para uma sociedade harmoniosa."
+      },
+      {
+        "id": "em_3_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas atitudes demonstra espírito de solidariedade e voluntariado?",
+        "question": "Qual destas atitudes demonstra espírito de solidariedade e voluntariado?",
+        "opcoes": [
+          "🤝 Ajudar um colega novo a integrar-se na escola",
+          "😤 Rir de quem tem dificuldades",
+          "📱 Ignorar toda a gente"
+        ],
+        "options": [
+          "🤝 Ajudar um colega novo a integrar-se na escola",
+          "😤 Rir de quem tem dificuldades",
+          "📱 Ignorar toda a gente"
+        ],
+        "resposta": "🤝 Ajudar um colega novo a integrar-se na escola",
+        "correctAnswer": "🤝 Ajudar um colega novo a integrar-se na escola",
+        "explicacao": "A bondade, o respeito e a entreajuda tornam a nossa escola melhor! 🤝",
+        "explanation": "A bondade, o respeito e a entreajuda tornam a nossa escola melhor! 🤝"
+      },
+      {
+        "id": "em_3_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como devemos resolver conflitos e desentendimentos no recreio?",
+        "question": "Como devemos resolver conflitos e desentendimentos no recreio?",
+        "opcoes": [
+          "Pelo diálogo calmo e respeito mútuo",
+          "Com gritos e empurrões",
+          "Fugindo da escola"
+        ],
+        "options": [
+          "Pelo diálogo calmo e respeito mútuo",
+          "Com gritos e empurrões",
+          "Fugindo da escola"
+        ],
+        "resposta": "Pelo diálogo calmo e respeito mútuo",
+        "correctAnswer": "Pelo diálogo calmo e respeito mútuo",
+        "explicacao": "Conversar e saber ouvir resolve qualquer divergência em paz.",
+        "explanation": "Conversar e saber ouvir resolve qualquer divergência em paz."
+      },
+      {
+        "id": "em_3_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Brincar e descansar é um direito oficial reconhecido a todas as crianças pela ONU.",
+        "question": "Brincar e descansar é um direito oficial reconhecido a todas as crianças pela ONU.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O artigo 31.º consagra o direito ao lazer e ao jogo.",
+        "explanation": "Verdadeiro! O artigo 31.º consagra o direito ao lazer e ao jogo."
+      },
+      {
+        "id": "em_3_f12_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A organização internacional da ONU dedicada exclusivamente a proteger as crianças chama-se...",
+        "question": "A organização internacional da ONU dedicada exclusivamente a proteger as crianças chama-se...",
+        "opcoes": [
+          "UNICEF",
+          "NASA",
+          "FIFA"
+        ],
+        "options": [
+          "UNICEF",
+          "NASA",
+          "FIFA"
+        ],
+        "resposta": "UNICEF",
+        "correctAnswer": "UNICEF",
+        "explicacao": "A UNICEF defende os direitos das crianças em todo o mundo!",
+        "explanation": "A UNICEF defende os direitos das crianças em todo o mundo!"
+      },
+      {
+        "id": "em_3_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o Direito ao seu respetivo Dever:",
+        "question": "Associa o Direito ao seu respetivo Dever:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Campeão Cidadão do Estudo do Meio do 3.º Ano!",
+        "explanation": "Parabéns, Campeão Cidadão do Estudo do Meio do 3.º Ano!",
+        "pairs": {
+          "Direito a estudar": "Dever de fazer os trabalhos e ter atenção nas aulas",
+          "Direito a ter amigos": "Dever de respeitar e não praticar bullying",
+          "Direito a viver num ambiente limpo": "Dever de não deitar lixo para o chão",
+          "Direito a ser ouvido": "Dever de escutar a opinião dos outros com respeito"
+        },
+        "pares": {
+          "Direito a estudar": "Dever de fazer os trabalhos e ter atenção nas aulas",
+          "Direito a ter amigos": "Dever de respeitar e não praticar bullying",
+          "Direito a viver num ambiente limpo": "Dever de não deitar lixo para o chão",
+          "Direito a ser ouvido": "Dever de escutar a opinião dos outros com respeito"
+        }
+      }
+    ]
+  }
+]

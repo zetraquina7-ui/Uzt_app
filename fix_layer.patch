@@ -1,0 +1,11 @@
+--- app/src/main/java/com/example/ui/components/VideoPlayer.kt
++++ app/src/main/java/com/example/ui/components/VideoPlayer.kt
+@@ -310,6 +310,8 @@
+                 modifier = Modifier.fillMaxSize(),
+                 factory = { ctx ->
+                     WebView(ctx).apply {
++                        setLayerType(android.view.View.LAYER_TYPE_SOFTWARE, null)
++
+                         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                             setRendererPriorityPolicy(WebView.RENDERER_PRIORITY_BOUND, true)
+                         }

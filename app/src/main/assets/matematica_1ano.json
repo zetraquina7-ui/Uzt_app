@@ -1,0 +1,798 @@
+[
+  {
+    "id": "mat_1_f1",
+    "numero": 1,
+    "titulo": "Ficha 1: Os Números de 1 a 5",
+    "descricao": "Aprende a reconhecer, contar e escrever os números de 1 a 5.",
+    "dificuldade": "FACIL",
+    "emoji": "🔢",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Que número vem a seguir ao 2?",
+        "opcoes": ["1", "3", "4"],
+        "resposta": "3",
+        "explicacao": "Ao contarmos (1, 2, 3...), o número que vem imediatamente a seguir ao 2 é o 3!"
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Completa a sequência: 1, 2, __, 4, 5",
+        "opcoes": ["2", "3", "5"],
+        "resposta": "3",
+        "explicacao": "Falta o número 3 para a sequência ficar certinha: 1, 2, 3, 4, 5."
+      },
+      {
+        "tipo": "COUNTING",
+        "pergunta": "Quantas maçãs consegues contar?",
+        "countItems": "🍎🍎🍎",
+        "opcoes": ["2", "3", "4"],
+        "resposta": "3",
+        "explicacao": "Contando uma a uma: uma, duas, três maçãs docinhas! 🍎"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O número 5 é mais pequeno do que o número 2.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! O número 5 representa uma quantidade maior do que o número 2."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas opções mostra exatamente 4 flores?",
+        "opcoes": ["🌸 1 Flor", "🌸🌸🌸 3 Flores", "🌸🌸🌸🌸 4 Flores"],
+        "resposta": "🌸🌸🌸🌸 4 Flores",
+        "explicacao": "Esta opção tem exatamente quatro flores cor-de-rosa! 🌸"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se tiveres 2 berlindes e o teu amigo te der mais 1, com quantos ficas?",
+        "opcoes": ["2", "3", "4"],
+        "resposta": "3",
+        "explicacao": "Se tens 2 e juntas mais 1, ficas com 3 berlindes no total! (2 + 1 = 3)."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O número zero (0) significa que não temos nenhuma quantidade.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O zero representa a ausência total de objetos."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Qual é o número que falta? 5, 4, 3, __, 1",
+        "opcoes": ["0", "2", "6"],
+        "resposta": "2",
+        "explicacao": "Na contagem decrescente (do maior para o mais pequeno), depois do 3 vem o 2."
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f2",
+    "numero": 2,
+    "titulo": "Ficha 2: Os Números de 6 a 10",
+    "descricao": "Avança na contagem e aprende a dominar os números de 6 a 10.",
+    "dificuldade": "FACIL",
+    "emoji": "🖐️",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o número que vem imediatamente antes do 10?",
+        "opcoes": ["8", "9", "7"],
+        "resposta": "9",
+        "explicacao": "Quando contamos até 10, o número que dizemos logo antes é o 9! (8, 9, 10)."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Completa o caminho: 6, 7, __, 9, 10",
+        "opcoes": ["5", "8", "10"],
+        "resposta": "8",
+        "explicacao": "O número que fica entre o 7 e o 9 é o 8! (6, 7, 8, 9, 10)."
+      },
+      {
+        "tipo": "COUNTING",
+        "pergunta": "Quantas estrelas brilham no céu?",
+        "countItems": "⭐⭐⭐⭐⭐⭐⭐",
+        "opcoes": ["6", "7", "8"],
+        "resposta": "7",
+        "explicacao": "Contando com atenção: 1, 2, 3, 4, 5, 6 e 7 estrelas brilhantes! ⭐"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Se juntares os dedos das tuas duas mãos completas, tens 10 dedos.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Temos exatamente 5 dedos em cada mão, o que faz 10 dedos no total."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Escolhe a opção que tem exatamente 6 borboletas:",
+        "opcoes": ["🦋🦋 2 Borboletas", "🦋🦋🦋🦋🦋🦋 6 Borboletas", "🦋🦋🦋🦋 4 Borboletas"],
+        "resposta": "🦋🦋🦋🦋🦋🦋 6 Borboletas",
+        "explicacao": "Esta opção tem seis lindas borboletas azuis para contares! 🦋"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes números é o maior de todos?",
+        "opcoes": ["8", "6", "9"],
+        "resposta": "9",
+        "explicacao": "O número 9 representa a maior quantidade de todas as opções apresentadas."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O número 6 é maior do que o número 8.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! O 6 vem antes do 8 na contagem, logo representa uma quantidade menor."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Completa a contagem decrescente: 10, 9, 8, 7, __",
+        "opcoes": ["5", "6", "8"],
+        "resposta": "6",
+        "explicacao": "Contando para trás: 10, 9, 8, 7 e depois o 6! Excelente trabalho."
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f3",
+    "numero": 3,
+    "titulo": "Ficha 3: Contagem Divertida de Objetos",
+    "descricao": "Pratica a contagem rápida de animais, brinquedos e guloseimas.",
+    "dificuldade": "FACIL",
+    "emoji": "🎈",
+    "exercicios": [
+      {
+        "tipo": "COUNTING",
+        "pergunta": "Quantos balões coloridos vês na festa?",
+        "countItems": "🎈🎈🎈🎈🎈",
+        "opcoes": ["4", "5", "6"],
+        "resposta": "5",
+        "explicacao": "São 5 balões vermelhos e flutuantes! 🎈"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se vires 3 sapinhos na lagoa e saltarem mais 2, quantos sapinhos ficas a ver?",
+        "opcoes": ["3", "4", "5"],
+        "resposta": "5",
+        "explicacao": "Três sapinhos mais dois sapinhos dão 5 sapinhos no total! (3 + 2 = 5)."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Há mais joaninhas 🐞🐞🐞🐞 do que abelhas 🐝🐝.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Há 4 joaninhas e apenas 2 abelhas, e 4 é maior do que 2."
+      },
+      {
+        "tipo": "COUNTING",
+        "pergunta": "Quantos peixinhos nadam felizes neste aquário?",
+        "countItems": "🐟🐟🐟🐟🐟🐟🐟🐟",
+        "opcoes": ["7", "8", "9"],
+        "resposta": "8",
+        "explicacao": "Nadam exatamente 8 peixinhos azuis no aquário! 🐟"
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Escolhe a opção que mostra exatamente 9 lápis coloridos:",
+        "opcoes": ["✏️✏️✏️ 3 Lápis", "✏️✏️✏️✏️✏️ 5 Lápis", "✏️✏️✏️✏️✏️✏️✏️✏️✏️ 9 Lápis"],
+        "resposta": "✏️✏️✏️✏️✏️✏️✏️✏️✏️ 9 Lápis",
+        "explicacao": "Esta opção contém exatamente nove lápis de carvão prontos a desenhar! ✏️"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se contares 4 gatinhos 🐱 e 2 cãezinhos 🐶, quantos animais tens ao todo?",
+        "opcoes": ["4", "6", "8"],
+        "resposta": "6",
+        "explicacao": "Se juntares 4 gatinhos com 2 cãezinhos, ficas com 6 animais amigos! (4 + 2 = 6)."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Nesta imagem de carros 🚗🚗🚗🚗🚗🚗🚗🚗🚗 contamos exatamente 10 carros.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Se contares bem, verás que são apenas 9 carros vermelhos."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Uma caixa tem 6 ovos. Se a mãe usar 1 ovo para um bolo, quantos sobram?",
+        "opcoes": ["4", "5", "6"],
+        "resposta": "5",
+        "explicacao": "Se tinhas 6 e tiraste 1, sobram exatamente 5 ovos na caixa! (6 - 1 = 5)."
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f4",
+    "numero": 4,
+    "titulo": "Ficha 4: Formas Geométricas (O Círculo e o Quadrado)",
+    "descricao": "Descobre o círculo redondo e o quadrado de lados todos iguais.",
+    "dificuldade": "FACIL",
+    "emoji": "🔴",
+    "exercicios": [
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas formas é perfeitamente redonda como o Sol?",
+        "opcoes": ["🔴 Círculo", "🟩 Quadrado", "🔺 Triângulo"],
+        "resposta": "🔴 Círculo",
+        "explicacao": "O círculo é a forma vermelha e redondinha! Não tem cantos nem linhas retas. 🔴"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos lados tem um quadrado perfeito?",
+        "opcoes": ["3", "4", "5"],
+        "resposta": "4",
+        "explicacao": "O quadrado tem exatamente 4 lados retos e iguaizinhos!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Os quatro lados de um quadrado são todos do mesmo tamanho.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Um quadrado tem de ter todos os 4 lados com o mesmo comprimento."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas formas se parece com uma janela de lados iguais?",
+        "opcoes": ["🔴 Círculo", "🟩 Quadrado", "🔺 Triângulo"],
+        "resposta": "🟩 Quadrado",
+        "explicacao": "O quadrado verde assemelha-se a uma janela bonita e equilibrada! 🟩"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se uma linha for totalmente curva e fechada, que forma cria?",
+        "opcoes": ["Círculo", "Quadrado", "Triângulo"],
+        "resposta": "Círculo",
+        "explicacao": "Uma linha curva perfeita e fechada forma um lindo círculo!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Uma bola de futebol tem a forma de um quadrado.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Uma bola de futebol é redonda, por isso assemelha-se a um círculo ou esfera."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Um quadrado tem 4 lados e ___ cantos (ou vértices) onde as linhas se unem.",
+        "opcoes": ["3", "4", "5"],
+        "resposta": "4",
+        "explicacao": "Um quadrado tem exatamente 4 cantos ou biquinhos (vértices)."
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes objetos do teu dia a dia é redondo como um círculo?",
+        "opcoes": ["Um livro escolar", "Uma moeda", "Uma régua"],
+        "resposta": "Uma moeda",
+        "explicacao": "A moeda é perfeitamente redonda, tal como o círculo!"
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f5",
+    "numero": 5,
+    "titulo": "Ficha 5: Mais Formas (O Triângulo e o Retângulo)",
+    "descricao": "Explora o triângulo de 3 lados e o retângulo de lados desiguais.",
+    "dificuldade": "FACIL",
+    "emoji": "🔺",
+    "exercicios": [
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas formas parece o telhado de uma casa e tem 3 lados?",
+        "opcoes": ["🟩 Quadrado", "🔴 Círculo", "🔺 Triângulo"],
+        "resposta": "🔺 Triângulo",
+        "explicacao": "O triângulo vermelho tem 3 lados retos e lembra-nos o telhado de uma cabana! 🔺"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos lados tem um triângulo?",
+        "opcoes": ["2", "3", "4"],
+        "resposta": "3",
+        "explicacao": "Um triângulo tem sempre 3 lados retos e 3 cantos (vértices)."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Um retângulo tem 4 lados, mas são 2 mais compridos e 2 mais curtos.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O retângulo tem 4 lados, mas não são todos iguais como no quadrado."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas formas se parece com uma porta de entrada ou um livro deitado?",
+        "opcoes": ["🔺 Triângulo", "🟦 Retângulo", "🔴 Círculo"],
+        "resposta": "🟦 Retângulo",
+        "explicacao": "O retângulo azul tem o formato perfeito de uma porta ou ecrã de televisão! 🟦"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se cortares uma sanduíche quadrada ao meio de um canto ao outro, com que fatias ficas?",
+        "opcoes": ["Círculos", "Triângulos", "Quadrados"],
+        "resposta": "Triângulos",
+        "explicacao": "Cortar na diagonal cria duas fatias com 3 lados, ou seja, dois triângulos!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Um triângulo tem 4 cantos (ou bicos).",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! O triângulo tem apenas 3 cantos ou biquinhos (vértices)."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Um retângulo tem ___ lados retos no total.",
+        "opcoes": ["3", "4", "5"],
+        "resposta": "4",
+        "explicacao": "O retângulo tem 4 lados no total (2 verticais e 2 horizontais)."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Escolhe a forma geométrica amarela que representa o Triângulo:",
+        "opcoes": ["🟡 Círculo", "🔺 Triângulo", "🟦 Retângulo"],
+        "resposta": "🔺 Triângulo",
+        "explicacao": "O triângulo vermelho 🔺 é a forma triangular que procuramos!"
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f6",
+    "numero": 6,
+    "titulo": "Ficha 6: Somas Fáceis com Emojis",
+    "descricao": "Aprende a juntar e a somar quantidades simples de forma visual.",
+    "dificuldade": "EASY",
+    "emoji": "➕",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 2 + 2?",
+        "opcoes": ["3", "4", "5"],
+        "resposta": "4",
+        "explicacao": "Se juntares 2 dedos com mais 2 dedos, ficas com 4 dedos no total!"
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Completa a conta matemática: 3 + 1 = ___",
+        "opcoes": ["2", "4", "5"],
+        "resposta": "4",
+        "explicacao": "Três mais um dá exatamente 4!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Se juntares 5 maçãs 🍎🍎🍎🍎🍎 com mais 2 maçãs 🍎🍎, ficas com 7 maçãs.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Se contares todas juntas: 1, 2, 3, 4, 5, 6, 7 maçãs!"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "O Tiago tem 3 carrinhos de brincar e a Maria tem 4. Quantos carrinhos têm os dois juntos?",
+        "opcoes": ["6", "7", "8"],
+        "resposta": "7",
+        "explicacao": "Juntar 3 com 4 dá 7 carrinhos giros! (3 + 4 = 7)."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Completa a conta: 4 + 2 = ___",
+        "opcoes": ["5", "6", "7"],
+        "resposta": "6",
+        "explicacao": "Quatro mais dois é igual a seis!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "A soma de 1 + 9 é igual a 10.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Se tens 1 e adicionas 9, chegas ao número 10."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas somas dá como resultado o número 5?",
+        "opcoes": ["2 + 2", "3 + 2", "4 + 3"],
+        "resposta": "3 + 2",
+        "explicacao": "Se tiveres 3 e juntares 2, dá exatamente 5! (3 + 2 = 5)."
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto dá juntar 6 gomas saborosas com mais 3 gomas?",
+        "opcoes": ["8", "9", "10"],
+        "resposta": "9",
+        "explicacao": "Seis mais três é igual a 9 gomas doces! (6 + 3 = 9)."
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f7",
+    "numero": 7,
+    "titulo": "Ficha 7: Subtrações Simples (Tirar e Recuar)",
+    "descricao": "Inicia-te na subtração e descobre como diminuir quantidades.",
+    "dificuldade": "EASY",
+    "emoji": "➖",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se tiveres 5 chocolates deliciosos e comeres 2, com quantos ficas?",
+        "opcoes": ["2", "3", "4"],
+        "resposta": "3",
+        "explicacao": "Ficas com 3 chocolates! (5 - 2 = 3)."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Completa a conta: 4 - 1 = ___",
+        "opcoes": ["2", "3", "4"],
+        "resposta": "3",
+        "explicacao": "Tirando 1 ao número 4, recuamos para o 3!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Se tiveres 6 balões flutuantes e rebentarem 3, ficas com 3 balões.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Se tinhas 6 e tiras 3, sobram exatamente 3. (6 - 3 = 3)."
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "A Rita tinha 8 lápis de cor. Perdeu 2 na escola. Com quantos ficou?",
+        "opcoes": ["5", "6", "7"],
+        "resposta": "6",
+        "explicacao": "A Rita ficou com 6 lápis! (8 - 2 = 6)."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Completa a conta: 10 - 5 = ___",
+        "opcoes": ["4", "5", "6"],
+        "resposta": "5",
+        "explicacao": "Dez menos cinco dá exatamente 5!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Se fizermos a conta 7 - 4, o resultado final é igual a 2.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! Se tens 7 e tiras 4, sobram 3 brinquedos e não 2. (7 - 4 = 3)."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Se tinhas 3 bananas e comeste 1, com quantas bananas ficaste?",
+        "opcoes": ["🍌 1 Banana", "🍌🍌 2 Bananas", "🍌🍌🍌 3 Bananas"],
+        "resposta": "🍌🍌 2 Bananas",
+        "explicacao": "Sobram duas bananas maduras para comer mais tarde! 🍌"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o resultado correto da conta 9 - 3?",
+        "opcoes": ["5", "6", "7"],
+        "resposta": "6",
+        "explicacao": "Nove menos três é igual a 6! (9 - 3 = 6)."
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f8",
+    "numero": 8,
+    "titulo": "Ficha 8: Comparar Quantidades (Maior e Menor)",
+    "descricao": "Aprende a identificar onde há mais, menos ou a mesma quantidade.",
+    "dificuldade": "MEDIUM",
+    "emoji": "⚖️",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes números representa a MENOR quantidade de todas?",
+        "opcoes": ["4", "2", "6"],
+        "resposta": "2",
+        "explicacao": "O número 2 representa a menor quantidade das três opções."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O número 9 representa uma quantidade maior do que o número 10.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! O 10 vem depois do 9, por isso representa uma quantidade maior."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "O número 7 é ___ do que o número 5.",
+        "opcoes": ["igual", "menor", "maior"],
+        "resposta": "maior",
+        "explicacao": "Sete é maior do que cinco (7 > 5)."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes grupos de rebuçados tem MAIS doces?",
+        "opcoes": ["🍬🍬 2 Rebuçados", "🍬🍬🍬 3 Rebuçados", "🍬🍬🍬🍬🍬🍬 6 Rebuçados"],
+        "resposta": "🍬🍬🍬🍬🍬🍬 6 Rebuçados",
+        "explicacao": "O grupo com seis rebuçados é o que tem a maior quantidade! 🍬"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Um grupo de 4 laranjas 🍊🍊🍊🍊 tem a MESMA quantidade que 4 maçãs 🍎🍎🍎🍎.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Ambos os grupos têm exatamente quatro frutas, logo são iguais em quantidade."
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se ordenares os números 3, 7 e 5 do mais pequeno para o maior, qual fica no meio?",
+        "opcoes": ["3", "5", "7"],
+        "resposta": "5",
+        "explicacao": "A ordem correta é: 3 (mais pequeno), 5 (meio) e 7 (maior). O 5 fica no meio!"
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "O número 8 é ___ do que o número 10.",
+        "opcoes": ["maior", "menor", "igual"],
+        "resposta": "menor",
+        "explicacao": "Oito representa uma quantidade menor do que dez (8 < 10)."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Se tu tens 6 berlindes e o teu primo também tem 6, as vossas quantidades são iguais.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Se ambos têm o mesmo número (6), as quantidades são iguazinhas."
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f9",
+    "numero": 9,
+    "titulo": "Ficha 9: Formas Geométricas no Dia a Dia",
+    "descricao": "Identifica as formas geométricas em objetos reais que usas diariamente.",
+    "dificuldade": "MEDIUM",
+    "emoji": "📐",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Uma fatia de pizza cortada assemelha-se a que forma?",
+        "opcoes": ["Um quadrado", "Um triângulo", "Um círculo"],
+        "resposta": "Um triângulo",
+        "explicacao": "A fatia de pizza tem 3 lados retos e um topo curvo, assemelhando-se muito a um triângulo!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O ecrã de uma televisão ou de um telemóvel tem a forma aproximada de um retângulo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Os ecrãs costumam ter 4 lados retos, sendo 2 compridos e 2 mais curtos."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes objetos se parece com um Círculo perfeito?",
+        "opcoes": ["📐 Uma régua escolar", "🍩 Um donut delicioso", "📦 Uma caixa de cartão"],
+        "resposta": "🍩 Um donut delicioso",
+        "explicacao": "O donut é perfeitamente redondo por fora, tal como um círculo! 🍩"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Uma folha de papel normal para desenhar tem que formato?",
+        "opcoes": ["Retângulo", "Quadrado", "Triângulo"],
+        "resposta": "Retângulo",
+        "explicacao": "A folha de papel tem 4 lados, com duas direções de comprimentos diferentes, logo é um retângulo!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Um dado de jogar ao jogo da glória tem a forma de um círculo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! O dado tem 6 faces quadradas e lados todos iguais, parecendo-se com um cubo (quadrados)."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "O tampo de uma mesa quadrada tem os seus lados todos ___.",
+        "opcoes": ["iguais", "diferentes", "redondos"],
+        "resposta": "iguais",
+        "explicacao": "Se a mesa é quadrada, todos os seus quatro lados têm obrigatoriamente de ser iguais."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes objetos tem o formato de um Triângulo?",
+        "opcoes": ["🚪 Uma porta", "🔺 Um sinal de trânsito de perigo", "🪙 Uma moeda de um euro"],
+        "resposta": "🔺 Um sinal de trânsito de perigo",
+        "explicacao": "Muitos sinais de trânsito de perigo têm 3 lados e a forma de um triângulo! 🔺"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "O tampo redondo de um banco de madeira assemelha-se a:",
+        "opcoes": ["Um triângulo", "Um quadrado", "Um círculo"],
+        "resposta": "Um círculo",
+        "explicacao": "Se o tampo é redondo, assemelha-se perfeitamente a um círculo!"
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f10",
+    "numero": 10,
+    "titulo": "Ficha 10: Padrões e Sequências Divertidas",
+    "descricao": "Descobre o segredo das cores, formas e números repetidos nos padrões.",
+    "dificuldade": "MEDIUM",
+    "emoji": "🧩",
+    "exercicios": [
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Completa o padrão de cores: Vermelho, Azul, Vermelho, Azul, ___",
+        "opcoes": ["Verde", "Vermelho", "Amarelo"],
+        "resposta": "Vermelho",
+        "explicacao": "O padrão alterna entre Vermelho e Azul, por isso depois de Azul vem o Vermelho!"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Completa o padrão de formas: Círculo, Quadrado, Círculo, Quadrado, ___",
+        "opcoes": ["Círculo", "Triângulo", "Retângulo"],
+        "resposta": "Círculo",
+        "explicacao": "O padrão repete as formas Círculo e Quadrado. A seguir ao Quadrado vem o Círculo!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "A sequência de números 2, 4, 6, 8, 10 é uma contagem de 2 em 2.",
+        "options": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Somamos sempre mais 2 a cada número para obter o seguinte."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Qual é o número que falta no padrão? 1, 3, 5, __, 9",
+        "opcoes": ["6", "7", "8"],
+        "resposta": "7",
+        "explicacao": "Esta é a contagem dos números ímpares (andando de 2 em 2 a partir do 1). Depois do 5 vem o 7!"
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "O que vem a seguir no padrão de frutas? 🍎 🍌 🍎 🍌 ___",
+        "opcoes": ["🍎 Maçã", "🍌 Banana", "🍊 Laranja"],
+        "resposta": "🍎 Maçã",
+        "explicacao": "Depois da banana 🍌, o padrão recomeça com a maçã 🍎!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "O número que falta na sequência 10, 20, 30, __, 50 é o 35.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! A sequência anda de 10 em 10, por isso o número correto seria o 40."
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a próxima figura nesta sequência lógica? 🔺 🟦 🔺 🟦 ___",
+        "opcoes": ["🔺 Triângulo", "🟦 Retângulo", "🔴 Círculo"],
+        "resposta": "🔺 Triângulo",
+        "explicacao": "O padrão alterna entre o triângulo vermelho e o quadrado azul. O próximo é o triângulo! 🔺"
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Completa o caminho de 5 em 5: 5, 10, 15, __, 25",
+        "opcoes": ["18", "20", "30"],
+        "resposta": "20",
+        "explicacao": "Contando de 5 em 5: 5, 10, 15, 20 e 25!"
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f11",
+    "numero": 11,
+    "titulo": "Ficha 11: Medidas de Comprimento e Tamanhos",
+    "descricao": "Explora conceitos de alto/baixo, comprido/curto e pesado/leve.",
+    "dificuldade": "MEDIUM",
+    "emoji": "🦒",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se comparares uma bola de futebol com um pequeno berlinde, qual é o MENOR?",
+        "opcoes": ["A bola de futebol", "O berlinde", "Têm o mesmo tamanho"],
+        "resposta": "O berlinde",
+        "explicacao": "O berlinde é muito mais pequeno do que a bola de futebol!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Uma régua escolar de 30 centímetros é mais comprida do que um lápis de carvão novo.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O lápis é mais curto do que a longa régua de 30 cm."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes animais é o mais ALTO da natureza?",
+        "opcoes": ["🐒 Macaco", "🦒 Girafa", "🐈 Gato"],
+        "resposta": "🦒 Girafa",
+        "explicacao": "A girafa é o animal terrestre mais alto do mundo devido ao seu longo pescoço! 🦒"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se colocares água num balde grande e num copo pequeno, qual leva MENOS água?",
+        "opcoes": ["O balde", "O copo", "Levam a mesma quantidade"],
+        "resposta": "O copo",
+        "explicacao": "O copo é mais pequeno, logo tem menor capacidade e leva menos água do que o balde!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Um elefante bebé é mais leve do que um passarinho.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Falso",
+        "explicacao": "Falso! O elefante, mesmo em bebé, é extremamente pesado em comparação com um pássaro pequenino."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Se guardares os teus lápis no estojo escolar, os lápis ficam do lado de ___ do estojo.",
+        "opcoes": ["fora", "cima", "dentro"],
+        "resposta": "dentro",
+        "explicacao": "Guardar os lápis significa que eles ficam no interior, ou seja, do lado de dentro do estojo!"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Onde está o Sol durante o meio-dia em relação a nós na Terra?",
+        "opcoes": ["Em baixo", "Ao lado", "Em cima (no céu)"],
+        "resposta": "Em cima (no céu)",
+        "explicacao": "O Sol brilha bem alto no céu, ou seja, fica em cima de nós!"
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Um camião de mercadorias é muito mais pesado do que uma bicicleta de brincar.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! O camião pesa toneladas, enquanto a bicicleta de brincar é leve e fácil de empurrar."
+      }
+    ]
+  },
+  {
+    "id": "mat_1_f12",
+    "numero": 12,
+    "titulo": "Ficha 12: Grandes Desafios Matemáticos",
+    "descricao": "Supera os últimos desafios matemáticos com raciocínio e inteligência!",
+    "dificuldade": "CHALLENGE",
+    "emoji": "🧠",
+    "exercicios": [
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "A Maria tem 3 maçãs verdes e 3 maçãs vermelhas. Quantas maçãs tem ao todo?",
+        "opcoes": ["3", "6", "9"],
+        "resposta": "6",
+        "explicacao": "Três maçãs verdes mais três maçãs vermelhas são seis maçãs! (3 + 3 = 6)."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Se tens 5 dedos numa mão e 5 dedos na outra, as duas mãos juntas têm ___ dedos.",
+        "opcoes": ["8", "9", "10"],
+        "resposta": "10",
+        "explicacao": "Temos exatamente dez dedos no total nas duas mãos juntas! (5 + 5 = 10)."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Se deres 4 passos em frente e depois recuares 1 passo para trás, ficaste a 3 passos do início.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Se andas 4 e tiras 1, ficas no passo número 3. (4 - 1 = 3)."
+      },
+      {
+        "tipo": "CHOOSE_IMAGE",
+        "pergunta": "Se tens 4 fatias de pizza deliciosas e comes 2 fatias, com quantas ficas?",
+        "opcoes": ["🍕 1 Fatia", "🍕🍕 2 Fatias", "🍕🍕🍕 3 Fatias"],
+        "resposta": "🍕🍕 2 Fatias",
+        "explicacao": "Se tinhas 4 e comeste 2, sobram exatamente duas fatias de pizza! 🍕"
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o dobro de 3 doces? (O dobro é somar o número a ele próprio: 3 + 3)",
+        "opcoes": ["5", "6", "7"],
+        "resposta": "6",
+        "explicacao": "O dobro de 3 é igual a 6! (3 + 3 = 6)."
+      },
+      {
+        "tipo": "TRUE_FALSE",
+        "pergunta": "Se dividires 4 chocolates em partes iguais entre ti e o teu irmão, cada um fica com 2 chocolates.",
+        "opcoes": ["Verdadeiro", "Falso"],
+        "resposta": "Verdadeiro",
+        "explicacao": "Verdadeiro! Dois chocolates para cada um soma exatamente os quatro chocolates iniciais."
+      },
+      {
+        "tipo": "COMPLETING",
+        "pergunta": "Descobre o número misterioso que completa a conta: 10 - ___ = 8",
+        "opcoes": ["1", "2", "3"],
+        "resposta": "2",
+        "explicacao": "Dez menos dois é igual a oito! O número misterioso é o 2."
+      },
+      {
+        "tipo": "MULTIPLE_CHOICE",
+        "pergunta": "Se uma mesa pequena tem 4 pernas e outra igual também tem 4, quantas pernas têm as duas juntas?",
+        "opcoes": ["6", "8", "10"],
+        "resposta": "8",
+        "explicacao": "Quatro pernas de uma mesa mais quatro pernas da outra dão oito pernas no total! (4 + 4 = 8)."
+      }
+    ]
+  }
+]

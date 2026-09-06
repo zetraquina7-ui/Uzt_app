@@ -1,0 +1,3734 @@
+[
+  {
+    "id": "pt_3_f1",
+    "numero": 1,
+    "titulo": "Classes de Palavras: Nomes, Adjetivos e Verbos",
+    "title": "Classes de Palavras: Nomes, Adjetivos e Verbos",
+    "descricao": "Identifica e distingue nomes (próprios/comuns), adjetivos e verbos de ação.",
+    "description": "Identifica e distingue nomes (próprios/comuns), adjetivos e verbos de ação.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "📝",
+    "imageEmoji": "📝",
+    "exercicios": [
+      {
+        "id": "pt_3_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O rio Tejo corre veloz', que classe de palavra é 'Tejo'?",
+        "question": "Na frase 'O rio Tejo corre veloz', que classe de palavra é 'Tejo'?",
+        "opcoes": [
+          "Nome Próprio",
+          "Adjetivo",
+          "Verbo"
+        ],
+        "options": [
+          "Nome Próprio",
+          "Adjetivo",
+          "Verbo"
+        ],
+        "resposta": "Nome Próprio",
+        "correctAnswer": "Nome Próprio",
+        "explicacao": "'Tejo' é o nome próprio de um rio português e escreve-se com maiúscula!",
+        "explanation": "'Tejo' é o nome próprio de um rio português e escreve-se com maiúscula!"
+      },
+      {
+        "id": "pt_3_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'As flores perfumadas abriram', 'perfumadas' é um adjetivo qualificativo.",
+        "question": "Na frase 'As flores perfumadas abriram', 'perfumadas' é um adjetivo qualificativo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Perfumadas' qualifica e dá uma característica às flores.",
+        "explanation": "Verdadeiro! 'Perfumadas' qualifica e dá uma característica às flores."
+      },
+      {
+        "id": "pt_3_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'O Zé ___ um livro interessante', a palavra que falta para indicar a ação é um verbo.",
+        "question": "Na frase 'O Zé ___ um livro interessante', a palavra que falta para indicar a ação é um verbo.",
+        "opcoes": [
+          "leu",
+          "casa",
+          "verde"
+        ],
+        "options": [
+          "leu",
+          "casa",
+          "verde"
+        ],
+        "resposta": "leu",
+        "correctAnswer": "leu",
+        "explicacao": "'Leu' é uma forma do verbo ler.",
+        "explanation": "'Leu' é uma forma do verbo ler."
+      },
+      {
+        "id": "pt_3_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é um VERBO que indica movimento?",
+        "question": "Qual destas palavras é um VERBO que indica movimento?",
+        "opcoes": [
+          "🏃 Correr",
+          "👟 Sapatilha",
+          "🔴 Vermelho"
+        ],
+        "options": [
+          "🏃 Correr",
+          "👟 Sapatilha",
+          "🔴 Vermelho"
+        ],
+        "resposta": "🏃 Correr",
+        "correctAnswer": "🏃 Correr",
+        "explicacao": "'Correr' é uma ação / verbo! 🏃",
+        "explanation": "'Correr' é uma ação / verbo! 🏃"
+      },
+      {
+        "id": "pt_3_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a classe da palavra 'brilhante'?",
+        "question": "Qual é a classe da palavra 'brilhante'?",
+        "opcoes": [
+          "Adjetivo",
+          "Nome Comum",
+          "Verbo"
+        ],
+        "options": [
+          "Adjetivo",
+          "Nome Comum",
+          "Verbo"
+        ],
+        "resposta": "Adjetivo",
+        "correctAnswer": "Adjetivo",
+        "explicacao": "'Brilhante' exprime uma qualidade de algo.",
+        "explanation": "'Brilhante' exprime uma qualidade de algo."
+      },
+      {
+        "id": "pt_3_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'escola' é um nome comum coletivo.",
+        "question": "A palavra 'escola' é um nome comum coletivo.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Escola' é um nome comum concreto individual.",
+        "explanation": "Falso! 'Escola' é um nome comum concreto individual."
+      },
+      {
+        "id": "pt_3_f1_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Descobre o nome coletivo que indica um conjunto de árvores:",
+        "question": "Descobre o nome coletivo que indica um conjunto de árvores:",
+        "opcoes": [
+          "floresta",
+          "ramo",
+          "folha"
+        ],
+        "options": [
+          "floresta",
+          "ramo",
+          "folha"
+        ],
+        "resposta": "floresta",
+        "correctAnswer": "floresta",
+        "explicacao": "Floresta é o nome coletivo para um grupo numeroso de árvores!",
+        "explanation": "Floresta é o nome coletivo para um grupo numeroso de árvores!"
+      },
+      {
+        "id": "pt_3_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica as palavras na sua respetiva classe gramatical:",
+        "question": "Classifica as palavras na sua respetiva classe gramatical:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente distinção das classes de palavras!",
+        "explanation": "Excelente distinção das classes de palavras!",
+        "pairs": {
+          "Guimarães": "Nome Próprio",
+          "estudar": "Verbo",
+          "amigável": "Adjetivo",
+          "caderno": "Nome Comum"
+        },
+        "pares": {
+          "Guimarães": "Nome Próprio",
+          "estudar": "Verbo",
+          "amigável": "Adjetivo",
+          "caderno": "Nome Comum"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O rio Tejo corre veloz', que classe de palavra é 'Tejo'?",
+        "question": "Na frase 'O rio Tejo corre veloz', que classe de palavra é 'Tejo'?",
+        "opcoes": [
+          "Nome Próprio",
+          "Adjetivo",
+          "Verbo"
+        ],
+        "options": [
+          "Nome Próprio",
+          "Adjetivo",
+          "Verbo"
+        ],
+        "resposta": "Nome Próprio",
+        "correctAnswer": "Nome Próprio",
+        "explicacao": "'Tejo' é o nome próprio de um rio português e escreve-se com maiúscula!",
+        "explanation": "'Tejo' é o nome próprio de um rio português e escreve-se com maiúscula!"
+      },
+      {
+        "id": "pt_3_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'As flores perfumadas abriram', 'perfumadas' é um adjetivo qualificativo.",
+        "question": "Na frase 'As flores perfumadas abriram', 'perfumadas' é um adjetivo qualificativo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Perfumadas' qualifica e dá uma característica às flores.",
+        "explanation": "Verdadeiro! 'Perfumadas' qualifica e dá uma característica às flores."
+      },
+      {
+        "id": "pt_3_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'O Zé ___ um livro interessante', a palavra que falta para indicar a ação é um verbo.",
+        "question": "Na frase 'O Zé ___ um livro interessante', a palavra que falta para indicar a ação é um verbo.",
+        "opcoes": [
+          "leu",
+          "casa",
+          "verde"
+        ],
+        "options": [
+          "leu",
+          "casa",
+          "verde"
+        ],
+        "resposta": "leu",
+        "correctAnswer": "leu",
+        "explicacao": "'Leu' é uma forma do verbo ler.",
+        "explanation": "'Leu' é uma forma do verbo ler."
+      },
+      {
+        "id": "pt_3_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é um VERBO que indica movimento?",
+        "question": "Qual destas palavras é um VERBO que indica movimento?",
+        "opcoes": [
+          "🏃 Correr",
+          "👟 Sapatilha",
+          "🔴 Vermelho"
+        ],
+        "options": [
+          "🏃 Correr",
+          "👟 Sapatilha",
+          "🔴 Vermelho"
+        ],
+        "resposta": "🏃 Correr",
+        "correctAnswer": "🏃 Correr",
+        "explicacao": "'Correr' é uma ação / verbo! 🏃",
+        "explanation": "'Correr' é uma ação / verbo! 🏃"
+      },
+      {
+        "id": "pt_3_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a classe da palavra 'brilhante'?",
+        "question": "Qual é a classe da palavra 'brilhante'?",
+        "opcoes": [
+          "Adjetivo",
+          "Nome Comum",
+          "Verbo"
+        ],
+        "options": [
+          "Adjetivo",
+          "Nome Comum",
+          "Verbo"
+        ],
+        "resposta": "Adjetivo",
+        "correctAnswer": "Adjetivo",
+        "explicacao": "'Brilhante' exprime uma qualidade de algo.",
+        "explanation": "'Brilhante' exprime uma qualidade de algo."
+      },
+      {
+        "id": "pt_3_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'escola' é um nome comum coletivo.",
+        "question": "A palavra 'escola' é um nome comum coletivo.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Escola' é um nome comum concreto individual.",
+        "explanation": "Falso! 'Escola' é um nome comum concreto individual."
+      },
+      {
+        "id": "pt_3_f1_e7",
+        "tipo": "LETTERS_WORDS",
+        "type": "LETTERS_WORDS",
+        "pergunta": "Descobre o nome coletivo que indica um conjunto de árvores:",
+        "question": "Descobre o nome coletivo que indica um conjunto de árvores:",
+        "opcoes": [
+          "floresta",
+          "ramo",
+          "folha"
+        ],
+        "options": [
+          "floresta",
+          "ramo",
+          "folha"
+        ],
+        "resposta": "floresta",
+        "correctAnswer": "floresta",
+        "explicacao": "Floresta é o nome coletivo para um grupo numeroso de árvores!",
+        "explanation": "Floresta é o nome coletivo para um grupo numeroso de árvores!"
+      },
+      {
+        "id": "pt_3_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica as palavras na sua respetiva classe gramatical:",
+        "question": "Classifica as palavras na sua respetiva classe gramatical:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente distinção das classes de palavras!",
+        "explanation": "Excelente distinção das classes de palavras!",
+        "pairs": {
+          "Guimarães": "Nome Próprio",
+          "estudar": "Verbo",
+          "amigável": "Adjetivo",
+          "caderno": "Nome Comum"
+        },
+        "pares": {
+          "Guimarães": "Nome Próprio",
+          "estudar": "Verbo",
+          "amigável": "Adjetivo",
+          "caderno": "Nome Comum"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f2",
+    "numero": 2,
+    "titulo": "Pronomes Pessoais e Possessivos",
+    "title": "Pronomes Pessoais e Possessivos",
+    "descricao": "Eu, tu, ele/ela, nós, vós, eles/elas e os determinantes/pronomes possessivos.",
+    "description": "Eu, tu, ele/ela, nós, vós, eles/elas e os determinantes/pronomes possessivos.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "👤",
+    "imageEmoji": "👤",
+    "exercicios": [
+      {
+        "id": "pt_3_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual pronome pessoal substitui 'O Pedro e eu' na frase 'O Pedro e eu fomos ao cinema'?",
+        "question": "Qual pronome pessoal substitui 'O Pedro e eu' na frase 'O Pedro e eu fomos ao cinema'?",
+        "opcoes": [
+          "Nós",
+          "Eles",
+          "Vós"
+        ],
+        "options": [
+          "Nós",
+          "Eles",
+          "Vós"
+        ],
+        "resposta": "Nós",
+        "correctAnswer": "Nós",
+        "explicacao": "'Eu' mais outra pessoa forma a 1.ª pessoa do plural: 'Nós'!",
+        "explanation": "'Eu' mais outra pessoa forma a 1.ª pessoa do plural: 'Nós'!"
+      },
+      {
+        "id": "pt_3_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os pronomes pessoais 'Ele' e 'Ela' pertencem à 3.ª pessoa do singular.",
+        "question": "Os pronomes pessoais 'Ele' e 'Ela' pertencem à 3.ª pessoa do singular.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1.ª Eu, 2.ª Tu, 3.ª Ele/Ela.",
+        "explanation": "Verdadeiro! 1.ª Eu, 2.ª Tu, 3.ª Ele/Ela."
+      },
+      {
+        "id": "pt_3_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa com o pronome pessoal adequado: '___ cantais muito bem no coro!'",
+        "question": "Completa com o pronome pessoal adequado: '___ cantais muito bem no coro!'",
+        "opcoes": [
+          "Vós",
+          "Nós",
+          "Eles"
+        ],
+        "options": [
+          "Vós",
+          "Nós",
+          "Eles"
+        ],
+        "resposta": "Vós",
+        "correctAnswer": "Vós",
+        "explicacao": "'Cantais' concorda com a 2.ª pessoa do plural: 'Vós'!",
+        "explanation": "'Cantais' concorda com a 2.ª pessoa do plural: 'Vós'!"
+      },
+      {
+        "id": "pt_3_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras indica POSSE (pertence a mim)?",
+        "question": "Qual destas palavras indica POSSE (pertence a mim)?",
+        "opcoes": [
+          "🎁 Meu",
+          "🎁 Este",
+          "🎁 Aquele"
+        ],
+        "options": [
+          "🎁 Meu",
+          "🎁 Este",
+          "🎁 Aquele"
+        ],
+        "resposta": "🎁 Meu",
+        "correctAnswer": "🎁 Meu",
+        "explicacao": "'Meu' indica posse e pertença da 1.ª pessoa! 🎁",
+        "explanation": "'Meu' indica posse e pertença da 1.ª pessoa! 🎁"
+      },
+      {
+        "id": "pt_3_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Esta mochila é tua', que tipo de palavra é 'tua'?",
+        "question": "Na frase 'Esta mochila é tua', que tipo de palavra é 'tua'?",
+        "opcoes": [
+          "Pronome Possessivo",
+          "Pronome Pessoal",
+          "Verbo"
+        ],
+        "options": [
+          "Pronome Possessivo",
+          "Pronome Pessoal",
+          "Verbo"
+        ],
+        "resposta": "Pronome Possessivo",
+        "correctAnswer": "Pronome Possessivo",
+        "explicacao": "'Tua' indica que a mochila pertence à 2.ª pessoa (tu).",
+        "explanation": "'Tua' indica que a mochila pertence à 2.ª pessoa (tu)."
+      },
+      {
+        "id": "pt_3_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Eles jogam futebol', o pronome 'Eles' está na 3.ª pessoa do plural.",
+        "question": "Na frase 'Eles jogam futebol', o pronome 'Eles' está na 3.ª pessoa do plural.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Eles' refere-se a várias outras pessoas.",
+        "explanation": "Verdadeiro! 'Eles' refere-se a várias outras pessoas."
+      },
+      {
+        "id": "pt_3_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o pronome possessivo da 1.ª pessoa do plural?",
+        "question": "Qual é o pronome possessivo da 1.ª pessoa do plural?",
+        "opcoes": [
+          "nosso / nossa",
+          "vosso / vossa",
+          "seu / sua"
+        ],
+        "options": [
+          "nosso / nossa",
+          "vosso / vossa",
+          "seu / sua"
+        ],
+        "resposta": "nosso / nossa",
+        "correctAnswer": "nosso / nossa",
+        "explicacao": "'Nosso' refere-se a algo que pertence a 'Nós'.",
+        "explanation": "'Nosso' refere-se a algo que pertence a 'Nós'."
+      },
+      {
+        "id": "pt_3_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o sujeito ao pronome pessoal equivalente:",
+        "question": "Associa o sujeito ao pronome pessoal equivalente:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita substituição pronominal!",
+        "explanation": "Perfeita substituição pronominal!",
+        "pairs": {
+          "O Manuel e a Maria": "Eles",
+          "A Joana": "Ela",
+          "Tu e o teu irmão": "Vós",
+          "Eu e a professora": "Nós"
+        },
+        "pares": {
+          "O Manuel e a Maria": "Eles",
+          "A Joana": "Ela",
+          "Tu e o teu irmão": "Vós",
+          "Eu e a professora": "Nós"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual pronome pessoal substitui 'O Pedro e eu' na frase 'O Pedro e eu fomos ao cinema'?",
+        "question": "Qual pronome pessoal substitui 'O Pedro e eu' na frase 'O Pedro e eu fomos ao cinema'?",
+        "opcoes": [
+          "Nós",
+          "Eles",
+          "Vós"
+        ],
+        "options": [
+          "Nós",
+          "Eles",
+          "Vós"
+        ],
+        "resposta": "Nós",
+        "correctAnswer": "Nós",
+        "explicacao": "'Eu' mais outra pessoa forma a 1.ª pessoa do plural: 'Nós'!",
+        "explanation": "'Eu' mais outra pessoa forma a 1.ª pessoa do plural: 'Nós'!"
+      },
+      {
+        "id": "pt_3_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os pronomes pessoais 'Ele' e 'Ela' pertencem à 3.ª pessoa do singular.",
+        "question": "Os pronomes pessoais 'Ele' e 'Ela' pertencem à 3.ª pessoa do singular.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1.ª Eu, 2.ª Tu, 3.ª Ele/Ela.",
+        "explanation": "Verdadeiro! 1.ª Eu, 2.ª Tu, 3.ª Ele/Ela."
+      },
+      {
+        "id": "pt_3_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa com o pronome pessoal adequado: '___ cantais muito bem no coro!'",
+        "question": "Completa com o pronome pessoal adequado: '___ cantais muito bem no coro!'",
+        "opcoes": [
+          "Vós",
+          "Nós",
+          "Eles"
+        ],
+        "options": [
+          "Vós",
+          "Nós",
+          "Eles"
+        ],
+        "resposta": "Vós",
+        "correctAnswer": "Vós",
+        "explicacao": "'Cantais' concorda com a 2.ª pessoa do plural: 'Vós'!",
+        "explanation": "'Cantais' concorda com a 2.ª pessoa do plural: 'Vós'!"
+      },
+      {
+        "id": "pt_3_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras indica POSSE (pertence a mim)?",
+        "question": "Qual destas palavras indica POSSE (pertence a mim)?",
+        "opcoes": [
+          "🎁 Meu",
+          "🎁 Este",
+          "🎁 Aquele"
+        ],
+        "options": [
+          "🎁 Meu",
+          "🎁 Este",
+          "🎁 Aquele"
+        ],
+        "resposta": "🎁 Meu",
+        "correctAnswer": "🎁 Meu",
+        "explicacao": "'Meu' indica posse e pertença da 1.ª pessoa! 🎁",
+        "explanation": "'Meu' indica posse e pertença da 1.ª pessoa! 🎁"
+      },
+      {
+        "id": "pt_3_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Esta mochila é tua', que tipo de palavra é 'tua'?",
+        "question": "Na frase 'Esta mochila é tua', que tipo de palavra é 'tua'?",
+        "opcoes": [
+          "Pronome Possessivo",
+          "Pronome Pessoal",
+          "Verbo"
+        ],
+        "options": [
+          "Pronome Possessivo",
+          "Pronome Pessoal",
+          "Verbo"
+        ],
+        "resposta": "Pronome Possessivo",
+        "correctAnswer": "Pronome Possessivo",
+        "explicacao": "'Tua' indica que a mochila pertence à 2.ª pessoa (tu).",
+        "explanation": "'Tua' indica que a mochila pertence à 2.ª pessoa (tu)."
+      },
+      {
+        "id": "pt_3_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Eles jogam futebol', o pronome 'Eles' está na 3.ª pessoa do plural.",
+        "question": "Na frase 'Eles jogam futebol', o pronome 'Eles' está na 3.ª pessoa do plural.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Eles' refere-se a várias outras pessoas.",
+        "explanation": "Verdadeiro! 'Eles' refere-se a várias outras pessoas."
+      },
+      {
+        "id": "pt_3_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o pronome possessivo da 1.ª pessoa do plural?",
+        "question": "Qual é o pronome possessivo da 1.ª pessoa do plural?",
+        "opcoes": [
+          "nosso / nossa",
+          "vosso / vossa",
+          "seu / sua"
+        ],
+        "options": [
+          "nosso / nossa",
+          "vosso / vossa",
+          "seu / sua"
+        ],
+        "resposta": "nosso / nossa",
+        "correctAnswer": "nosso / nossa",
+        "explicacao": "'Nosso' refere-se a algo que pertence a 'Nós'.",
+        "explanation": "'Nosso' refere-se a algo que pertence a 'Nós'."
+      },
+      {
+        "id": "pt_3_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o sujeito ao pronome pessoal equivalente:",
+        "question": "Associa o sujeito ao pronome pessoal equivalente:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita substituição pronominal!",
+        "explanation": "Perfeita substituição pronominal!",
+        "pairs": {
+          "O Manuel e a Maria": "Eles",
+          "A Joana": "Ela",
+          "Tu e o teu irmão": "Vós",
+          "Eu e a professora": "Nós"
+        },
+        "pares": {
+          "O Manuel e a Maria": "Eles",
+          "A Joana": "Ela",
+          "Tu e o teu irmão": "Vós",
+          "Eu e a professora": "Nós"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f3",
+    "numero": 3,
+    "titulo": "Tempos Verbais: Presente, Passado e Futuro",
+    "title": "Tempos Verbais: Presente, Passado e Futuro",
+    "descricao": "Pretérito Perfeito (ação concluída), Pretérito Imperfeito (ação habitual) e Futuro.",
+    "description": "Pretérito Perfeito (ação concluída), Pretérito Imperfeito (ação habitual) e Futuro.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "⏳",
+    "imageEmoji": "⏳",
+    "exercicios": [
+      {
+        "id": "pt_3_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Ontem o Zé estudou para o teste', em que tempo verbal está o verbo 'estudou'?",
+        "question": "Na frase 'Ontem o Zé estudou para o teste', em que tempo verbal está o verbo 'estudou'?",
+        "opcoes": [
+          "Pretérito Perfeito",
+          "Presente",
+          "Futuro"
+        ],
+        "options": [
+          "Pretérito Perfeito",
+          "Presente",
+          "Futuro"
+        ],
+        "resposta": "Pretérito Perfeito",
+        "correctAnswer": "Pretérito Perfeito",
+        "explicacao": "'Estudou' indica uma ação passada totalmente terminada ontem!",
+        "explanation": "'Estudou' indica uma ação passada totalmente terminada ontem!"
+      },
+      {
+        "id": "pt_3_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'Quando era pequeno, eu brincava sempre no jardim' usa o Pretérito Imperfeito ('brincava').",
+        "question": "A frase 'Quando era pequeno, eu brincava sempre no jardim' usa o Pretérito Imperfeito ('brincava').",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Pretérito Imperfeito indica uma ação habitual ou contínua no passado.",
+        "explanation": "Verdadeiro! O Pretérito Imperfeito indica uma ação habitual ou contínua no passado."
+      },
+      {
+        "id": "pt_3_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa no Futuro: 'No próximo sábado nós ___ um piquenique.'",
+        "question": "Completa no Futuro: 'No próximo sábado nós ___ um piquenique.'",
+        "opcoes": [
+          "faremos",
+          "fizemos",
+          "fazemos"
+        ],
+        "options": [
+          "faremos",
+          "fizemos",
+          "fazemos"
+        ],
+        "resposta": "faremos",
+        "correctAnswer": "faremos",
+        "explicacao": "'Faremos' expressa uma ação que vai acontecer no futuro.",
+        "explanation": "'Faremos' expressa uma ação que vai acontecer no futuro."
+      },
+      {
+        "id": "pt_3_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases está no TEMPO PRESENTE (a acontecer agora)?",
+        "question": "Qual destas frases está no TEMPO PRESENTE (a acontecer agora)?",
+        "opcoes": [
+          "⏰ 'O professor explica a matéria.'",
+          "⏪ 'O professor explicou ontem.'",
+          "🔮 'O professor explicará amanhã.'"
+        ],
+        "options": [
+          "⏰ 'O professor explica a matéria.'",
+          "⏪ 'O professor explicou ontem.'",
+          "🔮 'O professor explicará amanhã.'"
+        ],
+        "resposta": "⏰ 'O professor explica a matéria.'",
+        "correctAnswer": "⏰ 'O professor explica a matéria.'",
+        "explicacao": "Indica um acontecimento no momento atual! ⏰",
+        "explanation": "Indica um acontecimento no momento atual! ⏰"
+      },
+      {
+        "id": "pt_3_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se conjuga o verbo 'cantar' no Pretérito Perfeito para 'Eles'?",
+        "question": "Como se conjuga o verbo 'cantar' no Pretérito Perfeito para 'Eles'?",
+        "opcoes": [
+          "cantaram",
+          "cantavam",
+          "cantarão"
+        ],
+        "options": [
+          "cantaram",
+          "cantavam",
+          "cantarão"
+        ],
+        "resposta": "cantaram",
+        "correctAnswer": "cantaram",
+        "explicacao": "No passado terminou em '-aram' (cantaram); no futuro seria '-arão' (cantarão).",
+        "explanation": "No passado terminou em '-aram' (cantaram); no futuro seria '-arão' (cantarão)."
+      },
+      {
+        "id": "pt_3_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As formas verbais terminadas em '-arão' indicam tempo passado.",
+        "question": "As formas verbais terminadas em '-arão' indicam tempo passado.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! '-arão' indica Futuro (ex: 'Eles cantarão amanhã'). No passado é '-aram'.",
+        "explanation": "Falso! '-arão' indica Futuro (ex: 'Eles cantarão amanhã'). No passado é '-aram'."
+      },
+      {
+        "id": "pt_3_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a forma do verbo 'escrever' no Pretérito Imperfeito para 'Eu'?",
+        "question": "Qual é a forma do verbo 'escrever' no Pretérito Imperfeito para 'Eu'?",
+        "opcoes": [
+          "escrevia",
+          "escrevi",
+          "escreverei"
+        ],
+        "options": [
+          "escrevia",
+          "escrevi",
+          "escreverei"
+        ],
+        "resposta": "escrevia",
+        "correctAnswer": "escrevia",
+        "explicacao": "'Eu escrevia cartas todos os domingos'.",
+        "explanation": "'Eu escrevia cartas todos os domingos'."
+      },
+      {
+        "id": "pt_3_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o verbo ao seu tempo verbal correto:",
+        "question": "Associa o verbo ao seu tempo verbal correto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da conjugação dos tempos verbais!",
+        "explanation": "Excelente domínio da conjugação dos tempos verbais!",
+        "pairs": {
+          "comemos hoje": "Presente",
+          "comemos ontem": "Pretérito Perfeito",
+          "comíamos sempre": "Pretérito Imperfeito",
+          "comeremos amanhã": "Futuro"
+        },
+        "pares": {
+          "comemos hoje": "Presente",
+          "comemos ontem": "Pretérito Perfeito",
+          "comíamos sempre": "Pretérito Imperfeito",
+          "comeremos amanhã": "Futuro"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Ontem o Zé estudou para o teste', em que tempo verbal está o verbo 'estudou'?",
+        "question": "Na frase 'Ontem o Zé estudou para o teste', em que tempo verbal está o verbo 'estudou'?",
+        "opcoes": [
+          "Pretérito Perfeito",
+          "Presente",
+          "Futuro"
+        ],
+        "options": [
+          "Pretérito Perfeito",
+          "Presente",
+          "Futuro"
+        ],
+        "resposta": "Pretérito Perfeito",
+        "correctAnswer": "Pretérito Perfeito",
+        "explicacao": "'Estudou' indica uma ação passada totalmente terminada ontem!",
+        "explanation": "'Estudou' indica uma ação passada totalmente terminada ontem!"
+      },
+      {
+        "id": "pt_3_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'Quando era pequeno, eu brincava sempre no jardim' usa o Pretérito Imperfeito ('brincava').",
+        "question": "A frase 'Quando era pequeno, eu brincava sempre no jardim' usa o Pretérito Imperfeito ('brincava').",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Pretérito Imperfeito indica uma ação habitual ou contínua no passado.",
+        "explanation": "Verdadeiro! O Pretérito Imperfeito indica uma ação habitual ou contínua no passado."
+      },
+      {
+        "id": "pt_3_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa no Futuro: 'No próximo sábado nós ___ um piquenique.'",
+        "question": "Completa no Futuro: 'No próximo sábado nós ___ um piquenique.'",
+        "opcoes": [
+          "faremos",
+          "fizemos",
+          "fazemos"
+        ],
+        "options": [
+          "faremos",
+          "fizemos",
+          "fazemos"
+        ],
+        "resposta": "faremos",
+        "correctAnswer": "faremos",
+        "explicacao": "'Faremos' expressa uma ação que vai acontecer no futuro.",
+        "explanation": "'Faremos' expressa uma ação que vai acontecer no futuro."
+      },
+      {
+        "id": "pt_3_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases está no TEMPO PRESENTE (a acontecer agora)?",
+        "question": "Qual destas frases está no TEMPO PRESENTE (a acontecer agora)?",
+        "opcoes": [
+          "⏰ 'O professor explica a matéria.'",
+          "⏪ 'O professor explicou ontem.'",
+          "🔮 'O professor explicará amanhã.'"
+        ],
+        "options": [
+          "⏰ 'O professor explica a matéria.'",
+          "⏪ 'O professor explicou ontem.'",
+          "🔮 'O professor explicará amanhã.'"
+        ],
+        "resposta": "⏰ 'O professor explica a matéria.'",
+        "correctAnswer": "⏰ 'O professor explica a matéria.'",
+        "explicacao": "Indica um acontecimento no momento atual! ⏰",
+        "explanation": "Indica um acontecimento no momento atual! ⏰"
+      },
+      {
+        "id": "pt_3_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se conjuga o verbo 'cantar' no Pretérito Perfeito para 'Eles'?",
+        "question": "Como se conjuga o verbo 'cantar' no Pretérito Perfeito para 'Eles'?",
+        "opcoes": [
+          "cantaram",
+          "cantavam",
+          "cantarão"
+        ],
+        "options": [
+          "cantaram",
+          "cantavam",
+          "cantarão"
+        ],
+        "resposta": "cantaram",
+        "correctAnswer": "cantaram",
+        "explicacao": "No passado terminou em '-aram' (cantaram); no futuro seria '-arão' (cantarão).",
+        "explanation": "No passado terminou em '-aram' (cantaram); no futuro seria '-arão' (cantarão)."
+      },
+      {
+        "id": "pt_3_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As formas verbais terminadas em '-arão' indicam tempo passado.",
+        "question": "As formas verbais terminadas em '-arão' indicam tempo passado.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! '-arão' indica Futuro (ex: 'Eles cantarão amanhã'). No passado é '-aram'.",
+        "explanation": "Falso! '-arão' indica Futuro (ex: 'Eles cantarão amanhã'). No passado é '-aram'."
+      },
+      {
+        "id": "pt_3_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a forma do verbo 'escrever' no Pretérito Imperfeito para 'Eu'?",
+        "question": "Qual é a forma do verbo 'escrever' no Pretérito Imperfeito para 'Eu'?",
+        "opcoes": [
+          "escrevia",
+          "escrevi",
+          "escreverei"
+        ],
+        "options": [
+          "escrevia",
+          "escrevi",
+          "escreverei"
+        ],
+        "resposta": "escrevia",
+        "correctAnswer": "escrevia",
+        "explicacao": "'Eu escrevia cartas todos os domingos'.",
+        "explanation": "'Eu escrevia cartas todos os domingos'."
+      },
+      {
+        "id": "pt_3_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o verbo ao seu tempo verbal correto:",
+        "question": "Associa o verbo ao seu tempo verbal correto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da conjugação dos tempos verbais!",
+        "explanation": "Excelente domínio da conjugação dos tempos verbais!",
+        "pairs": {
+          "comemos hoje": "Presente",
+          "comemos ontem": "Pretérito Perfeito",
+          "comíamos sempre": "Pretérito Imperfeito",
+          "comeremos amanhã": "Futuro"
+        },
+        "pares": {
+          "comemos hoje": "Presente",
+          "comemos ontem": "Pretérito Perfeito",
+          "comíamos sempre": "Pretérito Imperfeito",
+          "comeremos amanhã": "Futuro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f4",
+    "numero": 4,
+    "titulo": "Determinantes Artigos e Demonstrativos",
+    "title": "Determinantes Artigos e Demonstrativos",
+    "descricao": "Artigos definidos (o, a, os, as) / indefinidos (um, uma) e demonstrativos (este, esse, aquele).",
+    "description": "Artigos definidos (o, a, os, as) / indefinidos (um, uma) e demonstrativos (este, esse, aquele).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "👉",
+    "imageEmoji": "👉",
+    "exercicios": [
+      {
+        "id": "pt_3_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quais são os Determinantes Artigos Definidos?",
+        "question": "Quais são os Determinantes Artigos Definidos?",
+        "opcoes": [
+          "o, a, os, as",
+          "um, uma, uns, umas",
+          "este, esta, estes, estas"
+        ],
+        "options": [
+          "o, a, os, as",
+          "um, uma, uns, umas",
+          "este, esta, estes, estas"
+        ],
+        "resposta": "o, a, os, as",
+        "correctAnswer": "o, a, os, as",
+        "explicacao": "'o, a, os, as' definem seres conhecidos e precisos!",
+        "explanation": "'o, a, os, as' definem seres conhecidos e precisos!"
+      },
+      {
+        "id": "pt_3_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Vi um pássaro na árvore', 'um' é um artigo indefinido.",
+        "question": "Na frase 'Vi um pássaro na árvore', 'um' é um artigo indefinido.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Refere-se a um pássaro qualquer de forma não específica.",
+        "explanation": "Verdadeiro! Refere-se a um pássaro qualquer de forma não específica."
+      },
+      {
+        "id": "pt_3_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Para apontar para um objeto que está longe de quem fala e de quem ouve usamos: '___ castelo lá no cimo do monte.'",
+        "question": "Para apontar para um objeto que está longe de quem fala e de quem ouve usamos: '___ castelo lá no cimo do monte.'",
+        "opcoes": [
+          "Aquele",
+          "Este",
+          "Esse"
+        ],
+        "options": [
+          "Aquele",
+          "Este",
+          "Esse"
+        ],
+        "resposta": "Aquele",
+        "correctAnswer": "Aquele",
+        "explicacao": "'Aquele' indica distância de ambos os interlocutores.",
+        "explanation": "'Aquele' indica distância de ambos os interlocutores."
+      },
+      {
+        "id": "pt_3_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual determinante demonstrativo usamos para um objeto que temos na mão?",
+        "question": "Qual determinante demonstrativo usamos para um objeto que temos na mão?",
+        "opcoes": [
+          "✋ 'Este livro'",
+          "👉 'Esse livro'",
+          "🏔️ 'Aquele livro'"
+        ],
+        "options": [
+          "✋ 'Este livro'",
+          "👉 'Esse livro'",
+          "🏔️ 'Aquele livro'"
+        ],
+        "resposta": "✋ 'Este livro'",
+        "correctAnswer": "✋ 'Este livro'",
+        "explicacao": "'Este' refere-se ao que está junto da pessoa que fala! ✋",
+        "explanation": "'Este' refere-se ao que está junto da pessoa que fala! ✋"
+      },
+      {
+        "id": "pt_3_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'As andorinhas regressaram', que tipo de determinante é 'As'?",
+        "question": "Na frase 'As andorinhas regressaram', que tipo de determinante é 'As'?",
+        "opcoes": [
+          "Determinante Artigo Definido Feminino Plural",
+          "Pronome Pessoal",
+          "Nome Comum"
+        ],
+        "options": [
+          "Determinante Artigo Definido Feminino Plural",
+          "Pronome Pessoal",
+          "Nome Comum"
+        ],
+        "resposta": "Determinante Artigo Definido Feminino Plural",
+        "correctAnswer": "Determinante Artigo Definido Feminino Plural",
+        "explicacao": "'As' antecede o nome feminino plural 'andorinhas'.",
+        "explanation": "'As' antecede o nome feminino plural 'andorinhas'."
+      },
+      {
+        "id": "pt_3_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os artigos 'uns' e 'umas' são determinantes artigos definidos.",
+        "question": "Os artigos 'uns' e 'umas' são determinantes artigos definidos.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! São determinantes artigos indefinidos plurais.",
+        "explanation": "Falso! São determinantes artigos indefinidos plurais."
+      },
+      {
+        "id": "pt_3_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Completa: '___ cães ladravam durante a noite' com artigo indefinido masculino plural.",
+        "question": "Completa: '___ cães ladravam durante a noite' com artigo indefinido masculino plural.",
+        "opcoes": [
+          "Uns",
+          "Os",
+          "Estes"
+        ],
+        "options": [
+          "Uns",
+          "Os",
+          "Estes"
+        ],
+        "resposta": "Uns",
+        "correctAnswer": "Uns",
+        "explicacao": "'Uns' é o artigo indefinido masculino plural.",
+        "explanation": "'Uns' é o artigo indefinido masculino plural."
+      },
+      {
+        "id": "pt_3_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os determinantes:",
+        "question": "Classifica os determinantes:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Distinguiste todos os determinantes com clareza.",
+        "explanation": "Muito bem! Distinguiste todos os determinantes com clareza.",
+        "pairs": {
+          "O": "Artigo Definido",
+          "Uma": "Artigo Indefinido",
+          "Esta": "Demonstrativo (próximo de mim)",
+          "Aquele": "Demonstrativo (afastado)"
+        },
+        "pares": {
+          "O": "Artigo Definido",
+          "Uma": "Artigo Indefinido",
+          "Esta": "Demonstrativo (próximo de mim)",
+          "Aquele": "Demonstrativo (afastado)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quais são os Determinantes Artigos Definidos?",
+        "question": "Quais são os Determinantes Artigos Definidos?",
+        "opcoes": [
+          "o, a, os, as",
+          "um, uma, uns, umas",
+          "este, esta, estes, estas"
+        ],
+        "options": [
+          "o, a, os, as",
+          "um, uma, uns, umas",
+          "este, esta, estes, estas"
+        ],
+        "resposta": "o, a, os, as",
+        "correctAnswer": "o, a, os, as",
+        "explicacao": "'o, a, os, as' definem seres conhecidos e precisos!",
+        "explanation": "'o, a, os, as' definem seres conhecidos e precisos!"
+      },
+      {
+        "id": "pt_3_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Vi um pássaro na árvore', 'um' é um artigo indefinido.",
+        "question": "Na frase 'Vi um pássaro na árvore', 'um' é um artigo indefinido.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Refere-se a um pássaro qualquer de forma não específica.",
+        "explanation": "Verdadeiro! Refere-se a um pássaro qualquer de forma não específica."
+      },
+      {
+        "id": "pt_3_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Para apontar para um objeto que está longe de quem fala e de quem ouve usamos: '___ castelo lá no cimo do monte.'",
+        "question": "Para apontar para um objeto que está longe de quem fala e de quem ouve usamos: '___ castelo lá no cimo do monte.'",
+        "opcoes": [
+          "Aquele",
+          "Este",
+          "Esse"
+        ],
+        "options": [
+          "Aquele",
+          "Este",
+          "Esse"
+        ],
+        "resposta": "Aquele",
+        "correctAnswer": "Aquele",
+        "explicacao": "'Aquele' indica distância de ambos os interlocutores.",
+        "explanation": "'Aquele' indica distância de ambos os interlocutores."
+      },
+      {
+        "id": "pt_3_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual determinante demonstrativo usamos para um objeto que temos na mão?",
+        "question": "Qual determinante demonstrativo usamos para um objeto que temos na mão?",
+        "opcoes": [
+          "✋ 'Este livro'",
+          "👉 'Esse livro'",
+          "🏔️ 'Aquele livro'"
+        ],
+        "options": [
+          "✋ 'Este livro'",
+          "👉 'Esse livro'",
+          "🏔️ 'Aquele livro'"
+        ],
+        "resposta": "✋ 'Este livro'",
+        "correctAnswer": "✋ 'Este livro'",
+        "explicacao": "'Este' refere-se ao que está junto da pessoa que fala! ✋",
+        "explanation": "'Este' refere-se ao que está junto da pessoa que fala! ✋"
+      },
+      {
+        "id": "pt_3_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'As andorinhas regressaram', que tipo de determinante é 'As'?",
+        "question": "Na frase 'As andorinhas regressaram', que tipo de determinante é 'As'?",
+        "opcoes": [
+          "Determinante Artigo Definido Feminino Plural",
+          "Pronome Pessoal",
+          "Nome Comum"
+        ],
+        "options": [
+          "Determinante Artigo Definido Feminino Plural",
+          "Pronome Pessoal",
+          "Nome Comum"
+        ],
+        "resposta": "Determinante Artigo Definido Feminino Plural",
+        "correctAnswer": "Determinante Artigo Definido Feminino Plural",
+        "explicacao": "'As' antecede o nome feminino plural 'andorinhas'.",
+        "explanation": "'As' antecede o nome feminino plural 'andorinhas'."
+      },
+      {
+        "id": "pt_3_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os artigos 'uns' e 'umas' são determinantes artigos definidos.",
+        "question": "Os artigos 'uns' e 'umas' são determinantes artigos definidos.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! São determinantes artigos indefinidos plurais.",
+        "explanation": "Falso! São determinantes artigos indefinidos plurais."
+      },
+      {
+        "id": "pt_3_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Completa: '___ cães ladravam durante a noite' com artigo indefinido masculino plural.",
+        "question": "Completa: '___ cães ladravam durante a noite' com artigo indefinido masculino plural.",
+        "opcoes": [
+          "Uns",
+          "Os",
+          "Estes"
+        ],
+        "options": [
+          "Uns",
+          "Os",
+          "Estes"
+        ],
+        "resposta": "Uns",
+        "correctAnswer": "Uns",
+        "explicacao": "'Uns' é o artigo indefinido masculino plural.",
+        "explanation": "'Uns' é o artigo indefinido masculino plural."
+      },
+      {
+        "id": "pt_3_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os determinantes:",
+        "question": "Classifica os determinantes:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Distinguiste todos os determinantes com clareza.",
+        "explanation": "Muito bem! Distinguiste todos os determinantes com clareza.",
+        "pairs": {
+          "O": "Artigo Definido",
+          "Uma": "Artigo Indefinido",
+          "Esta": "Demonstrativo (próximo de mim)",
+          "Aquele": "Demonstrativo (afastado)"
+        },
+        "pares": {
+          "O": "Artigo Definido",
+          "Uma": "Artigo Indefinido",
+          "Esta": "Demonstrativo (próximo de mim)",
+          "Aquele": "Demonstrativo (afastado)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f5",
+    "numero": 5,
+    "titulo": "Acentuação: Palavras Agudas, Graves e Esdrúxulas",
+    "title": "Acentuação: Palavras Agudas, Graves e Esdrúxulas",
+    "descricao": "Identifica a sílaba tónica (mais forte) e classifica as palavras quanto à acentuação.",
+    "description": "Identifica a sílaba tónica (mais forte) e classifica as palavras quanto à acentuação.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🎯",
+    "imageEmoji": "🎯",
+    "exercicios": [
+      {
+        "id": "pt_3_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde recai a sílaba tónica numa palavra AGUDA?",
+        "question": "Onde recai a sílaba tónica numa palavra AGUDA?",
+        "opcoes": [
+          "Na última sílaba",
+          "Na penúltima sílaba",
+          "Na antepenúltima sílaba"
+        ],
+        "options": [
+          "Na última sílaba",
+          "Na penúltima sílaba",
+          "Na antepenúltima sílaba"
+        ],
+        "resposta": "Na última sílaba",
+        "correctAnswer": "Na última sílaba",
+        "explicacao": "Palavras agudas têm a força na última sílaba (ex: ca-fé, jar-dim)!",
+        "explanation": "Palavras agudas têm a força na última sílaba (ex: ca-fé, jar-dim)!"
+      },
+      {
+        "id": "pt_3_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Todas as palavras ESDRÚXULAS têm acento gráfico na antepenúltima sílaba.",
+        "question": "Todas as palavras ESDRÚXULAS têm acento gráfico na antepenúltima sílaba.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: lâmpada, pássaro, médico, triângulo levam sempre acento.",
+        "explanation": "Verdadeiro! Ex: lâmpada, pássaro, médico, triângulo levam sempre acento."
+      },
+      {
+        "id": "pt_3_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'janela' (ja-NE-la) tem a sílaba tónica na penúltima sílaba, logo é uma palavra ___",
+        "question": "A palavra 'janela' (ja-NE-la) tem a sílaba tónica na penúltima sílaba, logo é uma palavra ___",
+        "opcoes": [
+          "Grave",
+          "Aguda",
+          "Esdrúxula"
+        ],
+        "options": [
+          "Grave",
+          "Aguda",
+          "Esdrúxula"
+        ],
+        "resposta": "Grave",
+        "correctAnswer": "Grave",
+        "explicacao": "A maioria das palavras da língua portuguesa são graves (penúltima sílaba forte).",
+        "explanation": "A maioria das palavras da língua portuguesa são graves (penúltima sílaba forte)."
+      },
+      {
+        "id": "pt_3_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é ESDRÚXULA?",
+        "question": "Qual destas palavras é ESDRÚXULA?",
+        "opcoes": [
+          "📐 Triângulo",
+          "☕ Café",
+          "📖 Livro"
+        ],
+        "options": [
+          "📐 Triângulo",
+          "☕ Café",
+          "📖 Livro"
+        ],
+        "resposta": "📐 Triângulo",
+        "correctAnswer": "📐 Triângulo",
+        "explicacao": "'Tri-ân-gu-lo' tem a força na antepenúltima sílaba e leva acento! 📐",
+        "explanation": "'Tri-ân-gu-lo' tem a força na antepenúltima sílaba e leva acento! 📐"
+      },
+      {
+        "id": "pt_3_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A palavra 'coração' (co-ra-ÇÃO) é classificada como:",
+        "question": "A palavra 'coração' (co-ra-ÇÃO) é classificada como:",
+        "opcoes": [
+          "Aguda",
+          "Grave",
+          "Esdrúxula"
+        ],
+        "options": [
+          "Aguda",
+          "Grave",
+          "Esdrúxula"
+        ],
+        "resposta": "Aguda",
+        "correctAnswer": "Aguda",
+        "explicacao": "A última sílaba 'ção' é a mais forte.",
+        "explanation": "A última sílaba 'ção' é a mais forte."
+      },
+      {
+        "id": "pt_3_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'futebol' é grave porque não tem acento.",
+        "question": "A palavra 'futebol' é grave porque não tem acento.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Fu-te-BOL' tem a força na última sílaba 'bol', por isso é aguda.",
+        "explanation": "Falso! 'Fu-te-BOL' tem a força na última sílaba 'bol', por isso é aguda."
+      },
+      {
+        "id": "pt_3_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a sílaba tónica da palavra 'computador'?",
+        "question": "Qual é a sílaba tónica da palavra 'computador'?",
+        "opcoes": [
+          "dor",
+          "ta",
+          "com"
+        ],
+        "options": [
+          "dor",
+          "ta",
+          "com"
+        ],
+        "resposta": "dor",
+        "correctAnswer": "dor",
+        "explicacao": "'com-pu-ta-DOR' tem a força na última sílaba.",
+        "explanation": "'com-pu-ta-DOR' tem a força na última sílaba."
+      },
+      {
+        "id": "pt_3_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica as palavras quanto à posição da sílaba tónica:",
+        "question": "Classifica as palavras quanto à posição da sílaba tónica:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita classificação quanto à acentuação tónica!",
+        "explanation": "Perfeita classificação quanto à acentuação tónica!",
+        "pairs": {
+          "sofá": "Aguda (última sílaba)",
+          "menino": "Grave (penúltima sílaba)",
+          "música": "Esdrúxula (antepenúltima sílaba)",
+          "hospital": "Aguda (última sílaba)"
+        },
+        "pares": {
+          "sofá": "Aguda (última sílaba)",
+          "menino": "Grave (penúltima sílaba)",
+          "música": "Esdrúxula (antepenúltima sílaba)",
+          "hospital": "Aguda (última sílaba)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde recai a sílaba tónica numa palavra AGUDA?",
+        "question": "Onde recai a sílaba tónica numa palavra AGUDA?",
+        "opcoes": [
+          "Na última sílaba",
+          "Na penúltima sílaba",
+          "Na antepenúltima sílaba"
+        ],
+        "options": [
+          "Na última sílaba",
+          "Na penúltima sílaba",
+          "Na antepenúltima sílaba"
+        ],
+        "resposta": "Na última sílaba",
+        "correctAnswer": "Na última sílaba",
+        "explicacao": "Palavras agudas têm a força na última sílaba (ex: ca-fé, jar-dim)!",
+        "explanation": "Palavras agudas têm a força na última sílaba (ex: ca-fé, jar-dim)!"
+      },
+      {
+        "id": "pt_3_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Todas as palavras ESDRÚXULAS têm acento gráfico na antepenúltima sílaba.",
+        "question": "Todas as palavras ESDRÚXULAS têm acento gráfico na antepenúltima sílaba.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: lâmpada, pássaro, médico, triângulo levam sempre acento.",
+        "explanation": "Verdadeiro! Ex: lâmpada, pássaro, médico, triângulo levam sempre acento."
+      },
+      {
+        "id": "pt_3_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'janela' (ja-NE-la) tem a sílaba tónica na penúltima sílaba, logo é uma palavra ___",
+        "question": "A palavra 'janela' (ja-NE-la) tem a sílaba tónica na penúltima sílaba, logo é uma palavra ___",
+        "opcoes": [
+          "Grave",
+          "Aguda",
+          "Esdrúxula"
+        ],
+        "options": [
+          "Grave",
+          "Aguda",
+          "Esdrúxula"
+        ],
+        "resposta": "Grave",
+        "correctAnswer": "Grave",
+        "explicacao": "A maioria das palavras da língua portuguesa são graves (penúltima sílaba forte).",
+        "explanation": "A maioria das palavras da língua portuguesa são graves (penúltima sílaba forte)."
+      },
+      {
+        "id": "pt_3_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é ESDRÚXULA?",
+        "question": "Qual destas palavras é ESDRÚXULA?",
+        "opcoes": [
+          "📐 Triângulo",
+          "☕ Café",
+          "📖 Livro"
+        ],
+        "options": [
+          "📐 Triângulo",
+          "☕ Café",
+          "📖 Livro"
+        ],
+        "resposta": "📐 Triângulo",
+        "correctAnswer": "📐 Triângulo",
+        "explicacao": "'Tri-ân-gu-lo' tem a força na antepenúltima sílaba e leva acento! 📐",
+        "explanation": "'Tri-ân-gu-lo' tem a força na antepenúltima sílaba e leva acento! 📐"
+      },
+      {
+        "id": "pt_3_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A palavra 'coração' (co-ra-ÇÃO) é classificada como:",
+        "question": "A palavra 'coração' (co-ra-ÇÃO) é classificada como:",
+        "opcoes": [
+          "Aguda",
+          "Grave",
+          "Esdrúxula"
+        ],
+        "options": [
+          "Aguda",
+          "Grave",
+          "Esdrúxula"
+        ],
+        "resposta": "Aguda",
+        "correctAnswer": "Aguda",
+        "explicacao": "A última sílaba 'ção' é a mais forte.",
+        "explanation": "A última sílaba 'ção' é a mais forte."
+      },
+      {
+        "id": "pt_3_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'futebol' é grave porque não tem acento.",
+        "question": "A palavra 'futebol' é grave porque não tem acento.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Fu-te-BOL' tem a força na última sílaba 'bol', por isso é aguda.",
+        "explanation": "Falso! 'Fu-te-BOL' tem a força na última sílaba 'bol', por isso é aguda."
+      },
+      {
+        "id": "pt_3_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a sílaba tónica da palavra 'computador'?",
+        "question": "Qual é a sílaba tónica da palavra 'computador'?",
+        "opcoes": [
+          "dor",
+          "ta",
+          "com"
+        ],
+        "options": [
+          "dor",
+          "ta",
+          "com"
+        ],
+        "resposta": "dor",
+        "correctAnswer": "dor",
+        "explicacao": "'com-pu-ta-DOR' tem a força na última sílaba.",
+        "explanation": "'com-pu-ta-DOR' tem a força na última sílaba."
+      },
+      {
+        "id": "pt_3_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica as palavras quanto à posição da sílaba tónica:",
+        "question": "Classifica as palavras quanto à posição da sílaba tónica:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita classificação quanto à acentuação tónica!",
+        "explanation": "Perfeita classificação quanto à acentuação tónica!",
+        "pairs": {
+          "sofá": "Aguda (última sílaba)",
+          "menino": "Grave (penúltima sílaba)",
+          "música": "Esdrúxula (antepenúltima sílaba)",
+          "hospital": "Aguda (última sílaba)"
+        },
+        "pares": {
+          "sofá": "Aguda (última sílaba)",
+          "menino": "Grave (penúltima sílaba)",
+          "música": "Esdrúxula (antepenúltima sílaba)",
+          "hospital": "Aguda (última sílaba)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f6",
+    "numero": 6,
+    "titulo": "Relações Semânticas: Homónimos e Parónimos",
+    "title": "Relações Semânticas: Homónimos e Parónimos",
+    "descricao": "Palavras com mesmo som/escrita mas significados diferentes, e palavras parecidas.",
+    "description": "Palavras com mesmo som/escrita mas significados diferentes, e palavras parecidas.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🔀",
+    "imageEmoji": "🔀",
+    "exercicios": [
+      {
+        "id": "pt_3_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Palavras que se escrevem e pronunciam de forma idêntica mas têm significados diferentes chamam-se...",
+        "question": "Palavras que se escrevem e pronunciam de forma idêntica mas têm significados diferentes chamam-se...",
+        "opcoes": [
+          "Homónimas",
+          "Sinónimas",
+          "Antónimas"
+        ],
+        "options": [
+          "Homónimas",
+          "Sinónimas",
+          "Antónimas"
+        ],
+        "resposta": "Homónimas",
+        "correctAnswer": "Homónimas",
+        "explicacao": "Exemplo: 'canto' (da sala) e 'canto' (eu canto uma canção)!",
+        "explanation": "Exemplo: 'canto' (da sala) e 'canto' (eu canto uma canção)!"
+      },
+      {
+        "id": "pt_3_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'banco' (para sentar) e 'banco' (de dinheiro) são palavras homónimas.",
+        "question": "A palavra 'banco' (para sentar) e 'banco' (de dinheiro) são palavras homónimas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Têm a mesma grafia e som com sentidos distintos.",
+        "explanation": "Verdadeiro! Têm a mesma grafia e som com sentidos distintos."
+      },
+      {
+        "id": "pt_3_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O cavaleiro montou no cavalo; o homem educado é um ___ (parónimo).",
+        "question": "O cavaleiro montou no cavalo; o homem educado é um ___ (parónimo).",
+        "opcoes": [
+          "cavalheiro",
+          "cavaleiro",
+          "carpinteiro"
+        ],
+        "options": [
+          "cavalheiro",
+          "cavaleiro",
+          "carpinteiro"
+        ],
+        "resposta": "cavalheiro",
+        "correctAnswer": "cavalheiro",
+        "explicacao": "'Cavaleiro' (monta a cavalo) e 'Cavalheiro' (homem nobre/educado) são parónimos!",
+        "explanation": "'Cavaleiro' (monta a cavalo) e 'Cavalheiro' (homem nobre/educado) são parónimos!"
+      },
+      {
+        "id": "pt_3_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é a palavra homónima que serve para colher comida e também é uma fruta doce?",
+        "question": "Qual é a palavra homónima que serve para colher comida e também é uma fruta doce?",
+        "opcoes": [
+          "🍐 Pera / Colher",
+          "🍎 Maçã",
+          "🍌 Banana"
+        ],
+        "options": [
+          "🍐 Pera / Colher",
+          "🍎 Maçã",
+          "🍌 Banana"
+        ],
+        "resposta": "🍐 Pera / Colher",
+        "correctAnswer": "🍐 Pera / Colher",
+        "explicacao": "'Colher' (o talher) e 'Colher' (o verbo apanhar frutos)!",
+        "explanation": "'Colher' (o talher) e 'Colher' (o verbo apanhar frutos)!"
+      },
+      {
+        "id": "pt_3_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que são palavras PARÓNIMAS?",
+        "question": "O que são palavras PARÓNIMAS?",
+        "opcoes": [
+          "Palavras muito parecidas na escrita e som mas com significados diferentes",
+          "Palavras com significado oposto",
+          "Palavras que rimam sempre"
+        ],
+        "options": [
+          "Palavras muito parecidas na escrita e som mas com significados diferentes",
+          "Palavras com significado oposto",
+          "Palavras que rimam sempre"
+        ],
+        "resposta": "Palavras muito parecidas na escrita e som mas com significados diferentes",
+        "correctAnswer": "Palavras muito parecidas na escrita e som mas com significados diferentes",
+        "explicacao": "Ex: comprimento (tamanho) e cumprimento (saudação)!",
+        "explanation": "Ex: comprimento (tamanho) e cumprimento (saudação)!"
+      },
+      {
+        "id": "pt_3_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "'Comprimento' mede o tamanho e 'Cumprimento' é uma saudação (olá).",
+        "question": "'Comprimento' mede o tamanho e 'Cumprimento' é uma saudação (olá).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! São palavras parónimas fundamentais.",
+        "explanation": "Verdadeiro! São palavras parónimas fundamentais."
+      },
+      {
+        "id": "pt_3_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Eu rio quando ouço uma anedota', a palavra 'rio' é um...",
+        "question": "Na frase 'Eu rio quando ouço uma anedota', a palavra 'rio' é um...",
+        "resposta": "Verbo (do verbo rir)",
+        "correctAnswer": "Verbo (do verbo rir)",
+        "explicacao": "Aqui 'rio' é a 1.ª pessoa do presente do verbo rir!",
+        "explanation": "Aqui 'rio' é a 1.ª pessoa do presente do verbo rir!"
+      },
+      {
+        "id": "pt_3_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Distingue o significado dos pares de parónimos:",
+        "question": "Distingue o significado dos pares de parónimos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente clareza sobre homónimos e parónimos!",
+        "explanation": "Excelente clareza sobre homónimos e parónimos!",
+        "pairs": {
+          "Comprimento": "Medida de tamanho (metros/cm)",
+          "Cumprimento": "Saudação respeitosa / dar os parabéns",
+          "Cavaleiro": "Pessoa que monta a cavalo",
+          "Cavalheiro": "Homem bem-educado e cortês"
+        },
+        "pares": {
+          "Comprimento": "Medida de tamanho (metros/cm)",
+          "Cumprimento": "Saudação respeitosa / dar os parabéns",
+          "Cavaleiro": "Pessoa que monta a cavalo",
+          "Cavalheiro": "Homem bem-educado e cortês"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Palavras que se escrevem e pronunciam de forma idêntica mas têm significados diferentes chamam-se...",
+        "question": "Palavras que se escrevem e pronunciam de forma idêntica mas têm significados diferentes chamam-se...",
+        "opcoes": [
+          "Homónimas",
+          "Sinónimas",
+          "Antónimas"
+        ],
+        "options": [
+          "Homónimas",
+          "Sinónimas",
+          "Antónimas"
+        ],
+        "resposta": "Homónimas",
+        "correctAnswer": "Homónimas",
+        "explicacao": "Exemplo: 'canto' (da sala) e 'canto' (eu canto uma canção)!",
+        "explanation": "Exemplo: 'canto' (da sala) e 'canto' (eu canto uma canção)!"
+      },
+      {
+        "id": "pt_3_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'banco' (para sentar) e 'banco' (de dinheiro) são palavras homónimas.",
+        "question": "A palavra 'banco' (para sentar) e 'banco' (de dinheiro) são palavras homónimas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Têm a mesma grafia e som com sentidos distintos.",
+        "explanation": "Verdadeiro! Têm a mesma grafia e som com sentidos distintos."
+      },
+      {
+        "id": "pt_3_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O cavaleiro montou no cavalo; o homem educado é um ___ (parónimo).",
+        "question": "O cavaleiro montou no cavalo; o homem educado é um ___ (parónimo).",
+        "opcoes": [
+          "cavalheiro",
+          "cavaleiro",
+          "carpinteiro"
+        ],
+        "options": [
+          "cavalheiro",
+          "cavaleiro",
+          "carpinteiro"
+        ],
+        "resposta": "cavalheiro",
+        "correctAnswer": "cavalheiro",
+        "explicacao": "'Cavaleiro' (monta a cavalo) e 'Cavalheiro' (homem nobre/educado) são parónimos!",
+        "explanation": "'Cavaleiro' (monta a cavalo) e 'Cavalheiro' (homem nobre/educado) são parónimos!"
+      },
+      {
+        "id": "pt_3_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é a palavra homónima que serve para colher comida e também é uma fruta doce?",
+        "question": "Qual é a palavra homónima que serve para colher comida e também é uma fruta doce?",
+        "opcoes": [
+          "🍐 Pera / Colher",
+          "🍎 Maçã",
+          "🍌 Banana"
+        ],
+        "options": [
+          "🍐 Pera / Colher",
+          "🍎 Maçã",
+          "🍌 Banana"
+        ],
+        "resposta": "🍐 Pera / Colher",
+        "correctAnswer": "🍐 Pera / Colher",
+        "explicacao": "'Colher' (o talher) e 'Colher' (o verbo apanhar frutos)!",
+        "explanation": "'Colher' (o talher) e 'Colher' (o verbo apanhar frutos)!"
+      },
+      {
+        "id": "pt_3_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que são palavras PARÓNIMAS?",
+        "question": "O que são palavras PARÓNIMAS?",
+        "opcoes": [
+          "Palavras muito parecidas na escrita e som mas com significados diferentes",
+          "Palavras com significado oposto",
+          "Palavras que rimam sempre"
+        ],
+        "options": [
+          "Palavras muito parecidas na escrita e som mas com significados diferentes",
+          "Palavras com significado oposto",
+          "Palavras que rimam sempre"
+        ],
+        "resposta": "Palavras muito parecidas na escrita e som mas com significados diferentes",
+        "correctAnswer": "Palavras muito parecidas na escrita e som mas com significados diferentes",
+        "explicacao": "Ex: comprimento (tamanho) e cumprimento (saudação)!",
+        "explanation": "Ex: comprimento (tamanho) e cumprimento (saudação)!"
+      },
+      {
+        "id": "pt_3_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "'Comprimento' mede o tamanho e 'Cumprimento' é uma saudação (olá).",
+        "question": "'Comprimento' mede o tamanho e 'Cumprimento' é uma saudação (olá).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! São palavras parónimas fundamentais.",
+        "explanation": "Verdadeiro! São palavras parónimas fundamentais."
+      },
+      {
+        "id": "pt_3_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Eu rio quando ouço uma anedota', a palavra 'rio' é um...",
+        "question": "Na frase 'Eu rio quando ouço uma anedota', a palavra 'rio' é um...",
+        "resposta": "Verbo (do verbo rir)",
+        "correctAnswer": "Verbo (do verbo rir)",
+        "explicacao": "Aqui 'rio' é a 1.ª pessoa do presente do verbo rir!",
+        "explanation": "Aqui 'rio' é a 1.ª pessoa do presente do verbo rir!"
+      },
+      {
+        "id": "pt_3_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Distingue o significado dos pares de parónimos:",
+        "question": "Distingue o significado dos pares de parónimos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente clareza sobre homónimos e parónimos!",
+        "explanation": "Excelente clareza sobre homónimos e parónimos!",
+        "pairs": {
+          "Comprimento": "Medida de tamanho (metros/cm)",
+          "Cumprimento": "Saudação respeitosa / dar os parabéns",
+          "Cavaleiro": "Pessoa que monta a cavalo",
+          "Cavalheiro": "Homem bem-educado e cortês"
+        },
+        "pares": {
+          "Comprimento": "Medida de tamanho (metros/cm)",
+          "Cumprimento": "Saudação respeitosa / dar os parabéns",
+          "Cavaleiro": "Pessoa que monta a cavalo",
+          "Cavalheiro": "Homem bem-educado e cortês"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f7",
+    "numero": 7,
+    "titulo": "Frase Simples: Sujeito e Predicado",
+    "title": "Frase Simples: Sujeito e Predicado",
+    "descricao": "Quem faz a ação (Sujeito) e o que se diz sobre o sujeito com o verbo (Predicado).",
+    "description": "Quem faz a ação (Sujeito) e o que se diz sobre o sujeito com o verbo (Predicado).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🧩",
+    "imageEmoji": "🧩",
+    "exercicios": [
+      {
+        "id": "pt_3_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Os alunos do 3.º ano estudaram matemática', quem é o SUJEITO?",
+        "question": "Na frase 'Os alunos do 3.º ano estudaram matemática', quem é o SUJEITO?",
+        "opcoes": [
+          "Os alunos do 3.º ano",
+          "estudaram matemática",
+          "matemática"
+        ],
+        "options": [
+          "Os alunos do 3.º ano",
+          "estudaram matemática",
+          "matemática"
+        ],
+        "resposta": "Os alunos do 3.º ano",
+        "correctAnswer": "Os alunos do 3.º ano",
+        "explicacao": "Perguntamos 'Quem estudou?': 'Os alunos do 3.º ano'!",
+        "explanation": "Perguntamos 'Quem estudou?': 'Os alunos do 3.º ano'!"
+      },
+      {
+        "id": "pt_3_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O PREDICADO inclui sempre o verbo e as informações sobre o que o sujeito faz ou é.",
+        "question": "O PREDICADO inclui sempre o verbo e as informações sobre o que o sujeito faz ou é.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Na frase 'O sol brilha no céu', o predicado é 'brilha no céu'.",
+        "explanation": "Verdadeiro! Na frase 'O sol brilha no céu', o predicado é 'brilha no céu'."
+      },
+      {
+        "id": "pt_3_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'O gato bebeu o leite', o predicado é ___",
+        "question": "Na frase 'O gato bebeu o leite', o predicado é ___",
+        "opcoes": [
+          "bebeu o leite",
+          "O gato",
+          "o leite"
+        ],
+        "options": [
+          "bebeu o leite",
+          "O gato",
+          "o leite"
+        ],
+        "resposta": "bebeu o leite",
+        "correctAnswer": "bebeu o leite",
+        "explicacao": "'bebeu o leite' contém o verbo e a ação realizada.",
+        "explanation": "'bebeu o leite' contém o verbo e a ação realizada."
+      },
+      {
+        "id": "pt_3_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é o Sujeito na frase: 'A andorinha voa veloz nas nuvens 🦅'?",
+        "question": "Qual é o Sujeito na frase: 'A andorinha voa veloz nas nuvens 🦅'?",
+        "opcoes": [
+          "🦅 A andorinha",
+          "☁️ voa veloz",
+          "🌤️ nas nuvens"
+        ],
+        "options": [
+          "🦅 A andorinha",
+          "☁️ voa veloz",
+          "🌤️ nas nuvens"
+        ],
+        "resposta": "🦅 A andorinha",
+        "correctAnswer": "🦅 A andorinha",
+        "explicacao": "'A andorinha' é quem realiza a ação de voar! 🦅",
+        "explanation": "'A andorinha' é quem realiza a ação de voar! 🦅"
+      },
+      {
+        "id": "pt_3_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o sujeito formado por mais de um elemento (ex: 'O Pedro e a Rita jogam')?",
+        "question": "Como se chama o sujeito formado por mais de um elemento (ex: 'O Pedro e a Rita jogam')?",
+        "opcoes": [
+          "Sujeito Composto",
+          "Sujeito Simples",
+          "Sujeito Nulo"
+        ],
+        "options": [
+          "Sujeito Composto",
+          "Sujeito Simples",
+          "Sujeito Nulo"
+        ],
+        "resposta": "Sujeito Composto",
+        "correctAnswer": "Sujeito Composto",
+        "explicacao": "Tem mais do que um núcleo ('O Pedro e a Rita').",
+        "explanation": "Tem mais do que um núcleo ('O Pedro e a Rita')."
+      },
+      {
+        "id": "pt_3_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Choveu muito ontem à noite', não existe um sujeito que faça a chuva cair (verbo de fenómeno natural).",
+        "question": "Na frase 'Choveu muito ontem à noite', não existe um sujeito que faça a chuva cair (verbo de fenómeno natural).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Verbos que indicam fenómenos da natureza não têm sujeito ativo.",
+        "explanation": "Verdadeiro! Verbos que indicam fenómenos da natureza não têm sujeito ativo."
+      },
+      {
+        "id": "pt_3_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Identifica o sujeito na frase 'No jardim, as flores floriram com o sol':",
+        "question": "Identifica o sujeito na frase 'No jardim, as flores floriram com o sol':",
+        "opcoes": [
+          "as flores",
+          "No jardim",
+          "floriram"
+        ],
+        "options": [
+          "as flores",
+          "No jardim",
+          "floriram"
+        ],
+        "resposta": "as flores",
+        "correctAnswer": "as flores",
+        "explicacao": "Quem floriu foram 'as flores'!",
+        "explanation": "Quem floriu foram 'as flores'!"
+      },
+      {
+        "id": "pt_3_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Separa o Sujeito do Predicado em cada frase:",
+        "question": "Separa o Sujeito do Predicado em cada frase:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita análise sintática de Sujeito e Predicado!",
+        "explanation": "Perfeita análise sintática de Sujeito e Predicado!",
+        "pairs": {
+          "O comboio rápido": "chegou à estação a horas (Predicado)",
+          "A mãe do Zé": "fez um bolo de cenoura delicioso (Predicado)",
+          "As estrelas cadentes": "cruzaram o céu noturno (Predicado)",
+          "Todos os amigos": "brincaram felizes no recreio (Predicado)"
+        },
+        "pares": {
+          "O comboio rápido": "chegou à estação a horas (Predicado)",
+          "A mãe do Zé": "fez um bolo de cenoura delicioso (Predicado)",
+          "As estrelas cadentes": "cruzaram o céu noturno (Predicado)",
+          "Todos os amigos": "brincaram felizes no recreio (Predicado)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Os alunos do 3.º ano estudaram matemática', quem é o SUJEITO?",
+        "question": "Na frase 'Os alunos do 3.º ano estudaram matemática', quem é o SUJEITO?",
+        "opcoes": [
+          "Os alunos do 3.º ano",
+          "estudaram matemática",
+          "matemática"
+        ],
+        "options": [
+          "Os alunos do 3.º ano",
+          "estudaram matemática",
+          "matemática"
+        ],
+        "resposta": "Os alunos do 3.º ano",
+        "correctAnswer": "Os alunos do 3.º ano",
+        "explicacao": "Perguntamos 'Quem estudou?': 'Os alunos do 3.º ano'!",
+        "explanation": "Perguntamos 'Quem estudou?': 'Os alunos do 3.º ano'!"
+      },
+      {
+        "id": "pt_3_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O PREDICADO inclui sempre o verbo e as informações sobre o que o sujeito faz ou é.",
+        "question": "O PREDICADO inclui sempre o verbo e as informações sobre o que o sujeito faz ou é.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Na frase 'O sol brilha no céu', o predicado é 'brilha no céu'.",
+        "explanation": "Verdadeiro! Na frase 'O sol brilha no céu', o predicado é 'brilha no céu'."
+      },
+      {
+        "id": "pt_3_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'O gato bebeu o leite', o predicado é ___",
+        "question": "Na frase 'O gato bebeu o leite', o predicado é ___",
+        "opcoes": [
+          "bebeu o leite",
+          "O gato",
+          "o leite"
+        ],
+        "options": [
+          "bebeu o leite",
+          "O gato",
+          "o leite"
+        ],
+        "resposta": "bebeu o leite",
+        "correctAnswer": "bebeu o leite",
+        "explicacao": "'bebeu o leite' contém o verbo e a ação realizada.",
+        "explanation": "'bebeu o leite' contém o verbo e a ação realizada."
+      },
+      {
+        "id": "pt_3_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é o Sujeito na frase: 'A andorinha voa veloz nas nuvens 🦅'?",
+        "question": "Qual é o Sujeito na frase: 'A andorinha voa veloz nas nuvens 🦅'?",
+        "opcoes": [
+          "🦅 A andorinha",
+          "☁️ voa veloz",
+          "🌤️ nas nuvens"
+        ],
+        "options": [
+          "🦅 A andorinha",
+          "☁️ voa veloz",
+          "🌤️ nas nuvens"
+        ],
+        "resposta": "🦅 A andorinha",
+        "correctAnswer": "🦅 A andorinha",
+        "explicacao": "'A andorinha' é quem realiza a ação de voar! 🦅",
+        "explanation": "'A andorinha' é quem realiza a ação de voar! 🦅"
+      },
+      {
+        "id": "pt_3_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o sujeito formado por mais de um elemento (ex: 'O Pedro e a Rita jogam')?",
+        "question": "Como se chama o sujeito formado por mais de um elemento (ex: 'O Pedro e a Rita jogam')?",
+        "opcoes": [
+          "Sujeito Composto",
+          "Sujeito Simples",
+          "Sujeito Nulo"
+        ],
+        "options": [
+          "Sujeito Composto",
+          "Sujeito Simples",
+          "Sujeito Nulo"
+        ],
+        "resposta": "Sujeito Composto",
+        "correctAnswer": "Sujeito Composto",
+        "explicacao": "Tem mais do que um núcleo ('O Pedro e a Rita').",
+        "explanation": "Tem mais do que um núcleo ('O Pedro e a Rita')."
+      },
+      {
+        "id": "pt_3_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Choveu muito ontem à noite', não existe um sujeito que faça a chuva cair (verbo de fenómeno natural).",
+        "question": "Na frase 'Choveu muito ontem à noite', não existe um sujeito que faça a chuva cair (verbo de fenómeno natural).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Verbos que indicam fenómenos da natureza não têm sujeito ativo.",
+        "explanation": "Verdadeiro! Verbos que indicam fenómenos da natureza não têm sujeito ativo."
+      },
+      {
+        "id": "pt_3_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Identifica o sujeito na frase 'No jardim, as flores floriram com o sol':",
+        "question": "Identifica o sujeito na frase 'No jardim, as flores floriram com o sol':",
+        "opcoes": [
+          "as flores",
+          "No jardim",
+          "floriram"
+        ],
+        "options": [
+          "as flores",
+          "No jardim",
+          "floriram"
+        ],
+        "resposta": "as flores",
+        "correctAnswer": "as flores",
+        "explicacao": "Quem floriu foram 'as flores'!",
+        "explanation": "Quem floriu foram 'as flores'!"
+      },
+      {
+        "id": "pt_3_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Separa o Sujeito do Predicado em cada frase:",
+        "question": "Separa o Sujeito do Predicado em cada frase:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita análise sintática de Sujeito e Predicado!",
+        "explanation": "Perfeita análise sintática de Sujeito e Predicado!",
+        "pairs": {
+          "O comboio rápido": "chegou à estação a horas (Predicado)",
+          "A mãe do Zé": "fez um bolo de cenoura delicioso (Predicado)",
+          "As estrelas cadentes": "cruzaram o céu noturno (Predicado)",
+          "Todos os amigos": "brincaram felizes no recreio (Predicado)"
+        },
+        "pares": {
+          "O comboio rápido": "chegou à estação a horas (Predicado)",
+          "A mãe do Zé": "fez um bolo de cenoura delicioso (Predicado)",
+          "As estrelas cadentes": "cruzaram o céu noturno (Predicado)",
+          "Todos os amigos": "brincaram felizes no recreio (Predicado)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f8",
+    "numero": 8,
+    "titulo": "Recursos Expressivos: Comparação e Personificação",
+    "title": "Recursos Expressivos: Comparação e Personificação",
+    "descricao": "Descobre comparações ('como', 'parece') e personificações (dar vida humana a coisas e animais).",
+    "description": "Descobre comparações ('como', 'parece') e personificações (dar vida humana a coisas e animais).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "✨",
+    "imageEmoji": "✨",
+    "exercicios": [
+      {
+        "id": "pt_3_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Os olhos dela brilham como duas estrelas', que recurso expressivo temos?",
+        "question": "Na frase 'Os olhos dela brilham como duas estrelas', que recurso expressivo temos?",
+        "opcoes": [
+          "Comparação",
+          "Personificação",
+          "Onomatopeia"
+        ],
+        "options": [
+          "Comparação",
+          "Personificação",
+          "Onomatopeia"
+        ],
+        "resposta": "Comparação",
+        "correctAnswer": "Comparação",
+        "explicacao": "Usa a palavra 'como' para comparar o brilho dos olhos com estrelas!",
+        "explanation": "Usa a palavra 'como' para comparar o brilho dos olhos com estrelas!"
+      },
+      {
+        "id": "pt_3_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'O vento assobiava zangado pelas frestas da janela' é uma Personificação.",
+        "question": "A frase 'O vento assobiava zangado pelas frestas da janela' é uma Personificação.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Atribui um sentimento humano ('zangado') e uma ação humana ('assobiar') ao vento.",
+        "explanation": "Verdadeiro! Atribui um sentimento humano ('zangado') e uma ação humana ('assobiar') ao vento."
+      },
+      {
+        "id": "pt_3_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'Tic-tac, tic-tac' que imita o som do relógio chama-se uma ___",
+        "question": "A palavra 'Tic-tac, tic-tac' que imita o som do relógio chama-se uma ___",
+        "opcoes": [
+          "Onomatopeia",
+          "Comparação",
+          "Personificação"
+        ],
+        "options": [
+          "Onomatopeia",
+          "Comparação",
+          "Personificação"
+        ],
+        "resposta": "Onomatopeia",
+        "correctAnswer": "Onomatopeia",
+        "explicacao": "Onomatopeias reproduzem ruídos e sons da realidade!",
+        "explanation": "Onomatopeias reproduzem ruídos e sons da realidade!"
+      },
+      {
+        "id": "pt_3_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases contém uma Personificação?",
+        "question": "Qual destas frases contém uma Personificação?",
+        "opcoes": [
+          "🌳 'As árvores dançavam felizes com a brisa.'",
+          "🌳 'As árvores têm folhas verdes.'",
+          "🌳 'A árvore é de carvalho.'"
+        ],
+        "options": [
+          "🌳 'As árvores dançavam felizes com a brisa.'",
+          "🌳 'As árvores têm folhas verdes.'",
+          "🌳 'A árvore é de carvalho.'"
+        ],
+        "resposta": "🌳 'As árvores dançavam felizes com a brisa.'",
+        "correctAnswer": "🌳 'As árvores dançavam felizes com a brisa.'",
+        "explicacao": "Dançar e sentir felicidade são características humanas dadas às árvores! 🌳",
+        "explanation": "Dançar e sentir felicidade são características humanas dadas às árvores! 🌳"
+      },
+      {
+        "id": "pt_3_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a onomatopeia que imita o ladrar de um cão?",
+        "question": "Qual é a onomatopeia que imita o ladrar de um cão?",
+        "opcoes": [
+          "Au-au!",
+          "Miau!",
+          "Piu-piu!"
+        ],
+        "options": [
+          "Au-au!",
+          "Miau!",
+          "Piu-piu!"
+        ],
+        "resposta": "Au-au!",
+        "correctAnswer": "Au-au!",
+        "explicacao": "'Au-au' representa o som do cão.",
+        "explanation": "'Au-au' representa o som do cão."
+      },
+      {
+        "id": "pt_3_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "'Ele é rápido como um relâmpago' é uma comparação.",
+        "question": "'Ele é rápido como um relâmpago' é uma comparação.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Compara a velocidade dele à de um relâmpago.",
+        "explanation": "Verdadeiro! Compara a velocidade dele à de um relâmpago."
+      },
+      {
+        "id": "pt_3_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na poesia, para que servem os recursos expressivos?",
+        "question": "Na poesia, para que servem os recursos expressivos?",
+        "opcoes": [
+          "Tornar o texto mais belo, expressivo e emocionante",
+          "Fazer o texto ficar mais curto",
+          "Escrever sem pontuação"
+        ],
+        "options": [
+          "Tornar o texto mais belo, expressivo e emocionante",
+          "Fazer o texto ficar mais curto",
+          "Escrever sem pontuação"
+        ],
+        "resposta": "Tornar o texto mais belo, expressivo e emocionante",
+        "correctAnswer": "Tornar o texto mais belo, expressivo e emocionante",
+        "explicacao": "Enriquecem a imaginação e a beleza artística da língua.",
+        "explanation": "Enriquecem a imaginação e a beleza artística da língua."
+      },
+      {
+        "id": "pt_3_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica o recurso expressivo de cada frase:",
+        "question": "Classifica o recurso expressivo de cada frase:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente sensibilidade literária e poética!",
+        "explanation": "Excelente sensibilidade literária e poética!",
+        "pairs": {
+          "O mar cantava canções suaves": "Personificação",
+          "Ela é doce como o mel": "Comparação",
+          "Bum! A porta bateu com força": "Onomatopeia",
+          "A lua sorria para a noite": "Personificação"
+        },
+        "pares": {
+          "O mar cantava canções suaves": "Personificação",
+          "Ela é doce como o mel": "Comparação",
+          "Bum! A porta bateu com força": "Onomatopeia",
+          "A lua sorria para a noite": "Personificação"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Os olhos dela brilham como duas estrelas', que recurso expressivo temos?",
+        "question": "Na frase 'Os olhos dela brilham como duas estrelas', que recurso expressivo temos?",
+        "opcoes": [
+          "Comparação",
+          "Personificação",
+          "Onomatopeia"
+        ],
+        "options": [
+          "Comparação",
+          "Personificação",
+          "Onomatopeia"
+        ],
+        "resposta": "Comparação",
+        "correctAnswer": "Comparação",
+        "explicacao": "Usa a palavra 'como' para comparar o brilho dos olhos com estrelas!",
+        "explanation": "Usa a palavra 'como' para comparar o brilho dos olhos com estrelas!"
+      },
+      {
+        "id": "pt_3_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'O vento assobiava zangado pelas frestas da janela' é uma Personificação.",
+        "question": "A frase 'O vento assobiava zangado pelas frestas da janela' é uma Personificação.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Atribui um sentimento humano ('zangado') e uma ação humana ('assobiar') ao vento.",
+        "explanation": "Verdadeiro! Atribui um sentimento humano ('zangado') e uma ação humana ('assobiar') ao vento."
+      },
+      {
+        "id": "pt_3_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'Tic-tac, tic-tac' que imita o som do relógio chama-se uma ___",
+        "question": "A palavra 'Tic-tac, tic-tac' que imita o som do relógio chama-se uma ___",
+        "opcoes": [
+          "Onomatopeia",
+          "Comparação",
+          "Personificação"
+        ],
+        "options": [
+          "Onomatopeia",
+          "Comparação",
+          "Personificação"
+        ],
+        "resposta": "Onomatopeia",
+        "correctAnswer": "Onomatopeia",
+        "explicacao": "Onomatopeias reproduzem ruídos e sons da realidade!",
+        "explanation": "Onomatopeias reproduzem ruídos e sons da realidade!"
+      },
+      {
+        "id": "pt_3_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases contém uma Personificação?",
+        "question": "Qual destas frases contém uma Personificação?",
+        "opcoes": [
+          "🌳 'As árvores dançavam felizes com a brisa.'",
+          "🌳 'As árvores têm folhas verdes.'",
+          "🌳 'A árvore é de carvalho.'"
+        ],
+        "options": [
+          "🌳 'As árvores dançavam felizes com a brisa.'",
+          "🌳 'As árvores têm folhas verdes.'",
+          "🌳 'A árvore é de carvalho.'"
+        ],
+        "resposta": "🌳 'As árvores dançavam felizes com a brisa.'",
+        "correctAnswer": "🌳 'As árvores dançavam felizes com a brisa.'",
+        "explicacao": "Dançar e sentir felicidade são características humanas dadas às árvores! 🌳",
+        "explanation": "Dançar e sentir felicidade são características humanas dadas às árvores! 🌳"
+      },
+      {
+        "id": "pt_3_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a onomatopeia que imita o ladrar de um cão?",
+        "question": "Qual é a onomatopeia que imita o ladrar de um cão?",
+        "opcoes": [
+          "Au-au!",
+          "Miau!",
+          "Piu-piu!"
+        ],
+        "options": [
+          "Au-au!",
+          "Miau!",
+          "Piu-piu!"
+        ],
+        "resposta": "Au-au!",
+        "correctAnswer": "Au-au!",
+        "explicacao": "'Au-au' representa o som do cão.",
+        "explanation": "'Au-au' representa o som do cão."
+      },
+      {
+        "id": "pt_3_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "'Ele é rápido como um relâmpago' é uma comparação.",
+        "question": "'Ele é rápido como um relâmpago' é uma comparação.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Compara a velocidade dele à de um relâmpago.",
+        "explanation": "Verdadeiro! Compara a velocidade dele à de um relâmpago."
+      },
+      {
+        "id": "pt_3_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na poesia, para que servem os recursos expressivos?",
+        "question": "Na poesia, para que servem os recursos expressivos?",
+        "opcoes": [
+          "Tornar o texto mais belo, expressivo e emocionante",
+          "Fazer o texto ficar mais curto",
+          "Escrever sem pontuação"
+        ],
+        "options": [
+          "Tornar o texto mais belo, expressivo e emocionante",
+          "Fazer o texto ficar mais curto",
+          "Escrever sem pontuação"
+        ],
+        "resposta": "Tornar o texto mais belo, expressivo e emocionante",
+        "correctAnswer": "Tornar o texto mais belo, expressivo e emocionante",
+        "explicacao": "Enriquecem a imaginação e a beleza artística da língua.",
+        "explanation": "Enriquecem a imaginação e a beleza artística da língua."
+      },
+      {
+        "id": "pt_3_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica o recurso expressivo de cada frase:",
+        "question": "Classifica o recurso expressivo de cada frase:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente sensibilidade literária e poética!",
+        "explanation": "Excelente sensibilidade literária e poética!",
+        "pairs": {
+          "O mar cantava canções suaves": "Personificação",
+          "Ela é doce como o mel": "Comparação",
+          "Bum! A porta bateu com força": "Onomatopeia",
+          "A lua sorria para a noite": "Personificação"
+        },
+        "pares": {
+          "O mar cantava canções suaves": "Personificação",
+          "Ela é doce como o mel": "Comparação",
+          "Bum! A porta bateu com força": "Onomatopeia",
+          "A lua sorria para a noite": "Personificação"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f9",
+    "numero": 9,
+    "titulo": "Ortografia: Porquê/Porque, Há/A, Mal/Mau",
+    "title": "Ortografia: Porquê/Porque, Há/A, Mal/Mau",
+    "descricao": "Escreve com rigor e sem hesitações nas dúvidas mais frequentes da escrita.",
+    "description": "Escreve com rigor e sem hesitações nas dúvidas mais frequentes da escrita.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🎯",
+    "imageEmoji": "🎯",
+    "exercicios": [
+      {
+        "id": "pt_3_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual usamos para RESPONDER e dar uma justificação: 'Não fui à praia ___ estava a chover'?",
+        "question": "Qual usamos para RESPONDER e dar uma justificação: 'Não fui à praia ___ estava a chover'?",
+        "resposta": "porque (junto)",
+        "correctAnswer": "porque (junto)",
+        "explicacao": "'Porque' junto e sem acento usa-se em respostas e explicações!",
+        "explanation": "'Porque' junto e sem acento usa-se em respostas e explicações!"
+      },
+      {
+        "id": "pt_3_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Usamos 'Há' (com H e acento) quando indica tempo passado decorrido (ex: 'Há três dias').",
+        "question": "Usamos 'Há' (com H e acento) quando indica tempo passado decorrido (ex: 'Há três dias').",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Há' vem do verbo haver e indica tempo que já passou.",
+        "explanation": "Verdadeiro! 'Há' vem do verbo haver e indica tempo que já passou."
+      },
+      {
+        "id": "pt_3_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O lobo da história era muito ___ (o oposto de bom).",
+        "question": "O lobo da história era muito ___ (o oposto de bom).",
+        "opcoes": [
+          "mau",
+          "mal",
+          "mais"
+        ],
+        "options": [
+          "mau",
+          "mal",
+          "mais"
+        ],
+        "resposta": "mau",
+        "correctAnswer": "mau",
+        "explicacao": "'Mau' opõe-se a 'bom'; 'Mal' opõe-se a 'bem'.",
+        "explanation": "'Mau' opõe-se a 'bom'; 'Mal' opõe-se a 'bem'."
+      },
+      {
+        "id": "pt_3_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases está 100% CORRETA?",
+        "question": "Qual destas frases está 100% CORRETA?",
+        "opcoes": [
+          "✅ 'Daqui a duas semanas vamos de férias.'",
+          "❌ 'Daqui há duas semanas vamos de férias.'",
+          "❌ 'Daqui ah duas semanas.'"
+        ],
+        "options": [
+          "✅ 'Daqui a duas semanas vamos de férias.'",
+          "❌ 'Daqui há duas semanas vamos de férias.'",
+          "❌ 'Daqui ah duas semanas.'"
+        ],
+        "resposta": "✅ 'Daqui a duas semanas vamos de férias.'",
+        "correctAnswer": "✅ 'Daqui a duas semanas vamos de férias.'",
+        "explicacao": "Tempo futuro usa a preposição 'a' simples! ✅",
+        "explanation": "Tempo futuro usa a preposição 'a' simples! ✅"
+      },
+      {
+        "id": "pt_3_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Ele cantou muito ___ no espetáculo (oposto de bem)', escreve-se:",
+        "question": "Na frase 'Ele cantou muito ___ no espetáculo (oposto de bem)', escreve-se:",
+        "opcoes": [
+          "mal",
+          "mau",
+          "mais"
+        ],
+        "options": [
+          "mal",
+          "mau",
+          "mais"
+        ],
+        "resposta": "mal",
+        "correctAnswer": "mal",
+        "explicacao": "O contrário de bem é mal (com l)!",
+        "explanation": "O contrário de bem é mal (com l)!"
+      },
+      {
+        "id": "pt_3_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "'Mas' indica oposição (porém) e 'Mais' indica quantidade ou adição.",
+        "question": "'Mas' indica oposição (porém) e 'Mais' indica quantidade ou adição.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Quero brincar, mas tenho de estudar mais.'",
+        "explanation": "Verdadeiro! 'Quero brincar, mas tenho de estudar mais.'"
+      },
+      {
+        "id": "pt_3_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Completa: 'Gostei do livro, ___ prefiro a banda desenhada.'",
+        "question": "Completa: 'Gostei do livro, ___ prefiro a banda desenhada.'",
+        "opcoes": [
+          "mas",
+          "mais",
+          "más"
+        ],
+        "options": [
+          "mas",
+          "mais",
+          "más"
+        ],
+        "resposta": "mas",
+        "correctAnswer": "mas",
+        "explicacao": "'Mas' exprime contraste / oposição.",
+        "explanation": "'Mas' exprime contraste / oposição."
+      },
+      {
+        "id": "pt_3_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Escolhe a palavra certa para cada frase:",
+        "question": "Escolhe a palavra certa para cada frase:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da ortografia e das regras da língua!",
+        "explanation": "Excelente domínio da ortografia e das regras da língua!",
+        "pairs": {
+          "Ele comportou-se ___ (mal/mau)": "mal (oposto de bem)",
+          "O João é um rapaz ___ (mal/mau)": "mau (oposto de bom)",
+          "Cheguei ___ duas horas (há/a)": "há (tempo decorrido)",
+          "Vou sair daqui ___ pouco (há/a)": "a (tempo futuro)"
+        },
+        "pares": {
+          "Ele comportou-se ___ (mal/mau)": "mal (oposto de bem)",
+          "O João é um rapaz ___ (mal/mau)": "mau (oposto de bom)",
+          "Cheguei ___ duas horas (há/a)": "há (tempo decorrido)",
+          "Vou sair daqui ___ pouco (há/a)": "a (tempo futuro)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual usamos para RESPONDER e dar uma justificação: 'Não fui à praia ___ estava a chover'?",
+        "question": "Qual usamos para RESPONDER e dar uma justificação: 'Não fui à praia ___ estava a chover'?",
+        "resposta": "porque (junto)",
+        "correctAnswer": "porque (junto)",
+        "explicacao": "'Porque' junto e sem acento usa-se em respostas e explicações!",
+        "explanation": "'Porque' junto e sem acento usa-se em respostas e explicações!"
+      },
+      {
+        "id": "pt_3_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Usamos 'Há' (com H e acento) quando indica tempo passado decorrido (ex: 'Há três dias').",
+        "question": "Usamos 'Há' (com H e acento) quando indica tempo passado decorrido (ex: 'Há três dias').",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Há' vem do verbo haver e indica tempo que já passou.",
+        "explanation": "Verdadeiro! 'Há' vem do verbo haver e indica tempo que já passou."
+      },
+      {
+        "id": "pt_3_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O lobo da história era muito ___ (o oposto de bom).",
+        "question": "O lobo da história era muito ___ (o oposto de bom).",
+        "opcoes": [
+          "mau",
+          "mal",
+          "mais"
+        ],
+        "options": [
+          "mau",
+          "mal",
+          "mais"
+        ],
+        "resposta": "mau",
+        "correctAnswer": "mau",
+        "explicacao": "'Mau' opõe-se a 'bom'; 'Mal' opõe-se a 'bem'.",
+        "explanation": "'Mau' opõe-se a 'bom'; 'Mal' opõe-se a 'bem'."
+      },
+      {
+        "id": "pt_3_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases está 100% CORRETA?",
+        "question": "Qual destas frases está 100% CORRETA?",
+        "opcoes": [
+          "✅ 'Daqui a duas semanas vamos de férias.'",
+          "❌ 'Daqui há duas semanas vamos de férias.'",
+          "❌ 'Daqui ah duas semanas.'"
+        ],
+        "options": [
+          "✅ 'Daqui a duas semanas vamos de férias.'",
+          "❌ 'Daqui há duas semanas vamos de férias.'",
+          "❌ 'Daqui ah duas semanas.'"
+        ],
+        "resposta": "✅ 'Daqui a duas semanas vamos de férias.'",
+        "correctAnswer": "✅ 'Daqui a duas semanas vamos de férias.'",
+        "explicacao": "Tempo futuro usa a preposição 'a' simples! ✅",
+        "explanation": "Tempo futuro usa a preposição 'a' simples! ✅"
+      },
+      {
+        "id": "pt_3_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Ele cantou muito ___ no espetáculo (oposto de bem)', escreve-se:",
+        "question": "Na frase 'Ele cantou muito ___ no espetáculo (oposto de bem)', escreve-se:",
+        "opcoes": [
+          "mal",
+          "mau",
+          "mais"
+        ],
+        "options": [
+          "mal",
+          "mau",
+          "mais"
+        ],
+        "resposta": "mal",
+        "correctAnswer": "mal",
+        "explicacao": "O contrário de bem é mal (com l)!",
+        "explanation": "O contrário de bem é mal (com l)!"
+      },
+      {
+        "id": "pt_3_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "'Mas' indica oposição (porém) e 'Mais' indica quantidade ou adição.",
+        "question": "'Mas' indica oposição (porém) e 'Mais' indica quantidade ou adição.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Quero brincar, mas tenho de estudar mais.'",
+        "explanation": "Verdadeiro! 'Quero brincar, mas tenho de estudar mais.'"
+      },
+      {
+        "id": "pt_3_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Completa: 'Gostei do livro, ___ prefiro a banda desenhada.'",
+        "question": "Completa: 'Gostei do livro, ___ prefiro a banda desenhada.'",
+        "opcoes": [
+          "mas",
+          "mais",
+          "más"
+        ],
+        "options": [
+          "mas",
+          "mais",
+          "más"
+        ],
+        "resposta": "mas",
+        "correctAnswer": "mas",
+        "explicacao": "'Mas' exprime contraste / oposição.",
+        "explanation": "'Mas' exprime contraste / oposição."
+      },
+      {
+        "id": "pt_3_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Escolhe a palavra certa para cada frase:",
+        "question": "Escolhe a palavra certa para cada frase:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da ortografia e das regras da língua!",
+        "explanation": "Excelente domínio da ortografia e das regras da língua!",
+        "pairs": {
+          "Ele comportou-se ___ (mal/mau)": "mal (oposto de bem)",
+          "O João é um rapaz ___ (mal/mau)": "mau (oposto de bom)",
+          "Cheguei ___ duas horas (há/a)": "há (tempo decorrido)",
+          "Vou sair daqui ___ pouco (há/a)": "a (tempo futuro)"
+        },
+        "pares": {
+          "Ele comportou-se ___ (mal/mau)": "mal (oposto de bem)",
+          "O João é um rapaz ___ (mal/mau)": "mau (oposto de bom)",
+          "Cheguei ___ duas horas (há/a)": "há (tempo decorrido)",
+          "Vou sair daqui ___ pouco (há/a)": "a (tempo futuro)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f10",
+    "numero": 10,
+    "titulo": "Formação de Palavras: Prefixos e Sufixos",
+    "title": "Formação de Palavras: Prefixos e Sufixos",
+    "descricao": "Descobre como as palavras derivadas são criadas juntando partículas no início ou fim.",
+    "description": "Descobre como as palavras derivadas são criadas juntando partículas no início ou fim.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🔬",
+    "imageEmoji": "🔬",
+    "exercicios": [
+      {
+        "id": "pt_3_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que é um PREFIXO na formação de palavras?",
+        "question": "O que é um PREFIXO na formação de palavras?",
+        "opcoes": [
+          "Um elemento colocado ANTES do radical da palavra",
+          "Um elemento colocado no fim",
+          "Uma pontuação"
+        ],
+        "options": [
+          "Um elemento colocado ANTES do radical da palavra",
+          "Um elemento colocado no fim",
+          "Uma pontuação"
+        ],
+        "resposta": "Um elemento colocado ANTES do radical da palavra",
+        "correctAnswer": "Um elemento colocado ANTES do radical da palavra",
+        "explicacao": "Ex: feliz -> in-feliz (in- é prefixo de negação)!",
+        "explanation": "Ex: feliz -> in-feliz (in- é prefixo de negação)!"
+      },
+      {
+        "id": "pt_3_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na palavra 'lealdade', o elemento '-dade' é um SUFIXO adicionado no final da palavra.",
+        "question": "Na palavra 'lealdade', o elemento '-dade' é um SUFIXO adicionado no final da palavra.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Leal + dade = lealdade.",
+        "explanation": "Verdadeiro! Leal + dade = lealdade."
+      },
+      {
+        "id": "pt_3_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra primitiva 'fazer' com o prefixo 're-' fica ___ (fazer de novo).",
+        "question": "A palavra primitiva 'fazer' com o prefixo 're-' fica ___ (fazer de novo).",
+        "opcoes": [
+          "refazer",
+          "desfazer",
+          "perfazer"
+        ],
+        "options": [
+          "refazer",
+          "desfazer",
+          "perfazer"
+        ],
+        "resposta": "refazer",
+        "correctAnswer": "refazer",
+        "explicacao": "'Re-' indica repetição: refazer = fazer novamente!",
+        "explanation": "'Re-' indica repetição: refazer = fazer novamente!"
+      },
+      {
+        "id": "pt_3_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras foi formada por DERIVAÇÃO POR PREFIXAÇÃO?",
+        "question": "Qual destas palavras foi formada por DERIVAÇÃO POR PREFIXAÇÃO?",
+        "resposta": "🌧️ 'Impermeável' (in + permeável)",
+        "correctAnswer": "🌧️ 'Impermeável' (in + permeável)",
+        "explicacao": "'Im-' é um prefixo colocado antes da raiz! 🌧️",
+        "explanation": "'Im-' é um prefixo colocado antes da raiz! 🌧️"
+      },
+      {
+        "id": "pt_3_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a palavra primitiva de 'infelizmente'?",
+        "question": "Qual é a palavra primitiva de 'infelizmente'?",
+        "opcoes": [
+          "feliz",
+          "mente",
+          "infeliz"
+        ],
+        "options": [
+          "feliz",
+          "mente",
+          "infeliz"
+        ],
+        "resposta": "feliz",
+        "correctAnswer": "feliz",
+        "explicacao": "'Feliz' é a palavra base primitiva que recebeu prefixo (in-) e sufixo (-mente)!",
+        "explanation": "'Feliz' é a palavra base primitiva que recebeu prefixo (in-) e sufixo (-mente)!"
+      },
+      {
+        "id": "pt_3_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'guarda-sol' é uma palavra composta por duas palavras ligadas por hífen.",
+        "question": "A palavra 'guarda-sol' é uma palavra composta por duas palavras ligadas por hífen.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Guarda + sol = palavra composta.",
+        "explanation": "Verdadeiro! Guarda + sol = palavra composta."
+      },
+      {
+        "id": "pt_3_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que sufixo podemos juntar à palavra 'real' para formar um advérbio de modo?",
+        "question": "Que sufixo podemos juntar à palavra 'real' para formar um advérbio de modo?",
+        "resposta": "-mente (realmente)",
+        "correctAnswer": "-mente (realmente)",
+        "explicacao": "O sufixo '-mente' cria advérbios de modo!",
+        "explanation": "O sufixo '-mente' cria advérbios de modo!"
+      },
+      {
+        "id": "pt_3_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Identifica o processo de formação:",
+        "question": "Identifica o processo de formação:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecimento estrutural impecável sobre formação de palavras!",
+        "explanation": "Conhecimento estrutural impecável sobre formação de palavras!",
+        "pairs": {
+          "desleal": "Derivação por Prefixação (des-)",
+          "livreiro": "Derivação por Sufixação (-eiro)",
+          "couve-flor": "Composição por aglutinação/hífen",
+          "infelizmente": "Prefixação e Sufixação"
+        },
+        "pares": {
+          "desleal": "Derivação por Prefixação (des-)",
+          "livreiro": "Derivação por Sufixação (-eiro)",
+          "couve-flor": "Composição por aglutinação/hífen",
+          "infelizmente": "Prefixação e Sufixação"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que é um PREFIXO na formação de palavras?",
+        "question": "O que é um PREFIXO na formação de palavras?",
+        "opcoes": [
+          "Um elemento colocado ANTES do radical da palavra",
+          "Um elemento colocado no fim",
+          "Uma pontuação"
+        ],
+        "options": [
+          "Um elemento colocado ANTES do radical da palavra",
+          "Um elemento colocado no fim",
+          "Uma pontuação"
+        ],
+        "resposta": "Um elemento colocado ANTES do radical da palavra",
+        "correctAnswer": "Um elemento colocado ANTES do radical da palavra",
+        "explicacao": "Ex: feliz -> in-feliz (in- é prefixo de negação)!",
+        "explanation": "Ex: feliz -> in-feliz (in- é prefixo de negação)!"
+      },
+      {
+        "id": "pt_3_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na palavra 'lealdade', o elemento '-dade' é um SUFIXO adicionado no final da palavra.",
+        "question": "Na palavra 'lealdade', o elemento '-dade' é um SUFIXO adicionado no final da palavra.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Leal + dade = lealdade.",
+        "explanation": "Verdadeiro! Leal + dade = lealdade."
+      },
+      {
+        "id": "pt_3_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra primitiva 'fazer' com o prefixo 're-' fica ___ (fazer de novo).",
+        "question": "A palavra primitiva 'fazer' com o prefixo 're-' fica ___ (fazer de novo).",
+        "opcoes": [
+          "refazer",
+          "desfazer",
+          "perfazer"
+        ],
+        "options": [
+          "refazer",
+          "desfazer",
+          "perfazer"
+        ],
+        "resposta": "refazer",
+        "correctAnswer": "refazer",
+        "explicacao": "'Re-' indica repetição: refazer = fazer novamente!",
+        "explanation": "'Re-' indica repetição: refazer = fazer novamente!"
+      },
+      {
+        "id": "pt_3_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras foi formada por DERIVAÇÃO POR PREFIXAÇÃO?",
+        "question": "Qual destas palavras foi formada por DERIVAÇÃO POR PREFIXAÇÃO?",
+        "resposta": "🌧️ 'Impermeável' (in + permeável)",
+        "correctAnswer": "🌧️ 'Impermeável' (in + permeável)",
+        "explicacao": "'Im-' é um prefixo colocado antes da raiz! 🌧️",
+        "explanation": "'Im-' é um prefixo colocado antes da raiz! 🌧️"
+      },
+      {
+        "id": "pt_3_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a palavra primitiva de 'infelizmente'?",
+        "question": "Qual é a palavra primitiva de 'infelizmente'?",
+        "opcoes": [
+          "feliz",
+          "mente",
+          "infeliz"
+        ],
+        "options": [
+          "feliz",
+          "mente",
+          "infeliz"
+        ],
+        "resposta": "feliz",
+        "correctAnswer": "feliz",
+        "explicacao": "'Feliz' é a palavra base primitiva que recebeu prefixo (in-) e sufixo (-mente)!",
+        "explanation": "'Feliz' é a palavra base primitiva que recebeu prefixo (in-) e sufixo (-mente)!"
+      },
+      {
+        "id": "pt_3_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'guarda-sol' é uma palavra composta por duas palavras ligadas por hífen.",
+        "question": "A palavra 'guarda-sol' é uma palavra composta por duas palavras ligadas por hífen.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Guarda + sol = palavra composta.",
+        "explanation": "Verdadeiro! Guarda + sol = palavra composta."
+      },
+      {
+        "id": "pt_3_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que sufixo podemos juntar à palavra 'real' para formar um advérbio de modo?",
+        "question": "Que sufixo podemos juntar à palavra 'real' para formar um advérbio de modo?",
+        "resposta": "-mente (realmente)",
+        "correctAnswer": "-mente (realmente)",
+        "explicacao": "O sufixo '-mente' cria advérbios de modo!",
+        "explanation": "O sufixo '-mente' cria advérbios de modo!"
+      },
+      {
+        "id": "pt_3_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Identifica o processo de formação:",
+        "question": "Identifica o processo de formação:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecimento estrutural impecável sobre formação de palavras!",
+        "explanation": "Conhecimento estrutural impecável sobre formação de palavras!",
+        "pairs": {
+          "desleal": "Derivação por Prefixação (des-)",
+          "livreiro": "Derivação por Sufixação (-eiro)",
+          "couve-flor": "Composição por aglutinação/hífen",
+          "infelizmente": "Prefixação e Sufixação"
+        },
+        "pares": {
+          "desleal": "Derivação por Prefixação (des-)",
+          "livreiro": "Derivação por Sufixação (-eiro)",
+          "couve-flor": "Composição por aglutinação/hífen",
+          "infelizmente": "Prefixação e Sufixação"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f11",
+    "numero": 11,
+    "titulo": "Géneros Textuais: Notícia, Carta e Banda Desenhada",
+    "title": "Géneros Textuais: Notícia, Carta e Banda Desenhada",
+    "descricao": "Aprende as características do jornalismo, correspondência e banda desenhada.",
+    "description": "Aprende as características do jornalismo, correspondência e banda desenhada.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "📰",
+    "imageEmoji": "📰",
+    "exercicios": [
+      {
+        "id": "pt_3_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Numa notícia de jornal, a que perguntas principais deve responder o primeiro parágrafo (lead)?",
+        "question": "Numa notícia de jornal, a que perguntas principais deve responder o primeiro parágrafo (lead)?",
+        "opcoes": [
+          "O quê, Quem, Quando, Onde e Porquê",
+          "Apenas quem é o autor",
+          "Qual é a cor preferida do jornalista"
+        ],
+        "options": [
+          "O quê, Quem, Quando, Onde e Porquê",
+          "Apenas quem é o autor",
+          "Qual é a cor preferida do jornalista"
+        ],
+        "resposta": "O quê, Quem, Quando, Onde e Porquê",
+        "correctAnswer": "O quê, Quem, Quando, Onde e Porquê",
+        "explicacao": "Uma boa notícia informa com clareza o acontecimento, intervenientes, tempo e local!",
+        "explanation": "Uma boa notícia informa com clareza o acontecimento, intervenientes, tempo e local!"
+      },
+      {
+        "id": "pt_3_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na Banda Desenhada (BD), as falas das personagens são escritas dentro de 'balões de fala'.",
+        "question": "Na Banda Desenhada (BD), as falas das personagens são escritas dentro de 'balões de fala'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os balões de fala e de pensamento ilustram os diálogos.",
+        "explanation": "Verdadeiro! Os balões de fala e de pensamento ilustram os diálogos."
+      },
+      {
+        "id": "pt_3_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "No cabeçalho de uma carta pessoal devemos sempre escrever a data e o ___ de onde escrevemos.",
+        "question": "No cabeçalho de uma carta pessoal devemos sempre escrever a data e o ___ de onde escrevemos.",
+        "opcoes": [
+          "local / cidade",
+          "preço da carta",
+          "número do sapato"
+        ],
+        "options": [
+          "local / cidade",
+          "preço da carta",
+          "número do sapato"
+        ],
+        "resposta": "local / cidade",
+        "correctAnswer": "local / cidade",
+        "explicacao": "Ex: 'Lisboa, 15 de Outubro de 2026'.",
+        "explanation": "Ex: 'Lisboa, 15 de Outubro de 2026'."
+      },
+      {
+        "id": "pt_3_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que elemento visual da BD indica o pensamento silencioso de uma personagem?",
+        "question": "Que elemento visual da BD indica o pensamento silencioso de uma personagem?",
+        "opcoes": [
+          "💭 Balão em forma de nuvenzinha",
+          "💬 Balão com bico reto",
+          "💥 Balão em ziguezague de grito"
+        ],
+        "options": [
+          "💭 Balão em forma de nuvenzinha",
+          "💬 Balão com bico reto",
+          "💥 Balão em ziguezague de grito"
+        ],
+        "resposta": "💭 Balão em forma de nuvenzinha",
+        "correctAnswer": "💭 Balão em forma de nuvenzinha",
+        "explicacao": "O balão em nuvem com bolinhas indica pensamento secreto! 💭",
+        "explanation": "O balão em nuvem com bolinhas indica pensamento secreto! 💭"
+      },
+      {
+        "id": "pt_3_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a despedida afetuosa no final de uma carta?",
+        "question": "Como se chama a despedida afetuosa no final de uma carta?",
+        "opcoes": [
+          "Saudação final / Despedida",
+          "Título",
+          "Legenda"
+        ],
+        "options": [
+          "Saudação final / Despedida",
+          "Título",
+          "Legenda"
+        ],
+        "resposta": "Saudação final / Despedida",
+        "correctAnswer": "Saudação final / Despedida",
+        "explicacao": "Ex: 'Com carinho e saudades, do teu amigo Zé.'",
+        "explanation": "Ex: 'Com carinho e saudades, do teu amigo Zé.'"
+      },
+      {
+        "id": "pt_3_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O texto dramático ou de teatro é escrito com o nome das personagens antes de cada fala e indicações cénicas (didascálias).",
+        "question": "O texto dramático ou de teatro é escrito com o nome das personagens antes de cada fala e indicações cénicas (didascálias).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O texto teatral é feito para ser representado por atores.",
+        "explanation": "Verdadeiro! O texto teatral é feito para ser representado por atores."
+      },
+      {
+        "id": "pt_3_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Cada quadrado de imagem que compõe a história de uma Banda Desenhada chama-se...",
+        "question": "Cada quadrado de imagem que compõe a história de uma Banda Desenhada chama-se...",
+        "opcoes": [
+          "Vinheta / Prancha",
+          "Página",
+          "Quadro de giz"
+        ],
+        "options": [
+          "Vinheta / Prancha",
+          "Página",
+          "Quadro de giz"
+        ],
+        "resposta": "Vinheta / Prancha",
+        "correctAnswer": "Vinheta / Prancha",
+        "explicacao": "Uma vinheta é cada um dos retângulos ilustrados.",
+        "explanation": "Uma vinheta é cada um dos retângulos ilustrados."
+      },
+      {
+        "id": "pt_3_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o género textual ao seu objetivo:",
+        "question": "Associa o género textual ao seu objetivo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente compreensão dos diversos géneros textuais!",
+        "explanation": "Excelente compreensão dos diversos géneros textuais!",
+        "pairs": {
+          "Notícia": "Informar o público sobre factos reais",
+          "Carta pessoal": "Comunicar com amigos ou familiares à distância",
+          "Banda Desenhada": "Contar uma história divertida combinando texto e imagens",
+          "Poema": "Expressar sentimentos através de ritmo e rima"
+        },
+        "pares": {
+          "Notícia": "Informar o público sobre factos reais",
+          "Carta pessoal": "Comunicar com amigos ou familiares à distância",
+          "Banda Desenhada": "Contar uma história divertida combinando texto e imagens",
+          "Poema": "Expressar sentimentos através de ritmo e rima"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Numa notícia de jornal, a que perguntas principais deve responder o primeiro parágrafo (lead)?",
+        "question": "Numa notícia de jornal, a que perguntas principais deve responder o primeiro parágrafo (lead)?",
+        "opcoes": [
+          "O quê, Quem, Quando, Onde e Porquê",
+          "Apenas quem é o autor",
+          "Qual é a cor preferida do jornalista"
+        ],
+        "options": [
+          "O quê, Quem, Quando, Onde e Porquê",
+          "Apenas quem é o autor",
+          "Qual é a cor preferida do jornalista"
+        ],
+        "resposta": "O quê, Quem, Quando, Onde e Porquê",
+        "correctAnswer": "O quê, Quem, Quando, Onde e Porquê",
+        "explicacao": "Uma boa notícia informa com clareza o acontecimento, intervenientes, tempo e local!",
+        "explanation": "Uma boa notícia informa com clareza o acontecimento, intervenientes, tempo e local!"
+      },
+      {
+        "id": "pt_3_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na Banda Desenhada (BD), as falas das personagens são escritas dentro de 'balões de fala'.",
+        "question": "Na Banda Desenhada (BD), as falas das personagens são escritas dentro de 'balões de fala'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os balões de fala e de pensamento ilustram os diálogos.",
+        "explanation": "Verdadeiro! Os balões de fala e de pensamento ilustram os diálogos."
+      },
+      {
+        "id": "pt_3_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "No cabeçalho de uma carta pessoal devemos sempre escrever a data e o ___ de onde escrevemos.",
+        "question": "No cabeçalho de uma carta pessoal devemos sempre escrever a data e o ___ de onde escrevemos.",
+        "opcoes": [
+          "local / cidade",
+          "preço da carta",
+          "número do sapato"
+        ],
+        "options": [
+          "local / cidade",
+          "preço da carta",
+          "número do sapato"
+        ],
+        "resposta": "local / cidade",
+        "correctAnswer": "local / cidade",
+        "explicacao": "Ex: 'Lisboa, 15 de Outubro de 2026'.",
+        "explanation": "Ex: 'Lisboa, 15 de Outubro de 2026'."
+      },
+      {
+        "id": "pt_3_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que elemento visual da BD indica o pensamento silencioso de uma personagem?",
+        "question": "Que elemento visual da BD indica o pensamento silencioso de uma personagem?",
+        "opcoes": [
+          "💭 Balão em forma de nuvenzinha",
+          "💬 Balão com bico reto",
+          "💥 Balão em ziguezague de grito"
+        ],
+        "options": [
+          "💭 Balão em forma de nuvenzinha",
+          "💬 Balão com bico reto",
+          "💥 Balão em ziguezague de grito"
+        ],
+        "resposta": "💭 Balão em forma de nuvenzinha",
+        "correctAnswer": "💭 Balão em forma de nuvenzinha",
+        "explicacao": "O balão em nuvem com bolinhas indica pensamento secreto! 💭",
+        "explanation": "O balão em nuvem com bolinhas indica pensamento secreto! 💭"
+      },
+      {
+        "id": "pt_3_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a despedida afetuosa no final de uma carta?",
+        "question": "Como se chama a despedida afetuosa no final de uma carta?",
+        "opcoes": [
+          "Saudação final / Despedida",
+          "Título",
+          "Legenda"
+        ],
+        "options": [
+          "Saudação final / Despedida",
+          "Título",
+          "Legenda"
+        ],
+        "resposta": "Saudação final / Despedida",
+        "correctAnswer": "Saudação final / Despedida",
+        "explicacao": "Ex: 'Com carinho e saudades, do teu amigo Zé.'",
+        "explanation": "Ex: 'Com carinho e saudades, do teu amigo Zé.'"
+      },
+      {
+        "id": "pt_3_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O texto dramático ou de teatro é escrito com o nome das personagens antes de cada fala e indicações cénicas (didascálias).",
+        "question": "O texto dramático ou de teatro é escrito com o nome das personagens antes de cada fala e indicações cénicas (didascálias).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O texto teatral é feito para ser representado por atores.",
+        "explanation": "Verdadeiro! O texto teatral é feito para ser representado por atores."
+      },
+      {
+        "id": "pt_3_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Cada quadrado de imagem que compõe a história de uma Banda Desenhada chama-se...",
+        "question": "Cada quadrado de imagem que compõe a história de uma Banda Desenhada chama-se...",
+        "opcoes": [
+          "Vinheta / Prancha",
+          "Página",
+          "Quadro de giz"
+        ],
+        "options": [
+          "Vinheta / Prancha",
+          "Página",
+          "Quadro de giz"
+        ],
+        "resposta": "Vinheta / Prancha",
+        "correctAnswer": "Vinheta / Prancha",
+        "explicacao": "Uma vinheta é cada um dos retângulos ilustrados.",
+        "explanation": "Uma vinheta é cada um dos retângulos ilustrados."
+      },
+      {
+        "id": "pt_3_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o género textual ao seu objetivo:",
+        "question": "Associa o género textual ao seu objetivo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente compreensão dos diversos géneros textuais!",
+        "explanation": "Excelente compreensão dos diversos géneros textuais!",
+        "pairs": {
+          "Notícia": "Informar o público sobre factos reais",
+          "Carta pessoal": "Comunicar com amigos ou familiares à distância",
+          "Banda Desenhada": "Contar uma história divertida combinando texto e imagens",
+          "Poema": "Expressar sentimentos através de ritmo e rima"
+        },
+        "pares": {
+          "Notícia": "Informar o público sobre factos reais",
+          "Carta pessoal": "Comunicar com amigos ou familiares à distância",
+          "Banda Desenhada": "Contar uma história divertida combinando texto e imagens",
+          "Poema": "Expressar sentimentos através de ritmo e rima"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_3_f12",
+    "numero": 12,
+    "titulo": "Grande Avaliação Final de Português do 3.º Ano",
+    "title": "Grande Avaliação Final de Português do 3.º Ano",
+    "descricao": "Desafios integrados de gramática, compreensão e raciocínio textual.",
+    "description": "Desafios integrados de gramática, compreensão e raciocínio textual.",
+    "dificuldade": "DESAFIO",
+    "difficulty": "CHALLENGE",
+    "emoji": "🏆",
+    "imageEmoji": "🏆",
+    "exercicios": [
+      {
+        "id": "pt_3_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'As crianças inteligentes resolveram o enigma com facilidade', qual é o Sujeito?",
+        "question": "Na frase 'As crianças inteligentes resolveram o enigma com facilidade', qual é o Sujeito?",
+        "opcoes": [
+          "As crianças inteligentes",
+          "resolveram o enigma",
+          "o enigma"
+        ],
+        "options": [
+          "As crianças inteligentes",
+          "resolveram o enigma",
+          "o enigma"
+        ],
+        "resposta": "As crianças inteligentes",
+        "correctAnswer": "As crianças inteligentes",
+        "explicacao": "'As crianças inteligentes' é o sujeito completo da ação!",
+        "explanation": "'As crianças inteligentes' é o sujeito completo da ação!"
+      },
+      {
+        "id": "pt_3_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'fácil' forma o superlativo absoluto sintético 'facílimo'.",
+        "question": "A palavra 'fácil' forma o superlativo absoluto sintético 'facílimo'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Fácil -> Facílimo; Difícil -> Dificílimo.",
+        "explanation": "Verdadeiro! Fácil -> Facílimo; Difícil -> Dificílimo."
+      },
+      {
+        "id": "pt_3_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'árvore' quanto à acentuação tónica (ÁR-vo-re) é classificada como ___",
+        "question": "A palavra 'árvore' quanto à acentuação tónica (ÁR-vo-re) é classificada como ___",
+        "opcoes": [
+          "Esdrúxula",
+          "Grave",
+          "Aguda"
+        ],
+        "options": [
+          "Esdrúxula",
+          "Grave",
+          "Aguda"
+        ],
+        "resposta": "Esdrúxula",
+        "correctAnswer": "Esdrúxula",
+        "explicacao": "Tem o acento tónico na antepenúltima sílaba!",
+        "explanation": "Tem o acento tónico na antepenúltima sílaba!"
+      },
+      {
+        "id": "pt_3_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases usa corretamente a pontuação de discurso direto com diálogo?",
+        "question": "Qual destas frases usa corretamente a pontuação de discurso direto com diálogo?",
+        "opcoes": [
+          "💬 O Zé disse:\\n— Vamos aprender!",
+          "💬 O Zé disse vamos aprender",
+          "💬 O Zé ??? vamos"
+        ],
+        "options": [
+          "💬 O Zé disse:\\n— Vamos aprender!",
+          "💬 O Zé disse vamos aprender",
+          "💬 O Zé ??? vamos"
+        ],
+        "resposta": "💬 O Zé disse:\\n— Vamos aprender!",
+        "correctAnswer": "💬 O Zé disse:\\n— Vamos aprender!",
+        "explicacao": "Usa dois pontos e travessão de diálogo na linha seguinte! 💬",
+        "explanation": "Usa dois pontos e travessão de diálogo na linha seguinte! 💬"
+      },
+      {
+        "id": "pt_3_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o antónimo da palavra 'corajoso'?",
+        "question": "Qual é o antónimo da palavra 'corajoso'?",
+        "opcoes": [
+          "Cobarde / Medroso",
+          "Valente",
+          "Forte"
+        ],
+        "options": [
+          "Cobarde / Medroso",
+          "Valente",
+          "Forte"
+        ],
+        "resposta": "Cobarde / Medroso",
+        "correctAnswer": "Cobarde / Medroso",
+        "explicacao": "O oposto de quem tem coragem é quem tem medo ou cobardia.",
+        "explanation": "O oposto de quem tem coragem é quem tem medo ou cobardia."
+      },
+      {
+        "id": "pt_3_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O verbo 'partir' pertence à 3.ª conjugação (verbos terminados em '-ir').",
+        "question": "O verbo 'partir' pertence à 3.ª conjugação (verbos terminados em '-ir').",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1.ª (-ar), 2.ª (-er), 3.ª (-ir).",
+        "explanation": "Verdadeiro! 1.ª (-ar), 2.ª (-er), 3.ª (-ir)."
+      },
+      {
+        "id": "pt_3_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os passos para redigir uma composição escrita de excelência:",
+        "question": "Ordena os passos para redigir uma composição escrita de excelência:",
+        "opcoes": [
+          "Planear as ideias num rascunho",
+          "Escrever os parágrafos com pontuação",
+          "Rever e corrigir a ortografia"
+        ],
+        "options": [
+          "Planear as ideias num rascunho",
+          "Escrever os parágrafos com pontuação",
+          "Rever e corrigir a ortografia"
+        ],
+        "resposta": "Planear as ideias num rascunho-Escrever os parágrafos com pontuação-Rever e corrigir a ortografia",
+        "correctAnswer": "Planear as ideias num rascunho-Escrever os parágrafos com pontuação-Rever e corrigir a ortografia",
+        "explicacao": "Planear, redigir e rever garante notas máximas!",
+        "explanation": "Planear, redigir e rever garante notas máximas!",
+        "correctAnswers": [
+          "Planear as ideias num rascunho",
+          "Escrever os parágrafos com pontuação",
+          "Rever e corrigir a ortografia"
+        ],
+        "respostasCorretas": [
+          "Planear as ideias num rascunho",
+          "Escrever os parágrafos com pontuação",
+          "Rever e corrigir a ortografia"
+        ]
+      },
+      {
+        "id": "pt_3_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio final das classes gramaticais:",
+        "question": "Desafio final das classes gramaticais:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Campeão da Língua Portuguesa do 3.º Ano!",
+        "explanation": "Parabéns, Campeão da Língua Portuguesa do 3.º Ano!",
+        "pairs": {
+          "solidariedade": "Nome Comum Abstrato",
+          "navegámos": "Verbo no Pretérito Perfeito",
+          "velozmente": "Advérbio de modo",
+          "esta": "Determinante Demonstrativo"
+        },
+        "pares": {
+          "solidariedade": "Nome Comum Abstrato",
+          "navegámos": "Verbo no Pretérito Perfeito",
+          "velozmente": "Advérbio de modo",
+          "esta": "Determinante Demonstrativo"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_3_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'As crianças inteligentes resolveram o enigma com facilidade', qual é o Sujeito?",
+        "question": "Na frase 'As crianças inteligentes resolveram o enigma com facilidade', qual é o Sujeito?",
+        "opcoes": [
+          "As crianças inteligentes",
+          "resolveram o enigma",
+          "o enigma"
+        ],
+        "options": [
+          "As crianças inteligentes",
+          "resolveram o enigma",
+          "o enigma"
+        ],
+        "resposta": "As crianças inteligentes",
+        "correctAnswer": "As crianças inteligentes",
+        "explicacao": "'As crianças inteligentes' é o sujeito completo da ação!",
+        "explanation": "'As crianças inteligentes' é o sujeito completo da ação!"
+      },
+      {
+        "id": "pt_3_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'fácil' forma o superlativo absoluto sintético 'facílimo'.",
+        "question": "A palavra 'fácil' forma o superlativo absoluto sintético 'facílimo'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Fácil -> Facílimo; Difícil -> Dificílimo.",
+        "explanation": "Verdadeiro! Fácil -> Facílimo; Difícil -> Dificílimo."
+      },
+      {
+        "id": "pt_3_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'árvore' quanto à acentuação tónica (ÁR-vo-re) é classificada como ___",
+        "question": "A palavra 'árvore' quanto à acentuação tónica (ÁR-vo-re) é classificada como ___",
+        "opcoes": [
+          "Esdrúxula",
+          "Grave",
+          "Aguda"
+        ],
+        "options": [
+          "Esdrúxula",
+          "Grave",
+          "Aguda"
+        ],
+        "resposta": "Esdrúxula",
+        "correctAnswer": "Esdrúxula",
+        "explicacao": "Tem o acento tónico na antepenúltima sílaba!",
+        "explanation": "Tem o acento tónico na antepenúltima sílaba!"
+      },
+      {
+        "id": "pt_3_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases usa corretamente a pontuação de discurso direto com diálogo?",
+        "question": "Qual destas frases usa corretamente a pontuação de discurso direto com diálogo?",
+        "opcoes": [
+          "💬 O Zé disse:\\n— Vamos aprender!",
+          "💬 O Zé disse vamos aprender",
+          "💬 O Zé ??? vamos"
+        ],
+        "options": [
+          "💬 O Zé disse:\\n— Vamos aprender!",
+          "💬 O Zé disse vamos aprender",
+          "💬 O Zé ??? vamos"
+        ],
+        "resposta": "💬 O Zé disse:\\n— Vamos aprender!",
+        "correctAnswer": "💬 O Zé disse:\\n— Vamos aprender!",
+        "explicacao": "Usa dois pontos e travessão de diálogo na linha seguinte! 💬",
+        "explanation": "Usa dois pontos e travessão de diálogo na linha seguinte! 💬"
+      },
+      {
+        "id": "pt_3_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o antónimo da palavra 'corajoso'?",
+        "question": "Qual é o antónimo da palavra 'corajoso'?",
+        "opcoes": [
+          "Cobarde / Medroso",
+          "Valente",
+          "Forte"
+        ],
+        "options": [
+          "Cobarde / Medroso",
+          "Valente",
+          "Forte"
+        ],
+        "resposta": "Cobarde / Medroso",
+        "correctAnswer": "Cobarde / Medroso",
+        "explicacao": "O oposto de quem tem coragem é quem tem medo ou cobardia.",
+        "explanation": "O oposto de quem tem coragem é quem tem medo ou cobardia."
+      },
+      {
+        "id": "pt_3_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O verbo 'partir' pertence à 3.ª conjugação (verbos terminados em '-ir').",
+        "question": "O verbo 'partir' pertence à 3.ª conjugação (verbos terminados em '-ir').",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1.ª (-ar), 2.ª (-er), 3.ª (-ir).",
+        "explanation": "Verdadeiro! 1.ª (-ar), 2.ª (-er), 3.ª (-ir)."
+      },
+      {
+        "id": "pt_3_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os passos para redigir uma composição escrita de excelência:",
+        "question": "Ordena os passos para redigir uma composição escrita de excelência:",
+        "opcoes": [
+          "Planear as ideias num rascunho",
+          "Escrever os parágrafos com pontuação",
+          "Rever e corrigir a ortografia"
+        ],
+        "options": [
+          "Planear as ideias num rascunho",
+          "Escrever os parágrafos com pontuação",
+          "Rever e corrigir a ortografia"
+        ],
+        "resposta": "Planear as ideias num rascunho-Escrever os parágrafos com pontuação-Rever e corrigir a ortografia",
+        "correctAnswer": "Planear as ideias num rascunho-Escrever os parágrafos com pontuação-Rever e corrigir a ortografia",
+        "explicacao": "Planear, redigir e rever garante notas máximas!",
+        "explanation": "Planear, redigir e rever garante notas máximas!",
+        "correctAnswers": [
+          "Planear as ideias num rascunho",
+          "Escrever os parágrafos com pontuação",
+          "Rever e corrigir a ortografia"
+        ],
+        "respostasCorretas": [
+          "Planear as ideias num rascunho",
+          "Escrever os parágrafos com pontuação",
+          "Rever e corrigir a ortografia"
+        ]
+      },
+      {
+        "id": "pt_3_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio final das classes gramaticais:",
+        "question": "Desafio final das classes gramaticais:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Campeão da Língua Portuguesa do 3.º Ano!",
+        "explanation": "Parabéns, Campeão da Língua Portuguesa do 3.º Ano!",
+        "pairs": {
+          "solidariedade": "Nome Comum Abstrato",
+          "navegámos": "Verbo no Pretérito Perfeito",
+          "velozmente": "Advérbio de modo",
+          "esta": "Determinante Demonstrativo"
+        },
+        "pares": {
+          "solidariedade": "Nome Comum Abstrato",
+          "navegámos": "Verbo no Pretérito Perfeito",
+          "velozmente": "Advérbio de modo",
+          "esta": "Determinante Demonstrativo"
+        }
+      }
+    ]
+  }
+]

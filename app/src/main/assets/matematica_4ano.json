@@ -1,0 +1,3634 @@
+[
+  {
+    "id": "mat_4_f1",
+    "numero": 1,
+    "titulo": "Grandes Números até 1 000 000 (Um Milhão)",
+    "title": "Grandes Números até 1 000 000 (Um Milhão)",
+    "descricao": "Classes das unidades, dos milhares e dos milhões. Decomposição e valor posicional.",
+    "description": "Classes das unidades, dos milhares e dos milhões. Decomposição e valor posicional.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "💰",
+    "imageEmoji": "💰",
+    "exercicios": [
+      {
+        "id": "mat_4_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos milhares são precisos para formar 1 Milhão (1 000 000)?",
+        "question": "Quantos milhares são precisos para formar 1 Milhão (1 000 000)?",
+        "resposta": "1 000 milhares (mil milhares)",
+        "correctAnswer": "1 000 milhares (mil milhares)",
+        "explicacao": "1 000 x 1 000 = 1 000 000 (Um Milhão)!",
+        "explanation": "1 000 x 1 000 = 1 000 000 (Um Milhão)!"
+      },
+      {
+        "id": "mat_4_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No número 458 320, o algarismo 5 ocupa a ordem das DEZENAS DE MILHAR e vale 50 000.",
+        "question": "No número 458 320, o algarismo 5 ocupa a ordem das DEZENAS DE MILHAR e vale 50 000.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 5 x 10 000 = 50 000 unidades.",
+        "explanation": "Verdadeiro! 5 x 10 000 = 50 000 unidades."
+      },
+      {
+        "id": "mat_4_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Lê o número por extenso: 750 000 lê-se 'Setecentos e cinquenta ___'.",
+        "question": "Lê o número por extenso: 750 000 lê-se 'Setecentos e cinquenta ___'.",
+        "opcoes": [
+          "mil",
+          "milhões",
+          "centenas"
+        ],
+        "options": [
+          "mil",
+          "milhões",
+          "centenas"
+        ],
+        "resposta": "mil",
+        "correctAnswer": "mil",
+        "explicacao": "750 milhares = 750 mil.",
+        "explanation": "750 milhares = 750 mil."
+      },
+      {
+        "id": "mat_4_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes números é exatamente UM MILHÃO E MEIO?",
+        "question": "Qual destes números é exatamente UM MILHÃO E MEIO?",
+        "opcoes": [
+          "💵 1 500 000",
+          "💵 1 050 000",
+          "💵 1 005 000"
+        ],
+        "options": [
+          "💵 1 500 000",
+          "💵 1 050 000",
+          "💵 1 005 000"
+        ],
+        "resposta": "💵 1 500 000",
+        "correctAnswer": "💵 1 500 000",
+        "explicacao": "1 500 000 = Um Milhão e quinhentos mil! 💵",
+        "explanation": "1 500 000 = Um Milhão e quinhentos mil! 💵"
+      },
+      {
+        "id": "mat_4_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o número que antecede imediatamente (o antecessor de) 100 000?",
+        "question": "Qual é o número que antecede imediatamente (o antecessor de) 100 000?",
+        "opcoes": [
+          "99 999",
+          "99 990",
+          "90 000"
+        ],
+        "options": [
+          "99 999",
+          "99 990",
+          "90 000"
+        ],
+        "resposta": "99 999",
+        "correctAnswer": "99 999",
+        "explicacao": "100 000 - 1 = 99 999!",
+        "explanation": "100 000 - 1 = 99 999!"
+      },
+      {
+        "id": "mat_4_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Arredondar 38 720 à centena de milhar mais próxima dá 0, e à dezena de milhar dá 40 000.",
+        "question": "Arredondar 38 720 à centena de milhar mais próxima dá 0, e à dezena de milhar dá 40 000.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 38 720 está mais próximo de 40 000 do que de 30 000.",
+        "explanation": "Verdadeiro! 38 720 está mais próximo de 40 000 do que de 30 000."
+      },
+      {
+        "id": "mat_4_f1_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os grandes números por ordem decrescente (do maior para o menor):",
+        "question": "Ordena os grandes números por ordem decrescente (do maior para o menor):",
+        "opcoes": [
+          "950 000",
+          "820 500",
+          "640 000"
+        ],
+        "options": [
+          "950 000",
+          "820 500",
+          "640 000"
+        ],
+        "resposta": "950 000-820 500-640 000",
+        "correctAnswer": "950 000-820 500-640 000",
+        "explicacao": "950 000 > 820 500 > 640 000.",
+        "explanation": "950 000 > 820 500 > 640 000.",
+        "correctAnswers": [
+          "950 000",
+          "820 500",
+          "640 000"
+        ],
+        "respostasCorretas": [
+          "950 000",
+          "820 500",
+          "640 000"
+        ]
+      },
+      {
+        "id": "mat_4_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Decompõe os números nas suas ordens:",
+        "question": "Decompõe os números nas suas ordens:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da classe dos milhões e milhares!",
+        "explanation": "Excelente domínio da classe dos milhões e milhares!",
+        "pairs": {
+          "345 000": "300 000 + 40 000 + 5 000",
+          "1 200 000": "1 Milhão + 2 Centenas de Milhar",
+          "708 040": "700 000 + 8 000 + 40",
+          "99 999": "9 dezenas de milhar + 9 milhares + 999"
+        },
+        "pares": {
+          "345 000": "300 000 + 40 000 + 5 000",
+          "1 200 000": "1 Milhão + 2 Centenas de Milhar",
+          "708 040": "700 000 + 8 000 + 40",
+          "99 999": "9 dezenas de milhar + 9 milhares + 999"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos milhares são precisos para formar 1 Milhão (1 000 000)?",
+        "question": "Quantos milhares são precisos para formar 1 Milhão (1 000 000)?",
+        "resposta": "1 000 milhares (mil milhares)",
+        "correctAnswer": "1 000 milhares (mil milhares)",
+        "explicacao": "1 000 x 1 000 = 1 000 000 (Um Milhão)!",
+        "explanation": "1 000 x 1 000 = 1 000 000 (Um Milhão)!"
+      },
+      {
+        "id": "mat_4_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No número 458 320, o algarismo 5 ocupa a ordem das DEZENAS DE MILHAR e vale 50 000.",
+        "question": "No número 458 320, o algarismo 5 ocupa a ordem das DEZENAS DE MILHAR e vale 50 000.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 5 x 10 000 = 50 000 unidades.",
+        "explanation": "Verdadeiro! 5 x 10 000 = 50 000 unidades."
+      },
+      {
+        "id": "mat_4_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Lê o número por extenso: 750 000 lê-se 'Setecentos e cinquenta ___'.",
+        "question": "Lê o número por extenso: 750 000 lê-se 'Setecentos e cinquenta ___'.",
+        "opcoes": [
+          "mil",
+          "milhões",
+          "centenas"
+        ],
+        "options": [
+          "mil",
+          "milhões",
+          "centenas"
+        ],
+        "resposta": "mil",
+        "correctAnswer": "mil",
+        "explicacao": "750 milhares = 750 mil.",
+        "explanation": "750 milhares = 750 mil."
+      },
+      {
+        "id": "mat_4_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes números é exatamente UM MILHÃO E MEIO?",
+        "question": "Qual destes números é exatamente UM MILHÃO E MEIO?",
+        "opcoes": [
+          "💵 1 500 000",
+          "💵 1 050 000",
+          "💵 1 005 000"
+        ],
+        "options": [
+          "💵 1 500 000",
+          "💵 1 050 000",
+          "💵 1 005 000"
+        ],
+        "resposta": "💵 1 500 000",
+        "correctAnswer": "💵 1 500 000",
+        "explicacao": "1 500 000 = Um Milhão e quinhentos mil! 💵",
+        "explanation": "1 500 000 = Um Milhão e quinhentos mil! 💵"
+      },
+      {
+        "id": "mat_4_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o número que antecede imediatamente (o antecessor de) 100 000?",
+        "question": "Qual é o número que antecede imediatamente (o antecessor de) 100 000?",
+        "opcoes": [
+          "99 999",
+          "99 990",
+          "90 000"
+        ],
+        "options": [
+          "99 999",
+          "99 990",
+          "90 000"
+        ],
+        "resposta": "99 999",
+        "correctAnswer": "99 999",
+        "explicacao": "100 000 - 1 = 99 999!",
+        "explanation": "100 000 - 1 = 99 999!"
+      },
+      {
+        "id": "mat_4_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Arredondar 38 720 à centena de milhar mais próxima dá 0, e à dezena de milhar dá 40 000.",
+        "question": "Arredondar 38 720 à centena de milhar mais próxima dá 0, e à dezena de milhar dá 40 000.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 38 720 está mais próximo de 40 000 do que de 30 000.",
+        "explanation": "Verdadeiro! 38 720 está mais próximo de 40 000 do que de 30 000."
+      },
+      {
+        "id": "mat_4_f1_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os grandes números por ordem decrescente (do maior para o menor):",
+        "question": "Ordena os grandes números por ordem decrescente (do maior para o menor):",
+        "opcoes": [
+          "950 000",
+          "820 500",
+          "640 000"
+        ],
+        "options": [
+          "950 000",
+          "820 500",
+          "640 000"
+        ],
+        "resposta": "950 000-820 500-640 000",
+        "correctAnswer": "950 000-820 500-640 000",
+        "explicacao": "950 000 > 820 500 > 640 000.",
+        "explanation": "950 000 > 820 500 > 640 000.",
+        "correctAnswers": [
+          "950 000",
+          "820 500",
+          "640 000"
+        ],
+        "respostasCorretas": [
+          "950 000",
+          "820 500",
+          "640 000"
+        ]
+      },
+      {
+        "id": "mat_4_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Decompõe os números nas suas ordens:",
+        "question": "Decompõe os números nas suas ordens:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da classe dos milhões e milhares!",
+        "explanation": "Excelente domínio da classe dos milhões e milhares!",
+        "pairs": {
+          "345 000": "300 000 + 40 000 + 5 000",
+          "1 200 000": "1 Milhão + 2 Centenas de Milhar",
+          "708 040": "700 000 + 8 000 + 40",
+          "99 999": "9 dezenas de milhar + 9 milhares + 999"
+        },
+        "pares": {
+          "345 000": "300 000 + 40 000 + 5 000",
+          "1 200 000": "1 Milhão + 2 Centenas de Milhar",
+          "708 040": "700 000 + 8 000 + 40",
+          "99 999": "9 dezenas de milhar + 9 milhares + 999"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f2",
+    "numero": 2,
+    "titulo": "As Quatro Operações e Propriedades Algébricas",
+    "title": "As Quatro Operações e Propriedades Algébricas",
+    "descricao": "Propriedade comutativa, associativa e distributiva da multiplicação sobre a adição.",
+    "description": "Propriedade comutativa, associativa e distributiva da multiplicação sobre a adição.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🧮",
+    "imageEmoji": "🧮",
+    "exercicios": [
+      {
+        "id": "mat_4_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A expressão 5 x (20 + 4) = (5 x 20) + (5 x 4) exemplifica qual propriedade matemática?",
+        "question": "A expressão 5 x (20 + 4) = (5 x 20) + (5 x 4) exemplifica qual propriedade matemática?",
+        "opcoes": [
+          "Propriedade Distributiva da Multiplicação",
+          "Propriedade Comutativa",
+          "Elemento Neutro"
+        ],
+        "options": [
+          "Propriedade Distributiva da Multiplicação",
+          "Propriedade Comutativa",
+          "Elemento Neutro"
+        ],
+        "resposta": "Propriedade Distributiva da Multiplicação",
+        "correctAnswer": "Propriedade Distributiva da Multiplicação",
+        "explicacao": "O 5 distribui-se pelo 20 e pelo 4: 100 + 20 = 120!",
+        "explanation": "O 5 distribui-se pelo 20 e pelo 4: 100 + 20 = 120!"
+      },
+      {
+        "id": "mat_4_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O zero (0) é o elemento absorvente da multiplicação (qualquer número x 0 = 0).",
+        "question": "O zero (0) é o elemento absorvente da multiplicação (qualquer número x 0 = 0).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 1 548 x 0 = 0.",
+        "explanation": "Verdadeiro! Ex: 1 548 x 0 = 0."
+      },
+      {
+        "id": "mat_4_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Calcula usando cálculo mental: 25 x 40 = ___",
+        "question": "Calcula usando cálculo mental: 25 x 40 = ___",
+        "opcoes": [
+          "1 000",
+          "100",
+          "10 000"
+        ],
+        "options": [
+          "1 000",
+          "100",
+          "10 000"
+        ],
+        "resposta": "1 000",
+        "correctAnswer": "1 000",
+        "explicacao": "25 x 4 = 100; multiplicando por 10 = 1 000!",
+        "explanation": "25 x 4 = 100; multiplicando por 10 = 1 000!"
+      },
+      {
+        "id": "mat_4_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Numa expressão numérica mista como 10 + 5 x 4, o que devemos resolver PRIMEIRO?",
+        "question": "Numa expressão numérica mista como 10 + 5 x 4, o que devemos resolver PRIMEIRO?",
+        "resposta": "✖️ A Multiplicação (5 x 4)",
+        "correctAnswer": "✖️ A Multiplicação (5 x 4)",
+        "explicacao": "A multiplicação tem prioridade sobre a adição: 10 + 20 = 30! ✖️",
+        "explanation": "A multiplicação tem prioridade sobre a adição: 10 + 20 = 30! ✖️"
+      },
+      {
+        "id": "mat_4_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 3 500 x 20?",
+        "question": "Quanto é 3 500 x 20?",
+        "opcoes": [
+          "70 000",
+          "7 000",
+          "700 000"
+        ],
+        "options": [
+          "70 000",
+          "7 000",
+          "700 000"
+        ],
+        "resposta": "70 000",
+        "correctAnswer": "70 000",
+        "explicacao": "35 x 2 = 70; juntando os três zeros = 70 000!",
+        "explanation": "35 x 2 = 70; juntando os três zeros = 70 000!"
+      },
+      {
+        "id": "mat_4_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A divisão de um número por zero é uma operação impossível na matemática.",
+        "question": "A divisão de um número por zero é uma operação impossível na matemática.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Não se pode dividir por zero.",
+        "explanation": "Verdadeiro! Não se pode dividir por zero."
+      },
+      {
+        "id": "mat_4_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Calcula: (50 - 20) x (10 + 2) =",
+        "question": "Calcula: (50 - 20) x (10 + 2) =",
+        "opcoes": [
+          "360",
+          "300",
+          "400"
+        ],
+        "options": [
+          "360",
+          "300",
+          "400"
+        ],
+        "resposta": "360",
+        "correctAnswer": "360",
+        "explicacao": "30 x 12 = 360!",
+        "explanation": "30 x 12 = 360!"
+      },
+      {
+        "id": "mat_4_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a propriedade ao seu exemplo:",
+        "question": "Associa a propriedade ao seu exemplo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita compreensão das leis do cálculo aritmético!",
+        "explanation": "Perfeita compreensão das leis do cálculo aritmético!",
+        "pairs": {
+          "a + b = b + a": "Propriedade Comutativa da Adição",
+          "a x (b + c) = a x b + a x c": "Propriedade Distributiva",
+          "(a x b) x c = a x (b x c)": "Propriedade Associativa",
+          "a x 1 = a": "Elemento Neutro da Multiplicação"
+        },
+        "pares": {
+          "a + b = b + a": "Propriedade Comutativa da Adição",
+          "a x (b + c) = a x b + a x c": "Propriedade Distributiva",
+          "(a x b) x c = a x (b x c)": "Propriedade Associativa",
+          "a x 1 = a": "Elemento Neutro da Multiplicação"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A expressão 5 x (20 + 4) = (5 x 20) + (5 x 4) exemplifica qual propriedade matemática?",
+        "question": "A expressão 5 x (20 + 4) = (5 x 20) + (5 x 4) exemplifica qual propriedade matemática?",
+        "opcoes": [
+          "Propriedade Distributiva da Multiplicação",
+          "Propriedade Comutativa",
+          "Elemento Neutro"
+        ],
+        "options": [
+          "Propriedade Distributiva da Multiplicação",
+          "Propriedade Comutativa",
+          "Elemento Neutro"
+        ],
+        "resposta": "Propriedade Distributiva da Multiplicação",
+        "correctAnswer": "Propriedade Distributiva da Multiplicação",
+        "explicacao": "O 5 distribui-se pelo 20 e pelo 4: 100 + 20 = 120!",
+        "explanation": "O 5 distribui-se pelo 20 e pelo 4: 100 + 20 = 120!"
+      },
+      {
+        "id": "mat_4_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O zero (0) é o elemento absorvente da multiplicação (qualquer número x 0 = 0).",
+        "question": "O zero (0) é o elemento absorvente da multiplicação (qualquer número x 0 = 0).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 1 548 x 0 = 0.",
+        "explanation": "Verdadeiro! Ex: 1 548 x 0 = 0."
+      },
+      {
+        "id": "mat_4_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Calcula usando cálculo mental: 25 x 40 = ___",
+        "question": "Calcula usando cálculo mental: 25 x 40 = ___",
+        "opcoes": [
+          "1 000",
+          "100",
+          "10 000"
+        ],
+        "options": [
+          "1 000",
+          "100",
+          "10 000"
+        ],
+        "resposta": "1 000",
+        "correctAnswer": "1 000",
+        "explicacao": "25 x 4 = 100; multiplicando por 10 = 1 000!",
+        "explanation": "25 x 4 = 100; multiplicando por 10 = 1 000!"
+      },
+      {
+        "id": "mat_4_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Numa expressão numérica mista como 10 + 5 x 4, o que devemos resolver PRIMEIRO?",
+        "question": "Numa expressão numérica mista como 10 + 5 x 4, o que devemos resolver PRIMEIRO?",
+        "resposta": "✖️ A Multiplicação (5 x 4)",
+        "correctAnswer": "✖️ A Multiplicação (5 x 4)",
+        "explicacao": "A multiplicação tem prioridade sobre a adição: 10 + 20 = 30! ✖️",
+        "explanation": "A multiplicação tem prioridade sobre a adição: 10 + 20 = 30! ✖️"
+      },
+      {
+        "id": "mat_4_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 3 500 x 20?",
+        "question": "Quanto é 3 500 x 20?",
+        "opcoes": [
+          "70 000",
+          "7 000",
+          "700 000"
+        ],
+        "options": [
+          "70 000",
+          "7 000",
+          "700 000"
+        ],
+        "resposta": "70 000",
+        "correctAnswer": "70 000",
+        "explicacao": "35 x 2 = 70; juntando os três zeros = 70 000!",
+        "explanation": "35 x 2 = 70; juntando os três zeros = 70 000!"
+      },
+      {
+        "id": "mat_4_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A divisão de um número por zero é uma operação impossível na matemática.",
+        "question": "A divisão de um número por zero é uma operação impossível na matemática.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Não se pode dividir por zero.",
+        "explanation": "Verdadeiro! Não se pode dividir por zero."
+      },
+      {
+        "id": "mat_4_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Calcula: (50 - 20) x (10 + 2) =",
+        "question": "Calcula: (50 - 20) x (10 + 2) =",
+        "opcoes": [
+          "360",
+          "300",
+          "400"
+        ],
+        "options": [
+          "360",
+          "300",
+          "400"
+        ],
+        "resposta": "360",
+        "correctAnswer": "360",
+        "explicacao": "30 x 12 = 360!",
+        "explanation": "30 x 12 = 360!"
+      },
+      {
+        "id": "mat_4_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a propriedade ao seu exemplo:",
+        "question": "Associa a propriedade ao seu exemplo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita compreensão das leis do cálculo aritmético!",
+        "explanation": "Perfeita compreensão das leis do cálculo aritmético!",
+        "pairs": {
+          "a + b = b + a": "Propriedade Comutativa da Adição",
+          "a x (b + c) = a x b + a x c": "Propriedade Distributiva",
+          "(a x b) x c = a x (b x c)": "Propriedade Associativa",
+          "a x 1 = a": "Elemento Neutro da Multiplicação"
+        },
+        "pares": {
+          "a + b = b + a": "Propriedade Comutativa da Adição",
+          "a x (b + c) = a x b + a x c": "Propriedade Distributiva",
+          "(a x b) x c = a x (b x c)": "Propriedade Associativa",
+          "a x 1 = a": "Elemento Neutro da Multiplicação"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f3",
+    "numero": 3,
+    "titulo": "Divisão com Divisor de Dois Algarismos",
+    "title": "Divisão com Divisor de Dois Algarismos",
+    "descricao": "Algoritmo longo da divisão inteira, estimativa de quociente e verificação (prova real).",
+    "description": "Algoritmo longo da divisão inteira, estimativa de quociente e verificação (prova real).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "➗",
+    "imageEmoji": "➗",
+    "exercicios": [
+      {
+        "id": "mat_4_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a fórmula da PROVA REAL da divisão (Relação Fundamental da Divisão)?",
+        "question": "Qual é a fórmula da PROVA REAL da divisão (Relação Fundamental da Divisão)?",
+        "resposta": "Dividendo = (Divisor x Quociente) + Resto",
+        "correctAnswer": "Dividendo = (Divisor x Quociente) + Resto",
+        "explicacao": "Dividendo = Divisor x Quociente + Resto (com Resto < Divisor)!",
+        "explanation": "Dividendo = Divisor x Quociente + Resto (com Resto < Divisor)!"
+      },
+      {
+        "id": "mat_4_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Numa divisão por 25, o maior resto possível é 24.",
+        "question": "Numa divisão por 25, o maior resto possível é 24.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O resto tem de ser sempre estritamente menor que o divisor (24 < 25).",
+        "explanation": "Verdadeiro! O resto tem de ser sempre estritamente menor que o divisor (24 < 25)."
+      },
+      {
+        "id": "mat_4_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Calcula: 480 dividido por 12 dá quociente ___ e resto 0.",
+        "question": "Calcula: 480 dividido por 12 dá quociente ___ e resto 0.",
+        "opcoes": [
+          "40",
+          "4",
+          "400"
+        ],
+        "options": [
+          "40",
+          "4",
+          "400"
+        ],
+        "resposta": "40",
+        "correctAnswer": "40",
+        "explicacao": "48 : 12 = 4; logo 480 : 12 = 40!",
+        "explanation": "48 : 12 = 4; logo 480 : 12 = 40!"
+      },
+      {
+        "id": "mat_4_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 1 000 dividido por 25?",
+        "question": "Quanto é 1 000 dividido por 25?",
+        "opcoes": [
+          "🪙 40",
+          "🪙 25",
+          "🪙 50"
+        ],
+        "options": [
+          "🪙 40",
+          "🪙 25",
+          "🪙 50"
+        ],
+        "resposta": "🪙 40",
+        "correctAnswer": "🪙 40",
+        "explicacao": "100 : 25 = 4; logo 1000 : 25 = 40! 🪙",
+        "explanation": "100 : 25 = 4; logo 1000 : 25 = 40! 🪙"
+      },
+      {
+        "id": "mat_4_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se 300 livros forem empacotados em caixas de 15 livros, de quantas caixas precisamos?",
+        "question": "Se 300 livros forem empacotados em caixas de 15 livros, de quantas caixas precisamos?",
+        "opcoes": [
+          "20 caixas",
+          "15 caixas",
+          "30 caixas"
+        ],
+        "options": [
+          "20 caixas",
+          "15 caixas",
+          "30 caixas"
+        ],
+        "resposta": "20 caixas",
+        "correctAnswer": "20 caixas",
+        "explicacao": "300 : 15 = 20 caixas completas.",
+        "explanation": "300 : 15 = 20 caixas completas."
+      },
+      {
+        "id": "mat_4_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "750 dividido por 50 dá o mesmo quociente que 75 dividido por 5 (cortando um zero em ambos).",
+        "question": "750 dividido por 50 dá o mesmo quociente que 75 dividido por 5 (cortando um zero em ambos).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Cortar o mesmo número de zeros no dividendo e divisor mantém o quociente inalterado (75 : 5 = 15).",
+        "explanation": "Verdadeiro! Cortar o mesmo número de zeros no dividendo e divisor mantém o quociente inalterado (75 : 5 = 15)."
+      },
+      {
+        "id": "mat_4_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Calcula o resto da divisão de 105 por 10:",
+        "question": "Calcula o resto da divisão de 105 por 10:",
+        "opcoes": [
+          "5",
+          "10",
+          "0"
+        ],
+        "options": [
+          "5",
+          "10",
+          "0"
+        ],
+        "resposta": "5",
+        "correctAnswer": "5",
+        "explicacao": "10 x 10 = 100; resto = 105 - 100 = 5!",
+        "explanation": "10 x 10 = 100; resto = 105 - 100 = 5!"
+      },
+      {
+        "id": "mat_4_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Calcula os quocientes exatos:",
+        "question": "Calcula os quocientes exatos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente mestria no algoritmo da divisão!",
+        "explanation": "Excelente mestria no algoritmo da divisão!",
+        "pairs": {
+          "600 : 20": "30",
+          "960 : 32": "30",
+          "1 250 : 25": "50",
+          "840 : 12": "70"
+        },
+        "pares": {
+          "600 : 20": "30",
+          "960 : 32": "30",
+          "1 250 : 25": "50",
+          "840 : 12": "70"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a fórmula da PROVA REAL da divisão (Relação Fundamental da Divisão)?",
+        "question": "Qual é a fórmula da PROVA REAL da divisão (Relação Fundamental da Divisão)?",
+        "resposta": "Dividendo = (Divisor x Quociente) + Resto",
+        "correctAnswer": "Dividendo = (Divisor x Quociente) + Resto",
+        "explicacao": "Dividendo = Divisor x Quociente + Resto (com Resto < Divisor)!",
+        "explanation": "Dividendo = Divisor x Quociente + Resto (com Resto < Divisor)!"
+      },
+      {
+        "id": "mat_4_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Numa divisão por 25, o maior resto possível é 24.",
+        "question": "Numa divisão por 25, o maior resto possível é 24.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O resto tem de ser sempre estritamente menor que o divisor (24 < 25).",
+        "explanation": "Verdadeiro! O resto tem de ser sempre estritamente menor que o divisor (24 < 25)."
+      },
+      {
+        "id": "mat_4_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Calcula: 480 dividido por 12 dá quociente ___ e resto 0.",
+        "question": "Calcula: 480 dividido por 12 dá quociente ___ e resto 0.",
+        "opcoes": [
+          "40",
+          "4",
+          "400"
+        ],
+        "options": [
+          "40",
+          "4",
+          "400"
+        ],
+        "resposta": "40",
+        "correctAnswer": "40",
+        "explicacao": "48 : 12 = 4; logo 480 : 12 = 40!",
+        "explanation": "48 : 12 = 4; logo 480 : 12 = 40!"
+      },
+      {
+        "id": "mat_4_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 1 000 dividido por 25?",
+        "question": "Quanto é 1 000 dividido por 25?",
+        "opcoes": [
+          "🪙 40",
+          "🪙 25",
+          "🪙 50"
+        ],
+        "options": [
+          "🪙 40",
+          "🪙 25",
+          "🪙 50"
+        ],
+        "resposta": "🪙 40",
+        "correctAnswer": "🪙 40",
+        "explicacao": "100 : 25 = 4; logo 1000 : 25 = 40! 🪙",
+        "explanation": "100 : 25 = 4; logo 1000 : 25 = 40! 🪙"
+      },
+      {
+        "id": "mat_4_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se 300 livros forem empacotados em caixas de 15 livros, de quantas caixas precisamos?",
+        "question": "Se 300 livros forem empacotados em caixas de 15 livros, de quantas caixas precisamos?",
+        "opcoes": [
+          "20 caixas",
+          "15 caixas",
+          "30 caixas"
+        ],
+        "options": [
+          "20 caixas",
+          "15 caixas",
+          "30 caixas"
+        ],
+        "resposta": "20 caixas",
+        "correctAnswer": "20 caixas",
+        "explicacao": "300 : 15 = 20 caixas completas.",
+        "explanation": "300 : 15 = 20 caixas completas."
+      },
+      {
+        "id": "mat_4_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "750 dividido por 50 dá o mesmo quociente que 75 dividido por 5 (cortando um zero em ambos).",
+        "question": "750 dividido por 50 dá o mesmo quociente que 75 dividido por 5 (cortando um zero em ambos).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Cortar o mesmo número de zeros no dividendo e divisor mantém o quociente inalterado (75 : 5 = 15).",
+        "explanation": "Verdadeiro! Cortar o mesmo número de zeros no dividendo e divisor mantém o quociente inalterado (75 : 5 = 15)."
+      },
+      {
+        "id": "mat_4_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Calcula o resto da divisão de 105 por 10:",
+        "question": "Calcula o resto da divisão de 105 por 10:",
+        "opcoes": [
+          "5",
+          "10",
+          "0"
+        ],
+        "options": [
+          "5",
+          "10",
+          "0"
+        ],
+        "resposta": "5",
+        "correctAnswer": "5",
+        "explicacao": "10 x 10 = 100; resto = 105 - 100 = 5!",
+        "explanation": "10 x 10 = 100; resto = 105 - 100 = 5!"
+      },
+      {
+        "id": "mat_4_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Calcula os quocientes exatos:",
+        "question": "Calcula os quocientes exatos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente mestria no algoritmo da divisão!",
+        "explanation": "Excelente mestria no algoritmo da divisão!",
+        "pairs": {
+          "600 : 20": "30",
+          "960 : 32": "30",
+          "1 250 : 25": "50",
+          "840 : 12": "70"
+        },
+        "pares": {
+          "600 : 20": "30",
+          "960 : 32": "30",
+          "1 250 : 25": "50",
+          "840 : 12": "70"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f4",
+    "numero": 4,
+    "titulo": "Frações Equivalentes e Adição/Subtração de Frações",
+    "title": "Frações Equivalentes e Adição/Subtração de Frações",
+    "descricao": "Simplificação, frações equivalentes e operações com o mesmo denominador.",
+    "description": "Simplificação, frações equivalentes e operações com o mesmo denominador.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🍰",
+    "imageEmoji": "🍰",
+    "exercicios": [
+      {
+        "id": "mat_4_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Para encontrar uma FRAÇÃO EQUIVALENTE a 2/3, podemos multiplicar o numerador e o denominador por 2, obtendo...",
+        "question": "Para encontrar uma FRAÇÃO EQUIVALENTE a 2/3, podemos multiplicar o numerador e o denominador por 2, obtendo...",
+        "opcoes": [
+          "4/6",
+          "3/4",
+          "2/6"
+        ],
+        "options": [
+          "4/6",
+          "3/4",
+          "2/6"
+        ],
+        "resposta": "4/6",
+        "correctAnswer": "4/6",
+        "explicacao": "2x2 / 3x2 = 4/6! Representam exatamente a mesma quantidade.",
+        "explanation": "2x2 / 3x2 = 4/6! Representam exatamente a mesma quantidade."
+      },
+      {
+        "id": "mat_4_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Quanto é 2/5 + 1/5? Dá 3/5.",
+        "question": "Quanto é 2/5 + 1/5? Dá 3/5.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Mantemos o mesmo denominador (5) e somamos os numeradores (2 + 1 = 3).",
+        "explanation": "Verdadeiro! Mantemos o mesmo denominador (5) e somamos os numeradores (2 + 1 = 3)."
+      },
+      {
+        "id": "mat_4_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Subtrai: 7/8 - 3/8 = ___ (simplificado: 1/2).",
+        "question": "Subtrai: 7/8 - 3/8 = ___ (simplificado: 1/2).",
+        "opcoes": [
+          "4/8",
+          "10/8",
+          "4/0"
+        ],
+        "options": [
+          "4/8",
+          "10/8",
+          "4/0"
+        ],
+        "resposta": "4/8",
+        "correctAnswer": "4/8",
+        "explicacao": "7/8 - 3/8 = 4/8, que simplificando a dividir por 4 dá 1/2!",
+        "explanation": "7/8 - 3/8 = 4/8, que simplificando a dividir por 4 dá 1/2!"
+      },
+      {
+        "id": "mat_4_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frações é irredutível e equivale a 50/100?",
+        "question": "Qual destas frações é irredutível e equivale a 50/100?",
+        "opcoes": [
+          "🍰 1/2",
+          "🍰 2/5",
+          "🍰 3/4"
+        ],
+        "options": [
+          "🍰 1/2",
+          "🍰 2/5",
+          "🍰 3/4"
+        ],
+        "resposta": "🍰 1/2",
+        "correctAnswer": "🍰 1/2",
+        "explicacao": "50/100 = 5/10 = 1/2! 🍰",
+        "explanation": "50/100 = 5/10 = 1/2! 🍰"
+      },
+      {
+        "id": "mat_4_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A fração 12/4 representa que número inteiro?",
+        "question": "A fração 12/4 representa que número inteiro?",
+        "opcoes": [
+          "3",
+          "4",
+          "8"
+        ],
+        "options": [
+          "3",
+          "4",
+          "8"
+        ],
+        "resposta": "3",
+        "correctAnswer": "3",
+        "explicacao": "12 a dividir por 4 é igual a 3 inteiros!",
+        "explanation": "12 a dividir por 4 é igual a 3 inteiros!"
+      },
+      {
+        "id": "mat_4_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Numa fração própria (como 3/7), o numerador é sempre menor do que o denominador, logo vale menos de 1 unidade.",
+        "question": "Numa fração própria (como 3/7), o numerador é sempre menor do que o denominador, logo vale menos de 1 unidade.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Frações impróprias têm numerador maior que o denominador e valem mais que 1.",
+        "explanation": "Verdadeiro! Frações impróprias têm numerador maior que o denominador e valem mais que 1."
+      },
+      {
+        "id": "mat_4_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 1 unidade inteira menos 1/4 (1 - 1/4)?",
+        "question": "Quanto é 1 unidade inteira menos 1/4 (1 - 1/4)?",
+        "opcoes": [
+          "3/4",
+          "1/2",
+          "2/4"
+        ],
+        "options": [
+          "3/4",
+          "1/2",
+          "2/4"
+        ],
+        "resposta": "3/4",
+        "correctAnswer": "3/4",
+        "explicacao": "4/4 - 1/4 = 3/4!",
+        "explanation": "4/4 - 1/4 = 3/4!"
+      },
+      {
+        "id": "mat_4_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as frações equivalentes:",
+        "question": "Associa as frações equivalentes:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito domínio de frações equivalentes e operações!",
+        "explanation": "Perfeito domínio de frações equivalentes e operações!",
+        "pairs": {
+          "1/3": "2/6",
+          "3/5": "6/10",
+          "3/4": "75/100",
+          "2/8": "1/4"
+        },
+        "pares": {
+          "1/3": "2/6",
+          "3/5": "6/10",
+          "3/4": "75/100",
+          "2/8": "1/4"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Para encontrar uma FRAÇÃO EQUIVALENTE a 2/3, podemos multiplicar o numerador e o denominador por 2, obtendo...",
+        "question": "Para encontrar uma FRAÇÃO EQUIVALENTE a 2/3, podemos multiplicar o numerador e o denominador por 2, obtendo...",
+        "opcoes": [
+          "4/6",
+          "3/4",
+          "2/6"
+        ],
+        "options": [
+          "4/6",
+          "3/4",
+          "2/6"
+        ],
+        "resposta": "4/6",
+        "correctAnswer": "4/6",
+        "explicacao": "2x2 / 3x2 = 4/6! Representam exatamente a mesma quantidade.",
+        "explanation": "2x2 / 3x2 = 4/6! Representam exatamente a mesma quantidade."
+      },
+      {
+        "id": "mat_4_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Quanto é 2/5 + 1/5? Dá 3/5.",
+        "question": "Quanto é 2/5 + 1/5? Dá 3/5.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Mantemos o mesmo denominador (5) e somamos os numeradores (2 + 1 = 3).",
+        "explanation": "Verdadeiro! Mantemos o mesmo denominador (5) e somamos os numeradores (2 + 1 = 3)."
+      },
+      {
+        "id": "mat_4_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Subtrai: 7/8 - 3/8 = ___ (simplificado: 1/2).",
+        "question": "Subtrai: 7/8 - 3/8 = ___ (simplificado: 1/2).",
+        "opcoes": [
+          "4/8",
+          "10/8",
+          "4/0"
+        ],
+        "options": [
+          "4/8",
+          "10/8",
+          "4/0"
+        ],
+        "resposta": "4/8",
+        "correctAnswer": "4/8",
+        "explicacao": "7/8 - 3/8 = 4/8, que simplificando a dividir por 4 dá 1/2!",
+        "explanation": "7/8 - 3/8 = 4/8, que simplificando a dividir por 4 dá 1/2!"
+      },
+      {
+        "id": "mat_4_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frações é irredutível e equivale a 50/100?",
+        "question": "Qual destas frações é irredutível e equivale a 50/100?",
+        "opcoes": [
+          "🍰 1/2",
+          "🍰 2/5",
+          "🍰 3/4"
+        ],
+        "options": [
+          "🍰 1/2",
+          "🍰 2/5",
+          "🍰 3/4"
+        ],
+        "resposta": "🍰 1/2",
+        "correctAnswer": "🍰 1/2",
+        "explicacao": "50/100 = 5/10 = 1/2! 🍰",
+        "explanation": "50/100 = 5/10 = 1/2! 🍰"
+      },
+      {
+        "id": "mat_4_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A fração 12/4 representa que número inteiro?",
+        "question": "A fração 12/4 representa que número inteiro?",
+        "opcoes": [
+          "3",
+          "4",
+          "8"
+        ],
+        "options": [
+          "3",
+          "4",
+          "8"
+        ],
+        "resposta": "3",
+        "correctAnswer": "3",
+        "explicacao": "12 a dividir por 4 é igual a 3 inteiros!",
+        "explanation": "12 a dividir por 4 é igual a 3 inteiros!"
+      },
+      {
+        "id": "mat_4_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Numa fração própria (como 3/7), o numerador é sempre menor do que o denominador, logo vale menos de 1 unidade.",
+        "question": "Numa fração própria (como 3/7), o numerador é sempre menor do que o denominador, logo vale menos de 1 unidade.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Frações impróprias têm numerador maior que o denominador e valem mais que 1.",
+        "explanation": "Verdadeiro! Frações impróprias têm numerador maior que o denominador e valem mais que 1."
+      },
+      {
+        "id": "mat_4_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 1 unidade inteira menos 1/4 (1 - 1/4)?",
+        "question": "Quanto é 1 unidade inteira menos 1/4 (1 - 1/4)?",
+        "opcoes": [
+          "3/4",
+          "1/2",
+          "2/4"
+        ],
+        "options": [
+          "3/4",
+          "1/2",
+          "2/4"
+        ],
+        "resposta": "3/4",
+        "correctAnswer": "3/4",
+        "explicacao": "4/4 - 1/4 = 3/4!",
+        "explanation": "4/4 - 1/4 = 3/4!"
+      },
+      {
+        "id": "mat_4_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as frações equivalentes:",
+        "question": "Associa as frações equivalentes:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito domínio de frações equivalentes e operações!",
+        "explanation": "Perfeito domínio de frações equivalentes e operações!",
+        "pairs": {
+          "1/3": "2/6",
+          "3/5": "6/10",
+          "3/4": "75/100",
+          "2/8": "1/4"
+        },
+        "pares": {
+          "1/3": "2/6",
+          "3/5": "6/10",
+          "3/4": "75/100",
+          "2/8": "1/4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f5",
+    "numero": 5,
+    "titulo": "Decimais e Percentagens: 10%, 25%, 50%, 75% e 100%",
+    "title": "Decimais e Percentagens: 10%, 25%, 50%, 75% e 100%",
+    "descricao": "Relação entre fração, número decimal e percentagem nas compras e descontos.",
+    "description": "Relação entre fração, número decimal e percentagem nas compras e descontos.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🏷️",
+    "imageEmoji": "🏷️",
+    "exercicios": [
+      {
+        "id": "mat_4_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A percentagem de 50% corresponde a qual fração e número decimal?",
+        "question": "A percentagem de 50% corresponde a qual fração e número decimal?",
+        "resposta": "1/2 (Metade) e 0,50",
+        "correctAnswer": "1/2 (Metade) e 0,50",
+        "explicacao": "50% = 50/100 = 1/2 = 0,50 (a metade de um todo)!",
+        "explanation": "50% = 50/100 = 1/2 = 0,50 (a metade de um todo)!"
+      },
+      {
+        "id": "mat_4_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um desconto de 25% numa camisola de 40€ significa que poupas 10€ (40 : 4 = 10€).",
+        "question": "Um desconto de 25% numa camisola de 40€ significa que poupas 10€ (40 : 4 = 10€).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 25% é a quarta parte (1/4). 40 : 4 = 10€ de desconto.",
+        "explanation": "Verdadeiro! 25% é a quarta parte (1/4). 40 : 4 = 10€ de desconto."
+      },
+      {
+        "id": "mat_4_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A fração 3/4 corresponde a ___ % de uma quantidade.",
+        "question": "A fração 3/4 corresponde a ___ % de uma quantidade.",
+        "opcoes": [
+          "75",
+          "25",
+          "50"
+        ],
+        "options": [
+          "75",
+          "25",
+          "50"
+        ],
+        "resposta": "75",
+        "correctAnswer": "75",
+        "explicacao": "3/4 = 75/100 = 75%!",
+        "explanation": "3/4 = 75/100 = 75%!"
+      },
+      {
+        "id": "mat_4_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 10% de 200€?",
+        "question": "Quanto é 10% de 200€?",
+        "opcoes": [
+          "💶 20€",
+          "💶 10€",
+          "💶 50€"
+        ],
+        "options": [
+          "💶 20€",
+          "💶 10€",
+          "💶 50€"
+        ],
+        "resposta": "💶 20€",
+        "correctAnswer": "💶 20€",
+        "explicacao": "10% de 200€ é o mesmo que dividir 200 por 10 = 20€! 💶",
+        "explanation": "10% de 200€ é o mesmo que dividir 200 por 10 = 20€! 💶"
+      },
+      {
+        "id": "mat_4_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "100% de qualquer quantia representa...",
+        "question": "100% de qualquer quantia representa...",
+        "opcoes": [
+          "A totalidade inteira completa",
+          "A metade",
+          "Zero"
+        ],
+        "options": [
+          "A totalidade inteira completa",
+          "A metade",
+          "Zero"
+        ],
+        "resposta": "A totalidade inteira completa",
+        "correctAnswer": "A totalidade inteira completa",
+        "explicacao": "100% = 100/100 = o total absoluto.",
+        "explanation": "100% = 100/100 = o total absoluto."
+      },
+      {
+        "id": "mat_4_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "0,75 é maior do que 0,8.",
+        "question": "0,75 é maior do que 0,8.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 0,8 = 0,80, que é maior do que 0,75.",
+        "explanation": "Falso! 0,8 = 0,80, que é maior do que 0,75."
+      },
+      {
+        "id": "mat_4_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 0,25 + 0,75?",
+        "question": "Quanto é 0,25 + 0,75?",
+        "resposta": "1,00 (1 inteiro)",
+        "correctAnswer": "1,00 (1 inteiro)",
+        "explicacao": "25 centésimas + 75 centésimas = 100 centésimas = 1 unidade inteira!",
+        "explanation": "25 centésimas + 75 centésimas = 100 centésimas = 1 unidade inteira!"
+      },
+      {
+        "id": "mat_4_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a percentagem à respetiva fração irredutível:",
+        "question": "Associa a percentagem à respetiva fração irredutível:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente agilidade na conversão de percentagens e decimais!",
+        "explanation": "Excelente agilidade na conversão de percentagens e decimais!",
+        "pairs": {
+          "50%": "1/2 (metade)",
+          "25%": "1/4 (um quarto)",
+          "75%": "3/4 (três quartos)",
+          "10%": "1/10 (um décimo)"
+        },
+        "pares": {
+          "50%": "1/2 (metade)",
+          "25%": "1/4 (um quarto)",
+          "75%": "3/4 (três quartos)",
+          "10%": "1/10 (um décimo)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A percentagem de 50% corresponde a qual fração e número decimal?",
+        "question": "A percentagem de 50% corresponde a qual fração e número decimal?",
+        "resposta": "1/2 (Metade) e 0,50",
+        "correctAnswer": "1/2 (Metade) e 0,50",
+        "explicacao": "50% = 50/100 = 1/2 = 0,50 (a metade de um todo)!",
+        "explanation": "50% = 50/100 = 1/2 = 0,50 (a metade de um todo)!"
+      },
+      {
+        "id": "mat_4_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um desconto de 25% numa camisola de 40€ significa que poupas 10€ (40 : 4 = 10€).",
+        "question": "Um desconto de 25% numa camisola de 40€ significa que poupas 10€ (40 : 4 = 10€).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 25% é a quarta parte (1/4). 40 : 4 = 10€ de desconto.",
+        "explanation": "Verdadeiro! 25% é a quarta parte (1/4). 40 : 4 = 10€ de desconto."
+      },
+      {
+        "id": "mat_4_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A fração 3/4 corresponde a ___ % de uma quantidade.",
+        "question": "A fração 3/4 corresponde a ___ % de uma quantidade.",
+        "opcoes": [
+          "75",
+          "25",
+          "50"
+        ],
+        "options": [
+          "75",
+          "25",
+          "50"
+        ],
+        "resposta": "75",
+        "correctAnswer": "75",
+        "explicacao": "3/4 = 75/100 = 75%!",
+        "explanation": "3/4 = 75/100 = 75%!"
+      },
+      {
+        "id": "mat_4_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 10% de 200€?",
+        "question": "Quanto é 10% de 200€?",
+        "opcoes": [
+          "💶 20€",
+          "💶 10€",
+          "💶 50€"
+        ],
+        "options": [
+          "💶 20€",
+          "💶 10€",
+          "💶 50€"
+        ],
+        "resposta": "💶 20€",
+        "correctAnswer": "💶 20€",
+        "explicacao": "10% de 200€ é o mesmo que dividir 200 por 10 = 20€! 💶",
+        "explanation": "10% de 200€ é o mesmo que dividir 200 por 10 = 20€! 💶"
+      },
+      {
+        "id": "mat_4_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "100% de qualquer quantia representa...",
+        "question": "100% de qualquer quantia representa...",
+        "opcoes": [
+          "A totalidade inteira completa",
+          "A metade",
+          "Zero"
+        ],
+        "options": [
+          "A totalidade inteira completa",
+          "A metade",
+          "Zero"
+        ],
+        "resposta": "A totalidade inteira completa",
+        "correctAnswer": "A totalidade inteira completa",
+        "explicacao": "100% = 100/100 = o total absoluto.",
+        "explanation": "100% = 100/100 = o total absoluto."
+      },
+      {
+        "id": "mat_4_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "0,75 é maior do que 0,8.",
+        "question": "0,75 é maior do que 0,8.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 0,8 = 0,80, que é maior do que 0,75.",
+        "explanation": "Falso! 0,8 = 0,80, que é maior do que 0,75."
+      },
+      {
+        "id": "mat_4_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 0,25 + 0,75?",
+        "question": "Quanto é 0,25 + 0,75?",
+        "resposta": "1,00 (1 inteiro)",
+        "correctAnswer": "1,00 (1 inteiro)",
+        "explicacao": "25 centésimas + 75 centésimas = 100 centésimas = 1 unidade inteira!",
+        "explanation": "25 centésimas + 75 centésimas = 100 centésimas = 1 unidade inteira!"
+      },
+      {
+        "id": "mat_4_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a percentagem à respetiva fração irredutível:",
+        "question": "Associa a percentagem à respetiva fração irredutível:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente agilidade na conversão de percentagens e decimais!",
+        "explanation": "Excelente agilidade na conversão de percentagens e decimais!",
+        "pairs": {
+          "50%": "1/2 (metade)",
+          "25%": "1/4 (um quarto)",
+          "75%": "3/4 (três quartos)",
+          "10%": "1/10 (um décimo)"
+        },
+        "pares": {
+          "50%": "1/2 (metade)",
+          "25%": "1/4 (um quarto)",
+          "75%": "3/4 (três quartos)",
+          "10%": "1/10 (um décimo)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f6",
+    "numero": 6,
+    "titulo": "Geometria Espacial: Poliedros, Prismas e Planificações",
+    "title": "Geometria Espacial: Poliedros, Prismas e Planificações",
+    "descricao": "A Relação de Euler (F + V = A + 2), prismas, pirâmides e planificações de sólidos.",
+    "description": "A Relação de Euler (F + V = A + 2), prismas, pirâmides e planificações de sólidos.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "📦",
+    "imageEmoji": "📦",
+    "exercicios": [
+      {
+        "id": "mat_4_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a célebre Relação de Euler para qualquer poliedro convexo?",
+        "question": "Qual é a célebre Relação de Euler para qualquer poliedro convexo?",
+        "resposta": "Faces + Vértices = Arestas + 2 (F + V = A + 2)",
+        "correctAnswer": "Faces + Vértices = Arestas + 2 (F + V = A + 2)",
+        "explicacao": "F + V = A + 2 (ex: no cubo F=6, V=8, A=12 -> 6+8 = 12+2 = 14)!",
+        "explanation": "F + V = A + 2 (ex: no cubo F=6, V=8, A=12 -> 6+8 = 12+2 = 14)!"
+      },
+      {
+        "id": "mat_4_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um Prisma Triangular tem 2 bases triangulares iguais e 3 faces laterais retangulares.",
+        "question": "Um Prisma Triangular tem 2 bases triangulares iguais e 3 faces laterais retangulares.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Tem 5 faces, 6 vértices e 9 arestas.",
+        "explanation": "Verdadeiro! Tem 5 faces, 6 vértices e 9 arestas."
+      },
+      {
+        "id": "mat_4_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A planificação de um cubo é composta por 6 ___ exatamente iguais.",
+        "question": "A planificação de um cubo é composta por 6 ___ exatamente iguais.",
+        "opcoes": [
+          "quadrados",
+          "triângulos",
+          "círculos"
+        ],
+        "options": [
+          "quadrados",
+          "triângulos",
+          "círculos"
+        ],
+        "resposta": "quadrados",
+        "correctAnswer": "quadrados",
+        "explicacao": "O cubo abre-se numa cruz de 6 quadrados.",
+        "explanation": "O cubo abre-se numa cruz de 6 quadrados."
+      },
+      {
+        "id": "mat_4_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes sólidos tem 1 vértice no topo (ápice) e faces laterais triangulares?",
+        "question": "Qual destes sólidos tem 1 vértice no topo (ápice) e faces laterais triangulares?",
+        "opcoes": [
+          "🔺 Pirâmide",
+          "📦 Prisma retangular",
+          "🥫 Cilindro"
+        ],
+        "options": [
+          "🔺 Pirâmide",
+          "📦 Prisma retangular",
+          "🥫 Cilindro"
+        ],
+        "resposta": "🔺 Pirâmide",
+        "correctAnswer": "🔺 Pirâmide",
+        "explicacao": "A pirâmide afunila para um único vértice no topo! 🔺",
+        "explanation": "A pirâmide afunila para um único vértice no topo! 🔺"
+      },
+      {
+        "id": "mat_4_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas arestas tem uma Pirâmide de Base Quadrada?",
+        "question": "Quantas arestas tem uma Pirâmide de Base Quadrada?",
+        "opcoes": [
+          "8 arestas",
+          "5 arestas",
+          "6 arestas"
+        ],
+        "options": [
+          "8 arestas",
+          "5 arestas",
+          "6 arestas"
+        ],
+        "resposta": "8 arestas",
+        "correctAnswer": "8 arestas",
+        "explicacao": "4 arestas na base quadrada + 4 arestas laterais = 8 arestas!",
+        "explanation": "4 arestas na base quadrada + 4 arestas laterais = 8 arestas!"
+      },
+      {
+        "id": "mat_4_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O cone e o cilindro são poliedros porque têm faces planas.",
+        "question": "O cone e o cilindro são poliedros porque têm faces planas.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! São corpos redondos (não poliedros) porque têm superfícies curvas de revolução.",
+        "explanation": "Falso! São corpos redondos (não poliedros) porque têm superfícies curvas de revolução."
+      },
+      {
+        "id": "mat_4_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos vértices tem um Prisma Hexagonal?",
+        "question": "Quantos vértices tem um Prisma Hexagonal?",
+        "opcoes": [
+          "12 vértices",
+          "6 vértices",
+          "18 vértices"
+        ],
+        "options": [
+          "12 vértices",
+          "6 vértices",
+          "18 vértices"
+        ],
+        "resposta": "12 vértices",
+        "correctAnswer": "12 vértices",
+        "explicacao": "6 vértices na base superior + 6 vértices na base inferior = 12 vértices!",
+        "explanation": "6 vértices na base superior + 6 vértices na base inferior = 12 vértices!"
+      },
+      {
+        "id": "mat_4_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Calcula o número de faces, vértices e arestas:",
+        "question": "Calcula o número de faces, vértices e arestas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito conhecimento dos sólidos geométricos e suas propriedades!",
+        "explanation": "Perfeito conhecimento dos sólidos geométricos e suas propriedades!",
+        "pairs": {
+          "Cubo": "6 Faces, 8 Vértices, 12 Arestas",
+          "Pirâmide Quadrangular": "5 Faces, 5 Vértices, 8 Arestas",
+          "Prisma Triangular": "5 Faces, 6 Vértices, 9 Arestas",
+          "Tetraedro (Pirâmide Triangular)": "4 Faces, 4 Vértices, 6 Arestas"
+        },
+        "pares": {
+          "Cubo": "6 Faces, 8 Vértices, 12 Arestas",
+          "Pirâmide Quadrangular": "5 Faces, 5 Vértices, 8 Arestas",
+          "Prisma Triangular": "5 Faces, 6 Vértices, 9 Arestas",
+          "Tetraedro (Pirâmide Triangular)": "4 Faces, 4 Vértices, 6 Arestas"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a célebre Relação de Euler para qualquer poliedro convexo?",
+        "question": "Qual é a célebre Relação de Euler para qualquer poliedro convexo?",
+        "resposta": "Faces + Vértices = Arestas + 2 (F + V = A + 2)",
+        "correctAnswer": "Faces + Vértices = Arestas + 2 (F + V = A + 2)",
+        "explicacao": "F + V = A + 2 (ex: no cubo F=6, V=8, A=12 -> 6+8 = 12+2 = 14)!",
+        "explanation": "F + V = A + 2 (ex: no cubo F=6, V=8, A=12 -> 6+8 = 12+2 = 14)!"
+      },
+      {
+        "id": "mat_4_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um Prisma Triangular tem 2 bases triangulares iguais e 3 faces laterais retangulares.",
+        "question": "Um Prisma Triangular tem 2 bases triangulares iguais e 3 faces laterais retangulares.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Tem 5 faces, 6 vértices e 9 arestas.",
+        "explanation": "Verdadeiro! Tem 5 faces, 6 vértices e 9 arestas."
+      },
+      {
+        "id": "mat_4_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A planificação de um cubo é composta por 6 ___ exatamente iguais.",
+        "question": "A planificação de um cubo é composta por 6 ___ exatamente iguais.",
+        "opcoes": [
+          "quadrados",
+          "triângulos",
+          "círculos"
+        ],
+        "options": [
+          "quadrados",
+          "triângulos",
+          "círculos"
+        ],
+        "resposta": "quadrados",
+        "correctAnswer": "quadrados",
+        "explicacao": "O cubo abre-se numa cruz de 6 quadrados.",
+        "explanation": "O cubo abre-se numa cruz de 6 quadrados."
+      },
+      {
+        "id": "mat_4_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes sólidos tem 1 vértice no topo (ápice) e faces laterais triangulares?",
+        "question": "Qual destes sólidos tem 1 vértice no topo (ápice) e faces laterais triangulares?",
+        "opcoes": [
+          "🔺 Pirâmide",
+          "📦 Prisma retangular",
+          "🥫 Cilindro"
+        ],
+        "options": [
+          "🔺 Pirâmide",
+          "📦 Prisma retangular",
+          "🥫 Cilindro"
+        ],
+        "resposta": "🔺 Pirâmide",
+        "correctAnswer": "🔺 Pirâmide",
+        "explicacao": "A pirâmide afunila para um único vértice no topo! 🔺",
+        "explanation": "A pirâmide afunila para um único vértice no topo! 🔺"
+      },
+      {
+        "id": "mat_4_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas arestas tem uma Pirâmide de Base Quadrada?",
+        "question": "Quantas arestas tem uma Pirâmide de Base Quadrada?",
+        "opcoes": [
+          "8 arestas",
+          "5 arestas",
+          "6 arestas"
+        ],
+        "options": [
+          "8 arestas",
+          "5 arestas",
+          "6 arestas"
+        ],
+        "resposta": "8 arestas",
+        "correctAnswer": "8 arestas",
+        "explicacao": "4 arestas na base quadrada + 4 arestas laterais = 8 arestas!",
+        "explanation": "4 arestas na base quadrada + 4 arestas laterais = 8 arestas!"
+      },
+      {
+        "id": "mat_4_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O cone e o cilindro são poliedros porque têm faces planas.",
+        "question": "O cone e o cilindro são poliedros porque têm faces planas.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! São corpos redondos (não poliedros) porque têm superfícies curvas de revolução.",
+        "explanation": "Falso! São corpos redondos (não poliedros) porque têm superfícies curvas de revolução."
+      },
+      {
+        "id": "mat_4_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos vértices tem um Prisma Hexagonal?",
+        "question": "Quantos vértices tem um Prisma Hexagonal?",
+        "opcoes": [
+          "12 vértices",
+          "6 vértices",
+          "18 vértices"
+        ],
+        "options": [
+          "12 vértices",
+          "6 vértices",
+          "18 vértices"
+        ],
+        "resposta": "12 vértices",
+        "correctAnswer": "12 vértices",
+        "explicacao": "6 vértices na base superior + 6 vértices na base inferior = 12 vértices!",
+        "explanation": "6 vértices na base superior + 6 vértices na base inferior = 12 vértices!"
+      },
+      {
+        "id": "mat_4_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Calcula o número de faces, vértices e arestas:",
+        "question": "Calcula o número de faces, vértices e arestas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito conhecimento dos sólidos geométricos e suas propriedades!",
+        "explanation": "Perfeito conhecimento dos sólidos geométricos e suas propriedades!",
+        "pairs": {
+          "Cubo": "6 Faces, 8 Vértices, 12 Arestas",
+          "Pirâmide Quadrangular": "5 Faces, 5 Vértices, 8 Arestas",
+          "Prisma Triangular": "5 Faces, 6 Vértices, 9 Arestas",
+          "Tetraedro (Pirâmide Triangular)": "4 Faces, 4 Vértices, 6 Arestas"
+        },
+        "pares": {
+          "Cubo": "6 Faces, 8 Vértices, 12 Arestas",
+          "Pirâmide Quadrangular": "5 Faces, 5 Vértices, 8 Arestas",
+          "Prisma Triangular": "5 Faces, 6 Vértices, 9 Arestas",
+          "Tetraedro (Pirâmide Triangular)": "4 Faces, 4 Vértices, 6 Arestas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f7",
+    "numero": 7,
+    "titulo": "Geometria Plana: Classificação de Triângulos e Ângulos",
+    "title": "Geometria Plana: Classificação de Triângulos e Ângulos",
+    "descricao": "Equilátero, Isósceles, Escaleno; Retângulo, Acutângulo e Obtusângulo.",
+    "description": "Equilátero, Isósceles, Escaleno; Retângulo, Acutângulo e Obtusângulo.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "📐",
+    "imageEmoji": "📐",
+    "exercicios": [
+      {
+        "id": "mat_4_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se classifica um triângulo com os 3 LADOS EXATAMENTE IGUAIS?",
+        "question": "Como se classifica um triângulo com os 3 LADOS EXATAMENTE IGUAIS?",
+        "opcoes": [
+          "Triângulo Equilátero",
+          "Triângulo Isósceles",
+          "Triângulo Escaleno"
+        ],
+        "options": [
+          "Triângulo Equilátero",
+          "Triângulo Isósceles",
+          "Triângulo Escaleno"
+        ],
+        "resposta": "Triângulo Equilátero",
+        "correctAnswer": "Triângulo Equilátero",
+        "explicacao": "Equilátero = 3 lados de igual comprimento e 3 ângulos de 60°!",
+        "explanation": "Equilátero = 3 lados de igual comprimento e 3 ângulos de 60°!"
+      },
+      {
+        "id": "mat_4_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um Triângulo Retângulo possui obrigatoriamente um ângulo reto de 90°.",
+        "question": "Um Triângulo Retângulo possui obrigatoriamente um ângulo reto de 90°.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O lado oposto ao ângulo reto chama-se hipotenusa.",
+        "explanation": "Verdadeiro! O lado oposto ao ângulo reto chama-se hipotenusa."
+      },
+      {
+        "id": "mat_4_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Um triângulo com 2 lados iguais e 1 diferente chama-se triângulo ___",
+        "question": "Um triângulo com 2 lados iguais e 1 diferente chama-se triângulo ___",
+        "opcoes": [
+          "Isósceles",
+          "Escaleno",
+          "Equilátero"
+        ],
+        "options": [
+          "Isósceles",
+          "Escaleno",
+          "Equilátero"
+        ],
+        "resposta": "Isósceles",
+        "correctAnswer": "Isósceles",
+        "explicacao": "Isósceles = 2 lados iguais!",
+        "explanation": "Isósceles = 2 lados iguais!"
+      },
+      {
+        "id": "mat_4_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes triângulos tem todos os 3 lados de medidas completamente DIFERENTES?",
+        "question": "Qual destes triângulos tem todos os 3 lados de medidas completamente DIFERENTES?",
+        "opcoes": [
+          "📐 Triângulo Escaleno",
+          "📐 Triângulo Equilátero",
+          "📐 Triângulo Isósceles"
+        ],
+        "options": [
+          "📐 Triângulo Escaleno",
+          "📐 Triângulo Equilátero",
+          "📐 Triângulo Isósceles"
+        ],
+        "resposta": "📐 Triângulo Escaleno",
+        "correctAnswer": "📐 Triângulo Escaleno",
+        "explicacao": "Escaleno = 3 lados de comprimentos desiguais! 📐",
+        "explanation": "Escaleno = 3 lados de comprimentos desiguais! 📐"
+      },
+      {
+        "id": "mat_4_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Um triângulo com os 3 ângulos menores que 90° (todos agudos) chama-se...",
+        "question": "Um triângulo com os 3 ângulos menores que 90° (todos agudos) chama-se...",
+        "opcoes": [
+          "Triângulo Acutângulo",
+          "Triângulo Obtusângulo",
+          "Triângulo Retângulo"
+        ],
+        "options": [
+          "Triângulo Acutângulo",
+          "Triângulo Obtusângulo",
+          "Triângulo Retângulo"
+        ],
+        "resposta": "Triângulo Acutângulo",
+        "correctAnswer": "Triângulo Acutângulo",
+        "explicacao": "Acutângulo = 3 ângulos agudos.",
+        "explanation": "Acutângulo = 3 ângulos agudos."
+      },
+      {
+        "id": "mat_4_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A soma dos ângulos internos de qualquer quadrilátero (ex: quadrado ou retângulo) é 360°.",
+        "question": "A soma dos ângulos internos de qualquer quadrilátero (ex: quadrado ou retângulo) é 360°.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 4 x 90° = 360°.",
+        "explanation": "Verdadeiro! 4 x 90° = 360°."
+      },
+      {
+        "id": "mat_4_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se dois ângulos de um triângulo medem 50° e 70°, quanto mede o terceiro ângulo?",
+        "question": "Se dois ângulos de um triângulo medem 50° e 70°, quanto mede o terceiro ângulo?",
+        "opcoes": [
+          "60°",
+          "50°",
+          "80°"
+        ],
+        "options": [
+          "60°",
+          "50°",
+          "80°"
+        ],
+        "resposta": "60°",
+        "correctAnswer": "60°",
+        "explicacao": "180° - (50° + 70° = 120°) = 60°!",
+        "explanation": "180° - (50° + 70° = 120°) = 60°!"
+      },
+      {
+        "id": "mat_4_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os triângulos quanto aos seus lados:",
+        "question": "Classifica os triângulos quanto aos seus lados:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente classificação de triângulos e polígonos!",
+        "explanation": "Excelente classificação de triângulos e polígonos!",
+        "pairs": {
+          "3 lados iguais": "Equilátero",
+          "2 lados iguais": "Isósceles",
+          "3 lados diferentes": "Escaleno",
+          "1 ângulo reto de 90°": "Triângulo Retângulo"
+        },
+        "pares": {
+          "3 lados iguais": "Equilátero",
+          "2 lados iguais": "Isósceles",
+          "3 lados diferentes": "Escaleno",
+          "1 ângulo reto de 90°": "Triângulo Retângulo"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se classifica um triângulo com os 3 LADOS EXATAMENTE IGUAIS?",
+        "question": "Como se classifica um triângulo com os 3 LADOS EXATAMENTE IGUAIS?",
+        "opcoes": [
+          "Triângulo Equilátero",
+          "Triângulo Isósceles",
+          "Triângulo Escaleno"
+        ],
+        "options": [
+          "Triângulo Equilátero",
+          "Triângulo Isósceles",
+          "Triângulo Escaleno"
+        ],
+        "resposta": "Triângulo Equilátero",
+        "correctAnswer": "Triângulo Equilátero",
+        "explicacao": "Equilátero = 3 lados de igual comprimento e 3 ângulos de 60°!",
+        "explanation": "Equilátero = 3 lados de igual comprimento e 3 ângulos de 60°!"
+      },
+      {
+        "id": "mat_4_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um Triângulo Retângulo possui obrigatoriamente um ângulo reto de 90°.",
+        "question": "Um Triângulo Retângulo possui obrigatoriamente um ângulo reto de 90°.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O lado oposto ao ângulo reto chama-se hipotenusa.",
+        "explanation": "Verdadeiro! O lado oposto ao ângulo reto chama-se hipotenusa."
+      },
+      {
+        "id": "mat_4_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Um triângulo com 2 lados iguais e 1 diferente chama-se triângulo ___",
+        "question": "Um triângulo com 2 lados iguais e 1 diferente chama-se triângulo ___",
+        "opcoes": [
+          "Isósceles",
+          "Escaleno",
+          "Equilátero"
+        ],
+        "options": [
+          "Isósceles",
+          "Escaleno",
+          "Equilátero"
+        ],
+        "resposta": "Isósceles",
+        "correctAnswer": "Isósceles",
+        "explicacao": "Isósceles = 2 lados iguais!",
+        "explanation": "Isósceles = 2 lados iguais!"
+      },
+      {
+        "id": "mat_4_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes triângulos tem todos os 3 lados de medidas completamente DIFERENTES?",
+        "question": "Qual destes triângulos tem todos os 3 lados de medidas completamente DIFERENTES?",
+        "opcoes": [
+          "📐 Triângulo Escaleno",
+          "📐 Triângulo Equilátero",
+          "📐 Triângulo Isósceles"
+        ],
+        "options": [
+          "📐 Triângulo Escaleno",
+          "📐 Triângulo Equilátero",
+          "📐 Triângulo Isósceles"
+        ],
+        "resposta": "📐 Triângulo Escaleno",
+        "correctAnswer": "📐 Triângulo Escaleno",
+        "explicacao": "Escaleno = 3 lados de comprimentos desiguais! 📐",
+        "explanation": "Escaleno = 3 lados de comprimentos desiguais! 📐"
+      },
+      {
+        "id": "mat_4_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Um triângulo com os 3 ângulos menores que 90° (todos agudos) chama-se...",
+        "question": "Um triângulo com os 3 ângulos menores que 90° (todos agudos) chama-se...",
+        "opcoes": [
+          "Triângulo Acutângulo",
+          "Triângulo Obtusângulo",
+          "Triângulo Retângulo"
+        ],
+        "options": [
+          "Triângulo Acutângulo",
+          "Triângulo Obtusângulo",
+          "Triângulo Retângulo"
+        ],
+        "resposta": "Triângulo Acutângulo",
+        "correctAnswer": "Triângulo Acutângulo",
+        "explicacao": "Acutângulo = 3 ângulos agudos.",
+        "explanation": "Acutângulo = 3 ângulos agudos."
+      },
+      {
+        "id": "mat_4_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A soma dos ângulos internos de qualquer quadrilátero (ex: quadrado ou retângulo) é 360°.",
+        "question": "A soma dos ângulos internos de qualquer quadrilátero (ex: quadrado ou retângulo) é 360°.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 4 x 90° = 360°.",
+        "explanation": "Verdadeiro! 4 x 90° = 360°."
+      },
+      {
+        "id": "mat_4_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se dois ângulos de um triângulo medem 50° e 70°, quanto mede o terceiro ângulo?",
+        "question": "Se dois ângulos de um triângulo medem 50° e 70°, quanto mede o terceiro ângulo?",
+        "opcoes": [
+          "60°",
+          "50°",
+          "80°"
+        ],
+        "options": [
+          "60°",
+          "50°",
+          "80°"
+        ],
+        "resposta": "60°",
+        "correctAnswer": "60°",
+        "explicacao": "180° - (50° + 70° = 120°) = 60°!",
+        "explanation": "180° - (50° + 70° = 120°) = 60°!"
+      },
+      {
+        "id": "mat_4_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os triângulos quanto aos seus lados:",
+        "question": "Classifica os triângulos quanto aos seus lados:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente classificação de triângulos e polígonos!",
+        "explanation": "Excelente classificação de triângulos e polígonos!",
+        "pairs": {
+          "3 lados iguais": "Equilátero",
+          "2 lados iguais": "Isósceles",
+          "3 lados diferentes": "Escaleno",
+          "1 ângulo reto de 90°": "Triângulo Retângulo"
+        },
+        "pares": {
+          "3 lados iguais": "Equilátero",
+          "2 lados iguais": "Isósceles",
+          "3 lados diferentes": "Escaleno",
+          "1 ângulo reto de 90°": "Triângulo Retângulo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f8",
+    "numero": 8,
+    "titulo": "Áreas e Perímetros de Quadrados e Retângulos",
+    "title": "Áreas e Perímetros de Quadrados e Retângulos",
+    "descricao": "Fórmula da Área (A = c x l ou l x l) em metros quadrados (m²) e centímetros quadrados (cm²).",
+    "description": "Fórmula da Área (A = c x l ou l x l) em metros quadrados (m²) e centímetros quadrados (cm²).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🟩",
+    "imageEmoji": "🟩",
+    "exercicios": [
+      {
+        "id": "mat_4_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a fórmula matemática para calcular a ÁREA de um Retângulo?",
+        "question": "Qual é a fórmula matemática para calcular a ÁREA de um Retângulo?",
+        "resposta": "Área = Comprimento x Largura (A = c x l)",
+        "correctAnswer": "Área = Comprimento x Largura (A = c x l)",
+        "explicacao": "Multiplicamos o comprimento pela largura para obter a área em unidades quadradas!",
+        "explanation": "Multiplicamos o comprimento pela largura para obter a área em unidades quadradas!"
+      },
+      {
+        "id": "mat_4_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um quadrado com 6 metros de lado tem uma área de 36 m² (6 x 6 = 36 m²).",
+        "question": "Um quadrado com 6 metros de lado tem uma área de 36 m² (6 x 6 = 36 m²).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Área do quadrado = lado x lado = 36 m².",
+        "explanation": "Verdadeiro! Área do quadrado = lado x lado = 36 m²."
+      },
+      {
+        "id": "mat_4_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Um campo de futebol retangular tem 100 m de comprimento e 50 m de largura. A sua área é ___ m².",
+        "question": "Um campo de futebol retangular tem 100 m de comprimento e 50 m de largura. A sua área é ___ m².",
+        "opcoes": [
+          "5 000",
+          "300",
+          "500"
+        ],
+        "options": [
+          "5 000",
+          "300",
+          "500"
+        ],
+        "resposta": "5 000",
+        "correctAnswer": "5 000",
+        "explicacao": "100 x 50 = 5 000 metros quadrados!",
+        "explanation": "100 x 50 = 5 000 metros quadrados!"
+      },
+      {
+        "id": "mat_4_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é o PERÍMETRO de uma sala retangular de 8 m por 5 m?",
+        "question": "Qual é o PERÍMETRO de uma sala retangular de 8 m por 5 m?",
+        "opcoes": [
+          "📐 26 metros",
+          "📐 40 m²",
+          "📐 13 metros"
+        ],
+        "options": [
+          "📐 26 metros",
+          "📐 40 m²",
+          "📐 13 metros"
+        ],
+        "resposta": "📐 26 metros",
+        "correctAnswer": "📐 26 metros",
+        "explicacao": "Perímetro = 8 + 5 + 8 + 5 = 26 metros de rodapé! 📐",
+        "explanation": "Perímetro = 8 + 5 + 8 + 5 = 26 metros de rodapé! 📐"
+      },
+      {
+        "id": "mat_4_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos centímetros quadrados (cm²) tem 1 decímetro quadrado (1 dm²)?",
+        "question": "Quantos centímetros quadrados (cm²) tem 1 decímetro quadrado (1 dm²)?",
+        "opcoes": [
+          "100 cm²",
+          "10 cm²",
+          "1000 cm²"
+        ],
+        "options": [
+          "100 cm²",
+          "10 cm²",
+          "1000 cm²"
+        ],
+        "resposta": "100 cm²",
+        "correctAnswer": "100 cm²",
+        "explicacao": "10 cm x 10 cm = 100 cm²!",
+        "explanation": "10 cm x 10 cm = 100 cm²!"
+      },
+      {
+        "id": "mat_4_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A unidade principal de medida de área no Sistema Internacional é o Metro Quadrado (m²).",
+        "question": "A unidade principal de medida de área no Sistema Internacional é o Metro Quadrado (m²).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Representa a superfície de um quadrado de 1 metro de lado.",
+        "explanation": "Verdadeiro! Representa a superfície de um quadrado de 1 metro de lado."
+      },
+      {
+        "id": "mat_4_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se a área de um retângulo é 48 cm² e o seu comprimento é 8 cm, qual é a sua largura?",
+        "question": "Se a área de um retângulo é 48 cm² e o seu comprimento é 8 cm, qual é a sua largura?",
+        "opcoes": [
+          "6 cm",
+          "8 cm",
+          "4 cm"
+        ],
+        "options": [
+          "6 cm",
+          "8 cm",
+          "4 cm"
+        ],
+        "resposta": "6 cm",
+        "correctAnswer": "6 cm",
+        "explicacao": "48 : 8 = 6 cm de largura!",
+        "explanation": "48 : 8 = 6 cm de largura!"
+      },
+      {
+        "id": "mat_4_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Calcula a área de cada superfície:",
+        "question": "Calcula a área de cada superfície:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Cálculo de áreas e perímetros perfeito!",
+        "explanation": "Cálculo de áreas e perímetros perfeito!",
+        "pairs": {
+          "Quadrado de 7 cm de lado": "Área = 49 cm²",
+          "Retângulo de 12 m por 5 m": "Área = 60 m²",
+          "Quadrado de 10 m de lado": "Área = 100 m²",
+          "Retângulo de 20 cm por 4 cm": "Área = 80 cm²"
+        },
+        "pares": {
+          "Quadrado de 7 cm de lado": "Área = 49 cm²",
+          "Retângulo de 12 m por 5 m": "Área = 60 m²",
+          "Quadrado de 10 m de lado": "Área = 100 m²",
+          "Retângulo de 20 cm por 4 cm": "Área = 80 cm²"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a fórmula matemática para calcular a ÁREA de um Retângulo?",
+        "question": "Qual é a fórmula matemática para calcular a ÁREA de um Retângulo?",
+        "resposta": "Área = Comprimento x Largura (A = c x l)",
+        "correctAnswer": "Área = Comprimento x Largura (A = c x l)",
+        "explicacao": "Multiplicamos o comprimento pela largura para obter a área em unidades quadradas!",
+        "explanation": "Multiplicamos o comprimento pela largura para obter a área em unidades quadradas!"
+      },
+      {
+        "id": "mat_4_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um quadrado com 6 metros de lado tem uma área de 36 m² (6 x 6 = 36 m²).",
+        "question": "Um quadrado com 6 metros de lado tem uma área de 36 m² (6 x 6 = 36 m²).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Área do quadrado = lado x lado = 36 m².",
+        "explanation": "Verdadeiro! Área do quadrado = lado x lado = 36 m²."
+      },
+      {
+        "id": "mat_4_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Um campo de futebol retangular tem 100 m de comprimento e 50 m de largura. A sua área é ___ m².",
+        "question": "Um campo de futebol retangular tem 100 m de comprimento e 50 m de largura. A sua área é ___ m².",
+        "opcoes": [
+          "5 000",
+          "300",
+          "500"
+        ],
+        "options": [
+          "5 000",
+          "300",
+          "500"
+        ],
+        "resposta": "5 000",
+        "correctAnswer": "5 000",
+        "explicacao": "100 x 50 = 5 000 metros quadrados!",
+        "explanation": "100 x 50 = 5 000 metros quadrados!"
+      },
+      {
+        "id": "mat_4_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é o PERÍMETRO de uma sala retangular de 8 m por 5 m?",
+        "question": "Qual é o PERÍMETRO de uma sala retangular de 8 m por 5 m?",
+        "opcoes": [
+          "📐 26 metros",
+          "📐 40 m²",
+          "📐 13 metros"
+        ],
+        "options": [
+          "📐 26 metros",
+          "📐 40 m²",
+          "📐 13 metros"
+        ],
+        "resposta": "📐 26 metros",
+        "correctAnswer": "📐 26 metros",
+        "explicacao": "Perímetro = 8 + 5 + 8 + 5 = 26 metros de rodapé! 📐",
+        "explanation": "Perímetro = 8 + 5 + 8 + 5 = 26 metros de rodapé! 📐"
+      },
+      {
+        "id": "mat_4_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos centímetros quadrados (cm²) tem 1 decímetro quadrado (1 dm²)?",
+        "question": "Quantos centímetros quadrados (cm²) tem 1 decímetro quadrado (1 dm²)?",
+        "opcoes": [
+          "100 cm²",
+          "10 cm²",
+          "1000 cm²"
+        ],
+        "options": [
+          "100 cm²",
+          "10 cm²",
+          "1000 cm²"
+        ],
+        "resposta": "100 cm²",
+        "correctAnswer": "100 cm²",
+        "explicacao": "10 cm x 10 cm = 100 cm²!",
+        "explanation": "10 cm x 10 cm = 100 cm²!"
+      },
+      {
+        "id": "mat_4_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A unidade principal de medida de área no Sistema Internacional é o Metro Quadrado (m²).",
+        "question": "A unidade principal de medida de área no Sistema Internacional é o Metro Quadrado (m²).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Representa a superfície de um quadrado de 1 metro de lado.",
+        "explanation": "Verdadeiro! Representa a superfície de um quadrado de 1 metro de lado."
+      },
+      {
+        "id": "mat_4_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se a área de um retângulo é 48 cm² e o seu comprimento é 8 cm, qual é a sua largura?",
+        "question": "Se a área de um retângulo é 48 cm² e o seu comprimento é 8 cm, qual é a sua largura?",
+        "opcoes": [
+          "6 cm",
+          "8 cm",
+          "4 cm"
+        ],
+        "options": [
+          "6 cm",
+          "8 cm",
+          "4 cm"
+        ],
+        "resposta": "6 cm",
+        "correctAnswer": "6 cm",
+        "explicacao": "48 : 8 = 6 cm de largura!",
+        "explanation": "48 : 8 = 6 cm de largura!"
+      },
+      {
+        "id": "mat_4_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Calcula a área de cada superfície:",
+        "question": "Calcula a área de cada superfície:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Cálculo de áreas e perímetros perfeito!",
+        "explanation": "Cálculo de áreas e perímetros perfeito!",
+        "pairs": {
+          "Quadrado de 7 cm de lado": "Área = 49 cm²",
+          "Retângulo de 12 m por 5 m": "Área = 60 m²",
+          "Quadrado de 10 m de lado": "Área = 100 m²",
+          "Retângulo de 20 cm por 4 cm": "Área = 80 cm²"
+        },
+        "pares": {
+          "Quadrado de 7 cm de lado": "Área = 49 cm²",
+          "Retângulo de 12 m por 5 m": "Área = 60 m²",
+          "Quadrado de 10 m de lado": "Área = 100 m²",
+          "Retângulo de 20 cm por 4 cm": "Área = 80 cm²"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f9",
+    "numero": 9,
+    "titulo": "Medidas de Volume, Capacidade e Massa",
+    "title": "Medidas de Volume, Capacidade e Massa",
+    "descricao": "Litros, decilitros, mililitros (1 l = 1000 ml), toneladas (1 t = 1000 kg), gramas.",
+    "description": "Litros, decilitros, mililitros (1 l = 1000 ml), toneladas (1 t = 1000 kg), gramas.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🧪",
+    "imageEmoji": "🧪",
+    "exercicios": [
+      {
+        "id": "mat_4_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos mililitros (ml) existem em 1 Litro (l) de água?",
+        "question": "Quantos mililitros (ml) existem em 1 Litro (l) de água?",
+        "opcoes": [
+          "1 000 ml",
+          "100 ml",
+          "10 000 ml"
+        ],
+        "options": [
+          "1 000 ml",
+          "100 ml",
+          "10 000 ml"
+        ],
+        "resposta": "1 000 ml",
+        "correctAnswer": "1 000 ml",
+        "explicacao": "1 Litro = 1 000 mililitros (1 l = 1000 ml)!",
+        "explanation": "1 Litro = 1 000 mililitros (1 l = 1000 ml)!"
+      },
+      {
+        "id": "mat_4_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "1 Tonelada (t) equivale a exatamente 1 000 Quilogramas (1 t = 1 000 kg).",
+        "question": "1 Tonelada (t) equivale a exatamente 1 000 Quilogramas (1 t = 1 000 kg).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Usada para pesar camiões, contentores e animais pesados.",
+        "explanation": "Verdadeiro! Usada para pesar camiões, contentores e animais pesados."
+      },
+      {
+        "id": "mat_4_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Meio litro de sumo corresponde a ___ ml.",
+        "question": "Meio litro de sumo corresponde a ___ ml.",
+        "opcoes": [
+          "500",
+          "250",
+          "750"
+        ],
+        "options": [
+          "500",
+          "250",
+          "750"
+        ],
+        "resposta": "500",
+        "correctAnswer": "500",
+        "explicacao": "1 000 : 2 = 500 ml!",
+        "explanation": "1 000 : 2 = 500 ml!"
+      },
+      {
+        "id": "mat_4_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quantos gramas (g) tem 1 Quilograma (kg)?",
+        "question": "Quantos gramas (g) tem 1 Quilograma (kg)?",
+        "opcoes": [
+          "⚖️ 1 000 g",
+          "⚖️ 100 g",
+          "⚖️ 500 g"
+        ],
+        "options": [
+          "⚖️ 1 000 g",
+          "⚖️ 100 g",
+          "⚖️ 500 g"
+        ],
+        "resposta": "⚖️ 1 000 g",
+        "correctAnswer": "⚖️ 1 000 g",
+        "explicacao": "1 kg = 1 000 gramas! ⚖️",
+        "explanation": "1 kg = 1 000 gramas! ⚖️"
+      },
+      {
+        "id": "mat_4_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Um camião transporta 3,5 toneladas de areia. Quantos quilogramas transporta?",
+        "question": "Um camião transporta 3,5 toneladas de areia. Quantos quilogramas transporta?",
+        "opcoes": [
+          "3 500 kg",
+          "350 kg",
+          "35 000 kg"
+        ],
+        "options": [
+          "3 500 kg",
+          "350 kg",
+          "35 000 kg"
+        ],
+        "resposta": "3 500 kg",
+        "correctAnswer": "3 500 kg",
+        "explicacao": "3,5 x 1 000 = 3 500 kg!",
+        "explanation": "3,5 x 1 000 = 3 500 kg!"
+      },
+      {
+        "id": "mat_4_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "1 metro cúbico (1 m³) tem uma capacidade equivalente a 1 000 litros de água.",
+        "question": "1 metro cúbico (1 m³) tem uma capacidade equivalente a 1 000 litros de água.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1 m³ = 1 000 l.",
+        "explanation": "Verdadeiro! 1 m³ = 1 000 l."
+      },
+      {
+        "id": "mat_4_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se tomares um xarope de 5 ml, 3 vezes por dia, durante 4 dias, quanto xarope tomas no total?",
+        "question": "Se tomares um xarope de 5 ml, 3 vezes por dia, durante 4 dias, quanto xarope tomas no total?",
+        "opcoes": [
+          "60 ml",
+          "15 ml",
+          "120 ml"
+        ],
+        "options": [
+          "60 ml",
+          "15 ml",
+          "120 ml"
+        ],
+        "resposta": "60 ml",
+        "correctAnswer": "60 ml",
+        "explicacao": "5 x 3 = 15 ml por dia; 15 x 4 = 60 ml no total!",
+        "explanation": "5 x 3 = 15 ml por dia; 15 x 4 = 60 ml no total!"
+      },
+      {
+        "id": "mat_4_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as equivalências de medidas:",
+        "question": "Associa as equivalências de medidas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Conversões de medidas realizadas com rigor.",
+        "explanation": "Muito bem! Conversões de medidas realizadas com rigor.",
+        "pairs": {
+          "1 Litro": "1 000 ml",
+          "1 Quilograma": "1 000 g",
+          "1 Tonelada": "1 000 kg",
+          "1 Centilitro": "10 ml"
+        },
+        "pares": {
+          "1 Litro": "1 000 ml",
+          "1 Quilograma": "1 000 g",
+          "1 Tonelada": "1 000 kg",
+          "1 Centilitro": "10 ml"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos mililitros (ml) existem em 1 Litro (l) de água?",
+        "question": "Quantos mililitros (ml) existem em 1 Litro (l) de água?",
+        "opcoes": [
+          "1 000 ml",
+          "100 ml",
+          "10 000 ml"
+        ],
+        "options": [
+          "1 000 ml",
+          "100 ml",
+          "10 000 ml"
+        ],
+        "resposta": "1 000 ml",
+        "correctAnswer": "1 000 ml",
+        "explicacao": "1 Litro = 1 000 mililitros (1 l = 1000 ml)!",
+        "explanation": "1 Litro = 1 000 mililitros (1 l = 1000 ml)!"
+      },
+      {
+        "id": "mat_4_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "1 Tonelada (t) equivale a exatamente 1 000 Quilogramas (1 t = 1 000 kg).",
+        "question": "1 Tonelada (t) equivale a exatamente 1 000 Quilogramas (1 t = 1 000 kg).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Usada para pesar camiões, contentores e animais pesados.",
+        "explanation": "Verdadeiro! Usada para pesar camiões, contentores e animais pesados."
+      },
+      {
+        "id": "mat_4_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Meio litro de sumo corresponde a ___ ml.",
+        "question": "Meio litro de sumo corresponde a ___ ml.",
+        "opcoes": [
+          "500",
+          "250",
+          "750"
+        ],
+        "options": [
+          "500",
+          "250",
+          "750"
+        ],
+        "resposta": "500",
+        "correctAnswer": "500",
+        "explicacao": "1 000 : 2 = 500 ml!",
+        "explanation": "1 000 : 2 = 500 ml!"
+      },
+      {
+        "id": "mat_4_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quantos gramas (g) tem 1 Quilograma (kg)?",
+        "question": "Quantos gramas (g) tem 1 Quilograma (kg)?",
+        "opcoes": [
+          "⚖️ 1 000 g",
+          "⚖️ 100 g",
+          "⚖️ 500 g"
+        ],
+        "options": [
+          "⚖️ 1 000 g",
+          "⚖️ 100 g",
+          "⚖️ 500 g"
+        ],
+        "resposta": "⚖️ 1 000 g",
+        "correctAnswer": "⚖️ 1 000 g",
+        "explicacao": "1 kg = 1 000 gramas! ⚖️",
+        "explanation": "1 kg = 1 000 gramas! ⚖️"
+      },
+      {
+        "id": "mat_4_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Um camião transporta 3,5 toneladas de areia. Quantos quilogramas transporta?",
+        "question": "Um camião transporta 3,5 toneladas de areia. Quantos quilogramas transporta?",
+        "opcoes": [
+          "3 500 kg",
+          "350 kg",
+          "35 000 kg"
+        ],
+        "options": [
+          "3 500 kg",
+          "350 kg",
+          "35 000 kg"
+        ],
+        "resposta": "3 500 kg",
+        "correctAnswer": "3 500 kg",
+        "explicacao": "3,5 x 1 000 = 3 500 kg!",
+        "explanation": "3,5 x 1 000 = 3 500 kg!"
+      },
+      {
+        "id": "mat_4_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "1 metro cúbico (1 m³) tem uma capacidade equivalente a 1 000 litros de água.",
+        "question": "1 metro cúbico (1 m³) tem uma capacidade equivalente a 1 000 litros de água.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1 m³ = 1 000 l.",
+        "explanation": "Verdadeiro! 1 m³ = 1 000 l."
+      },
+      {
+        "id": "mat_4_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se tomares um xarope de 5 ml, 3 vezes por dia, durante 4 dias, quanto xarope tomas no total?",
+        "question": "Se tomares um xarope de 5 ml, 3 vezes por dia, durante 4 dias, quanto xarope tomas no total?",
+        "opcoes": [
+          "60 ml",
+          "15 ml",
+          "120 ml"
+        ],
+        "options": [
+          "60 ml",
+          "15 ml",
+          "120 ml"
+        ],
+        "resposta": "60 ml",
+        "correctAnswer": "60 ml",
+        "explicacao": "5 x 3 = 15 ml por dia; 15 x 4 = 60 ml no total!",
+        "explanation": "5 x 3 = 15 ml por dia; 15 x 4 = 60 ml no total!"
+      },
+      {
+        "id": "mat_4_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as equivalências de medidas:",
+        "question": "Associa as equivalências de medidas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Conversões de medidas realizadas com rigor.",
+        "explanation": "Muito bem! Conversões de medidas realizadas com rigor.",
+        "pairs": {
+          "1 Litro": "1 000 ml",
+          "1 Quilograma": "1 000 g",
+          "1 Tonelada": "1 000 kg",
+          "1 Centilitro": "10 ml"
+        },
+        "pares": {
+          "1 Litro": "1 000 ml",
+          "1 Quilograma": "1 000 g",
+          "1 Tonelada": "1 000 kg",
+          "1 Centilitro": "10 ml"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f10",
+    "numero": 10,
+    "titulo": "Tratamento de Dados: Média Aritmética e Gráficos",
+    "title": "Tratamento de Dados: Média Aritmética e Gráficos",
+    "descricao": "Calcula a Média (soma a dividir pelo número de dados), Moda e interpreta tabelas complexas.",
+    "description": "Calcula a Média (soma a dividir pelo número de dados), Moda e interpreta tabelas complexas.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "📊",
+    "imageEmoji": "📊",
+    "exercicios": [
+      {
+        "id": "mat_4_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se calcula a MÉDIA ARITMÉTICA de um conjunto de valores?",
+        "question": "Como se calcula a MÉDIA ARITMÉTICA de um conjunto de valores?",
+        "opcoes": [
+          "Somam-se todos os valores e divide-se pelo número total de valores",
+          "Escolhe-se o valor mais alto",
+          "Multiplicam-se todos os valores"
+        ],
+        "options": [
+          "Somam-se todos os valores e divide-se pelo número total de valores",
+          "Escolhe-se o valor mais alto",
+          "Multiplicam-se todos os valores"
+        ],
+        "resposta": "Somam-se todos os valores e divide-se pelo número total de valores",
+        "correctAnswer": "Somam-se todos os valores e divide-se pelo número total de valores",
+        "explicacao": "Média = Soma total / Número de dados!",
+        "explanation": "Média = Soma total / Número de dados!"
+      },
+      {
+        "id": "mat_4_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Zé tirou 4, 5 e 3 nos testes. A sua média é 4 (4 + 5 + 3 = 12; 12 : 3 = 4).",
+        "question": "O Zé tirou 4, 5 e 3 nos testes. A sua média é 4 (4 + 5 + 3 = 12; 12 : 3 = 4).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A média das 3 notas é exatamente 4.",
+        "explanation": "Verdadeiro! A média das 3 notas é exatamente 4."
+      },
+      {
+        "id": "mat_4_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Num gráfico circular (em tarte), a circunferência completa corresponde a ___ % dos dados.",
+        "question": "Num gráfico circular (em tarte), a circunferência completa corresponde a ___ % dos dados.",
+        "opcoes": [
+          "100",
+          "50",
+          "360"
+        ],
+        "options": [
+          "100",
+          "50",
+          "360"
+        ],
+        "resposta": "100",
+        "correctAnswer": "100",
+        "explicacao": "O círculo total representa 100% dos dados analisados.",
+        "explanation": "O círculo total representa 100% dos dados analisados."
+      },
+      {
+        "id": "mat_4_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é a MÉDIA das idades: 8 anos, 10 anos e 12 anos?",
+        "question": "Qual é a MÉDIA das idades: 8 anos, 10 anos e 12 anos?",
+        "opcoes": [
+          "🎂 10 anos",
+          "🎂 9 anos",
+          "🎂 11 anos"
+        ],
+        "options": [
+          "🎂 10 anos",
+          "🎂 9 anos",
+          "🎂 11 anos"
+        ],
+        "resposta": "🎂 10 anos",
+        "correctAnswer": "🎂 10 anos",
+        "explicacao": "8 + 10 + 12 = 30; 30 : 3 = 10 anos! 🎂",
+        "explanation": "8 + 10 + 12 = 30; 30 : 3 = 10 anos! 🎂"
+      },
+      {
+        "id": "mat_4_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A diferença entre a temperatura máxima (28°C) e a mínima (14°C) chama-se...",
+        "question": "A diferença entre a temperatura máxima (28°C) e a mínima (14°C) chama-se...",
+        "resposta": "Amplitude Térmica (14°C)",
+        "correctAnswer": "Amplitude Térmica (14°C)",
+        "explicacao": "28 - 14 = 14°C de amplitude!",
+        "explanation": "28 - 14 = 14°C de amplitude!"
+      },
+      {
+        "id": "mat_4_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A média de um grupo de números tem de ser sempre maior do que todos os números.",
+        "question": "A média de um grupo de números tem de ser sempre maior do que todos os números.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! A média situa-se sempre entre o valor mínimo e o valor máximo.",
+        "explanation": "Falso! A média situa-se sempre entre o valor mínimo e o valor máximo."
+      },
+      {
+        "id": "mat_4_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se 4 amigos têm 20€, 30€, 10€ e 40€, quanto dinheiro têm em média cada um?",
+        "question": "Se 4 amigos têm 20€, 30€, 10€ e 40€, quanto dinheiro têm em média cada um?",
+        "opcoes": [
+          "25€",
+          "20€",
+          "30€"
+        ],
+        "options": [
+          "25€",
+          "20€",
+          "30€"
+        ],
+        "resposta": "25€",
+        "correctAnswer": "25€",
+        "explicacao": "100€ no total : 4 amigos = 25€ de média cada um!",
+        "explanation": "100€ no total : 4 amigos = 25€ de média cada um!"
+      },
+      {
+        "id": "mat_4_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os conceitos de estatística:",
+        "question": "Associa os conceitos de estatística:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente análise estatística e tratamento de dados!",
+        "explanation": "Excelente análise estatística e tratamento de dados!",
+        "pairs": {
+          "Média": "Soma de todos a dividir pelo número total",
+          "Moda": "O valor com maior repetição",
+          "Amplitude": "Valor Máximo menos Valor Mínimo",
+          "Gráfico Circular": "Divisão proporcional de 100% num círculo"
+        },
+        "pares": {
+          "Média": "Soma de todos a dividir pelo número total",
+          "Moda": "O valor com maior repetição",
+          "Amplitude": "Valor Máximo menos Valor Mínimo",
+          "Gráfico Circular": "Divisão proporcional de 100% num círculo"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se calcula a MÉDIA ARITMÉTICA de um conjunto de valores?",
+        "question": "Como se calcula a MÉDIA ARITMÉTICA de um conjunto de valores?",
+        "opcoes": [
+          "Somam-se todos os valores e divide-se pelo número total de valores",
+          "Escolhe-se o valor mais alto",
+          "Multiplicam-se todos os valores"
+        ],
+        "options": [
+          "Somam-se todos os valores e divide-se pelo número total de valores",
+          "Escolhe-se o valor mais alto",
+          "Multiplicam-se todos os valores"
+        ],
+        "resposta": "Somam-se todos os valores e divide-se pelo número total de valores",
+        "correctAnswer": "Somam-se todos os valores e divide-se pelo número total de valores",
+        "explicacao": "Média = Soma total / Número de dados!",
+        "explanation": "Média = Soma total / Número de dados!"
+      },
+      {
+        "id": "mat_4_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Zé tirou 4, 5 e 3 nos testes. A sua média é 4 (4 + 5 + 3 = 12; 12 : 3 = 4).",
+        "question": "O Zé tirou 4, 5 e 3 nos testes. A sua média é 4 (4 + 5 + 3 = 12; 12 : 3 = 4).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A média das 3 notas é exatamente 4.",
+        "explanation": "Verdadeiro! A média das 3 notas é exatamente 4."
+      },
+      {
+        "id": "mat_4_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Num gráfico circular (em tarte), a circunferência completa corresponde a ___ % dos dados.",
+        "question": "Num gráfico circular (em tarte), a circunferência completa corresponde a ___ % dos dados.",
+        "opcoes": [
+          "100",
+          "50",
+          "360"
+        ],
+        "options": [
+          "100",
+          "50",
+          "360"
+        ],
+        "resposta": "100",
+        "correctAnswer": "100",
+        "explicacao": "O círculo total representa 100% dos dados analisados.",
+        "explanation": "O círculo total representa 100% dos dados analisados."
+      },
+      {
+        "id": "mat_4_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual é a MÉDIA das idades: 8 anos, 10 anos e 12 anos?",
+        "question": "Qual é a MÉDIA das idades: 8 anos, 10 anos e 12 anos?",
+        "opcoes": [
+          "🎂 10 anos",
+          "🎂 9 anos",
+          "🎂 11 anos"
+        ],
+        "options": [
+          "🎂 10 anos",
+          "🎂 9 anos",
+          "🎂 11 anos"
+        ],
+        "resposta": "🎂 10 anos",
+        "correctAnswer": "🎂 10 anos",
+        "explicacao": "8 + 10 + 12 = 30; 30 : 3 = 10 anos! 🎂",
+        "explanation": "8 + 10 + 12 = 30; 30 : 3 = 10 anos! 🎂"
+      },
+      {
+        "id": "mat_4_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A diferença entre a temperatura máxima (28°C) e a mínima (14°C) chama-se...",
+        "question": "A diferença entre a temperatura máxima (28°C) e a mínima (14°C) chama-se...",
+        "resposta": "Amplitude Térmica (14°C)",
+        "correctAnswer": "Amplitude Térmica (14°C)",
+        "explicacao": "28 - 14 = 14°C de amplitude!",
+        "explanation": "28 - 14 = 14°C de amplitude!"
+      },
+      {
+        "id": "mat_4_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A média de um grupo de números tem de ser sempre maior do que todos os números.",
+        "question": "A média de um grupo de números tem de ser sempre maior do que todos os números.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! A média situa-se sempre entre o valor mínimo e o valor máximo.",
+        "explanation": "Falso! A média situa-se sempre entre o valor mínimo e o valor máximo."
+      },
+      {
+        "id": "mat_4_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se 4 amigos têm 20€, 30€, 10€ e 40€, quanto dinheiro têm em média cada um?",
+        "question": "Se 4 amigos têm 20€, 30€, 10€ e 40€, quanto dinheiro têm em média cada um?",
+        "opcoes": [
+          "25€",
+          "20€",
+          "30€"
+        ],
+        "options": [
+          "25€",
+          "20€",
+          "30€"
+        ],
+        "resposta": "25€",
+        "correctAnswer": "25€",
+        "explicacao": "100€ no total : 4 amigos = 25€ de média cada um!",
+        "explanation": "100€ no total : 4 amigos = 25€ de média cada um!"
+      },
+      {
+        "id": "mat_4_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os conceitos de estatística:",
+        "question": "Associa os conceitos de estatística:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente análise estatística e tratamento de dados!",
+        "explanation": "Excelente análise estatística e tratamento de dados!",
+        "pairs": {
+          "Média": "Soma de todos a dividir pelo número total",
+          "Moda": "O valor com maior repetição",
+          "Amplitude": "Valor Máximo menos Valor Mínimo",
+          "Gráfico Circular": "Divisão proporcional de 100% num círculo"
+        },
+        "pares": {
+          "Média": "Soma de todos a dividir pelo número total",
+          "Moda": "O valor com maior repetição",
+          "Amplitude": "Valor Máximo menos Valor Mínimo",
+          "Gráfico Circular": "Divisão proporcional de 100% num círculo"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f11",
+    "numero": 11,
+    "titulo": "Problemas de Lógica, Padrões e Pensamento Computacional",
+    "title": "Problemas de Lógica, Padrões e Pensamento Computacional",
+    "descricao": "Sequências numéricas, equações simples com incógnita e algoritmos lógicos.",
+    "description": "Sequências numéricas, equações simples com incógnita e algoritmos lógicos.",
+    "dificuldade": "DESAFIO",
+    "difficulty": "CHALLENGE",
+    "emoji": "🧠",
+    "imageEmoji": "🧠",
+    "exercicios": [
+      {
+        "id": "mat_4_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Descobre o termo que falta na sequência geométrica: 2, 4, 8, 16, 32, ___",
+        "question": "Descobre o termo que falta na sequência geométrica: 2, 4, 8, 16, 32, ___",
+        "opcoes": [
+          "64",
+          "48",
+          "60"
+        ],
+        "options": [
+          "64",
+          "48",
+          "60"
+        ],
+        "resposta": "64",
+        "correctAnswer": "64",
+        "explicacao": "A sequência duplica a cada passo (x 2): 32 x 2 = 64!",
+        "explanation": "A sequência duplica a cada passo (x 2): 32 x 2 = 64!"
+      },
+      {
+        "id": "mat_4_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Se 3 caixas de lápis iguais custam 18€, então 5 caixas iguais custam 30€.",
+        "question": "Se 3 caixas de lápis iguais custam 18€, então 5 caixas iguais custam 30€.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 18 : 3 = 6€ por caixa; 5 x 6€ = 30€.",
+        "explanation": "Verdadeiro! 18 : 3 = 6€ por caixa; 5 x 6€ = 30€."
+      },
+      {
+        "id": "mat_4_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Resolve o enigma: Se 2x + 10 = 50, então x = ___",
+        "question": "Resolve o enigma: Se 2x + 10 = 50, então x = ___",
+        "opcoes": [
+          "20",
+          "25",
+          "30"
+        ],
+        "options": [
+          "20",
+          "25",
+          "30"
+        ],
+        "resposta": "20",
+        "correctAnswer": "20",
+        "explicacao": "2x = 50 - 10 = 40; x = 40 : 2 = 20!",
+        "explanation": "2x = 50 - 10 = 40; x = 40 : 2 = 20!"
+      },
+      {
+        "id": "mat_4_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual número completa a sequência de quadrados perfeitos: 1, 4, 9, 16, 25, ___?",
+        "question": "Qual número completa a sequência de quadrados perfeitos: 1, 4, 9, 16, 25, ___?",
+        "resposta": "🔢 36 (6 x 6)",
+        "correctAnswer": "🔢 36 (6 x 6)",
+        "explicacao": "1², 2², 3², 4², 5², 6² = 36! 🔢",
+        "explanation": "1², 2², 3², 4², 5², 6² = 36! 🔢"
+      },
+      {
+        "id": "mat_4_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Num parque há bicicletas (2 rodas) e triciclos (3 rodas). Se há 10 veículos e 24 rodas no total, quantas bicicletas há?",
+        "question": "Num parque há bicicletas (2 rodas) e triciclos (3 rodas). Se há 10 veículos e 24 rodas no total, quantas bicicletas há?",
+        "resposta": "6 bicicletas (e 4 triciclos)",
+        "correctAnswer": "6 bicicletas (e 4 triciclos)",
+        "explicacao": "6 x 2 rodas = 12 rodas; 4 x 3 rodas = 12 rodas; Total = 24 rodas e 10 veículos!",
+        "explanation": "6 x 2 rodas = 12 rodas; 4 x 3 rodas = 12 rodas; Total = 24 rodas e 10 veículos!"
+      },
+      {
+        "id": "mat_4_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O número 17 é um número primo porque só é divisível por 1 e por si próprio.",
+        "question": "O número 17 é um número primo porque só é divisível por 1 e por si próprio.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Números primos têm exatamente 2 divisores (1 e ele próprio).",
+        "explanation": "Verdadeiro! Números primos têm exatamente 2 divisores (1 e ele próprio)."
+      },
+      {
+        "id": "mat_4_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o menor múltiplo comum (m.m.c.) entre 4 e 6?",
+        "question": "Qual é o menor múltiplo comum (m.m.c.) entre 4 e 6?",
+        "opcoes": [
+          "12",
+          "24",
+          "8"
+        ],
+        "options": [
+          "12",
+          "24",
+          "8"
+        ],
+        "resposta": "12",
+        "correctAnswer": "12",
+        "explicacao": "Múltiplos de 4 (4, 8, 12...); Múltiplos de 6 (6, 12...); O menor comum é 12!",
+        "explanation": "Múltiplos de 4 (4, 8, 12...); Múltiplos de 6 (6, 12...); O menor comum é 12!"
+      },
+      {
+        "id": "mat_4_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os números em Primos ou Compostos:",
+        "question": "Classifica os números em Primos ou Compostos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Raciocínio lógico e matemático de nível olímpico!",
+        "explanation": "Raciocínio lógico e matemático de nível olímpico!",
+        "pairs": {
+          "13": "Número Primo (divisível por 1 e 13)",
+          "15": "Número Composto (divisível por 1, 3, 5, 15)",
+          "19": "Número Primo (divisível por 1 e 19)",
+          "24": "Número Composto (múltiplos divisores)"
+        },
+        "pares": {
+          "13": "Número Primo (divisível por 1 e 13)",
+          "15": "Número Composto (divisível por 1, 3, 5, 15)",
+          "19": "Número Primo (divisível por 1 e 19)",
+          "24": "Número Composto (múltiplos divisores)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Descobre o termo que falta na sequência geométrica: 2, 4, 8, 16, 32, ___",
+        "question": "Descobre o termo que falta na sequência geométrica: 2, 4, 8, 16, 32, ___",
+        "opcoes": [
+          "64",
+          "48",
+          "60"
+        ],
+        "options": [
+          "64",
+          "48",
+          "60"
+        ],
+        "resposta": "64",
+        "correctAnswer": "64",
+        "explicacao": "A sequência duplica a cada passo (x 2): 32 x 2 = 64!",
+        "explanation": "A sequência duplica a cada passo (x 2): 32 x 2 = 64!"
+      },
+      {
+        "id": "mat_4_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Se 3 caixas de lápis iguais custam 18€, então 5 caixas iguais custam 30€.",
+        "question": "Se 3 caixas de lápis iguais custam 18€, então 5 caixas iguais custam 30€.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 18 : 3 = 6€ por caixa; 5 x 6€ = 30€.",
+        "explanation": "Verdadeiro! 18 : 3 = 6€ por caixa; 5 x 6€ = 30€."
+      },
+      {
+        "id": "mat_4_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Resolve o enigma: Se 2x + 10 = 50, então x = ___",
+        "question": "Resolve o enigma: Se 2x + 10 = 50, então x = ___",
+        "opcoes": [
+          "20",
+          "25",
+          "30"
+        ],
+        "options": [
+          "20",
+          "25",
+          "30"
+        ],
+        "resposta": "20",
+        "correctAnswer": "20",
+        "explicacao": "2x = 50 - 10 = 40; x = 40 : 2 = 20!",
+        "explanation": "2x = 50 - 10 = 40; x = 40 : 2 = 20!"
+      },
+      {
+        "id": "mat_4_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual número completa a sequência de quadrados perfeitos: 1, 4, 9, 16, 25, ___?",
+        "question": "Qual número completa a sequência de quadrados perfeitos: 1, 4, 9, 16, 25, ___?",
+        "resposta": "🔢 36 (6 x 6)",
+        "correctAnswer": "🔢 36 (6 x 6)",
+        "explicacao": "1², 2², 3², 4², 5², 6² = 36! 🔢",
+        "explanation": "1², 2², 3², 4², 5², 6² = 36! 🔢"
+      },
+      {
+        "id": "mat_4_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Num parque há bicicletas (2 rodas) e triciclos (3 rodas). Se há 10 veículos e 24 rodas no total, quantas bicicletas há?",
+        "question": "Num parque há bicicletas (2 rodas) e triciclos (3 rodas). Se há 10 veículos e 24 rodas no total, quantas bicicletas há?",
+        "resposta": "6 bicicletas (e 4 triciclos)",
+        "correctAnswer": "6 bicicletas (e 4 triciclos)",
+        "explicacao": "6 x 2 rodas = 12 rodas; 4 x 3 rodas = 12 rodas; Total = 24 rodas e 10 veículos!",
+        "explanation": "6 x 2 rodas = 12 rodas; 4 x 3 rodas = 12 rodas; Total = 24 rodas e 10 veículos!"
+      },
+      {
+        "id": "mat_4_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O número 17 é um número primo porque só é divisível por 1 e por si próprio.",
+        "question": "O número 17 é um número primo porque só é divisível por 1 e por si próprio.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Números primos têm exatamente 2 divisores (1 e ele próprio).",
+        "explanation": "Verdadeiro! Números primos têm exatamente 2 divisores (1 e ele próprio)."
+      },
+      {
+        "id": "mat_4_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o menor múltiplo comum (m.m.c.) entre 4 e 6?",
+        "question": "Qual é o menor múltiplo comum (m.m.c.) entre 4 e 6?",
+        "opcoes": [
+          "12",
+          "24",
+          "8"
+        ],
+        "options": [
+          "12",
+          "24",
+          "8"
+        ],
+        "resposta": "12",
+        "correctAnswer": "12",
+        "explicacao": "Múltiplos de 4 (4, 8, 12...); Múltiplos de 6 (6, 12...); O menor comum é 12!",
+        "explanation": "Múltiplos de 4 (4, 8, 12...); Múltiplos de 6 (6, 12...); O menor comum é 12!"
+      },
+      {
+        "id": "mat_4_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os números em Primos ou Compostos:",
+        "question": "Classifica os números em Primos ou Compostos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Raciocínio lógico e matemático de nível olímpico!",
+        "explanation": "Raciocínio lógico e matemático de nível olímpico!",
+        "pairs": {
+          "13": "Número Primo (divisível por 1 e 13)",
+          "15": "Número Composto (divisível por 1, 3, 5, 15)",
+          "19": "Número Primo (divisível por 1 e 19)",
+          "24": "Número Composto (múltiplos divisores)"
+        },
+        "pares": {
+          "13": "Número Primo (divisível por 1 e 13)",
+          "15": "Número Composto (divisível por 1, 3, 5, 15)",
+          "19": "Número Primo (divisível por 1 e 19)",
+          "24": "Número Composto (múltiplos divisores)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_4_f12",
+    "numero": 12,
+    "titulo": "Grande Desafio Olímpico de Matemática do 4.º Ano",
+    "title": "Grande Desafio Olímpico de Matemática do 4.º Ano",
+    "descricao": "A grande consagração matemática do 1.º Ciclo do Ensino Básico!",
+    "description": "A grande consagração matemática do 1.º Ciclo do Ensino Básico!",
+    "dificuldade": "DESAFIO",
+    "difficulty": "CHALLENGE",
+    "emoji": "🏆",
+    "imageEmoji": "🏆",
+    "exercicios": [
+      {
+        "id": "mat_4_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Uma escola com 350 alunos organizou uma visita de estudo em autocarros de 55 lugares. Quantos autocarros são precisos para levar todos os alunos?",
+        "question": "Uma escola com 350 alunos organizou uma visita de estudo em autocarros de 55 lugares. Quantos autocarros são precisos para levar todos os alunos?",
+        "opcoes": [
+          "7 autocarros",
+          "6 autocarros",
+          "8 autocarros"
+        ],
+        "options": [
+          "7 autocarros",
+          "6 autocarros",
+          "8 autocarros"
+        ],
+        "resposta": "7 autocarros",
+        "correctAnswer": "7 autocarros",
+        "explicacao": "350 : 55 = 6 com resto 20. São precisos 7 autocarros para levar todos!",
+        "explanation": "350 : 55 = 6 com resto 20. São precisos 7 autocarros para levar todos!"
+      },
+      {
+        "id": "mat_4_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Uma piscina retangular tem 25 m de comprimento, 10 m de largura e 2 m de profundidade. O seu volume é 500 m³ (500 000 litros).",
+        "question": "Uma piscina retangular tem 25 m de comprimento, 10 m de largura e 2 m de profundidade. O seu volume é 500 m³ (500 000 litros).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! V = 25 x 10 x 2 = 500 m³ = 500 000 litros de água!",
+        "explanation": "Verdadeiro! V = 25 x 10 x 2 = 500 m³ = 500 000 litros de água!"
+      },
+      {
+        "id": "mat_4_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A soma dos ângulos internos de um triângulo é 180° e de um quadrado é ___ °.",
+        "question": "A soma dos ângulos internos de um triângulo é 180° e de um quadrado é ___ °.",
+        "opcoes": [
+          "360",
+          "270",
+          "180"
+        ],
+        "options": [
+          "360",
+          "270",
+          "180"
+        ],
+        "resposta": "360",
+        "correctAnswer": "360",
+        "explicacao": "Qualquer quadrilátero soma 360° internos!",
+        "explanation": "Qualquer quadrilátero soma 360° internos!"
+      },
+      {
+        "id": "mat_4_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 3/4 de 1 000€?",
+        "question": "Quanto é 3/4 de 1 000€?",
+        "opcoes": [
+          "💰 750€",
+          "💰 250€",
+          "💰 500€"
+        ],
+        "options": [
+          "💰 750€",
+          "💰 250€",
+          "💰 500€"
+        ],
+        "resposta": "💰 750€",
+        "correctAnswer": "💰 750€",
+        "explicacao": "1 000 : 4 = 250; 250 x 3 = 750€! 💰",
+        "explanation": "1 000 : 4 = 250; 250 x 3 = 750€! 💰"
+      },
+      {
+        "id": "mat_4_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se 15 operários constroem um muro em 6 dias, quantos dias demorariam 30 operários ao mesmo ritmo?",
+        "question": "Se 15 operários constroem um muro em 6 dias, quantos dias demorariam 30 operários ao mesmo ritmo?",
+        "opcoes": [
+          "3 dias",
+          "12 dias",
+          "6 dias"
+        ],
+        "options": [
+          "3 dias",
+          "12 dias",
+          "6 dias"
+        ],
+        "resposta": "3 dias",
+        "correctAnswer": "3 dias",
+        "explicacao": "Com o dobro dos trabalhadores (proporcionalidade inversa), demoram metade do tempo: 3 dias!",
+        "explanation": "Com o dobro dos trabalhadores (proporcionalidade inversa), demoram metade do tempo: 3 dias!"
+      },
+      {
+        "id": "mat_4_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O número 2 é o único número par que é também um número primo.",
+        "question": "O número 2 é o único número par que é também um número primo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Todos os outros pares são divisíveis por 2 além de 1 e de si próprios.",
+        "explanation": "Verdadeiro! Todos os outros pares são divisíveis por 2 além de 1 e de si próprios."
+      },
+      {
+        "id": "mat_4_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as frações da menor para a maior:",
+        "question": "Ordena as frações da menor para a maior:",
+        "opcoes": [
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "options": [
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "resposta": "1/4-1/2-3/4",
+        "correctAnswer": "1/4-1/2-3/4",
+        "explicacao": "0,25 < 0,50 < 0,75.",
+        "explanation": "0,25 < 0,50 < 0,75.",
+        "correctAnswers": [
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "respostasCorretas": [
+          "1/4",
+          "1/2",
+          "3/4"
+        ]
+      },
+      {
+        "id": "mat_4_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio das contas olímpicas:",
+        "question": "Desafio das contas olímpicas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Mestre Supremo da Matemática do 4.º Ano! Conquistaste a Medalha de Ouro!",
+        "explanation": "Parabéns, Mestre Supremo da Matemática do 4.º Ano! Conquistaste a Medalha de Ouro!",
+        "pairs": {
+          "125 x 8": "1 000",
+          "5 000 : 25": "200",
+          "0,75 + 0,25": "1,00",
+          "15% de 200": "30"
+        },
+        "pares": {
+          "125 x 8": "1 000",
+          "5 000 : 25": "200",
+          "0,75 + 0,25": "1,00",
+          "15% de 200": "30"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_4_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Uma escola com 350 alunos organizou uma visita de estudo em autocarros de 55 lugares. Quantos autocarros são precisos para levar todos os alunos?",
+        "question": "Uma escola com 350 alunos organizou uma visita de estudo em autocarros de 55 lugares. Quantos autocarros são precisos para levar todos os alunos?",
+        "opcoes": [
+          "7 autocarros",
+          "6 autocarros",
+          "8 autocarros"
+        ],
+        "options": [
+          "7 autocarros",
+          "6 autocarros",
+          "8 autocarros"
+        ],
+        "resposta": "7 autocarros",
+        "correctAnswer": "7 autocarros",
+        "explicacao": "350 : 55 = 6 com resto 20. São precisos 7 autocarros para levar todos!",
+        "explanation": "350 : 55 = 6 com resto 20. São precisos 7 autocarros para levar todos!"
+      },
+      {
+        "id": "mat_4_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Uma piscina retangular tem 25 m de comprimento, 10 m de largura e 2 m de profundidade. O seu volume é 500 m³ (500 000 litros).",
+        "question": "Uma piscina retangular tem 25 m de comprimento, 10 m de largura e 2 m de profundidade. O seu volume é 500 m³ (500 000 litros).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! V = 25 x 10 x 2 = 500 m³ = 500 000 litros de água!",
+        "explanation": "Verdadeiro! V = 25 x 10 x 2 = 500 m³ = 500 000 litros de água!"
+      },
+      {
+        "id": "mat_4_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A soma dos ângulos internos de um triângulo é 180° e de um quadrado é ___ °.",
+        "question": "A soma dos ângulos internos de um triângulo é 180° e de um quadrado é ___ °.",
+        "opcoes": [
+          "360",
+          "270",
+          "180"
+        ],
+        "options": [
+          "360",
+          "270",
+          "180"
+        ],
+        "resposta": "360",
+        "correctAnswer": "360",
+        "explicacao": "Qualquer quadrilátero soma 360° internos!",
+        "explanation": "Qualquer quadrilátero soma 360° internos!"
+      },
+      {
+        "id": "mat_4_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 3/4 de 1 000€?",
+        "question": "Quanto é 3/4 de 1 000€?",
+        "opcoes": [
+          "💰 750€",
+          "💰 250€",
+          "💰 500€"
+        ],
+        "options": [
+          "💰 750€",
+          "💰 250€",
+          "💰 500€"
+        ],
+        "resposta": "💰 750€",
+        "correctAnswer": "💰 750€",
+        "explicacao": "1 000 : 4 = 250; 250 x 3 = 750€! 💰",
+        "explanation": "1 000 : 4 = 250; 250 x 3 = 750€! 💰"
+      },
+      {
+        "id": "mat_4_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se 15 operários constroem um muro em 6 dias, quantos dias demorariam 30 operários ao mesmo ritmo?",
+        "question": "Se 15 operários constroem um muro em 6 dias, quantos dias demorariam 30 operários ao mesmo ritmo?",
+        "opcoes": [
+          "3 dias",
+          "12 dias",
+          "6 dias"
+        ],
+        "options": [
+          "3 dias",
+          "12 dias",
+          "6 dias"
+        ],
+        "resposta": "3 dias",
+        "correctAnswer": "3 dias",
+        "explicacao": "Com o dobro dos trabalhadores (proporcionalidade inversa), demoram metade do tempo: 3 dias!",
+        "explanation": "Com o dobro dos trabalhadores (proporcionalidade inversa), demoram metade do tempo: 3 dias!"
+      },
+      {
+        "id": "mat_4_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O número 2 é o único número par que é também um número primo.",
+        "question": "O número 2 é o único número par que é também um número primo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Todos os outros pares são divisíveis por 2 além de 1 e de si próprios.",
+        "explanation": "Verdadeiro! Todos os outros pares são divisíveis por 2 além de 1 e de si próprios."
+      },
+      {
+        "id": "mat_4_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as frações da menor para a maior:",
+        "question": "Ordena as frações da menor para a maior:",
+        "opcoes": [
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "options": [
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "resposta": "1/4-1/2-3/4",
+        "correctAnswer": "1/4-1/2-3/4",
+        "explicacao": "0,25 < 0,50 < 0,75.",
+        "explanation": "0,25 < 0,50 < 0,75.",
+        "correctAnswers": [
+          "1/4",
+          "1/2",
+          "3/4"
+        ],
+        "respostasCorretas": [
+          "1/4",
+          "1/2",
+          "3/4"
+        ]
+      },
+      {
+        "id": "mat_4_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio das contas olímpicas:",
+        "question": "Desafio das contas olímpicas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Mestre Supremo da Matemática do 4.º Ano! Conquistaste a Medalha de Ouro!",
+        "explanation": "Parabéns, Mestre Supremo da Matemática do 4.º Ano! Conquistaste a Medalha de Ouro!",
+        "pairs": {
+          "125 x 8": "1 000",
+          "5 000 : 25": "200",
+          "0,75 + 0,25": "1,00",
+          "15% de 200": "30"
+        },
+        "pares": {
+          "125 x 8": "1 000",
+          "5 000 : 25": "200",
+          "0,75 + 0,25": "1,00",
+          "15% de 200": "30"
+        }
+      }
+    ]
+  }
+]

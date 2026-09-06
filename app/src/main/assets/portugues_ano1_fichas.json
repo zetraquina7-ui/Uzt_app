@@ -1,0 +1,364 @@
+[
+  {
+    "id": "pt_1_f1",
+    "numero": 1,
+    "title": "As Vogais",
+    "description": "Aprende e reconhece as vogais A, E, I, O, U em português de Portugal.",
+    "difficulty": "EASY",
+    "imageEmoji": "🅰️",
+    "exercises": [
+      {
+        "id": "pt_1_f1_e1",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual destas letras é uma vogal?",
+        "options": ["F", "S", "A"],
+        "correctAnswer": "A",
+        "explanation": "As cinco vogais do português são: A, E, I, O e U! A letra A é uma delas."
+      },
+      {
+        "id": "pt_1_f1_e2",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual é a vogal que inicia a palavra 'Abelha'?",
+        "options": ["O", "A", "U"],
+        "correctAnswer": "A",
+        "explanation": "Abelha começa com o som da vogal A! (A-be-lha)."
+      },
+      {
+        "id": "pt_1_f1_e3",
+        "type": "TRUE_FALSE",
+        "question": "A letra 'E' é uma consoante.",
+        "correctAnswer": "false",
+        "explanation": "A letra E é uma vogal (A, E, I, O, U) e não uma consoante."
+      },
+      {
+        "id": "pt_1_f1_e4",
+        "type": "COMPLETING",
+        "question": "Completa a palavra: ___ greja",
+        "options": ["A", "I", "U"],
+        "correctAnswer": "I",
+        "explanation": "Igreja começa com a vogal I! (I-gre-ja)."
+      },
+      {
+        "id": "pt_1_f1_e5",
+        "type": "CHOOSE_IMAGE",
+        "question": "Escolhe o animal que começa com a vogal 'O'!",
+        "options": ["🐱 Gato", "🐏 Ovelha", "🐶 Cão"],
+        "correctAnswer": "🐏 Ovelha",
+        "explanation": "Ovelha começa com o som da vogal O! (O-ve-lha)."
+      },
+      {
+        "id": "pt_1_f1_e6",
+        "type": "LETTERS_WORDS",
+        "question": "Qual é a última letra da palavra 'Bolo'?",
+        "options": ["O", "E", "A"],
+        "correctAnswer": "O",
+        "explanation": "Bolo termina com o som da vogal O! (Bo-lo)."
+      },
+      {
+        "id": "pt_1_f1_e7",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Quantas vogais existem na nossa língua?",
+        "options": ["3", "5", "10"],
+        "correctAnswer": "5",
+        "explanation": "As vogais são exatamente cinco: A, E, I, O e U."
+      },
+      {
+        "id": "pt_1_f1_e8",
+        "type": "COMPLETING",
+        "question": "Completa a palavra 'Uva' com a vogal correta: ___ va",
+        "options": ["U", "I", "O"],
+        "correctAnswer": "U",
+        "explanation": "Uva começa com a vogal U! (U-va)."
+      },
+      {
+        "id": "pt_1_f1_e9",
+        "type": "TRUE_FALSE",
+        "question": "A palavra 'Urso' começa com a vogal 'U'.",
+        "correctAnswer": "true",
+        "explanation": "Verdadeiro! Urso começa com a letra e som da vogal U! (Ur-so)."
+      },
+      {
+        "id": "pt_1_f1_e10",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Com que vogal começa a palavra 'Olho'?",
+        "options": ["O", "I", "A"],
+        "correctAnswer": "O",
+        "explanation": "Olho começa com a vogal O! (O-lho)."
+      }
+    ]
+  },
+  {
+    "id": "pt_1_f2",
+    "numero": 2,
+    "title": "Reconhecer Letras",
+    "description": "Pratica a identificação das letras e sons do nosso alfabeto de forma controlada.",
+    "difficulty": "EASY",
+    "imageEmoji": "🔡",
+    "exercises": [
+      {
+        "id": "pt_1_f2_e1",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual destas é a letra M?",
+        "options": ["N", "M", "W"],
+        "correctAnswer": "M",
+        "explanation": "A letra M tem quatro traços! Escreve-se no início de Mãe ou Mala."
+      },
+      {
+        "id": "pt_1_f2_e2",
+        "type": "CHOOSE_IMAGE",
+        "question": "Escolhe o animal cujo nome começa com a letra L!",
+        "options": ["🦁 Leão", "🐵 Macaco", "🐻 Urso"],
+        "correctAnswer": "🦁 Leão",
+        "explanation": "Leão começa com a letra L! (Le-ão)."
+      },
+      {
+        "id": "pt_1_f2_e3",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual destas é a letra P?",
+        "options": ["Q", "B", "P"],
+        "correctAnswer": "P",
+        "explanation": "A letra P tem um traço vertical e uma barriga no topo! Usada para escrever Pato."
+      },
+      {
+        "id": "pt_1_f2_e4",
+        "type": "TRUE_FALSE",
+        "question": "A primeira letra do nosso alfabeto é a letra Z.",
+        "correctAnswer": "false",
+        "explanation": "A primeira letra do alfabeto é o A. O Z é a última letra!"
+      },
+      {
+        "id": "pt_1_f2_e5",
+        "type": "LETTERS_WORDS",
+        "question": "Qual destas letras é uma consoante?",
+        "options": ["I", "F", "U"],
+        "correctAnswer": "F",
+        "explanation": "A letra F é uma consoante. O I e o U são vogais!"
+      },
+      {
+        "id": "pt_1_f2_e6",
+        "type": "LETTERS_WORDS",
+        "question": "A palavra 'Mala' começa com que letra?",
+        "options": ["N", "M", "L"],
+        "correctAnswer": "M",
+        "explanation": "Mala começa com a consoante M! (Ma-la)."
+      },
+      {
+        "id": "pt_1_f2_e7",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Diz qual destas letras é a consoante S.",
+        "options": ["C", "Z", "S"],
+        "correctAnswer": "S",
+        "explanation": "A letra S tem duas curvas onduladas, parece uma serpente!"
+      },
+      {
+        "id": "pt_1_f2_e8",
+        "type": "COMPLETING",
+        "question": "Completa a palavra 'Pato' com a consoante correta: ___ ato",
+        "options": ["P", "T", "M"],
+        "correctAnswer": "P",
+        "explanation": "Pato começa com a consoante P! (Pa-to)."
+      },
+      {
+        "id": "pt_1_f2_e9",
+        "type": "TRUE_FALSE",
+        "question": "A primeira letra da palavra 'Telemóvel' é a letra 'T'.",
+        "correctAnswer": "true",
+        "explanation": "Verdadeiro! Telemóvel começa com a letra T."
+      },
+      {
+        "id": "pt_1_f2_e10",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual é a consoante que falta em '___ ela' (Vela)?",
+        "options": ["V", "F", "J"],
+        "correctAnswer": "V",
+        "explanation": "A letra V completa a palavra Vela!"
+      }
+    ]
+  },
+  {
+    "id": "pt_1_f3",
+    "numero": 3,
+    "title": "Maiúsculas e Minúsculas",
+    "description": "Aprende a relacionar letras maiúsculas e minúsculas correspondentes.",
+    "difficulty": "EASY",
+    "imageEmoji": "🔠",
+    "exercises": [
+      {
+        "id": "pt_1_f3_e1",
+        "type": "MATCHING",
+        "question": "Associa cada letra maiúscula à sua letra minúscula:",
+        "pairs": {
+          "A": "a",
+          "E": "e",
+          "I": "i",
+          "O": "o"
+        },
+        "explanation": "Excelente! Associaste as vogais maiúsculas A, E, I, O às respetivas minúsculas a, e, i, o."
+      },
+      {
+        "id": "pt_1_f3_e2",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual é a letra minúscula correspondente a M?",
+        "options": ["n", "m", "w"],
+        "correctAnswer": "m",
+        "explanation": "A maiúscula M corresponde à minúscula m!"
+      },
+      {
+        "id": "pt_1_f3_e3",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual é a maiúscula da letra p?",
+        "options": ["B", "P", "D"],
+        "correctAnswer": "P",
+        "explanation": "O p minúsculo corresponde ao P maiúsculo!"
+      },
+      {
+        "id": "pt_1_f3_e4",
+        "type": "TRUE_FALSE",
+        "question": "A letra maiúscula de 'g' é a letra 'G'.",
+        "correctAnswer": "true",
+        "explanation": "Sim, a letra g minúscula escreve-se G em maiúscula!"
+      },
+      {
+        "id": "pt_1_f3_e5",
+        "type": "MATCHING",
+        "question": "Associa as consoantes maiúsculas às suas minúsculas:",
+        "pairs": {
+          "P": "p",
+          "M": "m",
+          "L": "l",
+          "T": "t"
+        },
+        "explanation": "Muito bem! Relacionaste corretamente as consoantes maiúsculas com as minúsculas correspondentes."
+      },
+      {
+        "id": "pt_1_f3_e6",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual é a minúscula da letra D?",
+        "options": ["b", "q", "d"],
+        "correctAnswer": "d",
+        "explanation": "A letra D maiúscula tem como minúscula a letra d!"
+      },
+      {
+        "id": "pt_1_f3_e7",
+        "type": "LETTERS_WORDS",
+        "question": "Os nomes das pessoas (como Maria ou Rui) começam sempre com...",
+        "options": ["Letra maiúscula", "Letra minúscula"],
+        "correctAnswer": "Letra maiúscula",
+        "explanation": "Os nomes de pessoas (nomes próprios) começam sempre com letra maiúscula! Ex: Maria, Rui."
+      },
+      {
+        "id": "pt_1_f3_e8",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual é a maiúscula da letra f?",
+        "options": ["E", "F", "T"],
+        "correctAnswer": "F",
+        "explanation": "A minúscula f corresponde à maiúscula F!"
+      },
+      {
+        "id": "pt_1_f3_e9",
+        "type": "TRUE_FALSE",
+        "question": "A letra minúscula 'u' corresponde à maiúscula 'U'.",
+        "correctAnswer": "true",
+        "explanation": "Verdadeiro! O u minúsculo corresponde ao U maiúsculo."
+      },
+      {
+        "id": "pt_1_f3_e10",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual é a minúscula correspondente à letra maiúscula R?",
+        "options": ["r", "p", "s"],
+        "correctAnswer": "r",
+        "explanation": "O R maiúsculo corresponde à minúscula r!"
+      }
+    ]
+  },
+  {
+    "id": "pt_1_f4",
+    "numero": 4,
+    "title": "Sílabas Simples",
+    "description": "Junta consoantes e vogais para formar sílabas simples e dar os primeiros passos na leitura.",
+    "difficulty": "MEDIUM",
+    "imageEmoji": "📖",
+    "exercises": [
+      {
+        "id": "pt_1_f4_e1",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Se juntares a consoante M com a vogal A, que sílaba obténs?",
+        "options": ["MA", "AM", "ME"],
+        "correctAnswer": "MA",
+        "explanation": "M + A = MA, como na palavra MALA!"
+      },
+      {
+        "id": "pt_1_f4_e2",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual destas sílabas inicia a palavra 'Pato'?",
+        "options": ["PE", "PA", "PO"],
+        "correctAnswer": "PA",
+        "explanation": "Pato começa com a sílaba PA! (Pa-to)."
+      },
+      {
+        "id": "pt_1_f4_e3",
+        "type": "COMPLETING",
+        "question": "Completa a palavra 'Lu-pa': LU - ___",
+        "options": ["PA", "MA", "TA"],
+        "correctAnswer": "PA",
+        "explanation": "LU + PA forma LUPA, o objeto usado para aumentar imagens!"
+      },
+      {
+        "id": "pt_1_f4_e4",
+        "type": "CHOOSE_IMAGE",
+        "question": "Qual destas imagens começa com a sílaba 'LA'?",
+        "options": ["🍊 Laranja", "🍎 Maçã", "🍌 Banana"],
+        "correctAnswer": "🍊 Laranja",
+        "explanation": "Laranja começa com a sílaba LA! (La-ran-ja)."
+      },
+      {
+        "id": "pt_1_f4_e5",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Quantas sílabas (bater de palmas) tem a palavra 'Ma-pa'?",
+        "options": ["1", "2", "3"],
+        "correctAnswer": "2",
+        "explanation": "Ao dizer 'Ma-pa', damos 2 palmas. Tem 2 sílabas!"
+      },
+      {
+        "id": "pt_1_f4_e6",
+        "type": "LETTERS_WORDS",
+        "question": "Qual é a sílaba que falta na palavra 'Me-sa': ___ - SA",
+        "options": ["ME", "PE", "LE"],
+        "correctAnswer": "ME",
+        "explanation": "A sílaba em falta é ME para formar MESA!"
+      },
+      {
+        "id": "pt_1_f4_e7",
+        "type": "TRUE_FALSE",
+        "question": "A palavra 'Pai' tem apenas 1 sílaba.",
+        "correctAnswer": "true",
+        "explanation": "Verdadeiro! Dizemos 'Pai' de uma só vez, logo tem apenas 1 sílaba."
+      },
+      {
+        "id": "pt_1_f4_e8",
+        "type": "MULTIPLE_CHOICE",
+        "question": "Qual é a sílaba inicial da palavra 'Lu-va'?",
+        "options": ["LA", "LU", "LI"],
+        "correctAnswer": "LU",
+        "explanation": "Lu-va começa com a sílaba LU! (Lu-va)."
+      },
+      {
+        "id": "pt_1_f4_e9",
+        "type": "COMPLETING",
+        "question": "Completa a palavra 'Po-te': ___ - TE",
+        "options": ["PO", "PE", "PU"],
+        "correctAnswer": "PO",
+        "explanation": "PO + TE forma a palavra POTE!"
+      },
+      {
+        "id": "pt_1_f4_e10",
+        "type": "ORDERING",
+        "question": "Ordena as sílabas para formar a palavra 'SA-PA-TO':",
+        "options": ["SA", "PA", "TO"],
+        "correctAnswer": "SA-PA-TO",
+        "correctAnswers": ["SA", "PA", "TO"],
+        "explanation": "Ao ordenar 'SA' + 'PA' + 'TO' formamos SAPATO!"
+      }
+    ]
+  }
+]

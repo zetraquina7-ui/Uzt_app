@@ -1,0 +1,3618 @@
+[
+  {
+    "id": "em_4_f1",
+    "numero": 1,
+    "titulo": "História de Portugal: As Origens e a Romanização",
+    "title": "História de Portugal: As Origens e a Romanização",
+    "descricao": "Os Lusitanos, Viriato, a chegada dos Romanos, estradas, pontes, latim e monumentos.",
+    "description": "Os Lusitanos, Viriato, a chegada dos Romanos, estradas, pontes, latim e monumentos.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "🏛️",
+    "imageEmoji": "🏛️",
+    "exercicios": [
+      {
+        "id": "em_4_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem foi o heróico chefe dos Lusitanos que combateu bravamente a invasão dos exércitos romanos na Península Ibérica?",
+        "question": "Quem foi o heróico chefe dos Lusitanos que combateu bravamente a invasão dos exércitos romanos na Península Ibérica?",
+        "opcoes": [
+          "Viriato",
+          "D. Afonso Henriques",
+          "Júlio César"
+        ],
+        "options": [
+          "Viriato",
+          "D. Afonso Henriques",
+          "Júlio César"
+        ],
+        "resposta": "Viriato",
+        "correctAnswer": "Viriato",
+        "explicacao": "Viriato liderou a resistência lusitana nas serras com táticas de guerrilha!",
+        "explanation": "Viriato liderou a resistência lusitana nas serras com táticas de guerrilha!"
+      },
+      {
+        "id": "em_4_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os Romanos trouxeram para a Península a sua língua, o Latim, da qual derivou a Língua Portuguesa.",
+        "question": "Os Romanos trouxeram para a Península a sua língua, o Latim, da qual derivou a Língua Portuguesa.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O português, espanhol, francês e italiano nasceram do latim vulgar romano.",
+        "explanation": "Verdadeiro! O português, espanhol, francês e italiano nasceram do latim vulgar romano."
+      },
+      {
+        "id": "em_4_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A grande cidade romana com ruínas de mosaicos e casas perto de Coimbra chama-se ___",
+        "question": "A grande cidade romana com ruínas de mosaicos e casas perto de Coimbra chama-se ___",
+        "opcoes": [
+          "Conímbriga",
+          "Bracara Augusta",
+          "Lisboa"
+        ],
+        "options": [
+          "Conímbriga",
+          "Bracara Augusta",
+          "Lisboa"
+        ],
+        "resposta": "Conímbriga",
+        "correctAnswer": "Conímbriga",
+        "explicacao": "As ruínas de Conímbriga são o maior complexo arqueológico romano em Portugal!",
+        "explanation": "As ruínas de Conímbriga são o maior complexo arqueológico romano em Portugal!"
+      },
+      {
+        "id": "em_4_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual famoso templo romano com colunas de granito e mármore se ergue na cidade de Évora?",
+        "question": "Qual famoso templo romano com colunas de granito e mármore se ergue na cidade de Évora?",
+        "resposta": "🏛️ Templo Romano de Évora (Templo de Diana)",
+        "correctAnswer": "🏛️ Templo Romano de Évora (Templo de Diana)",
+        "explicacao": "O Templo Romano de Évora data do século I d.C. e é Património Mundial! 🏛️",
+        "explanation": "O Templo Romano de Évora data do século I d.C. e é Património Mundial! 🏛️"
+      },
+      {
+        "id": "em_4_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que importantes inovações construíram os romanos que ligavam todo o império?",
+        "question": "Que importantes inovações construíram os romanos que ligavam todo o império?",
+        "opcoes": [
+          "Estradas pavimentadas, pontes de pedra e aquedutos de água",
+          "Caminhos de ferro",
+          "Foguetões"
+        ],
+        "options": [
+          "Estradas pavimentadas, pontes de pedra e aquedutos de água",
+          "Caminhos de ferro",
+          "Foguetões"
+        ],
+        "resposta": "Estradas pavimentadas, pontes de pedra e aquedutos de água",
+        "correctAnswer": "Estradas pavimentadas, pontes de pedra e aquedutos de água",
+        "explicacao": "A rede viária e aquedutos permitiram um enorme desenvolvimento económico e urbano.",
+        "explanation": "A rede viária e aquedutos permitiram um enorme desenvolvimento económico e urbano."
+      },
+      {
+        "id": "em_4_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os povos bárbaros (Suevos e Visigodos) e mais tarde os Muçulmanos (Árabes) também ocuparam a Península Ibérica.",
+        "question": "Os povos bárbaros (Suevos e Visigodos) e mais tarde os Muçulmanos (Árabes) também ocuparam a Península Ibérica.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Deixaram grande herança na agricultura (nora, azenha, rega) e na língua.",
+        "explanation": "Verdadeiro! Deixaram grande herança na agricultura (nora, azenha, rega) e na língua."
+      },
+      {
+        "id": "em_4_f1_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Palavras começadas por 'Al-' como 'almofada, azeite, algarve, alcachofra' têm origem...",
+        "question": "Palavras começadas por 'Al-' como 'almofada, azeite, algarve, alcachofra' têm origem...",
+        "opcoes": [
+          "Árabe / Muçulmana",
+          "Inglesa",
+          "Chinesa"
+        ],
+        "options": [
+          "Árabe / Muçulmana",
+          "Inglesa",
+          "Chinesa"
+        ],
+        "resposta": "Árabe / Muçulmana",
+        "correctAnswer": "Árabe / Muçulmana",
+        "explicacao": "A presença árabe de mais de 500 anos influenciou fortemente o vocabulário português!",
+        "explanation": "A presença árabe de mais de 500 anos influenciou fortemente o vocabulário português!"
+      },
+      {
+        "id": "em_4_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o povo antigo ao seu legado histórico:",
+        "question": "Associa o povo antigo ao seu legado histórico:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre as origens e raízes históricas de Portugal!",
+        "explanation": "Excelente conhecimento sobre as origens e raízes históricas de Portugal!",
+        "pairs": {
+          "Lusitanos": "Povo guerreiro pastoril e Viriato",
+          "Romanos": "Latim, pontes, calçadas e direito romano",
+          "Visigodos": "Reino cristão peninsular",
+          "Árabes / Mouros": "Noras de água, azulejos e palavras com 'Al-''"
+        },
+        "pares": {
+          "Lusitanos": "Povo guerreiro pastoril e Viriato",
+          "Romanos": "Latim, pontes, calçadas e direito romano",
+          "Visigodos": "Reino cristão peninsular",
+          "Árabes / Mouros": "Noras de água, azulejos e palavras com 'Al-''"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem foi o heróico chefe dos Lusitanos que combateu bravamente a invasão dos exércitos romanos na Península Ibérica?",
+        "question": "Quem foi o heróico chefe dos Lusitanos que combateu bravamente a invasão dos exércitos romanos na Península Ibérica?",
+        "opcoes": [
+          "Viriato",
+          "D. Afonso Henriques",
+          "Júlio César"
+        ],
+        "options": [
+          "Viriato",
+          "D. Afonso Henriques",
+          "Júlio César"
+        ],
+        "resposta": "Viriato",
+        "correctAnswer": "Viriato",
+        "explicacao": "Viriato liderou a resistência lusitana nas serras com táticas de guerrilha!",
+        "explanation": "Viriato liderou a resistência lusitana nas serras com táticas de guerrilha!"
+      },
+      {
+        "id": "em_4_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os Romanos trouxeram para a Península a sua língua, o Latim, da qual derivou a Língua Portuguesa.",
+        "question": "Os Romanos trouxeram para a Península a sua língua, o Latim, da qual derivou a Língua Portuguesa.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O português, espanhol, francês e italiano nasceram do latim vulgar romano.",
+        "explanation": "Verdadeiro! O português, espanhol, francês e italiano nasceram do latim vulgar romano."
+      },
+      {
+        "id": "em_4_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A grande cidade romana com ruínas de mosaicos e casas perto de Coimbra chama-se ___",
+        "question": "A grande cidade romana com ruínas de mosaicos e casas perto de Coimbra chama-se ___",
+        "opcoes": [
+          "Conímbriga",
+          "Bracara Augusta",
+          "Lisboa"
+        ],
+        "options": [
+          "Conímbriga",
+          "Bracara Augusta",
+          "Lisboa"
+        ],
+        "resposta": "Conímbriga",
+        "correctAnswer": "Conímbriga",
+        "explicacao": "As ruínas de Conímbriga são o maior complexo arqueológico romano em Portugal!",
+        "explanation": "As ruínas de Conímbriga são o maior complexo arqueológico romano em Portugal!"
+      },
+      {
+        "id": "em_4_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual famoso templo romano com colunas de granito e mármore se ergue na cidade de Évora?",
+        "question": "Qual famoso templo romano com colunas de granito e mármore se ergue na cidade de Évora?",
+        "resposta": "🏛️ Templo Romano de Évora (Templo de Diana)",
+        "correctAnswer": "🏛️ Templo Romano de Évora (Templo de Diana)",
+        "explicacao": "O Templo Romano de Évora data do século I d.C. e é Património Mundial! 🏛️",
+        "explanation": "O Templo Romano de Évora data do século I d.C. e é Património Mundial! 🏛️"
+      },
+      {
+        "id": "em_4_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que importantes inovações construíram os romanos que ligavam todo o império?",
+        "question": "Que importantes inovações construíram os romanos que ligavam todo o império?",
+        "opcoes": [
+          "Estradas pavimentadas, pontes de pedra e aquedutos de água",
+          "Caminhos de ferro",
+          "Foguetões"
+        ],
+        "options": [
+          "Estradas pavimentadas, pontes de pedra e aquedutos de água",
+          "Caminhos de ferro",
+          "Foguetões"
+        ],
+        "resposta": "Estradas pavimentadas, pontes de pedra e aquedutos de água",
+        "correctAnswer": "Estradas pavimentadas, pontes de pedra e aquedutos de água",
+        "explicacao": "A rede viária e aquedutos permitiram um enorme desenvolvimento económico e urbano.",
+        "explanation": "A rede viária e aquedutos permitiram um enorme desenvolvimento económico e urbano."
+      },
+      {
+        "id": "em_4_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os povos bárbaros (Suevos e Visigodos) e mais tarde os Muçulmanos (Árabes) também ocuparam a Península Ibérica.",
+        "question": "Os povos bárbaros (Suevos e Visigodos) e mais tarde os Muçulmanos (Árabes) também ocuparam a Península Ibérica.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Deixaram grande herança na agricultura (nora, azenha, rega) e na língua.",
+        "explanation": "Verdadeiro! Deixaram grande herança na agricultura (nora, azenha, rega) e na língua."
+      },
+      {
+        "id": "em_4_f1_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Palavras começadas por 'Al-' como 'almofada, azeite, algarve, alcachofra' têm origem...",
+        "question": "Palavras começadas por 'Al-' como 'almofada, azeite, algarve, alcachofra' têm origem...",
+        "opcoes": [
+          "Árabe / Muçulmana",
+          "Inglesa",
+          "Chinesa"
+        ],
+        "options": [
+          "Árabe / Muçulmana",
+          "Inglesa",
+          "Chinesa"
+        ],
+        "resposta": "Árabe / Muçulmana",
+        "correctAnswer": "Árabe / Muçulmana",
+        "explicacao": "A presença árabe de mais de 500 anos influenciou fortemente o vocabulário português!",
+        "explanation": "A presença árabe de mais de 500 anos influenciou fortemente o vocabulário português!"
+      },
+      {
+        "id": "em_4_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o povo antigo ao seu legado histórico:",
+        "question": "Associa o povo antigo ao seu legado histórico:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre as origens e raízes históricas de Portugal!",
+        "explanation": "Excelente conhecimento sobre as origens e raízes históricas de Portugal!",
+        "pairs": {
+          "Lusitanos": "Povo guerreiro pastoril e Viriato",
+          "Romanos": "Latim, pontes, calçadas e direito romano",
+          "Visigodos": "Reino cristão peninsular",
+          "Árabes / Mouros": "Noras de água, azulejos e palavras com 'Al-''"
+        },
+        "pares": {
+          "Lusitanos": "Povo guerreiro pastoril e Viriato",
+          "Romanos": "Latim, pontes, calçadas e direito romano",
+          "Visigodos": "Reino cristão peninsular",
+          "Árabes / Mouros": "Noras de água, azulejos e palavras com 'Al-''"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f2",
+    "numero": 2,
+    "titulo": "A Fundação de Portugal e a Reconquista",
+    "title": "A Fundação de Portugal e a Reconquista",
+    "descricao": "Condado Portucalense, D. Afonso Henriques, Batalha de S. Mamede (1128) e Tratado de Zamora (1143).",
+    "description": "Condado Portucalense, D. Afonso Henriques, Batalha de S. Mamede (1128) e Tratado de Zamora (1143).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "⚔️",
+    "imageEmoji": "⚔️",
+    "exercicios": [
+      {
+        "id": "em_4_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem foi o Primeiro Rei de Portugal, conhecido como 'O Conquistador'?",
+        "question": "Quem foi o Primeiro Rei de Portugal, conhecido como 'O Conquistador'?",
+        "opcoes": [
+          "D. Afonso Henriques",
+          "D. Dinis",
+          "D. João I"
+        ],
+        "options": [
+          "D. Afonso Henriques",
+          "D. Dinis",
+          "D. João I"
+        ],
+        "resposta": "D. Afonso Henriques",
+        "correctAnswer": "D. Afonso Henriques",
+        "explicacao": "D. Afonso Henriques fundou o Reino de Portugal e foi o seu primeiro monarca!",
+        "explanation": "D. Afonso Henriques fundou o Reino de Portugal e foi o seu primeiro monarca!"
+      },
+      {
+        "id": "em_4_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Em 1128, na Batalha de São Mamede em Guimarães, D. Afonso Henriques assumiu o governo do Condado Portucalense.",
+        "question": "Em 1128, na Batalha de São Mamede em Guimarães, D. Afonso Henriques assumiu o governo do Condado Portucalense.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Por isso Guimarães é celebrada como o 'Berço da Nação'.",
+        "explanation": "Verdadeiro! Por isso Guimarães é celebrada como o 'Berço da Nação'."
+      },
+      {
+        "id": "em_4_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A independência de Portugal foi reconhecida pelo Reino de Leão em 1143 no Tratado de ___",
+        "question": "A independência de Portugal foi reconhecida pelo Reino de Leão em 1143 no Tratado de ___",
+        "opcoes": [
+          "Zamora",
+          "Tordesilhas",
+          "Lisboa"
+        ],
+        "options": [
+          "Zamora",
+          "Tordesilhas",
+          "Lisboa"
+        ],
+        "resposta": "Zamora",
+        "correctAnswer": "Zamora",
+        "explicacao": "O Tratado de Zamora de 1143 selou a certidão de nascimento de Portugal!",
+        "explanation": "O Tratado de Zamora de 1143 selou a certidão de nascimento de Portugal!"
+      },
+      {
+        "id": "em_4_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Em que cidade histórica nasceu D. Afonso Henriques e onde fica o Castelo berço de Portugal?",
+        "question": "Em que cidade histórica nasceu D. Afonso Henriques e onde fica o Castelo berço de Portugal?",
+        "opcoes": [
+          "🏰 Guimarães",
+          "🏖️ Faro",
+          "🌾 Beja"
+        ],
+        "options": [
+          "🏰 Guimarães",
+          "🏖️ Faro",
+          "🌾 Beja"
+        ],
+        "resposta": "🏰 Guimarães",
+        "correctAnswer": "🏰 Guimarães",
+        "explicacao": "'Aqui nasceu Portugal' - Guimarães! 🏰",
+        "explanation": "'Aqui nasceu Portugal' - Guimarães! 🏰"
+      },
+      {
+        "id": "em_4_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em que documento papal em 1179 o Papa Alexandre III reconheceu oficialmente D. Afonso Henriques como Rei de Portugal?",
+        "question": "Em que documento papal em 1179 o Papa Alexandre III reconheceu oficialmente D. Afonso Henriques como Rei de Portugal?",
+        "opcoes": [
+          "Bula Manifestis Probatum",
+          "Tratado de Paris",
+          "Carta de Foral"
+        ],
+        "options": [
+          "Bula Manifestis Probatum",
+          "Tratado de Paris",
+          "Carta de Foral"
+        ],
+        "resposta": "Bula Manifestis Probatum",
+        "correctAnswer": "Bula Manifestis Probatum",
+        "explicacao": "A Bula Papal consagrou a independência de Portugal perante toda a cristandade europeia!",
+        "explanation": "A Bula Papal consagrou a independência de Portugal perante toda a cristandade europeia!"
+      },
+      {
+        "id": "em_4_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A conquista definitiva do Algarve aos mouros em 1249 no reinado de D. Afonso III fixou as fronteiras terrestres de Portugal.",
+        "question": "A conquista definitiva do Algarve aos mouros em 1249 no reinado de D. Afonso III fixou as fronteiras terrestres de Portugal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Portugal tem uma das fronteiras mais antigas e estáveis do mundo.",
+        "explanation": "Verdadeiro! Portugal tem uma das fronteiras mais antigas e estáveis do mundo."
+      },
+      {
+        "id": "em_4_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Rei D. Dinis ficou conhecido por...",
+        "question": "O Rei D. Dinis ficou conhecido por...",
+        "opcoes": [
+          "Fundar a 1.ª Universidade em 1290 e plantar o Pinhal de Leiria",
+          "Descobrir o Brasil",
+          "Perder a independência"
+        ],
+        "options": [
+          "Fundar a 1.ª Universidade em 1290 e plantar o Pinhal de Leiria",
+          "Descobrir o Brasil",
+          "Perder a independência"
+        ],
+        "resposta": "Fundar a 1.ª Universidade em 1290 e plantar o Pinhal de Leiria",
+        "correctAnswer": "Fundar a 1.ª Universidade em 1290 e plantar o Pinhal de Leiria",
+        "explicacao": "D. Dinis, o 'Lavrador' e 'Poeta', oficializou a língua portuguesa e criou a Universidade!",
+        "explanation": "D. Dinis, o 'Lavrador' e 'Poeta', oficializou a língua portuguesa e criou a Universidade!"
+      },
+      {
+        "id": "em_4_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Ordena cronologicamente os acontecimentos fundadores:",
+        "question": "Ordena cronologicamente os acontecimentos fundadores:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástico domínio da fundação da nacionalidade portuguesa!",
+        "explanation": "Fantástico domínio da fundação da nacionalidade portuguesa!",
+        "pairs": {
+          "1128": "Batalha de São Mamede (Guimarães)",
+          "1143": "Tratado de Zamora (Independência)",
+          "1179": "Bula Papal Manifestis Probatum",
+          "1249": "Conquista do Algarve e fronteiras definitivas"
+        },
+        "pares": {
+          "1128": "Batalha de São Mamede (Guimarães)",
+          "1143": "Tratado de Zamora (Independência)",
+          "1179": "Bula Papal Manifestis Probatum",
+          "1249": "Conquista do Algarve e fronteiras definitivas"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem foi o Primeiro Rei de Portugal, conhecido como 'O Conquistador'?",
+        "question": "Quem foi o Primeiro Rei de Portugal, conhecido como 'O Conquistador'?",
+        "opcoes": [
+          "D. Afonso Henriques",
+          "D. Dinis",
+          "D. João I"
+        ],
+        "options": [
+          "D. Afonso Henriques",
+          "D. Dinis",
+          "D. João I"
+        ],
+        "resposta": "D. Afonso Henriques",
+        "correctAnswer": "D. Afonso Henriques",
+        "explicacao": "D. Afonso Henriques fundou o Reino de Portugal e foi o seu primeiro monarca!",
+        "explanation": "D. Afonso Henriques fundou o Reino de Portugal e foi o seu primeiro monarca!"
+      },
+      {
+        "id": "em_4_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Em 1128, na Batalha de São Mamede em Guimarães, D. Afonso Henriques assumiu o governo do Condado Portucalense.",
+        "question": "Em 1128, na Batalha de São Mamede em Guimarães, D. Afonso Henriques assumiu o governo do Condado Portucalense.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Por isso Guimarães é celebrada como o 'Berço da Nação'.",
+        "explanation": "Verdadeiro! Por isso Guimarães é celebrada como o 'Berço da Nação'."
+      },
+      {
+        "id": "em_4_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A independência de Portugal foi reconhecida pelo Reino de Leão em 1143 no Tratado de ___",
+        "question": "A independência de Portugal foi reconhecida pelo Reino de Leão em 1143 no Tratado de ___",
+        "opcoes": [
+          "Zamora",
+          "Tordesilhas",
+          "Lisboa"
+        ],
+        "options": [
+          "Zamora",
+          "Tordesilhas",
+          "Lisboa"
+        ],
+        "resposta": "Zamora",
+        "correctAnswer": "Zamora",
+        "explicacao": "O Tratado de Zamora de 1143 selou a certidão de nascimento de Portugal!",
+        "explanation": "O Tratado de Zamora de 1143 selou a certidão de nascimento de Portugal!"
+      },
+      {
+        "id": "em_4_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Em que cidade histórica nasceu D. Afonso Henriques e onde fica o Castelo berço de Portugal?",
+        "question": "Em que cidade histórica nasceu D. Afonso Henriques e onde fica o Castelo berço de Portugal?",
+        "opcoes": [
+          "🏰 Guimarães",
+          "🏖️ Faro",
+          "🌾 Beja"
+        ],
+        "options": [
+          "🏰 Guimarães",
+          "🏖️ Faro",
+          "🌾 Beja"
+        ],
+        "resposta": "🏰 Guimarães",
+        "correctAnswer": "🏰 Guimarães",
+        "explicacao": "'Aqui nasceu Portugal' - Guimarães! 🏰",
+        "explanation": "'Aqui nasceu Portugal' - Guimarães! 🏰"
+      },
+      {
+        "id": "em_4_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em que documento papal em 1179 o Papa Alexandre III reconheceu oficialmente D. Afonso Henriques como Rei de Portugal?",
+        "question": "Em que documento papal em 1179 o Papa Alexandre III reconheceu oficialmente D. Afonso Henriques como Rei de Portugal?",
+        "opcoes": [
+          "Bula Manifestis Probatum",
+          "Tratado de Paris",
+          "Carta de Foral"
+        ],
+        "options": [
+          "Bula Manifestis Probatum",
+          "Tratado de Paris",
+          "Carta de Foral"
+        ],
+        "resposta": "Bula Manifestis Probatum",
+        "correctAnswer": "Bula Manifestis Probatum",
+        "explicacao": "A Bula Papal consagrou a independência de Portugal perante toda a cristandade europeia!",
+        "explanation": "A Bula Papal consagrou a independência de Portugal perante toda a cristandade europeia!"
+      },
+      {
+        "id": "em_4_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A conquista definitiva do Algarve aos mouros em 1249 no reinado de D. Afonso III fixou as fronteiras terrestres de Portugal.",
+        "question": "A conquista definitiva do Algarve aos mouros em 1249 no reinado de D. Afonso III fixou as fronteiras terrestres de Portugal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Portugal tem uma das fronteiras mais antigas e estáveis do mundo.",
+        "explanation": "Verdadeiro! Portugal tem uma das fronteiras mais antigas e estáveis do mundo."
+      },
+      {
+        "id": "em_4_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Rei D. Dinis ficou conhecido por...",
+        "question": "O Rei D. Dinis ficou conhecido por...",
+        "opcoes": [
+          "Fundar a 1.ª Universidade em 1290 e plantar o Pinhal de Leiria",
+          "Descobrir o Brasil",
+          "Perder a independência"
+        ],
+        "options": [
+          "Fundar a 1.ª Universidade em 1290 e plantar o Pinhal de Leiria",
+          "Descobrir o Brasil",
+          "Perder a independência"
+        ],
+        "resposta": "Fundar a 1.ª Universidade em 1290 e plantar o Pinhal de Leiria",
+        "correctAnswer": "Fundar a 1.ª Universidade em 1290 e plantar o Pinhal de Leiria",
+        "explicacao": "D. Dinis, o 'Lavrador' e 'Poeta', oficializou a língua portuguesa e criou a Universidade!",
+        "explanation": "D. Dinis, o 'Lavrador' e 'Poeta', oficializou a língua portuguesa e criou a Universidade!"
+      },
+      {
+        "id": "em_4_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Ordena cronologicamente os acontecimentos fundadores:",
+        "question": "Ordena cronologicamente os acontecimentos fundadores:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástico domínio da fundação da nacionalidade portuguesa!",
+        "explanation": "Fantástico domínio da fundação da nacionalidade portuguesa!",
+        "pairs": {
+          "1128": "Batalha de São Mamede (Guimarães)",
+          "1143": "Tratado de Zamora (Independência)",
+          "1179": "Bula Papal Manifestis Probatum",
+          "1249": "Conquista do Algarve e fronteiras definitivas"
+        },
+        "pares": {
+          "1128": "Batalha de São Mamede (Guimarães)",
+          "1143": "Tratado de Zamora (Independência)",
+          "1179": "Bula Papal Manifestis Probatum",
+          "1249": "Conquista do Algarve e fronteiras definitivas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f3",
+    "numero": 3,
+    "titulo": "A Epopeia dos Descobrimentos Marítimos",
+    "title": "A Epopeia dos Descobrimentos Marítimos",
+    "descricao": "Caravelas, Infante D. Henrique, Vasco da Gama, Pedro Álvares Cabral e a Rota das Especiarias.",
+    "description": "Caravelas, Infante D. Henrique, Vasco da Gama, Pedro Álvares Cabral e a Rota das Especiarias.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "⛵",
+    "imageEmoji": "⛵",
+    "exercicios": [
+      {
+        "id": "em_4_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem foi o príncipe português que impulsionou e organizou a grande era da expansão marítima a partir de Sagres?",
+        "question": "Quem foi o príncipe português que impulsionou e organizou a grande era da expansão marítima a partir de Sagres?",
+        "resposta": "Infante D. Henrique (O Navegador)",
+        "correctAnswer": "Infante D. Henrique (O Navegador)",
+        "explicacao": "O Infante D. Henrique reuniu sábios, cartógrafos e navegadores para explorar o oceano desconhecido!",
+        "explanation": "O Infante D. Henrique reuniu sábios, cartógrafos e navegadores para explorar o oceano desconhecido!"
+      },
+      {
+        "id": "em_4_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Caravela portuguesa com velas triangulares (latinas) conseguia navegar contra o vento através do bolinar.",
+        "question": "A Caravela portuguesa com velas triangulares (latinas) conseguia navegar contra o vento através do bolinar.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A caravela foi a joia tecnológica náutica dos marinheiros portugueses.",
+        "explanation": "Verdadeiro! A caravela foi a joia tecnológica náutica dos marinheiros portugueses."
+      },
+      {
+        "id": "em_4_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O navegador português que dobrou pela primeira vez o temível Cabo das Tormentas (Cabo da Boa Esperança) em 1488 foi Bartolomeu ___",
+        "question": "O navegador português que dobrou pela primeira vez o temível Cabo das Tormentas (Cabo da Boa Esperança) em 1488 foi Bartolomeu ___",
+        "opcoes": [
+          "Dias",
+          "Gama",
+          "Cabral"
+        ],
+        "options": [
+          "Dias",
+          "Gama",
+          "Cabral"
+        ],
+        "resposta": "Dias",
+        "correctAnswer": "Dias",
+        "explicacao": "Bartolomeu Dias abriu a passagem para o Oceano Índico!",
+        "explanation": "Bartolomeu Dias abriu a passagem para o Oceano Índico!"
+      },
+      {
+        "id": "em_4_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quem liderou a armada portuguesa que descobriu o Caminho Marítimo para a Índia em 1498?",
+        "question": "Quem liderou a armada portuguesa que descobriu o Caminho Marítimo para a Índia em 1498?",
+        "opcoes": [
+          "⛵ Vasco da Gama",
+          "⛵ Cristóvão Colombo",
+          "⛵ Fernão de Magalhães"
+        ],
+        "options": [
+          "⛵ Vasco da Gama",
+          "⛵ Cristóvão Colombo",
+          "⛵ Fernão de Magalhães"
+        ],
+        "resposta": "⛵ Vasco da Gama",
+        "correctAnswer": "⛵ Vasco da Gama",
+        "explicacao": "Vasco da Gama chegou a Calecute na Índia, ligando a Europa à Ásia por mar! ⛵",
+        "explanation": "Vasco da Gama chegou a Calecute na Índia, ligando a Europa à Ásia por mar! ⛵"
+      },
+      {
+        "id": "em_4_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em 1500, a armada de Pedro Álvares Cabral chegou à 'Terra de Vera Cruz', hoje chamada...",
+        "question": "Em 1500, a armada de Pedro Álvares Cabral chegou à 'Terra de Vera Cruz', hoje chamada...",
+        "opcoes": [
+          "Brasil",
+          "Moçambique",
+          "Austrália"
+        ],
+        "options": [
+          "Brasil",
+          "Moçambique",
+          "Austrália"
+        ],
+        "resposta": "Brasil",
+        "correctAnswer": "Brasil",
+        "explicacao": "Pedro Álvares Cabral alcançou o Brasil em Abril de 1500!",
+        "explanation": "Pedro Álvares Cabral alcançou o Brasil em Abril de 1500!"
+      },
+      {
+        "id": "em_4_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Mosteiro dos Jerónimos e a Torre de Belém em Lisboa foram construídos no estilo Manuelino para celebrar os Descobrimentos.",
+        "question": "O Mosteiro dos Jerónimos e a Torre de Belém em Lisboa foram construídos no estilo Manuelino para celebrar os Descobrimentos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! São monumentos de pedra decorados com cordas, âncoras e esferas armilares.",
+        "explanation": "Verdadeiro! São monumentos de pedra decorados com cordas, âncoras e esferas armilares."
+      },
+      {
+        "id": "em_4_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem escreveu a grande obra épica 'Os Lusíadas' que canta a viagem de Vasco da Gama e a bravura portuguesa?",
+        "question": "Quem escreveu a grande obra épica 'Os Lusíadas' que canta a viagem de Vasco da Gama e a bravura portuguesa?",
+        "opcoes": [
+          "Luís Vaz de Camões",
+          "Fernando Pessoa",
+          "Eça de Queirós"
+        ],
+        "options": [
+          "Luís Vaz de Camões",
+          "Fernando Pessoa",
+          "Eça de Queirós"
+        ],
+        "resposta": "Luís Vaz de Camões",
+        "correctAnswer": "Luís Vaz de Camões",
+        "explicacao": "Camões publicou 'Os Lusíadas' em 1572, imortalizando a história de Portugal!",
+        "explanation": "Camões publicou 'Os Lusíadas' em 1572, imortalizando a história de Portugal!"
+      },
+      {
+        "id": "em_4_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o navegador à sua grande façanha marítima:",
+        "question": "Associa o navegador à sua grande façanha marítima:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Glória e orgulho nos navegadores portugueses que deram novos mundos ao mundo!",
+        "explanation": "Glória e orgulho nos navegadores portugueses que deram novos mundos ao mundo!",
+        "pairs": {
+          "Bartolomeu Dias": "Dobrou o Cabo da Boa Esperança (1488)",
+          "Vasco da Gama": "Descobriu o Caminho Marítimo para a Índia (1498)",
+          "Pedro Álvares Cabral": "Chegou ao Brasil (1500)",
+          "Fernão de Magalhães": "Comandou a 1.ª Viagem de Circum-navegação da Terra"
+        },
+        "pares": {
+          "Bartolomeu Dias": "Dobrou o Cabo da Boa Esperança (1488)",
+          "Vasco da Gama": "Descobriu o Caminho Marítimo para a Índia (1498)",
+          "Pedro Álvares Cabral": "Chegou ao Brasil (1500)",
+          "Fernão de Magalhães": "Comandou a 1.ª Viagem de Circum-navegação da Terra"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem foi o príncipe português que impulsionou e organizou a grande era da expansão marítima a partir de Sagres?",
+        "question": "Quem foi o príncipe português que impulsionou e organizou a grande era da expansão marítima a partir de Sagres?",
+        "resposta": "Infante D. Henrique (O Navegador)",
+        "correctAnswer": "Infante D. Henrique (O Navegador)",
+        "explicacao": "O Infante D. Henrique reuniu sábios, cartógrafos e navegadores para explorar o oceano desconhecido!",
+        "explanation": "O Infante D. Henrique reuniu sábios, cartógrafos e navegadores para explorar o oceano desconhecido!"
+      },
+      {
+        "id": "em_4_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Caravela portuguesa com velas triangulares (latinas) conseguia navegar contra o vento através do bolinar.",
+        "question": "A Caravela portuguesa com velas triangulares (latinas) conseguia navegar contra o vento através do bolinar.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A caravela foi a joia tecnológica náutica dos marinheiros portugueses.",
+        "explanation": "Verdadeiro! A caravela foi a joia tecnológica náutica dos marinheiros portugueses."
+      },
+      {
+        "id": "em_4_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O navegador português que dobrou pela primeira vez o temível Cabo das Tormentas (Cabo da Boa Esperança) em 1488 foi Bartolomeu ___",
+        "question": "O navegador português que dobrou pela primeira vez o temível Cabo das Tormentas (Cabo da Boa Esperança) em 1488 foi Bartolomeu ___",
+        "opcoes": [
+          "Dias",
+          "Gama",
+          "Cabral"
+        ],
+        "options": [
+          "Dias",
+          "Gama",
+          "Cabral"
+        ],
+        "resposta": "Dias",
+        "correctAnswer": "Dias",
+        "explicacao": "Bartolomeu Dias abriu a passagem para o Oceano Índico!",
+        "explanation": "Bartolomeu Dias abriu a passagem para o Oceano Índico!"
+      },
+      {
+        "id": "em_4_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quem liderou a armada portuguesa que descobriu o Caminho Marítimo para a Índia em 1498?",
+        "question": "Quem liderou a armada portuguesa que descobriu o Caminho Marítimo para a Índia em 1498?",
+        "opcoes": [
+          "⛵ Vasco da Gama",
+          "⛵ Cristóvão Colombo",
+          "⛵ Fernão de Magalhães"
+        ],
+        "options": [
+          "⛵ Vasco da Gama",
+          "⛵ Cristóvão Colombo",
+          "⛵ Fernão de Magalhães"
+        ],
+        "resposta": "⛵ Vasco da Gama",
+        "correctAnswer": "⛵ Vasco da Gama",
+        "explicacao": "Vasco da Gama chegou a Calecute na Índia, ligando a Europa à Ásia por mar! ⛵",
+        "explanation": "Vasco da Gama chegou a Calecute na Índia, ligando a Europa à Ásia por mar! ⛵"
+      },
+      {
+        "id": "em_4_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em 1500, a armada de Pedro Álvares Cabral chegou à 'Terra de Vera Cruz', hoje chamada...",
+        "question": "Em 1500, a armada de Pedro Álvares Cabral chegou à 'Terra de Vera Cruz', hoje chamada...",
+        "opcoes": [
+          "Brasil",
+          "Moçambique",
+          "Austrália"
+        ],
+        "options": [
+          "Brasil",
+          "Moçambique",
+          "Austrália"
+        ],
+        "resposta": "Brasil",
+        "correctAnswer": "Brasil",
+        "explicacao": "Pedro Álvares Cabral alcançou o Brasil em Abril de 1500!",
+        "explanation": "Pedro Álvares Cabral alcançou o Brasil em Abril de 1500!"
+      },
+      {
+        "id": "em_4_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Mosteiro dos Jerónimos e a Torre de Belém em Lisboa foram construídos no estilo Manuelino para celebrar os Descobrimentos.",
+        "question": "O Mosteiro dos Jerónimos e a Torre de Belém em Lisboa foram construídos no estilo Manuelino para celebrar os Descobrimentos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! São monumentos de pedra decorados com cordas, âncoras e esferas armilares.",
+        "explanation": "Verdadeiro! São monumentos de pedra decorados com cordas, âncoras e esferas armilares."
+      },
+      {
+        "id": "em_4_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem escreveu a grande obra épica 'Os Lusíadas' que canta a viagem de Vasco da Gama e a bravura portuguesa?",
+        "question": "Quem escreveu a grande obra épica 'Os Lusíadas' que canta a viagem de Vasco da Gama e a bravura portuguesa?",
+        "opcoes": [
+          "Luís Vaz de Camões",
+          "Fernando Pessoa",
+          "Eça de Queirós"
+        ],
+        "options": [
+          "Luís Vaz de Camões",
+          "Fernando Pessoa",
+          "Eça de Queirós"
+        ],
+        "resposta": "Luís Vaz de Camões",
+        "correctAnswer": "Luís Vaz de Camões",
+        "explicacao": "Camões publicou 'Os Lusíadas' em 1572, imortalizando a história de Portugal!",
+        "explanation": "Camões publicou 'Os Lusíadas' em 1572, imortalizando a história de Portugal!"
+      },
+      {
+        "id": "em_4_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o navegador à sua grande façanha marítima:",
+        "question": "Associa o navegador à sua grande façanha marítima:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Glória e orgulho nos navegadores portugueses que deram novos mundos ao mundo!",
+        "explanation": "Glória e orgulho nos navegadores portugueses que deram novos mundos ao mundo!",
+        "pairs": {
+          "Bartolomeu Dias": "Dobrou o Cabo da Boa Esperança (1488)",
+          "Vasco da Gama": "Descobriu o Caminho Marítimo para a Índia (1498)",
+          "Pedro Álvares Cabral": "Chegou ao Brasil (1500)",
+          "Fernão de Magalhães": "Comandou a 1.ª Viagem de Circum-navegação da Terra"
+        },
+        "pares": {
+          "Bartolomeu Dias": "Dobrou o Cabo da Boa Esperança (1488)",
+          "Vasco da Gama": "Descobriu o Caminho Marítimo para a Índia (1498)",
+          "Pedro Álvares Cabral": "Chegou ao Brasil (1500)",
+          "Fernão de Magalhães": "Comandou a 1.ª Viagem de Circum-navegação da Terra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f4",
+    "numero": 4,
+    "titulo": "A Restauração de 1640 e o Terramoto de 1755",
+    "title": "A Restauração de 1640 e o Terramoto de 1755",
+    "descricao": "O domínio Filipino, o 1.º de Dezembro de 1640, o Terramoto de Lisboa e o Marquês de Pombal.",
+    "description": "O domínio Filipino, o 1.º de Dezembro de 1640, o Terramoto de Lisboa e o Marquês de Pombal.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "👑",
+    "imageEmoji": "👑",
+    "exercicios": [
+      {
+        "id": "em_4_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que se celebra em Portugal no feriado nacional do 1.º de Dezembro?",
+        "question": "O que se celebra em Portugal no feriado nacional do 1.º de Dezembro?",
+        "resposta": "A Restauração da Independência (1640)",
+        "correctAnswer": "A Restauração da Independência (1640)",
+        "explicacao": "Em 1640 os 40 Conjurados restauraram a soberania nacional aclamando D. João IV rei!",
+        "explanation": "Em 1640 os 40 Conjurados restauraram a soberania nacional aclamando D. João IV rei!"
+      },
+      {
+        "id": "em_4_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Entre 1580 e 1640 Portugal esteve sob o domínio dos reis espanhóis (Dinastia Filipina).",
+        "question": "Entre 1580 e 1640 Portugal esteve sob o domínio dos reis espanhóis (Dinastia Filipina).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Foram 60 anos de União Ibérica iniciada com Filipe II de Espanha.",
+        "explanation": "Verdadeiro! Foram 60 anos de União Ibérica iniciada com Filipe II de Espanha."
+      },
+      {
+        "id": "em_4_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A 1 de Novembro de 1755, a cidade de Lisboa foi devastada por um violento ___ seguido de maremoto e incêndios.",
+        "question": "A 1 de Novembro de 1755, a cidade de Lisboa foi devastada por um violento ___ seguido de maremoto e incêndios.",
+        "opcoes": [
+          "Terramoto / Sismo",
+          "Ciclone",
+          "Vulcão"
+        ],
+        "options": [
+          "Terramoto / Sismo",
+          "Ciclone",
+          "Vulcão"
+        ],
+        "resposta": "Terramoto / Sismo",
+        "correctAnswer": "Terramoto / Sismo",
+        "explicacao": "O Grande Terramoto de Lisboa de 1755 destruiu grande parte da capital.",
+        "explanation": "O Grande Terramoto de Lisboa de 1755 destruiu grande parte da capital."
+      },
+      {
+        "id": "em_4_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quem foi o enérgico ministro de D. José I que reconstruiu a 'Baixa Pombalina' com edifícios anti-sísmicos (gaiola pombalina)?",
+        "question": "Quem foi o enérgico ministro de D. José I que reconstruiu a 'Baixa Pombalina' com edifícios anti-sísmicos (gaiola pombalina)?",
+        "opcoes": [
+          "🏛️ Marquês de Pombal",
+          "👑 D. João VI",
+          "⚔️ D. Afonso Henriques"
+        ],
+        "options": [
+          "🏛️ Marquês de Pombal",
+          "👑 D. João VI",
+          "⚔️ D. Afonso Henriques"
+        ],
+        "resposta": "🏛️ Marquês de Pombal",
+        "correctAnswer": "🏛️ Marquês de Pombal",
+        "explicacao": "Sebastião José de Carvalho e Melo (Marquês de Pombal) reconstruiu a moderna Baixa de Lisboa! 🏛️",
+        "explanation": "Sebastião José de Carvalho e Melo (Marquês de Pombal) reconstruiu a moderna Baixa de Lisboa! 🏛️"
+      },
+      {
+        "id": "em_4_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual famosa frase é atribuída ao Marquês de Pombal logo após o terramoto de 1755?",
+        "question": "Qual famosa frase é atribuída ao Marquês de Pombal logo após o terramoto de 1755?",
+        "opcoes": [
+          "'Enterrar os mortos e cuidar dos vivos'",
+          "'Navegar é preciso'",
+          "'Aqui nasceu Portugal'"
+        ],
+        "options": [
+          "'Enterrar os mortos e cuidar dos vivos'",
+          "'Navegar é preciso'",
+          "'Aqui nasceu Portugal'"
+        ],
+        "resposta": "'Enterrar os mortos e cuidar dos vivos'",
+        "correctAnswer": "'Enterrar os mortos e cuidar dos vivos'",
+        "explicacao": "Mostrou a sua determinação e liderança imediata face à tragédia.",
+        "explanation": "Mostrou a sua determinação e liderança imediata face à tragédia."
+      },
+      {
+        "id": "em_4_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A 'Gaiola Pombalina' é uma estrutura de madeira flexível no interior das paredes para resistir a futuros terramotos.",
+        "question": "A 'Gaiola Pombalina' é uma estrutura de madeira flexível no interior das paredes para resistir a futuros terramotos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Foi uma das primeiras engenharias de construção anti-sísmica do mundo.",
+        "explanation": "Verdadeiro! Foi uma das primeiras engenharias de construção anti-sísmica do mundo."
+      },
+      {
+        "id": "em_4_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A grande praça aberta junto ao Tejo em Lisboa construída na Baixa Pombalina chama-se...",
+        "question": "A grande praça aberta junto ao Tejo em Lisboa construída na Baixa Pombalina chama-se...",
+        "resposta": "Praça do Comércio (Terreiro do Paço)",
+        "correctAnswer": "Praça do Comércio (Terreiro do Paço)",
+        "explicacao": "Com a estátua equestre de D. José I e o Arco da Rua Augusta!",
+        "explanation": "Com a estátua equestre de D. José I e o Arco da Rua Augusta!"
+      },
+      {
+        "id": "em_4_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a data histórica ao acontecimento:",
+        "question": "Associa a data histórica ao acontecimento:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da História Moderna de Portugal!",
+        "explanation": "Excelente domínio da História Moderna de Portugal!",
+        "pairs": {
+          "1640": "Restauração da Independência de Portugal",
+          "1755": "Grande Terramoto de Lisboa",
+          "Marquês de Pombal": "Reconstrução da Baixa com avenidas retas",
+          "D. João IV": "Aclamação do Duque de Bragança como Rei"
+        },
+        "pares": {
+          "1640": "Restauração da Independência de Portugal",
+          "1755": "Grande Terramoto de Lisboa",
+          "Marquês de Pombal": "Reconstrução da Baixa com avenidas retas",
+          "D. João IV": "Aclamação do Duque de Bragança como Rei"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que se celebra em Portugal no feriado nacional do 1.º de Dezembro?",
+        "question": "O que se celebra em Portugal no feriado nacional do 1.º de Dezembro?",
+        "resposta": "A Restauração da Independência (1640)",
+        "correctAnswer": "A Restauração da Independência (1640)",
+        "explicacao": "Em 1640 os 40 Conjurados restauraram a soberania nacional aclamando D. João IV rei!",
+        "explanation": "Em 1640 os 40 Conjurados restauraram a soberania nacional aclamando D. João IV rei!"
+      },
+      {
+        "id": "em_4_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Entre 1580 e 1640 Portugal esteve sob o domínio dos reis espanhóis (Dinastia Filipina).",
+        "question": "Entre 1580 e 1640 Portugal esteve sob o domínio dos reis espanhóis (Dinastia Filipina).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Foram 60 anos de União Ibérica iniciada com Filipe II de Espanha.",
+        "explanation": "Verdadeiro! Foram 60 anos de União Ibérica iniciada com Filipe II de Espanha."
+      },
+      {
+        "id": "em_4_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A 1 de Novembro de 1755, a cidade de Lisboa foi devastada por um violento ___ seguido de maremoto e incêndios.",
+        "question": "A 1 de Novembro de 1755, a cidade de Lisboa foi devastada por um violento ___ seguido de maremoto e incêndios.",
+        "opcoes": [
+          "Terramoto / Sismo",
+          "Ciclone",
+          "Vulcão"
+        ],
+        "options": [
+          "Terramoto / Sismo",
+          "Ciclone",
+          "Vulcão"
+        ],
+        "resposta": "Terramoto / Sismo",
+        "correctAnswer": "Terramoto / Sismo",
+        "explicacao": "O Grande Terramoto de Lisboa de 1755 destruiu grande parte da capital.",
+        "explanation": "O Grande Terramoto de Lisboa de 1755 destruiu grande parte da capital."
+      },
+      {
+        "id": "em_4_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quem foi o enérgico ministro de D. José I que reconstruiu a 'Baixa Pombalina' com edifícios anti-sísmicos (gaiola pombalina)?",
+        "question": "Quem foi o enérgico ministro de D. José I que reconstruiu a 'Baixa Pombalina' com edifícios anti-sísmicos (gaiola pombalina)?",
+        "opcoes": [
+          "🏛️ Marquês de Pombal",
+          "👑 D. João VI",
+          "⚔️ D. Afonso Henriques"
+        ],
+        "options": [
+          "🏛️ Marquês de Pombal",
+          "👑 D. João VI",
+          "⚔️ D. Afonso Henriques"
+        ],
+        "resposta": "🏛️ Marquês de Pombal",
+        "correctAnswer": "🏛️ Marquês de Pombal",
+        "explicacao": "Sebastião José de Carvalho e Melo (Marquês de Pombal) reconstruiu a moderna Baixa de Lisboa! 🏛️",
+        "explanation": "Sebastião José de Carvalho e Melo (Marquês de Pombal) reconstruiu a moderna Baixa de Lisboa! 🏛️"
+      },
+      {
+        "id": "em_4_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual famosa frase é atribuída ao Marquês de Pombal logo após o terramoto de 1755?",
+        "question": "Qual famosa frase é atribuída ao Marquês de Pombal logo após o terramoto de 1755?",
+        "opcoes": [
+          "'Enterrar os mortos e cuidar dos vivos'",
+          "'Navegar é preciso'",
+          "'Aqui nasceu Portugal'"
+        ],
+        "options": [
+          "'Enterrar os mortos e cuidar dos vivos'",
+          "'Navegar é preciso'",
+          "'Aqui nasceu Portugal'"
+        ],
+        "resposta": "'Enterrar os mortos e cuidar dos vivos'",
+        "correctAnswer": "'Enterrar os mortos e cuidar dos vivos'",
+        "explicacao": "Mostrou a sua determinação e liderança imediata face à tragédia.",
+        "explanation": "Mostrou a sua determinação e liderança imediata face à tragédia."
+      },
+      {
+        "id": "em_4_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A 'Gaiola Pombalina' é uma estrutura de madeira flexível no interior das paredes para resistir a futuros terramotos.",
+        "question": "A 'Gaiola Pombalina' é uma estrutura de madeira flexível no interior das paredes para resistir a futuros terramotos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Foi uma das primeiras engenharias de construção anti-sísmica do mundo.",
+        "explanation": "Verdadeiro! Foi uma das primeiras engenharias de construção anti-sísmica do mundo."
+      },
+      {
+        "id": "em_4_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A grande praça aberta junto ao Tejo em Lisboa construída na Baixa Pombalina chama-se...",
+        "question": "A grande praça aberta junto ao Tejo em Lisboa construída na Baixa Pombalina chama-se...",
+        "resposta": "Praça do Comércio (Terreiro do Paço)",
+        "correctAnswer": "Praça do Comércio (Terreiro do Paço)",
+        "explicacao": "Com a estátua equestre de D. José I e o Arco da Rua Augusta!",
+        "explanation": "Com a estátua equestre de D. José I e o Arco da Rua Augusta!"
+      },
+      {
+        "id": "em_4_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a data histórica ao acontecimento:",
+        "question": "Associa a data histórica ao acontecimento:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da História Moderna de Portugal!",
+        "explanation": "Excelente domínio da História Moderna de Portugal!",
+        "pairs": {
+          "1640": "Restauração da Independência de Portugal",
+          "1755": "Grande Terramoto de Lisboa",
+          "Marquês de Pombal": "Reconstrução da Baixa com avenidas retas",
+          "D. João IV": "Aclamação do Duque de Bragança como Rei"
+        },
+        "pares": {
+          "1640": "Restauração da Independência de Portugal",
+          "1755": "Grande Terramoto de Lisboa",
+          "Marquês de Pombal": "Reconstrução da Baixa com avenidas retas",
+          "D. João IV": "Aclamação do Duque de Bragança como Rei"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f5",
+    "numero": 5,
+    "titulo": "A República (1910) e a Democracia (25 de Abril de 1974)",
+    "title": "A República (1910) e a Democracia (25 de Abril de 1974)",
+    "descricao": "O 5 de Outubro de 1910, o Estado Novo, a Revolução dos Cravos e a conquista da Liberdade.",
+    "description": "O 5 de Outubro de 1910, o Estado Novo, a Revolução dos Cravos e a conquista da Liberdade.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🌺",
+    "imageEmoji": "🌺",
+    "exercicios": [
+      {
+        "id": "em_4_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que se comemora no feriado do 5 de Outubro de 1910 em Portugal?",
+        "question": "O que se comemora no feriado do 5 de Outubro de 1910 em Portugal?",
+        "resposta": "A Implantação da República (fim da Monarquia)",
+        "correctAnswer": "A Implantação da República (fim da Monarquia)",
+        "explicacao": "Portugal deixou de ter Reis e passou a ser governado por Presidentes eleitos!",
+        "explanation": "Portugal deixou de ter Reis e passou a ser governado por Presidentes eleitos!"
+      },
+      {
+        "id": "em_4_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Revolução do 25 de Abril de 1974 ficou conhecida mundialmente como a 'Revolução dos Cravos'.",
+        "question": "A Revolução do 25 de Abril de 1974 ficou conhecida mundialmente como a 'Revolução dos Cravos'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os soldados colocaram cravos vermelhos nos canos das espingardas.",
+        "explanation": "Verdadeiro! Os soldados colocaram cravos vermelhos nos canos das espingardas."
+      },
+      {
+        "id": "em_4_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A senha musical transmitida na rádio que confirmou o arranque do 25 de Abril foi 'Grândola, Vila ___' de Zeca Afonso.",
+        "question": "A senha musical transmitida na rádio que confirmou o arranque do 25 de Abril foi 'Grândola, Vila ___' de Zeca Afonso.",
+        "opcoes": [
+          "Morena",
+          "Bela",
+          "Verde"
+        ],
+        "options": [
+          "Morena",
+          "Bela",
+          "Verde"
+        ],
+        "resposta": "Morena",
+        "correctAnswer": "Morena",
+        "explicacao": "'Grândola, Vila Morena, Terra da Fraternidade...'!",
+        "explanation": "'Grândola, Vila Morena, Terra da Fraternidade...'!"
+      },
+      {
+        "id": "em_4_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual flor símbolo da paz e liberdade foi distribuída aos militares em Lisboa em 1974?",
+        "question": "Qual flor símbolo da paz e liberdade foi distribuída aos militares em Lisboa em 1974?",
+        "opcoes": [
+          "🌺 Cravo Vermelho",
+          "🌻 Girassol",
+          "🌹 Rosa branca"
+        ],
+        "options": [
+          "🌺 Cravo Vermelho",
+          "🌻 Girassol",
+          "🌹 Rosa branca"
+        ],
+        "resposta": "🌺 Cravo Vermelho",
+        "correctAnswer": "🌺 Cravo Vermelho",
+        "explicacao": "O cravo vermelho simboliza a Revolução pacífica de Abril! 🌺",
+        "explanation": "O cravo vermelho simboliza a Revolução pacífica de Abril! 🌺"
+      },
+      {
+        "id": "em_4_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que conquistaram os cidadãos portugueses com o 25 de Abril de 1974?",
+        "question": "O que conquistaram os cidadãos portugueses com o 25 de Abril de 1974?",
+        "opcoes": [
+          "Democracia, Liberdade de expressão, eleições livres e fim da guerra colonial",
+          "Apenas uma bandeira nova",
+          "O direito a não ir à escola"
+        ],
+        "options": [
+          "Democracia, Liberdade de expressão, eleições livres e fim da guerra colonial",
+          "Apenas uma bandeira nova",
+          "O direito a não ir à escola"
+        ],
+        "resposta": "Democracia, Liberdade de expressão, eleições livres e fim da guerra colonial",
+        "correctAnswer": "Democracia, Liberdade de expressão, eleições livres e fim da guerra colonial",
+        "explicacao": "Restaurou todos os direitos cívicos, liberdade de imprensa e voto livre universal!",
+        "explanation": "Restaurou todos os direitos cívicos, liberdade de imprensa e voto livre universal!"
+      },
+      {
+        "id": "em_4_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Presidente da República Portuguesa e os Deputados da Assembleia são eleitos democraticamente pelo voto secreto de todos os cidadãos maiores de 18 anos.",
+        "question": "O Presidente da República Portuguesa e os Deputados da Assembleia são eleitos democraticamente pelo voto secreto de todos os cidadãos maiores de 18 anos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O sufrágio universal é a base da democracia portuguesa.",
+        "explanation": "Verdadeiro! O sufrágio universal é a base da democracia portuguesa."
+      },
+      {
+        "id": "em_4_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde se reúne o Parlamento de Portugal (Assembleia da República) em Lisboa?",
+        "question": "Onde se reúne o Parlamento de Portugal (Assembleia da República) em Lisboa?",
+        "opcoes": [
+          "No Palácio de São Bento",
+          "No Palácio de Belém",
+          "No Castelo de S. Jorge"
+        ],
+        "options": [
+          "No Palácio de São Bento",
+          "No Palácio de Belém",
+          "No Castelo de S. Jorge"
+        ],
+        "resposta": "No Palácio de São Bento",
+        "correctAnswer": "No Palácio de São Bento",
+        "explicacao": "Em São Bento reúnem-se os 230 deputados eleitos pelo povo português.",
+        "explanation": "Em São Bento reúnem-se os 230 deputados eleitos pelo povo português."
+      },
+      {
+        "id": "em_4_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as grandes datas cívicas de Portugal:",
+        "question": "Associa as grandes datas cívicas de Portugal:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecimento cívico e democrático de excelência!",
+        "explanation": "Conhecimento cívico e democrático de excelência!",
+        "pairs": {
+          "5 de Outubro de 1910": "Implantação da República",
+          "25 de Abril de 1974": "Revolução dos Cravos e Democracia",
+          "10 de Junho": "Dia de Portugal, de Camões e das Comunidades",
+          "1.º de Dezembro": "Restauração da Independência"
+        },
+        "pares": {
+          "5 de Outubro de 1910": "Implantação da República",
+          "25 de Abril de 1974": "Revolução dos Cravos e Democracia",
+          "10 de Junho": "Dia de Portugal, de Camões e das Comunidades",
+          "1.º de Dezembro": "Restauração da Independência"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que se comemora no feriado do 5 de Outubro de 1910 em Portugal?",
+        "question": "O que se comemora no feriado do 5 de Outubro de 1910 em Portugal?",
+        "resposta": "A Implantação da República (fim da Monarquia)",
+        "correctAnswer": "A Implantação da República (fim da Monarquia)",
+        "explicacao": "Portugal deixou de ter Reis e passou a ser governado por Presidentes eleitos!",
+        "explanation": "Portugal deixou de ter Reis e passou a ser governado por Presidentes eleitos!"
+      },
+      {
+        "id": "em_4_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Revolução do 25 de Abril de 1974 ficou conhecida mundialmente como a 'Revolução dos Cravos'.",
+        "question": "A Revolução do 25 de Abril de 1974 ficou conhecida mundialmente como a 'Revolução dos Cravos'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os soldados colocaram cravos vermelhos nos canos das espingardas.",
+        "explanation": "Verdadeiro! Os soldados colocaram cravos vermelhos nos canos das espingardas."
+      },
+      {
+        "id": "em_4_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A senha musical transmitida na rádio que confirmou o arranque do 25 de Abril foi 'Grândola, Vila ___' de Zeca Afonso.",
+        "question": "A senha musical transmitida na rádio que confirmou o arranque do 25 de Abril foi 'Grândola, Vila ___' de Zeca Afonso.",
+        "opcoes": [
+          "Morena",
+          "Bela",
+          "Verde"
+        ],
+        "options": [
+          "Morena",
+          "Bela",
+          "Verde"
+        ],
+        "resposta": "Morena",
+        "correctAnswer": "Morena",
+        "explicacao": "'Grândola, Vila Morena, Terra da Fraternidade...'!",
+        "explanation": "'Grândola, Vila Morena, Terra da Fraternidade...'!"
+      },
+      {
+        "id": "em_4_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual flor símbolo da paz e liberdade foi distribuída aos militares em Lisboa em 1974?",
+        "question": "Qual flor símbolo da paz e liberdade foi distribuída aos militares em Lisboa em 1974?",
+        "opcoes": [
+          "🌺 Cravo Vermelho",
+          "🌻 Girassol",
+          "🌹 Rosa branca"
+        ],
+        "options": [
+          "🌺 Cravo Vermelho",
+          "🌻 Girassol",
+          "🌹 Rosa branca"
+        ],
+        "resposta": "🌺 Cravo Vermelho",
+        "correctAnswer": "🌺 Cravo Vermelho",
+        "explicacao": "O cravo vermelho simboliza a Revolução pacífica de Abril! 🌺",
+        "explanation": "O cravo vermelho simboliza a Revolução pacífica de Abril! 🌺"
+      },
+      {
+        "id": "em_4_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que conquistaram os cidadãos portugueses com o 25 de Abril de 1974?",
+        "question": "O que conquistaram os cidadãos portugueses com o 25 de Abril de 1974?",
+        "opcoes": [
+          "Democracia, Liberdade de expressão, eleições livres e fim da guerra colonial",
+          "Apenas uma bandeira nova",
+          "O direito a não ir à escola"
+        ],
+        "options": [
+          "Democracia, Liberdade de expressão, eleições livres e fim da guerra colonial",
+          "Apenas uma bandeira nova",
+          "O direito a não ir à escola"
+        ],
+        "resposta": "Democracia, Liberdade de expressão, eleições livres e fim da guerra colonial",
+        "correctAnswer": "Democracia, Liberdade de expressão, eleições livres e fim da guerra colonial",
+        "explicacao": "Restaurou todos os direitos cívicos, liberdade de imprensa e voto livre universal!",
+        "explanation": "Restaurou todos os direitos cívicos, liberdade de imprensa e voto livre universal!"
+      },
+      {
+        "id": "em_4_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Presidente da República Portuguesa e os Deputados da Assembleia são eleitos democraticamente pelo voto secreto de todos os cidadãos maiores de 18 anos.",
+        "question": "O Presidente da República Portuguesa e os Deputados da Assembleia são eleitos democraticamente pelo voto secreto de todos os cidadãos maiores de 18 anos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O sufrágio universal é a base da democracia portuguesa.",
+        "explanation": "Verdadeiro! O sufrágio universal é a base da democracia portuguesa."
+      },
+      {
+        "id": "em_4_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde se reúne o Parlamento de Portugal (Assembleia da República) em Lisboa?",
+        "question": "Onde se reúne o Parlamento de Portugal (Assembleia da República) em Lisboa?",
+        "opcoes": [
+          "No Palácio de São Bento",
+          "No Palácio de Belém",
+          "No Castelo de S. Jorge"
+        ],
+        "options": [
+          "No Palácio de São Bento",
+          "No Palácio de Belém",
+          "No Castelo de S. Jorge"
+        ],
+        "resposta": "No Palácio de São Bento",
+        "correctAnswer": "No Palácio de São Bento",
+        "explicacao": "Em São Bento reúnem-se os 230 deputados eleitos pelo povo português.",
+        "explanation": "Em São Bento reúnem-se os 230 deputados eleitos pelo povo português."
+      },
+      {
+        "id": "em_4_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as grandes datas cívicas de Portugal:",
+        "question": "Associa as grandes datas cívicas de Portugal:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecimento cívico e democrático de excelência!",
+        "explanation": "Conhecimento cívico e democrático de excelência!",
+        "pairs": {
+          "5 de Outubro de 1910": "Implantação da República",
+          "25 de Abril de 1974": "Revolução dos Cravos e Democracia",
+          "10 de Junho": "Dia de Portugal, de Camões e das Comunidades",
+          "1.º de Dezembro": "Restauração da Independência"
+        },
+        "pares": {
+          "5 de Outubro de 1910": "Implantação da República",
+          "25 de Abril de 1974": "Revolução dos Cravos e Democracia",
+          "10 de Junho": "Dia de Portugal, de Camões e das Comunidades",
+          "1.º de Dezembro": "Restauração da Independência"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f6",
+    "numero": 6,
+    "titulo": "Regiões Autónomas: Açores e Madeira",
+    "title": "Regiões Autónomas: Açores e Madeira",
+    "descricao": "Os arquipélagos vulcânicos atlânticos, ilhas, laurissilva, lagoas e autogoverno.",
+    "description": "Os arquipélagos vulcânicos atlânticos, ilhas, laurissilva, lagoas e autogoverno.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🌋",
+    "imageEmoji": "🌋",
+    "exercicios": [
+      {
+        "id": "em_4_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas ilhas habitadas compõem o Arquipélago dos Açores no meio do Oceano Atlântico?",
+        "question": "Quantas ilhas habitadas compõem o Arquipélago dos Açores no meio do Oceano Atlântico?",
+        "opcoes": [
+          "9 Ilhas",
+          "7 Ilhas",
+          "12 Ilhas"
+        ],
+        "options": [
+          "9 Ilhas",
+          "7 Ilhas",
+          "12 Ilhas"
+        ],
+        "resposta": "9 Ilhas",
+        "correctAnswer": "9 Ilhas",
+        "explicacao": "Os Açores são formados por 9 ilhas divididas em 3 grupos: Ocidental, Central e Oriental!",
+        "explanation": "Os Açores são formados por 9 ilhas divididas em 3 grupos: Ocidental, Central e Oriental!"
+      },
+      {
+        "id": "em_4_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A floresta Laurissilva da Madeira é uma floresta húmida primitiva milenar classificada como Património Mundial da UNESCO.",
+        "question": "A floresta Laurissilva da Madeira é uma floresta húmida primitiva milenar classificada como Património Mundial da UNESCO.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É um tesouro natural único de vegetação relíquia.",
+        "explanation": "Verdadeiro! É um tesouro natural único de vegetação relíquia."
+      },
+      {
+        "id": "em_4_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A capital da Região Autónoma da Madeira, famosa pelo fogo-de-artifício de Ano Novo e flores, é o ___",
+        "question": "A capital da Região Autónoma da Madeira, famosa pelo fogo-de-artifício de Ano Novo e flores, é o ___",
+        "opcoes": [
+          "Funchal",
+          "Porto Santo",
+          "Ponta Delgada"
+        ],
+        "options": [
+          "Funchal",
+          "Porto Santo",
+          "Ponta Delgada"
+        ],
+        "resposta": "Funchal",
+        "correctAnswer": "Funchal",
+        "explicacao": "O Funchal é a bela capital madeirense!",
+        "explanation": "O Funchal é a bela capital madeirense!"
+      },
+      {
+        "id": "em_4_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que prato tradicional açoriano é cozinhado debaixo da terra com o calor do vapor dos vulcões nas Furnas?",
+        "question": "Que prato tradicional açoriano é cozinhado debaixo da terra com o calor do vapor dos vulcões nas Furnas?",
+        "resposta": "🍲 Cozido das Furnas (São Miguel)",
+        "correctAnswer": "🍲 Cozido das Furnas (São Miguel)",
+        "explicacao": "O Cozido das Furnas é cozinhado lentamente no calor geotérmico da terra! 🍲",
+        "explanation": "O Cozido das Furnas é cozinhado lentamente no calor geotérmico da terra! 🍲"
+      },
+      {
+        "id": "em_4_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quais são as duas ilhas habitadas que formam o Arquipélago da Madeira?",
+        "question": "Quais são as duas ilhas habitadas que formam o Arquipélago da Madeira?",
+        "opcoes": [
+          "Ilha da Madeira e Ilha de Porto Santo",
+          "São Miguel e Terceira",
+          "Pico e Faial"
+        ],
+        "options": [
+          "Ilha da Madeira e Ilha de Porto Santo",
+          "São Miguel e Terceira",
+          "Pico e Faial"
+        ],
+        "resposta": "Ilha da Madeira e Ilha de Porto Santo",
+        "correctAnswer": "Ilha da Madeira e Ilha de Porto Santo",
+        "explicacao": "A Madeira e a Ilha Dourada de Porto Santo (com praias de areia terapêutica)!",
+        "explanation": "A Madeira e a Ilha Dourada de Porto Santo (com praias de areia terapêutica)!"
+      },
+      {
+        "id": "em_4_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os Açores e a Madeira têm Governos e Assembleias Regionais próprios (Autonomia Político-Administrativa).",
+        "question": "Os Açores e a Madeira têm Governos e Assembleias Regionais próprios (Autonomia Político-Administrativa).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! São Regiões Autónomas da República Portuguesa.",
+        "explanation": "Verdadeiro! São Regiões Autónomas da República Portuguesa."
+      },
+      {
+        "id": "em_4_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A Lagoa das Sete Cidades na ilha de São Miguel é famosa pelas suas duas cores...",
+        "question": "A Lagoa das Sete Cidades na ilha de São Miguel é famosa pelas suas duas cores...",
+        "opcoes": [
+          "Uma lagoa Verde e uma lagoa Azul",
+          "Vermelha e Amarela",
+          "Preta e Branca"
+        ],
+        "options": [
+          "Uma lagoa Verde e uma lagoa Azul",
+          "Vermelha e Amarela",
+          "Preta e Branca"
+        ],
+        "resposta": "Uma lagoa Verde e uma lagoa Azul",
+        "correctAnswer": "Uma lagoa Verde e uma lagoa Azul",
+        "explicacao": "Uma paisagem natural deslumbrante no interior de uma caldeira vulcânica!",
+        "explanation": "Uma paisagem natural deslumbrante no interior de uma caldeira vulcânica!"
+      },
+      {
+        "id": "em_4_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o elemento ao arquipélago correto:",
+        "question": "Associa o elemento ao arquipélago correto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito conhecimento das nossas pérolas atlânticas!",
+        "explanation": "Perfeito conhecimento das nossas pérolas atlânticas!",
+        "pairs": {
+          "Montanha do Pico (2351 m)": "Arquipélago dos Açores",
+          "Floresta Laurissilva e Levadas": "Arquipélago da Madeira",
+          "Lagoa do Fogo e Furnas": "Arquipélago dos Açores",
+          "Carros de Cesto do Monte": "Arquipélago da Madeira"
+        },
+        "pares": {
+          "Montanha do Pico (2351 m)": "Arquipélago dos Açores",
+          "Floresta Laurissilva e Levadas": "Arquipélago da Madeira",
+          "Lagoa do Fogo e Furnas": "Arquipélago dos Açores",
+          "Carros de Cesto do Monte": "Arquipélago da Madeira"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas ilhas habitadas compõem o Arquipélago dos Açores no meio do Oceano Atlântico?",
+        "question": "Quantas ilhas habitadas compõem o Arquipélago dos Açores no meio do Oceano Atlântico?",
+        "opcoes": [
+          "9 Ilhas",
+          "7 Ilhas",
+          "12 Ilhas"
+        ],
+        "options": [
+          "9 Ilhas",
+          "7 Ilhas",
+          "12 Ilhas"
+        ],
+        "resposta": "9 Ilhas",
+        "correctAnswer": "9 Ilhas",
+        "explicacao": "Os Açores são formados por 9 ilhas divididas em 3 grupos: Ocidental, Central e Oriental!",
+        "explanation": "Os Açores são formados por 9 ilhas divididas em 3 grupos: Ocidental, Central e Oriental!"
+      },
+      {
+        "id": "em_4_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A floresta Laurissilva da Madeira é uma floresta húmida primitiva milenar classificada como Património Mundial da UNESCO.",
+        "question": "A floresta Laurissilva da Madeira é uma floresta húmida primitiva milenar classificada como Património Mundial da UNESCO.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É um tesouro natural único de vegetação relíquia.",
+        "explanation": "Verdadeiro! É um tesouro natural único de vegetação relíquia."
+      },
+      {
+        "id": "em_4_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A capital da Região Autónoma da Madeira, famosa pelo fogo-de-artifício de Ano Novo e flores, é o ___",
+        "question": "A capital da Região Autónoma da Madeira, famosa pelo fogo-de-artifício de Ano Novo e flores, é o ___",
+        "opcoes": [
+          "Funchal",
+          "Porto Santo",
+          "Ponta Delgada"
+        ],
+        "options": [
+          "Funchal",
+          "Porto Santo",
+          "Ponta Delgada"
+        ],
+        "resposta": "Funchal",
+        "correctAnswer": "Funchal",
+        "explicacao": "O Funchal é a bela capital madeirense!",
+        "explanation": "O Funchal é a bela capital madeirense!"
+      },
+      {
+        "id": "em_4_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que prato tradicional açoriano é cozinhado debaixo da terra com o calor do vapor dos vulcões nas Furnas?",
+        "question": "Que prato tradicional açoriano é cozinhado debaixo da terra com o calor do vapor dos vulcões nas Furnas?",
+        "resposta": "🍲 Cozido das Furnas (São Miguel)",
+        "correctAnswer": "🍲 Cozido das Furnas (São Miguel)",
+        "explicacao": "O Cozido das Furnas é cozinhado lentamente no calor geotérmico da terra! 🍲",
+        "explanation": "O Cozido das Furnas é cozinhado lentamente no calor geotérmico da terra! 🍲"
+      },
+      {
+        "id": "em_4_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quais são as duas ilhas habitadas que formam o Arquipélago da Madeira?",
+        "question": "Quais são as duas ilhas habitadas que formam o Arquipélago da Madeira?",
+        "opcoes": [
+          "Ilha da Madeira e Ilha de Porto Santo",
+          "São Miguel e Terceira",
+          "Pico e Faial"
+        ],
+        "options": [
+          "Ilha da Madeira e Ilha de Porto Santo",
+          "São Miguel e Terceira",
+          "Pico e Faial"
+        ],
+        "resposta": "Ilha da Madeira e Ilha de Porto Santo",
+        "correctAnswer": "Ilha da Madeira e Ilha de Porto Santo",
+        "explicacao": "A Madeira e a Ilha Dourada de Porto Santo (com praias de areia terapêutica)!",
+        "explanation": "A Madeira e a Ilha Dourada de Porto Santo (com praias de areia terapêutica)!"
+      },
+      {
+        "id": "em_4_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os Açores e a Madeira têm Governos e Assembleias Regionais próprios (Autonomia Político-Administrativa).",
+        "question": "Os Açores e a Madeira têm Governos e Assembleias Regionais próprios (Autonomia Político-Administrativa).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! São Regiões Autónomas da República Portuguesa.",
+        "explanation": "Verdadeiro! São Regiões Autónomas da República Portuguesa."
+      },
+      {
+        "id": "em_4_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A Lagoa das Sete Cidades na ilha de São Miguel é famosa pelas suas duas cores...",
+        "question": "A Lagoa das Sete Cidades na ilha de São Miguel é famosa pelas suas duas cores...",
+        "opcoes": [
+          "Uma lagoa Verde e uma lagoa Azul",
+          "Vermelha e Amarela",
+          "Preta e Branca"
+        ],
+        "options": [
+          "Uma lagoa Verde e uma lagoa Azul",
+          "Vermelha e Amarela",
+          "Preta e Branca"
+        ],
+        "resposta": "Uma lagoa Verde e uma lagoa Azul",
+        "correctAnswer": "Uma lagoa Verde e uma lagoa Azul",
+        "explicacao": "Uma paisagem natural deslumbrante no interior de uma caldeira vulcânica!",
+        "explanation": "Uma paisagem natural deslumbrante no interior de uma caldeira vulcânica!"
+      },
+      {
+        "id": "em_4_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o elemento ao arquipélago correto:",
+        "question": "Associa o elemento ao arquipélago correto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito conhecimento das nossas pérolas atlânticas!",
+        "explanation": "Perfeito conhecimento das nossas pérolas atlânticas!",
+        "pairs": {
+          "Montanha do Pico (2351 m)": "Arquipélago dos Açores",
+          "Floresta Laurissilva e Levadas": "Arquipélago da Madeira",
+          "Lagoa do Fogo e Furnas": "Arquipélago dos Açores",
+          "Carros de Cesto do Monte": "Arquipélago da Madeira"
+        },
+        "pares": {
+          "Montanha do Pico (2351 m)": "Arquipélago dos Açores",
+          "Floresta Laurissilva e Levadas": "Arquipélago da Madeira",
+          "Lagoa do Fogo e Furnas": "Arquipélago dos Açores",
+          "Carros de Cesto do Monte": "Arquipélago da Madeira"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f7",
+    "numero": 7,
+    "titulo": "Portugal na Europa (União Europeia) e no Mundo (CPLP)",
+    "title": "Portugal na Europa (União Europeia) e no Mundo (CPLP)",
+    "descricao": "A União Europeia (UE), moeda Euro, países vizinhos e a Comunidade dos Países de Língua Portuguesa.",
+    "description": "A União Europeia (UE), moeda Euro, países vizinhos e a Comunidade dos Países de Língua Portuguesa.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🇪🇺",
+    "imageEmoji": "🇪🇺",
+    "exercicios": [
+      {
+        "id": "em_4_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em que ano aderiu Portugal à União Europeia (na altura CEE)?",
+        "question": "Em que ano aderiu Portugal à União Europeia (na altura CEE)?",
+        "opcoes": [
+          "1986",
+          "2000",
+          "1974"
+        ],
+        "options": [
+          "1986",
+          "2000",
+          "1974"
+        ],
+        "resposta": "1986",
+        "correctAnswer": "1986",
+        "explicacao": "Portugal aderiu à União Europeia em 1 de Janeiro de 1986!",
+        "explanation": "Portugal aderiu à União Europeia em 1 de Janeiro de 1986!"
+      },
+      {
+        "id": "em_4_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A moeda oficial partilhada por Portugal e pela maioria dos países da União Europeia é o Euro (€).",
+        "question": "A moeda oficial partilhada por Portugal e pela maioria dos países da União Europeia é o Euro (€).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Euro entrou em circulação no dia 1 de Janeiro de 2002.",
+        "explanation": "Verdadeiro! O Euro entrou em circulação no dia 1 de Janeiro de 2002."
+      },
+      {
+        "id": "em_4_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A Comunidade de Países que partilham a Língua Portuguesa como língua oficial chama-se ___",
+        "question": "A Comunidade de Países que partilham a Língua Portuguesa como língua oficial chama-se ___",
+        "opcoes": [
+          "CPLP",
+          "ONU",
+          "OTAN"
+        ],
+        "options": [
+          "CPLP",
+          "ONU",
+          "OTAN"
+        ],
+        "resposta": "CPLP",
+        "correctAnswer": "CPLP",
+        "explicacao": "CPLP = Comunidade dos Países de Língua Portuguesa (mais de 260 milhões de falantes)!",
+        "explanation": "CPLP = Comunidade dos Países de Língua Portuguesa (mais de 260 milhões de falantes)!"
+      },
+      {
+        "id": "em_4_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes países é o único país com o qual Portugal faz fronteira terrestre?",
+        "question": "Qual destes países é o único país com o qual Portugal faz fronteira terrestre?",
+        "opcoes": [
+          "🇪🇸 Espanha",
+          "🇫🇷 França",
+          "🇮🇹 Itália"
+        ],
+        "options": [
+          "🇪🇸 Espanha",
+          "🇫🇷 França",
+          "🇮🇹 Itália"
+        ],
+        "resposta": "🇪🇸 Espanha",
+        "correctAnswer": "🇪🇸 Espanha",
+        "explicacao": "Portugal e Espanha partilham a Península Ibérica e a 'Raia' fronteiriça! 🇪🇸",
+        "explanation": "Portugal e Espanha partilham a Península Ibérica e a 'Raia' fronteiriça! 🇪🇸"
+      },
+      {
+        "id": "em_4_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o maior país de língua oficial portuguesa no continente americano?",
+        "question": "Qual é o maior país de língua oficial portuguesa no continente americano?",
+        "opcoes": [
+          "Brasil",
+          "Angola",
+          "Cabo Verde"
+        ],
+        "options": [
+          "Brasil",
+          "Angola",
+          "Cabo Verde"
+        ],
+        "resposta": "Brasil",
+        "correctAnswer": "Brasil",
+        "explicacao": "O Brasil é o país com a maior população de língua portuguesa no planeta!",
+        "explanation": "O Brasil é o país com a maior população de língua portuguesa no planeta!"
+      },
+      {
+        "id": "em_4_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Espaço Schengen da União Europeia permite a livre circulação de pessoas sem controlo de fronteiras internas.",
+        "question": "O Espaço Schengen da União Europeia permite a livre circulação de pessoas sem controlo de fronteiras internas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Podemos viajar entre países europeus com liberdade.",
+        "explanation": "Verdadeiro! Podemos viajar entre países europeus com liberdade."
+      },
+      {
+        "id": "em_4_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas estrelas douradas em círculo tem a bandeira azul da União Europeia?",
+        "question": "Quantas estrelas douradas em círculo tem a bandeira azul da União Europeia?",
+        "opcoes": [
+          "12 estrelas",
+          "27 estrelas",
+          "15 estrelas"
+        ],
+        "options": [
+          "12 estrelas",
+          "27 estrelas",
+          "15 estrelas"
+        ],
+        "resposta": "12 estrelas",
+        "correctAnswer": "12 estrelas",
+        "explicacao": "O círculo de 12 estrelas simboliza a união, solidariedade e harmonia dos povos europeus.",
+        "explanation": "O círculo de 12 estrelas simboliza a união, solidariedade e harmonia dos povos europeus."
+      },
+      {
+        "id": "em_4_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o país de língua portuguesa ao seu continente:",
+        "question": "Associa o país de língua portuguesa ao seu continente:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente visão geopolítica de Portugal na Europa e no Mundo!",
+        "explanation": "Excelente visão geopolítica de Portugal na Europa e no Mundo!",
+        "pairs": {
+          "Angola e Moçambique": "África",
+          "Brasil": "América do Sul",
+          "Portugal": "Europa",
+          "Timor-Leste": "Ásia / Oceânia"
+        },
+        "pares": {
+          "Angola e Moçambique": "África",
+          "Brasil": "América do Sul",
+          "Portugal": "Europa",
+          "Timor-Leste": "Ásia / Oceânia"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em que ano aderiu Portugal à União Europeia (na altura CEE)?",
+        "question": "Em que ano aderiu Portugal à União Europeia (na altura CEE)?",
+        "opcoes": [
+          "1986",
+          "2000",
+          "1974"
+        ],
+        "options": [
+          "1986",
+          "2000",
+          "1974"
+        ],
+        "resposta": "1986",
+        "correctAnswer": "1986",
+        "explicacao": "Portugal aderiu à União Europeia em 1 de Janeiro de 1986!",
+        "explanation": "Portugal aderiu à União Europeia em 1 de Janeiro de 1986!"
+      },
+      {
+        "id": "em_4_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A moeda oficial partilhada por Portugal e pela maioria dos países da União Europeia é o Euro (€).",
+        "question": "A moeda oficial partilhada por Portugal e pela maioria dos países da União Europeia é o Euro (€).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Euro entrou em circulação no dia 1 de Janeiro de 2002.",
+        "explanation": "Verdadeiro! O Euro entrou em circulação no dia 1 de Janeiro de 2002."
+      },
+      {
+        "id": "em_4_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A Comunidade de Países que partilham a Língua Portuguesa como língua oficial chama-se ___",
+        "question": "A Comunidade de Países que partilham a Língua Portuguesa como língua oficial chama-se ___",
+        "opcoes": [
+          "CPLP",
+          "ONU",
+          "OTAN"
+        ],
+        "options": [
+          "CPLP",
+          "ONU",
+          "OTAN"
+        ],
+        "resposta": "CPLP",
+        "correctAnswer": "CPLP",
+        "explicacao": "CPLP = Comunidade dos Países de Língua Portuguesa (mais de 260 milhões de falantes)!",
+        "explanation": "CPLP = Comunidade dos Países de Língua Portuguesa (mais de 260 milhões de falantes)!"
+      },
+      {
+        "id": "em_4_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes países é o único país com o qual Portugal faz fronteira terrestre?",
+        "question": "Qual destes países é o único país com o qual Portugal faz fronteira terrestre?",
+        "opcoes": [
+          "🇪🇸 Espanha",
+          "🇫🇷 França",
+          "🇮🇹 Itália"
+        ],
+        "options": [
+          "🇪🇸 Espanha",
+          "🇫🇷 França",
+          "🇮🇹 Itália"
+        ],
+        "resposta": "🇪🇸 Espanha",
+        "correctAnswer": "🇪🇸 Espanha",
+        "explicacao": "Portugal e Espanha partilham a Península Ibérica e a 'Raia' fronteiriça! 🇪🇸",
+        "explanation": "Portugal e Espanha partilham a Península Ibérica e a 'Raia' fronteiriça! 🇪🇸"
+      },
+      {
+        "id": "em_4_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o maior país de língua oficial portuguesa no continente americano?",
+        "question": "Qual é o maior país de língua oficial portuguesa no continente americano?",
+        "opcoes": [
+          "Brasil",
+          "Angola",
+          "Cabo Verde"
+        ],
+        "options": [
+          "Brasil",
+          "Angola",
+          "Cabo Verde"
+        ],
+        "resposta": "Brasil",
+        "correctAnswer": "Brasil",
+        "explicacao": "O Brasil é o país com a maior população de língua portuguesa no planeta!",
+        "explanation": "O Brasil é o país com a maior população de língua portuguesa no planeta!"
+      },
+      {
+        "id": "em_4_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Espaço Schengen da União Europeia permite a livre circulação de pessoas sem controlo de fronteiras internas.",
+        "question": "O Espaço Schengen da União Europeia permite a livre circulação de pessoas sem controlo de fronteiras internas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Podemos viajar entre países europeus com liberdade.",
+        "explanation": "Verdadeiro! Podemos viajar entre países europeus com liberdade."
+      },
+      {
+        "id": "em_4_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas estrelas douradas em círculo tem a bandeira azul da União Europeia?",
+        "question": "Quantas estrelas douradas em círculo tem a bandeira azul da União Europeia?",
+        "opcoes": [
+          "12 estrelas",
+          "27 estrelas",
+          "15 estrelas"
+        ],
+        "options": [
+          "12 estrelas",
+          "27 estrelas",
+          "15 estrelas"
+        ],
+        "resposta": "12 estrelas",
+        "correctAnswer": "12 estrelas",
+        "explicacao": "O círculo de 12 estrelas simboliza a união, solidariedade e harmonia dos povos europeus.",
+        "explanation": "O círculo de 12 estrelas simboliza a união, solidariedade e harmonia dos povos europeus."
+      },
+      {
+        "id": "em_4_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o país de língua portuguesa ao seu continente:",
+        "question": "Associa o país de língua portuguesa ao seu continente:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente visão geopolítica de Portugal na Europa e no Mundo!",
+        "explanation": "Excelente visão geopolítica de Portugal na Europa e no Mundo!",
+        "pairs": {
+          "Angola e Moçambique": "África",
+          "Brasil": "América do Sul",
+          "Portugal": "Europa",
+          "Timor-Leste": "Ásia / Oceânia"
+        },
+        "pares": {
+          "Angola e Moçambique": "África",
+          "Brasil": "América do Sul",
+          "Portugal": "Europa",
+          "Timor-Leste": "Ásia / Oceânia"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f8",
+    "numero": 8,
+    "titulo": "O Sistema Reprodutor e a Transmissão da Vida",
+    "title": "O Sistema Reprodutor e a Transmissão da Vida",
+    "descricao": "Células sexuais (óvulo e espermatozoide), fecundação, gravidez, parto e puberdade.",
+    "description": "Células sexuais (óvulo e espermatozoide), fecundação, gravidez, parto e puberdade.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "👶",
+    "imageEmoji": "👶",
+    "exercicios": [
+      {
+        "id": "em_4_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o encontro e união do óvulo feminino com o espermatozoide masculino?",
+        "question": "Como se chama o encontro e união do óvulo feminino com o espermatozoide masculino?",
+        "opcoes": [
+          "Fecundação",
+          "Digestão",
+          "Respiração"
+        ],
+        "options": [
+          "Fecundação",
+          "Digestão",
+          "Respiração"
+        ],
+        "resposta": "Fecundação",
+        "correctAnswer": "Fecundação",
+        "explicacao": "A fecundação dá origem à primeira célula de um novo ser humano: o ovo ou zigoto!",
+        "explanation": "A fecundação dá origem à primeira célula de um novo ser humano: o ovo ou zigoto!"
+      },
+      {
+        "id": "em_4_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O embrião humano desenvolve-se no interior do Útero da mãe durante cerca de 9 meses (gravidez).",
+        "question": "O embrião humano desenvolve-se no interior do Útero da mãe durante cerca de 9 meses (gravidez).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O útero acolhe, protege e alimenta o feto durante 40 semanas.",
+        "explanation": "Verdadeiro! O útero acolhe, protege e alimenta o feto durante 40 semanas."
+      },
+      {
+        "id": "em_4_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O cordão que liga o feto à placenta da mãe para receber nutrientes e oxigénio chama-se cordão ___",
+        "question": "O cordão que liga o feto à placenta da mãe para receber nutrientes e oxigénio chama-se cordão ___",
+        "opcoes": [
+          "umbilical",
+          "vertebral",
+          "espinhal"
+        ],
+        "options": [
+          "umbilical",
+          "vertebral",
+          "espinhal"
+        ],
+        "resposta": "umbilical",
+        "correctAnswer": "umbilical",
+        "explicacao": "O cordão umbilical é o canal de vida entre mãe e filho.",
+        "explanation": "O cordão umbilical é o canal de vida entre mãe e filho."
+      },
+      {
+        "id": "em_4_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que célula reprodutiva feminina é produzida nos ovários?",
+        "question": "Que célula reprodutiva feminina é produzida nos ovários?",
+        "opcoes": [
+          "🥚 Óvulo",
+          "🧬 Espermatozoide",
+          "🩸 Glóbulo vermelho"
+        ],
+        "options": [
+          "🥚 Óvulo",
+          "🧬 Espermatozoide",
+          "🩸 Glóbulo vermelho"
+        ],
+        "resposta": "🥚 Óvulo",
+        "correctAnswer": "🥚 Óvulo",
+        "explicacao": "O óvulo é a célula reprodutora feminina! 🥚",
+        "explanation": "O óvulo é a célula reprodutora feminina! 🥚"
+      },
+      {
+        "id": "em_4_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A fase de transição da infância para a adolescência em que o corpo muda chama-se...",
+        "question": "A fase de transição da infância para a adolescência em que o corpo muda chama-se...",
+        "opcoes": [
+          "Puberdade",
+          "Metamorfose",
+          "Geriatria"
+        ],
+        "options": [
+          "Puberdade",
+          "Metamorfose",
+          "Geriatria"
+        ],
+        "resposta": "Puberdade",
+        "correctAnswer": "Puberdade",
+        "explicacao": "Na puberdade ocorrem transformações físicas e hormonais normais do crescimento.",
+        "explanation": "Na puberdade ocorrem transformações físicas e hormonais normais do crescimento."
+      },
+      {
+        "id": "em_4_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O leite materno é o alimento ideal e mais completo para os bebés nos primeiros meses de vida.",
+        "question": "O leite materno é o alimento ideal e mais completo para os bebés nos primeiros meses de vida.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Fornece todos os nutrientes e anticorpos essenciais.",
+        "explanation": "Verdadeiro! Fornece todos os nutrientes e anticorpos essenciais."
+      },
+      {
+        "id": "em_4_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O nascimento de um bebé no final do período de gestação chama-se...",
+        "question": "O nascimento de um bebé no final do período de gestação chama-se...",
+        "opcoes": [
+          "Parto",
+          "Germinação",
+          "Eclosão"
+        ],
+        "options": [
+          "Parto",
+          "Germinação",
+          "Eclosão"
+        ],
+        "resposta": "Parto",
+        "correctAnswer": "Parto",
+        "explicacao": "O parto assinala o nascimento de uma nova vida humana no mundo.",
+        "explanation": "O parto assinala o nascimento de uma nova vida humana no mundo."
+      },
+      {
+        "id": "em_4_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os conceitos da reprodução humana:",
+        "question": "Associa os conceitos da reprodução humana:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento biológico com respeito e rigor científico!",
+        "explanation": "Excelente conhecimento biológico com respeito e rigor científico!",
+        "pairs": {
+          "Fecundação": "União do óvulo com o espermatozoide",
+          "Útero": "Órgão materno onde o feto cresce",
+          "Placenta e Cordão Umbilical": "Nutrição e oxigenação do bebé",
+          "Gestação / Gravidez": "Período de cerca de 9 meses até ao parto"
+        },
+        "pares": {
+          "Fecundação": "União do óvulo com o espermatozoide",
+          "Útero": "Órgão materno onde o feto cresce",
+          "Placenta e Cordão Umbilical": "Nutrição e oxigenação do bebé",
+          "Gestação / Gravidez": "Período de cerca de 9 meses até ao parto"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o encontro e união do óvulo feminino com o espermatozoide masculino?",
+        "question": "Como se chama o encontro e união do óvulo feminino com o espermatozoide masculino?",
+        "opcoes": [
+          "Fecundação",
+          "Digestão",
+          "Respiração"
+        ],
+        "options": [
+          "Fecundação",
+          "Digestão",
+          "Respiração"
+        ],
+        "resposta": "Fecundação",
+        "correctAnswer": "Fecundação",
+        "explicacao": "A fecundação dá origem à primeira célula de um novo ser humano: o ovo ou zigoto!",
+        "explanation": "A fecundação dá origem à primeira célula de um novo ser humano: o ovo ou zigoto!"
+      },
+      {
+        "id": "em_4_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O embrião humano desenvolve-se no interior do Útero da mãe durante cerca de 9 meses (gravidez).",
+        "question": "O embrião humano desenvolve-se no interior do Útero da mãe durante cerca de 9 meses (gravidez).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O útero acolhe, protege e alimenta o feto durante 40 semanas.",
+        "explanation": "Verdadeiro! O útero acolhe, protege e alimenta o feto durante 40 semanas."
+      },
+      {
+        "id": "em_4_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O cordão que liga o feto à placenta da mãe para receber nutrientes e oxigénio chama-se cordão ___",
+        "question": "O cordão que liga o feto à placenta da mãe para receber nutrientes e oxigénio chama-se cordão ___",
+        "opcoes": [
+          "umbilical",
+          "vertebral",
+          "espinhal"
+        ],
+        "options": [
+          "umbilical",
+          "vertebral",
+          "espinhal"
+        ],
+        "resposta": "umbilical",
+        "correctAnswer": "umbilical",
+        "explicacao": "O cordão umbilical é o canal de vida entre mãe e filho.",
+        "explanation": "O cordão umbilical é o canal de vida entre mãe e filho."
+      },
+      {
+        "id": "em_4_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que célula reprodutiva feminina é produzida nos ovários?",
+        "question": "Que célula reprodutiva feminina é produzida nos ovários?",
+        "opcoes": [
+          "🥚 Óvulo",
+          "🧬 Espermatozoide",
+          "🩸 Glóbulo vermelho"
+        ],
+        "options": [
+          "🥚 Óvulo",
+          "🧬 Espermatozoide",
+          "🩸 Glóbulo vermelho"
+        ],
+        "resposta": "🥚 Óvulo",
+        "correctAnswer": "🥚 Óvulo",
+        "explicacao": "O óvulo é a célula reprodutora feminina! 🥚",
+        "explanation": "O óvulo é a célula reprodutora feminina! 🥚"
+      },
+      {
+        "id": "em_4_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A fase de transição da infância para a adolescência em que o corpo muda chama-se...",
+        "question": "A fase de transição da infância para a adolescência em que o corpo muda chama-se...",
+        "opcoes": [
+          "Puberdade",
+          "Metamorfose",
+          "Geriatria"
+        ],
+        "options": [
+          "Puberdade",
+          "Metamorfose",
+          "Geriatria"
+        ],
+        "resposta": "Puberdade",
+        "correctAnswer": "Puberdade",
+        "explicacao": "Na puberdade ocorrem transformações físicas e hormonais normais do crescimento.",
+        "explanation": "Na puberdade ocorrem transformações físicas e hormonais normais do crescimento."
+      },
+      {
+        "id": "em_4_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O leite materno é o alimento ideal e mais completo para os bebés nos primeiros meses de vida.",
+        "question": "O leite materno é o alimento ideal e mais completo para os bebés nos primeiros meses de vida.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Fornece todos os nutrientes e anticorpos essenciais.",
+        "explanation": "Verdadeiro! Fornece todos os nutrientes e anticorpos essenciais."
+      },
+      {
+        "id": "em_4_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O nascimento de um bebé no final do período de gestação chama-se...",
+        "question": "O nascimento de um bebé no final do período de gestação chama-se...",
+        "opcoes": [
+          "Parto",
+          "Germinação",
+          "Eclosão"
+        ],
+        "options": [
+          "Parto",
+          "Germinação",
+          "Eclosão"
+        ],
+        "resposta": "Parto",
+        "correctAnswer": "Parto",
+        "explicacao": "O parto assinala o nascimento de uma nova vida humana no mundo.",
+        "explanation": "O parto assinala o nascimento de uma nova vida humana no mundo."
+      },
+      {
+        "id": "em_4_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os conceitos da reprodução humana:",
+        "question": "Associa os conceitos da reprodução humana:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento biológico com respeito e rigor científico!",
+        "explanation": "Excelente conhecimento biológico com respeito e rigor científico!",
+        "pairs": {
+          "Fecundação": "União do óvulo com o espermatozoide",
+          "Útero": "Órgão materno onde o feto cresce",
+          "Placenta e Cordão Umbilical": "Nutrição e oxigenação do bebé",
+          "Gestação / Gravidez": "Período de cerca de 9 meses até ao parto"
+        },
+        "pares": {
+          "Fecundação": "União do óvulo com o espermatozoide",
+          "Útero": "Órgão materno onde o feto cresce",
+          "Placenta e Cordão Umbilical": "Nutrição e oxigenação do bebé",
+          "Gestação / Gravidez": "Período de cerca de 9 meses até ao parto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f9",
+    "numero": 9,
+    "titulo": "Integração dos Sistemas do Corpo Humano",
+    "title": "Integração dos Sistemas do Corpo Humano",
+    "descricao": "O Sistema Nervoso (cérebro e medula) a coordenar Digestão, Circulação e Respiração.",
+    "description": "O Sistema Nervoso (cérebro e medula) a coordenar Digestão, Circulação e Respiração.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🧠",
+    "imageEmoji": "🧠",
+    "exercicios": [
+      {
+        "id": "em_4_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o órgão central do Sistema Nervoso que processa pensamentos, memórias e comanda todo o corpo?",
+        "question": "Qual é o órgão central do Sistema Nervoso que processa pensamentos, memórias e comanda todo o corpo?",
+        "opcoes": [
+          "Cérebro",
+          "Coração",
+          "Estômago"
+        ],
+        "options": [
+          "Cérebro",
+          "Coração",
+          "Estômago"
+        ],
+        "resposta": "Cérebro",
+        "correctAnswer": "Cérebro",
+        "explicacao": "O cérebro é o 'computador mestre' que comanda todas as funções do nosso corpo!",
+        "explanation": "O cérebro é o 'computador mestre' que comanda todas as funções do nosso corpo!"
+      },
+      {
+        "id": "em_4_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os nervos funcionam como fios elétricos biológicos que transmitem mensagens instantâneas entre o cérebro e os músculos.",
+        "question": "Os nervos funcionam como fios elétricos biológicos que transmitem mensagens instantâneas entre o cérebro e os músculos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os impulsos nervosos viajam a centenas de quilómetros por hora.",
+        "explanation": "Verdadeiro! Os impulsos nervosos viajam a centenas de quilómetros por hora."
+      },
+      {
+        "id": "em_4_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A coluna vertebral abriga e protege a medula ___, canal principal de comunicação nervosa.",
+        "question": "A coluna vertebral abriga e protege a medula ___, canal principal de comunicação nervosa.",
+        "opcoes": [
+          "espinal / espinhal",
+          "óssea",
+          "digestiva"
+        ],
+        "options": [
+          "espinal / espinhal",
+          "óssea",
+          "digestiva"
+        ],
+        "resposta": "espinal / espinhal",
+        "correctAnswer": "espinal / espinhal",
+        "explicacao": "A medula espinal liga o cérebro a todos os nervos do corpo.",
+        "explanation": "A medula espinal liga o cérebro a todos os nervos do corpo."
+      },
+      {
+        "id": "em_4_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual sistema capta o oxigénio que o sangue circulatório levará às células do cérebro?",
+        "question": "Qual sistema capta o oxigénio que o sangue circulatório levará às células do cérebro?",
+        "opcoes": [
+          "🫁 Sistema Respiratório",
+          "🦴 Sistema Ósseo",
+          "🦷 Sistema Dentário"
+        ],
+        "options": [
+          "🫁 Sistema Respiratório",
+          "🦴 Sistema Ósseo",
+          "🦷 Sistema Dentário"
+        ],
+        "resposta": "🫁 Sistema Respiratório",
+        "correctAnswer": "🫁 Sistema Respiratório",
+        "explicacao": "Os sistemas respiratório e circulatório trabalham em harmonia perfeita! 🫁",
+        "explanation": "Os sistemas respiratório e circulatório trabalham em harmonia perfeita! 🫁"
+      },
+      {
+        "id": "em_4_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a resposta automática e imediata de retirar a mão do lume quente sem pensar?",
+        "question": "Como se chama a resposta automática e imediata de retirar a mão do lume quente sem pensar?",
+        "opcoes": [
+          "Ato Reflexo",
+          "Digestão voluntária",
+          "Sono"
+        ],
+        "options": [
+          "Ato Reflexo",
+          "Digestão voluntária",
+          "Sono"
+        ],
+        "resposta": "Ato Reflexo",
+        "correctAnswer": "Ato Reflexo",
+        "explicacao": "O ato reflexo protege o corpo de queimaduras e perigos imediatos!",
+        "explanation": "O ato reflexo protege o corpo de queimaduras e perigos imediatos!"
+      },
+      {
+        "id": "em_4_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O cérebro precisa de oxigénio, água, glicose e bom sono para ter excelente concentração e memória.",
+        "question": "O cérebro precisa de oxigénio, água, glicose e bom sono para ter excelente concentração e memória.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Uma mente saudável precisa de boa nutrição e descanso.",
+        "explanation": "Verdadeiro! Uma mente saudável precisa de boa nutrição e descanso."
+      },
+      {
+        "id": "em_4_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os 5 órgãos dos sentidos enviam sinais ao cérebro através de...",
+        "question": "Os 5 órgãos dos sentidos enviam sinais ao cérebro através de...",
+        "opcoes": [
+          "Nervos sensitivos",
+          "Veias de ar",
+          "Ossos ocos"
+        ],
+        "options": [
+          "Nervos sensitivos",
+          "Veias de ar",
+          "Ossos ocos"
+        ],
+        "resposta": "Nervos sensitivos",
+        "correctAnswer": "Nervos sensitivos",
+        "explicacao": "Os recetores sensoriais transmitem luz, som, cheiro, sabor e tato ao cérebro.",
+        "explanation": "Os recetores sensoriais transmitem luz, som, cheiro, sabor e tato ao cérebro."
+      },
+      {
+        "id": "em_4_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o sistema à sua missão no organismo:",
+        "question": "Associa o sistema à sua missão no organismo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Compreensão exemplar da unidade biológica do corpo humano!",
+        "explanation": "Compreensão exemplar da unidade biológica do corpo humano!",
+        "pairs": {
+          "Sistema Nervoso": "Coordenação, sentidos e comando central",
+          "Sistema Circulatório": "Transporte de sangue, oxigénio e nutrientes",
+          "Sistema Respiratório": "Trocas gasosas de oxigénio e CO2",
+          "Sistema Digestivo": "Transformação e absorção dos alimentos"
+        },
+        "pares": {
+          "Sistema Nervoso": "Coordenação, sentidos e comando central",
+          "Sistema Circulatório": "Transporte de sangue, oxigénio e nutrientes",
+          "Sistema Respiratório": "Trocas gasosas de oxigénio e CO2",
+          "Sistema Digestivo": "Transformação e absorção dos alimentos"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o órgão central do Sistema Nervoso que processa pensamentos, memórias e comanda todo o corpo?",
+        "question": "Qual é o órgão central do Sistema Nervoso que processa pensamentos, memórias e comanda todo o corpo?",
+        "opcoes": [
+          "Cérebro",
+          "Coração",
+          "Estômago"
+        ],
+        "options": [
+          "Cérebro",
+          "Coração",
+          "Estômago"
+        ],
+        "resposta": "Cérebro",
+        "correctAnswer": "Cérebro",
+        "explicacao": "O cérebro é o 'computador mestre' que comanda todas as funções do nosso corpo!",
+        "explanation": "O cérebro é o 'computador mestre' que comanda todas as funções do nosso corpo!"
+      },
+      {
+        "id": "em_4_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os nervos funcionam como fios elétricos biológicos que transmitem mensagens instantâneas entre o cérebro e os músculos.",
+        "question": "Os nervos funcionam como fios elétricos biológicos que transmitem mensagens instantâneas entre o cérebro e os músculos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os impulsos nervosos viajam a centenas de quilómetros por hora.",
+        "explanation": "Verdadeiro! Os impulsos nervosos viajam a centenas de quilómetros por hora."
+      },
+      {
+        "id": "em_4_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A coluna vertebral abriga e protege a medula ___, canal principal de comunicação nervosa.",
+        "question": "A coluna vertebral abriga e protege a medula ___, canal principal de comunicação nervosa.",
+        "opcoes": [
+          "espinal / espinhal",
+          "óssea",
+          "digestiva"
+        ],
+        "options": [
+          "espinal / espinhal",
+          "óssea",
+          "digestiva"
+        ],
+        "resposta": "espinal / espinhal",
+        "correctAnswer": "espinal / espinhal",
+        "explicacao": "A medula espinal liga o cérebro a todos os nervos do corpo.",
+        "explanation": "A medula espinal liga o cérebro a todos os nervos do corpo."
+      },
+      {
+        "id": "em_4_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual sistema capta o oxigénio que o sangue circulatório levará às células do cérebro?",
+        "question": "Qual sistema capta o oxigénio que o sangue circulatório levará às células do cérebro?",
+        "opcoes": [
+          "🫁 Sistema Respiratório",
+          "🦴 Sistema Ósseo",
+          "🦷 Sistema Dentário"
+        ],
+        "options": [
+          "🫁 Sistema Respiratório",
+          "🦴 Sistema Ósseo",
+          "🦷 Sistema Dentário"
+        ],
+        "resposta": "🫁 Sistema Respiratório",
+        "correctAnswer": "🫁 Sistema Respiratório",
+        "explicacao": "Os sistemas respiratório e circulatório trabalham em harmonia perfeita! 🫁",
+        "explanation": "Os sistemas respiratório e circulatório trabalham em harmonia perfeita! 🫁"
+      },
+      {
+        "id": "em_4_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a resposta automática e imediata de retirar a mão do lume quente sem pensar?",
+        "question": "Como se chama a resposta automática e imediata de retirar a mão do lume quente sem pensar?",
+        "opcoes": [
+          "Ato Reflexo",
+          "Digestão voluntária",
+          "Sono"
+        ],
+        "options": [
+          "Ato Reflexo",
+          "Digestão voluntária",
+          "Sono"
+        ],
+        "resposta": "Ato Reflexo",
+        "correctAnswer": "Ato Reflexo",
+        "explicacao": "O ato reflexo protege o corpo de queimaduras e perigos imediatos!",
+        "explanation": "O ato reflexo protege o corpo de queimaduras e perigos imediatos!"
+      },
+      {
+        "id": "em_4_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O cérebro precisa de oxigénio, água, glicose e bom sono para ter excelente concentração e memória.",
+        "question": "O cérebro precisa de oxigénio, água, glicose e bom sono para ter excelente concentração e memória.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Uma mente saudável precisa de boa nutrição e descanso.",
+        "explanation": "Verdadeiro! Uma mente saudável precisa de boa nutrição e descanso."
+      },
+      {
+        "id": "em_4_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os 5 órgãos dos sentidos enviam sinais ao cérebro através de...",
+        "question": "Os 5 órgãos dos sentidos enviam sinais ao cérebro através de...",
+        "opcoes": [
+          "Nervos sensitivos",
+          "Veias de ar",
+          "Ossos ocos"
+        ],
+        "options": [
+          "Nervos sensitivos",
+          "Veias de ar",
+          "Ossos ocos"
+        ],
+        "resposta": "Nervos sensitivos",
+        "correctAnswer": "Nervos sensitivos",
+        "explicacao": "Os recetores sensoriais transmitem luz, som, cheiro, sabor e tato ao cérebro.",
+        "explanation": "Os recetores sensoriais transmitem luz, som, cheiro, sabor e tato ao cérebro."
+      },
+      {
+        "id": "em_4_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o sistema à sua missão no organismo:",
+        "question": "Associa o sistema à sua missão no organismo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Compreensão exemplar da unidade biológica do corpo humano!",
+        "explanation": "Compreensão exemplar da unidade biológica do corpo humano!",
+        "pairs": {
+          "Sistema Nervoso": "Coordenação, sentidos e comando central",
+          "Sistema Circulatório": "Transporte de sangue, oxigénio e nutrientes",
+          "Sistema Respiratório": "Trocas gasosas de oxigénio e CO2",
+          "Sistema Digestivo": "Transformação e absorção dos alimentos"
+        },
+        "pares": {
+          "Sistema Nervoso": "Coordenação, sentidos e comando central",
+          "Sistema Circulatório": "Transporte de sangue, oxigénio e nutrientes",
+          "Sistema Respiratório": "Trocas gasosas de oxigénio e CO2",
+          "Sistema Digestivo": "Transformação e absorção dos alimentos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f10",
+    "numero": 10,
+    "titulo": "Eletricidade e Circuitos Elétricos Simples",
+    "title": "Eletricidade e Circuitos Elétricos Simples",
+    "descricao": "Gerador (pilha), recetor (lâmpada), fios condutores, interruptores e segurança.",
+    "description": "Gerador (pilha), recetor (lâmpada), fios condutores, interruptores e segurança.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "⚡",
+    "imageEmoji": "⚡",
+    "exercicios": [
+      {
+        "id": "em_4_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quais são os componentes básicos necessários para montar um CIRCUITO ELÉTRICO simples?",
+        "question": "Quais são os componentes básicos necessários para montar um CIRCUITO ELÉTRICO simples?",
+        "resposta": "Pilha (fonte), fios condutores, interruptor e lâmpada",
+        "correctAnswer": "Pilha (fonte), fios condutores, interruptor e lâmpada",
+        "explicacao": "A corrente elétrica necessita de uma fonte, caminho condutor fechado e um recetor!",
+        "explanation": "A corrente elétrica necessita de uma fonte, caminho condutor fechado e um recetor!"
+      },
+      {
+        "id": "em_4_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A corrente elétrica só circula quando o circuito está FECHADO.",
+        "question": "A corrente elétrica só circula quando o circuito está FECHADO.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Se o circuito estiver aberto (interruptor desligado), a lâmpada apaga-se.",
+        "explanation": "Verdadeiro! Se o circuito estiver aberto (interruptor desligado), a lâmpada apaga-se."
+      },
+      {
+        "id": "em_4_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Os materiais pelos quais a eletricidade passa com facilidade (como o cobre, ferro e alumínio) chamam-se materiais ___",
+        "question": "Os materiais pelos quais a eletricidade passa com facilidade (como o cobre, ferro e alumínio) chamam-se materiais ___",
+        "opcoes": [
+          "Bons Condutores",
+          "Isoladores",
+          "Plásticos"
+        ],
+        "options": [
+          "Bons Condutores",
+          "Isoladores",
+          "Plásticos"
+        ],
+        "resposta": "Bons Condutores",
+        "correctAnswer": "Bons Condutores",
+        "explicacao": "Os metais são excelentes condutores de eletricidade.",
+        "explanation": "Os metais são excelentes condutores de eletricidade."
+      },
+      {
+        "id": "em_4_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes materiais é um ISOLADOR elétrico seguro usado para revestir os fios?",
+        "question": "Qual destes materiais é um ISOLADOR elétrico seguro usado para revestir os fios?",
+        "opcoes": [
+          "🔌 Borracha / Plástico",
+          "🥄 Colher de prata",
+          "🪙 Moeda de cobre"
+        ],
+        "options": [
+          "🔌 Borracha / Plástico",
+          "🥄 Colher de prata",
+          "🪙 Moeda de cobre"
+        ],
+        "resposta": "🔌 Borracha / Plástico",
+        "correctAnswer": "🔌 Borracha / Plástico",
+        "explicacao": "O plástico e a borracha não conduzem eletricidade, evitando choques! 🔌",
+        "explanation": "O plástico e a borracha não conduzem eletricidade, evitando choques! 🔌"
+      },
+      {
+        "id": "em_4_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que faz o interruptor de uma parede ou candeeiro?",
+        "question": "O que faz o interruptor de uma parede ou candeeiro?",
+        "opcoes": [
+          "Abre ou fecha o circuito para ligar e desligar a luz",
+          "Produz eletricidade",
+          "Gera vento"
+        ],
+        "options": [
+          "Abre ou fecha o circuito para ligar e desligar a luz",
+          "Produz eletricidade",
+          "Gera vento"
+        ],
+        "resposta": "Abre ou fecha o circuito para ligar e desligar a luz",
+        "correctAnswer": "Abre ou fecha o circuito para ligar e desligar a luz",
+        "explicacao": "Controla o fluxo da corrente de forma prática e segura.",
+        "explanation": "Controla o fluxo da corrente de forma prática e segura."
+      },
+      {
+        "id": "em_4_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A água conduz eletricidade, por isso NUNCA devemos tocar em aparelhos elétricos com as mãos molhadas.",
+        "question": "A água conduz eletricidade, por isso NUNCA devemos tocar em aparelhos elétricos com as mãos molhadas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A humidade aumenta o risco de choques elétricos graves.",
+        "explanation": "Verdadeiro! A humidade aumenta o risco de choques elétricos graves."
+      },
+      {
+        "id": "em_4_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Num circuito com duas lâmpadas em série, se uma lâmpada fundir o que acontece à outra?",
+        "question": "Num circuito com duas lâmpadas em série, se uma lâmpada fundir o que acontece à outra?",
+        "opcoes": [
+          "Apaga-se porque o circuito fica interrompido",
+          "Fica mais brilhante",
+          "Explode"
+        ],
+        "options": [
+          "Apaga-se porque o circuito fica interrompido",
+          "Fica mais brilhante",
+          "Explode"
+        ],
+        "resposta": "Apaga-se porque o circuito fica interrompido",
+        "correctAnswer": "Apaga-se porque o circuito fica interrompido",
+        "explicacao": "Num circuito em série a corrente tem um único caminho contínuo.",
+        "explanation": "Num circuito em série a corrente tem um único caminho contínuo."
+      },
+      {
+        "id": "em_4_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os materiais em Condutores ou Isoladores:",
+        "question": "Classifica os materiais em Condutores ou Isoladores:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre física da eletricidade e segurança!",
+        "explanation": "Excelente conhecimento sobre física da eletricidade e segurança!",
+        "pairs": {
+          "Fio de Cobre": "Bom Condutor elétrico",
+          "Borracha das luvas": "Isolador elétrico",
+          "Água com sal": "Condutor de eletricidade",
+          "Madeira seca / Vidro": "Isolador elétrico"
+        },
+        "pares": {
+          "Fio de Cobre": "Bom Condutor elétrico",
+          "Borracha das luvas": "Isolador elétrico",
+          "Água com sal": "Condutor de eletricidade",
+          "Madeira seca / Vidro": "Isolador elétrico"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quais são os componentes básicos necessários para montar um CIRCUITO ELÉTRICO simples?",
+        "question": "Quais são os componentes básicos necessários para montar um CIRCUITO ELÉTRICO simples?",
+        "resposta": "Pilha (fonte), fios condutores, interruptor e lâmpada",
+        "correctAnswer": "Pilha (fonte), fios condutores, interruptor e lâmpada",
+        "explicacao": "A corrente elétrica necessita de uma fonte, caminho condutor fechado e um recetor!",
+        "explanation": "A corrente elétrica necessita de uma fonte, caminho condutor fechado e um recetor!"
+      },
+      {
+        "id": "em_4_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A corrente elétrica só circula quando o circuito está FECHADO.",
+        "question": "A corrente elétrica só circula quando o circuito está FECHADO.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Se o circuito estiver aberto (interruptor desligado), a lâmpada apaga-se.",
+        "explanation": "Verdadeiro! Se o circuito estiver aberto (interruptor desligado), a lâmpada apaga-se."
+      },
+      {
+        "id": "em_4_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Os materiais pelos quais a eletricidade passa com facilidade (como o cobre, ferro e alumínio) chamam-se materiais ___",
+        "question": "Os materiais pelos quais a eletricidade passa com facilidade (como o cobre, ferro e alumínio) chamam-se materiais ___",
+        "opcoes": [
+          "Bons Condutores",
+          "Isoladores",
+          "Plásticos"
+        ],
+        "options": [
+          "Bons Condutores",
+          "Isoladores",
+          "Plásticos"
+        ],
+        "resposta": "Bons Condutores",
+        "correctAnswer": "Bons Condutores",
+        "explicacao": "Os metais são excelentes condutores de eletricidade.",
+        "explanation": "Os metais são excelentes condutores de eletricidade."
+      },
+      {
+        "id": "em_4_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes materiais é um ISOLADOR elétrico seguro usado para revestir os fios?",
+        "question": "Qual destes materiais é um ISOLADOR elétrico seguro usado para revestir os fios?",
+        "opcoes": [
+          "🔌 Borracha / Plástico",
+          "🥄 Colher de prata",
+          "🪙 Moeda de cobre"
+        ],
+        "options": [
+          "🔌 Borracha / Plástico",
+          "🥄 Colher de prata",
+          "🪙 Moeda de cobre"
+        ],
+        "resposta": "🔌 Borracha / Plástico",
+        "correctAnswer": "🔌 Borracha / Plástico",
+        "explicacao": "O plástico e a borracha não conduzem eletricidade, evitando choques! 🔌",
+        "explanation": "O plástico e a borracha não conduzem eletricidade, evitando choques! 🔌"
+      },
+      {
+        "id": "em_4_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que faz o interruptor de uma parede ou candeeiro?",
+        "question": "O que faz o interruptor de uma parede ou candeeiro?",
+        "opcoes": [
+          "Abre ou fecha o circuito para ligar e desligar a luz",
+          "Produz eletricidade",
+          "Gera vento"
+        ],
+        "options": [
+          "Abre ou fecha o circuito para ligar e desligar a luz",
+          "Produz eletricidade",
+          "Gera vento"
+        ],
+        "resposta": "Abre ou fecha o circuito para ligar e desligar a luz",
+        "correctAnswer": "Abre ou fecha o circuito para ligar e desligar a luz",
+        "explicacao": "Controla o fluxo da corrente de forma prática e segura.",
+        "explanation": "Controla o fluxo da corrente de forma prática e segura."
+      },
+      {
+        "id": "em_4_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A água conduz eletricidade, por isso NUNCA devemos tocar em aparelhos elétricos com as mãos molhadas.",
+        "question": "A água conduz eletricidade, por isso NUNCA devemos tocar em aparelhos elétricos com as mãos molhadas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A humidade aumenta o risco de choques elétricos graves.",
+        "explanation": "Verdadeiro! A humidade aumenta o risco de choques elétricos graves."
+      },
+      {
+        "id": "em_4_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Num circuito com duas lâmpadas em série, se uma lâmpada fundir o que acontece à outra?",
+        "question": "Num circuito com duas lâmpadas em série, se uma lâmpada fundir o que acontece à outra?",
+        "opcoes": [
+          "Apaga-se porque o circuito fica interrompido",
+          "Fica mais brilhante",
+          "Explode"
+        ],
+        "options": [
+          "Apaga-se porque o circuito fica interrompido",
+          "Fica mais brilhante",
+          "Explode"
+        ],
+        "resposta": "Apaga-se porque o circuito fica interrompido",
+        "correctAnswer": "Apaga-se porque o circuito fica interrompido",
+        "explicacao": "Num circuito em série a corrente tem um único caminho contínuo.",
+        "explanation": "Num circuito em série a corrente tem um único caminho contínuo."
+      },
+      {
+        "id": "em_4_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os materiais em Condutores ou Isoladores:",
+        "question": "Classifica os materiais em Condutores ou Isoladores:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre física da eletricidade e segurança!",
+        "explanation": "Excelente conhecimento sobre física da eletricidade e segurança!",
+        "pairs": {
+          "Fio de Cobre": "Bom Condutor elétrico",
+          "Borracha das luvas": "Isolador elétrico",
+          "Água com sal": "Condutor de eletricidade",
+          "Madeira seca / Vidro": "Isolador elétrico"
+        },
+        "pares": {
+          "Fio de Cobre": "Bom Condutor elétrico",
+          "Borracha das luvas": "Isolador elétrico",
+          "Água com sal": "Condutor de eletricidade",
+          "Madeira seca / Vidro": "Isolador elétrico"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f11",
+    "numero": 11,
+    "titulo": "Magnetismo, Ímanes e Forças da Natureza",
+    "title": "Magnetismo, Ímanes e Forças da Natureza",
+    "descricao": "Polos Norte e Sul dos ímanes, atração e repulsão, bússola, gravidade e atrito.",
+    "description": "Polos Norte e Sul dos ímanes, atração e repulsão, bússola, gravidade e atrito.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🧲",
+    "imageEmoji": "🧲",
+    "exercicios": [
+      {
+        "id": "em_4_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que acontece quando aproximamos dois POLOS IGUAIS de dois ímanes (Norte com Norte ou Sul com Sul)?",
+        "question": "O que acontece quando aproximamos dois POLOS IGUAIS de dois ímanes (Norte com Norte ou Sul com Sul)?",
+        "resposta": "Repelem-se (afastam-se com força)",
+        "correctAnswer": "Repelem-se (afastam-se com força)",
+        "explicacao": "Polos iguais repelem-se; polos opostos atraem-se (Norte atrai Sul)!",
+        "explanation": "Polos iguais repelem-se; polos opostos atraem-se (Norte atrai Sul)!"
+      },
+      {
+        "id": "em_4_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Terra comporta-se como um gigantesco íman com o seu próprio campo magnético.",
+        "question": "A Terra comporta-se como um gigantesco íman com o seu próprio campo magnético.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É por isso que a agulha magnética da bússola aponta sempre para o Norte magnético.",
+        "explanation": "Verdadeiro! É por isso que a agulha magnética da bússola aponta sempre para o Norte magnético."
+      },
+      {
+        "id": "em_4_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A força invisível que atrai todos os objetos para o centro da Terra chama-se Força da ___",
+        "question": "A força invisível que atrai todos os objetos para o centro da Terra chama-se Força da ___",
+        "opcoes": [
+          "Gravidade",
+          "Eletricidade",
+          "Fricção"
+        ],
+        "options": [
+          "Gravidade",
+          "Eletricidade",
+          "Fricção"
+        ],
+        "resposta": "Gravidade",
+        "correctAnswer": "Gravidade",
+        "explicacao": "A gravidade descoberta por Isaac Newton faz a maçã cair e mantém-nos no chão!",
+        "explanation": "A gravidade descoberta por Isaac Newton faz a maçã cair e mantém-nos no chão!"
+      },
+      {
+        "id": "em_4_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que metal é fortemente atraído pelos ímanes?",
+        "question": "Que metal é fortemente atraído pelos ímanes?",
+        "opcoes": [
+          "🧲 Ferro / Aço",
+          "🪵 Madeira",
+          "🏺 Vidro"
+        ],
+        "options": [
+          "🧲 Ferro / Aço",
+          "🪵 Madeira",
+          "🏺 Vidro"
+        ],
+        "resposta": "🧲 Ferro / Aço",
+        "correctAnswer": "🧲 Ferro / Aço",
+        "explicacao": "Os materiais ferromagnéticos (ferro, níquel, cobalto) colam-se aos ímanes! 🧲",
+        "explanation": "Os materiais ferromagnéticos (ferro, níquel, cobalto) colam-se aos ímanes! 🧲"
+      },
+      {
+        "id": "em_4_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que é a Força de Atrito?",
+        "question": "O que é a Força de Atrito?",
+        "opcoes": [
+          "A resistência ao movimento que surge no contacto entre duas superfícies",
+          "A força da água do mar",
+          "A luz do sol"
+        ],
+        "options": [
+          "A resistência ao movimento que surge no contacto entre duas superfícies",
+          "A força da água do mar",
+          "A luz do sol"
+        ],
+        "resposta": "A resistência ao movimento que surge no contacto entre duas superfícies",
+        "correctAnswer": "A resistência ao movimento que surge no contacto entre duas superfícies",
+        "explicacao": "O atrito permite travar as rodas dos carros e caminhar sem escorregar!",
+        "explanation": "O atrito permite travar as rodas dos carros e caminhar sem escorregar!"
+      },
+      {
+        "id": "em_4_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No espaço em órbita os astronautas flutuam devido à microgravidade.",
+        "question": "No espaço em órbita os astronautas flutuam devido à microgravidade.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Estão em queda livre contínua em torno da Terra.",
+        "explanation": "Verdadeiro! Estão em queda livre contínua em torno da Terra."
+      },
+      {
+        "id": "em_4_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o instrumento de navegação secular cuja agulha magnética se alinha com o campo da Terra?",
+        "question": "Qual é o instrumento de navegação secular cuja agulha magnética se alinha com o campo da Terra?",
+        "opcoes": [
+          "Bússola",
+          "Barómetro",
+          "Termómetro"
+        ],
+        "options": [
+          "Bússola",
+          "Barómetro",
+          "Termómetro"
+        ],
+        "resposta": "Bússola",
+        "correctAnswer": "Bússola",
+        "explicacao": "A bússola permitiu aos marinheiros portugueses navegar em alto mar!",
+        "explanation": "A bússola permitiu aos marinheiros portugueses navegar em alto mar!"
+      },
+      {
+        "id": "em_4_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a força física à sua manifestação no dia a dia:",
+        "question": "Associa a força física à sua manifestação no dia a dia:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástico entendimento das forças físicas da natureza!",
+        "explanation": "Fantástico entendimento das forças físicas da natureza!",
+        "pairs": {
+          "Gravidade": "Faz os objetos caírem para o chão",
+          "Magnetismo": "Atrai clipes de ferro ao íman",
+          "Atrito": "Permite travar a bicicleta com os calços",
+          "Empuxo": "Faz os navios flutuarem na água"
+        },
+        "pares": {
+          "Gravidade": "Faz os objetos caírem para o chão",
+          "Magnetismo": "Atrai clipes de ferro ao íman",
+          "Atrito": "Permite travar a bicicleta com os calços",
+          "Empuxo": "Faz os navios flutuarem na água"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que acontece quando aproximamos dois POLOS IGUAIS de dois ímanes (Norte com Norte ou Sul com Sul)?",
+        "question": "O que acontece quando aproximamos dois POLOS IGUAIS de dois ímanes (Norte com Norte ou Sul com Sul)?",
+        "resposta": "Repelem-se (afastam-se com força)",
+        "correctAnswer": "Repelem-se (afastam-se com força)",
+        "explicacao": "Polos iguais repelem-se; polos opostos atraem-se (Norte atrai Sul)!",
+        "explanation": "Polos iguais repelem-se; polos opostos atraem-se (Norte atrai Sul)!"
+      },
+      {
+        "id": "em_4_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A Terra comporta-se como um gigantesco íman com o seu próprio campo magnético.",
+        "question": "A Terra comporta-se como um gigantesco íman com o seu próprio campo magnético.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É por isso que a agulha magnética da bússola aponta sempre para o Norte magnético.",
+        "explanation": "Verdadeiro! É por isso que a agulha magnética da bússola aponta sempre para o Norte magnético."
+      },
+      {
+        "id": "em_4_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A força invisível que atrai todos os objetos para o centro da Terra chama-se Força da ___",
+        "question": "A força invisível que atrai todos os objetos para o centro da Terra chama-se Força da ___",
+        "opcoes": [
+          "Gravidade",
+          "Eletricidade",
+          "Fricção"
+        ],
+        "options": [
+          "Gravidade",
+          "Eletricidade",
+          "Fricção"
+        ],
+        "resposta": "Gravidade",
+        "correctAnswer": "Gravidade",
+        "explicacao": "A gravidade descoberta por Isaac Newton faz a maçã cair e mantém-nos no chão!",
+        "explanation": "A gravidade descoberta por Isaac Newton faz a maçã cair e mantém-nos no chão!"
+      },
+      {
+        "id": "em_4_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que metal é fortemente atraído pelos ímanes?",
+        "question": "Que metal é fortemente atraído pelos ímanes?",
+        "opcoes": [
+          "🧲 Ferro / Aço",
+          "🪵 Madeira",
+          "🏺 Vidro"
+        ],
+        "options": [
+          "🧲 Ferro / Aço",
+          "🪵 Madeira",
+          "🏺 Vidro"
+        ],
+        "resposta": "🧲 Ferro / Aço",
+        "correctAnswer": "🧲 Ferro / Aço",
+        "explicacao": "Os materiais ferromagnéticos (ferro, níquel, cobalto) colam-se aos ímanes! 🧲",
+        "explanation": "Os materiais ferromagnéticos (ferro, níquel, cobalto) colam-se aos ímanes! 🧲"
+      },
+      {
+        "id": "em_4_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que é a Força de Atrito?",
+        "question": "O que é a Força de Atrito?",
+        "opcoes": [
+          "A resistência ao movimento que surge no contacto entre duas superfícies",
+          "A força da água do mar",
+          "A luz do sol"
+        ],
+        "options": [
+          "A resistência ao movimento que surge no contacto entre duas superfícies",
+          "A força da água do mar",
+          "A luz do sol"
+        ],
+        "resposta": "A resistência ao movimento que surge no contacto entre duas superfícies",
+        "correctAnswer": "A resistência ao movimento que surge no contacto entre duas superfícies",
+        "explicacao": "O atrito permite travar as rodas dos carros e caminhar sem escorregar!",
+        "explanation": "O atrito permite travar as rodas dos carros e caminhar sem escorregar!"
+      },
+      {
+        "id": "em_4_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No espaço em órbita os astronautas flutuam devido à microgravidade.",
+        "question": "No espaço em órbita os astronautas flutuam devido à microgravidade.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Estão em queda livre contínua em torno da Terra.",
+        "explanation": "Verdadeiro! Estão em queda livre contínua em torno da Terra."
+      },
+      {
+        "id": "em_4_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o instrumento de navegação secular cuja agulha magnética se alinha com o campo da Terra?",
+        "question": "Qual é o instrumento de navegação secular cuja agulha magnética se alinha com o campo da Terra?",
+        "opcoes": [
+          "Bússola",
+          "Barómetro",
+          "Termómetro"
+        ],
+        "options": [
+          "Bússola",
+          "Barómetro",
+          "Termómetro"
+        ],
+        "resposta": "Bússola",
+        "correctAnswer": "Bússola",
+        "explicacao": "A bússola permitiu aos marinheiros portugueses navegar em alto mar!",
+        "explanation": "A bússola permitiu aos marinheiros portugueses navegar em alto mar!"
+      },
+      {
+        "id": "em_4_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a força física à sua manifestação no dia a dia:",
+        "question": "Associa a força física à sua manifestação no dia a dia:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástico entendimento das forças físicas da natureza!",
+        "explanation": "Fantástico entendimento das forças físicas da natureza!",
+        "pairs": {
+          "Gravidade": "Faz os objetos caírem para o chão",
+          "Magnetismo": "Atrai clipes de ferro ao íman",
+          "Atrito": "Permite travar a bicicleta com os calços",
+          "Empuxo": "Faz os navios flutuarem na água"
+        },
+        "pares": {
+          "Gravidade": "Faz os objetos caírem para o chão",
+          "Magnetismo": "Atrai clipes de ferro ao íman",
+          "Atrito": "Permite travar a bicicleta com os calços",
+          "Empuxo": "Faz os navios flutuarem na água"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_4_f12",
+    "numero": 12,
+    "titulo": "Grande Quiz Final de História, Geografia e Ciências do 4.º Ano",
+    "title": "Grande Quiz Final de História, Geografia e Ciências do 4.º Ano",
+    "descricao": "O grande encerramento com chave de ouro do Estudo do Meio do 1.º Ciclo!",
+    "description": "O grande encerramento com chave de ouro do Estudo do Meio do 1.º Ciclo!",
+    "dificuldade": "DESAFIO",
+    "difficulty": "CHALLENGE",
+    "emoji": "🎓",
+    "imageEmoji": "🎓",
+    "exercicios": [
+      {
+        "id": "em_4_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem foi o 1.º Rei de Portugal (1143) e quem descobriu o Caminho Marítimo para a Índia (1498)?",
+        "question": "Quem foi o 1.º Rei de Portugal (1143) e quem descobriu o Caminho Marítimo para a Índia (1498)?",
+        "opcoes": [
+          "D. Afonso Henriques e Vasco da Gama",
+          "D. Dinis e Pedro Álvares Cabral",
+          "Viriato e Camões"
+        ],
+        "options": [
+          "D. Afonso Henriques e Vasco da Gama",
+          "D. Dinis e Pedro Álvares Cabral",
+          "Viriato e Camões"
+        ],
+        "resposta": "D. Afonso Henriques e Vasco da Gama",
+        "correctAnswer": "D. Afonso Henriques e Vasco da Gama",
+        "explicacao": "Dois dos maiores heróis fundadores e navegadores da história lusitana!",
+        "explanation": "Dois dos maiores heróis fundadores e navegadores da história lusitana!"
+      },
+      {
+        "id": "em_4_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O ponto mais alto de Portugal é a Montanha do Pico (2351 m) nos Açores e no Continente é a Torre na Serra da Estrela (1993 m).",
+        "question": "O ponto mais alto de Portugal é a Montanha do Pico (2351 m) nos Açores e no Continente é a Torre na Serra da Estrela (1993 m).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Geografia de Portugal na ponta da língua.",
+        "explanation": "Verdadeiro! Geografia de Portugal na ponta da língua."
+      },
+      {
+        "id": "em_4_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A capital de Portugal é Lisboa e a moeda comum europeia é o ___",
+        "question": "A capital de Portugal é Lisboa e a moeda comum europeia é o ___",
+        "resposta": "Euro (€)",
+        "correctAnswer": "Euro (€)",
+        "explicacao": "Lisboa e o Euro são a capital e moeda oficiais.",
+        "explanation": "Lisboa e o Euro são a capital e moeda oficiais."
+      },
+      {
+        "id": "em_4_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual foi a grande revolução pacífica que trouxe a liberdade e democracia a Portugal a 25 de Abril de 1974?",
+        "question": "Qual foi a grande revolução pacífica que trouxe a liberdade e democracia a Portugal a 25 de Abril de 1974?",
+        "opcoes": [
+          "🌺 Revolução dos Cravos",
+          "⚔️ Batalha de Aljubarrota",
+          "⛵ Conquista de Ceuta"
+        ],
+        "options": [
+          "🌺 Revolução dos Cravos",
+          "⚔️ Batalha de Aljubarrota",
+          "⛵ Conquista de Ceuta"
+        ],
+        "resposta": "🌺 Revolução dos Cravos",
+        "correctAnswer": "🌺 Revolução dos Cravos",
+        "explicacao": "A 25 de Abril de 1974 nasceu a democracia portuguesa contemporânea! 🌺",
+        "explanation": "A 25 de Abril de 1974 nasceu a democracia portuguesa contemporânea! 🌺"
+      },
+      {
+        "id": "em_4_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O sangue oxigenado é bombeado pelo coração para as artérias, enquanto os rins filtram o sangue produzindo...",
+        "question": "O sangue oxigenado é bombeado pelo coração para as artérias, enquanto os rins filtram o sangue produzindo...",
+        "opcoes": [
+          "Urina",
+          "Saliva",
+          "Suor"
+        ],
+        "options": [
+          "Urina",
+          "Saliva",
+          "Suor"
+        ],
+        "resposta": "Urina",
+        "correctAnswer": "Urina",
+        "explicacao": "Os rins eliminam resíduos através da urina.",
+        "explanation": "Os rins eliminam resíduos através da urina."
+      },
+      {
+        "id": "em_4_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os metais são bons condutores elétricos e o plástico é um isolador de segurança.",
+        "question": "Os metais são bons condutores elétricos e o plástico é um isolador de segurança.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Princípio básico dos circuitos e cablagens elétricas.",
+        "explanation": "Verdadeiro! Princípio básico dos circuitos e cablagens elétricas."
+      },
+      {
+        "id": "em_4_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as grandes épocas da História de Portugal:",
+        "question": "Ordena as grandes épocas da História de Portugal:",
+        "opcoes": [
+          "Presença Romana e Lusitanos"
+        ],
+        "options": [
+          "Presença Romana e Lusitanos"
+        ],
+        "resposta": "Presença Romana e Lusitanos-Fundação de Portugal (1143)-Era dos Descobrimentos (séculos XV-XVI)-Democracia e 25 de Abril (1974)",
+        "correctAnswer": "Presença Romana e Lusitanos-Fundação de Portugal (1143)-Era dos Descobrimentos (séculos XV-XVI)-Democracia e 25 de Abril (1974)",
+        "explicacao": "Uma história brilhante de quase 900 anos de Nação!",
+        "explanation": "Uma história brilhante de quase 900 anos de Nação!",
+        "correctAnswers": [
+          "Presença Romana e Lusitanos"
+        ],
+        "respostasCorretas": [
+          "Presença Romana e Lusitanos"
+        ]
+      },
+      {
+        "id": "em_4_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio de Consagração Final:",
+        "question": "Desafio de Consagração Final:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Doutor de Honra do Estudo do Meio do 1.º Ciclo! Conquistaste a Excelência!",
+        "explanation": "Parabéns, Doutor de Honra do Estudo do Meio do 1.º Ciclo! Conquistaste a Excelência!",
+        "pairs": {
+          "Viriato": "Chefe Lusitano que resistiu a Roma",
+          "D. Afonso Henriques": "Fundador e 1.º Rei de Portugal",
+          "Vasco da Gama": "Caminho Marítimo para a Índia",
+          "25 de Abril de 1974": "Conquista da Liberdade e Democracia"
+        },
+        "pares": {
+          "Viriato": "Chefe Lusitano que resistiu a Roma",
+          "D. Afonso Henriques": "Fundador e 1.º Rei de Portugal",
+          "Vasco da Gama": "Caminho Marítimo para a Índia",
+          "25 de Abril de 1974": "Conquista da Liberdade e Democracia"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_4_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quem foi o 1.º Rei de Portugal (1143) e quem descobriu o Caminho Marítimo para a Índia (1498)?",
+        "question": "Quem foi o 1.º Rei de Portugal (1143) e quem descobriu o Caminho Marítimo para a Índia (1498)?",
+        "opcoes": [
+          "D. Afonso Henriques e Vasco da Gama",
+          "D. Dinis e Pedro Álvares Cabral",
+          "Viriato e Camões"
+        ],
+        "options": [
+          "D. Afonso Henriques e Vasco da Gama",
+          "D. Dinis e Pedro Álvares Cabral",
+          "Viriato e Camões"
+        ],
+        "resposta": "D. Afonso Henriques e Vasco da Gama",
+        "correctAnswer": "D. Afonso Henriques e Vasco da Gama",
+        "explicacao": "Dois dos maiores heróis fundadores e navegadores da história lusitana!",
+        "explanation": "Dois dos maiores heróis fundadores e navegadores da história lusitana!"
+      },
+      {
+        "id": "em_4_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O ponto mais alto de Portugal é a Montanha do Pico (2351 m) nos Açores e no Continente é a Torre na Serra da Estrela (1993 m).",
+        "question": "O ponto mais alto de Portugal é a Montanha do Pico (2351 m) nos Açores e no Continente é a Torre na Serra da Estrela (1993 m).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Geografia de Portugal na ponta da língua.",
+        "explanation": "Verdadeiro! Geografia de Portugal na ponta da língua."
+      },
+      {
+        "id": "em_4_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A capital de Portugal é Lisboa e a moeda comum europeia é o ___",
+        "question": "A capital de Portugal é Lisboa e a moeda comum europeia é o ___",
+        "resposta": "Euro (€)",
+        "correctAnswer": "Euro (€)",
+        "explicacao": "Lisboa e o Euro são a capital e moeda oficiais.",
+        "explanation": "Lisboa e o Euro são a capital e moeda oficiais."
+      },
+      {
+        "id": "em_4_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual foi a grande revolução pacífica que trouxe a liberdade e democracia a Portugal a 25 de Abril de 1974?",
+        "question": "Qual foi a grande revolução pacífica que trouxe a liberdade e democracia a Portugal a 25 de Abril de 1974?",
+        "opcoes": [
+          "🌺 Revolução dos Cravos",
+          "⚔️ Batalha de Aljubarrota",
+          "⛵ Conquista de Ceuta"
+        ],
+        "options": [
+          "🌺 Revolução dos Cravos",
+          "⚔️ Batalha de Aljubarrota",
+          "⛵ Conquista de Ceuta"
+        ],
+        "resposta": "🌺 Revolução dos Cravos",
+        "correctAnswer": "🌺 Revolução dos Cravos",
+        "explicacao": "A 25 de Abril de 1974 nasceu a democracia portuguesa contemporânea! 🌺",
+        "explanation": "A 25 de Abril de 1974 nasceu a democracia portuguesa contemporânea! 🌺"
+      },
+      {
+        "id": "em_4_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O sangue oxigenado é bombeado pelo coração para as artérias, enquanto os rins filtram o sangue produzindo...",
+        "question": "O sangue oxigenado é bombeado pelo coração para as artérias, enquanto os rins filtram o sangue produzindo...",
+        "opcoes": [
+          "Urina",
+          "Saliva",
+          "Suor"
+        ],
+        "options": [
+          "Urina",
+          "Saliva",
+          "Suor"
+        ],
+        "resposta": "Urina",
+        "correctAnswer": "Urina",
+        "explicacao": "Os rins eliminam resíduos através da urina.",
+        "explanation": "Os rins eliminam resíduos através da urina."
+      },
+      {
+        "id": "em_4_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os metais são bons condutores elétricos e o plástico é um isolador de segurança.",
+        "question": "Os metais são bons condutores elétricos e o plástico é um isolador de segurança.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Princípio básico dos circuitos e cablagens elétricas.",
+        "explanation": "Verdadeiro! Princípio básico dos circuitos e cablagens elétricas."
+      },
+      {
+        "id": "em_4_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as grandes épocas da História de Portugal:",
+        "question": "Ordena as grandes épocas da História de Portugal:",
+        "opcoes": [
+          "Presença Romana e Lusitanos"
+        ],
+        "options": [
+          "Presença Romana e Lusitanos"
+        ],
+        "resposta": "Presença Romana e Lusitanos-Fundação de Portugal (1143)-Era dos Descobrimentos (séculos XV-XVI)-Democracia e 25 de Abril (1974)",
+        "correctAnswer": "Presença Romana e Lusitanos-Fundação de Portugal (1143)-Era dos Descobrimentos (séculos XV-XVI)-Democracia e 25 de Abril (1974)",
+        "explicacao": "Uma história brilhante de quase 900 anos de Nação!",
+        "explanation": "Uma história brilhante de quase 900 anos de Nação!",
+        "correctAnswers": [
+          "Presença Romana e Lusitanos"
+        ],
+        "respostasCorretas": [
+          "Presença Romana e Lusitanos"
+        ]
+      },
+      {
+        "id": "em_4_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio de Consagração Final:",
+        "question": "Desafio de Consagração Final:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Doutor de Honra do Estudo do Meio do 1.º Ciclo! Conquistaste a Excelência!",
+        "explanation": "Parabéns, Doutor de Honra do Estudo do Meio do 1.º Ciclo! Conquistaste a Excelência!",
+        "pairs": {
+          "Viriato": "Chefe Lusitano que resistiu a Roma",
+          "D. Afonso Henriques": "Fundador e 1.º Rei de Portugal",
+          "Vasco da Gama": "Caminho Marítimo para a Índia",
+          "25 de Abril de 1974": "Conquista da Liberdade e Democracia"
+        },
+        "pares": {
+          "Viriato": "Chefe Lusitano que resistiu a Roma",
+          "D. Afonso Henriques": "Fundador e 1.º Rei de Portugal",
+          "Vasco da Gama": "Caminho Marítimo para a Índia",
+          "25 de Abril de 1974": "Conquista da Liberdade e Democracia"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+        var categoryTracksMap by remember {
+            mutableStateOf<Map<String, List<YouTubeVideoTrack>>>(emptyMap())
+        }
+        var isLoadingTracks by remember { mutableStateOf(false) }
+
+        val activeKey = if (selectedSection == VideoMainSection.ZE_TRAQUINA) "ze_traquina_all" else "cantinho_pt_all"
+
+        // fetching logic...

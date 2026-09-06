@@ -1,0 +1,12 @@
+--- app/src/main/java/com/example/ui/components/VideoPlayer.kt
++++ app/src/main/java/com/example/ui/components/VideoPlayer.kt
+@@ -107,6 +107,9 @@
+     if (rawInput.isNullOrBlank()) return null
+     val clean = rawInput.trim()
+ 
++    if (!clean.contains("youtube") && !clean.contains("youtu.be") && !clean.contains("list=")) {
++        return clean
++    }
+     if (clean.contains("list=")) {
+         val pid = clean.substringAfter("list=")
+             .substringBefore("&")

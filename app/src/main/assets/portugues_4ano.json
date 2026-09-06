@@ -1,0 +1,3714 @@
+[
+  {
+    "id": "pt_4_f1",
+    "numero": 1,
+    "titulo": "Funções Sintáticas: Sujeito, Predicado e Vocativo",
+    "title": "Funções Sintáticas: Sujeito, Predicado e Vocativo",
+    "descricao": "Sujeito Simples e Composto, Predicado verbal e o Vocativo no chamamento.",
+    "description": "Sujeito Simples e Composto, Predicado verbal e o Vocativo no chamamento.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "🗣️",
+    "imageEmoji": "🗣️",
+    "exercicios": [
+      {
+        "id": "pt_4_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Ó Zé, vem depressa ver isto!', qual é a função sintática da expressão 'Ó Zé'?",
+        "question": "Na frase 'Ó Zé, vem depressa ver isto!', qual é a função sintática da expressão 'Ó Zé'?",
+        "opcoes": [
+          "Vocativo",
+          "Sujeito",
+          "Predicado"
+        ],
+        "options": [
+          "Vocativo",
+          "Sujeito",
+          "Predicado"
+        ],
+        "resposta": "Vocativo",
+        "correctAnswer": "Vocativo",
+        "explicacao": "O Vocativo serve para chamar, interpelar ou invocar alguém e isola-se por vírgulas!",
+        "explanation": "O Vocativo serve para chamar, interpelar ou invocar alguém e isola-se por vírgulas!"
+      },
+      {
+        "id": "pt_4_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'O cão e o gato dormem no tapete', o sujeito é Composto porque tem dois núcleos.",
+        "question": "Na frase 'O cão e o gato dormem no tapete', o sujeito é Composto porque tem dois núcleos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'O cão e o gato' é um Sujeito Composto.",
+        "explanation": "Verdadeiro! 'O cão e o gato' é um Sujeito Composto."
+      },
+      {
+        "id": "pt_4_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'Os atletas portugueses venceram a medalha de ouro', o predicado é ___",
+        "question": "Na frase 'Os atletas portugueses venceram a medalha de ouro', o predicado é ___",
+        "opcoes": [
+          "venceram a medalha de ouro",
+          "Os atletas portugueses",
+          "de ouro"
+        ],
+        "options": [
+          "venceram a medalha de ouro",
+          "Os atletas portugueses",
+          "de ouro"
+        ],
+        "resposta": "venceram a medalha de ouro",
+        "correctAnswer": "venceram a medalha de ouro",
+        "explicacao": "O Predicado inclui o verbo principal e todos os seus complementos!",
+        "explanation": "O Predicado inclui o verbo principal e todos os seus complementos!"
+      },
+      {
+        "id": "pt_4_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases contém um Vocativo corretamente pontuado com vírgula?",
+        "question": "Qual destas frases contém um Vocativo corretamente pontuado com vírgula?",
+        "opcoes": [
+          "👋 'Meninos, abram o livro na página 20.'",
+          "👋 'Meninos abram o livro'",
+          "👋 'Os meninos abriram o livro.'"
+        ],
+        "options": [
+          "👋 'Meninos, abram o livro na página 20.'",
+          "👋 'Meninos abram o livro'",
+          "👋 'Os meninos abriram o livro.'"
+        ],
+        "resposta": "👋 'Meninos, abram o livro na página 20.'",
+        "correctAnswer": "👋 'Meninos, abram o livro na página 20.'",
+        "explicacao": "O vocativo 'Meninos,' separa-se por vírgula da restante frase! 👋",
+        "explanation": "O vocativo 'Meninos,' separa-se por vírgula da restante frase! 👋"
+      },
+      {
+        "id": "pt_4_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o Sujeito na frase 'Ontem à tarde, a Maria comprou um estojo novo'?",
+        "question": "Qual é o Sujeito na frase 'Ontem à tarde, a Maria comprou um estojo novo'?",
+        "opcoes": [
+          "a Maria",
+          "Ontem à tarde",
+          "um estojo novo"
+        ],
+        "options": [
+          "a Maria",
+          "Ontem à tarde",
+          "um estojo novo"
+        ],
+        "resposta": "a Maria",
+        "correctAnswer": "a Maria",
+        "explicacao": "Quem comprou o estojo foi 'a Maria' (Sujeito Simples)!",
+        "explanation": "Quem comprou o estojo foi 'a Maria' (Sujeito Simples)!"
+      },
+      {
+        "id": "pt_4_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Nevou na serra durante toda a noite', o sujeito é nulo impessoal.",
+        "question": "Na frase 'Nevou na serra durante toda a noite', o sujeito é nulo impessoal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O verbo nevar é um verbo impessoal que descreve um fenómeno da natureza.",
+        "explanation": "Verdadeiro! O verbo nevar é um verbo impessoal que descreve um fenómeno da natureza."
+      },
+      {
+        "id": "pt_4_f1_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se classifica o sujeito em 'Comemos um bolo delicioso' (nós subentendido)?",
+        "question": "Como se classifica o sujeito em 'Comemos um bolo delicioso' (nós subentendido)?",
+        "opcoes": [
+          "Sujeito Nulo Subentendido",
+          "Sujeito Composto",
+          "Sujeito Inexistente"
+        ],
+        "options": [
+          "Sujeito Nulo Subentendido",
+          "Sujeito Composto",
+          "Sujeito Inexistente"
+        ],
+        "resposta": "Sujeito Nulo Subentendido",
+        "correctAnswer": "Sujeito Nulo Subentendido",
+        "explicacao": "A terminação verbal '-emos' identifica claramente a pessoa 'Nós'.",
+        "explanation": "A terminação verbal '-emos' identifica claramente a pessoa 'Nós'."
+      },
+      {
+        "id": "pt_4_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a função sintática ao segmento destacado:",
+        "question": "Associa a função sintática ao segmento destacado:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente análise sintática!",
+        "explanation": "Excelente análise sintática!",
+        "pairs": {
+          "'Senhora Professora,' posso entrar?": "Vocativo",
+          "'A lua cheia' ilumina a floresta": "Sujeito Simples",
+          "'O sol e a chuva' criam o arco-íris": "Sujeito Composto",
+          "O barco 'atracou no cais à hora marcada'": "Predicado"
+        },
+        "pares": {
+          "'Senhora Professora,' posso entrar?": "Vocativo",
+          "'A lua cheia' ilumina a floresta": "Sujeito Simples",
+          "'O sol e a chuva' criam o arco-íris": "Sujeito Composto",
+          "O barco 'atracou no cais à hora marcada'": "Predicado"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Ó Zé, vem depressa ver isto!', qual é a função sintática da expressão 'Ó Zé'?",
+        "question": "Na frase 'Ó Zé, vem depressa ver isto!', qual é a função sintática da expressão 'Ó Zé'?",
+        "opcoes": [
+          "Vocativo",
+          "Sujeito",
+          "Predicado"
+        ],
+        "options": [
+          "Vocativo",
+          "Sujeito",
+          "Predicado"
+        ],
+        "resposta": "Vocativo",
+        "correctAnswer": "Vocativo",
+        "explicacao": "O Vocativo serve para chamar, interpelar ou invocar alguém e isola-se por vírgulas!",
+        "explanation": "O Vocativo serve para chamar, interpelar ou invocar alguém e isola-se por vírgulas!"
+      },
+      {
+        "id": "pt_4_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'O cão e o gato dormem no tapete', o sujeito é Composto porque tem dois núcleos.",
+        "question": "Na frase 'O cão e o gato dormem no tapete', o sujeito é Composto porque tem dois núcleos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'O cão e o gato' é um Sujeito Composto.",
+        "explanation": "Verdadeiro! 'O cão e o gato' é um Sujeito Composto."
+      },
+      {
+        "id": "pt_4_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'Os atletas portugueses venceram a medalha de ouro', o predicado é ___",
+        "question": "Na frase 'Os atletas portugueses venceram a medalha de ouro', o predicado é ___",
+        "opcoes": [
+          "venceram a medalha de ouro",
+          "Os atletas portugueses",
+          "de ouro"
+        ],
+        "options": [
+          "venceram a medalha de ouro",
+          "Os atletas portugueses",
+          "de ouro"
+        ],
+        "resposta": "venceram a medalha de ouro",
+        "correctAnswer": "venceram a medalha de ouro",
+        "explicacao": "O Predicado inclui o verbo principal e todos os seus complementos!",
+        "explanation": "O Predicado inclui o verbo principal e todos os seus complementos!"
+      },
+      {
+        "id": "pt_4_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases contém um Vocativo corretamente pontuado com vírgula?",
+        "question": "Qual destas frases contém um Vocativo corretamente pontuado com vírgula?",
+        "opcoes": [
+          "👋 'Meninos, abram o livro na página 20.'",
+          "👋 'Meninos abram o livro'",
+          "👋 'Os meninos abriram o livro.'"
+        ],
+        "options": [
+          "👋 'Meninos, abram o livro na página 20.'",
+          "👋 'Meninos abram o livro'",
+          "👋 'Os meninos abriram o livro.'"
+        ],
+        "resposta": "👋 'Meninos, abram o livro na página 20.'",
+        "correctAnswer": "👋 'Meninos, abram o livro na página 20.'",
+        "explicacao": "O vocativo 'Meninos,' separa-se por vírgula da restante frase! 👋",
+        "explanation": "O vocativo 'Meninos,' separa-se por vírgula da restante frase! 👋"
+      },
+      {
+        "id": "pt_4_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o Sujeito na frase 'Ontem à tarde, a Maria comprou um estojo novo'?",
+        "question": "Qual é o Sujeito na frase 'Ontem à tarde, a Maria comprou um estojo novo'?",
+        "opcoes": [
+          "a Maria",
+          "Ontem à tarde",
+          "um estojo novo"
+        ],
+        "options": [
+          "a Maria",
+          "Ontem à tarde",
+          "um estojo novo"
+        ],
+        "resposta": "a Maria",
+        "correctAnswer": "a Maria",
+        "explicacao": "Quem comprou o estojo foi 'a Maria' (Sujeito Simples)!",
+        "explanation": "Quem comprou o estojo foi 'a Maria' (Sujeito Simples)!"
+      },
+      {
+        "id": "pt_4_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase 'Nevou na serra durante toda a noite', o sujeito é nulo impessoal.",
+        "question": "Na frase 'Nevou na serra durante toda a noite', o sujeito é nulo impessoal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O verbo nevar é um verbo impessoal que descreve um fenómeno da natureza.",
+        "explanation": "Verdadeiro! O verbo nevar é um verbo impessoal que descreve um fenómeno da natureza."
+      },
+      {
+        "id": "pt_4_f1_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se classifica o sujeito em 'Comemos um bolo delicioso' (nós subentendido)?",
+        "question": "Como se classifica o sujeito em 'Comemos um bolo delicioso' (nós subentendido)?",
+        "opcoes": [
+          "Sujeito Nulo Subentendido",
+          "Sujeito Composto",
+          "Sujeito Inexistente"
+        ],
+        "options": [
+          "Sujeito Nulo Subentendido",
+          "Sujeito Composto",
+          "Sujeito Inexistente"
+        ],
+        "resposta": "Sujeito Nulo Subentendido",
+        "correctAnswer": "Sujeito Nulo Subentendido",
+        "explicacao": "A terminação verbal '-emos' identifica claramente a pessoa 'Nós'.",
+        "explanation": "A terminação verbal '-emos' identifica claramente a pessoa 'Nós'."
+      },
+      {
+        "id": "pt_4_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a função sintática ao segmento destacado:",
+        "question": "Associa a função sintática ao segmento destacado:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente análise sintática!",
+        "explanation": "Excelente análise sintática!",
+        "pairs": {
+          "'Senhora Professora,' posso entrar?": "Vocativo",
+          "'A lua cheia' ilumina a floresta": "Sujeito Simples",
+          "'O sol e a chuva' criam o arco-íris": "Sujeito Composto",
+          "O barco 'atracou no cais à hora marcada'": "Predicado"
+        },
+        "pares": {
+          "'Senhora Professora,' posso entrar?": "Vocativo",
+          "'A lua cheia' ilumina a floresta": "Sujeito Simples",
+          "'O sol e a chuva' criam o arco-íris": "Sujeito Composto",
+          "O barco 'atracou no cais à hora marcada'": "Predicado"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f2",
+    "numero": 2,
+    "titulo": "Complemento Direto e Indireto",
+    "title": "Complemento Direto e Indireto",
+    "descricao": "Perguntas 'O quê?' (Complemento Direto) e 'A quem?' (Complemento Indireto).",
+    "description": "Perguntas 'O quê?' (Complemento Direto) e 'A quem?' (Complemento Indireto).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🎯",
+    "imageEmoji": "🎯",
+    "exercicios": [
+      {
+        "id": "pt_4_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O Zé ofereceu um postal à mãe', qual é o COMPLEMENTO DIRETO (responde a 'O quê?')?",
+        "question": "Na frase 'O Zé ofereceu um postal à mãe', qual é o COMPLEMENTO DIRETO (responde a 'O quê?')?",
+        "opcoes": [
+          "um postal",
+          "à mãe",
+          "O Zé"
+        ],
+        "options": [
+          "um postal",
+          "à mãe",
+          "O Zé"
+        ],
+        "resposta": "um postal",
+        "correctAnswer": "um postal",
+        "explicacao": "O Zé ofereceu o quê? 'Um postal' (Complemento Direto)!",
+        "explanation": "O Zé ofereceu o quê? 'Um postal' (Complemento Direto)!"
+      },
+      {
+        "id": "pt_4_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase anterior, 'à mãe' é o Complemento Indireto porque responde à pergunta 'A quem?'.",
+        "question": "Na frase anterior, 'à mãe' é o Complemento Indireto porque responde à pergunta 'A quem?'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Complemento Indireto é introduzido pela preposição 'a' e indica o destinatário.",
+        "explanation": "Verdadeiro! O Complemento Indireto é introduzido pela preposição 'a' e indica o destinatário."
+      },
+      {
+        "id": "pt_4_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'O escritor escreveu um romance histórico', 'um romance histórico' é o Complemento ___",
+        "question": "Na frase 'O escritor escreveu um romance histórico', 'um romance histórico' é o Complemento ___",
+        "opcoes": [
+          "Direto",
+          "Indireto",
+          "Oblíquo"
+        ],
+        "options": [
+          "Direto",
+          "Indireto",
+          "Oblíquo"
+        ],
+        "resposta": "Direto",
+        "correctAnswer": "Direto",
+        "explicacao": "Responde à pergunta: 'O escritor escreveu o quê?' -> Complemento Direto.",
+        "explanation": "Responde à pergunta: 'O escritor escreveu o quê?' -> Complemento Direto."
+      },
+      {
+        "id": "pt_4_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual pronome substitui o Complemento Direto em: 'Eu li o livro' -> 'Eu li-___'?",
+        "question": "Qual pronome substitui o Complemento Direto em: 'Eu li o livro' -> 'Eu li-___'?",
+        "opcoes": [
+          "📖 o",
+          "📖 lhe",
+          "📖 me"
+        ],
+        "options": [
+          "📖 o",
+          "📖 lhe",
+          "📖 me"
+        ],
+        "resposta": "📖 o",
+        "correctAnswer": "📖 o",
+        "explicacao": "O Complemento Direto de 3.ª pessoa é substituído por 'o, a, os, as' (Eu li-o)! 📖",
+        "explanation": "O Complemento Direto de 3.ª pessoa é substituído por 'o, a, os, as' (Eu li-o)! 📖"
+      },
+      {
+        "id": "pt_4_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual pronome substitui o Complemento Indireto em: 'Eu telefonei à Rita' -> 'Eu telefonei-___'?",
+        "question": "Qual pronome substitui o Complemento Indireto em: 'Eu telefonei à Rita' -> 'Eu telefonei-___'?",
+        "opcoes": [
+          "lhe",
+          "a",
+          "la"
+        ],
+        "options": [
+          "lhe",
+          "a",
+          "la"
+        ],
+        "resposta": "lhe",
+        "correctAnswer": "lhe",
+        "explicacao": "O Complemento Indireto é substituído pelo pronome pessoal 'lhe / lhes' (telefonei-lhe)!",
+        "explanation": "O Complemento Indireto é substituído pelo pronome pessoal 'lhe / lhes' (telefonei-lhe)!"
+      },
+      {
+        "id": "pt_4_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Complemento Direto pode ser substituído pelo pronome 'lhe'.",
+        "question": "O Complemento Direto pode ser substituído pelo pronome 'lhe'.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Lhe' substitui apenas o Complemento Indireto. O Complemento Direto usa 'o, a, os, as'.",
+        "explanation": "Falso! 'Lhe' substitui apenas o Complemento Indireto. O Complemento Direto usa 'o, a, os, as'."
+      },
+      {
+        "id": "pt_4_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Identifica o Complemento Direto em 'O padeiro amassou a farinha com mestria':",
+        "question": "Identifica o Complemento Direto em 'O padeiro amassou a farinha com mestria':",
+        "opcoes": [
+          "a farinha",
+          "com mestria",
+          "O padeiro"
+        ],
+        "options": [
+          "a farinha",
+          "com mestria",
+          "O padeiro"
+        ],
+        "resposta": "a farinha",
+        "correctAnswer": "a farinha",
+        "explicacao": "Amassou o quê? 'A farinha'!",
+        "explanation": "Amassou o quê? 'A farinha'!"
+      },
+      {
+        "id": "pt_4_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os complementos destacados:",
+        "question": "Classifica os complementos destacados:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita identificação de complementos diretos e indiretos!",
+        "explanation": "Perfeita identificação de complementos diretos e indiretos!",
+        "pairs": {
+          "O Pedro enviou 'uma encomenda'": "Complemento Direto (O quê?)",
+          "O Pedro enviou a encomenda 'ao avô'": "Complemento Indireto (A quem?)",
+          "A Rita aplaudiu 'o pianista'": "Complemento Direto (Quem?)",
+          "O médico explicou o tratamento 'ao doente'": "Complemento Indireto (A quem?)"
+        },
+        "pares": {
+          "O Pedro enviou 'uma encomenda'": "Complemento Direto (O quê?)",
+          "O Pedro enviou a encomenda 'ao avô'": "Complemento Indireto (A quem?)",
+          "A Rita aplaudiu 'o pianista'": "Complemento Direto (Quem?)",
+          "O médico explicou o tratamento 'ao doente'": "Complemento Indireto (A quem?)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O Zé ofereceu um postal à mãe', qual é o COMPLEMENTO DIRETO (responde a 'O quê?')?",
+        "question": "Na frase 'O Zé ofereceu um postal à mãe', qual é o COMPLEMENTO DIRETO (responde a 'O quê?')?",
+        "opcoes": [
+          "um postal",
+          "à mãe",
+          "O Zé"
+        ],
+        "options": [
+          "um postal",
+          "à mãe",
+          "O Zé"
+        ],
+        "resposta": "um postal",
+        "correctAnswer": "um postal",
+        "explicacao": "O Zé ofereceu o quê? 'Um postal' (Complemento Direto)!",
+        "explanation": "O Zé ofereceu o quê? 'Um postal' (Complemento Direto)!"
+      },
+      {
+        "id": "pt_4_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na frase anterior, 'à mãe' é o Complemento Indireto porque responde à pergunta 'A quem?'.",
+        "question": "Na frase anterior, 'à mãe' é o Complemento Indireto porque responde à pergunta 'A quem?'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Complemento Indireto é introduzido pela preposição 'a' e indica o destinatário.",
+        "explanation": "Verdadeiro! O Complemento Indireto é introduzido pela preposição 'a' e indica o destinatário."
+      },
+      {
+        "id": "pt_4_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'O escritor escreveu um romance histórico', 'um romance histórico' é o Complemento ___",
+        "question": "Na frase 'O escritor escreveu um romance histórico', 'um romance histórico' é o Complemento ___",
+        "opcoes": [
+          "Direto",
+          "Indireto",
+          "Oblíquo"
+        ],
+        "options": [
+          "Direto",
+          "Indireto",
+          "Oblíquo"
+        ],
+        "resposta": "Direto",
+        "correctAnswer": "Direto",
+        "explicacao": "Responde à pergunta: 'O escritor escreveu o quê?' -> Complemento Direto.",
+        "explanation": "Responde à pergunta: 'O escritor escreveu o quê?' -> Complemento Direto."
+      },
+      {
+        "id": "pt_4_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual pronome substitui o Complemento Direto em: 'Eu li o livro' -> 'Eu li-___'?",
+        "question": "Qual pronome substitui o Complemento Direto em: 'Eu li o livro' -> 'Eu li-___'?",
+        "opcoes": [
+          "📖 o",
+          "📖 lhe",
+          "📖 me"
+        ],
+        "options": [
+          "📖 o",
+          "📖 lhe",
+          "📖 me"
+        ],
+        "resposta": "📖 o",
+        "correctAnswer": "📖 o",
+        "explicacao": "O Complemento Direto de 3.ª pessoa é substituído por 'o, a, os, as' (Eu li-o)! 📖",
+        "explanation": "O Complemento Direto de 3.ª pessoa é substituído por 'o, a, os, as' (Eu li-o)! 📖"
+      },
+      {
+        "id": "pt_4_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual pronome substitui o Complemento Indireto em: 'Eu telefonei à Rita' -> 'Eu telefonei-___'?",
+        "question": "Qual pronome substitui o Complemento Indireto em: 'Eu telefonei à Rita' -> 'Eu telefonei-___'?",
+        "opcoes": [
+          "lhe",
+          "a",
+          "la"
+        ],
+        "options": [
+          "lhe",
+          "a",
+          "la"
+        ],
+        "resposta": "lhe",
+        "correctAnswer": "lhe",
+        "explicacao": "O Complemento Indireto é substituído pelo pronome pessoal 'lhe / lhes' (telefonei-lhe)!",
+        "explanation": "O Complemento Indireto é substituído pelo pronome pessoal 'lhe / lhes' (telefonei-lhe)!"
+      },
+      {
+        "id": "pt_4_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Complemento Direto pode ser substituído pelo pronome 'lhe'.",
+        "question": "O Complemento Direto pode ser substituído pelo pronome 'lhe'.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 'Lhe' substitui apenas o Complemento Indireto. O Complemento Direto usa 'o, a, os, as'.",
+        "explanation": "Falso! 'Lhe' substitui apenas o Complemento Indireto. O Complemento Direto usa 'o, a, os, as'."
+      },
+      {
+        "id": "pt_4_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Identifica o Complemento Direto em 'O padeiro amassou a farinha com mestria':",
+        "question": "Identifica o Complemento Direto em 'O padeiro amassou a farinha com mestria':",
+        "opcoes": [
+          "a farinha",
+          "com mestria",
+          "O padeiro"
+        ],
+        "options": [
+          "a farinha",
+          "com mestria",
+          "O padeiro"
+        ],
+        "resposta": "a farinha",
+        "correctAnswer": "a farinha",
+        "explicacao": "Amassou o quê? 'A farinha'!",
+        "explanation": "Amassou o quê? 'A farinha'!"
+      },
+      {
+        "id": "pt_4_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os complementos destacados:",
+        "question": "Classifica os complementos destacados:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita identificação de complementos diretos e indiretos!",
+        "explanation": "Perfeita identificação de complementos diretos e indiretos!",
+        "pairs": {
+          "O Pedro enviou 'uma encomenda'": "Complemento Direto (O quê?)",
+          "O Pedro enviou a encomenda 'ao avô'": "Complemento Indireto (A quem?)",
+          "A Rita aplaudiu 'o pianista'": "Complemento Direto (Quem?)",
+          "O médico explicou o tratamento 'ao doente'": "Complemento Indireto (A quem?)"
+        },
+        "pares": {
+          "O Pedro enviou 'uma encomenda'": "Complemento Direto (O quê?)",
+          "O Pedro enviou a encomenda 'ao avô'": "Complemento Indireto (A quem?)",
+          "A Rita aplaudiu 'o pianista'": "Complemento Direto (Quem?)",
+          "O médico explicou o tratamento 'ao doente'": "Complemento Indireto (A quem?)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f3",
+    "numero": 3,
+    "titulo": "Graus dos Adjetivos e dos Nomes",
+    "title": "Graus dos Adjetivos e dos Nomes",
+    "descricao": "Grau Comparativo (superioridade, igualdade, inferioridade) e Superlativo Absoluto/Relativo.",
+    "description": "Grau Comparativo (superioridade, igualdade, inferioridade) e Superlativo Absoluto/Relativo.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🌟",
+    "imageEmoji": "🌟",
+    "exercicios": [
+      {
+        "id": "pt_4_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em 'O leopardo é mais veloz que a lebre', qual é o grau do adjetivo?",
+        "question": "Em 'O leopardo é mais veloz que a lebre', qual é o grau do adjetivo?",
+        "opcoes": [
+          "Comparativo de Superioridade",
+          "Comparativo de Igualdade",
+          "Superlativo Absoluto"
+        ],
+        "options": [
+          "Comparativo de Superioridade",
+          "Comparativo de Igualdade",
+          "Superlativo Absoluto"
+        ],
+        "resposta": "Comparativo de Superioridade",
+        "correctAnswer": "Comparativo de Superioridade",
+        "explicacao": "Usa 'mais... do que / que', logo é Comparativo de Superioridade!",
+        "explanation": "Usa 'mais... do que / que', logo é Comparativo de Superioridade!"
+      },
+      {
+        "id": "pt_4_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'O teste de matemática foi facílimo' está no Grau Superlativo Absoluto Sintético.",
+        "question": "A frase 'O teste de matemática foi facílimo' está no Grau Superlativo Absoluto Sintético.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A terminação '-íssimo' ou '-ílimo' indica Superlativo Absoluto Sintético.",
+        "explanation": "Verdadeiro! A terminação '-íssimo' ou '-ílimo' indica Superlativo Absoluto Sintético."
+      },
+      {
+        "id": "pt_4_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A frase 'Este livro é tão interessante como aquele' está no Grau Comparativo de ___",
+        "question": "A frase 'Este livro é tão interessante como aquele' está no Grau Comparativo de ___",
+        "opcoes": [
+          "Igualdade",
+          "Superioridade",
+          "Inferioridade"
+        ],
+        "options": [
+          "Igualdade",
+          "Superioridade",
+          "Inferioridade"
+        ],
+        "resposta": "Igualdade",
+        "correctAnswer": "Igualdade",
+        "explicacao": "'Tão... como' exprime Comparativo de Igualdade!",
+        "explanation": "'Tão... como' exprime Comparativo de Igualdade!"
+      },
+      {
+        "id": "pt_4_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases expressa o Grau Superlativo Absoluto Analítico?",
+        "question": "Qual destas frases expressa o Grau Superlativo Absoluto Analítico?",
+        "opcoes": [
+          "✨ 'A sobremesa estava muito deliciosa.'",
+          "✨ 'A sobremesa é mais doce que o café.'",
+          "✨ 'A sobremesa é doce.'"
+        ],
+        "options": [
+          "✨ 'A sobremesa estava muito deliciosa.'",
+          "✨ 'A sobremesa é mais doce que o café.'",
+          "✨ 'A sobremesa é doce.'"
+        ],
+        "resposta": "✨ 'A sobremesa estava muito deliciosa.'",
+        "correctAnswer": "✨ 'A sobremesa estava muito deliciosa.'",
+        "explicacao": "O uso do advérbio 'muito / extremamente' forma o Superlativo Absoluto Analítico! ✨",
+        "explanation": "O uso do advérbio 'muito / extremamente' forma o Superlativo Absoluto Analítico! ✨"
+      },
+      {
+        "id": "pt_4_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o Superlativo Absoluto Sintético irregular do adjetivo 'bom'?",
+        "question": "Qual é o Superlativo Absoluto Sintético irregular do adjetivo 'bom'?",
+        "opcoes": [
+          "Ótimo / Boníssimo",
+          "Mais bom",
+          "Melhorzinho"
+        ],
+        "options": [
+          "Ótimo / Boníssimo",
+          "Mais bom",
+          "Melhorzinho"
+        ],
+        "resposta": "Ótimo / Boníssimo",
+        "correctAnswer": "Ótimo / Boníssimo",
+        "explicacao": "Bom -> Ótimo / Boníssimo; Mau -> Péssimo; Grande -> Máximo; Pequeno -> Mínimo!",
+        "explanation": "Bom -> Ótimo / Boníssimo; Mau -> Péssimo; Grande -> Máximo; Pequeno -> Mínimo!"
+      },
+      {
+        "id": "pt_4_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Em 'A Joana é a aluna mais estudiosa da turma', o adjetivo está no Grau Superlativo Relativo de Superioridade.",
+        "question": "Em 'A Joana é a aluna mais estudiosa da turma', o adjetivo está no Grau Superlativo Relativo de Superioridade.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Destaca a Joana relativamente a todo o grupo da turma.",
+        "explanation": "Verdadeiro! Destaca a Joana relativamente a todo o grupo da turma."
+      },
+      {
+        "id": "pt_4_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o diminutivo erudito da palavra 'rio'?",
+        "question": "Qual é o diminutivo erudito da palavra 'rio'?",
+        "opcoes": [
+          "Ribeiro / Riacho",
+          "Riosote",
+          "Riozão"
+        ],
+        "options": [
+          "Ribeiro / Riacho",
+          "Riosote",
+          "Riozão"
+        ],
+        "resposta": "Ribeiro / Riacho",
+        "correctAnswer": "Ribeiro / Riacho",
+        "explicacao": "Ribeiro e riacho são diminutivos da palavra rio.",
+        "explanation": "Ribeiro e riacho são diminutivos da palavra rio."
+      },
+      {
+        "id": "pt_4_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os graus dos adjetivos:",
+        "question": "Classifica os graus dos adjetivos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio de todos os graus dos adjetivos!",
+        "explanation": "Excelente domínio de todos os graus dos adjetivos!",
+        "pairs": {
+          "mais alto do que": "Comparativo de Superioridade",
+          "tão inteligente como": "Comparativo de Igualdade",
+          "menos rápido do que": "Comparativo de Inferioridade",
+          "rapidíssimo": "Superlativo Absoluto Sintético"
+        },
+        "pares": {
+          "mais alto do que": "Comparativo de Superioridade",
+          "tão inteligente como": "Comparativo de Igualdade",
+          "menos rápido do que": "Comparativo de Inferioridade",
+          "rapidíssimo": "Superlativo Absoluto Sintético"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em 'O leopardo é mais veloz que a lebre', qual é o grau do adjetivo?",
+        "question": "Em 'O leopardo é mais veloz que a lebre', qual é o grau do adjetivo?",
+        "opcoes": [
+          "Comparativo de Superioridade",
+          "Comparativo de Igualdade",
+          "Superlativo Absoluto"
+        ],
+        "options": [
+          "Comparativo de Superioridade",
+          "Comparativo de Igualdade",
+          "Superlativo Absoluto"
+        ],
+        "resposta": "Comparativo de Superioridade",
+        "correctAnswer": "Comparativo de Superioridade",
+        "explicacao": "Usa 'mais... do que / que', logo é Comparativo de Superioridade!",
+        "explanation": "Usa 'mais... do que / que', logo é Comparativo de Superioridade!"
+      },
+      {
+        "id": "pt_4_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'O teste de matemática foi facílimo' está no Grau Superlativo Absoluto Sintético.",
+        "question": "A frase 'O teste de matemática foi facílimo' está no Grau Superlativo Absoluto Sintético.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A terminação '-íssimo' ou '-ílimo' indica Superlativo Absoluto Sintético.",
+        "explanation": "Verdadeiro! A terminação '-íssimo' ou '-ílimo' indica Superlativo Absoluto Sintético."
+      },
+      {
+        "id": "pt_4_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A frase 'Este livro é tão interessante como aquele' está no Grau Comparativo de ___",
+        "question": "A frase 'Este livro é tão interessante como aquele' está no Grau Comparativo de ___",
+        "opcoes": [
+          "Igualdade",
+          "Superioridade",
+          "Inferioridade"
+        ],
+        "options": [
+          "Igualdade",
+          "Superioridade",
+          "Inferioridade"
+        ],
+        "resposta": "Igualdade",
+        "correctAnswer": "Igualdade",
+        "explicacao": "'Tão... como' exprime Comparativo de Igualdade!",
+        "explanation": "'Tão... como' exprime Comparativo de Igualdade!"
+      },
+      {
+        "id": "pt_4_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas frases expressa o Grau Superlativo Absoluto Analítico?",
+        "question": "Qual destas frases expressa o Grau Superlativo Absoluto Analítico?",
+        "opcoes": [
+          "✨ 'A sobremesa estava muito deliciosa.'",
+          "✨ 'A sobremesa é mais doce que o café.'",
+          "✨ 'A sobremesa é doce.'"
+        ],
+        "options": [
+          "✨ 'A sobremesa estava muito deliciosa.'",
+          "✨ 'A sobremesa é mais doce que o café.'",
+          "✨ 'A sobremesa é doce.'"
+        ],
+        "resposta": "✨ 'A sobremesa estava muito deliciosa.'",
+        "correctAnswer": "✨ 'A sobremesa estava muito deliciosa.'",
+        "explicacao": "O uso do advérbio 'muito / extremamente' forma o Superlativo Absoluto Analítico! ✨",
+        "explanation": "O uso do advérbio 'muito / extremamente' forma o Superlativo Absoluto Analítico! ✨"
+      },
+      {
+        "id": "pt_4_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o Superlativo Absoluto Sintético irregular do adjetivo 'bom'?",
+        "question": "Qual é o Superlativo Absoluto Sintético irregular do adjetivo 'bom'?",
+        "opcoes": [
+          "Ótimo / Boníssimo",
+          "Mais bom",
+          "Melhorzinho"
+        ],
+        "options": [
+          "Ótimo / Boníssimo",
+          "Mais bom",
+          "Melhorzinho"
+        ],
+        "resposta": "Ótimo / Boníssimo",
+        "correctAnswer": "Ótimo / Boníssimo",
+        "explicacao": "Bom -> Ótimo / Boníssimo; Mau -> Péssimo; Grande -> Máximo; Pequeno -> Mínimo!",
+        "explanation": "Bom -> Ótimo / Boníssimo; Mau -> Péssimo; Grande -> Máximo; Pequeno -> Mínimo!"
+      },
+      {
+        "id": "pt_4_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Em 'A Joana é a aluna mais estudiosa da turma', o adjetivo está no Grau Superlativo Relativo de Superioridade.",
+        "question": "Em 'A Joana é a aluna mais estudiosa da turma', o adjetivo está no Grau Superlativo Relativo de Superioridade.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Destaca a Joana relativamente a todo o grupo da turma.",
+        "explanation": "Verdadeiro! Destaca a Joana relativamente a todo o grupo da turma."
+      },
+      {
+        "id": "pt_4_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o diminutivo erudito da palavra 'rio'?",
+        "question": "Qual é o diminutivo erudito da palavra 'rio'?",
+        "opcoes": [
+          "Ribeiro / Riacho",
+          "Riosote",
+          "Riozão"
+        ],
+        "options": [
+          "Ribeiro / Riacho",
+          "Riosote",
+          "Riozão"
+        ],
+        "resposta": "Ribeiro / Riacho",
+        "correctAnswer": "Ribeiro / Riacho",
+        "explicacao": "Ribeiro e riacho são diminutivos da palavra rio.",
+        "explanation": "Ribeiro e riacho são diminutivos da palavra rio."
+      },
+      {
+        "id": "pt_4_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os graus dos adjetivos:",
+        "question": "Classifica os graus dos adjetivos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio de todos os graus dos adjetivos!",
+        "explanation": "Excelente domínio de todos os graus dos adjetivos!",
+        "pairs": {
+          "mais alto do que": "Comparativo de Superioridade",
+          "tão inteligente como": "Comparativo de Igualdade",
+          "menos rápido do que": "Comparativo de Inferioridade",
+          "rapidíssimo": "Superlativo Absoluto Sintético"
+        },
+        "pares": {
+          "mais alto do que": "Comparativo de Superioridade",
+          "tão inteligente como": "Comparativo de Igualdade",
+          "menos rápido do que": "Comparativo de Inferioridade",
+          "rapidíssimo": "Superlativo Absoluto Sintético"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f4",
+    "numero": 4,
+    "titulo": "Conjugação Verbal Completa: Modo Indicativo",
+    "title": "Conjugação Verbal Completa: Modo Indicativo",
+    "descricao": "Presente, Pretérito Perfeito, Pretérito Imperfeito, Mais-que-Perfeito e Futuro.",
+    "description": "Presente, Pretérito Perfeito, Pretérito Imperfeito, Mais-que-Perfeito e Futuro.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "📖",
+    "imageEmoji": "📖",
+    "exercicios": [
+      {
+        "id": "pt_4_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Quando cheguei a casa, o meu pai já cozinhara o jantar', em que tempo verbal está 'cozinhara'?",
+        "question": "Na frase 'Quando cheguei a casa, o meu pai já cozinhara o jantar', em que tempo verbal está 'cozinhara'?",
+        "opcoes": [
+          "Pretérito Mais-que-Perfeito Simples",
+          "Pretérito Perfeito",
+          "Futuro"
+        ],
+        "options": [
+          "Pretérito Mais-que-Perfeito Simples",
+          "Pretérito Perfeito",
+          "Futuro"
+        ],
+        "resposta": "Pretérito Mais-que-Perfeito Simples",
+        "correctAnswer": "Pretérito Mais-que-Perfeito Simples",
+        "explicacao": "O Pretérito Mais-que-Perfeito (cozinhara / tinha cozinhado) indica uma ação passada anterior a outra também passada!",
+        "explanation": "O Pretérito Mais-que-Perfeito (cozinhara / tinha cozinhado) indica uma ação passada anterior a outra também passada!"
+      },
+      {
+        "id": "pt_4_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Modo Indicativo é o modo verbal que expressa factos certos, reais e seguros.",
+        "question": "O Modo Indicativo é o modo verbal que expressa factos certos, reais e seguros.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ao contrário do Condicional ou Conjuntivo, o Indicativo expressa certezas.",
+        "explanation": "Verdadeiro! Ao contrário do Condicional ou Conjuntivo, o Indicativo expressa certezas."
+      },
+      {
+        "id": "pt_4_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Conjuga o verbo 'fazer' no Futuro do Indicativo para 'Eles': 'Amanhã eles ___ a apresentação.'",
+        "question": "Conjuga o verbo 'fazer' no Futuro do Indicativo para 'Eles': 'Amanhã eles ___ a apresentação.'",
+        "opcoes": [
+          "farão",
+          "fizeram",
+          "faziam"
+        ],
+        "options": [
+          "farão",
+          "fizeram",
+          "faziam"
+        ],
+        "resposta": "farão",
+        "correctAnswer": "farão",
+        "explicacao": "Futuro de 3.ª pessoa do plural termina em '-ão' (farão)!",
+        "explanation": "Futuro de 3.ª pessoa do plural termina em '-ão' (farão)!"
+      },
+      {
+        "id": "pt_4_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual forma verbal está no Pretérito Imperfeito do Indicativo?",
+        "question": "Qual forma verbal está no Pretérito Imperfeito do Indicativo?",
+        "opcoes": [
+          "⏳ 'Eu sonhava todas as noites.'",
+          "⏳ 'Eu sonhei ontem.'",
+          "⏳ 'Eu sonharei amanhã.'"
+        ],
+        "options": [
+          "⏳ 'Eu sonhava todas as noites.'",
+          "⏳ 'Eu sonhei ontem.'",
+          "⏳ 'Eu sonharei amanhã.'"
+        ],
+        "resposta": "⏳ 'Eu sonhava todas as noites.'",
+        "correctAnswer": "⏳ 'Eu sonhava todas as noites.'",
+        "explicacao": "'Sonhava' termina em '-ava', marca típica do Pretérito Imperfeito da 1.ª conjugação! ⏳",
+        "explanation": "'Sonhava' termina em '-ava', marca típica do Pretérito Imperfeito da 1.ª conjugação! ⏳"
+      },
+      {
+        "id": "pt_4_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a 2.ª pessoa do plural do verbo 'partir' no Presente do Indicativo?",
+        "question": "Qual é a 2.ª pessoa do plural do verbo 'partir' no Presente do Indicativo?",
+        "opcoes": [
+          "vós partis",
+          "vós partistes",
+          "vós partireis"
+        ],
+        "options": [
+          "vós partis",
+          "vós partistes",
+          "vós partireis"
+        ],
+        "resposta": "vós partis",
+        "correctAnswer": "vós partis",
+        "explicacao": "Presente: eu parto, tu partes, ele parte, nós partimos, vós partis, eles partem.",
+        "explanation": "Presente: eu parto, tu partes, ele parte, nós partimos, vós partis, eles partem."
+      },
+      {
+        "id": "pt_4_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os verbos 'ser', 'ir' e 'haver' são verbos irregulares porque alteram o seu radical na conjugação.",
+        "question": "Os verbos 'ser', 'ir' e 'haver' são verbos irregulares porque alteram o seu radical na conjugação.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! (ex: eu sou, eu fui, eu era mudam de radical).",
+        "explanation": "Verdadeiro! (ex: eu sou, eu fui, eu era mudam de radical)."
+      },
+      {
+        "id": "pt_4_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que indica a forma nominal de INFINITIVO de um verbo?",
+        "question": "O que indica a forma nominal de INFINITIVO de um verbo?",
+        "opcoes": [
+          "O nome base do verbo terminado em -ar, -er, -ir",
+          "Uma ação no passado",
+          "Uma ordem"
+        ],
+        "options": [
+          "O nome base do verbo terminado em -ar, -er, -ir",
+          "Uma ação no passado",
+          "Uma ordem"
+        ],
+        "resposta": "O nome base do verbo terminado em -ar, -er, -ir",
+        "correctAnswer": "O nome base do verbo terminado em -ar, -er, -ir",
+        "explicacao": "Ex: cantar, correr, sorrir são infinitivos.",
+        "explanation": "Ex: cantar, correr, sorrir são infinitivos."
+      },
+      {
+        "id": "pt_4_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a forma verbal ao seu tempo do Modo Indicativo:",
+        "question": "Associa a forma verbal ao seu tempo do Modo Indicativo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conjugação verbal rigorosa e sem falhas!",
+        "explanation": "Conjugação verbal rigorosa e sem falhas!",
+        "pairs": {
+          "nós estudamos (agora)": "Presente",
+          "nós estudámos (ontem)": "Pretérito Perfeito",
+          "nós estudávamos (antigamente)": "Pretérito Imperfeito",
+          "nós estudaremos (amanhã)": "Futuro"
+        },
+        "pares": {
+          "nós estudamos (agora)": "Presente",
+          "nós estudámos (ontem)": "Pretérito Perfeito",
+          "nós estudávamos (antigamente)": "Pretérito Imperfeito",
+          "nós estudaremos (amanhã)": "Futuro"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Quando cheguei a casa, o meu pai já cozinhara o jantar', em que tempo verbal está 'cozinhara'?",
+        "question": "Na frase 'Quando cheguei a casa, o meu pai já cozinhara o jantar', em que tempo verbal está 'cozinhara'?",
+        "opcoes": [
+          "Pretérito Mais-que-Perfeito Simples",
+          "Pretérito Perfeito",
+          "Futuro"
+        ],
+        "options": [
+          "Pretérito Mais-que-Perfeito Simples",
+          "Pretérito Perfeito",
+          "Futuro"
+        ],
+        "resposta": "Pretérito Mais-que-Perfeito Simples",
+        "correctAnswer": "Pretérito Mais-que-Perfeito Simples",
+        "explicacao": "O Pretérito Mais-que-Perfeito (cozinhara / tinha cozinhado) indica uma ação passada anterior a outra também passada!",
+        "explanation": "O Pretérito Mais-que-Perfeito (cozinhara / tinha cozinhado) indica uma ação passada anterior a outra também passada!"
+      },
+      {
+        "id": "pt_4_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Modo Indicativo é o modo verbal que expressa factos certos, reais e seguros.",
+        "question": "O Modo Indicativo é o modo verbal que expressa factos certos, reais e seguros.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ao contrário do Condicional ou Conjuntivo, o Indicativo expressa certezas.",
+        "explanation": "Verdadeiro! Ao contrário do Condicional ou Conjuntivo, o Indicativo expressa certezas."
+      },
+      {
+        "id": "pt_4_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Conjuga o verbo 'fazer' no Futuro do Indicativo para 'Eles': 'Amanhã eles ___ a apresentação.'",
+        "question": "Conjuga o verbo 'fazer' no Futuro do Indicativo para 'Eles': 'Amanhã eles ___ a apresentação.'",
+        "opcoes": [
+          "farão",
+          "fizeram",
+          "faziam"
+        ],
+        "options": [
+          "farão",
+          "fizeram",
+          "faziam"
+        ],
+        "resposta": "farão",
+        "correctAnswer": "farão",
+        "explicacao": "Futuro de 3.ª pessoa do plural termina em '-ão' (farão)!",
+        "explanation": "Futuro de 3.ª pessoa do plural termina em '-ão' (farão)!"
+      },
+      {
+        "id": "pt_4_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual forma verbal está no Pretérito Imperfeito do Indicativo?",
+        "question": "Qual forma verbal está no Pretérito Imperfeito do Indicativo?",
+        "opcoes": [
+          "⏳ 'Eu sonhava todas as noites.'",
+          "⏳ 'Eu sonhei ontem.'",
+          "⏳ 'Eu sonharei amanhã.'"
+        ],
+        "options": [
+          "⏳ 'Eu sonhava todas as noites.'",
+          "⏳ 'Eu sonhei ontem.'",
+          "⏳ 'Eu sonharei amanhã.'"
+        ],
+        "resposta": "⏳ 'Eu sonhava todas as noites.'",
+        "correctAnswer": "⏳ 'Eu sonhava todas as noites.'",
+        "explicacao": "'Sonhava' termina em '-ava', marca típica do Pretérito Imperfeito da 1.ª conjugação! ⏳",
+        "explanation": "'Sonhava' termina em '-ava', marca típica do Pretérito Imperfeito da 1.ª conjugação! ⏳"
+      },
+      {
+        "id": "pt_4_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a 2.ª pessoa do plural do verbo 'partir' no Presente do Indicativo?",
+        "question": "Qual é a 2.ª pessoa do plural do verbo 'partir' no Presente do Indicativo?",
+        "opcoes": [
+          "vós partis",
+          "vós partistes",
+          "vós partireis"
+        ],
+        "options": [
+          "vós partis",
+          "vós partistes",
+          "vós partireis"
+        ],
+        "resposta": "vós partis",
+        "correctAnswer": "vós partis",
+        "explicacao": "Presente: eu parto, tu partes, ele parte, nós partimos, vós partis, eles partem.",
+        "explanation": "Presente: eu parto, tu partes, ele parte, nós partimos, vós partis, eles partem."
+      },
+      {
+        "id": "pt_4_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os verbos 'ser', 'ir' e 'haver' são verbos irregulares porque alteram o seu radical na conjugação.",
+        "question": "Os verbos 'ser', 'ir' e 'haver' são verbos irregulares porque alteram o seu radical na conjugação.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! (ex: eu sou, eu fui, eu era mudam de radical).",
+        "explanation": "Verdadeiro! (ex: eu sou, eu fui, eu era mudam de radical)."
+      },
+      {
+        "id": "pt_4_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que indica a forma nominal de INFINITIVO de um verbo?",
+        "question": "O que indica a forma nominal de INFINITIVO de um verbo?",
+        "opcoes": [
+          "O nome base do verbo terminado em -ar, -er, -ir",
+          "Uma ação no passado",
+          "Uma ordem"
+        ],
+        "options": [
+          "O nome base do verbo terminado em -ar, -er, -ir",
+          "Uma ação no passado",
+          "Uma ordem"
+        ],
+        "resposta": "O nome base do verbo terminado em -ar, -er, -ir",
+        "correctAnswer": "O nome base do verbo terminado em -ar, -er, -ir",
+        "explicacao": "Ex: cantar, correr, sorrir são infinitivos.",
+        "explanation": "Ex: cantar, correr, sorrir são infinitivos."
+      },
+      {
+        "id": "pt_4_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a forma verbal ao seu tempo do Modo Indicativo:",
+        "question": "Associa a forma verbal ao seu tempo do Modo Indicativo:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conjugação verbal rigorosa e sem falhas!",
+        "explanation": "Conjugação verbal rigorosa e sem falhas!",
+        "pairs": {
+          "nós estudamos (agora)": "Presente",
+          "nós estudámos (ontem)": "Pretérito Perfeito",
+          "nós estudávamos (antigamente)": "Pretérito Imperfeito",
+          "nós estudaremos (amanhã)": "Futuro"
+        },
+        "pares": {
+          "nós estudamos (agora)": "Presente",
+          "nós estudámos (ontem)": "Pretérito Perfeito",
+          "nós estudávamos (antigamente)": "Pretérito Imperfeito",
+          "nós estudaremos (amanhã)": "Futuro"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f5",
+    "numero": 5,
+    "titulo": "Advérbios e Locuções Adverbiais",
+    "title": "Advérbios e Locuções Adverbiais",
+    "descricao": "Advérbios de tempo, lugar, modo, negação, afirmação e quantidade.",
+    "description": "Advérbios de tempo, lugar, modo, negação, afirmação e quantidade.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🧭",
+    "imageEmoji": "🧭",
+    "exercicios": [
+      {
+        "id": "pt_4_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Ele respondeu calmamente às perguntas do professor', 'calmamente' é um advérbio de...",
+        "question": "Na frase 'Ele respondeu calmamente às perguntas do professor', 'calmamente' é um advérbio de...",
+        "opcoes": [
+          "Modo",
+          "Lugar",
+          "Tempo"
+        ],
+        "options": [
+          "Modo",
+          "Lugar",
+          "Tempo"
+        ],
+        "resposta": "Modo",
+        "correctAnswer": "Modo",
+        "explicacao": "Indica o modo como a ação foi realizada (como respondeu? calmamente)!",
+        "explanation": "Indica o modo como a ação foi realizada (como respondeu? calmamente)!"
+      },
+      {
+        "id": "pt_4_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As palavras 'aqui', 'ali', 'longe' e 'dentro' são advérbios de LUGAR.",
+        "question": "As palavras 'aqui', 'ali', 'longe' e 'dentro' são advérbios de LUGAR.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Respondem à pergunta 'Onde?'.",
+        "explanation": "Verdadeiro! Respondem à pergunta 'Onde?'."
+      },
+      {
+        "id": "pt_4_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'Ontem acordei muito cedo', 'ontem' e 'cedo' são advérbios de ___",
+        "question": "Na frase 'Ontem acordei muito cedo', 'ontem' e 'cedo' são advérbios de ___",
+        "opcoes": [
+          "Tempo",
+          "Modo",
+          "Afirmação"
+        ],
+        "options": [
+          "Tempo",
+          "Modo",
+          "Afirmação"
+        ],
+        "resposta": "Tempo",
+        "correctAnswer": "Tempo",
+        "explicacao": "Situam a ação no tempo.",
+        "explanation": "Situam a ação no tempo."
+      },
+      {
+        "id": "pt_4_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é um advérbio de QUANTIDADE / INTENSIDADE?",
+        "question": "Qual destas palavras é um advérbio de QUANTIDADE / INTENSIDADE?",
+        "opcoes": [
+          "📊 'bastante'",
+          "📊 'talvez'",
+          "📊 'nunca'"
+        ],
+        "options": [
+          "📊 'bastante'",
+          "📊 'talvez'",
+          "📊 'nunca'"
+        ],
+        "resposta": "📊 'bastante'",
+        "correctAnswer": "📊 'bastante'",
+        "explicacao": "'Bastante', 'muito', 'pouco' indicam quantidade e intensidade! 📊",
+        "explanation": "'Bastante', 'muito', 'pouco' indicam quantidade e intensidade! 📊"
+      },
+      {
+        "id": "pt_4_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Sim, com certeza irei à festa', que tipo de advérbio é 'Sim'?",
+        "question": "Na frase 'Sim, com certeza irei à festa', que tipo de advérbio é 'Sim'?",
+        "opcoes": [
+          "Advérbio de Afirmação",
+          "Advérbio de Negação",
+          "Advérbio de Dúvida"
+        ],
+        "options": [
+          "Advérbio de Afirmação",
+          "Advérbio de Negação",
+          "Advérbio de Dúvida"
+        ],
+        "resposta": "Advérbio de Afirmação",
+        "correctAnswer": "Advérbio de Afirmação",
+        "explicacao": "'Sim', 'certamente', 'efetivamente' são advérbios afirmativos.",
+        "explanation": "'Sim', 'certamente', 'efetivamente' são advérbios afirmativos."
+      },
+      {
+        "id": "pt_4_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os advérbios são palavras invariáveis (não mudam para o plural nem feminino).",
+        "question": "Os advérbios são palavras invariáveis (não mudam para o plural nem feminino).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os advérbios mantêm sempre a mesma forma invariável.",
+        "explanation": "Verdadeiro! Os advérbios mantêm sempre a mesma forma invariável."
+      },
+      {
+        "id": "pt_4_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a locução adverbial que significa 'em silêncio'?",
+        "question": "Qual é a locução adverbial que significa 'em silêncio'?",
+        "opcoes": [
+          "às escondidas / em silêncio",
+          "à pressa",
+          "com certeza"
+        ],
+        "options": [
+          "às escondidas / em silêncio",
+          "à pressa",
+          "com certeza"
+        ],
+        "resposta": "às escondidas / em silêncio",
+        "correctAnswer": "às escondidas / em silêncio",
+        "explicacao": "Locuções adverbiais são grupos de palavras com valor de advérbio.",
+        "explanation": "Locuções adverbiais são grupos de palavras com valor de advérbio."
+      },
+      {
+        "id": "pt_4_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os advérbios na sua subclasse:",
+        "question": "Classifica os advérbios na sua subclasse:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita identificação e classificação dos advérbios!",
+        "explanation": "Perfeita identificação e classificação dos advérbios!",
+        "pairs": {
+          "ontem / amanhã": "Advérbio de Tempo",
+          "perto / além": "Advérbio de Lugar",
+          "depressa / devagar": "Advérbio de Modo",
+          "não / jamais": "Advérbio de Negação"
+        },
+        "pares": {
+          "ontem / amanhã": "Advérbio de Tempo",
+          "perto / além": "Advérbio de Lugar",
+          "depressa / devagar": "Advérbio de Modo",
+          "não / jamais": "Advérbio de Negação"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Ele respondeu calmamente às perguntas do professor', 'calmamente' é um advérbio de...",
+        "question": "Na frase 'Ele respondeu calmamente às perguntas do professor', 'calmamente' é um advérbio de...",
+        "opcoes": [
+          "Modo",
+          "Lugar",
+          "Tempo"
+        ],
+        "options": [
+          "Modo",
+          "Lugar",
+          "Tempo"
+        ],
+        "resposta": "Modo",
+        "correctAnswer": "Modo",
+        "explicacao": "Indica o modo como a ação foi realizada (como respondeu? calmamente)!",
+        "explanation": "Indica o modo como a ação foi realizada (como respondeu? calmamente)!"
+      },
+      {
+        "id": "pt_4_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As palavras 'aqui', 'ali', 'longe' e 'dentro' são advérbios de LUGAR.",
+        "question": "As palavras 'aqui', 'ali', 'longe' e 'dentro' são advérbios de LUGAR.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Respondem à pergunta 'Onde?'.",
+        "explanation": "Verdadeiro! Respondem à pergunta 'Onde?'."
+      },
+      {
+        "id": "pt_4_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Na frase 'Ontem acordei muito cedo', 'ontem' e 'cedo' são advérbios de ___",
+        "question": "Na frase 'Ontem acordei muito cedo', 'ontem' e 'cedo' são advérbios de ___",
+        "opcoes": [
+          "Tempo",
+          "Modo",
+          "Afirmação"
+        ],
+        "options": [
+          "Tempo",
+          "Modo",
+          "Afirmação"
+        ],
+        "resposta": "Tempo",
+        "correctAnswer": "Tempo",
+        "explicacao": "Situam a ação no tempo.",
+        "explanation": "Situam a ação no tempo."
+      },
+      {
+        "id": "pt_4_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é um advérbio de QUANTIDADE / INTENSIDADE?",
+        "question": "Qual destas palavras é um advérbio de QUANTIDADE / INTENSIDADE?",
+        "opcoes": [
+          "📊 'bastante'",
+          "📊 'talvez'",
+          "📊 'nunca'"
+        ],
+        "options": [
+          "📊 'bastante'",
+          "📊 'talvez'",
+          "📊 'nunca'"
+        ],
+        "resposta": "📊 'bastante'",
+        "correctAnswer": "📊 'bastante'",
+        "explicacao": "'Bastante', 'muito', 'pouco' indicam quantidade e intensidade! 📊",
+        "explanation": "'Bastante', 'muito', 'pouco' indicam quantidade e intensidade! 📊"
+      },
+      {
+        "id": "pt_4_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Sim, com certeza irei à festa', que tipo de advérbio é 'Sim'?",
+        "question": "Na frase 'Sim, com certeza irei à festa', que tipo de advérbio é 'Sim'?",
+        "opcoes": [
+          "Advérbio de Afirmação",
+          "Advérbio de Negação",
+          "Advérbio de Dúvida"
+        ],
+        "options": [
+          "Advérbio de Afirmação",
+          "Advérbio de Negação",
+          "Advérbio de Dúvida"
+        ],
+        "resposta": "Advérbio de Afirmação",
+        "correctAnswer": "Advérbio de Afirmação",
+        "explicacao": "'Sim', 'certamente', 'efetivamente' são advérbios afirmativos.",
+        "explanation": "'Sim', 'certamente', 'efetivamente' são advérbios afirmativos."
+      },
+      {
+        "id": "pt_4_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os advérbios são palavras invariáveis (não mudam para o plural nem feminino).",
+        "question": "Os advérbios são palavras invariáveis (não mudam para o plural nem feminino).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os advérbios mantêm sempre a mesma forma invariável.",
+        "explanation": "Verdadeiro! Os advérbios mantêm sempre a mesma forma invariável."
+      },
+      {
+        "id": "pt_4_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a locução adverbial que significa 'em silêncio'?",
+        "question": "Qual é a locução adverbial que significa 'em silêncio'?",
+        "opcoes": [
+          "às escondidas / em silêncio",
+          "à pressa",
+          "com certeza"
+        ],
+        "options": [
+          "às escondidas / em silêncio",
+          "à pressa",
+          "com certeza"
+        ],
+        "resposta": "às escondidas / em silêncio",
+        "correctAnswer": "às escondidas / em silêncio",
+        "explicacao": "Locuções adverbiais são grupos de palavras com valor de advérbio.",
+        "explanation": "Locuções adverbiais são grupos de palavras com valor de advérbio."
+      },
+      {
+        "id": "pt_4_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os advérbios na sua subclasse:",
+        "question": "Classifica os advérbios na sua subclasse:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeita identificação e classificação dos advérbios!",
+        "explanation": "Perfeita identificação e classificação dos advérbios!",
+        "pairs": {
+          "ontem / amanhã": "Advérbio de Tempo",
+          "perto / além": "Advérbio de Lugar",
+          "depressa / devagar": "Advérbio de Modo",
+          "não / jamais": "Advérbio de Negação"
+        },
+        "pares": {
+          "ontem / amanhã": "Advérbio de Tempo",
+          "perto / além": "Advérbio de Lugar",
+          "depressa / devagar": "Advérbio de Modo",
+          "não / jamais": "Advérbio de Negação"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f6",
+    "numero": 6,
+    "titulo": "Discurso Direto e Discurso Indireto",
+    "title": "Discurso Direto e Discurso Indireto",
+    "descricao": "Transformação de diálogos diretos (travessão, dois pontos) em relato indireto.",
+    "description": "Transformação de diálogos diretos (travessão, dois pontos) em relato indireto.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "💬",
+    "imageEmoji": "💬",
+    "exercicios": [
+      {
+        "id": "pt_4_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se transcrevem com rigor as palavras exatas pronunciadas por uma personagem?",
+        "question": "Como se transcrevem com rigor as palavras exatas pronunciadas por uma personagem?",
+        "resposta": "Em Discurso Direto (com travessão ou aspas)",
+        "correctAnswer": "Em Discurso Direto (com travessão ou aspas)",
+        "explicacao": "O discurso direto reproduz fielmente as palavras da fala!",
+        "explanation": "O discurso direto reproduz fielmente as palavras da fala!"
+      },
+      {
+        "id": "pt_4_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No Discurso Indireto o narrador conta o que as personagens disseram usando 'que' ou 'se' (ex: O Zé disse que ia estudar).",
+        "question": "No Discurso Indireto o narrador conta o que as personagens disseram usando 'que' ou 'se' (ex: O Zé disse que ia estudar).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Não há travessões nem aspas de diálogo.",
+        "explanation": "Verdadeiro! Não há travessões nem aspas de diálogo."
+      },
+      {
+        "id": "pt_4_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Transforma para indireto: O Pedro afirmou: '— Eu tenho fome.' -> O Pedro afirmou que ___ fome.",
+        "question": "Transforma para indireto: O Pedro afirmou: '— Eu tenho fome.' -> O Pedro afirmou que ___ fome.",
+        "opcoes": [
+          "tinha",
+          "tenho",
+          "terei"
+        ],
+        "options": [
+          "tinha",
+          "tenho",
+          "terei"
+        ],
+        "resposta": "tinha",
+        "correctAnswer": "tinha",
+        "explicacao": "No relato indireto o presente ('tenho') passa a pretérito imperfeito ('tinha').",
+        "explanation": "No relato indireto o presente ('tenho') passa a pretérito imperfeito ('tinha')."
+      },
+      {
+        "id": "pt_4_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual pontuação é indispensável antes de abrir uma fala em Discurso Direto?",
+        "question": "Qual pontuação é indispensável antes de abrir uma fala em Discurso Direto?",
+        "resposta": "💬 Dois pontos (:) e mudança de linha com travessão (—)",
+        "correctAnswer": "💬 Dois pontos (:) e mudança de linha com travessão (—)",
+        "explicacao": "A regra clássica do diálogo: verbo introdutor : mudança de parágrafo — fala! 💬",
+        "explanation": "A regra clássica do diálogo: verbo introdutor : mudança de parágrafo — fala! 💬"
+      },
+      {
+        "id": "pt_4_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Verbos como 'perguntar', 'responder', 'exclamar', 'afirmar' chamam-se verbos...",
+        "question": "Verbos como 'perguntar', 'responder', 'exclamar', 'afirmar' chamam-se verbos...",
+        "opcoes": [
+          "Introdutores de discurso / Verbos declarativos",
+          "Auxiliares",
+          "Imcompatíveis"
+        ],
+        "options": [
+          "Introdutores de discurso / Verbos declarativos",
+          "Auxiliares",
+          "Imcompatíveis"
+        ],
+        "resposta": "Introdutores de discurso / Verbos declarativos",
+        "correctAnswer": "Introdutores de discurso / Verbos declarativos",
+        "explicacao": "Introduzem a fala das personagens no texto narrativo.",
+        "explanation": "Introduzem a fala das personagens no texto narrativo."
+      },
+      {
+        "id": "pt_4_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na passagem para discurso indireto, pronomes da 1.ª pessoa (eu/meu) mudam para a 3.ª pessoa (ele/seu).",
+        "question": "Na passagem para discurso indireto, pronomes da 1.ª pessoa (eu/meu) mudam para a 3.ª pessoa (ele/seu).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 'O meu cão' -> 'o seu cão'.",
+        "explanation": "Verdadeiro! Ex: 'O meu cão' -> 'o seu cão'."
+      },
+      {
+        "id": "pt_4_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Passa para indireto: O professor perguntou: '— Quem fez o trabalho?'",
+        "question": "Passa para indireto: O professor perguntou: '— Quem fez o trabalho?'",
+        "opcoes": [
+          "O professor perguntou quem tinha feito o trabalho.",
+          "O professor gritou que sim.",
+          "O professor fez o trabalho."
+        ],
+        "options": [
+          "O professor perguntou quem tinha feito o trabalho.",
+          "O professor gritou que sim.",
+          "O professor fez o trabalho."
+        ],
+        "resposta": "O professor perguntou quem tinha feito o trabalho.",
+        "correctAnswer": "O professor perguntou quem tinha feito o trabalho.",
+        "explicacao": "Mantém o sentido interrogativo na forma relatada.",
+        "explanation": "Mantém o sentido interrogativo na forma relatada."
+      },
+      {
+        "id": "pt_4_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Distingue o tipo de discurso:",
+        "question": "Distingue o tipo de discurso:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente mestria na transposição do discurso direto e indireto!",
+        "explanation": "Excelente mestria na transposição do discurso direto e indireto!",
+        "pairs": {
+          "O João disse: — Eu adoro ler livros!": "Discurso Direto",
+          "O João disse que adorava ler livros.": "Discurso Indireto",
+          "A Rita perguntou: — Vens comigo?": "Discurso Direto",
+          "A Rita perguntou se eu ia com ela.": "Discurso Indireto"
+        },
+        "pares": {
+          "O João disse: — Eu adoro ler livros!": "Discurso Direto",
+          "O João disse que adorava ler livros.": "Discurso Indireto",
+          "A Rita perguntou: — Vens comigo?": "Discurso Direto",
+          "A Rita perguntou se eu ia com ela.": "Discurso Indireto"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se transcrevem com rigor as palavras exatas pronunciadas por uma personagem?",
+        "question": "Como se transcrevem com rigor as palavras exatas pronunciadas por uma personagem?",
+        "resposta": "Em Discurso Direto (com travessão ou aspas)",
+        "correctAnswer": "Em Discurso Direto (com travessão ou aspas)",
+        "explicacao": "O discurso direto reproduz fielmente as palavras da fala!",
+        "explanation": "O discurso direto reproduz fielmente as palavras da fala!"
+      },
+      {
+        "id": "pt_4_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No Discurso Indireto o narrador conta o que as personagens disseram usando 'que' ou 'se' (ex: O Zé disse que ia estudar).",
+        "question": "No Discurso Indireto o narrador conta o que as personagens disseram usando 'que' ou 'se' (ex: O Zé disse que ia estudar).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Não há travessões nem aspas de diálogo.",
+        "explanation": "Verdadeiro! Não há travessões nem aspas de diálogo."
+      },
+      {
+        "id": "pt_4_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Transforma para indireto: O Pedro afirmou: '— Eu tenho fome.' -> O Pedro afirmou que ___ fome.",
+        "question": "Transforma para indireto: O Pedro afirmou: '— Eu tenho fome.' -> O Pedro afirmou que ___ fome.",
+        "opcoes": [
+          "tinha",
+          "tenho",
+          "terei"
+        ],
+        "options": [
+          "tinha",
+          "tenho",
+          "terei"
+        ],
+        "resposta": "tinha",
+        "correctAnswer": "tinha",
+        "explicacao": "No relato indireto o presente ('tenho') passa a pretérito imperfeito ('tinha').",
+        "explanation": "No relato indireto o presente ('tenho') passa a pretérito imperfeito ('tinha')."
+      },
+      {
+        "id": "pt_4_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual pontuação é indispensável antes de abrir uma fala em Discurso Direto?",
+        "question": "Qual pontuação é indispensável antes de abrir uma fala em Discurso Direto?",
+        "resposta": "💬 Dois pontos (:) e mudança de linha com travessão (—)",
+        "correctAnswer": "💬 Dois pontos (:) e mudança de linha com travessão (—)",
+        "explicacao": "A regra clássica do diálogo: verbo introdutor : mudança de parágrafo — fala! 💬",
+        "explanation": "A regra clássica do diálogo: verbo introdutor : mudança de parágrafo — fala! 💬"
+      },
+      {
+        "id": "pt_4_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Verbos como 'perguntar', 'responder', 'exclamar', 'afirmar' chamam-se verbos...",
+        "question": "Verbos como 'perguntar', 'responder', 'exclamar', 'afirmar' chamam-se verbos...",
+        "opcoes": [
+          "Introdutores de discurso / Verbos declarativos",
+          "Auxiliares",
+          "Imcompatíveis"
+        ],
+        "options": [
+          "Introdutores de discurso / Verbos declarativos",
+          "Auxiliares",
+          "Imcompatíveis"
+        ],
+        "resposta": "Introdutores de discurso / Verbos declarativos",
+        "correctAnswer": "Introdutores de discurso / Verbos declarativos",
+        "explicacao": "Introduzem a fala das personagens no texto narrativo.",
+        "explanation": "Introduzem a fala das personagens no texto narrativo."
+      },
+      {
+        "id": "pt_4_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na passagem para discurso indireto, pronomes da 1.ª pessoa (eu/meu) mudam para a 3.ª pessoa (ele/seu).",
+        "question": "Na passagem para discurso indireto, pronomes da 1.ª pessoa (eu/meu) mudam para a 3.ª pessoa (ele/seu).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 'O meu cão' -> 'o seu cão'.",
+        "explanation": "Verdadeiro! Ex: 'O meu cão' -> 'o seu cão'."
+      },
+      {
+        "id": "pt_4_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Passa para indireto: O professor perguntou: '— Quem fez o trabalho?'",
+        "question": "Passa para indireto: O professor perguntou: '— Quem fez o trabalho?'",
+        "opcoes": [
+          "O professor perguntou quem tinha feito o trabalho.",
+          "O professor gritou que sim.",
+          "O professor fez o trabalho."
+        ],
+        "options": [
+          "O professor perguntou quem tinha feito o trabalho.",
+          "O professor gritou que sim.",
+          "O professor fez o trabalho."
+        ],
+        "resposta": "O professor perguntou quem tinha feito o trabalho.",
+        "correctAnswer": "O professor perguntou quem tinha feito o trabalho.",
+        "explicacao": "Mantém o sentido interrogativo na forma relatada.",
+        "explanation": "Mantém o sentido interrogativo na forma relatada."
+      },
+      {
+        "id": "pt_4_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Distingue o tipo de discurso:",
+        "question": "Distingue o tipo de discurso:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente mestria na transposição do discurso direto e indireto!",
+        "explanation": "Excelente mestria na transposição do discurso direto e indireto!",
+        "pairs": {
+          "O João disse: — Eu adoro ler livros!": "Discurso Direto",
+          "O João disse que adorava ler livros.": "Discurso Indireto",
+          "A Rita perguntou: — Vens comigo?": "Discurso Direto",
+          "A Rita perguntou se eu ia com ela.": "Discurso Indireto"
+        },
+        "pares": {
+          "O João disse: — Eu adoro ler livros!": "Discurso Direto",
+          "O João disse que adorava ler livros.": "Discurso Indireto",
+          "A Rita perguntou: — Vens comigo?": "Discurso Direto",
+          "A Rita perguntou se eu ia com ela.": "Discurso Indireto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f7",
+    "numero": 7,
+    "titulo": "Hiperónimos, Hipónimos e Campos Semânticos",
+    "title": "Hiperónimos, Hipónimos e Campos Semânticos",
+    "descricao": "Termos gerais (hiperónimos) vs termos específicos (hipónimos) e redes de palavras.",
+    "description": "Termos gerais (hiperónimos) vs termos específicos (hipónimos) e redes de palavras.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🗂️",
+    "imageEmoji": "🗂️",
+    "exercicios": [
+      {
+        "id": "pt_4_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A palavra 'Fruta' é um termo geral em relação a 'Maçã, Pera, Laranja'. Que tipo de palavra é 'Fruta'?",
+        "question": "A palavra 'Fruta' é um termo geral em relação a 'Maçã, Pera, Laranja'. Que tipo de palavra é 'Fruta'?",
+        "opcoes": [
+          "Hiperónimo",
+          "Hipónimo",
+          "Sinónimo"
+        ],
+        "options": [
+          "Hiperónimo",
+          "Hipónimo",
+          "Sinónimo"
+        ],
+        "resposta": "Hiperónimo",
+        "correctAnswer": "Hiperónimo",
+        "explicacao": "Hiperónimo é o termo mais abrangente que engloba outros termos!",
+        "explanation": "Hiperónimo é o termo mais abrangente que engloba outros termos!"
+      },
+      {
+        "id": "pt_4_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As palavras 'rosa', 'cravo', 'tulipa' e 'orquídea' são HIPÓNIMOS do hiperónimo 'flor'.",
+        "question": "As palavras 'rosa', 'cravo', 'tulipa' e 'orquídea' são HIPÓNIMOS do hiperónimo 'flor'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Hipónimo é a palavra específica de um grupo maior.",
+        "explanation": "Verdadeiro! Hipónimo é a palavra específica de um grupo maior."
+      },
+      {
+        "id": "pt_4_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O conjunto de todas as palavras associadas ao universo de 'Escola' (livro, professor, recreio, quadro, aluno) forma um Campo ___",
+        "question": "O conjunto de todas as palavras associadas ao universo de 'Escola' (livro, professor, recreio, quadro, aluno) forma um Campo ___",
+        "opcoes": [
+          "Lexical",
+          "Invisível",
+          "Geométrico"
+        ],
+        "options": [
+          "Lexical",
+          "Invisível",
+          "Geométrico"
+        ],
+        "resposta": "Lexical",
+        "correctAnswer": "Lexical",
+        "explicacao": "O campo lexical reúne palavras relacionadas com o mesmo tema ou área da vida.",
+        "explanation": "O campo lexical reúne palavras relacionadas com o mesmo tema ou área da vida."
+      },
+      {
+        "id": "pt_4_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é um HIPÓNIMO de 'Meio de Transporte'?",
+        "question": "Qual destas palavras é um HIPÓNIMO de 'Meio de Transporte'?",
+        "opcoes": [
+          "🚗 Automóvel",
+          "🍎 Maçã",
+          "👕 Camisola"
+        ],
+        "options": [
+          "🚗 Automóvel",
+          "🍎 Maçã",
+          "👕 Camisola"
+        ],
+        "resposta": "🚗 Automóvel",
+        "correctAnswer": "🚗 Automóvel",
+        "explicacao": "'Automóvel' é uma espécie específica de meio de transporte! 🚗",
+        "explanation": "'Automóvel' é uma espécie específica de meio de transporte! 🚗"
+      },
+      {
+        "id": "pt_4_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o Hiperónimo comum a 'Cão, Gato, Elefante, Golfinho'?",
+        "question": "Qual é o Hiperónimo comum a 'Cão, Gato, Elefante, Golfinho'?",
+        "opcoes": [
+          "Animais / Mamíferos",
+          "Aves",
+          "Plantas"
+        ],
+        "options": [
+          "Animais / Mamíferos",
+          "Aves",
+          "Plantas"
+        ],
+        "resposta": "Animais / Mamíferos",
+        "correctAnswer": "Animais / Mamíferos",
+        "explicacao": "É a classe geral que engloba todos estes seres.",
+        "explanation": "É a classe geral que engloba todos estes seres."
+      },
+      {
+        "id": "pt_4_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Campo Semântico refere-se aos vários significados que uma mesma palavra pode assumir em contextos diferentes.",
+        "question": "O Campo Semântico refere-se aos vários significados que uma mesma palavra pode assumir em contextos diferentes.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 'estrela' de cinema vs 'estrela' no céu.",
+        "explanation": "Verdadeiro! Ex: 'estrela' de cinema vs 'estrela' no céu."
+      },
+      {
+        "id": "pt_4_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras NÃO pertence ao campo lexical de 'Música'?",
+        "question": "Qual destas palavras NÃO pertence ao campo lexical de 'Música'?",
+        "opcoes": [
+          "Trator",
+          "Guitarra",
+          "Pauta musical"
+        ],
+        "options": [
+          "Trator",
+          "Guitarra",
+          "Pauta musical"
+        ],
+        "resposta": "Trator",
+        "correctAnswer": "Trator",
+        "explicacao": "Trator pertence à agricultura, não à música.",
+        "explanation": "Trator pertence à agricultura, não à música."
+      },
+      {
+        "id": "pt_4_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o Hiperónimo aos seus respetivos Hipónimos:",
+        "question": "Associa o Hiperónimo aos seus respetivos Hipónimos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Compreendes a hierarquia e organização das palavras.",
+        "explanation": "Muito bem! Compreendes a hierarquia e organização das palavras.",
+        "pairs": {
+          "Instrumentos Musicais": "Piano, Flauta, Violino, Bateria",
+          "Cores": "Azul, Amarelo, Carmesim, Verde",
+          "Sentimentos": "Alegria, Saudade, Esperança, Amor",
+          "Profissões": "Médico, Professor, Engenheiro, Pintor"
+        },
+        "pares": {
+          "Instrumentos Musicais": "Piano, Flauta, Violino, Bateria",
+          "Cores": "Azul, Amarelo, Carmesim, Verde",
+          "Sentimentos": "Alegria, Saudade, Esperança, Amor",
+          "Profissões": "Médico, Professor, Engenheiro, Pintor"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A palavra 'Fruta' é um termo geral em relação a 'Maçã, Pera, Laranja'. Que tipo de palavra é 'Fruta'?",
+        "question": "A palavra 'Fruta' é um termo geral em relação a 'Maçã, Pera, Laranja'. Que tipo de palavra é 'Fruta'?",
+        "opcoes": [
+          "Hiperónimo",
+          "Hipónimo",
+          "Sinónimo"
+        ],
+        "options": [
+          "Hiperónimo",
+          "Hipónimo",
+          "Sinónimo"
+        ],
+        "resposta": "Hiperónimo",
+        "correctAnswer": "Hiperónimo",
+        "explicacao": "Hiperónimo é o termo mais abrangente que engloba outros termos!",
+        "explanation": "Hiperónimo é o termo mais abrangente que engloba outros termos!"
+      },
+      {
+        "id": "pt_4_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As palavras 'rosa', 'cravo', 'tulipa' e 'orquídea' são HIPÓNIMOS do hiperónimo 'flor'.",
+        "question": "As palavras 'rosa', 'cravo', 'tulipa' e 'orquídea' são HIPÓNIMOS do hiperónimo 'flor'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Hipónimo é a palavra específica de um grupo maior.",
+        "explanation": "Verdadeiro! Hipónimo é a palavra específica de um grupo maior."
+      },
+      {
+        "id": "pt_4_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O conjunto de todas as palavras associadas ao universo de 'Escola' (livro, professor, recreio, quadro, aluno) forma um Campo ___",
+        "question": "O conjunto de todas as palavras associadas ao universo de 'Escola' (livro, professor, recreio, quadro, aluno) forma um Campo ___",
+        "opcoes": [
+          "Lexical",
+          "Invisível",
+          "Geométrico"
+        ],
+        "options": [
+          "Lexical",
+          "Invisível",
+          "Geométrico"
+        ],
+        "resposta": "Lexical",
+        "correctAnswer": "Lexical",
+        "explicacao": "O campo lexical reúne palavras relacionadas com o mesmo tema ou área da vida.",
+        "explanation": "O campo lexical reúne palavras relacionadas com o mesmo tema ou área da vida."
+      },
+      {
+        "id": "pt_4_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas palavras é um HIPÓNIMO de 'Meio de Transporte'?",
+        "question": "Qual destas palavras é um HIPÓNIMO de 'Meio de Transporte'?",
+        "opcoes": [
+          "🚗 Automóvel",
+          "🍎 Maçã",
+          "👕 Camisola"
+        ],
+        "options": [
+          "🚗 Automóvel",
+          "🍎 Maçã",
+          "👕 Camisola"
+        ],
+        "resposta": "🚗 Automóvel",
+        "correctAnswer": "🚗 Automóvel",
+        "explicacao": "'Automóvel' é uma espécie específica de meio de transporte! 🚗",
+        "explanation": "'Automóvel' é uma espécie específica de meio de transporte! 🚗"
+      },
+      {
+        "id": "pt_4_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o Hiperónimo comum a 'Cão, Gato, Elefante, Golfinho'?",
+        "question": "Qual é o Hiperónimo comum a 'Cão, Gato, Elefante, Golfinho'?",
+        "opcoes": [
+          "Animais / Mamíferos",
+          "Aves",
+          "Plantas"
+        ],
+        "options": [
+          "Animais / Mamíferos",
+          "Aves",
+          "Plantas"
+        ],
+        "resposta": "Animais / Mamíferos",
+        "correctAnswer": "Animais / Mamíferos",
+        "explicacao": "É a classe geral que engloba todos estes seres.",
+        "explanation": "É a classe geral que engloba todos estes seres."
+      },
+      {
+        "id": "pt_4_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Campo Semântico refere-se aos vários significados que uma mesma palavra pode assumir em contextos diferentes.",
+        "question": "O Campo Semântico refere-se aos vários significados que uma mesma palavra pode assumir em contextos diferentes.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 'estrela' de cinema vs 'estrela' no céu.",
+        "explanation": "Verdadeiro! Ex: 'estrela' de cinema vs 'estrela' no céu."
+      },
+      {
+        "id": "pt_4_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras NÃO pertence ao campo lexical de 'Música'?",
+        "question": "Qual destas palavras NÃO pertence ao campo lexical de 'Música'?",
+        "opcoes": [
+          "Trator",
+          "Guitarra",
+          "Pauta musical"
+        ],
+        "options": [
+          "Trator",
+          "Guitarra",
+          "Pauta musical"
+        ],
+        "resposta": "Trator",
+        "correctAnswer": "Trator",
+        "explicacao": "Trator pertence à agricultura, não à música.",
+        "explanation": "Trator pertence à agricultura, não à música."
+      },
+      {
+        "id": "pt_4_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o Hiperónimo aos seus respetivos Hipónimos:",
+        "question": "Associa o Hiperónimo aos seus respetivos Hipónimos:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Compreendes a hierarquia e organização das palavras.",
+        "explanation": "Muito bem! Compreendes a hierarquia e organização das palavras.",
+        "pairs": {
+          "Instrumentos Musicais": "Piano, Flauta, Violino, Bateria",
+          "Cores": "Azul, Amarelo, Carmesim, Verde",
+          "Sentimentos": "Alegria, Saudade, Esperança, Amor",
+          "Profissões": "Médico, Professor, Engenheiro, Pintor"
+        },
+        "pares": {
+          "Instrumentos Musicais": "Piano, Flauta, Violino, Bateria",
+          "Cores": "Azul, Amarelo, Carmesim, Verde",
+          "Sentimentos": "Alegria, Saudade, Esperança, Amor",
+          "Profissões": "Médico, Professor, Engenheiro, Pintor"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f8",
+    "numero": 8,
+    "titulo": "Recursos Expressivos Literários Avançados",
+    "title": "Recursos Expressivos Literários Avançados",
+    "descricao": "Metáfora, Comparação, Personificação, Anáfora e Aliteração.",
+    "description": "Metáfora, Comparação, Personificação, Anáfora e Aliteração.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "✨",
+    "imageEmoji": "✨",
+    "exercicios": [
+      {
+        "id": "pt_4_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Aquela criança é um raio de sol na nossa vida', que recurso expressivo temos (comparação direta sem palavra de ligação)?",
+        "question": "Na frase 'Aquela criança é um raio de sol na nossa vida', que recurso expressivo temos (comparação direta sem palavra de ligação)?",
+        "opcoes": [
+          "Metáfora",
+          "Onomatopeia",
+          "Rima"
+        ],
+        "options": [
+          "Metáfora",
+          "Onomatopeia",
+          "Rima"
+        ],
+        "resposta": "Metáfora",
+        "correctAnswer": "Metáfora",
+        "explicacao": "A metáfora transfere o significado de uma palavra para outra sem usar 'como' nem 'parece'!",
+        "explanation": "A metáfora transfere o significado de uma palavra para outra sem usar 'como' nem 'parece'!"
+      },
+      {
+        "id": "pt_4_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A ANÁFORA é a repetição intencional da mesma palavra ou expressão no início de vários versos ou frases.",
+        "question": "A ANÁFORA é a repetição intencional da mesma palavra ou expressão no início de vários versos ou frases.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 'Canta o vento, canta o mar, canta o meu coração.'",
+        "explanation": "Verdadeiro! Ex: 'Canta o vento, canta o mar, canta o meu coração.'"
+      },
+      {
+        "id": "pt_4_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A repetição expressiva do mesmo som consonântico ('O rato roeu a rolha...') chama-se ___",
+        "question": "A repetição expressiva do mesmo som consonântico ('O rato roeu a rolha...') chama-se ___",
+        "opcoes": [
+          "Aliteração",
+          "Metáfora",
+          "Hipónimo"
+        ],
+        "options": [
+          "Aliteração",
+          "Metáfora",
+          "Hipónimo"
+        ],
+        "resposta": "Aliteração",
+        "correctAnswer": "Aliteração",
+        "explicacao": "A aliteração explora a musicalidade dos sons das consoantes!",
+        "explanation": "A aliteração explora a musicalidade dos sons das consoantes!"
+      },
+      {
+        "id": "pt_4_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes versos poéticos contém uma Metáfora?",
+        "question": "Qual destes versos poéticos contém uma Metáfora?",
+        "opcoes": [
+          "💎 'O mar é uma esmeralda líquida gigante.'",
+          "🌊 'O mar parece uma piscina.'",
+          "🏖️ 'Fui ao mar tomar banho.'"
+        ],
+        "options": [
+          "💎 'O mar é uma esmeralda líquida gigante.'",
+          "🌊 'O mar parece uma piscina.'",
+          "🏖️ 'Fui ao mar tomar banho.'"
+        ],
+        "resposta": "💎 'O mar é uma esmeralda líquida gigante.'",
+        "correctAnswer": "💎 'O mar é uma esmeralda líquida gigante.'",
+        "explicacao": "Identifica o mar diretamente como uma esmeralda líquida! 💎",
+        "explanation": "Identifica o mar diretamente como uma esmeralda líquida! 💎"
+      },
+      {
+        "id": "pt_4_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a diferença essencial entre Comparação e Metáfora?",
+        "question": "Qual é a diferença essencial entre Comparação e Metáfora?",
+        "resposta": "A Comparação usa elementos de ligação ('como', 'parece'), a Metáfora faz a identificação direta",
+        "correctAnswer": "A Comparação usa elementos de ligação ('como', 'parece'), a Metáfora faz a identificação direta",
+        "explicacao": "A metáfora é uma comparação condensada e poética sem o 'como'.",
+        "explanation": "A metáfora é uma comparação condensada e poética sem o 'como'."
+      },
+      {
+        "id": "pt_4_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'O tempo voa quando nos divertimos' é uma expressão metafórica.",
+        "question": "A frase 'O tempo voa quando nos divertimos' é uma expressão metafórica.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O tempo não tem asas, mas passa rapidamente como se voasse.",
+        "explanation": "Verdadeiro! O tempo não tem asas, mas passa rapidamente como se voasse."
+      },
+      {
+        "id": "pt_4_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O sol abraçou a cidade com calor', o recurso expressivo é...",
+        "question": "Na frase 'O sol abraçou a cidade com calor', o recurso expressivo é...",
+        "opcoes": [
+          "Personificação",
+          "Aliteração",
+          "Onomatopeia"
+        ],
+        "options": [
+          "Personificação",
+          "Aliteração",
+          "Onomatopeia"
+        ],
+        "resposta": "Personificação",
+        "correctAnswer": "Personificação",
+        "explicacao": "O Sol realiza o ato humano de abraçar.",
+        "explanation": "O Sol realiza o ato humano de abraçar."
+      },
+      {
+        "id": "pt_4_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os recursos literários:",
+        "question": "Classifica os recursos literários:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Sensibilidade e mestria literária excecionais!",
+        "explanation": "Sensibilidade e mestria literária excecionais!",
+        "pairs": {
+          "Os seus dentes são pérolas brilhantes": "Metáfora",
+          "Chora a noite, chora o vento, chora a terra": "Anáfora (repetição inicial)",
+          "O vento sussurrava segredos aos pinheiros": "Personificação",
+          "Forte como um touro selvagem": "Comparação com 'como'"
+        },
+        "pares": {
+          "Os seus dentes são pérolas brilhantes": "Metáfora",
+          "Chora a noite, chora o vento, chora a terra": "Anáfora (repetição inicial)",
+          "O vento sussurrava segredos aos pinheiros": "Personificação",
+          "Forte como um touro selvagem": "Comparação com 'como'"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'Aquela criança é um raio de sol na nossa vida', que recurso expressivo temos (comparação direta sem palavra de ligação)?",
+        "question": "Na frase 'Aquela criança é um raio de sol na nossa vida', que recurso expressivo temos (comparação direta sem palavra de ligação)?",
+        "opcoes": [
+          "Metáfora",
+          "Onomatopeia",
+          "Rima"
+        ],
+        "options": [
+          "Metáfora",
+          "Onomatopeia",
+          "Rima"
+        ],
+        "resposta": "Metáfora",
+        "correctAnswer": "Metáfora",
+        "explicacao": "A metáfora transfere o significado de uma palavra para outra sem usar 'como' nem 'parece'!",
+        "explanation": "A metáfora transfere o significado de uma palavra para outra sem usar 'como' nem 'parece'!"
+      },
+      {
+        "id": "pt_4_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A ANÁFORA é a repetição intencional da mesma palavra ou expressão no início de vários versos ou frases.",
+        "question": "A ANÁFORA é a repetição intencional da mesma palavra ou expressão no início de vários versos ou frases.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 'Canta o vento, canta o mar, canta o meu coração.'",
+        "explanation": "Verdadeiro! Ex: 'Canta o vento, canta o mar, canta o meu coração.'"
+      },
+      {
+        "id": "pt_4_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A repetição expressiva do mesmo som consonântico ('O rato roeu a rolha...') chama-se ___",
+        "question": "A repetição expressiva do mesmo som consonântico ('O rato roeu a rolha...') chama-se ___",
+        "opcoes": [
+          "Aliteração",
+          "Metáfora",
+          "Hipónimo"
+        ],
+        "options": [
+          "Aliteração",
+          "Metáfora",
+          "Hipónimo"
+        ],
+        "resposta": "Aliteração",
+        "correctAnswer": "Aliteração",
+        "explicacao": "A aliteração explora a musicalidade dos sons das consoantes!",
+        "explanation": "A aliteração explora a musicalidade dos sons das consoantes!"
+      },
+      {
+        "id": "pt_4_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes versos poéticos contém uma Metáfora?",
+        "question": "Qual destes versos poéticos contém uma Metáfora?",
+        "opcoes": [
+          "💎 'O mar é uma esmeralda líquida gigante.'",
+          "🌊 'O mar parece uma piscina.'",
+          "🏖️ 'Fui ao mar tomar banho.'"
+        ],
+        "options": [
+          "💎 'O mar é uma esmeralda líquida gigante.'",
+          "🌊 'O mar parece uma piscina.'",
+          "🏖️ 'Fui ao mar tomar banho.'"
+        ],
+        "resposta": "💎 'O mar é uma esmeralda líquida gigante.'",
+        "correctAnswer": "💎 'O mar é uma esmeralda líquida gigante.'",
+        "explicacao": "Identifica o mar diretamente como uma esmeralda líquida! 💎",
+        "explanation": "Identifica o mar diretamente como uma esmeralda líquida! 💎"
+      },
+      {
+        "id": "pt_4_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a diferença essencial entre Comparação e Metáfora?",
+        "question": "Qual é a diferença essencial entre Comparação e Metáfora?",
+        "resposta": "A Comparação usa elementos de ligação ('como', 'parece'), a Metáfora faz a identificação direta",
+        "correctAnswer": "A Comparação usa elementos de ligação ('como', 'parece'), a Metáfora faz a identificação direta",
+        "explicacao": "A metáfora é uma comparação condensada e poética sem o 'como'.",
+        "explanation": "A metáfora é uma comparação condensada e poética sem o 'como'."
+      },
+      {
+        "id": "pt_4_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A frase 'O tempo voa quando nos divertimos' é uma expressão metafórica.",
+        "question": "A frase 'O tempo voa quando nos divertimos' é uma expressão metafórica.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O tempo não tem asas, mas passa rapidamente como se voasse.",
+        "explanation": "Verdadeiro! O tempo não tem asas, mas passa rapidamente como se voasse."
+      },
+      {
+        "id": "pt_4_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O sol abraçou a cidade com calor', o recurso expressivo é...",
+        "question": "Na frase 'O sol abraçou a cidade com calor', o recurso expressivo é...",
+        "opcoes": [
+          "Personificação",
+          "Aliteração",
+          "Onomatopeia"
+        ],
+        "options": [
+          "Personificação",
+          "Aliteração",
+          "Onomatopeia"
+        ],
+        "resposta": "Personificação",
+        "correctAnswer": "Personificação",
+        "explicacao": "O Sol realiza o ato humano de abraçar.",
+        "explanation": "O Sol realiza o ato humano de abraçar."
+      },
+      {
+        "id": "pt_4_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica os recursos literários:",
+        "question": "Classifica os recursos literários:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Sensibilidade e mestria literária excecionais!",
+        "explanation": "Sensibilidade e mestria literária excecionais!",
+        "pairs": {
+          "Os seus dentes são pérolas brilhantes": "Metáfora",
+          "Chora a noite, chora o vento, chora a terra": "Anáfora (repetição inicial)",
+          "O vento sussurrava segredos aos pinheiros": "Personificação",
+          "Forte como um touro selvagem": "Comparação com 'como'"
+        },
+        "pares": {
+          "Os seus dentes são pérolas brilhantes": "Metáfora",
+          "Chora a noite, chora o vento, chora a terra": "Anáfora (repetição inicial)",
+          "O vento sussurrava segredos aos pinheiros": "Personificação",
+          "Forte como um touro selvagem": "Comparação com 'como'"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f9",
+    "numero": 9,
+    "titulo": "Ortografia Rigorosa e Acentuação Gráfica",
+    "title": "Ortografia Rigorosa e Acentuação Gráfica",
+    "descricao": "Regras do Novo Acordo Ortográfico, hífen, acento circunflexo, agudo e crase (à/há).",
+    "description": "Regras do Novo Acordo Ortográfico, hífen, acento circunflexo, agudo e crase (à/há).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🎯",
+    "imageEmoji": "🎯",
+    "exercicios": [
+      {
+        "id": "pt_4_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras perdeu o acento gráfico nos ditongos 'ei' e 'oi' em palavras graves segundo o Acordo Ortográfico?",
+        "question": "Qual destas palavras perdeu o acento gráfico nos ditongos 'ei' e 'oi' em palavras graves segundo o Acordo Ortográfico?",
+        "resposta": "ideia (antigamente ideia com acento)",
+        "correctAnswer": "ideia (antigamente ideia com acento)",
+        "explicacao": "Palavras como ideia, colmeia, jiboia, heroico deixaram de levar acento nas graves!",
+        "explanation": "Palavras como ideia, colmeia, jiboia, heroico deixaram de levar acento nas graves!"
+      },
+      {
+        "id": "pt_4_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'herói' continua a levar acento agudo porque é uma palavra AGUDA.",
+        "question": "A palavra 'herói' continua a levar acento agudo porque é uma palavra AGUDA.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Nas agudas os ditongos abertos continuam acentuados (herói, troféu).",
+        "explanation": "Verdadeiro! Nas agudas os ditongos abertos continuam acentuados (herói, troféu)."
+      },
+      {
+        "id": "pt_4_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Vou ___ praia passar a tarde de sol (crase da preposição a + artigo a).",
+        "question": "Vou ___ praia passar a tarde de sol (crase da preposição a + artigo a).",
+        "opcoes": [
+          "à",
+          "há",
+          "a"
+        ],
+        "options": [
+          "à",
+          "há",
+          "a"
+        ],
+        "resposta": "à",
+        "correctAnswer": "à",
+        "explicacao": "A preposição 'a' + artigo 'a' funde-se na contração 'à' com acento grave!",
+        "explanation": "A preposição 'a' + artigo 'a' funde-se na contração 'à' com acento grave!"
+      },
+      {
+        "id": "pt_4_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual palavra está escrita de forma 100% CORRETA?",
+        "question": "Qual palavra está escrita de forma 100% CORRETA?",
+        "opcoes": [
+          "✅ 'Exceção'",
+          "❌ 'Excessão'",
+          "❌ 'Eceção'"
+        ],
+        "options": [
+          "✅ 'Exceção'",
+          "❌ 'Excessão'",
+          "❌ 'Eceção'"
+        ],
+        "resposta": "✅ 'Exceção'",
+        "correctAnswer": "✅ 'Exceção'",
+        "explicacao": "'Exceção' escreve-se com 'xc' e 'ç'! ✅",
+        "explanation": "'Exceção' escreve-se com 'xc' e 'ç'! ✅"
+      },
+      {
+        "id": "pt_4_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se escreve o verbo 'trazer' no Pretérito Perfeito para 'Ele': 'Ontem ele ___ o livro'?",
+        "question": "Como se escreve o verbo 'trazer' no Pretérito Perfeito para 'Ele': 'Ontem ele ___ o livro'?",
+        "opcoes": [
+          "trouxe",
+          "trouce",
+          "trouche"
+        ],
+        "options": [
+          "trouxe",
+          "trouce",
+          "trouche"
+        ],
+        "resposta": "trouxe",
+        "correctAnswer": "trouxe",
+        "explicacao": "Escreve-se 'trouxe' com 'x' que soa como 'ss'!",
+        "explanation": "Escreve-se 'trouxe' com 'x' que soa como 'ss'!"
+      },
+      {
+        "id": "pt_4_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O acento circunflexo (^) indica que a vogal tem um som fechado ou nasal (ex: avô, lâmpada).",
+        "question": "O acento circunflexo (^) indica que a vogal tem um som fechado ou nasal (ex: avô, lâmpada).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ao contrário do acento agudo (´) que indica som aberto (avó).",
+        "explanation": "Verdadeiro! Ao contrário do acento agudo (´) que indica som aberto (avó)."
+      },
+      {
+        "id": "pt_4_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras com hífen está escrita de forma correta?",
+        "question": "Qual destas palavras com hífen está escrita de forma correta?",
+        "opcoes": [
+          "guarda-chuva",
+          "guardachuva",
+          "guarda chuva"
+        ],
+        "options": [
+          "guarda-chuva",
+          "guardachuva",
+          "guarda chuva"
+        ],
+        "resposta": "guarda-chuva",
+        "correctAnswer": "guarda-chuva",
+        "explicacao": "'Guarda-chuva' tem hífen obrigatório.",
+        "explanation": "'Guarda-chuva' tem hífen obrigatório."
+      },
+      {
+        "id": "pt_4_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Distingue o uso das palavras homófonas:",
+        "question": "Distingue o uso das palavras homófonas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Rigor ortográfico impecável!",
+        "explanation": "Rigor ortográfico impecável!",
+        "pairs": {
+          "Ele foi ___ pé (preposição)": "a",
+          "Moro aqui ___ cinco anos (tempo passado)": "há",
+          "Fui ___ biblioteca estudar (contração a+a)": "à",
+          "Ah! Que maravilha! (interjeição)": "Ah!"
+        },
+        "pares": {
+          "Ele foi ___ pé (preposição)": "a",
+          "Moro aqui ___ cinco anos (tempo passado)": "há",
+          "Fui ___ biblioteca estudar (contração a+a)": "à",
+          "Ah! Que maravilha! (interjeição)": "Ah!"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras perdeu o acento gráfico nos ditongos 'ei' e 'oi' em palavras graves segundo o Acordo Ortográfico?",
+        "question": "Qual destas palavras perdeu o acento gráfico nos ditongos 'ei' e 'oi' em palavras graves segundo o Acordo Ortográfico?",
+        "resposta": "ideia (antigamente ideia com acento)",
+        "correctAnswer": "ideia (antigamente ideia com acento)",
+        "explicacao": "Palavras como ideia, colmeia, jiboia, heroico deixaram de levar acento nas graves!",
+        "explanation": "Palavras como ideia, colmeia, jiboia, heroico deixaram de levar acento nas graves!"
+      },
+      {
+        "id": "pt_4_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'herói' continua a levar acento agudo porque é uma palavra AGUDA.",
+        "question": "A palavra 'herói' continua a levar acento agudo porque é uma palavra AGUDA.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Nas agudas os ditongos abertos continuam acentuados (herói, troféu).",
+        "explanation": "Verdadeiro! Nas agudas os ditongos abertos continuam acentuados (herói, troféu)."
+      },
+      {
+        "id": "pt_4_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Vou ___ praia passar a tarde de sol (crase da preposição a + artigo a).",
+        "question": "Vou ___ praia passar a tarde de sol (crase da preposição a + artigo a).",
+        "opcoes": [
+          "à",
+          "há",
+          "a"
+        ],
+        "options": [
+          "à",
+          "há",
+          "a"
+        ],
+        "resposta": "à",
+        "correctAnswer": "à",
+        "explicacao": "A preposição 'a' + artigo 'a' funde-se na contração 'à' com acento grave!",
+        "explanation": "A preposição 'a' + artigo 'a' funde-se na contração 'à' com acento grave!"
+      },
+      {
+        "id": "pt_4_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual palavra está escrita de forma 100% CORRETA?",
+        "question": "Qual palavra está escrita de forma 100% CORRETA?",
+        "opcoes": [
+          "✅ 'Exceção'",
+          "❌ 'Excessão'",
+          "❌ 'Eceção'"
+        ],
+        "options": [
+          "✅ 'Exceção'",
+          "❌ 'Excessão'",
+          "❌ 'Eceção'"
+        ],
+        "resposta": "✅ 'Exceção'",
+        "correctAnswer": "✅ 'Exceção'",
+        "explicacao": "'Exceção' escreve-se com 'xc' e 'ç'! ✅",
+        "explanation": "'Exceção' escreve-se com 'xc' e 'ç'! ✅"
+      },
+      {
+        "id": "pt_4_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se escreve o verbo 'trazer' no Pretérito Perfeito para 'Ele': 'Ontem ele ___ o livro'?",
+        "question": "Como se escreve o verbo 'trazer' no Pretérito Perfeito para 'Ele': 'Ontem ele ___ o livro'?",
+        "opcoes": [
+          "trouxe",
+          "trouce",
+          "trouche"
+        ],
+        "options": [
+          "trouxe",
+          "trouce",
+          "trouche"
+        ],
+        "resposta": "trouxe",
+        "correctAnswer": "trouxe",
+        "explicacao": "Escreve-se 'trouxe' com 'x' que soa como 'ss'!",
+        "explanation": "Escreve-se 'trouxe' com 'x' que soa como 'ss'!"
+      },
+      {
+        "id": "pt_4_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O acento circunflexo (^) indica que a vogal tem um som fechado ou nasal (ex: avô, lâmpada).",
+        "question": "O acento circunflexo (^) indica que a vogal tem um som fechado ou nasal (ex: avô, lâmpada).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ao contrário do acento agudo (´) que indica som aberto (avó).",
+        "explanation": "Verdadeiro! Ao contrário do acento agudo (´) que indica som aberto (avó)."
+      },
+      {
+        "id": "pt_4_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destas palavras com hífen está escrita de forma correta?",
+        "question": "Qual destas palavras com hífen está escrita de forma correta?",
+        "opcoes": [
+          "guarda-chuva",
+          "guardachuva",
+          "guarda chuva"
+        ],
+        "options": [
+          "guarda-chuva",
+          "guardachuva",
+          "guarda chuva"
+        ],
+        "resposta": "guarda-chuva",
+        "correctAnswer": "guarda-chuva",
+        "explicacao": "'Guarda-chuva' tem hífen obrigatório.",
+        "explanation": "'Guarda-chuva' tem hífen obrigatório."
+      },
+      {
+        "id": "pt_4_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Distingue o uso das palavras homófonas:",
+        "question": "Distingue o uso das palavras homófonas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Rigor ortográfico impecável!",
+        "explanation": "Rigor ortográfico impecável!",
+        "pairs": {
+          "Ele foi ___ pé (preposição)": "a",
+          "Moro aqui ___ cinco anos (tempo passado)": "há",
+          "Fui ___ biblioteca estudar (contração a+a)": "à",
+          "Ah! Que maravilha! (interjeição)": "Ah!"
+        },
+        "pares": {
+          "Ele foi ___ pé (preposição)": "a",
+          "Moro aqui ___ cinco anos (tempo passado)": "há",
+          "Fui ___ biblioteca estudar (contração a+a)": "à",
+          "Ah! Que maravilha! (interjeição)": "Ah!"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f10",
+    "numero": 10,
+    "titulo": "Tipologia e Géneros Textuais: Texto Dramático e Narrativo",
+    "title": "Tipologia e Géneros Textuais: Texto Dramático e Narrativo",
+    "descricao": "Estrutura do conto tradicional, fábula (moral), lenda e o texto de teatro (didascálias).",
+    "description": "Estrutura do conto tradicional, fábula (moral), lenda e o texto de teatro (didascálias).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🎭",
+    "imageEmoji": "🎭",
+    "exercicios": [
+      {
+        "id": "pt_4_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam as instruções em itálico ou entre parênteses num texto de teatro que indicam os movimentos e emoções dos atores?",
+        "question": "Como se chamam as instruções em itálico ou entre parênteses num texto de teatro que indicam os movimentos e emoções dos atores?",
+        "opcoes": [
+          "Didascálias / Indicações cénicas",
+          "Rimas",
+          "Estrofes"
+        ],
+        "options": [
+          "Didascálias / Indicações cénicas",
+          "Rimas",
+          "Estrofes"
+        ],
+        "resposta": "Didascálias / Indicações cénicas",
+        "correctAnswer": "Didascálias / Indicações cénicas",
+        "explicacao": "As didascálias orientam o encenador e os atores sobre cenário, gestos e voz!",
+        "explanation": "As didascálias orientam o encenador e os atores sobre cenário, gestos e voz!"
+      },
+      {
+        "id": "pt_4_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Uma FÁBULA é uma narrativa curta protagonizada por animais que transmitem uma lição de moral final.",
+        "question": "Uma FÁBULA é uma narrativa curta protagonizada por animais que transmitem uma lição de moral final.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 'A Cigarra e a Formiga', 'A Lebre e a Tartaruga' de La Fontaine/Esopo.",
+        "explanation": "Verdadeiro! Ex: 'A Cigarra e a Formiga', 'A Lebre e a Tartaruga' de La Fontaine/Esopo."
+      },
+      {
+        "id": "pt_4_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A LENDA é uma narrativa tradicional que mistura factos históricos reais com elementos ___ e mágicos.",
+        "question": "A LENDA é uma narrativa tradicional que mistura factos históricos reais com elementos ___ e mágicos.",
+        "opcoes": [
+          "fantásticos / lendários",
+          "científicos",
+          "matemáticos"
+        ],
+        "options": [
+          "fantásticos / lendários",
+          "científicos",
+          "matemáticos"
+        ],
+        "resposta": "fantásticos / lendários",
+        "correctAnswer": "fantásticos / lendários",
+        "explicacao": "Ex: A Lenda do Milagre das Rosas da Rainha Santa Isabel.",
+        "explanation": "Ex: A Lenda do Milagre das Rosas da Rainha Santa Isabel."
+      },
+      {
+        "id": "pt_4_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas obras é um exemplo de conto tradicional infantil?",
+        "question": "Qual destas obras é um exemplo de conto tradicional infantil?",
+        "opcoes": [
+          "🧚 'A Carochinha e o João Ratão'",
+          "📰 'Jornal de Notícias'",
+          "📕 'Dicionário de Português'"
+        ],
+        "options": [
+          "🧚 'A Carochinha e o João Ratão'",
+          "📰 'Jornal de Notícias'",
+          "📕 'Dicionário de Português'"
+        ],
+        "resposta": "🧚 'A Carochinha e o João Ratão'",
+        "correctAnswer": "🧚 'A Carochinha e o João Ratão'",
+        "explicacao": "É um dos mais famosos contos do património oral português! 🧚",
+        "explanation": "É um dos mais famosos contos do património oral português! 🧚"
+      },
+      {
+        "id": "pt_4_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Numa narrativa, quem conta a história em 1.ª ou 3.ª pessoa chama-se...",
+        "question": "Numa narrativa, quem conta a história em 1.ª ou 3.ª pessoa chama-se...",
+        "resposta": "Narrador (participante ou não participante)",
+        "correctAnswer": "Narrador (participante ou não participante)",
+        "explicacao": "O narrador é a voz criada para conduzir o relato.",
+        "explanation": "O narrador é a voz criada para conduzir o relato."
+      },
+      {
+        "id": "pt_4_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O clímax é o momento de maior suspense e tensão dramática de uma história.",
+        "question": "O clímax é o momento de maior suspense e tensão dramática de uma história.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É o ponto alto que antecede o desfecho final.",
+        "explanation": "Verdadeiro! É o ponto alto que antecede o desfecho final."
+      },
+      {
+        "id": "pt_4_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O texto poético distingue-se por ser organizado em...",
+        "question": "O texto poético distingue-se por ser organizado em...",
+        "opcoes": [
+          "Estrofes e versos com ritmo e musicalidade",
+          "Parágrafos longos de jornal",
+          "Tabelas de números"
+        ],
+        "options": [
+          "Estrofes e versos com ritmo e musicalidade",
+          "Parágrafos longos de jornal",
+          "Tabelas de números"
+        ],
+        "resposta": "Estrofes e versos com ritmo e musicalidade",
+        "correctAnswer": "Estrofes e versos com ritmo e musicalidade",
+        "explicacao": "A poesia explora o ritmo, métrica e emoção lírica.",
+        "explanation": "A poesia explora o ritmo, métrica e emoção lírica."
+      },
+      {
+        "id": "pt_4_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o género textual às suas características definidoras:",
+        "question": "Associa o género textual às suas características definidoras:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da teoria dos géneros literários!",
+        "explanation": "Excelente domínio da teoria dos géneros literários!",
+        "pairs": {
+          "Fábula": "Animais personificados com ensinamento moral",
+          "Texto Dramático": "Falas das personagens e didascálias para representação",
+          "Lenda": "Tradição popular com magia e explicação de origens",
+          "Texto Informativo": "Exposição clara e objetiva de factos reais"
+        },
+        "pares": {
+          "Fábula": "Animais personificados com ensinamento moral",
+          "Texto Dramático": "Falas das personagens e didascálias para representação",
+          "Lenda": "Tradição popular com magia e explicação de origens",
+          "Texto Informativo": "Exposição clara e objetiva de factos reais"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam as instruções em itálico ou entre parênteses num texto de teatro que indicam os movimentos e emoções dos atores?",
+        "question": "Como se chamam as instruções em itálico ou entre parênteses num texto de teatro que indicam os movimentos e emoções dos atores?",
+        "opcoes": [
+          "Didascálias / Indicações cénicas",
+          "Rimas",
+          "Estrofes"
+        ],
+        "options": [
+          "Didascálias / Indicações cénicas",
+          "Rimas",
+          "Estrofes"
+        ],
+        "resposta": "Didascálias / Indicações cénicas",
+        "correctAnswer": "Didascálias / Indicações cénicas",
+        "explicacao": "As didascálias orientam o encenador e os atores sobre cenário, gestos e voz!",
+        "explanation": "As didascálias orientam o encenador e os atores sobre cenário, gestos e voz!"
+      },
+      {
+        "id": "pt_4_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Uma FÁBULA é uma narrativa curta protagonizada por animais que transmitem uma lição de moral final.",
+        "question": "Uma FÁBULA é uma narrativa curta protagonizada por animais que transmitem uma lição de moral final.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: 'A Cigarra e a Formiga', 'A Lebre e a Tartaruga' de La Fontaine/Esopo.",
+        "explanation": "Verdadeiro! Ex: 'A Cigarra e a Formiga', 'A Lebre e a Tartaruga' de La Fontaine/Esopo."
+      },
+      {
+        "id": "pt_4_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A LENDA é uma narrativa tradicional que mistura factos históricos reais com elementos ___ e mágicos.",
+        "question": "A LENDA é uma narrativa tradicional que mistura factos históricos reais com elementos ___ e mágicos.",
+        "opcoes": [
+          "fantásticos / lendários",
+          "científicos",
+          "matemáticos"
+        ],
+        "options": [
+          "fantásticos / lendários",
+          "científicos",
+          "matemáticos"
+        ],
+        "resposta": "fantásticos / lendários",
+        "correctAnswer": "fantásticos / lendários",
+        "explicacao": "Ex: A Lenda do Milagre das Rosas da Rainha Santa Isabel.",
+        "explanation": "Ex: A Lenda do Milagre das Rosas da Rainha Santa Isabel."
+      },
+      {
+        "id": "pt_4_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas obras é um exemplo de conto tradicional infantil?",
+        "question": "Qual destas obras é um exemplo de conto tradicional infantil?",
+        "opcoes": [
+          "🧚 'A Carochinha e o João Ratão'",
+          "📰 'Jornal de Notícias'",
+          "📕 'Dicionário de Português'"
+        ],
+        "options": [
+          "🧚 'A Carochinha e o João Ratão'",
+          "📰 'Jornal de Notícias'",
+          "📕 'Dicionário de Português'"
+        ],
+        "resposta": "🧚 'A Carochinha e o João Ratão'",
+        "correctAnswer": "🧚 'A Carochinha e o João Ratão'",
+        "explicacao": "É um dos mais famosos contos do património oral português! 🧚",
+        "explanation": "É um dos mais famosos contos do património oral português! 🧚"
+      },
+      {
+        "id": "pt_4_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Numa narrativa, quem conta a história em 1.ª ou 3.ª pessoa chama-se...",
+        "question": "Numa narrativa, quem conta a história em 1.ª ou 3.ª pessoa chama-se...",
+        "resposta": "Narrador (participante ou não participante)",
+        "correctAnswer": "Narrador (participante ou não participante)",
+        "explicacao": "O narrador é a voz criada para conduzir o relato.",
+        "explanation": "O narrador é a voz criada para conduzir o relato."
+      },
+      {
+        "id": "pt_4_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O clímax é o momento de maior suspense e tensão dramática de uma história.",
+        "question": "O clímax é o momento de maior suspense e tensão dramática de uma história.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É o ponto alto que antecede o desfecho final.",
+        "explanation": "Verdadeiro! É o ponto alto que antecede o desfecho final."
+      },
+      {
+        "id": "pt_4_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O texto poético distingue-se por ser organizado em...",
+        "question": "O texto poético distingue-se por ser organizado em...",
+        "opcoes": [
+          "Estrofes e versos com ritmo e musicalidade",
+          "Parágrafos longos de jornal",
+          "Tabelas de números"
+        ],
+        "options": [
+          "Estrofes e versos com ritmo e musicalidade",
+          "Parágrafos longos de jornal",
+          "Tabelas de números"
+        ],
+        "resposta": "Estrofes e versos com ritmo e musicalidade",
+        "correctAnswer": "Estrofes e versos com ritmo e musicalidade",
+        "explicacao": "A poesia explora o ritmo, métrica e emoção lírica.",
+        "explanation": "A poesia explora o ritmo, métrica e emoção lírica."
+      },
+      {
+        "id": "pt_4_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o género textual às suas características definidoras:",
+        "question": "Associa o género textual às suas características definidoras:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente domínio da teoria dos géneros literários!",
+        "explanation": "Excelente domínio da teoria dos géneros literários!",
+        "pairs": {
+          "Fábula": "Animais personificados com ensinamento moral",
+          "Texto Dramático": "Falas das personagens e didascálias para representação",
+          "Lenda": "Tradição popular com magia e explicação de origens",
+          "Texto Informativo": "Exposição clara e objetiva de factos reais"
+        },
+        "pares": {
+          "Fábula": "Animais personificados com ensinamento moral",
+          "Texto Dramático": "Falas das personagens e didascálias para representação",
+          "Lenda": "Tradição popular com magia e explicação de origens",
+          "Texto Informativo": "Exposição clara e objetiva de factos reais"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f11",
+    "numero": 11,
+    "titulo": "Produção Escrita: Coesão, Coerência e Conectores",
+    "title": "Produção Escrita: Coesão, Coerência e Conectores",
+    "descricao": "Uso de conectores discursivos (portanto, além disso, no entanto) e paragrafação.",
+    "description": "Uso de conectores discursivos (portanto, além disso, no entanto) e paragrafação.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "✍️",
+    "imageEmoji": "✍️",
+    "exercicios": [
+      {
+        "id": "pt_4_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes conectores usamos para exprimir uma CONCLUSÃO num texto?",
+        "question": "Qual destes conectores usamos para exprimir uma CONCLUSÃO num texto?",
+        "opcoes": [
+          "Portanto / Em conclusão",
+          "Em primeiro lugar",
+          "Porém"
+        ],
+        "options": [
+          "Portanto / Em conclusão",
+          "Em primeiro lugar",
+          "Porém"
+        ],
+        "resposta": "Portanto / Em conclusão",
+        "correctAnswer": "Portanto / Em conclusão",
+        "explicacao": "'Portanto', 'logo', 'assim' e 'em conclusão' fecham um raciocínio com lógica!",
+        "explanation": "'Portanto', 'logo', 'assim' e 'em conclusão' fecham um raciocínio com lógica!"
+      },
+      {
+        "id": "pt_4_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O conector 'No entanto' serve para introduzir uma ideia de oposição ou contraste (como 'porém' ou 'contudo').",
+        "question": "O conector 'No entanto' serve para introduzir uma ideia de oposição ou contraste (como 'porém' ou 'contudo').",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Exprime contraste entre duas ideias.",
+        "explanation": "Verdadeiro! Exprime contraste entre duas ideias."
+      },
+      {
+        "id": "pt_4_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Para acrescentar informação num parágrafo podemos usar o conector: '___ disso, as crianças aprenderam muito.'",
+        "question": "Para acrescentar informação num parágrafo podemos usar o conector: '___ disso, as crianças aprenderam muito.'",
+        "opcoes": [
+          "Além",
+          "Em vez",
+          "Apesar"
+        ],
+        "options": [
+          "Além",
+          "Em vez",
+          "Apesar"
+        ],
+        "resposta": "Além",
+        "correctAnswer": "Além",
+        "explicacao": "'Além disso' é um conector aditivo enriquecedor.",
+        "explanation": "'Além disso' é um conector aditivo enriquecedor."
+      },
+      {
+        "id": "pt_4_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Como deve começar cada novo parágrafo no texto escrito?",
+        "question": "Como deve começar cada novo parágrafo no texto escrito?",
+        "opcoes": [
+          "📝 Com avanço de parágrafo e letra maiúscula",
+          "📝 Com ponto de interrogação no início",
+          "📝 No meio da folha sem ordem"
+        ],
+        "options": [
+          "📝 Com avanço de parágrafo e letra maiúscula",
+          "📝 Com ponto de interrogação no início",
+          "📝 No meio da folha sem ordem"
+        ],
+        "resposta": "📝 Com avanço de parágrafo e letra maiúscula",
+        "correctAnswer": "📝 Com avanço de parágrafo e letra maiúscula",
+        "explicacao": "O recuo de parágrafo e maiúscula organizam visualmente o raciocínio! 📝",
+        "explanation": "O recuo de parágrafo e maiúscula organizam visualmente o raciocínio! 📝"
+      },
+      {
+        "id": "pt_4_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Para ordenar acontecimentos no tempo usamos:",
+        "question": "Para ordenar acontecimentos no tempo usamos:",
+        "opcoes": [
+          "Primeiro, depois, em seguida, finalmente",
+          "Nunca, jamais, nada",
+          "Sim, com certeza, talvez"
+        ],
+        "options": [
+          "Primeiro, depois, em seguida, finalmente",
+          "Nunca, jamais, nada",
+          "Sim, com certeza, talvez"
+        ],
+        "resposta": "Primeiro, depois, em seguida, finalmente",
+        "correctAnswer": "Primeiro, depois, em seguida, finalmente",
+        "explicacao": "São marcadores temporais cronológicos essenciais à narrativa.",
+        "explanation": "São marcadores temporais cronológicos essenciais à narrativa."
+      },
+      {
+        "id": "pt_4_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A repetição contínua da mesma palavra empobrece o texto e pode ser evitada com o uso de pronomes e sinónimos.",
+        "question": "A repetição contínua da mesma palavra empobrece o texto e pode ser evitada com o uso de pronomes e sinónimos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Substituir nomes por pronomes e sinónimos melhora a coesão textual.",
+        "explanation": "Verdadeiro! Substituir nomes por pronomes e sinónimos melhora a coesão textual."
+      },
+      {
+        "id": "pt_4_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o conector que expressa causa e explicação?",
+        "question": "Qual é o conector que expressa causa e explicação?",
+        "opcoes": [
+          "Visto que / Porque / Dado que",
+          "Embora",
+          "Caso"
+        ],
+        "options": [
+          "Visto que / Porque / Dado que",
+          "Embora",
+          "Caso"
+        ],
+        "resposta": "Visto que / Porque / Dado que",
+        "correctAnswer": "Visto que / Porque / Dado que",
+        "explicacao": "Introduzem a razão ou causa de um facto.",
+        "explanation": "Introduzem a razão ou causa de um facto."
+      },
+      {
+        "id": "pt_4_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o conector à sua relação lógica:",
+        "question": "Associa o conector à sua relação lógica:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Estás preparado para redigir textos com coesão e brilhantismo.",
+        "explanation": "Muito bem! Estás preparado para redigir textos com coesão e brilhantismo.",
+        "pairs": {
+          "Além disso / Também": "Adição de informação",
+          "Porém / No entanto / Todavia": "Oposição e Contraste",
+          "Porque / Visto que": "Causa e Justificação",
+          "Por conseguinte / Portanto": "Conclusão e Consequência"
+        },
+        "pares": {
+          "Além disso / Também": "Adição de informação",
+          "Porém / No entanto / Todavia": "Oposição e Contraste",
+          "Porque / Visto que": "Causa e Justificação",
+          "Por conseguinte / Portanto": "Conclusão e Consequência"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes conectores usamos para exprimir uma CONCLUSÃO num texto?",
+        "question": "Qual destes conectores usamos para exprimir uma CONCLUSÃO num texto?",
+        "opcoes": [
+          "Portanto / Em conclusão",
+          "Em primeiro lugar",
+          "Porém"
+        ],
+        "options": [
+          "Portanto / Em conclusão",
+          "Em primeiro lugar",
+          "Porém"
+        ],
+        "resposta": "Portanto / Em conclusão",
+        "correctAnswer": "Portanto / Em conclusão",
+        "explicacao": "'Portanto', 'logo', 'assim' e 'em conclusão' fecham um raciocínio com lógica!",
+        "explanation": "'Portanto', 'logo', 'assim' e 'em conclusão' fecham um raciocínio com lógica!"
+      },
+      {
+        "id": "pt_4_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O conector 'No entanto' serve para introduzir uma ideia de oposição ou contraste (como 'porém' ou 'contudo').",
+        "question": "O conector 'No entanto' serve para introduzir uma ideia de oposição ou contraste (como 'porém' ou 'contudo').",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Exprime contraste entre duas ideias.",
+        "explanation": "Verdadeiro! Exprime contraste entre duas ideias."
+      },
+      {
+        "id": "pt_4_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Para acrescentar informação num parágrafo podemos usar o conector: '___ disso, as crianças aprenderam muito.'",
+        "question": "Para acrescentar informação num parágrafo podemos usar o conector: '___ disso, as crianças aprenderam muito.'",
+        "opcoes": [
+          "Além",
+          "Em vez",
+          "Apesar"
+        ],
+        "options": [
+          "Além",
+          "Em vez",
+          "Apesar"
+        ],
+        "resposta": "Além",
+        "correctAnswer": "Além",
+        "explicacao": "'Além disso' é um conector aditivo enriquecedor.",
+        "explanation": "'Além disso' é um conector aditivo enriquecedor."
+      },
+      {
+        "id": "pt_4_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Como deve começar cada novo parágrafo no texto escrito?",
+        "question": "Como deve começar cada novo parágrafo no texto escrito?",
+        "opcoes": [
+          "📝 Com avanço de parágrafo e letra maiúscula",
+          "📝 Com ponto de interrogação no início",
+          "📝 No meio da folha sem ordem"
+        ],
+        "options": [
+          "📝 Com avanço de parágrafo e letra maiúscula",
+          "📝 Com ponto de interrogação no início",
+          "📝 No meio da folha sem ordem"
+        ],
+        "resposta": "📝 Com avanço de parágrafo e letra maiúscula",
+        "correctAnswer": "📝 Com avanço de parágrafo e letra maiúscula",
+        "explicacao": "O recuo de parágrafo e maiúscula organizam visualmente o raciocínio! 📝",
+        "explanation": "O recuo de parágrafo e maiúscula organizam visualmente o raciocínio! 📝"
+      },
+      {
+        "id": "pt_4_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Para ordenar acontecimentos no tempo usamos:",
+        "question": "Para ordenar acontecimentos no tempo usamos:",
+        "opcoes": [
+          "Primeiro, depois, em seguida, finalmente",
+          "Nunca, jamais, nada",
+          "Sim, com certeza, talvez"
+        ],
+        "options": [
+          "Primeiro, depois, em seguida, finalmente",
+          "Nunca, jamais, nada",
+          "Sim, com certeza, talvez"
+        ],
+        "resposta": "Primeiro, depois, em seguida, finalmente",
+        "correctAnswer": "Primeiro, depois, em seguida, finalmente",
+        "explicacao": "São marcadores temporais cronológicos essenciais à narrativa.",
+        "explanation": "São marcadores temporais cronológicos essenciais à narrativa."
+      },
+      {
+        "id": "pt_4_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A repetição contínua da mesma palavra empobrece o texto e pode ser evitada com o uso de pronomes e sinónimos.",
+        "question": "A repetição contínua da mesma palavra empobrece o texto e pode ser evitada com o uso de pronomes e sinónimos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Substituir nomes por pronomes e sinónimos melhora a coesão textual.",
+        "explanation": "Verdadeiro! Substituir nomes por pronomes e sinónimos melhora a coesão textual."
+      },
+      {
+        "id": "pt_4_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o conector que expressa causa e explicação?",
+        "question": "Qual é o conector que expressa causa e explicação?",
+        "opcoes": [
+          "Visto que / Porque / Dado que",
+          "Embora",
+          "Caso"
+        ],
+        "options": [
+          "Visto que / Porque / Dado que",
+          "Embora",
+          "Caso"
+        ],
+        "resposta": "Visto que / Porque / Dado que",
+        "correctAnswer": "Visto que / Porque / Dado que",
+        "explicacao": "Introduzem a razão ou causa de um facto.",
+        "explanation": "Introduzem a razão ou causa de um facto."
+      },
+      {
+        "id": "pt_4_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o conector à sua relação lógica:",
+        "question": "Associa o conector à sua relação lógica:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Estás preparado para redigir textos com coesão e brilhantismo.",
+        "explanation": "Muito bem! Estás preparado para redigir textos com coesão e brilhantismo.",
+        "pairs": {
+          "Além disso / Também": "Adição de informação",
+          "Porém / No entanto / Todavia": "Oposição e Contraste",
+          "Porque / Visto que": "Causa e Justificação",
+          "Por conseguinte / Portanto": "Conclusão e Consequência"
+        },
+        "pares": {
+          "Além disso / Também": "Adição de informação",
+          "Porém / No entanto / Todavia": "Oposição e Contraste",
+          "Porque / Visto que": "Causa e Justificação",
+          "Por conseguinte / Portanto": "Conclusão e Consequência"
+        }
+      }
+    ]
+  },
+  {
+    "id": "pt_4_f12",
+    "numero": 12,
+    "titulo": "Grande Prova Final de Língua Portuguesa do 4.º Ano",
+    "title": "Grande Prova Final de Língua Portuguesa do 4.º Ano",
+    "descricao": "Exame de consolidação de todo o 1.º Ciclo do Ensino Básico com distinção!",
+    "description": "Exame de consolidação de todo o 1.º Ciclo do Ensino Básico com distinção!",
+    "dificuldade": "DESAFIO",
+    "difficulty": "CHALLENGE",
+    "emoji": "🎓",
+    "imageEmoji": "🎓",
+    "exercicios": [
+      {
+        "id": "pt_4_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O sábio professor ofereceu um livro precioso aos seus alunos dedicados', quem é o COMPLEMENTO INDIRETO?",
+        "question": "Na frase 'O sábio professor ofereceu um livro precioso aos seus alunos dedicados', quem é o COMPLEMENTO INDIRETO?",
+        "opcoes": [
+          "aos seus alunos dedicados",
+          "um livro precioso",
+          "O sábio professor"
+        ],
+        "options": [
+          "aos seus alunos dedicados",
+          "um livro precioso",
+          "O sábio professor"
+        ],
+        "resposta": "aos seus alunos dedicados",
+        "correctAnswer": "aos seus alunos dedicados",
+        "explicacao": "Ofereceu a quem? 'Aos seus alunos dedicados' (Complemento Indireto)!",
+        "explanation": "Ofereceu a quem? 'Aos seus alunos dedicados' (Complemento Indireto)!"
+      },
+      {
+        "id": "pt_4_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'precioso' é um adjetivo qualificativo que concorda em género e número com 'livro'.",
+        "question": "A palavra 'precioso' é um adjetivo qualificativo que concorda em género e número com 'livro'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ambos estão no masculino singular.",
+        "explanation": "Verdadeiro! Ambos estão no masculino singular."
+      },
+      {
+        "id": "pt_4_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'oxigénio' (o-xi-GÉ-ni-o) quanto à posição da sílaba tónica é uma palavra ___",
+        "question": "A palavra 'oxigénio' (o-xi-GÉ-ni-o) quanto à posição da sílaba tónica é uma palavra ___",
+        "opcoes": [
+          "Esdrúxula",
+          "Grave",
+          "Aguda"
+        ],
+        "options": [
+          "Esdrúxula",
+          "Grave",
+          "Aguda"
+        ],
+        "resposta": "Esdrúxula",
+        "correctAnswer": "Esdrúxula",
+        "explicacao": "Tem o acento tónico na antepenúltima sílaba!",
+        "explanation": "Tem o acento tónico na antepenúltima sílaba!"
+      },
+      {
+        "id": "pt_4_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual frase contém uma oração com verbo conjugado no Pretérito Mais-que-Perfeito?",
+        "question": "Qual frase contém uma oração com verbo conjugado no Pretérito Mais-que-Perfeito?",
+        "opcoes": [
+          "📜 'Quando chegaste, eu já terminara o teste.'",
+          "📜 'Eu termino agora.'",
+          "📜 'Eu terminarei amanhã.'"
+        ],
+        "options": [
+          "📜 'Quando chegaste, eu já terminara o teste.'",
+          "📜 'Eu termino agora.'",
+          "📜 'Eu terminarei amanhã.'"
+        ],
+        "resposta": "📜 'Quando chegaste, eu já terminara o teste.'",
+        "correctAnswer": "📜 'Quando chegaste, eu já terminara o teste.'",
+        "explicacao": "'Terminara' é o Pretérito Mais-que-Perfeito simples! 📜",
+        "explanation": "'Terminara' é o Pretérito Mais-que-Perfeito simples! 📜"
+      },
+      {
+        "id": "pt_4_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o antónimo e o sinónimo de 'efémero' (passageiro)?",
+        "question": "Qual é o antónimo e o sinónimo de 'efémero' (passageiro)?",
+        "opcoes": [
+          "Sinónimo: passageiro / Antónimo: eterno",
+          "Sinónimo: feio / Antónimo: belo",
+          "Sinónimo: rápido / Antónimo: lento"
+        ],
+        "options": [
+          "Sinónimo: passageiro / Antónimo: eterno",
+          "Sinónimo: feio / Antónimo: belo",
+          "Sinónimo: rápido / Antónimo: lento"
+        ],
+        "resposta": "Sinónimo: passageiro / Antónimo: eterno",
+        "correctAnswer": "Sinónimo: passageiro / Antónimo: eterno",
+        "explicacao": "Efémero é o que dura pouco tempo; o contrário é eterno ou duradouro.",
+        "explanation": "Efémero é o que dura pouco tempo; o contrário é eterno ou duradouro."
+      },
+      {
+        "id": "pt_4_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Em 'O mar rugia como uma fera indomável', temos simultaneamente uma Personificação e uma Comparação.",
+        "question": "Em 'O mar rugia como uma fera indomável', temos simultaneamente uma Personificação e uma Comparação.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O mar ruge (personificação) e usa 'como' para comparar com fera.",
+        "explanation": "Verdadeiro! O mar ruge (personificação) e usa 'como' para comparar com fera."
+      },
+      {
+        "id": "pt_4_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as etapas completas do ciclo de redação:",
+        "question": "Ordena as etapas completas do ciclo de redação:",
+        "opcoes": [
+          "Planificação mental e rascunho",
+          "Textualização com parágrafos e conectores",
+          "Revisão ortográfica, sintática e pontuação final"
+        ],
+        "options": [
+          "Planificação mental e rascunho",
+          "Textualização com parágrafos e conectores",
+          "Revisão ortográfica, sintática e pontuação final"
+        ],
+        "resposta": "Planificação mental e rascunho-Textualização com parágrafos e conectores-Revisão ortográfica, sintática e pontuação final",
+        "correctAnswer": "Planificação mental e rascunho-Textualização com parágrafos e conectores-Revisão ortográfica, sintática e pontuação final",
+        "explicacao": "O método de escrita dos grandes escritores portugueses!",
+        "explanation": "O método de escrita dos grandes escritores portugueses!",
+        "correctAnswers": [
+          "Planificação mental e rascunho",
+          "Textualização com parágrafos e conectores",
+          "Revisão ortográfica, sintática e pontuação final"
+        ],
+        "respostasCorretas": [
+          "Planificação mental e rascunho",
+          "Textualização com parágrafos e conectores",
+          "Revisão ortográfica, sintática e pontuação final"
+        ]
+      },
+      {
+        "id": "pt_4_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio Supremo de Português:",
+        "question": "Desafio Supremo de Português:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns com Louvor! Concluíste o Programa Nacional de Português do 1.º Ciclo!",
+        "explanation": "Parabéns com Louvor! Concluíste o Programa Nacional de Português do 1.º Ciclo!",
+        "pairs": {
+          "Lápis": "Nome Comum Sobrecomum/Invariável no plural",
+          "Cantávamos": "1.ª pessoa do plural do Pretérito Imperfeito",
+          "Nós": "Pronome Pessoal Sujeito",
+          "Magnífico": "Adjetivo no Grau Normal (Superlativo de Bom/Grande)"
+        },
+        "pares": {
+          "Lápis": "Nome Comum Sobrecomum/Invariável no plural",
+          "Cantávamos": "1.ª pessoa do plural do Pretérito Imperfeito",
+          "Nós": "Pronome Pessoal Sujeito",
+          "Magnífico": "Adjetivo no Grau Normal (Superlativo de Bom/Grande)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "pt_4_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Na frase 'O sábio professor ofereceu um livro precioso aos seus alunos dedicados', quem é o COMPLEMENTO INDIRETO?",
+        "question": "Na frase 'O sábio professor ofereceu um livro precioso aos seus alunos dedicados', quem é o COMPLEMENTO INDIRETO?",
+        "opcoes": [
+          "aos seus alunos dedicados",
+          "um livro precioso",
+          "O sábio professor"
+        ],
+        "options": [
+          "aos seus alunos dedicados",
+          "um livro precioso",
+          "O sábio professor"
+        ],
+        "resposta": "aos seus alunos dedicados",
+        "correctAnswer": "aos seus alunos dedicados",
+        "explicacao": "Ofereceu a quem? 'Aos seus alunos dedicados' (Complemento Indireto)!",
+        "explanation": "Ofereceu a quem? 'Aos seus alunos dedicados' (Complemento Indireto)!"
+      },
+      {
+        "id": "pt_4_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A palavra 'precioso' é um adjetivo qualificativo que concorda em género e número com 'livro'.",
+        "question": "A palavra 'precioso' é um adjetivo qualificativo que concorda em género e número com 'livro'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ambos estão no masculino singular.",
+        "explanation": "Verdadeiro! Ambos estão no masculino singular."
+      },
+      {
+        "id": "pt_4_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A palavra 'oxigénio' (o-xi-GÉ-ni-o) quanto à posição da sílaba tónica é uma palavra ___",
+        "question": "A palavra 'oxigénio' (o-xi-GÉ-ni-o) quanto à posição da sílaba tónica é uma palavra ___",
+        "opcoes": [
+          "Esdrúxula",
+          "Grave",
+          "Aguda"
+        ],
+        "options": [
+          "Esdrúxula",
+          "Grave",
+          "Aguda"
+        ],
+        "resposta": "Esdrúxula",
+        "correctAnswer": "Esdrúxula",
+        "explicacao": "Tem o acento tónico na antepenúltima sílaba!",
+        "explanation": "Tem o acento tónico na antepenúltima sílaba!"
+      },
+      {
+        "id": "pt_4_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual frase contém uma oração com verbo conjugado no Pretérito Mais-que-Perfeito?",
+        "question": "Qual frase contém uma oração com verbo conjugado no Pretérito Mais-que-Perfeito?",
+        "opcoes": [
+          "📜 'Quando chegaste, eu já terminara o teste.'",
+          "📜 'Eu termino agora.'",
+          "📜 'Eu terminarei amanhã.'"
+        ],
+        "options": [
+          "📜 'Quando chegaste, eu já terminara o teste.'",
+          "📜 'Eu termino agora.'",
+          "📜 'Eu terminarei amanhã.'"
+        ],
+        "resposta": "📜 'Quando chegaste, eu já terminara o teste.'",
+        "correctAnswer": "📜 'Quando chegaste, eu já terminara o teste.'",
+        "explicacao": "'Terminara' é o Pretérito Mais-que-Perfeito simples! 📜",
+        "explanation": "'Terminara' é o Pretérito Mais-que-Perfeito simples! 📜"
+      },
+      {
+        "id": "pt_4_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o antónimo e o sinónimo de 'efémero' (passageiro)?",
+        "question": "Qual é o antónimo e o sinónimo de 'efémero' (passageiro)?",
+        "opcoes": [
+          "Sinónimo: passageiro / Antónimo: eterno",
+          "Sinónimo: feio / Antónimo: belo",
+          "Sinónimo: rápido / Antónimo: lento"
+        ],
+        "options": [
+          "Sinónimo: passageiro / Antónimo: eterno",
+          "Sinónimo: feio / Antónimo: belo",
+          "Sinónimo: rápido / Antónimo: lento"
+        ],
+        "resposta": "Sinónimo: passageiro / Antónimo: eterno",
+        "correctAnswer": "Sinónimo: passageiro / Antónimo: eterno",
+        "explicacao": "Efémero é o que dura pouco tempo; o contrário é eterno ou duradouro.",
+        "explanation": "Efémero é o que dura pouco tempo; o contrário é eterno ou duradouro."
+      },
+      {
+        "id": "pt_4_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Em 'O mar rugia como uma fera indomável', temos simultaneamente uma Personificação e uma Comparação.",
+        "question": "Em 'O mar rugia como uma fera indomável', temos simultaneamente uma Personificação e uma Comparação.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O mar ruge (personificação) e usa 'como' para comparar com fera.",
+        "explanation": "Verdadeiro! O mar ruge (personificação) e usa 'como' para comparar com fera."
+      },
+      {
+        "id": "pt_4_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena as etapas completas do ciclo de redação:",
+        "question": "Ordena as etapas completas do ciclo de redação:",
+        "opcoes": [
+          "Planificação mental e rascunho",
+          "Textualização com parágrafos e conectores",
+          "Revisão ortográfica, sintática e pontuação final"
+        ],
+        "options": [
+          "Planificação mental e rascunho",
+          "Textualização com parágrafos e conectores",
+          "Revisão ortográfica, sintática e pontuação final"
+        ],
+        "resposta": "Planificação mental e rascunho-Textualização com parágrafos e conectores-Revisão ortográfica, sintática e pontuação final",
+        "correctAnswer": "Planificação mental e rascunho-Textualização com parágrafos e conectores-Revisão ortográfica, sintática e pontuação final",
+        "explicacao": "O método de escrita dos grandes escritores portugueses!",
+        "explanation": "O método de escrita dos grandes escritores portugueses!",
+        "correctAnswers": [
+          "Planificação mental e rascunho",
+          "Textualização com parágrafos e conectores",
+          "Revisão ortográfica, sintática e pontuação final"
+        ],
+        "respostasCorretas": [
+          "Planificação mental e rascunho",
+          "Textualização com parágrafos e conectores",
+          "Revisão ortográfica, sintática e pontuação final"
+        ]
+      },
+      {
+        "id": "pt_4_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio Supremo de Português:",
+        "question": "Desafio Supremo de Português:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns com Louvor! Concluíste o Programa Nacional de Português do 1.º Ciclo!",
+        "explanation": "Parabéns com Louvor! Concluíste o Programa Nacional de Português do 1.º Ciclo!",
+        "pairs": {
+          "Lápis": "Nome Comum Sobrecomum/Invariável no plural",
+          "Cantávamos": "1.ª pessoa do plural do Pretérito Imperfeito",
+          "Nós": "Pronome Pessoal Sujeito",
+          "Magnífico": "Adjetivo no Grau Normal (Superlativo de Bom/Grande)"
+        },
+        "pares": {
+          "Lápis": "Nome Comum Sobrecomum/Invariável no plural",
+          "Cantávamos": "1.ª pessoa do plural do Pretérito Imperfeito",
+          "Nós": "Pronome Pessoal Sujeito",
+          "Magnífico": "Adjetivo no Grau Normal (Superlativo de Bom/Grande)"
+        }
+      }
+    ]
+  }
+]

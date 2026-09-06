@@ -1,0 +1,3734 @@
+[
+  {
+    "id": "mat_2_f1",
+    "numero": 1,
+    "titulo": "Números até 100 e a Tabela dos 100",
+    "title": "Números até 100 e a Tabela dos 100",
+    "descricao": "Dezenas e unidades, leitura, escrita e contagens progressivas até 100.",
+    "description": "Dezenas e unidades, leitura, escrita e contagens progressivas até 100.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "💯",
+    "imageEmoji": "💯",
+    "exercicios": [
+      {
+        "id": "mat_2_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas dezenas completas existem no número 70?",
+        "question": "Quantas dezenas completas existem no número 70?",
+        "opcoes": [
+          "7 dezenas",
+          "70 dezenas",
+          "0 dezenas"
+        ],
+        "options": [
+          "7 dezenas",
+          "70 dezenas",
+          "0 dezenas"
+        ],
+        "resposta": "7 dezenas",
+        "correctAnswer": "7 dezenas",
+        "explicacao": "70 é formado por 7 grupos de 10 (7 dezenas e 0 unidades).",
+        "explanation": "70 é formado por 7 grupos de 10 (7 dezenas e 0 unidades)."
+      },
+      {
+        "id": "mat_2_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O número 84 é composto por 8 dezenas e 4 unidades.",
+        "question": "O número 84 é composto por 8 dezenas e 4 unidades.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 80 + 4 = 84.",
+        "explanation": "Verdadeiro! 80 + 4 = 84."
+      },
+      {
+        "id": "mat_2_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa a contagem de 10 em 10: 50, 60, 70, __, 90, 100",
+        "question": "Completa a contagem de 10 em 10: 50, 60, 70, __, 90, 100",
+        "opcoes": [
+          "80",
+          "75",
+          "85"
+        ],
+        "options": [
+          "80",
+          "75",
+          "85"
+        ],
+        "resposta": "80",
+        "correctAnswer": "80",
+        "explicacao": "De 10 em 10: depois de 70 vem o 80!",
+        "explanation": "De 10 em 10: depois de 70 vem o 80!"
+      },
+      {
+        "id": "mat_2_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes números é o número CINQUENTA E SEIS por extenso?",
+        "question": "Qual destes números é o número CINQUENTA E SEIS por extenso?",
+        "opcoes": [
+          "56",
+          "65",
+          "506"
+        ],
+        "options": [
+          "56",
+          "65",
+          "506"
+        ],
+        "resposta": "56",
+        "correctAnswer": "56",
+        "explicacao": "56 = cinquenta e seis.",
+        "explanation": "56 = cinquenta e seis."
+      },
+      {
+        "id": "mat_2_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o número que vem imediatamente a seguir ao 99?",
+        "question": "Qual é o número que vem imediatamente a seguir ao 99?",
+        "opcoes": [
+          "100",
+          "98",
+          "101"
+        ],
+        "options": [
+          "100",
+          "98",
+          "101"
+        ],
+        "resposta": "100",
+        "correctAnswer": "100",
+        "explicacao": "Depois do 99 alcançamos o 100 (uma centena)!",
+        "explanation": "Depois do 99 alcançamos o 100 (uma centena)!"
+      },
+      {
+        "id": "mat_2_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O número 49 é maior do que 94.",
+        "question": "O número 49 é maior do que 94.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 49 tem apenas 4 dezenas, enquanto 94 tem 9 dezenas.",
+        "explanation": "Falso! 49 tem apenas 4 dezenas, enquanto 94 tem 9 dezenas."
+      },
+      {
+        "id": "mat_2_f1_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os números do menor para o maior:",
+        "question": "Ordena os números do menor para o maior:",
+        "opcoes": [
+          "28",
+          "64",
+          "91"
+        ],
+        "options": [
+          "28",
+          "64",
+          "91"
+        ],
+        "resposta": "28-64-91",
+        "correctAnswer": "28-64-91",
+        "explicacao": "28 é menor que 64, e 64 é menor que 91!",
+        "explanation": "28 é menor que 64, e 64 é menor que 91!",
+        "correctAnswers": [
+          "28",
+          "64",
+          "91"
+        ],
+        "respostasCorretas": [
+          "28",
+          "64",
+          "91"
+        ]
+      },
+      {
+        "id": "mat_2_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Decompõe os números em Dezenas e Unidades:",
+        "question": "Decompõe os números em Dezenas e Unidades:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente decomposição de números até 100!",
+        "explanation": "Excelente decomposição de números até 100!",
+        "pairs": {
+          "37": "3 dezenas e 7 unidades",
+          "52": "5 dezenas e 2 unidades",
+          "90": "9 dezenas e 0 unidades",
+          "19": "1 dezena e 9 unidades"
+        },
+        "pares": {
+          "37": "3 dezenas e 7 unidades",
+          "52": "5 dezenas e 2 unidades",
+          "90": "9 dezenas e 0 unidades",
+          "19": "1 dezena e 9 unidades"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas dezenas completas existem no número 70?",
+        "question": "Quantas dezenas completas existem no número 70?",
+        "opcoes": [
+          "7 dezenas",
+          "70 dezenas",
+          "0 dezenas"
+        ],
+        "options": [
+          "7 dezenas",
+          "70 dezenas",
+          "0 dezenas"
+        ],
+        "resposta": "7 dezenas",
+        "correctAnswer": "7 dezenas",
+        "explicacao": "70 é formado por 7 grupos de 10 (7 dezenas e 0 unidades).",
+        "explanation": "70 é formado por 7 grupos de 10 (7 dezenas e 0 unidades)."
+      },
+      {
+        "id": "mat_2_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O número 84 é composto por 8 dezenas e 4 unidades.",
+        "question": "O número 84 é composto por 8 dezenas e 4 unidades.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 80 + 4 = 84.",
+        "explanation": "Verdadeiro! 80 + 4 = 84."
+      },
+      {
+        "id": "mat_2_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa a contagem de 10 em 10: 50, 60, 70, __, 90, 100",
+        "question": "Completa a contagem de 10 em 10: 50, 60, 70, __, 90, 100",
+        "opcoes": [
+          "80",
+          "75",
+          "85"
+        ],
+        "options": [
+          "80",
+          "75",
+          "85"
+        ],
+        "resposta": "80",
+        "correctAnswer": "80",
+        "explicacao": "De 10 em 10: depois de 70 vem o 80!",
+        "explanation": "De 10 em 10: depois de 70 vem o 80!"
+      },
+      {
+        "id": "mat_2_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes números é o número CINQUENTA E SEIS por extenso?",
+        "question": "Qual destes números é o número CINQUENTA E SEIS por extenso?",
+        "opcoes": [
+          "56",
+          "65",
+          "506"
+        ],
+        "options": [
+          "56",
+          "65",
+          "506"
+        ],
+        "resposta": "56",
+        "correctAnswer": "56",
+        "explicacao": "56 = cinquenta e seis.",
+        "explanation": "56 = cinquenta e seis."
+      },
+      {
+        "id": "mat_2_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o número que vem imediatamente a seguir ao 99?",
+        "question": "Qual é o número que vem imediatamente a seguir ao 99?",
+        "opcoes": [
+          "100",
+          "98",
+          "101"
+        ],
+        "options": [
+          "100",
+          "98",
+          "101"
+        ],
+        "resposta": "100",
+        "correctAnswer": "100",
+        "explicacao": "Depois do 99 alcançamos o 100 (uma centena)!",
+        "explanation": "Depois do 99 alcançamos o 100 (uma centena)!"
+      },
+      {
+        "id": "mat_2_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O número 49 é maior do que 94.",
+        "question": "O número 49 é maior do que 94.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! 49 tem apenas 4 dezenas, enquanto 94 tem 9 dezenas.",
+        "explanation": "Falso! 49 tem apenas 4 dezenas, enquanto 94 tem 9 dezenas."
+      },
+      {
+        "id": "mat_2_f1_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os números do menor para o maior:",
+        "question": "Ordena os números do menor para o maior:",
+        "opcoes": [
+          "28",
+          "64",
+          "91"
+        ],
+        "options": [
+          "28",
+          "64",
+          "91"
+        ],
+        "resposta": "28-64-91",
+        "correctAnswer": "28-64-91",
+        "explicacao": "28 é menor que 64, e 64 é menor que 91!",
+        "explanation": "28 é menor que 64, e 64 é menor que 91!",
+        "correctAnswers": [
+          "28",
+          "64",
+          "91"
+        ],
+        "respostasCorretas": [
+          "28",
+          "64",
+          "91"
+        ]
+      },
+      {
+        "id": "mat_2_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Decompõe os números em Dezenas e Unidades:",
+        "question": "Decompõe os números em Dezenas e Unidades:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente decomposição de números até 100!",
+        "explanation": "Excelente decomposição de números até 100!",
+        "pairs": {
+          "37": "3 dezenas e 7 unidades",
+          "52": "5 dezenas e 2 unidades",
+          "90": "9 dezenas e 0 unidades",
+          "19": "1 dezena e 9 unidades"
+        },
+        "pares": {
+          "37": "3 dezenas e 7 unidades",
+          "52": "5 dezenas e 2 unidades",
+          "90": "9 dezenas e 0 unidades",
+          "19": "1 dezena e 9 unidades"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f2",
+    "numero": 2,
+    "titulo": "Adição e Subtração até 100",
+    "title": "Adição e Subtração até 100",
+    "descricao": "Cálculo mental, estratégias de soma e subtração com e sem transporte.",
+    "description": "Cálculo mental, estratégias de soma e subtração com e sem transporte.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "➕",
+    "imageEmoji": "➕",
+    "exercicios": [
+      {
+        "id": "mat_2_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 45 + 20?",
+        "question": "Quanto é 45 + 20?",
+        "opcoes": [
+          "65",
+          "55",
+          "75"
+        ],
+        "options": [
+          "65",
+          "55",
+          "75"
+        ],
+        "resposta": "65",
+        "correctAnswer": "65",
+        "explicacao": "45 mais 2 dezenas (20) dá 65!",
+        "explanation": "45 mais 2 dezenas (20) dá 65!"
+      },
+      {
+        "id": "mat_2_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "80 - 30 é igual a 50.",
+        "question": "80 - 30 é igual a 50.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 8 dezenas menos 3 dezenas são 5 dezenas (50).",
+        "explanation": "Verdadeiro! 8 dezenas menos 3 dezenas são 5 dezenas (50)."
+      },
+      {
+        "id": "mat_2_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa o cálculo: 34 + ___ = 40",
+        "question": "Completa o cálculo: 34 + ___ = 40",
+        "opcoes": [
+          "6",
+          "7",
+          "5"
+        ],
+        "options": [
+          "6",
+          "7",
+          "5"
+        ],
+        "resposta": "6",
+        "correctAnswer": "6",
+        "explicacao": "34 + 6 = 40 (o amigo do 4 para fazer a dezena é o 6).",
+        "explanation": "34 + 6 = 40 (o amigo do 4 para fazer a dezena é o 6)."
+      },
+      {
+        "id": "mat_2_f2_e4",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Zé tinha 50 cartas de jogo e deu 15 ao amigo. Com quantas ficou?",
+        "question": "O Zé tinha 50 cartas de jogo e deu 15 ao amigo. Com quantas ficou?",
+        "opcoes": [
+          "35",
+          "40",
+          "25"
+        ],
+        "options": [
+          "35",
+          "40",
+          "25"
+        ],
+        "resposta": "35",
+        "correctAnswer": "35",
+        "explicacao": "50 - 15 = 35 cartas guardadas.",
+        "explanation": "50 - 15 = 35 cartas guardadas."
+      },
+      {
+        "id": "mat_2_f2_e5",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 25 + 25?",
+        "question": "Quanto é 25 + 25?",
+        "opcoes": [
+          "🪙 50",
+          "🪙 40",
+          "🪙 60"
+        ],
+        "options": [
+          "🪙 50",
+          "🪙 40",
+          "🪙 60"
+        ],
+        "resposta": "🪙 50",
+        "correctAnswer": "🪙 50",
+        "explicacao": "25 + 25 = 50 (meia centena)! 🪙",
+        "explanation": "25 + 25 = 50 (meia centena)! 🪙"
+      },
+      {
+        "id": "mat_2_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A soma de 60 + 40 perfaz exatamente 100 (uma centena).",
+        "question": "A soma de 60 + 40 perfaz exatamente 100 (uma centena).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 6 dezenas + 4 dezenas = 10 dezenas = 100.",
+        "explanation": "Verdadeiro! 6 dezenas + 4 dezenas = 10 dezenas = 100."
+      },
+      {
+        "id": "mat_2_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 78 - 8?",
+        "question": "Quanto é 78 - 8?",
+        "opcoes": [
+          "70",
+          "68",
+          "80"
+        ],
+        "options": [
+          "70",
+          "68",
+          "80"
+        ],
+        "resposta": "70",
+        "correctAnswer": "70",
+        "explicacao": "Retirando as 8 unidades a 78, sobram 70 certinhos!",
+        "explanation": "Retirando as 8 unidades a 78, sobram 70 certinhos!"
+      },
+      {
+        "id": "mat_2_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa cada conta ao seu resultado exato:",
+        "question": "Associa cada conta ao seu resultado exato:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente cálculo mental de somas e subtrações!",
+        "explanation": "Excelente cálculo mental de somas e subtrações!",
+        "pairs": {
+          "50 + 25": "75",
+          "100 - 10": "90",
+          "33 + 33": "66",
+          "48 - 20": "28"
+        },
+        "pares": {
+          "50 + 25": "75",
+          "100 - 10": "90",
+          "33 + 33": "66",
+          "48 - 20": "28"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 45 + 20?",
+        "question": "Quanto é 45 + 20?",
+        "opcoes": [
+          "65",
+          "55",
+          "75"
+        ],
+        "options": [
+          "65",
+          "55",
+          "75"
+        ],
+        "resposta": "65",
+        "correctAnswer": "65",
+        "explicacao": "45 mais 2 dezenas (20) dá 65!",
+        "explanation": "45 mais 2 dezenas (20) dá 65!"
+      },
+      {
+        "id": "mat_2_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "80 - 30 é igual a 50.",
+        "question": "80 - 30 é igual a 50.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 8 dezenas menos 3 dezenas são 5 dezenas (50).",
+        "explanation": "Verdadeiro! 8 dezenas menos 3 dezenas são 5 dezenas (50)."
+      },
+      {
+        "id": "mat_2_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Completa o cálculo: 34 + ___ = 40",
+        "question": "Completa o cálculo: 34 + ___ = 40",
+        "opcoes": [
+          "6",
+          "7",
+          "5"
+        ],
+        "options": [
+          "6",
+          "7",
+          "5"
+        ],
+        "resposta": "6",
+        "correctAnswer": "6",
+        "explicacao": "34 + 6 = 40 (o amigo do 4 para fazer a dezena é o 6).",
+        "explanation": "34 + 6 = 40 (o amigo do 4 para fazer a dezena é o 6)."
+      },
+      {
+        "id": "mat_2_f2_e4",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Zé tinha 50 cartas de jogo e deu 15 ao amigo. Com quantas ficou?",
+        "question": "O Zé tinha 50 cartas de jogo e deu 15 ao amigo. Com quantas ficou?",
+        "opcoes": [
+          "35",
+          "40",
+          "25"
+        ],
+        "options": [
+          "35",
+          "40",
+          "25"
+        ],
+        "resposta": "35",
+        "correctAnswer": "35",
+        "explicacao": "50 - 15 = 35 cartas guardadas.",
+        "explanation": "50 - 15 = 35 cartas guardadas."
+      },
+      {
+        "id": "mat_2_f2_e5",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 25 + 25?",
+        "question": "Quanto é 25 + 25?",
+        "opcoes": [
+          "🪙 50",
+          "🪙 40",
+          "🪙 60"
+        ],
+        "options": [
+          "🪙 50",
+          "🪙 40",
+          "🪙 60"
+        ],
+        "resposta": "🪙 50",
+        "correctAnswer": "🪙 50",
+        "explicacao": "25 + 25 = 50 (meia centena)! 🪙",
+        "explanation": "25 + 25 = 50 (meia centena)! 🪙"
+      },
+      {
+        "id": "mat_2_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A soma de 60 + 40 perfaz exatamente 100 (uma centena).",
+        "question": "A soma de 60 + 40 perfaz exatamente 100 (uma centena).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 6 dezenas + 4 dezenas = 10 dezenas = 100.",
+        "explanation": "Verdadeiro! 6 dezenas + 4 dezenas = 10 dezenas = 100."
+      },
+      {
+        "id": "mat_2_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 78 - 8?",
+        "question": "Quanto é 78 - 8?",
+        "opcoes": [
+          "70",
+          "68",
+          "80"
+        ],
+        "options": [
+          "70",
+          "68",
+          "80"
+        ],
+        "resposta": "70",
+        "correctAnswer": "70",
+        "explicacao": "Retirando as 8 unidades a 78, sobram 70 certinhos!",
+        "explanation": "Retirando as 8 unidades a 78, sobram 70 certinhos!"
+      },
+      {
+        "id": "mat_2_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa cada conta ao seu resultado exato:",
+        "question": "Associa cada conta ao seu resultado exato:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente cálculo mental de somas e subtrações!",
+        "explanation": "Excelente cálculo mental de somas e subtrações!",
+        "pairs": {
+          "50 + 25": "75",
+          "100 - 10": "90",
+          "33 + 33": "66",
+          "48 - 20": "28"
+        },
+        "pares": {
+          "50 + 25": "75",
+          "100 - 10": "90",
+          "33 + 33": "66",
+          "48 - 20": "28"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f3",
+    "numero": 3,
+    "titulo": "A Multiplicação e as Tabuadas do 2, 5 e 10",
+    "title": "A Multiplicação e as Tabuadas do 2, 5 e 10",
+    "descricao": "Compreende a multiplicação como adição de parcelas iguais e treina as tabuadas.",
+    "description": "Compreende a multiplicação como adição de parcelas iguais e treina as tabuadas.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "✖️",
+    "imageEmoji": "✖️",
+    "exercicios": [
+      {
+        "id": "mat_2_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A conta 2 + 2 + 2 + 2 é o mesmo que fazer...",
+        "question": "A conta 2 + 2 + 2 + 2 é o mesmo que fazer...",
+        "opcoes": [
+          "4 x 2",
+          "2 + 4",
+          "4 x 4"
+        ],
+        "options": [
+          "4 x 2",
+          "2 + 4",
+          "4 x 4"
+        ],
+        "resposta": "4 x 2",
+        "correctAnswer": "4 x 2",
+        "explicacao": "São 4 grupos de 2, ou seja, 4 x 2 = 8!",
+        "explanation": "São 4 grupos de 2, ou seja, 4 x 2 = 8!"
+      },
+      {
+        "id": "mat_2_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na tabuada do 5, todos os resultados terminam em 0 ou 5.",
+        "question": "Na tabuada do 5, todos os resultados terminam em 0 ou 5.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 5, 10, 15, 20, 25, 30... terminam sempre em 0 ou 5.",
+        "explanation": "Verdadeiro! 5, 10, 15, 20, 25, 30... terminam sempre em 0 ou 5."
+      },
+      {
+        "id": "mat_2_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Quanto é 5 x 6 = ___?",
+        "question": "Quanto é 5 x 6 = ___?",
+        "opcoes": [
+          "30",
+          "25",
+          "35"
+        ],
+        "options": [
+          "30",
+          "25",
+          "35"
+        ],
+        "resposta": "30",
+        "correctAnswer": "30",
+        "explicacao": "5 vezes 6 é igual a 30.",
+        "explanation": "5 vezes 6 é igual a 30."
+      },
+      {
+        "id": "mat_2_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 10 x 4?",
+        "question": "Quanto é 10 x 4?",
+        "opcoes": [
+          "🔟 40",
+          "🔟 14",
+          "🔟 400"
+        ],
+        "options": [
+          "🔟 40",
+          "🔟 14",
+          "🔟 400"
+        ],
+        "resposta": "🔟 40",
+        "correctAnswer": "🔟 40",
+        "explicacao": "10 x 4 = 40 (4 dezenas)! 🔟",
+        "explanation": "10 x 4 = 40 (4 dezenas)! 🔟"
+      },
+      {
+        "id": "mat_2_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 2 x 9?",
+        "question": "Quanto é 2 x 9?",
+        "opcoes": [
+          "18",
+          "16",
+          "20"
+        ],
+        "options": [
+          "18",
+          "16",
+          "20"
+        ],
+        "resposta": "18",
+        "correctAnswer": "18",
+        "explicacao": "2 x 9 = 9 + 9 = 18!",
+        "explanation": "2 x 9 = 9 + 9 = 18!"
+      },
+      {
+        "id": "mat_2_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Qualquer número multiplicado por 1 dá como resultado esse mesmo número (ex: 7 x 1 = 7).",
+        "question": "Qualquer número multiplicado por 1 dá como resultado esse mesmo número (ex: 7 x 1 = 7).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O 1 é o elemento neutro da multiplicação.",
+        "explanation": "Verdadeiro! O 1 é o elemento neutro da multiplicação."
+      },
+      {
+        "id": "mat_2_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Zé comprou 3 caixas de lápis. Cada caixa tem 5 lápis. Quantos lápis tem no total?",
+        "question": "O Zé comprou 3 caixas de lápis. Cada caixa tem 5 lápis. Quantos lápis tem no total?",
+        "opcoes": [
+          "15",
+          "8",
+          "12"
+        ],
+        "options": [
+          "15",
+          "8",
+          "12"
+        ],
+        "resposta": "15",
+        "correctAnswer": "15",
+        "explicacao": "3 x 5 = 15 lápis de cor!",
+        "explanation": "3 x 5 = 15 lápis de cor!"
+      },
+      {
+        "id": "mat_2_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa cada multiplicação ao seu produto:",
+        "question": "Associa cada multiplicação ao seu produto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Estás a dominar as primeiras tabuadas com distinção.",
+        "explanation": "Muito bem! Estás a dominar as primeiras tabuadas com distinção.",
+        "pairs": {
+          "2 x 7": "14",
+          "5 x 5": "25",
+          "10 x 8": "80",
+          "2 x 10": "20"
+        },
+        "pares": {
+          "2 x 7": "14",
+          "5 x 5": "25",
+          "10 x 8": "80",
+          "2 x 10": "20"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A conta 2 + 2 + 2 + 2 é o mesmo que fazer...",
+        "question": "A conta 2 + 2 + 2 + 2 é o mesmo que fazer...",
+        "opcoes": [
+          "4 x 2",
+          "2 + 4",
+          "4 x 4"
+        ],
+        "options": [
+          "4 x 2",
+          "2 + 4",
+          "4 x 4"
+        ],
+        "resposta": "4 x 2",
+        "correctAnswer": "4 x 2",
+        "explicacao": "São 4 grupos de 2, ou seja, 4 x 2 = 8!",
+        "explanation": "São 4 grupos de 2, ou seja, 4 x 2 = 8!"
+      },
+      {
+        "id": "mat_2_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Na tabuada do 5, todos os resultados terminam em 0 ou 5.",
+        "question": "Na tabuada do 5, todos os resultados terminam em 0 ou 5.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 5, 10, 15, 20, 25, 30... terminam sempre em 0 ou 5.",
+        "explanation": "Verdadeiro! 5, 10, 15, 20, 25, 30... terminam sempre em 0 ou 5."
+      },
+      {
+        "id": "mat_2_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Quanto é 5 x 6 = ___?",
+        "question": "Quanto é 5 x 6 = ___?",
+        "opcoes": [
+          "30",
+          "25",
+          "35"
+        ],
+        "options": [
+          "30",
+          "25",
+          "35"
+        ],
+        "resposta": "30",
+        "correctAnswer": "30",
+        "explicacao": "5 vezes 6 é igual a 30.",
+        "explanation": "5 vezes 6 é igual a 30."
+      },
+      {
+        "id": "mat_2_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Quanto é 10 x 4?",
+        "question": "Quanto é 10 x 4?",
+        "opcoes": [
+          "🔟 40",
+          "🔟 14",
+          "🔟 400"
+        ],
+        "options": [
+          "🔟 40",
+          "🔟 14",
+          "🔟 400"
+        ],
+        "resposta": "🔟 40",
+        "correctAnswer": "🔟 40",
+        "explicacao": "10 x 4 = 40 (4 dezenas)! 🔟",
+        "explanation": "10 x 4 = 40 (4 dezenas)! 🔟"
+      },
+      {
+        "id": "mat_2_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quanto é 2 x 9?",
+        "question": "Quanto é 2 x 9?",
+        "opcoes": [
+          "18",
+          "16",
+          "20"
+        ],
+        "options": [
+          "18",
+          "16",
+          "20"
+        ],
+        "resposta": "18",
+        "correctAnswer": "18",
+        "explicacao": "2 x 9 = 9 + 9 = 18!",
+        "explanation": "2 x 9 = 9 + 9 = 18!"
+      },
+      {
+        "id": "mat_2_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Qualquer número multiplicado por 1 dá como resultado esse mesmo número (ex: 7 x 1 = 7).",
+        "question": "Qualquer número multiplicado por 1 dá como resultado esse mesmo número (ex: 7 x 1 = 7).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O 1 é o elemento neutro da multiplicação.",
+        "explanation": "Verdadeiro! O 1 é o elemento neutro da multiplicação."
+      },
+      {
+        "id": "mat_2_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Zé comprou 3 caixas de lápis. Cada caixa tem 5 lápis. Quantos lápis tem no total?",
+        "question": "O Zé comprou 3 caixas de lápis. Cada caixa tem 5 lápis. Quantos lápis tem no total?",
+        "opcoes": [
+          "15",
+          "8",
+          "12"
+        ],
+        "options": [
+          "15",
+          "8",
+          "12"
+        ],
+        "resposta": "15",
+        "correctAnswer": "15",
+        "explicacao": "3 x 5 = 15 lápis de cor!",
+        "explanation": "3 x 5 = 15 lápis de cor!"
+      },
+      {
+        "id": "mat_2_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa cada multiplicação ao seu produto:",
+        "question": "Associa cada multiplicação ao seu produto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Estás a dominar as primeiras tabuadas com distinção.",
+        "explanation": "Muito bem! Estás a dominar as primeiras tabuadas com distinção.",
+        "pairs": {
+          "2 x 7": "14",
+          "5 x 5": "25",
+          "10 x 8": "80",
+          "2 x 10": "20"
+        },
+        "pares": {
+          "2 x 7": "14",
+          "5 x 5": "25",
+          "10 x 8": "80",
+          "2 x 10": "20"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f4",
+    "numero": 4,
+    "titulo": "Dobro, Triplo e Metade",
+    "title": "Dobro, Triplo e Metade",
+    "descricao": "Multiplica por 2 para o dobro, por 3 para o triplo e divide por 2 para a metade.",
+    "description": "Multiplica por 2 para o dobro, por 3 para o triplo e divide por 2 para a metade.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "⚖️",
+    "imageEmoji": "⚖️",
+    "exercicios": [
+      {
+        "id": "mat_2_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o DOBRO do número 6?",
+        "question": "Qual é o DOBRO do número 6?",
+        "opcoes": [
+          "12",
+          "18",
+          "3"
+        ],
+        "options": [
+          "12",
+          "18",
+          "3"
+        ],
+        "resposta": "12",
+        "correctAnswer": "12",
+        "explicacao": "O dobro calcula-se multiplicando por 2: 6 x 2 = 12!",
+        "explanation": "O dobro calcula-se multiplicando por 2: 6 x 2 = 12!"
+      },
+      {
+        "id": "mat_2_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A METADE de 20 é 10.",
+        "question": "A METADE de 20 é 10.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Se partilharmos 20 ao meio em duas partes iguais, cada uma fica com 10.",
+        "explanation": "Verdadeiro! Se partilharmos 20 ao meio em duas partes iguais, cada uma fica com 10."
+      },
+      {
+        "id": "mat_2_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O TRIPLO de 4 é ___ (4 x 3).",
+        "question": "O TRIPLO de 4 é ___ (4 x 3).",
+        "opcoes": [
+          "12",
+          "7",
+          "16"
+        ],
+        "options": [
+          "12",
+          "7",
+          "16"
+        ],
+        "resposta": "12",
+        "correctAnswer": "12",
+        "explicacao": "O triplo é três vezes o número: 4 x 3 = 12!",
+        "explanation": "O triplo é três vezes o número: 4 x 3 = 12!"
+      },
+      {
+        "id": "mat_2_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "A Ana tem 8 morangos 🍓 e comeu metade. Quantos comeu?",
+        "question": "A Ana tem 8 morangos 🍓 e comeu metade. Quantos comeu?",
+        "opcoes": [
+          "🍓 4 morangos",
+          "🍓 2 morangos",
+          "🍓 6 morangos"
+        ],
+        "options": [
+          "🍓 4 morangos",
+          "🍓 2 morangos",
+          "🍓 6 morangos"
+        ],
+        "resposta": "🍓 4 morangos",
+        "correctAnswer": "🍓 4 morangos",
+        "explicacao": "A metade de 8 é 4 (4 + 4 = 8)! 🍓",
+        "explanation": "A metade de 8 é 4 (4 + 4 = 8)! 🍓"
+      },
+      {
+        "id": "mat_2_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o dobro de 15?",
+        "question": "Qual é o dobro de 15?",
+        "opcoes": [
+          "30",
+          "25",
+          "35"
+        ],
+        "options": [
+          "30",
+          "25",
+          "35"
+        ],
+        "resposta": "30",
+        "correctAnswer": "30",
+        "explicacao": "15 + 15 = 30 (dobro de 15).",
+        "explanation": "15 + 15 = 30 (dobro de 15)."
+      },
+      {
+        "id": "mat_2_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O triplo de 5 é 15 (5 + 5 + 5 = 15).",
+        "question": "O triplo de 5 é 15 (5 + 5 + 5 = 15).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Multiplicamos 5 por 3.",
+        "explanation": "Verdadeiro! Multiplicamos 5 por 3."
+      },
+      {
+        "id": "mat_2_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A metade de 14 é:",
+        "question": "A metade de 14 é:",
+        "opcoes": [
+          "7",
+          "8",
+          "6"
+        ],
+        "options": [
+          "7",
+          "8",
+          "6"
+        ],
+        "resposta": "7",
+        "correctAnswer": "7",
+        "explicacao": "7 + 7 = 14, por isso a metade é 7.",
+        "explanation": "7 + 7 = 14, por isso a metade é 7."
+      },
+      {
+        "id": "mat_2_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga o número ao seu Dobro ou Metade:",
+        "question": "Liga o número ao seu Dobro ou Metade:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente agilidade mental com dobro, triplo e metade!",
+        "explanation": "Excelente agilidade mental com dobro, triplo e metade!",
+        "pairs": {
+          "Dobro de 8": "16",
+          "Metade de 16": "8",
+          "Triplo de 3": "9",
+          "Metade de 50": "25"
+        },
+        "pares": {
+          "Dobro de 8": "16",
+          "Metade de 16": "8",
+          "Triplo de 3": "9",
+          "Metade de 50": "25"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o DOBRO do número 6?",
+        "question": "Qual é o DOBRO do número 6?",
+        "opcoes": [
+          "12",
+          "18",
+          "3"
+        ],
+        "options": [
+          "12",
+          "18",
+          "3"
+        ],
+        "resposta": "12",
+        "correctAnswer": "12",
+        "explicacao": "O dobro calcula-se multiplicando por 2: 6 x 2 = 12!",
+        "explanation": "O dobro calcula-se multiplicando por 2: 6 x 2 = 12!"
+      },
+      {
+        "id": "mat_2_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A METADE de 20 é 10.",
+        "question": "A METADE de 20 é 10.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Se partilharmos 20 ao meio em duas partes iguais, cada uma fica com 10.",
+        "explanation": "Verdadeiro! Se partilharmos 20 ao meio em duas partes iguais, cada uma fica com 10."
+      },
+      {
+        "id": "mat_2_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O TRIPLO de 4 é ___ (4 x 3).",
+        "question": "O TRIPLO de 4 é ___ (4 x 3).",
+        "opcoes": [
+          "12",
+          "7",
+          "16"
+        ],
+        "options": [
+          "12",
+          "7",
+          "16"
+        ],
+        "resposta": "12",
+        "correctAnswer": "12",
+        "explicacao": "O triplo é três vezes o número: 4 x 3 = 12!",
+        "explanation": "O triplo é três vezes o número: 4 x 3 = 12!"
+      },
+      {
+        "id": "mat_2_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "A Ana tem 8 morangos 🍓 e comeu metade. Quantos comeu?",
+        "question": "A Ana tem 8 morangos 🍓 e comeu metade. Quantos comeu?",
+        "opcoes": [
+          "🍓 4 morangos",
+          "🍓 2 morangos",
+          "🍓 6 morangos"
+        ],
+        "options": [
+          "🍓 4 morangos",
+          "🍓 2 morangos",
+          "🍓 6 morangos"
+        ],
+        "resposta": "🍓 4 morangos",
+        "correctAnswer": "🍓 4 morangos",
+        "explicacao": "A metade de 8 é 4 (4 + 4 = 8)! 🍓",
+        "explanation": "A metade de 8 é 4 (4 + 4 = 8)! 🍓"
+      },
+      {
+        "id": "mat_2_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o dobro de 15?",
+        "question": "Qual é o dobro de 15?",
+        "opcoes": [
+          "30",
+          "25",
+          "35"
+        ],
+        "options": [
+          "30",
+          "25",
+          "35"
+        ],
+        "resposta": "30",
+        "correctAnswer": "30",
+        "explicacao": "15 + 15 = 30 (dobro de 15).",
+        "explanation": "15 + 15 = 30 (dobro de 15)."
+      },
+      {
+        "id": "mat_2_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O triplo de 5 é 15 (5 + 5 + 5 = 15).",
+        "question": "O triplo de 5 é 15 (5 + 5 + 5 = 15).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Multiplicamos 5 por 3.",
+        "explanation": "Verdadeiro! Multiplicamos 5 por 3."
+      },
+      {
+        "id": "mat_2_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A metade de 14 é:",
+        "question": "A metade de 14 é:",
+        "opcoes": [
+          "7",
+          "8",
+          "6"
+        ],
+        "options": [
+          "7",
+          "8",
+          "6"
+        ],
+        "resposta": "7",
+        "correctAnswer": "7",
+        "explicacao": "7 + 7 = 14, por isso a metade é 7.",
+        "explanation": "7 + 7 = 14, por isso a metade é 7."
+      },
+      {
+        "id": "mat_2_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga o número ao seu Dobro ou Metade:",
+        "question": "Liga o número ao seu Dobro ou Metade:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente agilidade mental com dobro, triplo e metade!",
+        "explanation": "Excelente agilidade mental com dobro, triplo e metade!",
+        "pairs": {
+          "Dobro de 8": "16",
+          "Metade de 16": "8",
+          "Triplo de 3": "9",
+          "Metade de 50": "25"
+        },
+        "pares": {
+          "Dobro de 8": "16",
+          "Metade de 16": "8",
+          "Triplo de 3": "9",
+          "Metade de 50": "25"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f5",
+    "numero": 5,
+    "titulo": "Geometria, Polígonos e Simetria",
+    "title": "Geometria, Polígonos e Simetria",
+    "descricao": "Lados, vértices, triângulos, quadriláteros e eixos de simetria.",
+    "description": "Lados, vértices, triângulos, quadriláteros e eixos de simetria.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "📐",
+    "imageEmoji": "📐",
+    "exercicios": [
+      {
+        "id": "mat_2_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam os 'bicos' ou 'cantos' onde dois lados se encontram num polígono?",
+        "question": "Como se chamam os 'bicos' ou 'cantos' onde dois lados se encontram num polígono?",
+        "opcoes": [
+          "Vértices",
+          "Retas",
+          "Centros"
+        ],
+        "options": [
+          "Vértices",
+          "Retas",
+          "Centros"
+        ],
+        "resposta": "Vértices",
+        "correctAnswer": "Vértices",
+        "explicacao": "O ponto de encontro de dois lados chama-se vértice!",
+        "explanation": "O ponto de encontro de dois lados chama-se vértice!"
+      },
+      {
+        "id": "mat_2_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um triângulo tem sempre 3 lados e 3 vértices.",
+        "question": "Um triângulo tem sempre 3 lados e 3 vértices.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Tri' significa três.",
+        "explanation": "Verdadeiro! 'Tri' significa três."
+      },
+      {
+        "id": "mat_2_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Um retângulo tem 4 lados e ___ vértices.",
+        "question": "Um retângulo tem 4 lados e ___ vértices.",
+        "opcoes": [
+          "4",
+          "3",
+          "6"
+        ],
+        "options": [
+          "4",
+          "3",
+          "6"
+        ],
+        "resposta": "4",
+        "correctAnswer": "4",
+        "explicacao": "Qualquer quadrilátero tem 4 lados e 4 vértices.",
+        "explanation": "Qualquer quadrilátero tem 4 lados e 4 vértices."
+      },
+      {
+        "id": "mat_2_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas figuras tem um Eixo de Simetria perfeito?",
+        "question": "Qual destas figuras tem um Eixo de Simetria perfeito?",
+        "opcoes": [
+          "🦋 Borboleta de asas abertas",
+          "🍃 Folha torta",
+          "🪨 Pedra irregular"
+        ],
+        "options": [
+          "🦋 Borboleta de asas abertas",
+          "🍃 Folha torta",
+          "🪨 Pedra irregular"
+        ],
+        "resposta": "🦋 Borboleta de asas abertas",
+        "correctAnswer": "🦋 Borboleta de asas abertas",
+        "explicacao": "A borboleta tem duas metades exatamente espelhadas e simétricas! 🦋",
+        "explanation": "A borboleta tem duas metades exatamente espelhadas e simétricas! 🦋"
+      },
+      {
+        "id": "mat_2_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama um polígono com 5 lados?",
+        "question": "Como se chama um polígono com 5 lados?",
+        "opcoes": [
+          "Pentágono",
+          "Hexágono",
+          "Quadrado"
+        ],
+        "options": [
+          "Pentágono",
+          "Hexágono",
+          "Quadrado"
+        ],
+        "resposta": "Pentágono",
+        "correctAnswer": "Pentágono",
+        "explicacao": "Um polígono de 5 lados chama-se pentágono.",
+        "explanation": "Um polígono de 5 lados chama-se pentágono."
+      },
+      {
+        "id": "mat_2_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O círculo é um polígono porque tem lados retos.",
+        "question": "O círculo é um polígono porque tem lados retos.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! O círculo é uma linha curva fechada e não tem lados retos nem vértices.",
+        "explanation": "Falso! O círculo é uma linha curva fechada e não tem lados retos nem vértices."
+      },
+      {
+        "id": "mat_2_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos lados tem um Hexágono?",
+        "question": "Quantos lados tem um Hexágono?",
+        "opcoes": [
+          "6 lados",
+          "5 lados",
+          "8 lados"
+        ],
+        "options": [
+          "6 lados",
+          "5 lados",
+          "8 lados"
+        ],
+        "resposta": "6 lados",
+        "correctAnswer": "6 lados",
+        "explicacao": "O hexágono tem 6 lados (como as células de uma colmeia de abelhas)!",
+        "explanation": "O hexágono tem 6 lados (como as células de uma colmeia de abelhas)!"
+      },
+      {
+        "id": "mat_2_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a figura geométrica ao número de lados:",
+        "question": "Associa a figura geométrica ao número de lados:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito! Conheces todos os polígonos e as suas propriedades.",
+        "explanation": "Perfeito! Conheces todos os polígonos e as suas propriedades.",
+        "pairs": {
+          "Triângulo": "3 lados",
+          "Quadrado": "4 lados iguais",
+          "Pentágono": "5 lados",
+          "Hexágono": "6 lados"
+        },
+        "pares": {
+          "Triângulo": "3 lados",
+          "Quadrado": "4 lados iguais",
+          "Pentágono": "5 lados",
+          "Hexágono": "6 lados"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam os 'bicos' ou 'cantos' onde dois lados se encontram num polígono?",
+        "question": "Como se chamam os 'bicos' ou 'cantos' onde dois lados se encontram num polígono?",
+        "opcoes": [
+          "Vértices",
+          "Retas",
+          "Centros"
+        ],
+        "options": [
+          "Vértices",
+          "Retas",
+          "Centros"
+        ],
+        "resposta": "Vértices",
+        "correctAnswer": "Vértices",
+        "explicacao": "O ponto de encontro de dois lados chama-se vértice!",
+        "explanation": "O ponto de encontro de dois lados chama-se vértice!"
+      },
+      {
+        "id": "mat_2_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um triângulo tem sempre 3 lados e 3 vértices.",
+        "question": "Um triângulo tem sempre 3 lados e 3 vértices.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 'Tri' significa três.",
+        "explanation": "Verdadeiro! 'Tri' significa três."
+      },
+      {
+        "id": "mat_2_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Um retângulo tem 4 lados e ___ vértices.",
+        "question": "Um retângulo tem 4 lados e ___ vértices.",
+        "opcoes": [
+          "4",
+          "3",
+          "6"
+        ],
+        "options": [
+          "4",
+          "3",
+          "6"
+        ],
+        "resposta": "4",
+        "correctAnswer": "4",
+        "explicacao": "Qualquer quadrilátero tem 4 lados e 4 vértices.",
+        "explanation": "Qualquer quadrilátero tem 4 lados e 4 vértices."
+      },
+      {
+        "id": "mat_2_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas figuras tem um Eixo de Simetria perfeito?",
+        "question": "Qual destas figuras tem um Eixo de Simetria perfeito?",
+        "opcoes": [
+          "🦋 Borboleta de asas abertas",
+          "🍃 Folha torta",
+          "🪨 Pedra irregular"
+        ],
+        "options": [
+          "🦋 Borboleta de asas abertas",
+          "🍃 Folha torta",
+          "🪨 Pedra irregular"
+        ],
+        "resposta": "🦋 Borboleta de asas abertas",
+        "correctAnswer": "🦋 Borboleta de asas abertas",
+        "explicacao": "A borboleta tem duas metades exatamente espelhadas e simétricas! 🦋",
+        "explanation": "A borboleta tem duas metades exatamente espelhadas e simétricas! 🦋"
+      },
+      {
+        "id": "mat_2_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama um polígono com 5 lados?",
+        "question": "Como se chama um polígono com 5 lados?",
+        "opcoes": [
+          "Pentágono",
+          "Hexágono",
+          "Quadrado"
+        ],
+        "options": [
+          "Pentágono",
+          "Hexágono",
+          "Quadrado"
+        ],
+        "resposta": "Pentágono",
+        "correctAnswer": "Pentágono",
+        "explicacao": "Um polígono de 5 lados chama-se pentágono.",
+        "explanation": "Um polígono de 5 lados chama-se pentágono."
+      },
+      {
+        "id": "mat_2_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O círculo é um polígono porque tem lados retos.",
+        "question": "O círculo é um polígono porque tem lados retos.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! O círculo é uma linha curva fechada e não tem lados retos nem vértices.",
+        "explanation": "Falso! O círculo é uma linha curva fechada e não tem lados retos nem vértices."
+      },
+      {
+        "id": "mat_2_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos lados tem um Hexágono?",
+        "question": "Quantos lados tem um Hexágono?",
+        "opcoes": [
+          "6 lados",
+          "5 lados",
+          "8 lados"
+        ],
+        "options": [
+          "6 lados",
+          "5 lados",
+          "8 lados"
+        ],
+        "resposta": "6 lados",
+        "correctAnswer": "6 lados",
+        "explicacao": "O hexágono tem 6 lados (como as células de uma colmeia de abelhas)!",
+        "explanation": "O hexágono tem 6 lados (como as células de uma colmeia de abelhas)!"
+      },
+      {
+        "id": "mat_2_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a figura geométrica ao número de lados:",
+        "question": "Associa a figura geométrica ao número de lados:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito! Conheces todos os polígonos e as suas propriedades.",
+        "explanation": "Perfeito! Conheces todos os polígonos e as suas propriedades.",
+        "pairs": {
+          "Triângulo": "3 lados",
+          "Quadrado": "4 lados iguais",
+          "Pentágono": "5 lados",
+          "Hexágono": "6 lados"
+        },
+        "pares": {
+          "Triângulo": "3 lados",
+          "Quadrado": "4 lados iguais",
+          "Pentágono": "5 lados",
+          "Hexágono": "6 lados"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f6",
+    "numero": 6,
+    "titulo": "Sólidos Geométricos: Prismas e Pirâmides",
+    "title": "Sólidos Geométricos: Prismas e Pirâmides",
+    "descricao": "Faces, arestas, vértices e a diferença entre poliedros e corpos redondos.",
+    "description": "Faces, arestas, vértices e a diferença entre poliedros e corpos redondos.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🧊",
+    "imageEmoji": "🧊",
+    "exercicios": [
+      {
+        "id": "mat_2_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas faces quadradas tem um CUBO?",
+        "question": "Quantas faces quadradas tem um CUBO?",
+        "opcoes": [
+          "6 faces",
+          "4 faces",
+          "8 faces"
+        ],
+        "options": [
+          "6 faces",
+          "4 faces",
+          "8 faces"
+        ],
+        "resposta": "6 faces",
+        "correctAnswer": "6 faces",
+        "explicacao": "O cubo tem 6 faces quadradas e todas iguais (como um dado de jogo)!",
+        "explanation": "O cubo tem 6 faces quadradas e todas iguais (como um dado de jogo)!"
+      },
+      {
+        "id": "mat_2_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A pirâmide tem uma base e as faces laterais são triangulares que se juntam no topo.",
+        "question": "A pirâmide tem uma base e as faces laterais são triangulares que se juntam no topo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Todas as faces laterais de uma pirâmide são triângulos.",
+        "explanation": "Verdadeiro! Todas as faces laterais de uma pirâmide são triângulos."
+      },
+      {
+        "id": "mat_2_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A linha onde duas faces de um sólido se encontram chama-se ___",
+        "question": "A linha onde duas faces de um sólido se encontram chama-se ___",
+        "opcoes": [
+          "Aresta",
+          "Vértice",
+          "Base"
+        ],
+        "options": [
+          "Aresta",
+          "Vértice",
+          "Base"
+        ],
+        "resposta": "Aresta",
+        "correctAnswer": "Aresta",
+        "explicacao": "O encontro de duas faces forma uma aresta.",
+        "explanation": "O encontro de duas faces forma uma aresta."
+      },
+      {
+        "id": "mat_2_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes sólidos NÃO é um poliedro porque tem superfície curva?",
+        "question": "Qual destes sólidos NÃO é um poliedro porque tem superfície curva?",
+        "opcoes": [
+          "⚽ Esfera",
+          "📦 Paralelepípedo",
+          "🧊 Cubo"
+        ],
+        "options": [
+          "⚽ Esfera",
+          "📦 Paralelepípedo",
+          "🧊 Cubo"
+        ],
+        "resposta": "⚽ Esfera",
+        "correctAnswer": "⚽ Esfera",
+        "explicacao": "A esfera é um corpo redondo não poliedro! ⚽",
+        "explanation": "A esfera é um corpo redondo não poliedro! ⚽"
+      },
+      {
+        "id": "mat_2_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos vértices tem um Cubo?",
+        "question": "Quantos vértices tem um Cubo?",
+        "opcoes": [
+          "8 vértices",
+          "6 vértices",
+          "12 vértices"
+        ],
+        "options": [
+          "8 vértices",
+          "6 vértices",
+          "12 vértices"
+        ],
+        "resposta": "8 vértices",
+        "correctAnswer": "8 vértices",
+        "explicacao": "O cubo tem 8 cantos (vértices), 6 faces e 12 arestas!",
+        "explanation": "O cubo tem 8 cantos (vértices), 6 faces e 12 arestas!"
+      },
+      {
+        "id": "mat_2_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O cilindro tem duas bases planas circulares e uma superfície lateral curva.",
+        "question": "O cilindro tem duas bases planas circulares e uma superfície lateral curva.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Parece uma lata de refrigerante.",
+        "explanation": "Verdadeiro! Parece uma lata de refrigerante."
+      },
+      {
+        "id": "mat_2_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Um pacote de leite ou uma caixa de sapatos tem a forma de...",
+        "question": "Um pacote de leite ou uma caixa de sapatos tem a forma de...",
+        "opcoes": [
+          "Paralelepípedo / Prisma retangular",
+          "Esfera",
+          "Cone"
+        ],
+        "options": [
+          "Paralelepípedo / Prisma retangular",
+          "Esfera",
+          "Cone"
+        ],
+        "resposta": "Paralelepípedo / Prisma retangular",
+        "correctAnswer": "Paralelepípedo / Prisma retangular",
+        "explicacao": "Tem faces retangulares opostas e paralelas.",
+        "explanation": "Tem faces retangulares opostas e paralelas."
+      },
+      {
+        "id": "mat_2_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o sólido geométrico à sua descrição:",
+        "question": "Associa o sólido geométrico à sua descrição:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástico! Distinguiste perfeitamente todos os sólidos geométricos.",
+        "explanation": "Fantástico! Distinguiste perfeitamente todos os sólidos geométricos.",
+        "pairs": {
+          "Cubo": "6 faces quadradas iguais",
+          "Esfera": "Superfície totalmente curva",
+          "Cone": "1 base circular e 1 vértice",
+          "Cilindro": "2 bases circulares planas"
+        },
+        "pares": {
+          "Cubo": "6 faces quadradas iguais",
+          "Esfera": "Superfície totalmente curva",
+          "Cone": "1 base circular e 1 vértice",
+          "Cilindro": "2 bases circulares planas"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas faces quadradas tem um CUBO?",
+        "question": "Quantas faces quadradas tem um CUBO?",
+        "opcoes": [
+          "6 faces",
+          "4 faces",
+          "8 faces"
+        ],
+        "options": [
+          "6 faces",
+          "4 faces",
+          "8 faces"
+        ],
+        "resposta": "6 faces",
+        "correctAnswer": "6 faces",
+        "explicacao": "O cubo tem 6 faces quadradas e todas iguais (como um dado de jogo)!",
+        "explanation": "O cubo tem 6 faces quadradas e todas iguais (como um dado de jogo)!"
+      },
+      {
+        "id": "mat_2_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A pirâmide tem uma base e as faces laterais são triangulares que se juntam no topo.",
+        "question": "A pirâmide tem uma base e as faces laterais são triangulares que se juntam no topo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Todas as faces laterais de uma pirâmide são triângulos.",
+        "explanation": "Verdadeiro! Todas as faces laterais de uma pirâmide são triângulos."
+      },
+      {
+        "id": "mat_2_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A linha onde duas faces de um sólido se encontram chama-se ___",
+        "question": "A linha onde duas faces de um sólido se encontram chama-se ___",
+        "opcoes": [
+          "Aresta",
+          "Vértice",
+          "Base"
+        ],
+        "options": [
+          "Aresta",
+          "Vértice",
+          "Base"
+        ],
+        "resposta": "Aresta",
+        "correctAnswer": "Aresta",
+        "explicacao": "O encontro de duas faces forma uma aresta.",
+        "explanation": "O encontro de duas faces forma uma aresta."
+      },
+      {
+        "id": "mat_2_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes sólidos NÃO é um poliedro porque tem superfície curva?",
+        "question": "Qual destes sólidos NÃO é um poliedro porque tem superfície curva?",
+        "opcoes": [
+          "⚽ Esfera",
+          "📦 Paralelepípedo",
+          "🧊 Cubo"
+        ],
+        "options": [
+          "⚽ Esfera",
+          "📦 Paralelepípedo",
+          "🧊 Cubo"
+        ],
+        "resposta": "⚽ Esfera",
+        "correctAnswer": "⚽ Esfera",
+        "explicacao": "A esfera é um corpo redondo não poliedro! ⚽",
+        "explanation": "A esfera é um corpo redondo não poliedro! ⚽"
+      },
+      {
+        "id": "mat_2_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos vértices tem um Cubo?",
+        "question": "Quantos vértices tem um Cubo?",
+        "opcoes": [
+          "8 vértices",
+          "6 vértices",
+          "12 vértices"
+        ],
+        "options": [
+          "8 vértices",
+          "6 vértices",
+          "12 vértices"
+        ],
+        "resposta": "8 vértices",
+        "correctAnswer": "8 vértices",
+        "explicacao": "O cubo tem 8 cantos (vértices), 6 faces e 12 arestas!",
+        "explanation": "O cubo tem 8 cantos (vértices), 6 faces e 12 arestas!"
+      },
+      {
+        "id": "mat_2_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O cilindro tem duas bases planas circulares e uma superfície lateral curva.",
+        "question": "O cilindro tem duas bases planas circulares e uma superfície lateral curva.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Parece uma lata de refrigerante.",
+        "explanation": "Verdadeiro! Parece uma lata de refrigerante."
+      },
+      {
+        "id": "mat_2_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Um pacote de leite ou uma caixa de sapatos tem a forma de...",
+        "question": "Um pacote de leite ou uma caixa de sapatos tem a forma de...",
+        "opcoes": [
+          "Paralelepípedo / Prisma retangular",
+          "Esfera",
+          "Cone"
+        ],
+        "options": [
+          "Paralelepípedo / Prisma retangular",
+          "Esfera",
+          "Cone"
+        ],
+        "resposta": "Paralelepípedo / Prisma retangular",
+        "correctAnswer": "Paralelepípedo / Prisma retangular",
+        "explicacao": "Tem faces retangulares opostas e paralelas.",
+        "explanation": "Tem faces retangulares opostas e paralelas."
+      },
+      {
+        "id": "mat_2_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o sólido geométrico à sua descrição:",
+        "question": "Associa o sólido geométrico à sua descrição:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástico! Distinguiste perfeitamente todos os sólidos geométricos.",
+        "explanation": "Fantástico! Distinguiste perfeitamente todos os sólidos geométricos.",
+        "pairs": {
+          "Cubo": "6 faces quadradas iguais",
+          "Esfera": "Superfície totalmente curva",
+          "Cone": "1 base circular e 1 vértice",
+          "Cilindro": "2 bases circulares planas"
+        },
+        "pares": {
+          "Cubo": "6 faces quadradas iguais",
+          "Esfera": "Superfície totalmente curva",
+          "Cone": "1 base circular e 1 vértice",
+          "Cilindro": "2 bases circulares planas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f7",
+    "numero": 7,
+    "titulo": "Medição de Comprimentos: Metro e Centímetro",
+    "title": "Medição de Comprimentos: Metro e Centímetro",
+    "descricao": "Usa a régua e a fita métrica: 1 metro = 100 centímetros (1 m = 100 cm).",
+    "description": "Usa a régua e a fita métrica: 1 metro = 100 centímetros (1 m = 100 cm).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "📏",
+    "imageEmoji": "📏",
+    "exercicios": [
+      {
+        "id": "mat_2_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos centímetros (cm) são precisos para fazer 1 Metro (m) inteiro?",
+        "question": "Quantos centímetros (cm) são precisos para fazer 1 Metro (m) inteiro?",
+        "opcoes": [
+          "100 cm",
+          "10 cm",
+          "1000 cm"
+        ],
+        "options": [
+          "100 cm",
+          "10 cm",
+          "1000 cm"
+        ],
+        "resposta": "100 cm",
+        "correctAnswer": "100 cm",
+        "explicacao": "1 metro é igual a exatamente 100 centímetros (1 m = 100 cm)!",
+        "explanation": "1 metro é igual a exatamente 100 centímetros (1 m = 100 cm)!"
+      },
+      {
+        "id": "mat_2_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Usamos a régua graduada em centímetros para medir objetos pequenos como o lápis ou a borracha.",
+        "question": "Usamos a régua graduada em centímetros para medir objetos pequenos como o lápis ou a borracha.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A régua escolar mede comprimentos em centímetros e milímetros.",
+        "explanation": "Verdadeiro! A régua escolar mede comprimentos em centímetros e milímetros."
+      },
+      {
+        "id": "mat_2_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Meio metro é igual a ___ centímetros.",
+        "question": "Meio metro é igual a ___ centímetros.",
+        "opcoes": [
+          "50",
+          "25",
+          "10"
+        ],
+        "options": [
+          "50",
+          "25",
+          "10"
+        ],
+        "resposta": "50",
+        "correctAnswer": "50",
+        "explicacao": "A metade de 100 cm é 50 cm!",
+        "explanation": "A metade de 100 cm é 50 cm!"
+      },
+      {
+        "id": "mat_2_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes objetos mede habitualmente mais de 1 Metro de comprimento?",
+        "question": "Qual destes objetos mede habitualmente mais de 1 Metro de comprimento?",
+        "opcoes": [
+          "🚗 Automóvel",
+          "✏️ Lápis",
+          "🪙 Moeda"
+        ],
+        "options": [
+          "🚗 Automóvel",
+          "✏️ Lápis",
+          "🪙 Moeda"
+        ],
+        "resposta": "🚗 Automóvel",
+        "correctAnswer": "🚗 Automóvel",
+        "explicacao": "Um automóvel mede cerca de 4 metros de comprimento! 🚗",
+        "explanation": "Um automóvel mede cerca de 4 metros de comprimento! 🚗"
+      },
+      {
+        "id": "mat_2_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o símbolo abreviado do Centímetro?",
+        "question": "Qual é o símbolo abreviado do Centímetro?",
+        "opcoes": [
+          "cm",
+          "m",
+          "kg"
+        ],
+        "options": [
+          "cm",
+          "m",
+          "kg"
+        ],
+        "resposta": "cm",
+        "correctAnswer": "cm",
+        "explicacao": "'cm' é o símbolo oficial do centímetro.",
+        "explanation": "'cm' é o símbolo oficial do centímetro."
+      },
+      {
+        "id": "mat_2_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Para medir o comprimento de uma linha com a régua devemos começar a contar a partir do número 0.",
+        "question": "Para medir o comprimento de uma linha com a régua devemos começar a contar a partir do número 0.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Alinhamos a ponta do objeto sempre com o traço do zero (0).",
+        "explanation": "Verdadeiro! Alinhamos a ponta do objeto sempre com o traço do zero (0)."
+      },
+      {
+        "id": "mat_2_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se uma fita tem 80 cm e cortamos 30 cm, com quantos centímetros ficamos?",
+        "question": "Se uma fita tem 80 cm e cortamos 30 cm, com quantos centímetros ficamos?",
+        "opcoes": [
+          "50 cm",
+          "40 cm",
+          "60 cm"
+        ],
+        "options": [
+          "50 cm",
+          "40 cm",
+          "60 cm"
+        ],
+        "resposta": "50 cm",
+        "correctAnswer": "50 cm",
+        "explicacao": "80 cm - 30 cm = 50 cm (meio metro)!",
+        "explanation": "80 cm - 30 cm = 50 cm (meio metro)!"
+      },
+      {
+        "id": "mat_2_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a medida mais adequada ao objeto:",
+        "question": "Associa a medida mais adequada ao objeto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente noção das grandezas e medidas de comprimento!",
+        "explanation": "Excelente noção das grandezas e medidas de comprimento!",
+        "pairs": {
+          "Comprimento de uma borracha": "4 cm",
+          "Altura de uma porta": "2 metros",
+          "Comprimento de uma sala de aula": "8 metros",
+          "Comprimento de uma formiga": "5 milímetros"
+        },
+        "pares": {
+          "Comprimento de uma borracha": "4 cm",
+          "Altura de uma porta": "2 metros",
+          "Comprimento de uma sala de aula": "8 metros",
+          "Comprimento de uma formiga": "5 milímetros"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos centímetros (cm) são precisos para fazer 1 Metro (m) inteiro?",
+        "question": "Quantos centímetros (cm) são precisos para fazer 1 Metro (m) inteiro?",
+        "opcoes": [
+          "100 cm",
+          "10 cm",
+          "1000 cm"
+        ],
+        "options": [
+          "100 cm",
+          "10 cm",
+          "1000 cm"
+        ],
+        "resposta": "100 cm",
+        "correctAnswer": "100 cm",
+        "explicacao": "1 metro é igual a exatamente 100 centímetros (1 m = 100 cm)!",
+        "explanation": "1 metro é igual a exatamente 100 centímetros (1 m = 100 cm)!"
+      },
+      {
+        "id": "mat_2_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Usamos a régua graduada em centímetros para medir objetos pequenos como o lápis ou a borracha.",
+        "question": "Usamos a régua graduada em centímetros para medir objetos pequenos como o lápis ou a borracha.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A régua escolar mede comprimentos em centímetros e milímetros.",
+        "explanation": "Verdadeiro! A régua escolar mede comprimentos em centímetros e milímetros."
+      },
+      {
+        "id": "mat_2_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Meio metro é igual a ___ centímetros.",
+        "question": "Meio metro é igual a ___ centímetros.",
+        "opcoes": [
+          "50",
+          "25",
+          "10"
+        ],
+        "options": [
+          "50",
+          "25",
+          "10"
+        ],
+        "resposta": "50",
+        "correctAnswer": "50",
+        "explicacao": "A metade de 100 cm é 50 cm!",
+        "explanation": "A metade de 100 cm é 50 cm!"
+      },
+      {
+        "id": "mat_2_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes objetos mede habitualmente mais de 1 Metro de comprimento?",
+        "question": "Qual destes objetos mede habitualmente mais de 1 Metro de comprimento?",
+        "opcoes": [
+          "🚗 Automóvel",
+          "✏️ Lápis",
+          "🪙 Moeda"
+        ],
+        "options": [
+          "🚗 Automóvel",
+          "✏️ Lápis",
+          "🪙 Moeda"
+        ],
+        "resposta": "🚗 Automóvel",
+        "correctAnswer": "🚗 Automóvel",
+        "explicacao": "Um automóvel mede cerca de 4 metros de comprimento! 🚗",
+        "explanation": "Um automóvel mede cerca de 4 metros de comprimento! 🚗"
+      },
+      {
+        "id": "mat_2_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o símbolo abreviado do Centímetro?",
+        "question": "Qual é o símbolo abreviado do Centímetro?",
+        "opcoes": [
+          "cm",
+          "m",
+          "kg"
+        ],
+        "options": [
+          "cm",
+          "m",
+          "kg"
+        ],
+        "resposta": "cm",
+        "correctAnswer": "cm",
+        "explicacao": "'cm' é o símbolo oficial do centímetro.",
+        "explanation": "'cm' é o símbolo oficial do centímetro."
+      },
+      {
+        "id": "mat_2_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Para medir o comprimento de uma linha com a régua devemos começar a contar a partir do número 0.",
+        "question": "Para medir o comprimento de uma linha com a régua devemos começar a contar a partir do número 0.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Alinhamos a ponta do objeto sempre com o traço do zero (0).",
+        "explanation": "Verdadeiro! Alinhamos a ponta do objeto sempre com o traço do zero (0)."
+      },
+      {
+        "id": "mat_2_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se uma fita tem 80 cm e cortamos 30 cm, com quantos centímetros ficamos?",
+        "question": "Se uma fita tem 80 cm e cortamos 30 cm, com quantos centímetros ficamos?",
+        "opcoes": [
+          "50 cm",
+          "40 cm",
+          "60 cm"
+        ],
+        "options": [
+          "50 cm",
+          "40 cm",
+          "60 cm"
+        ],
+        "resposta": "50 cm",
+        "correctAnswer": "50 cm",
+        "explicacao": "80 cm - 30 cm = 50 cm (meio metro)!",
+        "explanation": "80 cm - 30 cm = 50 cm (meio metro)!"
+      },
+      {
+        "id": "mat_2_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a medida mais adequada ao objeto:",
+        "question": "Associa a medida mais adequada ao objeto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente noção das grandezas e medidas de comprimento!",
+        "explanation": "Excelente noção das grandezas e medidas de comprimento!",
+        "pairs": {
+          "Comprimento de uma borracha": "4 cm",
+          "Altura de uma porta": "2 metros",
+          "Comprimento de uma sala de aula": "8 metros",
+          "Comprimento de uma formiga": "5 milímetros"
+        },
+        "pares": {
+          "Comprimento de uma borracha": "4 cm",
+          "Altura de uma porta": "2 metros",
+          "Comprimento de uma sala de aula": "8 metros",
+          "Comprimento de uma formiga": "5 milímetros"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f8",
+    "numero": 8,
+    "titulo": "Massa (Quilograma) e Capacidade (Litro)",
+    "title": "Massa (Quilograma) e Capacidade (Litro)",
+    "descricao": "Pesar com a balança (kg e g) e medir líquidos com recipientes graduados (l e cl).",
+    "description": "Pesar com a balança (kg e g) e medir líquidos com recipientes graduados (l e cl).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "⚖️",
+    "imageEmoji": "⚖️",
+    "exercicios": [
+      {
+        "id": "mat_2_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a unidade principal que usamos para pesar o peso (massa) do nosso corpo?",
+        "question": "Qual é a unidade principal que usamos para pesar o peso (massa) do nosso corpo?",
+        "resposta": "Quilograma (kg)",
+        "correctAnswer": "Quilograma (kg)",
+        "explicacao": "Pesamo-nos na balança em quilogramas (kg)!",
+        "explanation": "Pesamo-nos na balança em quilogramas (kg)!"
+      },
+      {
+        "id": "mat_2_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Litro (l) é a unidade que usamos para medir líquidos como a água, leite ou sumo.",
+        "question": "O Litro (l) é a unidade que usamos para medir líquidos como a água, leite ou sumo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A capacidade dos recipientes líquidos mede-se em litros.",
+        "explanation": "Verdadeiro! A capacidade dos recipientes líquidos mede-se em litros."
+      },
+      {
+        "id": "mat_2_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Dois pacotes de meio quilo juntos pesam ___ quilo.",
+        "question": "Dois pacotes de meio quilo juntos pesam ___ quilo.",
+        "opcoes": [
+          "1",
+          "2",
+          "3"
+        ],
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "resposta": "1",
+        "correctAnswer": "1",
+        "explicacao": "Meio quilo (500g) + Meio quilo (500g) = 1 Quilograma inteiro (1 kg).",
+        "explanation": "Meio quilo (500g) + Meio quilo (500g) = 1 Quilograma inteiro (1 kg)."
+      },
+      {
+        "id": "mat_2_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que instrumento usamos para pesar a fruta e os legumes no supermercado?",
+        "question": "Que instrumento usamos para pesar a fruta e os legumes no supermercado?",
+        "opcoes": [
+          "⚖️ Balança",
+          "⏰ Relógio",
+          "📏 Régua"
+        ],
+        "options": [
+          "⚖️ Balança",
+          "⏰ Relógio",
+          "📏 Régua"
+        ],
+        "resposta": "⚖️ Balança",
+        "correctAnswer": "⚖️ Balança",
+        "explicacao": "A balança mede a massa em quilogramas e gramas! ⚖️",
+        "explanation": "A balança mede a massa em quilogramas e gramas! ⚖️"
+      },
+      {
+        "id": "mat_2_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos copos de 25 cl são precisos para encher uma garrafa de 1 Litro (100 cl)?",
+        "question": "Quantos copos de 25 cl são precisos para encher uma garrafa de 1 Litro (100 cl)?",
+        "opcoes": [
+          "4 copos",
+          "2 copos",
+          "10 copos"
+        ],
+        "options": [
+          "4 copos",
+          "2 copos",
+          "10 copos"
+        ],
+        "resposta": "4 copos",
+        "correctAnswer": "4 copos",
+        "explicacao": "25 + 25 + 25 + 25 = 100 cl = 1 Litro!",
+        "explanation": "25 + 25 + 25 + 25 = 100 cl = 1 Litro!"
+      },
+      {
+        "id": "mat_2_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um elefante pesa muito mais do que 1000 quilogramas.",
+        "question": "Um elefante pesa muito mais do que 1000 quilogramas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Um elefante adulto pode pesar entre 3000 kg e 6000 kg.",
+        "explanation": "Verdadeiro! Um elefante adulto pode pesar entre 3000 kg e 6000 kg."
+      },
+      {
+        "id": "mat_2_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual pesa mais: 1 kg de ferro ou 1 kg de algodão?",
+        "question": "Qual pesa mais: 1 kg de ferro ou 1 kg de algodão?",
+        "resposta": "Pesam exatamente o mesmo (1 kg)",
+        "correctAnswer": "Pesam exatamente o mesmo (1 kg)",
+        "explicacao": "Ambos pesam exatamente 1 kg! A diferença é apenas o volume que ocupam.",
+        "explanation": "Ambos pesam exatamente 1 kg! A diferença é apenas o volume que ocupam."
+      },
+      {
+        "id": "mat_2_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica em Massa (peso) ou Capacidade (líquido):",
+        "question": "Classifica em Massa (peso) ou Capacidade (líquido):",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Distinguiste massa de capacidade.",
+        "explanation": "Muito bem! Distinguiste massa de capacidade.",
+        "pairs": {
+          "Saco de arroz": "Massa (kg)",
+          "Garrafa de água": "Capacidade (l)",
+          "Pacote de farinha": "Massa (kg)",
+          "Balde de sumo": "Capacidade (l)"
+        },
+        "pares": {
+          "Saco de arroz": "Massa (kg)",
+          "Garrafa de água": "Capacidade (l)",
+          "Pacote de farinha": "Massa (kg)",
+          "Balde de sumo": "Capacidade (l)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a unidade principal que usamos para pesar o peso (massa) do nosso corpo?",
+        "question": "Qual é a unidade principal que usamos para pesar o peso (massa) do nosso corpo?",
+        "resposta": "Quilograma (kg)",
+        "correctAnswer": "Quilograma (kg)",
+        "explicacao": "Pesamo-nos na balança em quilogramas (kg)!",
+        "explanation": "Pesamo-nos na balança em quilogramas (kg)!"
+      },
+      {
+        "id": "mat_2_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O Litro (l) é a unidade que usamos para medir líquidos como a água, leite ou sumo.",
+        "question": "O Litro (l) é a unidade que usamos para medir líquidos como a água, leite ou sumo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A capacidade dos recipientes líquidos mede-se em litros.",
+        "explanation": "Verdadeiro! A capacidade dos recipientes líquidos mede-se em litros."
+      },
+      {
+        "id": "mat_2_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Dois pacotes de meio quilo juntos pesam ___ quilo.",
+        "question": "Dois pacotes de meio quilo juntos pesam ___ quilo.",
+        "opcoes": [
+          "1",
+          "2",
+          "3"
+        ],
+        "options": [
+          "1",
+          "2",
+          "3"
+        ],
+        "resposta": "1",
+        "correctAnswer": "1",
+        "explicacao": "Meio quilo (500g) + Meio quilo (500g) = 1 Quilograma inteiro (1 kg).",
+        "explanation": "Meio quilo (500g) + Meio quilo (500g) = 1 Quilograma inteiro (1 kg)."
+      },
+      {
+        "id": "mat_2_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que instrumento usamos para pesar a fruta e os legumes no supermercado?",
+        "question": "Que instrumento usamos para pesar a fruta e os legumes no supermercado?",
+        "opcoes": [
+          "⚖️ Balança",
+          "⏰ Relógio",
+          "📏 Régua"
+        ],
+        "options": [
+          "⚖️ Balança",
+          "⏰ Relógio",
+          "📏 Régua"
+        ],
+        "resposta": "⚖️ Balança",
+        "correctAnswer": "⚖️ Balança",
+        "explicacao": "A balança mede a massa em quilogramas e gramas! ⚖️",
+        "explanation": "A balança mede a massa em quilogramas e gramas! ⚖️"
+      },
+      {
+        "id": "mat_2_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos copos de 25 cl são precisos para encher uma garrafa de 1 Litro (100 cl)?",
+        "question": "Quantos copos de 25 cl são precisos para encher uma garrafa de 1 Litro (100 cl)?",
+        "opcoes": [
+          "4 copos",
+          "2 copos",
+          "10 copos"
+        ],
+        "options": [
+          "4 copos",
+          "2 copos",
+          "10 copos"
+        ],
+        "resposta": "4 copos",
+        "correctAnswer": "4 copos",
+        "explicacao": "25 + 25 + 25 + 25 = 100 cl = 1 Litro!",
+        "explanation": "25 + 25 + 25 + 25 = 100 cl = 1 Litro!"
+      },
+      {
+        "id": "mat_2_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um elefante pesa muito mais do que 1000 quilogramas.",
+        "question": "Um elefante pesa muito mais do que 1000 quilogramas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Um elefante adulto pode pesar entre 3000 kg e 6000 kg.",
+        "explanation": "Verdadeiro! Um elefante adulto pode pesar entre 3000 kg e 6000 kg."
+      },
+      {
+        "id": "mat_2_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual pesa mais: 1 kg de ferro ou 1 kg de algodão?",
+        "question": "Qual pesa mais: 1 kg de ferro ou 1 kg de algodão?",
+        "resposta": "Pesam exatamente o mesmo (1 kg)",
+        "correctAnswer": "Pesam exatamente o mesmo (1 kg)",
+        "explicacao": "Ambos pesam exatamente 1 kg! A diferença é apenas o volume que ocupam.",
+        "explanation": "Ambos pesam exatamente 1 kg! A diferença é apenas o volume que ocupam."
+      },
+      {
+        "id": "mat_2_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica em Massa (peso) ou Capacidade (líquido):",
+        "question": "Classifica em Massa (peso) ou Capacidade (líquido):",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Distinguiste massa de capacidade.",
+        "explanation": "Muito bem! Distinguiste massa de capacidade.",
+        "pairs": {
+          "Saco de arroz": "Massa (kg)",
+          "Garrafa de água": "Capacidade (l)",
+          "Pacote de farinha": "Massa (kg)",
+          "Balde de sumo": "Capacidade (l)"
+        },
+        "pares": {
+          "Saco de arroz": "Massa (kg)",
+          "Garrafa de água": "Capacidade (l)",
+          "Pacote de farinha": "Massa (kg)",
+          "Balde de sumo": "Capacidade (l)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f9",
+    "numero": 9,
+    "titulo": "Horas, Meias Horas e Quartos de Hora",
+    "title": "Horas, Meias Horas e Quartos de Hora",
+    "descricao": "Lê as horas e minutos nos relógios de ponteiros e digitais.",
+    "description": "Lê as horas e minutos nos relógios de ponteiros e digitais.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "⏰",
+    "imageEmoji": "⏰",
+    "exercicios": [
+      {
+        "id": "mat_2_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quando o ponteiro grande dos minutos aponta para o 6, temos...",
+        "question": "Quando o ponteiro grande dos minutos aponta para o 6, temos...",
+        "resposta": "Meia hora (30 minutos)",
+        "correctAnswer": "Meia hora (30 minutos)",
+        "explicacao": "O número 6 marca 30 minutos (meia hora) de volta no mostrador!",
+        "explanation": "O número 6 marca 30 minutos (meia hora) de volta no mostrador!"
+      },
+      {
+        "id": "mat_2_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O relógio digital que marca '08:30' indica 'oito horas e meia'.",
+        "question": "O relógio digital que marca '08:30' indica 'oito horas e meia'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 30 minutos é a metade de uma hora de 60 minutos.",
+        "explanation": "Verdadeiro! 30 minutos é a metade de uma hora de 60 minutos."
+      },
+      {
+        "id": "mat_2_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Um quarto de hora tem ___ minutos.",
+        "question": "Um quarto de hora tem ___ minutos.",
+        "opcoes": [
+          "15",
+          "30",
+          "45"
+        ],
+        "options": [
+          "15",
+          "30",
+          "45"
+        ],
+        "resposta": "15",
+        "correctAnswer": "15",
+        "explicacao": "60 minutos divididos por 4 partes = 15 minutos!",
+        "explanation": "60 minutos divididos por 4 partes = 15 minutos!"
+      },
+      {
+        "id": "mat_2_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Se o ponteiro pequeno está no 4 e o grande no 12, que horas são?",
+        "question": "Se o ponteiro pequeno está no 4 e o grande no 12, que horas são?",
+        "resposta": "⏰ 4:00 (Quatro horas em ponto)",
+        "correctAnswer": "⏰ 4:00 (Quatro horas em ponto)",
+        "explicacao": "São 4 horas em ponto! ⏰",
+        "explanation": "São 4 horas em ponto! ⏰"
+      },
+      {
+        "id": "mat_2_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos minutos faltam para a hora seguinte se o relógio marca '10:45'?",
+        "question": "Quantos minutos faltam para a hora seguinte se o relógio marca '10:45'?",
+        "resposta": "15 minutos (um quarto de hora)",
+        "correctAnswer": "15 minutos (um quarto de hora)",
+        "explicacao": "60 - 45 = 15 minutos (são quinze para as onze)!",
+        "explanation": "60 - 45 = 15 minutos (são quinze para as onze)!"
+      },
+      {
+        "id": "mat_2_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Uma hora tem 60 minutos e meio dia tem 12 horas.",
+        "question": "Uma hora tem 60 minutos e meio dia tem 12 horas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Um dia completo tem 24 horas.",
+        "explanation": "Verdadeiro! Um dia completo tem 24 horas."
+      },
+      {
+        "id": "mat_2_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se a aula começa às 09:00 e dura 1 hora, a que horas termina?",
+        "question": "Se a aula começa às 09:00 e dura 1 hora, a que horas termina?",
+        "opcoes": [
+          "10:00",
+          "09:30",
+          "11:00"
+        ],
+        "options": [
+          "10:00",
+          "09:30",
+          "11:00"
+        ],
+        "resposta": "10:00",
+        "correctAnswer": "10:00",
+        "explicacao": "9 + 1 = 10 horas em ponto!",
+        "explanation": "9 + 1 = 10 horas em ponto!"
+      },
+      {
+        "id": "mat_2_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga a hora escrita ao seu relógio digital:",
+        "question": "Liga a hora escrita ao seu relógio digital:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente leitura das horas analógicas e digitais!",
+        "explanation": "Excelente leitura das horas analógicas e digitais!",
+        "pairs": {
+          "Duas e meia": "02:30",
+          "Nove em ponto": "09:00",
+          "Seis e um quarto": "06:15",
+          "Quinze para as cinco": "04:45"
+        },
+        "pares": {
+          "Duas e meia": "02:30",
+          "Nove em ponto": "09:00",
+          "Seis e um quarto": "06:15",
+          "Quinze para as cinco": "04:45"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quando o ponteiro grande dos minutos aponta para o 6, temos...",
+        "question": "Quando o ponteiro grande dos minutos aponta para o 6, temos...",
+        "resposta": "Meia hora (30 minutos)",
+        "correctAnswer": "Meia hora (30 minutos)",
+        "explicacao": "O número 6 marca 30 minutos (meia hora) de volta no mostrador!",
+        "explanation": "O número 6 marca 30 minutos (meia hora) de volta no mostrador!"
+      },
+      {
+        "id": "mat_2_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O relógio digital que marca '08:30' indica 'oito horas e meia'.",
+        "question": "O relógio digital que marca '08:30' indica 'oito horas e meia'.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 30 minutos é a metade de uma hora de 60 minutos.",
+        "explanation": "Verdadeiro! 30 minutos é a metade de uma hora de 60 minutos."
+      },
+      {
+        "id": "mat_2_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Um quarto de hora tem ___ minutos.",
+        "question": "Um quarto de hora tem ___ minutos.",
+        "opcoes": [
+          "15",
+          "30",
+          "45"
+        ],
+        "options": [
+          "15",
+          "30",
+          "45"
+        ],
+        "resposta": "15",
+        "correctAnswer": "15",
+        "explicacao": "60 minutos divididos por 4 partes = 15 minutos!",
+        "explanation": "60 minutos divididos por 4 partes = 15 minutos!"
+      },
+      {
+        "id": "mat_2_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Se o ponteiro pequeno está no 4 e o grande no 12, que horas são?",
+        "question": "Se o ponteiro pequeno está no 4 e o grande no 12, que horas são?",
+        "resposta": "⏰ 4:00 (Quatro horas em ponto)",
+        "correctAnswer": "⏰ 4:00 (Quatro horas em ponto)",
+        "explicacao": "São 4 horas em ponto! ⏰",
+        "explanation": "São 4 horas em ponto! ⏰"
+      },
+      {
+        "id": "mat_2_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantos minutos faltam para a hora seguinte se o relógio marca '10:45'?",
+        "question": "Quantos minutos faltam para a hora seguinte se o relógio marca '10:45'?",
+        "resposta": "15 minutos (um quarto de hora)",
+        "correctAnswer": "15 minutos (um quarto de hora)",
+        "explicacao": "60 - 45 = 15 minutos (são quinze para as onze)!",
+        "explanation": "60 - 45 = 15 minutos (são quinze para as onze)!"
+      },
+      {
+        "id": "mat_2_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Uma hora tem 60 minutos e meio dia tem 12 horas.",
+        "question": "Uma hora tem 60 minutos e meio dia tem 12 horas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Um dia completo tem 24 horas.",
+        "explanation": "Verdadeiro! Um dia completo tem 24 horas."
+      },
+      {
+        "id": "mat_2_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se a aula começa às 09:00 e dura 1 hora, a que horas termina?",
+        "question": "Se a aula começa às 09:00 e dura 1 hora, a que horas termina?",
+        "opcoes": [
+          "10:00",
+          "09:30",
+          "11:00"
+        ],
+        "options": [
+          "10:00",
+          "09:30",
+          "11:00"
+        ],
+        "resposta": "10:00",
+        "correctAnswer": "10:00",
+        "explicacao": "9 + 1 = 10 horas em ponto!",
+        "explanation": "9 + 1 = 10 horas em ponto!"
+      },
+      {
+        "id": "mat_2_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga a hora escrita ao seu relógio digital:",
+        "question": "Liga a hora escrita ao seu relógio digital:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente leitura das horas analógicas e digitais!",
+        "explanation": "Excelente leitura das horas analógicas e digitais!",
+        "pairs": {
+          "Duas e meia": "02:30",
+          "Nove em ponto": "09:00",
+          "Seis e um quarto": "06:15",
+          "Quinze para as cinco": "04:45"
+        },
+        "pares": {
+          "Duas e meia": "02:30",
+          "Nove em ponto": "09:00",
+          "Seis e um quarto": "06:15",
+          "Quinze para as cinco": "04:45"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f10",
+    "numero": 10,
+    "titulo": "Dinheiro, Notas e Moedas de Euro",
+    "title": "Dinheiro, Notas e Moedas de Euro",
+    "descricao": "Calcula somas com dinheiro, trocos e valor das notas de 5€, 10€, 20€ e 50€.",
+    "description": "Calcula somas com dinheiro, trocos e valor das notas de 5€, 10€, 20€ e 50€.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "💶",
+    "imageEmoji": "💶",
+    "exercicios": [
+      {
+        "id": "mat_2_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas moedas de 2€ precisas para fazer uma nota de 10€?",
+        "question": "Quantas moedas de 2€ precisas para fazer uma nota de 10€?",
+        "opcoes": [
+          "5 moedas",
+          "2 moedas",
+          "10 moedas"
+        ],
+        "options": [
+          "5 moedas",
+          "2 moedas",
+          "10 moedas"
+        ],
+        "resposta": "5 moedas",
+        "correctAnswer": "5 moedas",
+        "explicacao": "5 x 2€ = 10€!",
+        "explanation": "5 x 2€ = 10€!"
+      },
+      {
+        "id": "mat_2_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "100 cêntimos equivalem exatamente a 1 Euro (1,00€).",
+        "question": "100 cêntimos equivalem exatamente a 1 Euro (1,00€).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1€ = 100 cêntimos.",
+        "explanation": "Verdadeiro! 1€ = 100 cêntimos."
+      },
+      {
+        "id": "mat_2_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Compraste um livro de 7€ e pagaste com 10€. O teu troco é ___ €.",
+        "question": "Compraste um livro de 7€ e pagaste com 10€. O teu troco é ___ €.",
+        "opcoes": [
+          "3",
+          "2",
+          "4"
+        ],
+        "options": [
+          "3",
+          "2",
+          "4"
+        ],
+        "resposta": "3",
+        "correctAnswer": "3",
+        "explicacao": "10€ - 7€ = 3€ de troco na caixa!",
+        "explanation": "10€ - 7€ = 3€ de troco na caixa!"
+      },
+      {
+        "id": "mat_2_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas notas tem o MENOR valor em dinheiro?",
+        "question": "Qual destas notas tem o MENOR valor em dinheiro?",
+        "opcoes": [
+          "💶 Nota de 5€",
+          "💶 Nota de 20€",
+          "💶 Nota de 50€"
+        ],
+        "options": [
+          "💶 Nota de 5€",
+          "💶 Nota de 20€",
+          "💶 Nota de 50€"
+        ],
+        "resposta": "💶 Nota de 5€",
+        "correctAnswer": "💶 Nota de 5€",
+        "explicacao": "A nota de 5€ é a nota de menor valor do Euro! 💶",
+        "explanation": "A nota de 5€ é a nota de menor valor do Euro! 💶"
+      },
+      {
+        "id": "mat_2_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se tiveres 2 notas de 20€ e 1 nota de 10€, quanto dinheiro tens?",
+        "question": "Se tiveres 2 notas de 20€ e 1 nota de 10€, quanto dinheiro tens?",
+        "opcoes": [
+          "50€",
+          "40€",
+          "30€"
+        ],
+        "options": [
+          "50€",
+          "40€",
+          "30€"
+        ],
+        "resposta": "50€",
+        "correctAnswer": "50€",
+        "explicacao": "20€ + 20€ + 10€ = 50€ no total!",
+        "explanation": "20€ + 20€ + 10€ = 50€ no total!"
+      },
+      {
+        "id": "mat_2_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Duas moedas de 50 cêntimos mais uma moeda de 1€ perfazem 2€.",
+        "question": "Duas moedas de 50 cêntimos mais uma moeda de 1€ perfazem 2€.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 50c + 50c = 1€, e 1€ + 1€ = 2€.",
+        "explanation": "Verdadeiro! 50c + 50c = 1€, e 1€ + 1€ = 2€."
+      },
+      {
+        "id": "mat_2_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A Maria quer comprar uma bola de 12€ e uma boneca de 8€. Quanto precisa no total?",
+        "question": "A Maria quer comprar uma bola de 12€ e uma boneca de 8€. Quanto precisa no total?",
+        "opcoes": [
+          "20€",
+          "18€",
+          "22€"
+        ],
+        "options": [
+          "20€",
+          "18€",
+          "22€"
+        ],
+        "resposta": "20€",
+        "correctAnswer": "20€",
+        "explicacao": "12€ + 8€ = 20€ certinhos.",
+        "explanation": "12€ + 8€ = 20€ certinhos."
+      },
+      {
+        "id": "mat_2_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Calcula o valor total das quantias:",
+        "question": "Calcula o valor total das quantias:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente gestão financeira e cálculo de valores em Euros!",
+        "explanation": "Excelente gestão financeira e cálculo de valores em Euros!",
+        "pairs": {
+          "4 moedas de 2€": "8€",
+          "2 notas de 5€": "10€",
+          "1 nota de 10€ + 1 de 20€": "30€",
+          "4 moedas de 50 cêntimos": "2€"
+        },
+        "pares": {
+          "4 moedas de 2€": "8€",
+          "2 notas de 5€": "10€",
+          "1 nota de 10€ + 1 de 20€": "30€",
+          "4 moedas de 50 cêntimos": "2€"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas moedas de 2€ precisas para fazer uma nota de 10€?",
+        "question": "Quantas moedas de 2€ precisas para fazer uma nota de 10€?",
+        "opcoes": [
+          "5 moedas",
+          "2 moedas",
+          "10 moedas"
+        ],
+        "options": [
+          "5 moedas",
+          "2 moedas",
+          "10 moedas"
+        ],
+        "resposta": "5 moedas",
+        "correctAnswer": "5 moedas",
+        "explicacao": "5 x 2€ = 10€!",
+        "explanation": "5 x 2€ = 10€!"
+      },
+      {
+        "id": "mat_2_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "100 cêntimos equivalem exatamente a 1 Euro (1,00€).",
+        "question": "100 cêntimos equivalem exatamente a 1 Euro (1,00€).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 1€ = 100 cêntimos.",
+        "explanation": "Verdadeiro! 1€ = 100 cêntimos."
+      },
+      {
+        "id": "mat_2_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Compraste um livro de 7€ e pagaste com 10€. O teu troco é ___ €.",
+        "question": "Compraste um livro de 7€ e pagaste com 10€. O teu troco é ___ €.",
+        "opcoes": [
+          "3",
+          "2",
+          "4"
+        ],
+        "options": [
+          "3",
+          "2",
+          "4"
+        ],
+        "resposta": "3",
+        "correctAnswer": "3",
+        "explicacao": "10€ - 7€ = 3€ de troco na caixa!",
+        "explanation": "10€ - 7€ = 3€ de troco na caixa!"
+      },
+      {
+        "id": "mat_2_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas notas tem o MENOR valor em dinheiro?",
+        "question": "Qual destas notas tem o MENOR valor em dinheiro?",
+        "opcoes": [
+          "💶 Nota de 5€",
+          "💶 Nota de 20€",
+          "💶 Nota de 50€"
+        ],
+        "options": [
+          "💶 Nota de 5€",
+          "💶 Nota de 20€",
+          "💶 Nota de 50€"
+        ],
+        "resposta": "💶 Nota de 5€",
+        "correctAnswer": "💶 Nota de 5€",
+        "explicacao": "A nota de 5€ é a nota de menor valor do Euro! 💶",
+        "explanation": "A nota de 5€ é a nota de menor valor do Euro! 💶"
+      },
+      {
+        "id": "mat_2_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Se tiveres 2 notas de 20€ e 1 nota de 10€, quanto dinheiro tens?",
+        "question": "Se tiveres 2 notas de 20€ e 1 nota de 10€, quanto dinheiro tens?",
+        "opcoes": [
+          "50€",
+          "40€",
+          "30€"
+        ],
+        "options": [
+          "50€",
+          "40€",
+          "30€"
+        ],
+        "resposta": "50€",
+        "correctAnswer": "50€",
+        "explicacao": "20€ + 20€ + 10€ = 50€ no total!",
+        "explanation": "20€ + 20€ + 10€ = 50€ no total!"
+      },
+      {
+        "id": "mat_2_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Duas moedas de 50 cêntimos mais uma moeda de 1€ perfazem 2€.",
+        "question": "Duas moedas de 50 cêntimos mais uma moeda de 1€ perfazem 2€.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 50c + 50c = 1€, e 1€ + 1€ = 2€.",
+        "explanation": "Verdadeiro! 50c + 50c = 1€, e 1€ + 1€ = 2€."
+      },
+      {
+        "id": "mat_2_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A Maria quer comprar uma bola de 12€ e uma boneca de 8€. Quanto precisa no total?",
+        "question": "A Maria quer comprar uma bola de 12€ e uma boneca de 8€. Quanto precisa no total?",
+        "opcoes": [
+          "20€",
+          "18€",
+          "22€"
+        ],
+        "options": [
+          "20€",
+          "18€",
+          "22€"
+        ],
+        "resposta": "20€",
+        "correctAnswer": "20€",
+        "explicacao": "12€ + 8€ = 20€ certinhos.",
+        "explanation": "12€ + 8€ = 20€ certinhos."
+      },
+      {
+        "id": "mat_2_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Calcula o valor total das quantias:",
+        "question": "Calcula o valor total das quantias:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente gestão financeira e cálculo de valores em Euros!",
+        "explanation": "Excelente gestão financeira e cálculo de valores em Euros!",
+        "pairs": {
+          "4 moedas de 2€": "8€",
+          "2 notas de 5€": "10€",
+          "1 nota de 10€ + 1 de 20€": "30€",
+          "4 moedas de 50 cêntimos": "2€"
+        },
+        "pares": {
+          "4 moedas de 2€": "8€",
+          "2 notas de 5€": "10€",
+          "1 nota de 10€ + 1 de 20€": "30€",
+          "4 moedas de 50 cêntimos": "2€"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f11",
+    "numero": 11,
+    "titulo": "Tabelas, Pictogramas e Gráficos de Barras",
+    "title": "Tabelas, Pictogramas e Gráficos de Barras",
+    "descricao": "Organização de dados estatísticos, leitura de gráficos e contagem de votos.",
+    "description": "Organização de dados estatísticos, leitura de gráficos e contagem de votos.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "📊",
+    "imageEmoji": "📊",
+    "exercicios": [
+      {
+        "id": "mat_2_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Num gráfico de barras sobre frutas preferidas, a barra da Maçã chega ao 14 e da Banana ao 8. Qual fruta teve mais votos?",
+        "question": "Num gráfico de barras sobre frutas preferidas, a barra da Maçã chega ao 14 e da Banana ao 8. Qual fruta teve mais votos?",
+        "opcoes": [
+          "Maçã",
+          "Banana",
+          "Empataram"
+        ],
+        "options": [
+          "Maçã",
+          "Banana",
+          "Empataram"
+        ],
+        "resposta": "Maçã",
+        "correctAnswer": "Maçã",
+        "explicacao": "A barra da Maçã é mais alta (14 > 8), logo teve mais votos!",
+        "explanation": "A barra da Maçã é mais alta (14 > 8), logo teve mais votos!"
+      },
+      {
+        "id": "mat_2_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Num pictograma, cada desenho ou símbolo pode representar 1 ou mais elementos (legenda).",
+        "question": "Num pictograma, cada desenho ou símbolo pode representar 1 ou mais elementos (legenda).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Devemos sempre ler a legenda com atenção.",
+        "explanation": "Verdadeiro! Devemos sempre ler a legenda com atenção."
+      },
+      {
+        "id": "mat_2_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Se num pictograma 🌟 vale 2 votos, então 🌟🌟🌟 valem ___ votos.",
+        "question": "Se num pictograma 🌟 vale 2 votos, então 🌟🌟🌟 valem ___ votos.",
+        "opcoes": [
+          "6",
+          "3",
+          "5"
+        ],
+        "options": [
+          "6",
+          "3",
+          "5"
+        ],
+        "resposta": "6",
+        "correctAnswer": "6",
+        "explicacao": "3 estrelas x 2 votos cada = 6 votos!",
+        "explanation": "3 estrelas x 2 votos cada = 6 votos!"
+      },
+      {
+        "id": "mat_2_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que tipo de gráfico usa colunas retangulares para comparar dados?",
+        "question": "Que tipo de gráfico usa colunas retangulares para comparar dados?",
+        "opcoes": [
+          "📊 Gráfico de barras",
+          "🥧 Tarte de maçã",
+          "🎲 Dado de jogar"
+        ],
+        "options": [
+          "📊 Gráfico de barras",
+          "🥧 Tarte de maçã",
+          "🎲 Dado de jogar"
+        ],
+        "resposta": "📊 Gráfico de barras",
+        "correctAnswer": "📊 Gráfico de barras",
+        "explicacao": "O gráfico de barras usa colunas para facilitar a comparação visual! 📊",
+        "explanation": "O gráfico de barras usa colunas para facilitar a comparação visual! 📊"
+      },
+      {
+        "id": "mat_2_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Numa tabela da turma: 10 alunos têm cão, 8 têm gato e 2 têm peixe. Quantos alunos têm animais?",
+        "question": "Numa tabela da turma: 10 alunos têm cão, 8 têm gato e 2 têm peixe. Quantos alunos têm animais?",
+        "opcoes": [
+          "20 alunos",
+          "18 alunos",
+          "15 alunos"
+        ],
+        "options": [
+          "20 alunos",
+          "18 alunos",
+          "15 alunos"
+        ],
+        "resposta": "20 alunos",
+        "correctAnswer": "20 alunos",
+        "explicacao": "10 + 8 + 2 = 20 alunos no total!",
+        "explanation": "10 + 8 + 2 = 20 alunos no total!"
+      },
+      {
+        "id": "mat_2_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O título de uma tabela indica o assunto que foi investigado na pesquisa.",
+        "question": "O título de uma tabela indica o assunto que foi investigado na pesquisa.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O título resume o tema dos dados recolhidos.",
+        "explanation": "Verdadeiro! O título resume o tema dos dados recolhidos."
+      },
+      {
+        "id": "mat_2_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a diferença de votos entre o 1.º lugar (15 votos) e o 2.º lugar (9 votos)?",
+        "question": "Qual é a diferença de votos entre o 1.º lugar (15 votos) e o 2.º lugar (9 votos)?",
+        "opcoes": [
+          "6 votos",
+          "5 votos",
+          "24 votos"
+        ],
+        "options": [
+          "6 votos",
+          "5 votos",
+          "24 votos"
+        ],
+        "resposta": "6 votos",
+        "correctAnswer": "6 votos",
+        "explicacao": "15 - 9 = 6 votos de diferença!",
+        "explanation": "15 - 9 = 6 votos de diferença!"
+      },
+      {
+        "id": "mat_2_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o termo estatístico ao seu significado:",
+        "question": "Associa o termo estatístico ao seu significado:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito! Sabes interpretar dados e tabelas estatísticas com rigor.",
+        "explanation": "Perfeito! Sabes interpretar dados e tabelas estatísticas com rigor.",
+        "pairs": {
+          "Tabela": "Grelha com linhas e colunas de dados",
+          "Gráfico de barras": "Representação com colunas coloridas",
+          "Pictograma": "Gráfico com desenhos e símbolos",
+          "Moda": "A opção mais votada de todas"
+        },
+        "pares": {
+          "Tabela": "Grelha com linhas e colunas de dados",
+          "Gráfico de barras": "Representação com colunas coloridas",
+          "Pictograma": "Gráfico com desenhos e símbolos",
+          "Moda": "A opção mais votada de todas"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Num gráfico de barras sobre frutas preferidas, a barra da Maçã chega ao 14 e da Banana ao 8. Qual fruta teve mais votos?",
+        "question": "Num gráfico de barras sobre frutas preferidas, a barra da Maçã chega ao 14 e da Banana ao 8. Qual fruta teve mais votos?",
+        "opcoes": [
+          "Maçã",
+          "Banana",
+          "Empataram"
+        ],
+        "options": [
+          "Maçã",
+          "Banana",
+          "Empataram"
+        ],
+        "resposta": "Maçã",
+        "correctAnswer": "Maçã",
+        "explicacao": "A barra da Maçã é mais alta (14 > 8), logo teve mais votos!",
+        "explanation": "A barra da Maçã é mais alta (14 > 8), logo teve mais votos!"
+      },
+      {
+        "id": "mat_2_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Num pictograma, cada desenho ou símbolo pode representar 1 ou mais elementos (legenda).",
+        "question": "Num pictograma, cada desenho ou símbolo pode representar 1 ou mais elementos (legenda).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Devemos sempre ler a legenda com atenção.",
+        "explanation": "Verdadeiro! Devemos sempre ler a legenda com atenção."
+      },
+      {
+        "id": "mat_2_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Se num pictograma 🌟 vale 2 votos, então 🌟🌟🌟 valem ___ votos.",
+        "question": "Se num pictograma 🌟 vale 2 votos, então 🌟🌟🌟 valem ___ votos.",
+        "opcoes": [
+          "6",
+          "3",
+          "5"
+        ],
+        "options": [
+          "6",
+          "3",
+          "5"
+        ],
+        "resposta": "6",
+        "correctAnswer": "6",
+        "explicacao": "3 estrelas x 2 votos cada = 6 votos!",
+        "explanation": "3 estrelas x 2 votos cada = 6 votos!"
+      },
+      {
+        "id": "mat_2_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que tipo de gráfico usa colunas retangulares para comparar dados?",
+        "question": "Que tipo de gráfico usa colunas retangulares para comparar dados?",
+        "opcoes": [
+          "📊 Gráfico de barras",
+          "🥧 Tarte de maçã",
+          "🎲 Dado de jogar"
+        ],
+        "options": [
+          "📊 Gráfico de barras",
+          "🥧 Tarte de maçã",
+          "🎲 Dado de jogar"
+        ],
+        "resposta": "📊 Gráfico de barras",
+        "correctAnswer": "📊 Gráfico de barras",
+        "explicacao": "O gráfico de barras usa colunas para facilitar a comparação visual! 📊",
+        "explanation": "O gráfico de barras usa colunas para facilitar a comparação visual! 📊"
+      },
+      {
+        "id": "mat_2_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Numa tabela da turma: 10 alunos têm cão, 8 têm gato e 2 têm peixe. Quantos alunos têm animais?",
+        "question": "Numa tabela da turma: 10 alunos têm cão, 8 têm gato e 2 têm peixe. Quantos alunos têm animais?",
+        "opcoes": [
+          "20 alunos",
+          "18 alunos",
+          "15 alunos"
+        ],
+        "options": [
+          "20 alunos",
+          "18 alunos",
+          "15 alunos"
+        ],
+        "resposta": "20 alunos",
+        "correctAnswer": "20 alunos",
+        "explicacao": "10 + 8 + 2 = 20 alunos no total!",
+        "explanation": "10 + 8 + 2 = 20 alunos no total!"
+      },
+      {
+        "id": "mat_2_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O título de uma tabela indica o assunto que foi investigado na pesquisa.",
+        "question": "O título de uma tabela indica o assunto que foi investigado na pesquisa.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O título resume o tema dos dados recolhidos.",
+        "explanation": "Verdadeiro! O título resume o tema dos dados recolhidos."
+      },
+      {
+        "id": "mat_2_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a diferença de votos entre o 1.º lugar (15 votos) e o 2.º lugar (9 votos)?",
+        "question": "Qual é a diferença de votos entre o 1.º lugar (15 votos) e o 2.º lugar (9 votos)?",
+        "opcoes": [
+          "6 votos",
+          "5 votos",
+          "24 votos"
+        ],
+        "options": [
+          "6 votos",
+          "5 votos",
+          "24 votos"
+        ],
+        "resposta": "6 votos",
+        "correctAnswer": "6 votos",
+        "explicacao": "15 - 9 = 6 votos de diferença!",
+        "explanation": "15 - 9 = 6 votos de diferença!"
+      },
+      {
+        "id": "mat_2_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o termo estatístico ao seu significado:",
+        "question": "Associa o termo estatístico ao seu significado:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito! Sabes interpretar dados e tabelas estatísticas com rigor.",
+        "explanation": "Perfeito! Sabes interpretar dados e tabelas estatísticas com rigor.",
+        "pairs": {
+          "Tabela": "Grelha com linhas e colunas de dados",
+          "Gráfico de barras": "Representação com colunas coloridas",
+          "Pictograma": "Gráfico com desenhos e símbolos",
+          "Moda": "A opção mais votada de todas"
+        },
+        "pares": {
+          "Tabela": "Grelha com linhas e colunas de dados",
+          "Gráfico de barras": "Representação com colunas coloridas",
+          "Pictograma": "Gráfico com desenhos e símbolos",
+          "Moda": "A opção mais votada de todas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "mat_2_f12",
+    "numero": 12,
+    "titulo": "Grandes Desafios Matemáticos do 2.º Ano",
+    "title": "Grandes Desafios Matemáticos do 2.º Ano",
+    "descricao": "Problemas de lógica em vários passos, estimativas e enigmas do Zé.",
+    "description": "Problemas de lógica em vários passos, estimativas e enigmas do Zé.",
+    "dificuldade": "DESAFIO",
+    "difficulty": "CHALLENGE",
+    "emoji": "🏆",
+    "imageEmoji": "🏆",
+    "exercicios": [
+      {
+        "id": "mat_2_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Zé tinha 40 berlindes. Ganhou 15 no jogo e deu 5 ao irmão. Com quantos berlindes ficou?",
+        "question": "O Zé tinha 40 berlindes. Ganhou 15 no jogo e deu 5 ao irmão. Com quantos berlindes ficou?",
+        "opcoes": [
+          "50 berlindes",
+          "45 berlindes",
+          "55 berlindes"
+        ],
+        "options": [
+          "50 berlindes",
+          "45 berlindes",
+          "55 berlindes"
+        ],
+        "resposta": "50 berlindes",
+        "correctAnswer": "50 berlindes",
+        "explicacao": "40 + 15 = 55; depois 55 - 5 = 50 berlindes!",
+        "explanation": "40 + 15 = 55; depois 55 - 5 = 50 berlindes!"
+      },
+      {
+        "id": "mat_2_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Se 1 caderno custa 2€, com 20€ podes comprar exatamente 10 cadernos.",
+        "question": "Se 1 caderno custa 2€, com 20€ podes comprar exatamente 10 cadernos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 10 x 2€ = 20€.",
+        "explanation": "Verdadeiro! 10 x 2€ = 20€."
+      },
+      {
+        "id": "mat_2_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Descobre o número misterioso: Tem 7 dezenas e o dobro de 3 unidades. É o ___",
+        "question": "Descobre o número misterioso: Tem 7 dezenas e o dobro de 3 unidades. É o ___",
+        "opcoes": [
+          "76",
+          "73",
+          "67"
+        ],
+        "options": [
+          "76",
+          "73",
+          "67"
+        ],
+        "resposta": "76",
+        "correctAnswer": "76",
+        "explicacao": "7 dezenas = 70. Dobro de 3 = 6. 70 + 6 = 76!",
+        "explanation": "7 dezenas = 70. Dobro de 3 = 6. 70 + 6 = 76!"
+      },
+      {
+        "id": "mat_2_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Se num autocarro vão 25 pessoas e saem 10 na paragem, quantas continuam viagem?",
+        "question": "Se num autocarro vão 25 pessoas e saem 10 na paragem, quantas continuam viagem?",
+        "opcoes": [
+          "🚌 15 pessoas",
+          "🚌 20 pessoas",
+          "🚌 35 pessoas"
+        ],
+        "options": [
+          "🚌 15 pessoas",
+          "🚌 20 pessoas",
+          "🚌 35 pessoas"
+        ],
+        "resposta": "🚌 15 pessoas",
+        "correctAnswer": "🚌 15 pessoas",
+        "explicacao": "25 - 10 = 15 pessoas a bordo! 🚌",
+        "explanation": "25 - 10 = 15 pessoas a bordo! 🚌"
+      },
+      {
+        "id": "mat_2_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a soma dos 3 primeiros números pares (2, 4 e 6)?",
+        "question": "Qual é a soma dos 3 primeiros números pares (2, 4 e 6)?",
+        "opcoes": [
+          "12",
+          "10",
+          "14"
+        ],
+        "options": [
+          "12",
+          "10",
+          "14"
+        ],
+        "resposta": "12",
+        "correctAnswer": "12",
+        "explicacao": "2 + 4 + 6 = 12!",
+        "explanation": "2 + 4 + 6 = 12!"
+      },
+      {
+        "id": "mat_2_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A metade de 100 é 50.",
+        "question": "A metade de 100 é 50.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 50 + 50 = 100.",
+        "explanation": "Verdadeiro! 50 + 50 = 100."
+      },
+      {
+        "id": "mat_2_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os passos para resolver um problema com sucesso:",
+        "question": "Ordena os passos para resolver um problema com sucesso:",
+        "opcoes": [
+          "Compreender os dados",
+          "Fazer as contas",
+          "Verificar e redigir a resposta"
+        ],
+        "options": [
+          "Compreender os dados",
+          "Fazer as contas",
+          "Verificar e redigir a resposta"
+        ],
+        "resposta": "Compreender os dados-Fazer as contas-Verificar e redigir a resposta",
+        "correctAnswer": "Compreender os dados-Fazer as contas-Verificar e redigir a resposta",
+        "explicacao": "Lemos com atenção, calculamos com rigor e escrevemos a resposta!",
+        "explanation": "Lemos com atenção, calculamos com rigor e escrevemos a resposta!",
+        "correctAnswers": [
+          "Compreender os dados",
+          "Fazer as contas",
+          "Verificar e redigir a resposta"
+        ],
+        "respostasCorretas": [
+          "Compreender os dados",
+          "Fazer as contas",
+          "Verificar e redigir a resposta"
+        ]
+      },
+      {
+        "id": "mat_2_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio das contas rápidas:",
+        "question": "Desafio das contas rápidas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Mestre da Matemática do 2.º Ano! Conquistaste o troféu!",
+        "explanation": "Parabéns, Mestre da Matemática do 2.º Ano! Conquistaste o troféu!",
+        "pairs": {
+          "5 x 10": "50",
+          "45 + 55": "100",
+          "80 - 15": "65",
+          "3 x 8": "24"
+        },
+        "pares": {
+          "5 x 10": "50",
+          "45 + 55": "100",
+          "80 - 15": "65",
+          "3 x 8": "24"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "mat_2_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O Zé tinha 40 berlindes. Ganhou 15 no jogo e deu 5 ao irmão. Com quantos berlindes ficou?",
+        "question": "O Zé tinha 40 berlindes. Ganhou 15 no jogo e deu 5 ao irmão. Com quantos berlindes ficou?",
+        "opcoes": [
+          "50 berlindes",
+          "45 berlindes",
+          "55 berlindes"
+        ],
+        "options": [
+          "50 berlindes",
+          "45 berlindes",
+          "55 berlindes"
+        ],
+        "resposta": "50 berlindes",
+        "correctAnswer": "50 berlindes",
+        "explicacao": "40 + 15 = 55; depois 55 - 5 = 50 berlindes!",
+        "explanation": "40 + 15 = 55; depois 55 - 5 = 50 berlindes!"
+      },
+      {
+        "id": "mat_2_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Se 1 caderno custa 2€, com 20€ podes comprar exatamente 10 cadernos.",
+        "question": "Se 1 caderno custa 2€, com 20€ podes comprar exatamente 10 cadernos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 10 x 2€ = 20€.",
+        "explanation": "Verdadeiro! 10 x 2€ = 20€."
+      },
+      {
+        "id": "mat_2_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Descobre o número misterioso: Tem 7 dezenas e o dobro de 3 unidades. É o ___",
+        "question": "Descobre o número misterioso: Tem 7 dezenas e o dobro de 3 unidades. É o ___",
+        "opcoes": [
+          "76",
+          "73",
+          "67"
+        ],
+        "options": [
+          "76",
+          "73",
+          "67"
+        ],
+        "resposta": "76",
+        "correctAnswer": "76",
+        "explicacao": "7 dezenas = 70. Dobro de 3 = 6. 70 + 6 = 76!",
+        "explanation": "7 dezenas = 70. Dobro de 3 = 6. 70 + 6 = 76!"
+      },
+      {
+        "id": "mat_2_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Se num autocarro vão 25 pessoas e saem 10 na paragem, quantas continuam viagem?",
+        "question": "Se num autocarro vão 25 pessoas e saem 10 na paragem, quantas continuam viagem?",
+        "opcoes": [
+          "🚌 15 pessoas",
+          "🚌 20 pessoas",
+          "🚌 35 pessoas"
+        ],
+        "options": [
+          "🚌 15 pessoas",
+          "🚌 20 pessoas",
+          "🚌 35 pessoas"
+        ],
+        "resposta": "🚌 15 pessoas",
+        "correctAnswer": "🚌 15 pessoas",
+        "explicacao": "25 - 10 = 15 pessoas a bordo! 🚌",
+        "explanation": "25 - 10 = 15 pessoas a bordo! 🚌"
+      },
+      {
+        "id": "mat_2_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a soma dos 3 primeiros números pares (2, 4 e 6)?",
+        "question": "Qual é a soma dos 3 primeiros números pares (2, 4 e 6)?",
+        "opcoes": [
+          "12",
+          "10",
+          "14"
+        ],
+        "options": [
+          "12",
+          "10",
+          "14"
+        ],
+        "resposta": "12",
+        "correctAnswer": "12",
+        "explicacao": "2 + 4 + 6 = 12!",
+        "explanation": "2 + 4 + 6 = 12!"
+      },
+      {
+        "id": "mat_2_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A metade de 100 é 50.",
+        "question": "A metade de 100 é 50.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! 50 + 50 = 100.",
+        "explanation": "Verdadeiro! 50 + 50 = 100."
+      },
+      {
+        "id": "mat_2_f12_e7",
+        "tipo": "ORDERING",
+        "type": "ORDERING",
+        "pergunta": "Ordena os passos para resolver um problema com sucesso:",
+        "question": "Ordena os passos para resolver um problema com sucesso:",
+        "opcoes": [
+          "Compreender os dados",
+          "Fazer as contas",
+          "Verificar e redigir a resposta"
+        ],
+        "options": [
+          "Compreender os dados",
+          "Fazer as contas",
+          "Verificar e redigir a resposta"
+        ],
+        "resposta": "Compreender os dados-Fazer as contas-Verificar e redigir a resposta",
+        "correctAnswer": "Compreender os dados-Fazer as contas-Verificar e redigir a resposta",
+        "explicacao": "Lemos com atenção, calculamos com rigor e escrevemos a resposta!",
+        "explanation": "Lemos com atenção, calculamos com rigor e escrevemos a resposta!",
+        "correctAnswers": [
+          "Compreender os dados",
+          "Fazer as contas",
+          "Verificar e redigir a resposta"
+        ],
+        "respostasCorretas": [
+          "Compreender os dados",
+          "Fazer as contas",
+          "Verificar e redigir a resposta"
+        ]
+      },
+      {
+        "id": "mat_2_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Desafio das contas rápidas:",
+        "question": "Desafio das contas rápidas:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Mestre da Matemática do 2.º Ano! Conquistaste o troféu!",
+        "explanation": "Parabéns, Mestre da Matemática do 2.º Ano! Conquistaste o troféu!",
+        "pairs": {
+          "5 x 10": "50",
+          "45 + 55": "100",
+          "80 - 15": "65",
+          "3 x 8": "24"
+        },
+        "pares": {
+          "5 x 10": "50",
+          "45 + 55": "100",
+          "80 - 15": "65",
+          "3 x 8": "24"
+        }
+      }
+    ]
+  }
+]

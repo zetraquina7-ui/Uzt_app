@@ -1,0 +1,1103 @@
+package com.example.ui.screens
+
+import android.content.Context
+import android.util.Log
+import android.widget.Toast
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.RepeatMode
+import androidx.compose.animation.core.animateFloat
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.scaleIn
+import androidx.compose.animation.scaleOut
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material.icons.filled.Link
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material.icons.filled.ScreenRotation
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.platform.LocalContext
+import kotlinx.coroutines.delay
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import android.content.res.Configuration
+import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.ui.layout.ContentScale
+import com.example.ui.components.SafeAsyncImage
+import com.example.BuildConfig
+import com.example.api.YouTubeRepository
+import com.example.data.VideoCacheManager
+import com.example.ui.components.FundoApp
+import com.example.ui.components.GrelhaVideosComponent
+import com.example.ui.components.GrelhaVideosHorizontalCarousel
+import com.example.ui.components.ScreenHeader
+import com.example.ui.components.ShortsGrid
+import com.example.ui.components.VideoPlayer
+import com.example.ui.components.parseYouTubePlaylistId
+import com.example.ui.components.parseYouTubeVideoId
+import com.example.util.CustomVideoStorageHelper
+import com.example.viewmodel.MainViewModel
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.withContext
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.foundation.gestures.awaitEachGesture
+import androidx.compose.foundation.gestures.awaitFirstDown
+import androidx.compose.foundation.gestures.waitForUpOrCancellation
+import androidx.compose.ui.input.pointer.PointerEventPass
+
+const val YOUTUBE_API_KEY = "AIzaSyBP6gYBEy9W2p0FIVObmRKScBkIJRqgTUE"
+
+data class YouTubeVideoTrack(
+    val id: String,
+    val title: String,
+    val videoId: String? = null,
+    val thumbnailUrl: String? = null,
+    val duration: String = "Vídeo",
+    val emoji: String = "🎵",
+    val publishedDate: String = "",
+    val isShort: Boolean = false
+)
+
+data class YouTubeSubCategory(
+    val key: String,
+    val name: String,
+    val emoji: String,
+    val accentColor: Color,
+    val playlistId: String? = null,
+    val playlistList: List<Pair<String, String>> = emptyList(),
+    val isCustom: Boolean = false
+)
+
+enum class VideoMainSection(val title: String, val emoji: String, val gradient: List<Color>) {
+    ZE_TRAQUINA("Zé Traquina", "👦🏻", listOf(Color(0xFFEA580C), Color(0xFFF59E0B))),
+    CANTINHO_PT("Cantinho PT", "🇵🇹", listOf(Color(0xFF0284C7), Color(0xFF10B981)))
+}
+
+fun getFallbackPlaylistTracks(playlistId: String): List<YouTubeVideoTrack> {
+    return when (playlistId) {
+        "PLHz1Xt0IaQWM", "ze_musicas" -> listOf(
+            YouTubeVideoTrack("wOnvZxQ-Iio", "Sou de Viana", "wOnvZxQ-Iio", "https://i3.ytimg.com/vi/wOnvZxQ-Iio/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("jYYvwC3L2kI", "Férias de verão", "jYYvwC3L2kI", "https://i3.ytimg.com/vi/jYYvwC3L2kI/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("fe4HmhQRCUg", "Um mundo melhor #zetraquina", "fe4HmhQRCUg", "https://i3.ytimg.com/vi/fe4HmhQRCUg/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("FunPMvy6He8", "Os melhores avós do mundo", "FunPMvy6He8", "https://i3.ytimg.com/vi/FunPMvy6He8/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("Cdys2zuYpVs", "É NATAL! - Zé Traquina", "Cdys2zuYpVs", "https://i3.ytimg.com/vi/Cdys2zuYpVs/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("GXDSVN0nfJo", "Marcha dos Santos populares", "GXDSVN0nfJo", "https://i3.ytimg.com/vi/GXDSVN0nfJo/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("JT5dhPkaXLI", "É Halloween, que divertido! 🇵🇹", "JT5dhPkaXLI", "https://i3.ytimg.com/vi/JT5dhPkaXLI/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("Ce6QVBTkSUI", "Juntos somos o mundo", "Ce6QVBTkSUI", "https://i3.ytimg.com/vi/Ce6QVBTkSUI/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("VbUX6EODgc0", "Um coração para ti - Dia da mãe", "VbUX6EODgc0", "https://i3.ytimg.com/vi/VbUX6EODgc0/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("npjny0rOVok", "A luz de Jesus venceu", "npjny0rOVok", "https://i3.ytimg.com/vi/npjny0rOVok/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("Xkbtbam05_w", "Dia da criança - Magia no ar", "Xkbtbam05_w", "https://i3.ytimg.com/vi/Xkbtbam05_w/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("b0Z-Q_a9k0Y", "Dia da Mãe - Minha Mãe é a Minha Rainha", "b0Z-Q_a9k0Y", "https://i3.ytimg.com/vi/b0Z-Q_a9k0Y/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("3h-3Yk_iXn0", "Páscoa Feliz", "3h-3Yk_iXn0", "https://i3.ytimg.com/vi/3h-3Yk_iXn0/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("B4W_l3G_w3E", "É Primavera - viva a Primavera 🌸🌻🦋🌺🌾🪻💐", "B4W_l3G_w3E", "https://i3.ytimg.com/vi/B4W_l3G_w3E/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("d6J_N2d9B-4", "O coelhinho da Páscoa", "d6J_N2d9B-4", "https://i3.ytimg.com/vi/d6J_N2d9B-4/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("p3Z7c7aNf_A", "O meu Pai é o meu Herói! - Dia do Pai", "p3Z7c7aNf_A", "https://i3.ytimg.com/vi/p3Z7c7aNf_A/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("zP8Sg3M1bT0", "Sou Traquina", "zP8Sg3M1bT0", "https://i3.ytimg.com/vi/zP8Sg3M1bT0/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("r4A-B8kP7Wk", "É Carnaval", "r4A-B8kP7Wk", "https://i3.ytimg.com/vi/r4A-B8kP7Wk/hqdefault.jpg", "Música", "🎵"),
+            YouTubeVideoTrack("V8_3wZ8C0V4", "Vem Brincar Comigo", "V8_3wZ8C0V4", "https://i3.ytimg.com/vi/V8_3wZ8C0V4/hqdefault.jpg", "Música", "🎵")
+        )
+        "PLT7ZV5QsDKA4", "ze_educativo" -> listOf(
+            YouTubeVideoTrack("7gG8lQ_vA-Y", "Aprende as Cores com o Zé Traquina", "7gG8lQ_vA-Y", "https://i3.ytimg.com/vi/7gG8lQ_vA-Y/hqdefault.jpg", "Educativo", "📖"),
+            YouTubeVideoTrack("yX3vX1b6x-k", "Os Números de 1 a 10", "yX3vX1b6x-k", "https://i3.ytimg.com/vi/yX3vX1b6x-k/hqdefault.jpg", "Educativo", "📖"),
+            YouTubeVideoTrack("9A_r8K-w3q4", "O Alfabeto Divertido em Português", "9A_r8K-w3q4", "https://i3.ytimg.com/vi/9A_r8K-w3q4/hqdefault.jpg", "Educativo", "📖"),
+            YouTubeVideoTrack("kL2jP8o0X-w", "Os Animais da Quinta", "kL2jP8o0X-w", "https://i3.ytimg.com/vi/kL2jP8o0X-w/hqdefault.jpg", "Educativo", "📖")
+        )
+        "PLHXyMYX6Yxxc", "ze_historias" -> listOf(
+            YouTubeVideoTrack("V8_3wZ8C0V4", "O Lobo Traquina e os Três Porquinhos", "V8_3wZ8C0V4", "https://i3.ytimg.com/vi/V8_3wZ8C0V4/hqdefault.jpg", "História", "📚"),
+            YouTubeVideoTrack("zP8Sg3M1bT0", "A Lebre e a Tartaruga no Bosque", "zP8Sg3M1bT0", "https://i3.ytimg.com/vi/zP8Sg3M1bT0/hqdefault.jpg", "História", "📚"),
+            YouTubeVideoTrack("r4A-B8kP7Wk", "A Gotinha de Água Aventureira", "r4A-B8kP7Wk", "https://i3.ytimg.com/vi/r4A-B8kP7Wk/hqdefault.jpg", "História", "📚")
+        )
+        "ze_shorts", "ze_shorts_auto" -> listOf(
+            YouTubeVideoTrack("fe4HmhQRCUg", "Um mundo melhor #zetraquina", "fe4HmhQRCUg", "https://i3.ytimg.com/vi/fe4HmhQRCUg/hqdefault.jpg", "Short", "⚡", isShort = true),
+            YouTubeVideoTrack("wOnvZxQ-Iio", "Sou de Viana #zetraquina", "wOnvZxQ-Iio", "https://i3.ytimg.com/vi/wOnvZxQ-Iio/hqdefault.jpg", "Short", "⚡", isShort = true),
+            YouTubeVideoTrack("jYYvwC3L2kI", "Férias de verão #zetraquina", "jYYvwC3L2kI", "https://i3.ytimg.com/vi/jYYvwC3L2kI/hqdefault.jpg", "Short", "⚡", isShort = true)
+        )
+        "pt_panda_amigos", "PLWQVAYRzFnXMmKTjW1L_ofLE22ctWytot", "PL6Nz8kJ8yTb9mgVi1XdLNBEaSjkQoQkMW", "PLUNTULW6QqtVXhrW6HRAHzkFGELfIZ-cy" -> listOf(
+            YouTubeVideoTrack("wOnvZxQ-Iio", "Panda e os Caricas - Sou de Viana", "wOnvZxQ-Iio", "https://i3.ytimg.com/vi/wOnvZxQ-Iio/hqdefault.jpg", "Panda & Amigos", "🐼"),
+            YouTubeVideoTrack("jYYvwC3L2kI", "Panda e os Caricas - Férias de Verão", "jYYvwC3L2kI", "https://i3.ytimg.com/vi/jYYvwC3L2kI/hqdefault.jpg", "Panda & Amigos", "🐼"),
+            YouTubeVideoTrack("Cdys2zuYpVs", "Xana Toc Toc - A Mala Cor de Rosa", "Cdys2zuYpVs", "https://i3.ytimg.com/vi/Cdys2zuYpVs/hqdefault.jpg", "Xana Toc Toc", "🌸"),
+            YouTubeVideoTrack("Ce6QVBTkSUI", "Panda e os Caricas - Dançar com o Panda", "Ce6QVBTkSUI", "https://i3.ytimg.com/vi/Ce6QVBTkSUI/hqdefault.jpg", "Panda & Amigos", "🐼"),
+            YouTubeVideoTrack("V8_3wZ8C0V4", "Panda e os Caricas - A Dança do Panda", "V8_3wZ8C0V4", "https://i3.ytimg.com/vi/V8_3wZ8C0V4/hqdefault.jpg", "Panda & Amigos", "🐼")
+        )
+        "pt_musicas_trad", "PL6Nz8kJ8yTb_2O_sVP5cLGq-5LmvblTIb", "PLXpqaMB-MlNsha4jilmX1Lrh6FPkGTLJu" -> listOf(
+            YouTubeVideoTrack("GXDSVN0nfJo", "Marcha dos Santos Populares", "GXDSVN0nfJo", "https://i3.ytimg.com/vi/GXDSVN0nfJo/hqdefault.jpg", "Cantigas", "🎶"),
+            YouTubeVideoTrack("npjny0rOVok", "O Meu Chapéu Tem Três Bicos", "npjny0rOVok", "https://i3.ytimg.com/vi/npjny0rOVok/hqdefault.jpg", "Cantigas", "🎶"),
+            YouTubeVideoTrack("VbUX6EODgc0", "Papagaio Loiro da Asa Amarela", "VbUX6EODgc0", "https://i3.ytimg.com/vi/VbUX6EODgc0/hqdefault.jpg", "Cantigas", "🎶"),
+            YouTubeVideoTrack("Xkbtbam05_w", "A Machadinha do Zé", "Xkbtbam05_w", "https://i3.ytimg.com/vi/Xkbtbam05_w/hqdefault.jpg", "Cantigas", "🎶"),
+            YouTubeVideoTrack("b0Z-Q_a9k0Y", "Alecrim Dourado que Nasce no Monte", "b0Z-Q_a9k0Y", "https://i3.ytimg.com/vi/b0Z-Q_a9k0Y/hqdefault.jpg", "Cantigas", "🎶"),
+            YouTubeVideoTrack("3h-3Yk_iXn0", "Ó Rosa Arredonda a Saia", "3h-3Yk_iXn0", "https://i3.ytimg.com/vi/3h-3Yk_iXn0/hqdefault.jpg", "Cantigas", "🎶")
+        )
+        "pt_amigos", "PLAXFI56mD-HQ" -> listOf(
+            YouTubeVideoTrack("Ce6QVBTkSUI", "Juntos Somos o Mundo - Canção da Amizade", "Ce6QVBTkSUI", "https://i3.ytimg.com/vi/Ce6QVBTkSUI/hqdefault.jpg", "Amigos", "🤝"),
+            YouTubeVideoTrack("FunPMvy6He8", "Os Melhores Avós do Mundo", "FunPMvy6He8", "https://i3.ytimg.com/vi/FunPMvy6He8/hqdefault.jpg", "Amigos", "🤝"),
+            YouTubeVideoTrack("VbUX6EODgc0", "Um Coração Para Ti - Dia da Mãe", "VbUX6EODgc0", "https://i3.ytimg.com/vi/VbUX6EODgc0/hqdefault.jpg", "Amigos", "🤝"),
+            YouTubeVideoTrack("p3Z7c7aNf_A", "O Meu Pai é o Meu Herói!", "p3Z7c7aNf_A", "https://i3.ytimg.com/vi/p3Z7c7aNf_A/hqdefault.jpg", "Amigos", "🤝"),
+            YouTubeVideoTrack("Xkbtbam05_w", "Dia da Criança - Magia no Ar", "Xkbtbam05_w", "https://i3.ytimg.com/vi/Xkbtbam05_w/hqdefault.jpg", "Amigos", "🤝")
+        )
+        "pt_diversao_danca", "PLE0G9h6NddcDzleKVxnMjrWPBcCNWiUAt", "PL7fbHLFM41KeS4tWdu3h_2FjUNC-CfUXk" -> listOf(
+            YouTubeVideoTrack("r4A-B8kP7Wk", "É Carnaval no Cantinho PT", "r4A-B8kP7Wk", "https://i3.ytimg.com/vi/r4A-B8kP7Wk/hqdefault.jpg", "Diversão", "✨"),
+            YouTubeVideoTrack("V8_3wZ8C0V4", "Vem Brincar e Dançar Comigo", "V8_3wZ8C0V4", "https://i3.ytimg.com/vi/V8_3wZ8C0V4/hqdefault.jpg", "Diversão", "✨"),
+            YouTubeVideoTrack("zP8Sg3M1bT0", "Sou Traquina e Adoro Dançar", "zP8Sg3M1bT0", "https://i3.ytimg.com/vi/zP8Sg3M1bT0/hqdefault.jpg", "Diversão", "✨"),
+            YouTubeVideoTrack("B4W_l3G_w3E", "É Primavera - Viva a Primavera!", "B4W_l3G_w3E", "https://i3.ytimg.com/vi/B4W_l3G_w3E/hqdefault.jpg", "Diversão", "✨"),
+            YouTubeVideoTrack("d6J_N2d9B-4", "O Coelhinho Saltitão", "d6J_N2d9B-4", "https://i3.ytimg.com/vi/d6J_N2d9B-4/hqdefault.jpg", "Diversão", "✨")
+        )
+        else -> listOf(
+            YouTubeVideoTrack("wOnvZxQ-Iio", "Sou de Viana", "wOnvZxQ-Iio", "https://i3.ytimg.com/vi/wOnvZxQ-Iio/hqdefault.jpg", "Vídeo", "🎵"),
+            YouTubeVideoTrack("jYYvwC3L2kI", "Férias de verão", "jYYvwC3L2kI", "https://i3.ytimg.com/vi/jYYvwC3L2kI/hqdefault.jpg", "Vídeo", "🎵"),
+            YouTubeVideoTrack("fe4HmhQRCUg", "Um mundo melhor #zetraquina", "fe4HmhQRCUg", "https://i3.ytimg.com/vi/fe4HmhQRCUg/hqdefault.jpg", "Vídeo", "🎵")
+        )
+    }
+}
+
+private var hasShownRotationHintInSession = false
+
+suspend fun fetchYouTubePlaylistItems(
+    playlistId: String,
+    apiKey: String,
+    categoryName: String = "Vídeo"
+): List<YouTubeVideoTrack> = withContext(Dispatchers.IO) {
+    val resultList = mutableListOf<YouTubeVideoTrack>()
+    try {
+        val repo = YouTubeRepository(apiKey)
+        val fetchedVideos = repo.fetchPlaylistVideos(playlistId, maxResults = 30)
+        if (fetchedVideos.isNotEmpty()) {
+            resultList.addAll(fetchedVideos)
+        }
+    } catch (e: Exception) {
+        Log.e("VideosScreen", "Error fetching YouTube playlist: $playlistId", e)
+    }
+
+    if (resultList.isEmpty()) {
+        resultList.addAll(getFallbackPlaylistTracks(playlistId))
+    }
+    resultList
+}
+
+@Composable
+fun VideosScreen(
+    mainViewModel: MainViewModel,
+    modifier: Modifier = Modifier
+) {
+    val context = LocalContext.current
+    val activity = context as? android.app.Activity
+
+    DisposableEffect(Unit) {
+        activity?.requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_SENSOR
+        
+        onDispose {
+            activity?.requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
+        }
+    }
+
+    // Dialog for adding YouTube URLs
+        var showAddVideoDialog by remember { mutableStateOf(false) }
+        var inputVideoUrl by remember { mutableStateOf("") }
+        var inputVideoTitle by remember { mutableStateOf("") }
+
+        var selectedSection by remember { mutableStateOf(VideoMainSection.ZE_TRAQUINA) }
+
+        val zeTraquinaSubCategories = remember {
+            listOf(
+                YouTubeSubCategory("ze_musicas", "Músicas", "🎵", Color(0xFFE91E63), playlistId = "PLHz1Xt0IaQWM"),
+                YouTubeSubCategory("ze_educativo", "Educativo", "📖", Color(0xFF10B981), playlistId = "PLT7ZV5QsDKA4"),
+                YouTubeSubCategory("ze_historias", "Histórias", "📚", Color(0xFF7C3AED)),
+                YouTubeSubCategory("ze_shorts", "Shorts ⚡", "⚡", Color(0xFFEC4899), playlistId = "ze_shorts_auto")
+            )
+        }
+
+        val cantinhoPtSubCategories = remember {
+            listOf(
+                YouTubeSubCategory(
+                    key = "pt_panda_amigos",
+                    name = "Panda & Amigos",
+                    emoji = "🐼",
+                    accentColor = Color(0xFFF97316),
+                    playlistList = listOf(
+                        "PLWQVAYRzFnXMmKTjW1L_ofLE22ctWytot" to "Panda e os Caricas",
+                        "PL6Nz8kJ8yTb9mgVi1XdLNBEaSjkQoQkMW" to "Xana Toc Toc",
+                        "PLUNTULW6QqtVXhrW6HRAHzkFGELfIZ-cy" to "Cantinho PT 1"
+                    )
+                ),
+                YouTubeSubCategory(
+                    key = "pt_musicas_trad",
+                    name = "Cantigas",
+                    emoji = "🎶",
+                    accentColor = Color(0xFF8B5CF6),
+                    playlistList = listOf(
+                        "PL6Nz8kJ8yTb_2O_sVP5cLGq-5LmvblTIb" to "Rádio Recreio",
+                        "PLXpqaMB-MlNsha4jilmX1Lrh6FPkGTLJu" to "Avô Cantigas"
+                    )
+                ),
+                YouTubeSubCategory(
+                    key = "pt_amigos",
+                    name = "Amigos",
+                    emoji = "🤝",
+                    accentColor = Color(0xFF10B981),
+                    playlistList = listOf(
+                        "PLAXFI56mD-HQ" to "Amigos"
+                    )
+                ),
+                YouTubeSubCategory(
+                    key = "pt_diversao_danca",
+                    name = "Diversão",
+                    emoji = "✨",
+                    accentColor = Color(0xFF06B6D4),
+                    playlistList = listOf(
+                        "PLE0G9h6NddcDzleKVxnMjrWPBcCNWiUAt" to "Zig Zag",
+                        "PL7fbHLFM41KeS4tWdu3h_2FjUNC-CfUXk" to "VKids"
+                    )
+                )
+            )
+        }
+
+        var selectedZeSub by remember { mutableStateOf(zeTraquinaSubCategories[0]) }
+        var selectedPtSub by remember { mutableStateOf(cantinhoPtSubCategories[0]) }
+
+        val activeSubCategory = if (selectedSection == VideoMainSection.ZE_TRAQUINA) selectedZeSub else selectedPtSub
+        val activeKey = activeSubCategory.key
+
+        var selectedVideoId by remember { mutableStateOf<String?>(null) }
+        var refreshTrigger by remember { mutableIntStateOf(0) }
+
+        var categoryTracksMap by remember {
+            mutableStateOf<Map<String, List<YouTubeVideoTrack>>>(
+                (zeTraquinaSubCategories.map { it.key } + cantinhoPtSubCategories.map { it.key })
+                    .associateWith { key ->
+                        if (key == "ze_meus_videos") {
+                            CustomVideoStorageHelper.loadCustomVideos(context)
+                        } else {
+                            VideoCacheManager.getInstantCachedTracks(context, key)
+                        }
+                    }
+            )
+        }
+        var isLoadingTracks by remember { mutableStateOf(false) }
+        var apiErrorMessage by remember { mutableStateOf<String?>(null) }
+
+        LaunchedEffect(selectedSection, activeSubCategory, refreshTrigger) {
+            if (activeSubCategory.isCustom || activeKey == "ze_meus_videos") {
+                val customVideos = CustomVideoStorageHelper.loadCustomVideos(context)
+                categoryTracksMap = categoryTracksMap + (activeKey to customVideos)
+                isLoadingTracks = false
+                return@LaunchedEffect
+            }
+
+            val existing = categoryTracksMap[activeKey] ?: emptyList()
+            val roomList = VideoCacheManager.loadFromRoomDatabase(context, activeKey)
+            val hasRealCache = roomList.isNotEmpty()
+            if (hasRealCache) {
+                categoryTracksMap = categoryTracksMap + (activeKey to roomList)
+            }
+
+            val isExpired = VideoCacheManager.isCacheExpired(context, activeKey)
+            val isForcedRefresh = refreshTrigger > 0
+
+            if (hasRealCache && !isExpired && !isForcedRefresh) {
+                isLoadingTracks = false
+                return@LaunchedEffect
+            }
+
+            if (!hasRealCache) {
+                isLoadingTracks = true
+            }
+
+            try {
+                var errorReport: String? = null
+                val freshTracks = withContext(Dispatchers.IO) {
+                    val apiKey = try {
+                        val key = BuildConfig.YOUTUBE_API_KEY
+                        if (key.isNotBlank() && key != "DEFAULT_KEY") key else YOUTUBE_API_KEY
+                    } catch (e: Throwable) { YOUTUBE_API_KEY }
+
+                    when {
+                        activeKey == "ze_shorts" -> {
+                            val repo = YouTubeRepository(apiKey)
+                            val result = repo.fetchChannelShortsAndVideos("zetraquina", maxResults = 40)
+                            errorReport = result.errorMessage
+                            if (result.videos.isNotEmpty()) result.videos else getFallbackPlaylistTracks("ze_shorts")
+                        }
+                        selectedSection == VideoMainSection.ZE_TRAQUINA && activeSubCategory.playlistId != null -> {
+                            val fetched = fetchYouTubePlaylistItems(activeSubCategory.playlistId, apiKey, activeSubCategory.name)
+                            if (fetched.isNotEmpty()) fetched else getFallbackPlaylistTracks(activeSubCategory.playlistId)
+                        }
+                        else -> {
+                            coroutineScope {
+                                val playlistDeferreds = activeSubCategory.playlistList.map { (pid, name) ->
+                                    async(Dispatchers.IO) {
+                                        try {
+                                            fetchYouTubePlaylistItems(pid, apiKey, name)
+                                        } catch (e: Exception) {
+                                            emptyList()
+                                        }
+                                    }
+                                }
+                                val combined = mutableListOf<YouTubeVideoTrack>()
+                                playlistDeferreds.awaitAll().forEach { list ->
+                                    for (item in list) {
+                                        if (!item.videoId.isNullOrBlank() && combined.none { it.videoId == item.videoId }) {
+                                            combined.add(item)
+                                        }
+                                    }
+                                }
+                                if (combined.isNotEmpty()) combined.distinctBy { it.videoId } else getFallbackPlaylistTracks(activeKey)
+                            }
+                        }
+                    }
+                }
+
+                apiErrorMessage = errorReport
+                if (freshTracks.isNotEmpty()) {
+                    categoryTracksMap = categoryTracksMap + (activeKey to freshTracks)
+                    VideoCacheManager.saveTracksToCache(context, activeKey, freshTracks)
+                } else {
+                    val fallback = getFallbackPlaylistTracks(activeKey)
+                    categoryTracksMap = categoryTracksMap + (activeKey to fallback)
+                }
+            } catch (e: Exception) {
+                Log.e("VideosScreen", "Error loading tracks for $activeKey", e)
+            } finally {
+                isLoadingTracks = false
+            }
+        }
+
+        val activeTracks = categoryTracksMap[activeKey] ?: emptyList()
+        val activeVideoId = selectedVideoId ?: activeTracks.firstOrNull()?.videoId
+
+        // --- DIALOG: ADICIONAR VÍDEO YOUTUBE ---
+        if (showAddVideoDialog) {
+            val detectedId = remember(inputVideoUrl) { parseYouTubeVideoId(inputVideoUrl) }
+            val detectedPlaylistId = remember(inputVideoUrl) { parseYouTubePlaylistId(inputVideoUrl) }
+            val isValid = detectedId != null || detectedPlaylistId != null
+
+            AlertDialog(
+                onDismissRequest = { showAddVideoDialog = false },
+                title = {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text("🔗 Adicionar Vídeo YouTube", fontWeight = FontWeight.Bold, fontSize = 17.sp)
+                    }
+                },
+                text = {
+                    Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                        Text(
+                            text = "Cola qualquer link do YouTube (Vídeo, Short, Playlist ou ID de 11 caracteres) para tocar na app:",
+                            fontSize = 12.sp,
+                            color = Color(0xFF475569)
+                        )
+
+                        OutlinedTextField(
+                            value = inputVideoUrl,
+                            onValueChange = { inputVideoUrl = it },
+                            label = { Text("URL ou ID do YouTube") },
+                            placeholder = { Text("Ex: https://youtu.be/wOnvZxQ-Iio") },
+                            singleLine = true,
+                            trailingIcon = {
+                                if (inputVideoUrl.isNotEmpty()) {
+                                    IconButton(onClick = { inputVideoUrl = "" }) {
+                                        Icon(Icons.Default.Clear, contentDescription = "Limpar")
+                                    }
+                                }
+                            },
+                            modifier = Modifier.fillMaxWidth()
+                        )
+
+                        OutlinedTextField(
+                            value = inputVideoTitle,
+                            onValueChange = { inputVideoTitle = it },
+                            label = { Text("Título do Vídeo (Opcional)") },
+                            placeholder = { Text("Ex: Minha Música Favorita") },
+                            singleLine = true,
+                            modifier = Modifier.fillMaxWidth()
+                        )
+
+                        // Status da Deteção
+                        if (inputVideoUrl.isNotBlank()) {
+                            if (detectedId != null) {
+                                Surface(
+                                    shape = RoundedCornerShape(8.dp),
+                                    color = Color(0xFFDCFCE7),
+                                    border = BorderStroke(1.dp, Color(0xFF22C55E))
+                                ) {
+                                    Row(
+                                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
+                                        verticalAlignment = Alignment.CenterVertically
+                                    ) {
+                                        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = Color(0xFF16A34A), modifier = Modifier.size(16.dp))
+                                        Spacer(modifier = Modifier.width(6.dp))
+                                        Text("Vídeo reconhecido: ID $detectedId", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFF15803D))
+                                    }
+                                }
+                            } else if (detectedPlaylistId != null) {
+                                Surface(
+                                    shape = RoundedCornerShape(8.dp),
+                                    color = Color(0xFFDCFCE7),
+                                    border = BorderStroke(1.dp, Color(0xFF22C55E))
+                                ) {
+                                    Row(
+                                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp),
+                                        verticalAlignment = Alignment.CenterVertically
+                                    ) {
+                                        Icon(Icons.Default.CheckCircle, contentDescription = null, tint = Color(0xFF16A34A), modifier = Modifier.size(16.dp))
+                                        Spacer(modifier = Modifier.width(6.dp))
+                                        Text("Playlist reconhecida: ID $detectedPlaylistId", fontSize = 11.sp, fontWeight = FontWeight.Bold, color = Color(0xFF15803D))
+                                    }
+                                }
+                            } else {
+                                Surface(
+                                    shape = RoundedCornerShape(8.dp),
+                                    color = Color(0xFFFEF3C7),
+                                    border = BorderStroke(1.dp, Color(0xFFF59E0B))
+                                ) {
+                                    Text(
+                                        text = "⚠️ Introduz um link válido do YouTube",
+                                        fontSize = 11.sp,
+                                        fontWeight = FontWeight.Bold,
+                                        color = Color(0xFFB45309),
+                                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp)
+                                    )
+                                }
+                            }
+                        }
+                    }
+                },
+                confirmButton = {
+                    Button(
+                        onClick = {
+                            val vid = detectedId ?: detectedPlaylistId
+                            if (vid != null) {
+                                val isShort = inputVideoUrl.contains("/shorts/")
+                                val savedTrack = CustomVideoStorageHelper.saveCustomVideo(
+                                    context = context,
+                                    videoId = vid,
+                                    title = inputVideoTitle.ifBlank { "Vídeo YouTube ($vid)" },
+                                    isShort = isShort
+                                )
+
+                                val updatedCustomList = CustomVideoStorageHelper.loadCustomVideos(context)
+                                categoryTracksMap = categoryTracksMap + ("ze_meus_videos" to updatedCustomList)
+
+                                // Select custom tab and play newly added video
+                                selectedSection = VideoMainSection.ZE_TRAQUINA
+                                selectedZeSub = zeTraquinaSubCategories.first { it.key == "ze_meus_videos" }
+                                selectedVideoId = savedTrack.videoId
+
+                                Toast.makeText(context, "Vídeo adicionado e a reproduzir! 🎬", Toast.LENGTH_SHORT).show()
+                                showAddVideoDialog = false
+                                inputVideoUrl = ""
+                                inputVideoTitle = ""
+                            }
+                        },
+                        enabled = isValid,
+                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFEA580C))
+                    ) {
+                        Icon(Icons.Default.PlayArrow, contentDescription = null, modifier = Modifier.size(18.dp))
+                        Spacer(modifier = Modifier.width(4.dp))
+                        Text("Guardar & Reproduzir")
+                    }
+                },
+                dismissButton = {
+                    TextButton(onClick = { showAddVideoDialog = false }) {
+                        Text("Cancelar")
+                    }
+                }
+            )
+        }
+
+        val configuration = LocalConfiguration.current
+        val isLandscape = configuration.orientation == Configuration.ORIENTATION_LANDSCAPE
+
+        var showRotationHint by remember { mutableStateOf(!hasShownRotationHintInSession && !isLandscape) }
+
+        LaunchedEffect(isLandscape) {
+            if (isLandscape) {
+                hasShownRotationHintInSession = true
+                showRotationHint = false
+            }
+        }
+
+        LaunchedEffect(showRotationHint) {
+            if (showRotationHint) {
+                delay(4500)
+                showRotationHint = false
+                hasShownRotationHintInSession = true
+            }
+        }
+
+        if (isLandscape) {
+            LandscapeImmersiveVideoPlayer(
+                selectedSection = selectedSection,
+                onSectionSelected = { newSection ->
+                    if (selectedSection != newSection) {
+                        selectedSection = newSection
+                        selectedVideoId = null
+                    }
+                },
+                currentSubCategories = if (selectedSection == VideoMainSection.ZE_TRAQUINA) zeTraquinaSubCategories else cantinhoPtSubCategories,
+                activeSubCategory = activeSubCategory,
+                onSubCategorySelected = { newSub ->
+                    if (selectedSection == VideoMainSection.ZE_TRAQUINA) {
+                        selectedZeSub = newSub
+                    } else {
+                        selectedPtSub = newSub
+                    }
+                    selectedVideoId = null
+                },
+                activeTracks = activeTracks,
+                activeVideoId = activeVideoId,
+                onVideoSelected = { track ->
+                    selectedVideoId = track.videoId ?: track.id
+                },
+                accentColor = activeSubCategory.accentColor
+            )
+        } else {
+            Box(modifier = Modifier.fillMaxSize()) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .background(Color.Transparent)
+                        .padding(start = 8.dp, end = 8.dp, top = 4.dp, bottom = 4.dp)
+                ) {
+                // --- Header ---
+                ScreenHeader(
+                    title = if (selectedSection == VideoMainSection.ZE_TRAQUINA) "Vídeos e Músicas" else "Videos e músicas",
+                    subtitle = if (selectedSection == VideoMainSection.ZE_TRAQUINA) "Canal Oficial @zetraquina" else "YouTube kids  🇵🇹",
+                    icon = "🎬",
+                    gradientColors = selectedSection.gradient,
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 2.dp),
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                VideoMainSection.values().forEach { section ->
+                    val isSelected = selectedSection == section
+                    Card(
+                        modifier = Modifier
+                            .weight(1f)
+                            .height(32.dp)
+                            .clickable {
+                                if (selectedSection != section) {
+                                    selectedSection = section
+                                    selectedVideoId = null
+                                }
+                            },
+                        shape = RoundedCornerShape(10.dp),
+                        colors = CardDefaults.cardColors(
+                            containerColor = if (isSelected) Color.Transparent else Color.White.copy(alpha = 0.85f)
+                        ),
+                        border = BorderStroke(
+                            width = if (isSelected) 1.5.dp else 0.5.dp,
+                            color = if (isSelected) section.gradient.first() else Color.LightGray.copy(alpha = 0.4f)
+                        ),
+                        elevation = CardDefaults.cardElevation(defaultElevation = if (isSelected) 3.dp else 1.dp)
+                    ) {
+                        Box(
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .then(
+                                    if (isSelected) Modifier.background(
+                                        Brush.horizontalGradient(section.gradient)
+                                    ) else Modifier
+                                ),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.Center
+                            ) {
+                                Text(
+                                    text = section.emoji,
+                                    fontSize = 13.sp,
+                                    modifier = Modifier.padding(end = 4.dp)
+                                )
+                                Text(
+                                    text = section.title,
+                                    fontSize = 10.5.sp,
+                                    fontWeight = if (isSelected) FontWeight.ExtraBold else FontWeight.Bold,
+                                    color = if (isSelected) Color.White else Color(0xFF334155)
+                                )
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 2.dp)
+                    .aspectRatio(16f / 10f)
+            ) {
+                VideoPlayer(
+                    youtubeId = activeVideoId,
+                    playlistId = if (selectedVideoId == null && selectedSection == VideoMainSection.ZE_TRAQUINA && activeSubCategory.playlistId != "ze_shorts_auto" && !activeSubCategory.isCustom) activeSubCategory.playlistId else null,
+                    modifier = Modifier.fillMaxSize()
+                )
+
+                // Visual Rotation Hint for children
+                RotateDeviceHintOverlay(
+                    visible = showRotationHint,
+                    onDismiss = {
+                        showRotationHint = false
+                        hasShownRotationHintInSession = true
+                    },
+                    modifier = Modifier
+                        .align(Alignment.BottomEnd)
+                        .padding(end = 8.dp, bottom = 8.dp)
+                )
+            }
+
+            // --- SUB-MENUS UNDER PLAYER ---
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 2.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                val currentSubCategories = if (selectedSection == VideoMainSection.ZE_TRAQUINA) {
+                    zeTraquinaSubCategories
+                } else {
+                    cantinhoPtSubCategories
+                }
+
+                LazyRow(
+                    modifier = Modifier.weight(1f),
+                    horizontalArrangement = Arrangement.spacedBy(4.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    items(currentSubCategories.size) { index ->
+                        val subCategory = currentSubCategories[index]
+                        val isSelected = activeSubCategory.key == subCategory.key
+
+                        FilterChip(
+                            selected = isSelected,
+                            onClick = {
+                                if (selectedSection == VideoMainSection.ZE_TRAQUINA) {
+                                    selectedZeSub = subCategory
+                                } else {
+                                    selectedPtSub = subCategory
+                                }
+                                selectedVideoId = null
+                            },
+                            label = {
+                                Text(
+                                    text = "${subCategory.emoji} ${subCategory.name}",
+                                    fontWeight = if (isSelected) FontWeight.Black else FontWeight.Bold,
+                                    fontSize = 9.sp,
+                                    letterSpacing = (-0.2).sp,
+                                    maxLines = 1
+                                )
+                            },
+                            colors = FilterChipDefaults.filterChipColors(
+                                selectedContainerColor = subCategory.accentColor,
+                                selectedLabelColor = Color.White,
+                                containerColor = Color.White.copy(alpha = 0.85f),
+                                labelColor = Color(0xFF475569)
+                            ),
+                            border = FilterChipDefaults.filterChipBorder(
+                                enabled = true,
+                                selected = isSelected,
+                                borderColor = Color.Transparent,
+                                selectedBorderColor = subCategory.accentColor,
+                                borderWidth = 0.dp,
+                                selectedBorderWidth = 0.dp
+                            ),
+                            shape = RoundedCornerShape(6.dp)
+                        )
+                    }
+                }
+
+                IconButton(
+                    onClick = { refreshTrigger++ },
+                    modifier = Modifier.size(28.dp)
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Refresh,
+                        contentDescription = "Atualizar Vídeos",
+                        tint = Color(0xFF475569),
+                        modifier = Modifier.size(18.dp)
+                    )
+                }
+            }
+
+            // --- VIDEO CONTENT GRID ---
+            if (activeKey == "ze_historias") {
+                Box(modifier = Modifier.fillMaxWidth().weight(1f)) {
+                    HistoriasScreen(
+                        viewModel = mainViewModel,
+                        showHeaderAndBackground = false,
+                        showEmbeddedPlayer = false,
+                        onHistoriaSelected = { historiaId ->
+                            selectedVideoId = historiaId
+                        }
+                    )
+                }
+            } else if (activeKey == "ze_shorts") {
+                ShortsGrid(
+                    shorts = activeTracks,
+                    selectedVideoId = activeVideoId,
+                    isLoading = isLoadingTracks,
+                    onShortSelected = { track ->
+                        selectedVideoId = track.videoId ?: track.id
+                    },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .weight(1f)
+                )
+            } else {
+                GrelhaVideosComponent(
+                    videos = activeTracks,
+                    selectedVideoId = activeVideoId,
+                    isLoading = isLoadingTracks,
+                    accentColor = activeSubCategory.accentColor,
+                    onVideoSelected = { track ->
+                        selectedVideoId = track.videoId ?: track.id
+                    },
+                    onDeleteVideo = if (activeSubCategory.isCustom || activeKey == "ze_meus_videos") {
+                        { track ->
+                            val vid = track.videoId ?: track.id
+                            CustomVideoStorageHelper.deleteCustomVideo(context, vid)
+                            val updated = CustomVideoStorageHelper.loadCustomVideos(context)
+                            categoryTracksMap = categoryTracksMap + (activeKey to updated)
+                            if (selectedVideoId == vid) {
+                                selectedVideoId = updated.firstOrNull()?.videoId
+                            }
+                        }
+                    } else null,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .weight(1f),
+                    errorMessage = apiErrorMessage,
+                    onRetry = { refreshTrigger++ }
+                )
+            }
+        }
+
+        // Floating Action Button removed by user request
+        /*
+        if (activeKey != "ze_historias") {
+            androidx.compose.material3.FloatingActionButton(
+            onClick = { showAddVideoDialog = true },
+            containerColor = Color(0xFFEA580C),
+            contentColor = Color.White,
+            shape = CircleShape,
+            modifier = Modifier
+                .align(Alignment.BottomEnd)
+                .padding(16.dp)
+                .size(56.dp)
+                .testTag("add_video_button")
+        ) {
+            Icon(
+                imageVector = Icons.Default.Add,
+                contentDescription = "Adicionar Vídeo",
+                modifier = Modifier.size(28.dp)
+            )
+        }
+    }
+    */
+}
+}
+}
+
+@Composable
+private fun LandscapeImmersiveVideoPlayer(
+    selectedSection: VideoMainSection,
+    onSectionSelected: (VideoMainSection) -> Unit,
+    currentSubCategories: List<YouTubeSubCategory>,
+    activeSubCategory: YouTubeSubCategory,
+    onSubCategorySelected: (YouTubeSubCategory) -> Unit,
+    activeTracks: List<YouTubeVideoTrack>,
+    activeVideoId: String?,
+    onVideoSelected: (YouTubeVideoTrack) -> Unit,
+    accentColor: Color
+) {
+    var mostrarMenu by remember { mutableStateOf(false) }
+
+    // Control visibility of system bars in landscape
+    val context = LocalContext.current
+    val window = (context as? android.app.Activity)?.window
+    val view = androidx.compose.ui.platform.LocalView.current
+    
+    DisposableEffect(Unit) {
+        val windowInsetsController = window?.let {
+            androidx.core.view.WindowCompat.getInsetsController(it, view)
+        }
+        windowInsetsController?.systemBarsBehavior = androidx.core.view.WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+        windowInsetsController?.hide(androidx.core.view.WindowInsetsCompat.Type.systemBars())
+        
+        onDispose {
+            windowInsetsController?.show(androidx.core.view.WindowInsetsCompat.Type.systemBars())
+        }
+    }
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color(0xFF0F172A))
+    ) {
+        if (mostrarMenu) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 10.dp, vertical = 4.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
+                // Top: Section Toggles (Tabs Zé Traquina and Cantinho PT)
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    VideoMainSection.values().forEach { section ->
+                        val isSelected = selectedSection == section
+                        Surface(
+                            shape = RoundedCornerShape(12.dp),
+                            color = if (isSelected) section.gradient.first() else Color.Black.copy(alpha = 0.65f),
+                            border = BorderStroke(
+                                width = if (isSelected) 1.5.dp else 0.8.dp,
+                                color = if (isSelected) Color.White else Color.White.copy(alpha = 0.3f)
+                            ),
+                            modifier = Modifier
+                                .weight(1f)
+                                .height(32.dp)
+                                .clickable { onSectionSelected(section) }
+                        ) {
+                            Box(contentAlignment = Alignment.Center) {
+                                Text(
+                                    text = "${section.emoji} ${section.title}",
+                                    textAlign = TextAlign.Center,
+                                    color = Color.White,
+                                    fontSize = 11.sp,
+                                    fontWeight = FontWeight.Bold
+                                )
+                            }
+                        }
+                    }
+                }
+
+                // Sub-category Filter Chips in Landscape
+                LazyRow(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    items(currentSubCategories.size) { index ->
+                        val subCategory = currentSubCategories[index]
+                        val isSelected = activeSubCategory.key == subCategory.key
+
+                        FilterChip(
+                            selected = isSelected,
+                            onClick = { onSubCategorySelected(subCategory) },
+                            label = {
+                                Text(
+                                    text = "${subCategory.emoji} ${subCategory.name}",
+                                    fontWeight = if (isSelected) FontWeight.Black else FontWeight.Bold,
+                                    fontSize = 10.sp,
+                                    maxLines = 1
+                                )
+                            },
+                            colors = FilterChipDefaults.filterChipColors(
+                                selectedContainerColor = subCategory.accentColor,
+                                selectedLabelColor = Color.White,
+                                containerColor = Color.White.copy(alpha = 0.85f),
+                                labelColor = Color(0xFF475569)
+                            ),
+                            border = FilterChipDefaults.filterChipBorder(
+                                enabled = true,
+                                selected = isSelected,
+                                borderColor = Color.Transparent,
+                                selectedBorderColor = subCategory.accentColor,
+                                borderWidth = 0.dp,
+                                selectedBorderWidth = 0.dp
+                            ),
+                            shape = RoundedCornerShape(8.dp)
+                        )
+                    }
+                }
+            }
+        }
+
+        // Player (adjusts size based on state)
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(if (mostrarMenu) 1.2f else 1f)
+                .pointerInput(Unit) {
+                    awaitPointerEventScope {
+                        while (true) {
+                            val event = awaitPointerEvent(androidx.compose.ui.input.pointer.PointerEventPass.Initial)
+                            if (event.type == androidx.compose.ui.input.pointer.PointerEventType.Release) {
+                                android.util.Log.d("VideosScreen", "Player tapped. Toggling mostrarMenu from $mostrarMenu to ${!mostrarMenu}")
+                                mostrarMenu = !mostrarMenu
+                            }
+                        }
+                    }
+                }
+        ) {
+            VideoPlayer(
+                youtubeId = activeVideoId,
+                playlistId = if (activeVideoId == null && activeSubCategory.playlistId != "ze_shorts_auto" && !activeSubCategory.isCustom) activeSubCategory.playlistId else null,
+                modifier = Modifier.fillMaxSize()
+            )
+        }
+
+        if (mostrarMenu) {
+            // Bottom: Horizontal thumbnails carousel of active tracks
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 8.dp, vertical = 4.dp)
+            ) {
+                GrelhaVideosHorizontalCarousel(
+                    videos = activeTracks,
+                    selectedVideoId = activeVideoId,
+                    isLoading = false,
+                    accentColor = accentColor,
+                    onVideoSelected = onVideoSelected,
+                    modifier = Modifier.fillMaxWidth()
+                )
+            }
+        }
+    }
+}
+
+/**
+ * Pista visual discreta de rotação para crianças no ecrã de Vídeos
+ */
+@Composable
+fun RotateDeviceHintOverlay(
+    visible: Boolean,
+    onDismiss: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    AnimatedVisibility(
+        visible = visible,
+        enter = fadeIn(animationSpec = tween(400)) + scaleIn(initialScale = 0.85f),
+        exit = fadeOut(animationSpec = tween(400)) + scaleOut(targetScale = 0.85f),
+        modifier = modifier
+    ) {
+        val infiniteTransition = rememberInfiniteTransition(label = "rotation_hint_anim")
+        val rotationAngle by infiniteTransition.animateFloat(
+            initialValue = -12f,
+            targetValue = 12f,
+            animationSpec = infiniteRepeatable(
+                animation = tween(durationMillis = 650, easing = FastOutSlowInEasing),
+                repeatMode = RepeatMode.Reverse
+            ),
+            label = "phone_tilt"
+        )
+        val pulseScale by infiniteTransition.animateFloat(
+            initialValue = 0.97f,
+            targetValue = 1.03f,
+            animationSpec = infiniteRepeatable(
+                animation = tween(durationMillis = 650, easing = FastOutSlowInEasing),
+                repeatMode = RepeatMode.Reverse
+            ),
+            label = "badge_pulse"
+        )
+
+        Surface(
+            shape = RoundedCornerShape(18.dp),
+            color = Color(0xEB0F172A),
+            border = BorderStroke(1.dp, Color.White.copy(alpha = 0.22f)),
+            shadowElevation = 5.dp,
+            modifier = Modifier
+                .graphicsLayer {
+                    scaleX = pulseScale
+                    scaleY = pulseScale
+                }
+                .clickable { onDismiss() }
+        ) {
+            Row(
+                modifier = Modifier.padding(horizontal = 10.dp, vertical = 5.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                Icon(
+                    imageVector = Icons.Default.ScreenRotation,
+                    contentDescription = "Rodar para ecrã inteiro",
+                    tint = Color(0xFFFBBF24),
+                    modifier = Modifier
+                        .size(16.dp)
+                        .graphicsLayer {
+                            rotationZ = rotationAngle
+                        }
+                )
+                Text(
+                    text = "Vira o ecrã 📱",
+                    color = Color.White,
+                    fontSize = 11.sp,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+        }
+    }
+}
+

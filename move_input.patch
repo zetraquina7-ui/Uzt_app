@@ -1,0 +1,145 @@
+--- app/src/main/java/com/example/ui/screens/ZeAIScreen.kt
++++ app/src/main/java/com/example/ui/screens/ZeAIScreen.kt
+@@ -277,6 +277,69 @@
+                 }
+             }
+ 
++            Spacer(modifier = Modifier.height(8.dp))
++
++            // --- 4. Input Controls ---
++            Card(
++                modifier = Modifier
++                    .fillMaxWidth(),
++                shape = RoundedCornerShape(32.dp),
++                colors = CardDefaults.cardColors(containerColor = Color.White),
++                elevation = CardDefaults.cardElevation(defaultElevation = 8.dp),
++                border = BorderStroke(1.dp, Color.LightGray.copy(alpha = 0.5f))
++            ) {
++                Row(
++                    modifier = Modifier
++                        .padding(horizontal = 8.dp, vertical = 6.dp),
++                    verticalAlignment = Alignment.CenterVertically
++                ) {
++                    IconButton(
++                        onClick = { startVoiceInput() },
++                        modifier = Modifier
++                            .size(48.dp)
++                            .background(
++                                if (isListeningVoice) Color.Red else SkyBluePrimary,
++                                CircleShape
++                            )
++                    ) {
++                        Icon(
++                            imageVector = if (isListeningVoice) Icons.Default.Mic else Icons.Default.MicNone,
++                            contentDescription = "Voz",
++                            tint = Color.White
++                        )
++                    }
++
++                    TextField(
++                        value = inputText,
++                        onValueChange = { inputText = it },
++                        placeholder = { Text("Escreve aqui...") },
++                        modifier = Modifier.weight(1f),
++                        colors = TextFieldDefaults.colors(
++                            focusedContainerColor = Color.Transparent,
++                            unfocusedContainerColor = Color.Transparent,
++                            disabledContainerColor = Color.Transparent,
++                            focusedIndicatorColor = Color.Transparent,
++                            unfocusedIndicatorColor = Color.Transparent
++                        ),
++                        singleLine = true
++                    )
++
++                    IconButton(
++                        onClick = { handleSend(inputText) },
++                        enabled = inputText.isNotBlank(),
++                        modifier = Modifier
++                            .size(48.dp)
++                            .background(
++                                if (inputText.isNotBlank()) KidStarOrange else Color.LightGray,
++                                CircleShape
++                            )
++                    ) {
++                        Icon(
++                            imageVector = Icons.AutoMirrored.Filled.Send,
++                            contentDescription = "Enviar",
++                            tint = Color.White
++                        )
++                    }
++                }
++            }
++
+             // --- 2. Mascot & Bubble Area ---
+             Box(
+                 modifier = Modifier
+@@ -401,69 +464,6 @@
+                 item { CategoriaBotao("Dicas", "💡") { handleSend("Dá-me uma dica de estudo!") } }
+             }
+ 
+-            // --- 4. Input Controls ---
+-            Card(
+-                modifier = Modifier
+-                    .fillMaxWidth(),
+-                shape = RoundedCornerShape(32.dp),
+-                colors = CardDefaults.cardColors(containerColor = Color.White),
+-                elevation = CardDefaults.cardElevation(defaultElevation = 8.dp),
+-                border = BorderStroke(1.dp, Color.LightGray.copy(alpha = 0.5f))
+-            ) {
+-                Row(
+-                    modifier = Modifier
+-                        .padding(horizontal = 8.dp, vertical = 6.dp),
+-                    verticalAlignment = Alignment.CenterVertically
+-                ) {
+-                    IconButton(
+-                        onClick = { startVoiceInput() },
+-                        modifier = Modifier
+-                            .size(48.dp)
+-                            .background(
+-                                if (isListeningVoice) Color.Red else SkyBluePrimary,
+-                                CircleShape
+-                            )
+-                    ) {
+-                        Icon(
+-                            imageVector = if (isListeningVoice) Icons.Default.Mic else Icons.Default.MicNone,
+-                            contentDescription = "Voz",
+-                            tint = Color.White
+-                        )
+-                    }
+-
+-                    TextField(
+-                        value = inputText,
+-                        onValueChange = { inputText = it },
+-                        placeholder = { Text("Escreve aqui...") },
+-                        modifier = Modifier.weight(1f),
+-                        colors = TextFieldDefaults.colors(
+-                            focusedContainerColor = Color.Transparent,
+-                            unfocusedContainerColor = Color.Transparent,
+-                            disabledContainerColor = Color.Transparent,
+-                            focusedIndicatorColor = Color.Transparent,
+-                            unfocusedIndicatorColor = Color.Transparent
+-                        ),
+-                        singleLine = true
+-                    )
+-
+-                    IconButton(
+-                        onClick = { handleSend(inputText) },
+-                        enabled = inputText.isNotBlank(),
+-                        modifier = Modifier
+-                            .size(48.dp)
+-                            .background(
+-                                if (inputText.isNotBlank()) KidStarOrange else Color.LightGray,
+-                                CircleShape
+-                            )
+-                    ) {
+-                        Icon(
+-                            imageVector = Icons.AutoMirrored.Filled.Send,
+-                            contentDescription = "Enviar",
+-                            tint = Color.White
+-                        )
+-                    }
+-                }
+-            }
+         }
+     }
+ }

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes">
+  <title>Atlas do Zé Traquina - Mapa Mundo</title>
+  <link rel="stylesheet" href="leaflet.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #DCEEFB;
+    }
+
+    #map-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: #DCEEFB;
+    }
+
+    #leaflet-map {
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background: #DCEEFB;
+    }
+
+    /* Animated Single Target Pin */
+    .country-pin {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      transform: translate(-50%, -100%);
+      animation: dropPin 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    @keyframes dropPin {
+      0% { transform: translate(-50%, -180%) scale(0.6); opacity: 0; }
+      100% { transform: translate(-50%, -100%) scale(1); opacity: 1; }
+    }
+
+    .country-pin-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: 24px;
+      background: #FFF9C4;
+      box-shadow: 0 4px 14px rgba(255, 111, 0, 0.45), 0 2px 6px rgba(0,0,0,0.2);
+      border: 2.5px solid #FF8F00;
+      white-space: nowrap;
+      font-weight: 800;
+      font-size: 13px;
+      color: #E65100;
+    }
+
+    .country-pin-flag {
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .country-pin-arrow {
+      width: 0;
+      height: 0;
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-top: 8px solid #FF8F00;
+      margin-top: -1px;
+    }
+
+    /* Top Hint */
+    #hint-bubble {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(25, 118, 210, 0.92);
+      color: #FFFFFF;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+      pointer-events: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+      z-index: 1000;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: opacity 0.4s ease;
+    }
+
+    /* Friendly Error Box */
+    #friendly-error {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #FFFFFF;
+      color: #37474F;
+      border-radius: 16px;
+      padding: 20px;
+      width: 85%;
+      max-width: 340px;
+      text-align: center;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+      z-index: 2000;
+      border: 2px solid #90CAF9;
+    }
+
+    #friendly-error h3 {
+      color: #1976D2;
+      margin-bottom: 8px;
+      font-size: 16px;
+    }
+
+    #friendly-error p {
+      font-size: 13px;
+      line-height: 1.4;
+      color: #546E7A;
+    }
+
+    /* Country Detail Card */
+    #country-card {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+      max-height: 55%;
+      overflow-y: auto;
+      background: #FFFFFF;
+      border-radius: 18px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+      padding: 12px 14px;
+      z-index: 1000;
+      transform: translateY(125%);
+      opacity: 0;
+      transition: transform 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.3s ease;
+      border: 2.5px solid #BBDEFB;
+    }
+
+    #country-card.visible {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+
+    .flag-and-name {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .country-flag {
+      font-size: 30px;
+      line-height: 1;
+    }
+
+    .country-name {
+      font-size: 17px;
+      font-weight: 800;
+      color: #1A237E;
+    }
+
+    .continent-tag {
+      display: inline-block;
+      padding: 2px 8px;
+      background: #E8F5E9;
+      color: #2E7D32;
+      font-size: 11px;
+      font-weight: bold;
+      border-radius: 10px;
+    }
+
+    .close-btn {
+      width: 28px;
+      height: 28px;
+      background: #ECEFF1;
+      border-radius: 50%;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 14px;
+      color: #546E7A;
+      font-weight: bold;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+      margin: 8px 0;
+    }
+
+    .info-box {
+      background: #F8FAFC;
+      border-radius: 10px;
+      padding: 5px 8px;
+      border: 1px solid #E2E8F0;
+    }
+
+    .info-label {
+      font-size: 10px;
+      color: #64748B;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .info-value {
+      font-size: 12px;
+      font-weight: 800;
+      color: #1E293B;
+      margin-top: 1px;
+    }
+
+    .fact-box {
+      background: #FFFDE7;
+      border-left: 4px solid #FBC02D;
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 12px;
+      color: #5D4037;
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+
+    .speak-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 100%;
+      margin-top: 8px;
+      padding: 8px 10px;
+      background: #1976D2;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 13px;
+      cursor: pointer;
+      box-shadow: 0 3px 8px rgba(25, 118, 210, 0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div id="map-wrapper">
+    <div id="hint-bubble">
+      <span>👆</span> Toca no mapa ou pesquisa um país acima!
+    </div>
+
+    <div id="friendly-error">
+      <div style="font-size:32px; margin-bottom:6px;">🗺️</div>
+      <h3>Atlas do Zé Traquina</h3>
+      <p>A preparar o mapa-mundo interativo. Por favor, aguarda um momento ou verifica a tua ligação à internet.</p>
+    </div>
+
+    <div id="leaflet-map"></div>
+
+    <!-- Country Details Card -->
+    <div id="country-card">
+      <div class="card-header">
+        <div class="flag-and-name">
+          <span id="card-flag" class="country-flag">🇵🇹</span>
+          <div>
+            <div id="card-name" class="country-name">Portugal</div>
+            <span id="card-continent" class="continent-tag">Europa</span>
+          </div>
+        </div>
+        <button class="close-btn" onclick="closeCard()">✕</button>
+      </div>
+
+      <div class="card-grid">
+        <div class="info-box">
+          <div class="info-label">🏛️ Capital</div>
+          <div id="card-capital" class="info-value">Lisboa</div>
+        </div>
+        <div class="info-box">
+          <div class="info-label">👥 População</div>
+          <div id="card-population" class="info-value">10.3 Milhões</div>
+        </div>
+        <div class="info-box">
+          <div class="info-label">🗣️ Língua</div>
+          <div id="card-language" class="info-value">Português</div>
+        </div>
+        <div class="info-box">
+          <div class="info-label">💰 Moeda</div>
+          <div id="card-currency" class="info-value">Euro</div>
+        </div>
+      </div>
+
+      <div id="card-fact" class="fact-box">
+        Portugal tem a livraria mais antiga do mundo e o famoso galo de Barcelos!
+      </div>
+
+      <button id="card-speak-btn" class="speak-btn" onclick="speakCurrentCountry()">
+        🔊 Ouvir Zé Traquina
+      </button>
+    </div>
+  </div>
+
+  <script src="leaflet.js"></script>
+  <script>
+    // 51 Countries with complete Geographic Coordinates and Facts (Portuguese European)
+    const paisesLista = [
+      {"codigo":"pt","nome":"Portugal","lat":39.5,"lng":-8.0,"zoom":6,"capital":"Lisboa","populacao":10300000,"continente":"Europa","lingua":"Português","moeda":"Euro","facto":"Portugal tem a livraria mais antiga do mundo e o famoso galo de Barcelos!"},
+      {"codigo":"es","nome":"Espanha","lat":40.4,"lng":-3.7,"zoom":6,"capital":"Madrid","populacao":47500000,"continente":"Europa","lingua":"Espanhol","moeda":"Euro","facto":"A Espanha é o maior produtor de azeite e terra do flamenco!"},
+      {"codigo":"fr","nome":"França","lat":46.6,"lng":2.2,"zoom":5,"capital":"Paris","populacao":68000000,"continente":"Europa","lingua":"Francês","moeda":"Euro","facto":"A França tem a famosa Torre Eiffel e o Museu do Louvre!"},
+      {"codigo":"it","nome":"Itália","lat":41.9,"lng":12.6,"zoom":5,"capital":"Roma","populacao":59000000,"continente":"Europa","lingua":"Italiano","moeda":"Euro","facto":"A Itália tem a Torre de Pisa, o Coliseu e a melhor pizza do mundo!"},
+      {"codigo":"de","nome":"Alemanha","lat":51.2,"lng":10.4,"zoom":5,"capital":"Berlim","populacao":84000000,"continente":"Europa","lingua":"Alemão","moeda":"Euro","facto":"A Alemanha tem castelos de contos de fadas e a Floresta Negra!"},
+      {"codigo":"gb","nome":"Reino Unido","lat":55.4,"lng":-3.4,"zoom":5,"capital":"Londres","populacao":68000000,"continente":"Europa","lingua":"Inglês","moeda":"Libra Esterlina","facto":"O Reino Unido tem o relógio Big Ben e o Palácio de Buckingham!"},
+      {"codigo":"nl","nome":"Países Baixos","lat":52.1,"lng":5.3,"zoom":7,"capital":"Amesterdão","populacao":17800000,"continente":"Europa","lingua":"Neerlandês","moeda":"Euro","facto":"Os Países Baixos são famosos pelos moinhos de vento e campos de túlipas!"},
+      {"codigo":"be","nome":"Bélgica","lat":50.5,"lng":4.5,"zoom":7,"capital":"Bruxelas","populacao":11700000,"continente":"Europa","lingua":"Neerlandês, Francês, Alemão","moeda":"Euro","facto":"A Bélgica faz os chocolates e waffles mais deliciosos da Europa!"},
+      {"codigo":"ch","nome":"Suíça","lat":46.8,"lng":8.2,"zoom":7,"capital":"Berna","populacao":8800000,"continente":"Europa","lingua":"Alemão, Francês, Italiano","moeda":"Franco Suíço","facto":"A Suíça tem montanhas com neve eterna nos Alpes e relógios precisos!"},
+      {"codigo":"at","nome":"Áustria","lat":47.5,"lng":14.5,"zoom":6,"capital":"Viena","populacao":9100000,"continente":"Europa","lingua":"Alemão","moeda":"Euro","facto":"A Áustria é o lar histórico da música clássica e de Mozart!"},
+      {"codigo":"ie","nome":"Irlanda","lat":53.1,"lng":-7.7,"zoom":6,"capital":"Dublin","populacao":5100000,"continente":"Europa","lingua":"Inglês, Irlandês","moeda":"Euro","facto":"A Irlanda é conhecida como a Ilha Esmeralda pelas suas colinas verdes!"},
+      {"codigo":"se","nome":"Suécia","lat":60.1,"lng":18.6,"zoom":4,"capital":"Estocolmo","populacao":10500000,"continente":"Europa","lingua":"Sueco","moeda":"Coroa Sueca","facto":"A Suécia tem milhares de ilhas e o hotel feito inteiramente de gelo!"},
+      {"codigo":"no","nome":"Noruega","lat":60.5,"lng":8.5,"zoom":4,"capital":"Oslo","populacao":5500000,"continente":"Europa","lingua":"Norueguês","moeda":"Coroa Norueguesa","facto":"A Noruega tem fiordes deslumbrantes e a dança da aurora boreal!"},
+      {"codigo":"dk","nome":"Dinamarca","lat":56.3,"lng":9.5,"zoom":6,"capital":"Copenhaga","populacao":5900000,"continente":"Europa","lingua":"Dinamarquês","moeda":"Coroa Dinamarquesa","facto":"A Dinamarca é a terra dos blocos coloridos da LEGO e dos Vikings!"},
+      {"codigo":"pl","nome":"Polónia","lat":51.9,"lng":19.1,"zoom":5,"capital":"Varsóvia","populacao":37500000,"continente":"Europa","lingua":"Polaco","moeda":"Zloti","facto":"A Polónia tem florestas antigas onde ainda vivem bisontes selvagens!"},
+      {"codigo":"gr","nome":"Grécia","lat":39.1,"lng":21.8,"zoom":6,"capital":"Atenas","populacao":10400000,"continente":"Europa","lingua":"Grego","moeda":"Euro","facto":"A Grécia é o berço da democracia e dos Jogos Olímpicos!"},
+      {"codigo":"ua","nome":"Ucrânia","lat":48.4,"lng":31.2,"zoom":5,"capital":"Kiev","populacao":37000000,"continente":"Europa","lingua":"Ucraniano","moeda":"Grívnia","facto":"A Ucrânia tem os maiores campos dourados de girassóis da Europa!"},
+
+      {"codigo":"br","nome":"Brasil","lat":-14.2,"lng":-51.9,"zoom":4,"capital":"Brasília","populacao":216000000,"continente":"América","lingua":"Português","moeda":"Real","facto":"O Brasil tem a maior floresta tropical do mundo, a Amazónia!"},
+      {"codigo":"us","nome":"Estados Unidos","lat":37.1,"lng":-95.7,"zoom":4,"capital":"Washington D.C.","populacao":335000000,"continente":"América","lingua":"Inglês","moeda":"Dólar Americano","facto":"Os Estados Unidos têm 50 estados e parques com desfiladeiros gigantes!"},
+      {"codigo":"ca","nome":"Canadá","lat":56.1,"lng":-106.3,"zoom":3,"capital":"Otava","populacao":39000000,"continente":"América","lingua":"Inglês, Francês","moeda":"Dólar Canadiano","facto":"O Canadá é famoso pelo xarope de ácer e pelos lagos cristalinos!"},
+      {"codigo":"mx","nome":"México","lat":23.6,"lng":-102.5,"zoom":5,"capital":"Cidade do México","populacao":128000000,"continente":"América","lingua":"Espanhol","moeda":"Peso Mexicano","facto":"O México foi o pioneiro a cultivar cacau e a dar o chocolate ao mundo!"},
+      {"codigo":"ar","nome":"Argentina","lat":-38.4,"lng":-63.6,"zoom":4,"capital":"Buenos Aires","populacao":46000000,"continente":"América","lingua":"Espanhol","moeda":"Peso Argentino","facto":"A Argentina tem pinguins na Patagónia e a cordilheira dos Andes!"},
+      {"codigo":"cl","nome":"Chile","lat":-35.7,"lng":-71.5,"zoom":4,"capital":"Santiago","populacao":19500000,"continente":"América","lingua":"Espanhol","moeda":"Peso Chileno","facto":"O Chile é o país mais comprido do mundo, com desertos e glaciares!"},
+      {"codigo":"co","nome":"Colômbia","lat":4.6,"lng":-74.3,"zoom":5,"capital":"Bogotá","populacao":52000000,"continente":"América","lingua":"Espanhol","moeda":"Peso Colombiano","facto":"A Colômbia tem mais espécies de pássaros do que qualquer outro país!"},
+      {"codigo":"pe","nome":"Peru","lat":-9.2,"lng":-75.0,"zoom":5,"capital":"Lima","populacao":34000000,"continente":"América","lingua":"Espanhol","moeda":"Sol Peruano","facto":"No Peru fica Machu Picchu, a lendária cidade nas nuvens dos Incas!"},
+      {"codigo":"cu","nome":"Cuba","lat":21.5,"lng":-77.8,"zoom":6,"capital":"Havana","populacao":11000000,"continente":"América","lingua":"Espanhol","moeda":"Peso Cubano","facto":"Cuba é famosa pela sua música alegre, carros clássicos e praias de água morna!"},
+      {"codigo":"ve","nome":"Venezuela","lat":6.4,"lng":-66.6,"zoom":5,"capital":"Caracas","populacao":28000000,"continente":"América","lingua":"Espanhol","moeda":"Bolívar","facto":"A Venezuela tem o Salto Ángel, a cascata mais alta de todo o planeta!"},
+      {"codigo":"ec","nome":"Equador","lat":-1.8,"lng":-78.2,"zoom":6,"capital":"Quito","populacao":18000000,"continente":"América","lingua":"Espanhol","moeda":"Dólar Americano","facto":"O Equador tem as Ilhas Galápagos onde vivem tartarugas gigantes!"},
+
+      {"codigo":"ao","nome":"Angola","lat":-11.2,"lng":17.9,"zoom":5,"capital":"Luanda","populacao":36000000,"continente":"África","lingua":"Português","moeda":"Kwanza","facto":"Angola tem a Welwitschia Mirabilis, uma planta rara que vive mais de 1000 anos!"},
+      {"codigo":"mz","nome":"Moçambique","lat":-18.7,"lng":35.5,"zoom":5,"capital":"Maputo","populacao":34000000,"continente":"África","lingua":"Português","moeda":"Metical","facto":"Moçambique tem águas azul-turquesa com golfinhos e tubarões-baleia!"},
+      {"codigo":"cv","nome":"Cabo Verde","lat":14.9,"lng":-23.5,"zoom":8,"capital":"Praia","populacao":600000,"continente":"África","lingua":"Português","moeda":"Escudo Cabo-verdiano","facto":"Cabo Verde é um arquipélago alegre com 10 ilhas vulcânicas no Atlântico!"},
+      {"codigo":"gw","nome":"Guiné-Bissau","lat":11.8,"lng":-15.2,"zoom":7,"capital":"Bissau","populacao":2200000,"continente":"África","lingua":"Português","moeda":"Franco CFA","facto":"A Guiné-Bissau tem as ilhas Bijagós com hipopótamos de água salgada!"},
+      {"codigo":"st","nome":"São Tomé e Príncipe","lat":0.2,"lng":6.6,"zoom":8,"capital":"São Tomé","populacao":230000,"continente":"África","lingua":"Português","moeda":"Dobra","facto":"São Tomé e Príncipe é conhecida como a doce Ilha do Cacau e do Café!"},
+      {"codigo":"eg","nome":"Egito","lat":26.8,"lng":30.8,"zoom":5,"capital":"Cairo","populacao":112000000,"continente":"África","lingua":"Árabe","moeda":"Libra Egípcia","facto":"O Egito tem as famosas Pirâmides de Gizé, a Esfinge e o rio Nilo!"},
+      {"codigo":"za","nome":"África do Sul","lat":-30.6,"lng":22.9,"zoom":5,"capital":"Pretória","populacao":60000000,"continente":"África","lingua":"Zulu, Africânder, Inglês","moeda":"Rand","facto":"A África do Sul tem pinguins na praia e leões e elefantes nas savanas!"},
+      {"codigo":"ma","nome":"Marrocos","lat":31.8,"lng":-7.1,"zoom":5,"capital":"Rabat","populacao":38000000,"continente":"África","lingua":"Árabe, Amazigh","moeda":"Dirham Marroquino","facto":"Marrocos tem mercados coloridos cheios de especiarias e tapetes!"},
+      {"codigo":"ng","nome":"Nigéria","lat":9.1,"lng":8.7,"zoom":5,"capital":"Abuja","populacao":227000000,"continente":"África","lingua":"Inglês","moeda":"Naira","facto":"A Nigéria é o país mais populoso de África e cheio de energia cultural!"},
+      {"codigo":"ke","nome":"Quénia","lat":-0.02,"lng":37.9,"zoom":5,"capital":"Nairóbi","populacao":55000000,"continente":"África","lingua":"Suaíli, Inglês","moeda":"Xelim Queniano","facto":"No Quénia podes ver a grande migração de zebras e gnus no Masai Mara!"},
+
+      {"codigo":"cn","nome":"China","lat":35.9,"lng":104.2,"zoom":4,"capital":"Pequim","populacao":1410000000,"continente":"Ásia","lingua":"Mandarim","moeda":"Yuan","facto":"A China construiu a Grande Muralha e é o lar dos ursos panda!"},
+      {"codigo":"jp","nome":"Japão","lat":36.2,"lng":138.3,"zoom":5,"capital":"Tóquio","populacao":124000000,"continente":"Ásia","lingua":"Japonês","moeda":"Iene","facto":"O Japão tem comboios-bala Shinkansen velozes e cerejeiras Sakura!"},
+      {"codigo":"in","nome":"Índia","lat":20.6,"lng":78.9,"zoom":4,"capital":"Nova Deli","populacao":1428000000,"continente":"Ásia","lingua":"Hindi, Inglês","moeda":"Rupia Indiana","facto":"A Índia tem o Taj Mahal e inventou o jogo de xadrez!"},
+      {"codigo":"kr","nome":"Coreia do Sul","lat":35.9,"lng":127.8,"zoom":6,"capital":"Seul","populacao":51700000,"continente":"Ásia","lingua":"Coreano","moeda":"Won Sul-coreano","facto":"A Coreia do Sul é famosa pelos robôs, tecnologia e música K-Pop!"},
+      {"codigo":"id","nome":"Indonésia","lat":-0.8,"lng":113.9,"zoom":4,"capital":"Jacarta","populacao":278000000,"continente":"Ásia","lingua":"Indonésio","moeda":"Rupia Indonésia","facto":"A Indonésia é composta por mais de 17.000 ilhas tropicais!"},
+      {"codigo":"th","nome":"Tailândia","lat":15.9,"lng":101.0,"zoom":5,"capital":"Banguecoque","populacao":71000000,"continente":"Ásia","lingua":"Tailandês","moeda":"Baht","facto":"A Tailândia é a terra dos elefantes sagrados e templos dourados!"},
+      {"codigo":"vn","nome":"Vietname","lat":14.05,"lng":108.3,"zoom":5,"capital":"Hanói","populacao":99000000,"continente":"Ásia","lingua":"Vietnamita","moeda":"Dong","facto":"O Vietname tem a baía de Ha Long com milhares de ilhéus de pedra calcária!"},
+      {"codigo":"sa","nome":"Arábia Saudita","lat":23.9,"lng":45.1,"zoom":5,"capital":"Riade","populacao":36000000,"continente":"Ásia","lingua":"Árabe","moeda":"Rial Saudita","facto":"A Arábia Saudita tem o deserto de Rub' al-Khali com dunas imensas!"},
+      {"codigo":"ae","nome":"Emirados Árabes Unidos","lat":23.4,"lng":53.8,"zoom":6,"capital":"Abu Dhabi","populacao":9900000,"continente":"Ásia","lingua":"Árabe","moeda":"Dirham dos EAU","facto":"Os Emirados têm o Burj Khalifa, o edifício mais alto do mundo!"},
+      {"codigo":"il","nome":"Israel","lat":31.0,"lng":34.8,"zoom":7,"capital":"Jerusalém","populacao":9800000,"continente":"Ásia","lingua":"Hebraico, Árabe","moeda":"Novo Shekel","facto":"Em Israel fica o Mar Morto, onde se flutua na água sem esforço!"},
+      {"codigo":"tr","nome":"Turquia","lat":38.9,"lng":35.2,"zoom":5,"capital":"Ancara","populacao":85000000,"continente":"Ásia","lingua":"Turco","moeda":"Lira Turca","facto":"A Turquia une a Europa e a Ásia com a bela cidade de Istambul!"},
+
+      {"codigo":"au","nome":"Austrália","lat":-25.3,"lng":133.8,"zoom":4,"capital":"Camberra","populacao":26600000,"continente":"Oceania","lingua":"Inglês","moeda":"Dólar Australiano","facto":"A Austrália tem cangurus aos saltos, coalas e a Grande Barreira de Coral!"},
+      {"codigo":"nz","nome":"Nova Zelândia","lat":-40.9,"lng":174.9,"zoom":5,"capital":"Wellington","populacao":5200000,"continente":"Oceania","lingua":"Inglês, Maori","moeda":"Dólar Neozelandês","facto":"A Nova Zelândia é o lar do pássaro kiwi e de montanhas mágicas!"}
+    ];
+
+    function getFlagEmoji(countryCode) {
+      if (!countryCode || countryCode.length !== 2) return "🌐";
+      const codePoints = countryCode
+        .toUpperCase()
+        .split('')
+        .map(char => 127397 + char.charCodeAt(0));
+      return String.fromCodePoint(...codePoints);
+    }
+
+    const paisesData = {};
+    paisesLista.forEach(c => {
+      c.flag = getFlagEmoji(c.codigo);
+      paisesData[c.codigo.toUpperCase()] = c;
+    });
+
+    let currentSelectedCountry = null;
+    let map = null;
+    let activePinMarker = null;
+
+    // Haversine formula to find closest country from user click
+    function findClosestCountry(lat, lng) {
+      let closest = null;
+      let minDistance = Infinity;
+
+      paisesLista.forEach(country => {
+        const dLat = (country.lat - lat) * Math.PI / 180;
+        const dLng = (country.lng - lng) * Math.PI / 180;
+        const a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                  Math.cos(lat * Math.PI / 180) * Math.cos(country.lat * Math.PI / 180) *
+                  Math.sin(dLng / 2) * Math.sin(dLng / 2);
+        const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        const distKm = 6371 * c;
+
+        if (distKm < minDistance) {
+          minDistance = distKm;
+          closest = country;
+        }
+      });
+
+      // Max tolerance threshold in km (approx radius around country centroid)
+      if (closest && minDistance < 1800) {
+        return closest;
+      }
+      return closest;
+    }
+
+    function initLeafletMap() {
+      const mapContainer = document.getElementById('leaflet-map');
+      if (!mapContainer) return;
+
+      if (typeof L === 'undefined') {
+        const errEl = document.getElementById('friendly-error');
+        if (errEl) errEl.style.display = 'block';
+        return;
+      }
+
+      if (window.mapInstance) {
+        try {
+          window.mapInstance.remove();
+        } catch(e) {}
+        window.mapInstance = null;
+      }
+
+      try {
+        map = L.map('leaflet-map', {
+          center: [22, 10],
+          zoom: 2,
+          minZoom: 2,
+          maxZoom: 10,
+          zoomControl: true,
+          attributionControl: true,
+          worldCopyJump: true
+        });
+
+        window.mapInstance = map;
+
+        // Clean OpenStreetMap standard tile layer
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+
+        // Click anywhere on the map to find country and zoom
+        map.on('click', (e) => {
+          const clickedLat = e.latlng.lat;
+          const clickedLng = e.latlng.lng;
+          const targetCountry = findClosestCountry(clickedLat, clickedLng);
+          if (targetCountry) {
+            zoomToCountry(targetCountry.codigo);
+          }
+        });
+
+        // Hide hint after 4 seconds
+        setTimeout(() => {
+          const hint = document.getElementById('hint-bubble');
+          if (hint) hint.style.opacity = '0.2';
+        }, 4000);
+
+      } catch (err) {
+        console.error("Erro ao inicializar Leaflet:", err);
+        const errEl = document.getElementById('friendly-error');
+        if (errEl) errEl.style.display = 'block';
+      }
+    }
+
+    function showSingleCountryPin(country) {
+      if (!map) return;
+
+      // Remove existing single marker
+      if (activePinMarker) {
+        map.removeLayer(activePinMarker);
+        activePinMarker = null;
+      }
+
+      const code = country.codigo.toUpperCase();
+      const markerIcon = L.divIcon({
+        className: 'country-pin-wrapper',
+        html: `
+          <div class="country-pin" id="pin-${code}">
+            <div class="country-pin-badge">
+              <span class="country-pin-flag">${country.flag}</span>
+              <span>${country.nome}</span>
+            </div>
+            <div class="country-pin-arrow"></div>
+          </div>
+        `,
+        iconSize: [120, 42],
+        iconAnchor: [60, 42]
+      });
+
+      activePinMarker = L.marker([country.lat, country.lng], { icon: markerIcon }).addTo(map);
+    }
+
+    function selectCountryFromMap(countryCode) {
+      if (!countryCode) return;
+      const code = countryCode.toUpperCase();
+      const country = paisesData[code];
+      if (!country) return;
+
+      currentSelectedCountry = country;
+
+      // Place single beautiful marker on selected country
+      showSingleCountryPin(country);
+
+      // Update Card UI
+      document.getElementById('card-flag').innerText = country.flag;
+      document.getElementById('card-name').innerText = country.nome;
+      document.getElementById('card-continent').innerText = country.continente;
+      document.getElementById('card-capital').innerText = country.capital;
+      
+      const popStr = country.populacao >= 1000000 
+        ? (country.populacao / 1000000).toFixed(1) + ' Milhões' 
+        : (country.populacao / 1000).toFixed(0) + ' Mil';
+      document.getElementById('card-population').innerText = popStr;
+      
+      document.getElementById('card-language').innerText = country.lingua;
+      document.getElementById('card-currency').innerText = country.moeda;
+      document.getElementById('card-fact').innerText = country.facto;
+
+      // Show card
+      const card = document.getElementById('country-card');
+      if (card) card.classList.add('visible');
+
+      // Speak & Star through Android interface
+      if (window.Android) {
+        if (typeof window.Android.speak === 'function') {
+          const msg = `${country.nome}! A capital é ${country.capital}, no continente ${country.continente}. ${country.facto}`;
+          window.Android.speak(msg);
+        }
+        if (typeof window.Android.addStars === 'function') {
+          window.Android.addStars(1);
+        }
+      }
+    }
+
+    function zoomToCountry(countryCode) {
+      if (!countryCode) return;
+      const code = countryCode.toUpperCase();
+      const country = paisesData[code];
+      if (!country) return;
+
+      selectCountryFromMap(code);
+
+      if (map) {
+        const targetZoom = country.zoom || 6;
+        map.flyTo([country.lat, country.lng], targetZoom, {
+          duration: 1.2,
+          easeLinearity: 0.25
+        });
+      }
+    }
+
+    function resetMapZoom() {
+      if (map) {
+        map.flyTo([22, 10], 2, {
+          duration: 1.2
+        });
+        closeCard();
+        if (activePinMarker) {
+          map.removeLayer(activePinMarker);
+          activePinMarker = null;
+        }
+      }
+    }
+
+    function closeCard() {
+      const card = document.getElementById('country-card');
+      if (card) card.classList.remove('visible');
+      currentSelectedCountry = null;
+      if (activePinMarker && map) {
+        map.removeLayer(activePinMarker);
+        activePinMarker = null;
+      }
+    }
+
+    function speakCurrentCountry() {
+      if (!currentSelectedCountry) return;
+      const c = currentSelectedCountry;
+      if (window.Android && typeof window.Android.speak === 'function') {
+        const msg = `${c.nome}! A capital é ${c.capital}, no continente ${c.continente}. Língua: ${c.lingua}. Moeda: ${c.moeda}. ${c.facto}`;
+        window.Android.speak(msg);
+      }
+    }
+
+    window.zoomToCountry = zoomToCountry;
+    window.resetMapZoom = resetMapZoom;
+    window.selectCountryFromMap = selectCountryFromMap;
+
+    // Safe DOM readiness initialization
+    function scheduleInit() {
+      requestAnimationFrame(() => {
+        setTimeout(initLeafletMap, 100);
+      });
+    }
+
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      scheduleInit();
+    } else {
+      window.addEventListener('DOMContentLoaded', scheduleInit, { once: true });
+      window.addEventListener('load', scheduleInit, { once: true });
+    }
+
+    window.addEventListener('beforeunload', () => {
+      if (window.mapInstance) {
+        try {
+          window.mapInstance.remove();
+        } catch(e) {}
+        window.mapInstance = null;
+      }
+    });
+  </script>
+</body>
+</html>

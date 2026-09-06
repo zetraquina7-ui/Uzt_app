@@ -1,0 +1,3674 @@
+[
+  {
+    "id": "em_2_f1",
+    "numero": 1,
+    "titulo": "O Esqueleto Humano e a Postura",
+    "title": "O Esqueleto Humano e a Postura",
+    "descricao": "Os ossos, articulações, coluna vertebral e como cuidar da postura das costas.",
+    "description": "Os ossos, articulações, coluna vertebral e como cuidar da postura das costas.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "🦴",
+    "imageEmoji": "🦴",
+    "exercicios": [
+      {
+        "id": "em_2_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o conjunto de todos os ossos do nosso corpo que suporta o nosso organismo?",
+        "question": "Qual é o conjunto de todos os ossos do nosso corpo que suporta o nosso organismo?",
+        "opcoes": [
+          "Esqueleto",
+          "Músculo",
+          "Pele"
+        ],
+        "options": [
+          "Esqueleto",
+          "Músculo",
+          "Pele"
+        ],
+        "resposta": "Esqueleto",
+        "correctAnswer": "Esqueleto",
+        "explicacao": "O esqueleto é a armação óssea que sustenta o nosso corpo e protege os órgãos vitais!",
+        "explanation": "O esqueleto é a armação óssea que sustenta o nosso corpo e protege os órgãos vitais!"
+      },
+      {
+        "id": "em_2_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O crânio é uma caixa óssea resistente que protege o cérebro contra pancadas.",
+        "question": "O crânio é uma caixa óssea resistente que protege o cérebro contra pancadas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O crânio protege o nosso cérebro.",
+        "explanation": "Verdadeiro! O crânio protege o nosso cérebro."
+      },
+      {
+        "id": "em_2_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O ponto de união entre dois ossos que nos permite dobrar o braço ou a perna chama-se ___",
+        "question": "O ponto de união entre dois ossos que nos permite dobrar o braço ou a perna chama-se ___",
+        "opcoes": [
+          "Articulação",
+          "Músculo",
+          "Tendão"
+        ],
+        "options": [
+          "Articulação",
+          "Músculo",
+          "Tendão"
+        ],
+        "resposta": "Articulação",
+        "correctAnswer": "Articulação",
+        "explicacao": "As articulações (joelho, cotovelo, ombro) dão flexibilidade ao corpo.",
+        "explanation": "As articulações (joelho, cotovelo, ombro) dão flexibilidade ao corpo."
+      },
+      {
+        "id": "em_2_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes alimentos fortalece os ossos graças ao cálcio?",
+        "question": "Qual destes alimentos fortalece os ossos graças ao cálcio?",
+        "opcoes": [
+          "🥛 Leite e laticínios",
+          "🍭 Chupa-chupa",
+          "🍟 Batatas fritas"
+        ],
+        "options": [
+          "🥛 Leite e laticínios",
+          "🍭 Chupa-chupa",
+          "🍟 Batatas fritas"
+        ],
+        "resposta": "🥛 Leite e laticínios",
+        "correctAnswer": "🥛 Leite e laticínios",
+        "explicacao": "O leite, iogurte e queijo são ricos em cálcio para ossos fortes! 🥛",
+        "explanation": "O leite, iogurte e queijo são ricos em cálcio para ossos fortes! 🥛"
+      },
+      {
+        "id": "em_2_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como deves transportar a tua mochila da escola para proteger a coluna vertebral?",
+        "question": "Como deves transportar a tua mochila da escola para proteger a coluna vertebral?",
+        "opcoes": [
+          "Apoiada nos dois ombros com peso equilibrado",
+          "Num ombro só muito inclinada",
+          "Segurada com um dedo"
+        ],
+        "options": [
+          "Apoiada nos dois ombros com peso equilibrado",
+          "Num ombro só muito inclinada",
+          "Segurada com um dedo"
+        ],
+        "resposta": "Apoiada nos dois ombros com peso equilibrado",
+        "correctAnswer": "Apoiada nos dois ombros com peso equilibrado",
+        "explicacao": "Usar as duas alças bem ajustadas previne dores e desvios na coluna!",
+        "explanation": "Usar as duas alças bem ajustadas previne dores e desvios na coluna!"
+      },
+      {
+        "id": "em_2_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As costelas formam uma caixa que protege o coração e os pulmões.",
+        "question": "As costelas formam uma caixa que protege o coração e os pulmões.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A caixa torácica protege órgãos nobres e delicados.",
+        "explanation": "Verdadeiro! A caixa torácica protege órgãos nobres e delicados."
+      },
+      {
+        "id": "em_2_f1_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a articulação entre a perna e o pé?",
+        "question": "Como se chama a articulação entre a perna e o pé?",
+        "opcoes": [
+          "Tornozelo",
+          "Cotovelo",
+          "Punho"
+        ],
+        "options": [
+          "Tornozelo",
+          "Cotovelo",
+          "Punho"
+        ],
+        "resposta": "Tornozelo",
+        "correctAnswer": "Tornozelo",
+        "explicacao": "O tornozelo permite movimentar o pé ao caminhar.",
+        "explanation": "O tornozelo permite movimentar o pé ao caminhar."
+      },
+      {
+        "id": "em_2_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a parte do esqueleto ao órgão que protege:",
+        "question": "Associa a parte do esqueleto ao órgão que protege:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento da anatomia e esqueleto humano!",
+        "explanation": "Excelente conhecimento da anatomia e esqueleto humano!",
+        "pairs": {
+          "Crânio": "Cérebro",
+          "Costelas / Caixa Torácica": "Coração e Pulmões",
+          "Coluna Vertebral": "Medula Espinal",
+          "Pélvis / Bacia": "Órgãos do abdómen"
+        },
+        "pares": {
+          "Crânio": "Cérebro",
+          "Costelas / Caixa Torácica": "Coração e Pulmões",
+          "Coluna Vertebral": "Medula Espinal",
+          "Pélvis / Bacia": "Órgãos do abdómen"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f1_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o conjunto de todos os ossos do nosso corpo que suporta o nosso organismo?",
+        "question": "Qual é o conjunto de todos os ossos do nosso corpo que suporta o nosso organismo?",
+        "opcoes": [
+          "Esqueleto",
+          "Músculo",
+          "Pele"
+        ],
+        "options": [
+          "Esqueleto",
+          "Músculo",
+          "Pele"
+        ],
+        "resposta": "Esqueleto",
+        "correctAnswer": "Esqueleto",
+        "explicacao": "O esqueleto é a armação óssea que sustenta o nosso corpo e protege os órgãos vitais!",
+        "explanation": "O esqueleto é a armação óssea que sustenta o nosso corpo e protege os órgãos vitais!"
+      },
+      {
+        "id": "em_2_f1_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O crânio é uma caixa óssea resistente que protege o cérebro contra pancadas.",
+        "question": "O crânio é uma caixa óssea resistente que protege o cérebro contra pancadas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O crânio protege o nosso cérebro.",
+        "explanation": "Verdadeiro! O crânio protege o nosso cérebro."
+      },
+      {
+        "id": "em_2_f1_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O ponto de união entre dois ossos que nos permite dobrar o braço ou a perna chama-se ___",
+        "question": "O ponto de união entre dois ossos que nos permite dobrar o braço ou a perna chama-se ___",
+        "opcoes": [
+          "Articulação",
+          "Músculo",
+          "Tendão"
+        ],
+        "options": [
+          "Articulação",
+          "Músculo",
+          "Tendão"
+        ],
+        "resposta": "Articulação",
+        "correctAnswer": "Articulação",
+        "explicacao": "As articulações (joelho, cotovelo, ombro) dão flexibilidade ao corpo.",
+        "explanation": "As articulações (joelho, cotovelo, ombro) dão flexibilidade ao corpo."
+      },
+      {
+        "id": "em_2_f1_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes alimentos fortalece os ossos graças ao cálcio?",
+        "question": "Qual destes alimentos fortalece os ossos graças ao cálcio?",
+        "opcoes": [
+          "🥛 Leite e laticínios",
+          "🍭 Chupa-chupa",
+          "🍟 Batatas fritas"
+        ],
+        "options": [
+          "🥛 Leite e laticínios",
+          "🍭 Chupa-chupa",
+          "🍟 Batatas fritas"
+        ],
+        "resposta": "🥛 Leite e laticínios",
+        "correctAnswer": "🥛 Leite e laticínios",
+        "explicacao": "O leite, iogurte e queijo são ricos em cálcio para ossos fortes! 🥛",
+        "explanation": "O leite, iogurte e queijo são ricos em cálcio para ossos fortes! 🥛"
+      },
+      {
+        "id": "em_2_f1_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como deves transportar a tua mochila da escola para proteger a coluna vertebral?",
+        "question": "Como deves transportar a tua mochila da escola para proteger a coluna vertebral?",
+        "opcoes": [
+          "Apoiada nos dois ombros com peso equilibrado",
+          "Num ombro só muito inclinada",
+          "Segurada com um dedo"
+        ],
+        "options": [
+          "Apoiada nos dois ombros com peso equilibrado",
+          "Num ombro só muito inclinada",
+          "Segurada com um dedo"
+        ],
+        "resposta": "Apoiada nos dois ombros com peso equilibrado",
+        "correctAnswer": "Apoiada nos dois ombros com peso equilibrado",
+        "explicacao": "Usar as duas alças bem ajustadas previne dores e desvios na coluna!",
+        "explanation": "Usar as duas alças bem ajustadas previne dores e desvios na coluna!"
+      },
+      {
+        "id": "em_2_f1_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As costelas formam uma caixa que protege o coração e os pulmões.",
+        "question": "As costelas formam uma caixa que protege o coração e os pulmões.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A caixa torácica protege órgãos nobres e delicados.",
+        "explanation": "Verdadeiro! A caixa torácica protege órgãos nobres e delicados."
+      },
+      {
+        "id": "em_2_f1_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a articulação entre a perna e o pé?",
+        "question": "Como se chama a articulação entre a perna e o pé?",
+        "opcoes": [
+          "Tornozelo",
+          "Cotovelo",
+          "Punho"
+        ],
+        "options": [
+          "Tornozelo",
+          "Cotovelo",
+          "Punho"
+        ],
+        "resposta": "Tornozelo",
+        "correctAnswer": "Tornozelo",
+        "explicacao": "O tornozelo permite movimentar o pé ao caminhar.",
+        "explanation": "O tornozelo permite movimentar o pé ao caminhar."
+      },
+      {
+        "id": "em_2_f1_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a parte do esqueleto ao órgão que protege:",
+        "question": "Associa a parte do esqueleto ao órgão que protege:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento da anatomia e esqueleto humano!",
+        "explanation": "Excelente conhecimento da anatomia e esqueleto humano!",
+        "pairs": {
+          "Crânio": "Cérebro",
+          "Costelas / Caixa Torácica": "Coração e Pulmões",
+          "Coluna Vertebral": "Medula Espinal",
+          "Pélvis / Bacia": "Órgãos do abdómen"
+        },
+        "pares": {
+          "Crânio": "Cérebro",
+          "Costelas / Caixa Torácica": "Coração e Pulmões",
+          "Coluna Vertebral": "Medula Espinal",
+          "Pélvis / Bacia": "Órgãos do abdómen"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f2",
+    "numero": 2,
+    "titulo": "Saúde, Descanso e Sono",
+    "title": "Saúde, Descanso e Sono",
+    "descricao": "A importância das horas de sono, vacinas, ar livre e bem-estar físico.",
+    "description": "A importância das horas de sono, vacinas, ar livre e bem-estar físico.",
+    "dificuldade": "FACIL",
+    "difficulty": "EASY",
+    "emoji": "😴",
+    "imageEmoji": "😴",
+    "exercicios": [
+      {
+        "id": "em_2_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas horas deve uma criança da tua idade dormir por noite para acordar bem disposta?",
+        "question": "Quantas horas deve uma criança da tua idade dormir por noite para acordar bem disposta?",
+        "opcoes": [
+          "Cerca de 9 a 10 horas",
+          "2 horas",
+          "15 horas"
+        ],
+        "options": [
+          "Cerca de 9 a 10 horas",
+          "2 horas",
+          "15 horas"
+        ],
+        "resposta": "Cerca de 9 a 10 horas",
+        "correctAnswer": "Cerca de 9 a 10 horas",
+        "explicacao": "Dormir entre 9 a 10 horas recupera a energia do cérebro e ajuda o corpo a crescer!",
+        "explanation": "Dormir entre 9 a 10 horas recupera a energia do cérebro e ajuda o corpo a crescer!"
+      },
+      {
+        "id": "em_2_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As vacinas ensinam o nosso corpo a combater vírus e bactérias antes de ficarmos doentes.",
+        "question": "As vacinas ensinam o nosso corpo a combater vírus e bactérias antes de ficarmos doentes.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Boletim de Vacinas em dia protege-nos a nós e aos nossos amigos.",
+        "explanation": "Verdadeiro! O Boletim de Vacinas em dia protege-nos a nós e aos nossos amigos."
+      },
+      {
+        "id": "em_2_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Antes de dormir, devemos evitar o uso de ___ para o cérebro descansar melhor.",
+        "question": "Antes de dormir, devemos evitar o uso de ___ para o cérebro descansar melhor.",
+        "opcoes": [
+          "ecrãs e telemóveis",
+          "livros de histórias",
+          "cama fofa"
+        ],
+        "options": [
+          "ecrãs e telemóveis",
+          "livros de histórias",
+          "cama fofa"
+        ],
+        "resposta": "ecrãs e telemóveis",
+        "correctAnswer": "ecrãs e telemóveis",
+        "explicacao": "A luz azul dos ecrãs desperta a mente e prejudica o sono profundo.",
+        "explanation": "A luz azul dos ecrãs desperta a mente e prejudica o sono profundo."
+      },
+      {
+        "id": "em_2_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas atividades faz muito bem à saúde e ao fortalecimento do coração?",
+        "question": "Qual destas atividades faz muito bem à saúde e ao fortalecimento do coração?",
+        "opcoes": [
+          "⚽ Praticar desporto e brincar ao ar livre",
+          "🛋️ Passar o dia inteiro no sofá",
+          "🍬 Comer rebuçados sem parar"
+        ],
+        "options": [
+          "⚽ Praticar desporto e brincar ao ar livre",
+          "🛋️ Passar o dia inteiro no sofá",
+          "🍬 Comer rebuçados sem parar"
+        ],
+        "resposta": "⚽ Praticar desporto e brincar ao ar livre",
+        "correctAnswer": "⚽ Praticar desporto e brincar ao ar livre",
+        "explicacao": "O exercício físico estimula os músculos e a circulação! ⚽",
+        "explanation": "O exercício físico estimula os músculos e a circulação! ⚽"
+      },
+      {
+        "id": "em_2_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quando temos febre ou estamos doentes, devemos consultar...",
+        "question": "Quando temos febre ou estamos doentes, devemos consultar...",
+        "opcoes": [
+          "O médico / centro de saúde",
+          "O mecânico",
+          "O jardineiro"
+        ],
+        "options": [
+          "O médico / centro de saúde",
+          "O mecânico",
+          "O jardineiro"
+        ],
+        "resposta": "O médico / centro de saúde",
+        "correctAnswer": "O médico / centro de saúde",
+        "explicacao": "O médico avalia os sintomas e receita o tratamento adequado.",
+        "explanation": "O médico avalia os sintomas e receita o tratamento adequado."
+      },
+      {
+        "id": "em_2_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Apanhar ar puro e sol com moderação ajuda o corpo a produzir vitamina D.",
+        "question": "Apanhar ar puro e sol com moderação ajuda o corpo a produzir vitamina D.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Sol com proteção solar é fonte vital de vitamina D para os ossos.",
+        "explanation": "Verdadeiro! O Sol com proteção solar é fonte vital de vitamina D para os ossos."
+      },
+      {
+        "id": "em_2_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que instrumento médico usamos para medir a temperatura e saber se temos febre?",
+        "question": "Que instrumento médico usamos para medir a temperatura e saber se temos febre?",
+        "opcoes": [
+          "Termómetro",
+          "Barómetro",
+          "Régua"
+        ],
+        "options": [
+          "Termómetro",
+          "Barómetro",
+          "Régua"
+        ],
+        "resposta": "Termómetro",
+        "correctAnswer": "Termómetro",
+        "explicacao": "O termómetro mede a temperatura corporal em graus Celsius (°C).",
+        "explanation": "O termómetro mede a temperatura corporal em graus Celsius (°C)."
+      },
+      {
+        "id": "em_2_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o hábito de saúde ao seu benefício:",
+        "question": "Associa o hábito de saúde ao seu benefício:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente compreensão dos pilares da vida saudável!",
+        "explanation": "Excelente compreensão dos pilares da vida saudável!",
+        "pairs": {
+          "Dormir 9 a 10 horas": "Descanso e crescimento do corpo",
+          "Beber água pura": "Hidratação do organismo",
+          "Lavar as mãos antes das refeições": "Eliminação de micróbios",
+          "Praticar natação ou futebol": "Fortalecimento muscular"
+        },
+        "pares": {
+          "Dormir 9 a 10 horas": "Descanso e crescimento do corpo",
+          "Beber água pura": "Hidratação do organismo",
+          "Lavar as mãos antes das refeições": "Eliminação de micróbios",
+          "Praticar natação ou futebol": "Fortalecimento muscular"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f2_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quantas horas deve uma criança da tua idade dormir por noite para acordar bem disposta?",
+        "question": "Quantas horas deve uma criança da tua idade dormir por noite para acordar bem disposta?",
+        "opcoes": [
+          "Cerca de 9 a 10 horas",
+          "2 horas",
+          "15 horas"
+        ],
+        "options": [
+          "Cerca de 9 a 10 horas",
+          "2 horas",
+          "15 horas"
+        ],
+        "resposta": "Cerca de 9 a 10 horas",
+        "correctAnswer": "Cerca de 9 a 10 horas",
+        "explicacao": "Dormir entre 9 a 10 horas recupera a energia do cérebro e ajuda o corpo a crescer!",
+        "explanation": "Dormir entre 9 a 10 horas recupera a energia do cérebro e ajuda o corpo a crescer!"
+      },
+      {
+        "id": "em_2_f2_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As vacinas ensinam o nosso corpo a combater vírus e bactérias antes de ficarmos doentes.",
+        "question": "As vacinas ensinam o nosso corpo a combater vírus e bactérias antes de ficarmos doentes.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Boletim de Vacinas em dia protege-nos a nós e aos nossos amigos.",
+        "explanation": "Verdadeiro! O Boletim de Vacinas em dia protege-nos a nós e aos nossos amigos."
+      },
+      {
+        "id": "em_2_f2_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Antes de dormir, devemos evitar o uso de ___ para o cérebro descansar melhor.",
+        "question": "Antes de dormir, devemos evitar o uso de ___ para o cérebro descansar melhor.",
+        "opcoes": [
+          "ecrãs e telemóveis",
+          "livros de histórias",
+          "cama fofa"
+        ],
+        "options": [
+          "ecrãs e telemóveis",
+          "livros de histórias",
+          "cama fofa"
+        ],
+        "resposta": "ecrãs e telemóveis",
+        "correctAnswer": "ecrãs e telemóveis",
+        "explicacao": "A luz azul dos ecrãs desperta a mente e prejudica o sono profundo.",
+        "explanation": "A luz azul dos ecrãs desperta a mente e prejudica o sono profundo."
+      },
+      {
+        "id": "em_2_f2_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas atividades faz muito bem à saúde e ao fortalecimento do coração?",
+        "question": "Qual destas atividades faz muito bem à saúde e ao fortalecimento do coração?",
+        "opcoes": [
+          "⚽ Praticar desporto e brincar ao ar livre",
+          "🛋️ Passar o dia inteiro no sofá",
+          "🍬 Comer rebuçados sem parar"
+        ],
+        "options": [
+          "⚽ Praticar desporto e brincar ao ar livre",
+          "🛋️ Passar o dia inteiro no sofá",
+          "🍬 Comer rebuçados sem parar"
+        ],
+        "resposta": "⚽ Praticar desporto e brincar ao ar livre",
+        "correctAnswer": "⚽ Praticar desporto e brincar ao ar livre",
+        "explicacao": "O exercício físico estimula os músculos e a circulação! ⚽",
+        "explanation": "O exercício físico estimula os músculos e a circulação! ⚽"
+      },
+      {
+        "id": "em_2_f2_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quando temos febre ou estamos doentes, devemos consultar...",
+        "question": "Quando temos febre ou estamos doentes, devemos consultar...",
+        "opcoes": [
+          "O médico / centro de saúde",
+          "O mecânico",
+          "O jardineiro"
+        ],
+        "options": [
+          "O médico / centro de saúde",
+          "O mecânico",
+          "O jardineiro"
+        ],
+        "resposta": "O médico / centro de saúde",
+        "correctAnswer": "O médico / centro de saúde",
+        "explicacao": "O médico avalia os sintomas e receita o tratamento adequado.",
+        "explanation": "O médico avalia os sintomas e receita o tratamento adequado."
+      },
+      {
+        "id": "em_2_f2_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Apanhar ar puro e sol com moderação ajuda o corpo a produzir vitamina D.",
+        "question": "Apanhar ar puro e sol com moderação ajuda o corpo a produzir vitamina D.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O Sol com proteção solar é fonte vital de vitamina D para os ossos.",
+        "explanation": "Verdadeiro! O Sol com proteção solar é fonte vital de vitamina D para os ossos."
+      },
+      {
+        "id": "em_2_f2_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que instrumento médico usamos para medir a temperatura e saber se temos febre?",
+        "question": "Que instrumento médico usamos para medir a temperatura e saber se temos febre?",
+        "opcoes": [
+          "Termómetro",
+          "Barómetro",
+          "Régua"
+        ],
+        "options": [
+          "Termómetro",
+          "Barómetro",
+          "Régua"
+        ],
+        "resposta": "Termómetro",
+        "correctAnswer": "Termómetro",
+        "explicacao": "O termómetro mede a temperatura corporal em graus Celsius (°C).",
+        "explanation": "O termómetro mede a temperatura corporal em graus Celsius (°C)."
+      },
+      {
+        "id": "em_2_f2_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o hábito de saúde ao seu benefício:",
+        "question": "Associa o hábito de saúde ao seu benefício:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente compreensão dos pilares da vida saudável!",
+        "explanation": "Excelente compreensão dos pilares da vida saudável!",
+        "pairs": {
+          "Dormir 9 a 10 horas": "Descanso e crescimento do corpo",
+          "Beber água pura": "Hidratação do organismo",
+          "Lavar as mãos antes das refeições": "Eliminação de micróbios",
+          "Praticar natação ou futebol": "Fortalecimento muscular"
+        },
+        "pares": {
+          "Dormir 9 a 10 horas": "Descanso e crescimento do corpo",
+          "Beber água pura": "Hidratação do organismo",
+          "Lavar as mãos antes das refeições": "Eliminação de micróbios",
+          "Praticar natação ou futebol": "Fortalecimento muscular"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f3",
+    "numero": 3,
+    "titulo": "Classificação dos Animais: Vertebrados e Invertebrados",
+    "title": "Classificação dos Animais: Vertebrados e Invertebrados",
+    "descricao": "Mamíferos, Aves, Répteis, Peixes, Anfíbios e animais sem esqueleto interno.",
+    "description": "Mamíferos, Aves, Répteis, Peixes, Anfíbios e animais sem esqueleto interno.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🦁",
+    "imageEmoji": "🦁",
+    "exercicios": [
+      {
+        "id": "em_2_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam os animais que possuem esqueleto interno e coluna vertebral?",
+        "question": "Como se chamam os animais que possuem esqueleto interno e coluna vertebral?",
+        "opcoes": [
+          "Vertebrados",
+          "Invertebrados",
+          "Plantas"
+        ],
+        "options": [
+          "Vertebrados",
+          "Invertebrados",
+          "Plantas"
+        ],
+        "resposta": "Vertebrados",
+        "correctAnswer": "Vertebrados",
+        "explicacao": "Os animais com ossos e coluna vertebral são animais vertebrados!",
+        "explanation": "Os animais com ossos e coluna vertebral são animais vertebrados!"
+      },
+      {
+        "id": "em_2_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os mamíferos nascem da barriga da mãe e mamam leite materno quando são bebés.",
+        "question": "Os mamíferos nascem da barriga da mãe e mamam leite materno quando são bebés.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: cão, gato, baleia, leão e o próprio ser humano.",
+        "explanation": "Verdadeiro! Ex: cão, gato, baleia, leão e o próprio ser humano."
+      },
+      {
+        "id": "em_2_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O corpo das aves está coberto de ___ que as ajudam a voar e a manter o calor.",
+        "question": "O corpo das aves está coberto de ___ que as ajudam a voar e a manter o calor.",
+        "opcoes": [
+          "penas",
+          "escamas",
+          "pelos"
+        ],
+        "options": [
+          "penas",
+          "escamas",
+          "pelos"
+        ],
+        "resposta": "penas",
+        "correctAnswer": "penas",
+        "explicacao": "As aves têm penas, asas e bico.",
+        "explanation": "As aves têm penas, asas e bico."
+      },
+      {
+        "id": "em_2_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes animais é um ANFÍBIO que vive na água e na terra com pele nua e húmida?",
+        "question": "Qual destes animais é um ANFÍBIO que vive na água e na terra com pele nua e húmida?",
+        "opcoes": [
+          "🐸 Rã / Sapo",
+          "🦅 Águia",
+          "🦁 Leão"
+        ],
+        "options": [
+          "🐸 Rã / Sapo",
+          "🦅 Águia",
+          "🦁 Leão"
+        ],
+        "resposta": "🐸 Rã / Sapo",
+        "correctAnswer": "🐸 Rã / Sapo",
+        "explicacao": "Os anfíbios têm pele nua e sofrem metamorfose! 🐸",
+        "explanation": "Os anfíbios têm pele nua e sofrem metamorfose! 🐸"
+      },
+      {
+        "id": "em_2_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes animais é um animal INVERTEBRADO (não tem ossos nem coluna)?",
+        "question": "Qual destes animais é um animal INVERTEBRADO (não tem ossos nem coluna)?",
+        "opcoes": [
+          "Caracol",
+          "Cavalo",
+          "Pardal"
+        ],
+        "options": [
+          "Caracol",
+          "Cavalo",
+          "Pardal"
+        ],
+        "resposta": "Caracol",
+        "correctAnswer": "Caracol",
+        "explicacao": "O caracol, a minhoca e o polvo são animais invertebrados.",
+        "explanation": "O caracol, a minhoca e o polvo são animais invertebrados."
+      },
+      {
+        "id": "em_2_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os peixes respiram debaixo de água através das guelras (brânquias).",
+        "question": "Os peixes respiram debaixo de água através das guelras (brânquias).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! As guelras filtram o oxigénio dissolvido na água.",
+        "explanation": "Verdadeiro! As guelras filtram o oxigénio dissolvido na água."
+      },
+      {
+        "id": "em_2_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os répteis (como o lagarto e a tartaruga) têm o corpo coberto por...",
+        "question": "Os répteis (como o lagarto e a tartaruga) têm o corpo coberto por...",
+        "opcoes": [
+          "Escamas secas ou carapaça dura",
+          "Penas macias",
+          "Pelos grossos"
+        ],
+        "options": [
+          "Escamas secas ou carapaça dura",
+          "Penas macias",
+          "Pelos grossos"
+        ],
+        "resposta": "Escamas secas ou carapaça dura",
+        "correctAnswer": "Escamas secas ou carapaça dura",
+        "explicacao": "Têm escamas córneas e põem ovos com casca!",
+        "explanation": "Têm escamas córneas e põem ovos com casca!"
+      },
+      {
+        "id": "em_2_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica cada animal na sua classe de vertebrado:",
+        "question": "Classifica cada animal na sua classe de vertebrado:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns! Classificaste todos os grupos de animais com precisão.",
+        "explanation": "Parabéns! Classificaste todos os grupos de animais com precisão.",
+        "pairs": {
+          "Cão": "Mamífero",
+          "Águia": "Ave",
+          "Sardinha": "Peixe",
+          "Lagarto": "Réptil"
+        },
+        "pares": {
+          "Cão": "Mamífero",
+          "Águia": "Ave",
+          "Sardinha": "Peixe",
+          "Lagarto": "Réptil"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f3_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam os animais que possuem esqueleto interno e coluna vertebral?",
+        "question": "Como se chamam os animais que possuem esqueleto interno e coluna vertebral?",
+        "opcoes": [
+          "Vertebrados",
+          "Invertebrados",
+          "Plantas"
+        ],
+        "options": [
+          "Vertebrados",
+          "Invertebrados",
+          "Plantas"
+        ],
+        "resposta": "Vertebrados",
+        "correctAnswer": "Vertebrados",
+        "explicacao": "Os animais com ossos e coluna vertebral são animais vertebrados!",
+        "explanation": "Os animais com ossos e coluna vertebral são animais vertebrados!"
+      },
+      {
+        "id": "em_2_f3_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os mamíferos nascem da barriga da mãe e mamam leite materno quando são bebés.",
+        "question": "Os mamíferos nascem da barriga da mãe e mamam leite materno quando são bebés.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Ex: cão, gato, baleia, leão e o próprio ser humano.",
+        "explanation": "Verdadeiro! Ex: cão, gato, baleia, leão e o próprio ser humano."
+      },
+      {
+        "id": "em_2_f3_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O corpo das aves está coberto de ___ que as ajudam a voar e a manter o calor.",
+        "question": "O corpo das aves está coberto de ___ que as ajudam a voar e a manter o calor.",
+        "opcoes": [
+          "penas",
+          "escamas",
+          "pelos"
+        ],
+        "options": [
+          "penas",
+          "escamas",
+          "pelos"
+        ],
+        "resposta": "penas",
+        "correctAnswer": "penas",
+        "explicacao": "As aves têm penas, asas e bico.",
+        "explanation": "As aves têm penas, asas e bico."
+      },
+      {
+        "id": "em_2_f3_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes animais é um ANFÍBIO que vive na água e na terra com pele nua e húmida?",
+        "question": "Qual destes animais é um ANFÍBIO que vive na água e na terra com pele nua e húmida?",
+        "opcoes": [
+          "🐸 Rã / Sapo",
+          "🦅 Águia",
+          "🦁 Leão"
+        ],
+        "options": [
+          "🐸 Rã / Sapo",
+          "🦅 Águia",
+          "🦁 Leão"
+        ],
+        "resposta": "🐸 Rã / Sapo",
+        "correctAnswer": "🐸 Rã / Sapo",
+        "explicacao": "Os anfíbios têm pele nua e sofrem metamorfose! 🐸",
+        "explanation": "Os anfíbios têm pele nua e sofrem metamorfose! 🐸"
+      },
+      {
+        "id": "em_2_f3_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual destes animais é um animal INVERTEBRADO (não tem ossos nem coluna)?",
+        "question": "Qual destes animais é um animal INVERTEBRADO (não tem ossos nem coluna)?",
+        "opcoes": [
+          "Caracol",
+          "Cavalo",
+          "Pardal"
+        ],
+        "options": [
+          "Caracol",
+          "Cavalo",
+          "Pardal"
+        ],
+        "resposta": "Caracol",
+        "correctAnswer": "Caracol",
+        "explicacao": "O caracol, a minhoca e o polvo são animais invertebrados.",
+        "explanation": "O caracol, a minhoca e o polvo são animais invertebrados."
+      },
+      {
+        "id": "em_2_f3_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os peixes respiram debaixo de água através das guelras (brânquias).",
+        "question": "Os peixes respiram debaixo de água através das guelras (brânquias).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! As guelras filtram o oxigénio dissolvido na água.",
+        "explanation": "Verdadeiro! As guelras filtram o oxigénio dissolvido na água."
+      },
+      {
+        "id": "em_2_f3_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os répteis (como o lagarto e a tartaruga) têm o corpo coberto por...",
+        "question": "Os répteis (como o lagarto e a tartaruga) têm o corpo coberto por...",
+        "opcoes": [
+          "Escamas secas ou carapaça dura",
+          "Penas macias",
+          "Pelos grossos"
+        ],
+        "options": [
+          "Escamas secas ou carapaça dura",
+          "Penas macias",
+          "Pelos grossos"
+        ],
+        "resposta": "Escamas secas ou carapaça dura",
+        "correctAnswer": "Escamas secas ou carapaça dura",
+        "explicacao": "Têm escamas córneas e põem ovos com casca!",
+        "explanation": "Têm escamas córneas e põem ovos com casca!"
+      },
+      {
+        "id": "em_2_f3_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Classifica cada animal na sua classe de vertebrado:",
+        "question": "Classifica cada animal na sua classe de vertebrado:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns! Classificaste todos os grupos de animais com precisão.",
+        "explanation": "Parabéns! Classificaste todos os grupos de animais com precisão.",
+        "pairs": {
+          "Cão": "Mamífero",
+          "Águia": "Ave",
+          "Sardinha": "Peixe",
+          "Lagarto": "Réptil"
+        },
+        "pares": {
+          "Cão": "Mamífero",
+          "Águia": "Ave",
+          "Sardinha": "Peixe",
+          "Lagarto": "Réptil"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f4",
+    "numero": 4,
+    "titulo": "Alimentação e Locomoção dos Animais",
+    "title": "Alimentação e Locomoção dos Animais",
+    "descricao": "Carnívoros, herbívoros, omnívoros e como se deslocam (voar, nadar, rastejar, marchar).",
+    "description": "Carnívoros, herbívoros, omnívoros e como se deslocam (voar, nadar, rastejar, marchar).",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🐾",
+    "imageEmoji": "🐾",
+    "exercicios": [
+      {
+        "id": "em_2_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Um animal que se alimenta exclusivamente de plantas e erva chama-se...",
+        "question": "Um animal que se alimenta exclusivamente de plantas e erva chama-se...",
+        "opcoes": [
+          "Herbívoro",
+          "Carnívoro",
+          "Omnívoro"
+        ],
+        "options": [
+          "Herbívoro",
+          "Carnívoro",
+          "Omnívoro"
+        ],
+        "resposta": "Herbívoro",
+        "correctAnswer": "Herbívoro",
+        "explicacao": "A vaca, o coelho e a ovelha são animais herbívoros!",
+        "explanation": "A vaca, o coelho e a ovelha são animais herbívoros!"
+      },
+      {
+        "id": "em_2_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O ser humano e o porco são animais omnívoros porque comem alimentos de origem vegetal e animal.",
+        "question": "O ser humano e o porco são animais omnívoros porque comem alimentos de origem vegetal e animal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os omnívoros têm uma dieta variada com plantas e carne.",
+        "explanation": "Verdadeiro! Os omnívoros têm uma dieta variada com plantas e carne."
+      },
+      {
+        "id": "em_2_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A cobra não tem patas, por isso desloca-se a ___ pelo chão.",
+        "question": "A cobra não tem patas, por isso desloca-se a ___ pelo chão.",
+        "opcoes": [
+          "rastejar",
+          "voar",
+          "marchar"
+        ],
+        "options": [
+          "rastejar",
+          "voar",
+          "marchar"
+        ],
+        "resposta": "rastejar",
+        "correctAnswer": "rastejar",
+        "explicacao": "A serpente rasteja ondulando o seu corpo longo.",
+        "explanation": "A serpente rasteja ondulando o seu corpo longo."
+      },
+      {
+        "id": "em_2_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes animais é um CARNÍVORO feroz que caça presas para se alimentar?",
+        "question": "Qual destes animais é um CARNÍVORO feroz que caça presas para se alimentar?",
+        "opcoes": [
+          "🐯 Tigre / Leão",
+          "🐰 Coelho",
+          "🐴 Cavalo"
+        ],
+        "options": [
+          "🐯 Tigre / Leão",
+          "🐰 Coelho",
+          "🐴 Cavalo"
+        ],
+        "resposta": "🐯 Tigre / Leão",
+        "correctAnswer": "🐯 Tigre / Leão",
+        "explicacao": "Os grandes felinos são carnívoros predadores! 🐯",
+        "explanation": "Os grandes felinos são carnívoros predadores! 🐯"
+      },
+      {
+        "id": "em_2_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se desloca o golfinho e o tubarão no oceano?",
+        "question": "Como se desloca o golfinho e o tubarão no oceano?",
+        "opcoes": [
+          "A nadar com barbatanas",
+          "A saltar com 4 patas",
+          "A voar no céu"
+        ],
+        "options": [
+          "A nadar com barbatanas",
+          "A saltar com 4 patas",
+          "A voar no céu"
+        ],
+        "resposta": "A nadar com barbatanas",
+        "correctAnswer": "A nadar com barbatanas",
+        "explicacao": "Nadam velozmente com a propulsão das suas barbatanas caudais.",
+        "explanation": "Nadam velozmente com a propulsão das suas barbatanas caudais."
+      },
+      {
+        "id": "em_2_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os morcegos são mamíferos que conseguem voar graças às suas asas membranosas.",
+        "question": "Os morcegos são mamíferos que conseguem voar graças às suas asas membranosas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O morcego é o único mamífero com voo ativo sustentado.",
+        "explanation": "Verdadeiro! O morcego é o único mamífero com voo ativo sustentado."
+      },
+      {
+        "id": "em_2_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O canguru e a rã deslocam-se principalmente aos...",
+        "question": "O canguru e a rã deslocam-se principalmente aos...",
+        "opcoes": [
+          "Saltos",
+          "Passos lentos",
+          "Rastejando"
+        ],
+        "options": [
+          "Saltos",
+          "Passos lentos",
+          "Rastejando"
+        ],
+        "resposta": "Saltos",
+        "correctAnswer": "Saltos",
+        "explicacao": "Têm membros posteriores fortes e compridos adaptados ao salto.",
+        "explanation": "Têm membros posteriores fortes e compridos adaptados ao salto."
+      },
+      {
+        "id": "em_2_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o animal ao seu tipo de alimentação:",
+        "question": "Associa o animal ao seu tipo de alimentação:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente classificação dos regimes alimentares dos animais!",
+        "explanation": "Excelente classificação dos regimes alimentares dos animais!",
+        "pairs": {
+          "Vaca": "Herbívoro (come erva)",
+          "Lobo": "Carnívoro (come carne)",
+          "Urso": "Omnívoro (come peixe, frutos e bagas)",
+          "Águia": "Carnívoro (caça pequenos animais)"
+        },
+        "pares": {
+          "Vaca": "Herbívoro (come erva)",
+          "Lobo": "Carnívoro (come carne)",
+          "Urso": "Omnívoro (come peixe, frutos e bagas)",
+          "Águia": "Carnívoro (caça pequenos animais)"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f4_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Um animal que se alimenta exclusivamente de plantas e erva chama-se...",
+        "question": "Um animal que se alimenta exclusivamente de plantas e erva chama-se...",
+        "opcoes": [
+          "Herbívoro",
+          "Carnívoro",
+          "Omnívoro"
+        ],
+        "options": [
+          "Herbívoro",
+          "Carnívoro",
+          "Omnívoro"
+        ],
+        "resposta": "Herbívoro",
+        "correctAnswer": "Herbívoro",
+        "explicacao": "A vaca, o coelho e a ovelha são animais herbívoros!",
+        "explanation": "A vaca, o coelho e a ovelha são animais herbívoros!"
+      },
+      {
+        "id": "em_2_f4_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O ser humano e o porco são animais omnívoros porque comem alimentos de origem vegetal e animal.",
+        "question": "O ser humano e o porco são animais omnívoros porque comem alimentos de origem vegetal e animal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os omnívoros têm uma dieta variada com plantas e carne.",
+        "explanation": "Verdadeiro! Os omnívoros têm uma dieta variada com plantas e carne."
+      },
+      {
+        "id": "em_2_f4_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A cobra não tem patas, por isso desloca-se a ___ pelo chão.",
+        "question": "A cobra não tem patas, por isso desloca-se a ___ pelo chão.",
+        "opcoes": [
+          "rastejar",
+          "voar",
+          "marchar"
+        ],
+        "options": [
+          "rastejar",
+          "voar",
+          "marchar"
+        ],
+        "resposta": "rastejar",
+        "correctAnswer": "rastejar",
+        "explicacao": "A serpente rasteja ondulando o seu corpo longo.",
+        "explanation": "A serpente rasteja ondulando o seu corpo longo."
+      },
+      {
+        "id": "em_2_f4_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes animais é um CARNÍVORO feroz que caça presas para se alimentar?",
+        "question": "Qual destes animais é um CARNÍVORO feroz que caça presas para se alimentar?",
+        "opcoes": [
+          "🐯 Tigre / Leão",
+          "🐰 Coelho",
+          "🐴 Cavalo"
+        ],
+        "options": [
+          "🐯 Tigre / Leão",
+          "🐰 Coelho",
+          "🐴 Cavalo"
+        ],
+        "resposta": "🐯 Tigre / Leão",
+        "correctAnswer": "🐯 Tigre / Leão",
+        "explicacao": "Os grandes felinos são carnívoros predadores! 🐯",
+        "explanation": "Os grandes felinos são carnívoros predadores! 🐯"
+      },
+      {
+        "id": "em_2_f4_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se desloca o golfinho e o tubarão no oceano?",
+        "question": "Como se desloca o golfinho e o tubarão no oceano?",
+        "opcoes": [
+          "A nadar com barbatanas",
+          "A saltar com 4 patas",
+          "A voar no céu"
+        ],
+        "options": [
+          "A nadar com barbatanas",
+          "A saltar com 4 patas",
+          "A voar no céu"
+        ],
+        "resposta": "A nadar com barbatanas",
+        "correctAnswer": "A nadar com barbatanas",
+        "explicacao": "Nadam velozmente com a propulsão das suas barbatanas caudais.",
+        "explanation": "Nadam velozmente com a propulsão das suas barbatanas caudais."
+      },
+      {
+        "id": "em_2_f4_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Os morcegos são mamíferos que conseguem voar graças às suas asas membranosas.",
+        "question": "Os morcegos são mamíferos que conseguem voar graças às suas asas membranosas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O morcego é o único mamífero com voo ativo sustentado.",
+        "explanation": "Verdadeiro! O morcego é o único mamífero com voo ativo sustentado."
+      },
+      {
+        "id": "em_2_f4_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O canguru e a rã deslocam-se principalmente aos...",
+        "question": "O canguru e a rã deslocam-se principalmente aos...",
+        "opcoes": [
+          "Saltos",
+          "Passos lentos",
+          "Rastejando"
+        ],
+        "options": [
+          "Saltos",
+          "Passos lentos",
+          "Rastejando"
+        ],
+        "resposta": "Saltos",
+        "correctAnswer": "Saltos",
+        "explicacao": "Têm membros posteriores fortes e compridos adaptados ao salto.",
+        "explanation": "Têm membros posteriores fortes e compridos adaptados ao salto."
+      },
+      {
+        "id": "em_2_f4_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o animal ao seu tipo de alimentação:",
+        "question": "Associa o animal ao seu tipo de alimentação:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente classificação dos regimes alimentares dos animais!",
+        "explanation": "Excelente classificação dos regimes alimentares dos animais!",
+        "pairs": {
+          "Vaca": "Herbívoro (come erva)",
+          "Lobo": "Carnívoro (come carne)",
+          "Urso": "Omnívoro (come peixe, frutos e bagas)",
+          "Águia": "Carnívoro (caça pequenos animais)"
+        },
+        "pares": {
+          "Vaca": "Herbívoro (come erva)",
+          "Lobo": "Carnívoro (come carne)",
+          "Urso": "Omnívoro (come peixe, frutos e bagas)",
+          "Águia": "Carnívoro (caça pequenos animais)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f5",
+    "numero": 5,
+    "titulo": "As Plantas: Órgãos e Ciclo de Vida",
+    "title": "As Plantas: Órgãos e Ciclo de Vida",
+    "descricao": "Raiz, caule, folhas, flores, frutos, árvores de folha caduca e persistente.",
+    "description": "Raiz, caule, folhas, flores, frutos, árvores de folha caduca e persistente.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🌱",
+    "imageEmoji": "🌱",
+    "exercicios": [
+      {
+        "id": "em_2_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a parte da planta que fica debaixo da terra e absorve água e sais minerais?",
+        "question": "Qual é a parte da planta que fica debaixo da terra e absorve água e sais minerais?",
+        "opcoes": [
+          "Raiz",
+          "Flor",
+          "Caule"
+        ],
+        "options": [
+          "Raiz",
+          "Flor",
+          "Caule"
+        ],
+        "resposta": "Raiz",
+        "correctAnswer": "Raiz",
+        "explicacao": "A raiz fixa a planta ao solo e suga a água e nutrientes indispensáveis!",
+        "explanation": "A raiz fixa a planta ao solo e suga a água e nutrientes indispensáveis!"
+      },
+      {
+        "id": "em_2_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O caule (tronco) transporta a seiva da raiz até às folhas e sustenta os ramos.",
+        "question": "O caule (tronco) transporta a seiva da raiz até às folhas e sustenta os ramos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O caule é a coluna de transporte da planta.",
+        "explanation": "Verdadeiro! O caule é a coluna de transporte da planta."
+      },
+      {
+        "id": "em_2_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "As árvores que perdem todas as folhas no Outono chamam-se árvores de folha ___",
+        "question": "As árvores que perdem todas as folhas no Outono chamam-se árvores de folha ___",
+        "opcoes": [
+          "caduca",
+          "persistente",
+          "eterna"
+        ],
+        "options": [
+          "caduca",
+          "persistente",
+          "eterna"
+        ],
+        "resposta": "caduca",
+        "correctAnswer": "caduca",
+        "explicacao": "Folha caduca: cai no outono/inverno. Folha persistente: fica verde o ano todo.",
+        "explanation": "Folha caduca: cai no outono/inverno. Folha persistente: fica verde o ano todo."
+      },
+      {
+        "id": "em_2_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que órgão da planta se transforma em FRUTO após ser polinizado?",
+        "question": "Que órgão da planta se transforma em FRUTO após ser polinizado?",
+        "opcoes": [
+          "🌸 Flor",
+          "🍂 Raiz",
+          "🪵 Casca"
+        ],
+        "options": [
+          "🌸 Flor",
+          "🍂 Raiz",
+          "🪵 Casca"
+        ],
+        "resposta": "🌸 Flor",
+        "correctAnswer": "🌸 Flor",
+        "explicacao": "A flor murcha e o seu ovário desenvolve-se no fruto suculento com sementes! 🌸",
+        "explanation": "A flor murcha e o seu ovário desenvolve-se no fruto suculento com sementes! 🌸"
+      },
+      {
+        "id": "em_2_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O pinheiro e o sobreiro mantêm as folhas verdes o ano todo. São árvores de folha...",
+        "question": "O pinheiro e o sobreiro mantêm as folhas verdes o ano todo. São árvores de folha...",
+        "opcoes": [
+          "Persistente",
+          "Caduca",
+          "Seca"
+        ],
+        "options": [
+          "Persistente",
+          "Caduca",
+          "Seca"
+        ],
+        "resposta": "Persistente",
+        "correctAnswer": "Persistente",
+        "explicacao": "Não perdem a folhagem toda ao mesmo tempo.",
+        "explanation": "Não perdem a folhagem toda ao mesmo tempo."
+      },
+      {
+        "id": "em_2_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As plantas produzem oxigénio limpo para nós respirarmos através da luz solar.",
+        "question": "As plantas produzem oxigénio limpo para nós respirarmos através da luz solar.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! As plantas são os grandes pulmões verdes do planeta Terra.",
+        "explanation": "Verdadeiro! As plantas são os grandes pulmões verdes do planeta Terra."
+      },
+      {
+        "id": "em_2_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "De onde nascem novas plantas na natureza?",
+        "question": "De onde nascem novas plantas na natureza?",
+        "opcoes": [
+          "Das sementes que caem na terra fértil",
+          "De pedras",
+          "De moedas"
+        ],
+        "options": [
+          "Das sementes que caem na terra fértil",
+          "De pedras",
+          "De moedas"
+        ],
+        "resposta": "Das sementes que caem na terra fértil",
+        "correctAnswer": "Das sementes que caem na terra fértil",
+        "explicacao": "A semente germina com humidade e calor e dá origem a uma nova plantinha!",
+        "explanation": "A semente germina com humidade e calor e dá origem a uma nova plantinha!"
+      },
+      {
+        "id": "em_2_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a parte da planta à sua função vital:",
+        "question": "Associa a parte da planta à sua função vital:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecimento botânico impecável!",
+        "explanation": "Conhecimento botânico impecável!",
+        "pairs": {
+          "Raiz": "Fixação e absorção de água",
+          "Folhas": "Respiração e captação de luz",
+          "Caule / Tronco": "Sustentação e transporte de seiva",
+          "Fruto": "Proteção das sementes"
+        },
+        "pares": {
+          "Raiz": "Fixação e absorção de água",
+          "Folhas": "Respiração e captação de luz",
+          "Caule / Tronco": "Sustentação e transporte de seiva",
+          "Fruto": "Proteção das sementes"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f5_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a parte da planta que fica debaixo da terra e absorve água e sais minerais?",
+        "question": "Qual é a parte da planta que fica debaixo da terra e absorve água e sais minerais?",
+        "opcoes": [
+          "Raiz",
+          "Flor",
+          "Caule"
+        ],
+        "options": [
+          "Raiz",
+          "Flor",
+          "Caule"
+        ],
+        "resposta": "Raiz",
+        "correctAnswer": "Raiz",
+        "explicacao": "A raiz fixa a planta ao solo e suga a água e nutrientes indispensáveis!",
+        "explanation": "A raiz fixa a planta ao solo e suga a água e nutrientes indispensáveis!"
+      },
+      {
+        "id": "em_2_f5_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O caule (tronco) transporta a seiva da raiz até às folhas e sustenta os ramos.",
+        "question": "O caule (tronco) transporta a seiva da raiz até às folhas e sustenta os ramos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O caule é a coluna de transporte da planta.",
+        "explanation": "Verdadeiro! O caule é a coluna de transporte da planta."
+      },
+      {
+        "id": "em_2_f5_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "As árvores que perdem todas as folhas no Outono chamam-se árvores de folha ___",
+        "question": "As árvores que perdem todas as folhas no Outono chamam-se árvores de folha ___",
+        "opcoes": [
+          "caduca",
+          "persistente",
+          "eterna"
+        ],
+        "options": [
+          "caduca",
+          "persistente",
+          "eterna"
+        ],
+        "resposta": "caduca",
+        "correctAnswer": "caduca",
+        "explicacao": "Folha caduca: cai no outono/inverno. Folha persistente: fica verde o ano todo.",
+        "explanation": "Folha caduca: cai no outono/inverno. Folha persistente: fica verde o ano todo."
+      },
+      {
+        "id": "em_2_f5_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que órgão da planta se transforma em FRUTO após ser polinizado?",
+        "question": "Que órgão da planta se transforma em FRUTO após ser polinizado?",
+        "opcoes": [
+          "🌸 Flor",
+          "🍂 Raiz",
+          "🪵 Casca"
+        ],
+        "options": [
+          "🌸 Flor",
+          "🍂 Raiz",
+          "🪵 Casca"
+        ],
+        "resposta": "🌸 Flor",
+        "correctAnswer": "🌸 Flor",
+        "explicacao": "A flor murcha e o seu ovário desenvolve-se no fruto suculento com sementes! 🌸",
+        "explanation": "A flor murcha e o seu ovário desenvolve-se no fruto suculento com sementes! 🌸"
+      },
+      {
+        "id": "em_2_f5_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O pinheiro e o sobreiro mantêm as folhas verdes o ano todo. São árvores de folha...",
+        "question": "O pinheiro e o sobreiro mantêm as folhas verdes o ano todo. São árvores de folha...",
+        "opcoes": [
+          "Persistente",
+          "Caduca",
+          "Seca"
+        ],
+        "options": [
+          "Persistente",
+          "Caduca",
+          "Seca"
+        ],
+        "resposta": "Persistente",
+        "correctAnswer": "Persistente",
+        "explicacao": "Não perdem a folhagem toda ao mesmo tempo.",
+        "explanation": "Não perdem a folhagem toda ao mesmo tempo."
+      },
+      {
+        "id": "em_2_f5_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "As plantas produzem oxigénio limpo para nós respirarmos através da luz solar.",
+        "question": "As plantas produzem oxigénio limpo para nós respirarmos através da luz solar.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! As plantas são os grandes pulmões verdes do planeta Terra.",
+        "explanation": "Verdadeiro! As plantas são os grandes pulmões verdes do planeta Terra."
+      },
+      {
+        "id": "em_2_f5_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "De onde nascem novas plantas na natureza?",
+        "question": "De onde nascem novas plantas na natureza?",
+        "opcoes": [
+          "Das sementes que caem na terra fértil",
+          "De pedras",
+          "De moedas"
+        ],
+        "options": [
+          "Das sementes que caem na terra fértil",
+          "De pedras",
+          "De moedas"
+        ],
+        "resposta": "Das sementes que caem na terra fértil",
+        "correctAnswer": "Das sementes que caem na terra fértil",
+        "explicacao": "A semente germina com humidade e calor e dá origem a uma nova plantinha!",
+        "explanation": "A semente germina com humidade e calor e dá origem a uma nova plantinha!"
+      },
+      {
+        "id": "em_2_f5_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a parte da planta à sua função vital:",
+        "question": "Associa a parte da planta à sua função vital:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecimento botânico impecável!",
+        "explanation": "Conhecimento botânico impecável!",
+        "pairs": {
+          "Raiz": "Fixação e absorção de água",
+          "Folhas": "Respiração e captação de luz",
+          "Caule / Tronco": "Sustentação e transporte de seiva",
+          "Fruto": "Proteção das sementes"
+        },
+        "pares": {
+          "Raiz": "Fixação e absorção de água",
+          "Folhas": "Respiração e captação de luz",
+          "Caule / Tronco": "Sustentação e transporte de seiva",
+          "Fruto": "Proteção das sementes"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f6",
+    "numero": 6,
+    "titulo": "A Água na Natureza e os seus Estados Físicos",
+    "title": "A Água na Natureza e os seus Estados Físicos",
+    "descricao": "Sólido, líquido, gasoso, evaporação, condensação e o ciclo da água.",
+    "description": "Sólido, líquido, gasoso, evaporação, condensação e o ciclo da água.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "💧",
+    "imageEmoji": "💧",
+    "exercicios": [
+      {
+        "id": "em_2_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em que estado físico se encontra o gelo e a neve nas montanhas frias?",
+        "question": "Em que estado físico se encontra o gelo e a neve nas montanhas frias?",
+        "opcoes": [
+          "Estado Sólido",
+          "Estado Líquido",
+          "Estado Gasoso"
+        ],
+        "options": [
+          "Estado Sólido",
+          "Estado Líquido",
+          "Estado Gasoso"
+        ],
+        "resposta": "Estado Sólido",
+        "correctAnswer": "Estado Sólido",
+        "explicacao": "O gelo é a água no estado sólido, com forma rígida!",
+        "explanation": "O gelo é a água no estado sólido, com forma rígida!"
+      },
+      {
+        "id": "em_2_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A água do mar e dos rios evapora com o calor do Sol e sobe ao céu sob a forma de vapor de água.",
+        "question": "A água do mar e dos rios evapora com o calor do Sol e sobe ao céu sob a forma de vapor de água.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É o fenómeno da evaporação.",
+        "explanation": "Verdadeiro! É o fenómeno da evaporação."
+      },
+      {
+        "id": "em_2_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Quando o vapor de água arrefece no céu e forma nuvens com gotinhas, dá-se a ___",
+        "question": "Quando o vapor de água arrefece no céu e forma nuvens com gotinhas, dá-se a ___",
+        "opcoes": [
+          "Condensação",
+          "Fervura",
+          "Congelação"
+        ],
+        "options": [
+          "Condensação",
+          "Fervura",
+          "Congelação"
+        ],
+        "resposta": "Condensação",
+        "correctAnswer": "Condensação",
+        "explicacao": "O vapor transforma-se de novo em gotinhas líquidas (nuvens) por condensação.",
+        "explanation": "O vapor transforma-se de novo em gotinhas líquidas (nuvens) por condensação."
+      },
+      {
+        "id": "em_2_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas imagens representa a água em Estado Líquido?",
+        "question": "Qual destas imagens representa a água em Estado Líquido?",
+        "opcoes": [
+          "🌊 Onda do mar / Rio",
+          "🧊 Cubos de gelo",
+          "💨 Fumo de vapor na panela"
+        ],
+        "options": [
+          "🌊 Onda do mar / Rio",
+          "🧊 Cubos de gelo",
+          "💨 Fumo de vapor na panela"
+        ],
+        "resposta": "🌊 Onda do mar / Rio",
+        "correctAnswer": "🌊 Onda do mar / Rio",
+        "explicacao": "A água corrente dos rios e mares está no estado líquido! 🌊",
+        "explanation": "A água corrente dos rios e mares está no estado líquido! 🌊"
+      },
+      {
+        "id": "em_2_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o fenómeno em que as gotas das nuvens caem sobre a terra?",
+        "question": "Como se chama o fenómeno em que as gotas das nuvens caem sobre a terra?",
+        "resposta": "Precipitação (Chuva)",
+        "correctAnswer": "Precipitação (Chuva)",
+        "explicacao": "A chuva, granizo ou neve são formas de precipitação.",
+        "explanation": "A chuva, granizo ou neve são formas de precipitação."
+      },
+      {
+        "id": "em_2_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Devemos fechar a torneira enquanto lavamos os dentes para poupar este recurso precioso.",
+        "question": "Devemos fechar a torneira enquanto lavamos os dentes para poupar este recurso precioso.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A água potável é finita e devemos evitar qualquer desperdício.",
+        "explanation": "Verdadeiro! A água potável é finita e devemos evitar qualquer desperdício."
+      },
+      {
+        "id": "em_2_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A água potável é aquela que...",
+        "question": "A água potável é aquela que...",
+        "opcoes": [
+          "É pura, limpa e própria para beber sem perigo",
+          "Tem sal do mar",
+          "Tem sabão da máquina"
+        ],
+        "options": [
+          "É pura, limpa e própria para beber sem perigo",
+          "Tem sal do mar",
+          "Tem sabão da máquina"
+        ],
+        "resposta": "É pura, limpa e própria para beber sem perigo",
+        "correctAnswer": "É pura, limpa e própria para beber sem perigo",
+        "explicacao": "A água potável é tratada e segura para a saúde humana.",
+        "explanation": "A água potável é tratada e segura para a saúde humana."
+      },
+      {
+        "id": "em_2_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as etapas do ciclo da água:",
+        "question": "Associa as etapas do ciclo da água:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito! Compreendes o ciclo infinito da água na Terra.",
+        "explanation": "Perfeito! Compreendes o ciclo infinito da água na Terra.",
+        "pairs": {
+          "Evaporação": "A água sobe com o calor do Sol",
+          "Condensação": "Formação das nuvens no céu",
+          "Precipitação": "Queda da chuva sobre a terra",
+          "Infiltração": "A água penetra no solo e lençóis freáticos"
+        },
+        "pares": {
+          "Evaporação": "A água sobe com o calor do Sol",
+          "Condensação": "Formação das nuvens no céu",
+          "Precipitação": "Queda da chuva sobre a terra",
+          "Infiltração": "A água penetra no solo e lençóis freáticos"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f6_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Em que estado físico se encontra o gelo e a neve nas montanhas frias?",
+        "question": "Em que estado físico se encontra o gelo e a neve nas montanhas frias?",
+        "opcoes": [
+          "Estado Sólido",
+          "Estado Líquido",
+          "Estado Gasoso"
+        ],
+        "options": [
+          "Estado Sólido",
+          "Estado Líquido",
+          "Estado Gasoso"
+        ],
+        "resposta": "Estado Sólido",
+        "correctAnswer": "Estado Sólido",
+        "explicacao": "O gelo é a água no estado sólido, com forma rígida!",
+        "explanation": "O gelo é a água no estado sólido, com forma rígida!"
+      },
+      {
+        "id": "em_2_f6_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A água do mar e dos rios evapora com o calor do Sol e sobe ao céu sob a forma de vapor de água.",
+        "question": "A água do mar e dos rios evapora com o calor do Sol e sobe ao céu sob a forma de vapor de água.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É o fenómeno da evaporação.",
+        "explanation": "Verdadeiro! É o fenómeno da evaporação."
+      },
+      {
+        "id": "em_2_f6_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Quando o vapor de água arrefece no céu e forma nuvens com gotinhas, dá-se a ___",
+        "question": "Quando o vapor de água arrefece no céu e forma nuvens com gotinhas, dá-se a ___",
+        "opcoes": [
+          "Condensação",
+          "Fervura",
+          "Congelação"
+        ],
+        "options": [
+          "Condensação",
+          "Fervura",
+          "Congelação"
+        ],
+        "resposta": "Condensação",
+        "correctAnswer": "Condensação",
+        "explicacao": "O vapor transforma-se de novo em gotinhas líquidas (nuvens) por condensação.",
+        "explanation": "O vapor transforma-se de novo em gotinhas líquidas (nuvens) por condensação."
+      },
+      {
+        "id": "em_2_f6_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destas imagens representa a água em Estado Líquido?",
+        "question": "Qual destas imagens representa a água em Estado Líquido?",
+        "opcoes": [
+          "🌊 Onda do mar / Rio",
+          "🧊 Cubos de gelo",
+          "💨 Fumo de vapor na panela"
+        ],
+        "options": [
+          "🌊 Onda do mar / Rio",
+          "🧊 Cubos de gelo",
+          "💨 Fumo de vapor na panela"
+        ],
+        "resposta": "🌊 Onda do mar / Rio",
+        "correctAnswer": "🌊 Onda do mar / Rio",
+        "explicacao": "A água corrente dos rios e mares está no estado líquido! 🌊",
+        "explanation": "A água corrente dos rios e mares está no estado líquido! 🌊"
+      },
+      {
+        "id": "em_2_f6_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama o fenómeno em que as gotas das nuvens caem sobre a terra?",
+        "question": "Como se chama o fenómeno em que as gotas das nuvens caem sobre a terra?",
+        "resposta": "Precipitação (Chuva)",
+        "correctAnswer": "Precipitação (Chuva)",
+        "explicacao": "A chuva, granizo ou neve são formas de precipitação.",
+        "explanation": "A chuva, granizo ou neve são formas de precipitação."
+      },
+      {
+        "id": "em_2_f6_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Devemos fechar a torneira enquanto lavamos os dentes para poupar este recurso precioso.",
+        "question": "Devemos fechar a torneira enquanto lavamos os dentes para poupar este recurso precioso.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A água potável é finita e devemos evitar qualquer desperdício.",
+        "explanation": "Verdadeiro! A água potável é finita e devemos evitar qualquer desperdício."
+      },
+      {
+        "id": "em_2_f6_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A água potável é aquela que...",
+        "question": "A água potável é aquela que...",
+        "opcoes": [
+          "É pura, limpa e própria para beber sem perigo",
+          "Tem sal do mar",
+          "Tem sabão da máquina"
+        ],
+        "options": [
+          "É pura, limpa e própria para beber sem perigo",
+          "Tem sal do mar",
+          "Tem sabão da máquina"
+        ],
+        "resposta": "É pura, limpa e própria para beber sem perigo",
+        "correctAnswer": "É pura, limpa e própria para beber sem perigo",
+        "explicacao": "A água potável é tratada e segura para a saúde humana.",
+        "explanation": "A água potável é tratada e segura para a saúde humana."
+      },
+      {
+        "id": "em_2_f6_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa as etapas do ciclo da água:",
+        "question": "Associa as etapas do ciclo da água:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Perfeito! Compreendes o ciclo infinito da água na Terra.",
+        "explanation": "Perfeito! Compreendes o ciclo infinito da água na Terra.",
+        "pairs": {
+          "Evaporação": "A água sobe com o calor do Sol",
+          "Condensação": "Formação das nuvens no céu",
+          "Precipitação": "Queda da chuva sobre a terra",
+          "Infiltração": "A água penetra no solo e lençóis freáticos"
+        },
+        "pares": {
+          "Evaporação": "A água sobe com o calor do Sol",
+          "Condensação": "Formação das nuvens no céu",
+          "Precipitação": "Queda da chuva sobre a terra",
+          "Infiltração": "A água penetra no solo e lençóis freáticos"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f7",
+    "numero": 7,
+    "titulo": "O Ar, o Vento e a Atmosfera",
+    "title": "O Ar, o Vento e a Atmosfera",
+    "descricao": "O ar invisível que nos rodeia, o vento em movimento e a proteção contra a poluição.",
+    "description": "O ar invisível que nos rodeia, o vento em movimento e a proteção contra a poluição.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "💨",
+    "imageEmoji": "💨",
+    "exercicios": [
+      {
+        "id": "em_2_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que é o VENTO na natureza?",
+        "question": "O que é o VENTO na natureza?",
+        "opcoes": [
+          "O ar em movimento",
+          "Uma nuvem que caiu",
+          "Uma árvore a abanar"
+        ],
+        "options": [
+          "O ar em movimento",
+          "Uma nuvem que caiu",
+          "Uma árvore a abanar"
+        ],
+        "resposta": "O ar em movimento",
+        "correctAnswer": "O ar em movimento",
+        "explicacao": "O vento é simplesmente o ar a deslocar-se de um local para o outro!",
+        "explanation": "O vento é simplesmente o ar a deslocar-se de um local para o outro!"
+      },
+      {
+        "id": "em_2_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O ar não se vê mas ocupa espaço (ex: quando enchemos um balão de ar).",
+        "question": "O ar não se vê mas ocupa espaço (ex: quando enchemos um balão de ar).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O ar tem massa e ocupa o interior do balão.",
+        "explanation": "Verdadeiro! O ar tem massa e ocupa o interior do balão."
+      },
+      {
+        "id": "em_2_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O gás presente no ar que os seres humanos precisam de respirar para viver chama-se ___",
+        "question": "O gás presente no ar que os seres humanos precisam de respirar para viver chama-se ___",
+        "opcoes": [
+          "Oxigénio",
+          "Fumo",
+          "Vapor de azeite"
+        ],
+        "options": [
+          "Oxigénio",
+          "Fumo",
+          "Vapor de azeite"
+        ],
+        "resposta": "Oxigénio",
+        "correctAnswer": "Oxigénio",
+        "explicacao": "O oxigénio (O2) é essencial à respiração de animais e pessoas.",
+        "explanation": "O oxigénio (O2) é essencial à respiração de animais e pessoas."
+      },
+      {
+        "id": "em_2_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que aparelho limpo usa a força do vento para produzir eletricidade verde?",
+        "question": "Que aparelho limpo usa a força do vento para produzir eletricidade verde?",
+        "opcoes": [
+          "🌬️ Aerogerador / Moinho de vento eólico",
+          "🏭 Chaminé com fumo preto",
+          "🚗 Escape de carro"
+        ],
+        "options": [
+          "🌬️ Aerogerador / Moinho de vento eólico",
+          "🏭 Chaminé com fumo preto",
+          "🚗 Escape de carro"
+        ],
+        "resposta": "🌬️ Aerogerador / Moinho de vento eólico",
+        "correctAnswer": "🌬️ Aerogerador / Moinho de vento eólico",
+        "explicacao": "A energia eólica aproveita o vento sem poluir o planeta! 🌬️",
+        "explanation": "A energia eólica aproveita o vento sem poluir o planeta! 🌬️"
+      },
+      {
+        "id": "em_2_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como podemos ajudar a manter o ar das nossas cidades mais limpo?",
+        "question": "Como podemos ajudar a manter o ar das nossas cidades mais limpo?",
+        "opcoes": [
+          "Andar mais a pé, de bicicleta e de transportes públicos",
+          "Queimar plásticos na rua",
+          "Andar sempre sozinho de carro grande"
+        ],
+        "options": [
+          "Andar mais a pé, de bicicleta e de transportes públicos",
+          "Queimar plásticos na rua",
+          "Andar sempre sozinho de carro grande"
+        ],
+        "resposta": "Andar mais a pé, de bicicleta e de transportes públicos",
+        "correctAnswer": "Andar mais a pé, de bicicleta e de transportes públicos",
+        "explicacao": "Menos fumo de carros significa ar mais puro e saudável para todos!",
+        "explanation": "Menos fumo de carros significa ar mais puro e saudável para todos!"
+      },
+      {
+        "id": "em_2_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O fumo das fábricas e dos automóveis polui a atmosfera e prejudica os nossos pulmões.",
+        "question": "O fumo das fábricas e dos automóveis polui a atmosfera e prejudica os nossos pulmões.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A poluição do ar causa alergias e problemas respiratórios.",
+        "explanation": "Verdadeiro! A poluição do ar causa alergias e problemas respiratórios."
+      },
+      {
+        "id": "em_2_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que brinquedo leve voa no céu seguro por uma linha aproveitando o vento?",
+        "question": "Que brinquedo leve voa no céu seguro por uma linha aproveitando o vento?",
+        "opcoes": [
+          "Papagaio de papel",
+          "Berlinde de vidro",
+          "Boneco de chumbo"
+        ],
+        "options": [
+          "Papagaio de papel",
+          "Berlinde de vidro",
+          "Boneco de chumbo"
+        ],
+        "resposta": "Papagaio de papel",
+        "correctAnswer": "Papagaio de papel",
+        "explicacao": "O papagaio de papel flutua graciosamente nas correntes de ar!",
+        "explanation": "O papagaio de papel flutua graciosamente nas correntes de ar!"
+      },
+      {
+        "id": "em_2_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os instrumentos meteorológicos à sua medição:",
+        "question": "Associa os instrumentos meteorológicos à sua medição:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre o ar e a meteorologia!",
+        "explanation": "Excelente conhecimento sobre o ar e a meteorologia!",
+        "pairs": {
+          "Anemómetro": "Mede a velocidade do vento",
+          "Catavento": "Indica a direção do vento (Norte, Sul...)",
+          "Termómetro": "Mede a temperatura do ar",
+          "Pluviómetro": "Mede a quantidade de chuva"
+        },
+        "pares": {
+          "Anemómetro": "Mede a velocidade do vento",
+          "Catavento": "Indica a direção do vento (Norte, Sul...)",
+          "Termómetro": "Mede a temperatura do ar",
+          "Pluviómetro": "Mede a quantidade de chuva"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f7_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que é o VENTO na natureza?",
+        "question": "O que é o VENTO na natureza?",
+        "opcoes": [
+          "O ar em movimento",
+          "Uma nuvem que caiu",
+          "Uma árvore a abanar"
+        ],
+        "options": [
+          "O ar em movimento",
+          "Uma nuvem que caiu",
+          "Uma árvore a abanar"
+        ],
+        "resposta": "O ar em movimento",
+        "correctAnswer": "O ar em movimento",
+        "explicacao": "O vento é simplesmente o ar a deslocar-se de um local para o outro!",
+        "explanation": "O vento é simplesmente o ar a deslocar-se de um local para o outro!"
+      },
+      {
+        "id": "em_2_f7_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O ar não se vê mas ocupa espaço (ex: quando enchemos um balão de ar).",
+        "question": "O ar não se vê mas ocupa espaço (ex: quando enchemos um balão de ar).",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O ar tem massa e ocupa o interior do balão.",
+        "explanation": "Verdadeiro! O ar tem massa e ocupa o interior do balão."
+      },
+      {
+        "id": "em_2_f7_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O gás presente no ar que os seres humanos precisam de respirar para viver chama-se ___",
+        "question": "O gás presente no ar que os seres humanos precisam de respirar para viver chama-se ___",
+        "opcoes": [
+          "Oxigénio",
+          "Fumo",
+          "Vapor de azeite"
+        ],
+        "options": [
+          "Oxigénio",
+          "Fumo",
+          "Vapor de azeite"
+        ],
+        "resposta": "Oxigénio",
+        "correctAnswer": "Oxigénio",
+        "explicacao": "O oxigénio (O2) é essencial à respiração de animais e pessoas.",
+        "explanation": "O oxigénio (O2) é essencial à respiração de animais e pessoas."
+      },
+      {
+        "id": "em_2_f7_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que aparelho limpo usa a força do vento para produzir eletricidade verde?",
+        "question": "Que aparelho limpo usa a força do vento para produzir eletricidade verde?",
+        "opcoes": [
+          "🌬️ Aerogerador / Moinho de vento eólico",
+          "🏭 Chaminé com fumo preto",
+          "🚗 Escape de carro"
+        ],
+        "options": [
+          "🌬️ Aerogerador / Moinho de vento eólico",
+          "🏭 Chaminé com fumo preto",
+          "🚗 Escape de carro"
+        ],
+        "resposta": "🌬️ Aerogerador / Moinho de vento eólico",
+        "correctAnswer": "🌬️ Aerogerador / Moinho de vento eólico",
+        "explicacao": "A energia eólica aproveita o vento sem poluir o planeta! 🌬️",
+        "explanation": "A energia eólica aproveita o vento sem poluir o planeta! 🌬️"
+      },
+      {
+        "id": "em_2_f7_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como podemos ajudar a manter o ar das nossas cidades mais limpo?",
+        "question": "Como podemos ajudar a manter o ar das nossas cidades mais limpo?",
+        "opcoes": [
+          "Andar mais a pé, de bicicleta e de transportes públicos",
+          "Queimar plásticos na rua",
+          "Andar sempre sozinho de carro grande"
+        ],
+        "options": [
+          "Andar mais a pé, de bicicleta e de transportes públicos",
+          "Queimar plásticos na rua",
+          "Andar sempre sozinho de carro grande"
+        ],
+        "resposta": "Andar mais a pé, de bicicleta e de transportes públicos",
+        "correctAnswer": "Andar mais a pé, de bicicleta e de transportes públicos",
+        "explicacao": "Menos fumo de carros significa ar mais puro e saudável para todos!",
+        "explanation": "Menos fumo de carros significa ar mais puro e saudável para todos!"
+      },
+      {
+        "id": "em_2_f7_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O fumo das fábricas e dos automóveis polui a atmosfera e prejudica os nossos pulmões.",
+        "question": "O fumo das fábricas e dos automóveis polui a atmosfera e prejudica os nossos pulmões.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A poluição do ar causa alergias e problemas respiratórios.",
+        "explanation": "Verdadeiro! A poluição do ar causa alergias e problemas respiratórios."
+      },
+      {
+        "id": "em_2_f7_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Que brinquedo leve voa no céu seguro por uma linha aproveitando o vento?",
+        "question": "Que brinquedo leve voa no céu seguro por uma linha aproveitando o vento?",
+        "opcoes": [
+          "Papagaio de papel",
+          "Berlinde de vidro",
+          "Boneco de chumbo"
+        ],
+        "options": [
+          "Papagaio de papel",
+          "Berlinde de vidro",
+          "Boneco de chumbo"
+        ],
+        "resposta": "Papagaio de papel",
+        "correctAnswer": "Papagaio de papel",
+        "explicacao": "O papagaio de papel flutua graciosamente nas correntes de ar!",
+        "explanation": "O papagaio de papel flutua graciosamente nas correntes de ar!"
+      },
+      {
+        "id": "em_2_f7_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa os instrumentos meteorológicos à sua medição:",
+        "question": "Associa os instrumentos meteorológicos à sua medição:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre o ar e a meteorologia!",
+        "explanation": "Excelente conhecimento sobre o ar e a meteorologia!",
+        "pairs": {
+          "Anemómetro": "Mede a velocidade do vento",
+          "Catavento": "Indica a direção do vento (Norte, Sul...)",
+          "Termómetro": "Mede a temperatura do ar",
+          "Pluviómetro": "Mede a quantidade de chuva"
+        },
+        "pares": {
+          "Anemómetro": "Mede a velocidade do vento",
+          "Catavento": "Indica a direção do vento (Norte, Sul...)",
+          "Termómetro": "Mede a temperatura do ar",
+          "Pluviómetro": "Mede a quantidade de chuva"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f8",
+    "numero": 8,
+    "titulo": "O Solo, Rochas e Minerais",
+    "title": "O Solo, Rochas e Minerais",
+    "descricao": "Tipos de solo (arenoso, argiloso, fértil/humífero) e a utilidade das rochas.",
+    "description": "Tipos de solo (arenoso, argiloso, fértil/humífero) e a utilidade das rochas.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🪨",
+    "imageEmoji": "🪨",
+    "exercicios": [
+      {
+        "id": "em_2_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o solo escuro, rico em húmus e nutrientes, ideal para a agricultura e cultivo de plantas?",
+        "question": "Qual é o solo escuro, rico em húmus e nutrientes, ideal para a agricultura e cultivo de plantas?",
+        "opcoes": [
+          "Solo fértil / Humífero",
+          "Solo de areia pura da praia",
+          "Solo de cimento"
+        ],
+        "options": [
+          "Solo fértil / Humífero",
+          "Solo de areia pura da praia",
+          "Solo de cimento"
+        ],
+        "resposta": "Solo fértil / Humífero",
+        "correctAnswer": "Solo fértil / Humífero",
+        "explicacao": "O solo humífero retém humidade e tem minerais ricos para o crescimento das plantas!",
+        "explanation": "O solo humífero retém humidade e tem minerais ricos para o crescimento das plantas!"
+      },
+      {
+        "id": "em_2_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O granito e o mármore são rochas duras muito usadas na construção de casas e monumentos em Portugal.",
+        "question": "O granito e o mármore são rochas duras muito usadas na construção de casas e monumentos em Portugal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O granito no Norte e o mármore no Alentejo são rochas ornamentais famosas.",
+        "explanation": "Verdadeiro! O granito no Norte e o mármore no Alentejo são rochas ornamentais famosas."
+      },
+      {
+        "id": "em_2_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A areia que encontramos na praia é formada por pedacinhos minúsculos de ___ desgastadas pelas ondas.",
+        "question": "A areia que encontramos na praia é formada por pedacinhos minúsculos de ___ desgastadas pelas ondas.",
+        "opcoes": [
+          "rochas e conchas",
+          "plásticos",
+          "madeira"
+        ],
+        "options": [
+          "rochas e conchas",
+          "plásticos",
+          "madeira"
+        ],
+        "resposta": "rochas e conchas",
+        "correctAnswer": "rochas e conchas",
+        "explicacao": "A erosão marítima quebra as rochas ao longo de milhares de anos formando areia.",
+        "explanation": "A erosão marítima quebra as rochas ao longo de milhares de anos formando areia."
+      },
+      {
+        "id": "em_2_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que tipo de solo avermelhado e moldável usamos para fazer vasos de barro e telhas?",
+        "question": "Que tipo de solo avermelhado e moldável usamos para fazer vasos de barro e telhas?",
+        "opcoes": [
+          "🏺 Argila / Solo argiloso",
+          "🏖️ Areia solta",
+          "🪨 Calhau grande"
+        ],
+        "options": [
+          "🏺 Argila / Solo argiloso",
+          "🏖️ Areia solta",
+          "🪨 Calhau grande"
+        ],
+        "resposta": "🏺 Argila / Solo argiloso",
+        "correctAnswer": "🏺 Argila / Solo argiloso",
+        "explicacao": "A argila (barro) fica moldável com água e endurece ao cozer no forno! 🏺",
+        "explanation": "A argila (barro) fica moldável com água e endurece ao cozer no forno! 🏺"
+      },
+      {
+        "id": "em_2_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam os animais que cavam túneis no solo ajudando a arejar a terra fértil?",
+        "question": "Como se chamam os animais que cavam túneis no solo ajudando a arejar a terra fértil?",
+        "opcoes": [
+          "Minhocas",
+          "Peixes",
+          "Tubarões"
+        ],
+        "options": [
+          "Minhocas",
+          "Peixes",
+          "Tubarões"
+        ],
+        "resposta": "Minhocas",
+        "correctAnswer": "Minhocas",
+        "explicacao": "As minhocas são grandes amigas da agricultura porque arejam e fertilizam o solo!",
+        "explanation": "As minhocas são grandes amigas da agricultura porque arejam e fertilizam o solo!"
+      },
+      {
+        "id": "em_2_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Deitar lixo e pilhas na terra contamina o solo e envenena as águas subterrâneas.",
+        "question": "Deitar lixo e pilhas na terra contamina o solo e envenena as águas subterrâneas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os químicos tóxicos destroem a fertilidade do solo.",
+        "explanation": "Verdadeiro! Os químicos tóxicos destroem a fertilidade do solo."
+      },
+      {
+        "id": "em_2_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A calçada portuguesa tão típica nas nossas ruas é feita com cubos de pedra de...",
+        "question": "A calçada portuguesa tão típica nas nossas ruas é feita com cubos de pedra de...",
+        "opcoes": [
+          "Calcário e basalto",
+          "Gesso mole",
+          "Borracha"
+        ],
+        "options": [
+          "Calcário e basalto",
+          "Gesso mole",
+          "Borracha"
+        ],
+        "resposta": "Calcário e basalto",
+        "correctAnswer": "Calcário e basalto",
+        "explicacao": "A calçada branca e preta usa calcário e basalto trabalhados pelos mestres calceteiros!",
+        "explanation": "A calçada branca e preta usa calcário e basalto trabalhados pelos mestres calceteiros!"
+      },
+      {
+        "id": "em_2_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a rocha ou solo à sua utilização:",
+        "question": "Associa a rocha ou solo à sua utilização:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Conheces as riquezas minerais e a importância dos solos.",
+        "explanation": "Muito bem! Conheces as riquezas minerais e a importância dos solos.",
+        "pairs": {
+          "Mármore": "Esculturas e bancadas nobres",
+          "Argila / Barro": "Tijolos, telhas e loiça de barro",
+          "Areia": "Fabrico de vidro e argamassas",
+          "Granito": "Paredes de casas e calçadas"
+        },
+        "pares": {
+          "Mármore": "Esculturas e bancadas nobres",
+          "Argila / Barro": "Tijolos, telhas e loiça de barro",
+          "Areia": "Fabrico de vidro e argamassas",
+          "Granito": "Paredes de casas e calçadas"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f8_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é o solo escuro, rico em húmus e nutrientes, ideal para a agricultura e cultivo de plantas?",
+        "question": "Qual é o solo escuro, rico em húmus e nutrientes, ideal para a agricultura e cultivo de plantas?",
+        "opcoes": [
+          "Solo fértil / Humífero",
+          "Solo de areia pura da praia",
+          "Solo de cimento"
+        ],
+        "options": [
+          "Solo fértil / Humífero",
+          "Solo de areia pura da praia",
+          "Solo de cimento"
+        ],
+        "resposta": "Solo fértil / Humífero",
+        "correctAnswer": "Solo fértil / Humífero",
+        "explicacao": "O solo humífero retém humidade e tem minerais ricos para o crescimento das plantas!",
+        "explanation": "O solo humífero retém humidade e tem minerais ricos para o crescimento das plantas!"
+      },
+      {
+        "id": "em_2_f8_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O granito e o mármore são rochas duras muito usadas na construção de casas e monumentos em Portugal.",
+        "question": "O granito e o mármore são rochas duras muito usadas na construção de casas e monumentos em Portugal.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O granito no Norte e o mármore no Alentejo são rochas ornamentais famosas.",
+        "explanation": "Verdadeiro! O granito no Norte e o mármore no Alentejo são rochas ornamentais famosas."
+      },
+      {
+        "id": "em_2_f8_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "A areia que encontramos na praia é formada por pedacinhos minúsculos de ___ desgastadas pelas ondas.",
+        "question": "A areia que encontramos na praia é formada por pedacinhos minúsculos de ___ desgastadas pelas ondas.",
+        "opcoes": [
+          "rochas e conchas",
+          "plásticos",
+          "madeira"
+        ],
+        "options": [
+          "rochas e conchas",
+          "plásticos",
+          "madeira"
+        ],
+        "resposta": "rochas e conchas",
+        "correctAnswer": "rochas e conchas",
+        "explicacao": "A erosão marítima quebra as rochas ao longo de milhares de anos formando areia.",
+        "explanation": "A erosão marítima quebra as rochas ao longo de milhares de anos formando areia."
+      },
+      {
+        "id": "em_2_f8_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que tipo de solo avermelhado e moldável usamos para fazer vasos de barro e telhas?",
+        "question": "Que tipo de solo avermelhado e moldável usamos para fazer vasos de barro e telhas?",
+        "opcoes": [
+          "🏺 Argila / Solo argiloso",
+          "🏖️ Areia solta",
+          "🪨 Calhau grande"
+        ],
+        "options": [
+          "🏺 Argila / Solo argiloso",
+          "🏖️ Areia solta",
+          "🪨 Calhau grande"
+        ],
+        "resposta": "🏺 Argila / Solo argiloso",
+        "correctAnswer": "🏺 Argila / Solo argiloso",
+        "explicacao": "A argila (barro) fica moldável com água e endurece ao cozer no forno! 🏺",
+        "explanation": "A argila (barro) fica moldável com água e endurece ao cozer no forno! 🏺"
+      },
+      {
+        "id": "em_2_f8_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chamam os animais que cavam túneis no solo ajudando a arejar a terra fértil?",
+        "question": "Como se chamam os animais que cavam túneis no solo ajudando a arejar a terra fértil?",
+        "opcoes": [
+          "Minhocas",
+          "Peixes",
+          "Tubarões"
+        ],
+        "options": [
+          "Minhocas",
+          "Peixes",
+          "Tubarões"
+        ],
+        "resposta": "Minhocas",
+        "correctAnswer": "Minhocas",
+        "explicacao": "As minhocas são grandes amigas da agricultura porque arejam e fertilizam o solo!",
+        "explanation": "As minhocas são grandes amigas da agricultura porque arejam e fertilizam o solo!"
+      },
+      {
+        "id": "em_2_f8_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Deitar lixo e pilhas na terra contamina o solo e envenena as águas subterrâneas.",
+        "question": "Deitar lixo e pilhas na terra contamina o solo e envenena as águas subterrâneas.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Os químicos tóxicos destroem a fertilidade do solo.",
+        "explanation": "Verdadeiro! Os químicos tóxicos destroem a fertilidade do solo."
+      },
+      {
+        "id": "em_2_f8_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "A calçada portuguesa tão típica nas nossas ruas é feita com cubos de pedra de...",
+        "question": "A calçada portuguesa tão típica nas nossas ruas é feita com cubos de pedra de...",
+        "opcoes": [
+          "Calcário e basalto",
+          "Gesso mole",
+          "Borracha"
+        ],
+        "options": [
+          "Calcário e basalto",
+          "Gesso mole",
+          "Borracha"
+        ],
+        "resposta": "Calcário e basalto",
+        "correctAnswer": "Calcário e basalto",
+        "explicacao": "A calçada branca e preta usa calcário e basalto trabalhados pelos mestres calceteiros!",
+        "explanation": "A calçada branca e preta usa calcário e basalto trabalhados pelos mestres calceteiros!"
+      },
+      {
+        "id": "em_2_f8_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa a rocha ou solo à sua utilização:",
+        "question": "Associa a rocha ou solo à sua utilização:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Muito bem! Conheces as riquezas minerais e a importância dos solos.",
+        "explanation": "Muito bem! Conheces as riquezas minerais e a importância dos solos.",
+        "pairs": {
+          "Mármore": "Esculturas e bancadas nobres",
+          "Argila / Barro": "Tijolos, telhas e loiça de barro",
+          "Areia": "Fabrico de vidro e argamassas",
+          "Granito": "Paredes de casas e calçadas"
+        },
+        "pares": {
+          "Mármore": "Esculturas e bancadas nobres",
+          "Argila / Barro": "Tijolos, telhas e loiça de barro",
+          "Areia": "Fabrico de vidro e argamassas",
+          "Granito": "Paredes de casas e calçadas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f9",
+    "numero": 9,
+    "titulo": "A Minha Terra: Aldeias, Vilas e Cidades",
+    "title": "A Minha Terra: Aldeias, Vilas e Cidades",
+    "descricao": "Paisagens rurais e urbanas, serviços públicos e monumentos de Portugal.",
+    "description": "Paisagens rurais e urbanas, serviços públicos e monumentos de Portugal.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🏙️",
+    "imageEmoji": "🏙️",
+    "exercicios": [
+      {
+        "id": "em_2_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde há mais prédios altos, trânsito de automóveis e centros comerciais?",
+        "question": "Onde há mais prédios altos, trânsito de automóveis e centros comerciais?",
+        "resposta": "Na Cidade (Paisagem Urbana)",
+        "correctAnswer": "Na Cidade (Paisagem Urbana)",
+        "explicacao": "As cidades têm maior concentração de população, comércio e serviços.",
+        "explanation": "As cidades têm maior concentração de população, comércio e serviços."
+      },
+      {
+        "id": "em_2_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Nas aldeias o ambiente é mais tranquilo, com mais campos agrícolas, hortas e natureza.",
+        "question": "Nas aldeias o ambiente é mais tranquilo, com mais campos agrícolas, hortas e natureza.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A paisagem rural é marcada pela agricultura e calma.",
+        "explanation": "Verdadeiro! A paisagem rural é marcada pela agricultura e calma."
+      },
+      {
+        "id": "em_2_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O edifício onde se reúnem os responsáveis eleitos para administrar o concelho chama-se ___ Municipal.",
+        "question": "O edifício onde se reúnem os responsáveis eleitos para administrar o concelho chama-se ___ Municipal.",
+        "opcoes": [
+          "Câmara",
+          "Escola",
+          "Hospital"
+        ],
+        "options": [
+          "Câmara",
+          "Escola",
+          "Hospital"
+        ],
+        "resposta": "Câmara",
+        "correctAnswer": "Câmara",
+        "explicacao": "A Câmara Municipal gere os serviços e obras do município!",
+        "explanation": "A Câmara Municipal gere os serviços e obras do município!"
+      },
+      {
+        "id": "em_2_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes serviços públicos é responsável por apagar fogos e prestar socorro?",
+        "question": "Qual destes serviços públicos é responsável por apagar fogos e prestar socorro?",
+        "opcoes": [
+          "🚒 Quartel de Bombeiros",
+          "🏦 Banco",
+          "🎭 Cinema"
+        ],
+        "options": [
+          "🚒 Quartel de Bombeiros",
+          "🏦 Banco",
+          "🎭 Cinema"
+        ],
+        "resposta": "🚒 Quartel de Bombeiros",
+        "correctAnswer": "🚒 Quartel de Bombeiros",
+        "explicacao": "Os bombeiros prestam socorro inestimável à população! 🚒",
+        "explanation": "Os bombeiros prestam socorro inestimável à população! 🚒"
+      },
+      {
+        "id": "em_2_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a capital de Portugal, situada junto ao rio Tejo?",
+        "question": "Como se chama a capital de Portugal, situada junto ao rio Tejo?",
+        "opcoes": [
+          "Lisboa",
+          "Porto",
+          "Faro"
+        ],
+        "options": [
+          "Lisboa",
+          "Porto",
+          "Faro"
+        ],
+        "resposta": "Lisboa",
+        "correctAnswer": "Lisboa",
+        "explicacao": "Lisboa é a capital e a maior cidade de Portugal!",
+        "explanation": "Lisboa é a capital e a maior cidade de Portugal!"
+      },
+      {
+        "id": "em_2_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Devemos preservar e respeitar os monumentos históricos antigos porque contam a história dos nossos antepassados.",
+        "question": "Devemos preservar e respeitar os monumentos históricos antigos porque contam a história dos nossos antepassados.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Castelos, igrejas e pontes antigas são património de todos nós.",
+        "explanation": "Verdadeiro! Castelos, igrejas e pontes antigas são património de todos nós."
+      },
+      {
+        "id": "em_2_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde podemos requisitar livros gratuitamente para ler em casa?",
+        "question": "Onde podemos requisitar livros gratuitamente para ler em casa?",
+        "opcoes": [
+          "Na Biblioteca Municipal",
+          "Na bomba de gasolina",
+          "No talho"
+        ],
+        "options": [
+          "Na Biblioteca Municipal",
+          "Na bomba de gasolina",
+          "No talho"
+        ],
+        "resposta": "Na Biblioteca Municipal",
+        "correctAnswer": "Na Biblioteca Municipal",
+        "explicacao": "As bibliotecas públicas disponibilizam milhares de livros para empréstimo!",
+        "explanation": "As bibliotecas públicas disponibilizam milhares de livros para empréstimo!"
+      },
+      {
+        "id": "em_2_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Distingue os serviços da comunidade:",
+        "question": "Distingue os serviços da comunidade:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre a organização da nossa terra!",
+        "explanation": "Excelente conhecimento sobre a organização da nossa terra!",
+        "pairs": {
+          "Hospital / Centro de Saúde": "Tratar dos doentes e feridos",
+          "Escola": "Ensinar e educar as crianças",
+          "Polícia": "Manter a segurança e ordem pública",
+          "Câmara Municipal": "Administrar o concelho e jardins"
+        },
+        "pares": {
+          "Hospital / Centro de Saúde": "Tratar dos doentes e feridos",
+          "Escola": "Ensinar e educar as crianças",
+          "Polícia": "Manter a segurança e ordem pública",
+          "Câmara Municipal": "Administrar o concelho e jardins"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f9_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde há mais prédios altos, trânsito de automóveis e centros comerciais?",
+        "question": "Onde há mais prédios altos, trânsito de automóveis e centros comerciais?",
+        "resposta": "Na Cidade (Paisagem Urbana)",
+        "correctAnswer": "Na Cidade (Paisagem Urbana)",
+        "explicacao": "As cidades têm maior concentração de população, comércio e serviços.",
+        "explanation": "As cidades têm maior concentração de população, comércio e serviços."
+      },
+      {
+        "id": "em_2_f9_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Nas aldeias o ambiente é mais tranquilo, com mais campos agrícolas, hortas e natureza.",
+        "question": "Nas aldeias o ambiente é mais tranquilo, com mais campos agrícolas, hortas e natureza.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! A paisagem rural é marcada pela agricultura e calma.",
+        "explanation": "Verdadeiro! A paisagem rural é marcada pela agricultura e calma."
+      },
+      {
+        "id": "em_2_f9_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O edifício onde se reúnem os responsáveis eleitos para administrar o concelho chama-se ___ Municipal.",
+        "question": "O edifício onde se reúnem os responsáveis eleitos para administrar o concelho chama-se ___ Municipal.",
+        "opcoes": [
+          "Câmara",
+          "Escola",
+          "Hospital"
+        ],
+        "options": [
+          "Câmara",
+          "Escola",
+          "Hospital"
+        ],
+        "resposta": "Câmara",
+        "correctAnswer": "Câmara",
+        "explicacao": "A Câmara Municipal gere os serviços e obras do município!",
+        "explanation": "A Câmara Municipal gere os serviços e obras do município!"
+      },
+      {
+        "id": "em_2_f9_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes serviços públicos é responsável por apagar fogos e prestar socorro?",
+        "question": "Qual destes serviços públicos é responsável por apagar fogos e prestar socorro?",
+        "opcoes": [
+          "🚒 Quartel de Bombeiros",
+          "🏦 Banco",
+          "🎭 Cinema"
+        ],
+        "options": [
+          "🚒 Quartel de Bombeiros",
+          "🏦 Banco",
+          "🎭 Cinema"
+        ],
+        "resposta": "🚒 Quartel de Bombeiros",
+        "correctAnswer": "🚒 Quartel de Bombeiros",
+        "explicacao": "Os bombeiros prestam socorro inestimável à população! 🚒",
+        "explanation": "Os bombeiros prestam socorro inestimável à população! 🚒"
+      },
+      {
+        "id": "em_2_f9_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como se chama a capital de Portugal, situada junto ao rio Tejo?",
+        "question": "Como se chama a capital de Portugal, situada junto ao rio Tejo?",
+        "opcoes": [
+          "Lisboa",
+          "Porto",
+          "Faro"
+        ],
+        "options": [
+          "Lisboa",
+          "Porto",
+          "Faro"
+        ],
+        "resposta": "Lisboa",
+        "correctAnswer": "Lisboa",
+        "explicacao": "Lisboa é a capital e a maior cidade de Portugal!",
+        "explanation": "Lisboa é a capital e a maior cidade de Portugal!"
+      },
+      {
+        "id": "em_2_f9_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Devemos preservar e respeitar os monumentos históricos antigos porque contam a história dos nossos antepassados.",
+        "question": "Devemos preservar e respeitar os monumentos históricos antigos porque contam a história dos nossos antepassados.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Castelos, igrejas e pontes antigas são património de todos nós.",
+        "explanation": "Verdadeiro! Castelos, igrejas e pontes antigas são património de todos nós."
+      },
+      {
+        "id": "em_2_f9_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde podemos requisitar livros gratuitamente para ler em casa?",
+        "question": "Onde podemos requisitar livros gratuitamente para ler em casa?",
+        "opcoes": [
+          "Na Biblioteca Municipal",
+          "Na bomba de gasolina",
+          "No talho"
+        ],
+        "options": [
+          "Na Biblioteca Municipal",
+          "Na bomba de gasolina",
+          "No talho"
+        ],
+        "resposta": "Na Biblioteca Municipal",
+        "correctAnswer": "Na Biblioteca Municipal",
+        "explicacao": "As bibliotecas públicas disponibilizam milhares de livros para empréstimo!",
+        "explanation": "As bibliotecas públicas disponibilizam milhares de livros para empréstimo!"
+      },
+      {
+        "id": "em_2_f9_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Distingue os serviços da comunidade:",
+        "question": "Distingue os serviços da comunidade:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Excelente conhecimento sobre a organização da nossa terra!",
+        "explanation": "Excelente conhecimento sobre a organização da nossa terra!",
+        "pairs": {
+          "Hospital / Centro de Saúde": "Tratar dos doentes e feridos",
+          "Escola": "Ensinar e educar as crianças",
+          "Polícia": "Manter a segurança e ordem pública",
+          "Câmara Municipal": "Administrar o concelho e jardins"
+        },
+        "pares": {
+          "Hospital / Centro de Saúde": "Tratar dos doentes e feridos",
+          "Escola": "Ensinar e educar as crianças",
+          "Polícia": "Manter a segurança e ordem pública",
+          "Câmara Municipal": "Administrar o concelho e jardins"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f10",
+    "numero": 10,
+    "titulo": "Sinais de Trânsito e Prevenção Rodoviária",
+    "title": "Sinais de Trânsito e Prevenção Rodoviária",
+    "descricao": "Sinais de perigo, proibição e obrigação, regras no carro e no autocarro escolar.",
+    "description": "Sinais de perigo, proibição e obrigação, regras no carro e no autocarro escolar.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🛑",
+    "imageEmoji": "🛑",
+    "exercicios": [
+      {
+        "id": "em_2_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a forma dos sinais de trânsito que indicam PERIGO na estrada?",
+        "question": "Qual é a forma dos sinais de trânsito que indicam PERIGO na estrada?",
+        "opcoes": [
+          "Triangulares com borda vermelha ⚠️",
+          "Redondos azuis",
+          "Quadrados verdes"
+        ],
+        "options": [
+          "Triangulares com borda vermelha ⚠️",
+          "Redondos azuis",
+          "Quadrados verdes"
+        ],
+        "resposta": "Triangulares com borda vermelha ⚠️",
+        "correctAnswer": "Triangulares com borda vermelha ⚠️",
+        "explicacao": "Os sinais triangulares avisam os condutores para perigos na via!",
+        "explanation": "Os sinais triangulares avisam os condutores para perigos na via!"
+      },
+      {
+        "id": "em_2_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O sinal vermelho octogonal com a palavra 'STOP' obriga a parar completamente o veículo.",
+        "question": "O sinal vermelho octogonal com a palavra 'STOP' obriga a parar completamente o veículo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É obrigatório parar e olhar antes de avançar.",
+        "explanation": "Verdadeiro! É obrigatório parar e olhar antes de avançar."
+      },
+      {
+        "id": "em_2_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Os sinais de trânsito redondos com fundo azul indicam uma ___",
+        "question": "Os sinais de trânsito redondos com fundo azul indicam uma ___",
+        "opcoes": [
+          "Obrigação",
+          "Proibição",
+          "Informação"
+        ],
+        "options": [
+          "Obrigação",
+          "Proibição",
+          "Informação"
+        ],
+        "resposta": "Obrigação",
+        "correctAnswer": "Obrigação",
+        "explicacao": "Sinais azuis redondos indicam ações obrigatórias (ex: pista obrigatória de ciclistas).",
+        "explanation": "Sinais azuis redondos indicam ações obrigatórias (ex: pista obrigatória de ciclistas)."
+      },
+      {
+        "id": "em_2_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes comportamentos é CORRETO dentro do autocarro escolar?",
+        "question": "Qual destes comportamentos é CORRETO dentro do autocarro escolar?",
+        "opcoes": [
+          "🪑 Ir sentado com cinto apertado e em silêncio",
+          "🏃 Correr no corredor a gritar",
+          "🚪 Tentar abrir a porta em andamento"
+        ],
+        "options": [
+          "🪑 Ir sentado com cinto apertado e em silêncio",
+          "🏃 Correr no corredor a gritar",
+          "🚪 Tentar abrir a porta em andamento"
+        ],
+        "resposta": "🪑 Ir sentado com cinto apertado e em silêncio",
+        "correctAnswer": "🪑 Ir sentado com cinto apertado e em silêncio",
+        "explicacao": "A segurança no transporte coletivo exige ir sentado com o cinto apertado! 🪑",
+        "explanation": "A segurança no transporte coletivo exige ir sentado com o cinto apertado! 🪑"
+      },
+      {
+        "id": "em_2_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quando sais do automóvel, por que lado deves sempre sair?",
+        "question": "Quando sais do automóvel, por que lado deves sempre sair?",
+        "resposta": "Pelo lado do passeio (longe dos carros)",
+        "correctAnswer": "Pelo lado do passeio (longe dos carros)",
+        "explicacao": "Sair para o passeio protege-te do fluxo de trânsito da estrada.",
+        "explanation": "Sair para o passeio protege-te do fluxo de trânsito da estrada."
+      },
+      {
+        "id": "em_2_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um peão à noite na estrada deve usar roupas escuras sem nenhum refletor.",
+        "question": "Um peão à noite na estrada deve usar roupas escuras sem nenhum refletor.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! Deve usar colete refletor ou roupas claras para ser visto pelos condutores.",
+        "explanation": "Falso! Deve usar colete refletor ou roupas claras para ser visto pelos condutores."
+      },
+      {
+        "id": "em_2_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os sinais circulares com rebordo vermelho indicam...",
+        "question": "Os sinais circulares com rebordo vermelho indicam...",
+        "resposta": "Proibição (algo que não se pode fazer)",
+        "correctAnswer": "Proibição (algo que não se pode fazer)",
+        "explicacao": "Rebordo vermelho circular = Proibição estrita!",
+        "explanation": "Rebordo vermelho circular = Proibição estrita!"
+      },
+      {
+        "id": "em_2_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o formato do sinal ao seu significado:",
+        "question": "Associa o formato do sinal ao seu significado:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecedor exímio do código da estrada e segurança infantil!",
+        "explanation": "Conhecedor exímio do código da estrada e segurança infantil!",
+        "pairs": {
+          "Triângulo vermelho": "Sinal de Perigo ⚠️",
+          "Círculo com borda vermelha": "Sinal de Proibição 🚫",
+          "Círculo azul": "Sinal de Obrigação 🔵",
+          "Retângulo azul": "Sinal de Informação ℹ️"
+        },
+        "pares": {
+          "Triângulo vermelho": "Sinal de Perigo ⚠️",
+          "Círculo com borda vermelha": "Sinal de Proibição 🚫",
+          "Círculo azul": "Sinal de Obrigação 🔵",
+          "Retângulo azul": "Sinal de Informação ℹ️"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f10_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Qual é a forma dos sinais de trânsito que indicam PERIGO na estrada?",
+        "question": "Qual é a forma dos sinais de trânsito que indicam PERIGO na estrada?",
+        "opcoes": [
+          "Triangulares com borda vermelha ⚠️",
+          "Redondos azuis",
+          "Quadrados verdes"
+        ],
+        "options": [
+          "Triangulares com borda vermelha ⚠️",
+          "Redondos azuis",
+          "Quadrados verdes"
+        ],
+        "resposta": "Triangulares com borda vermelha ⚠️",
+        "correctAnswer": "Triangulares com borda vermelha ⚠️",
+        "explicacao": "Os sinais triangulares avisam os condutores para perigos na via!",
+        "explanation": "Os sinais triangulares avisam os condutores para perigos na via!"
+      },
+      {
+        "id": "em_2_f10_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O sinal vermelho octogonal com a palavra 'STOP' obriga a parar completamente o veículo.",
+        "question": "O sinal vermelho octogonal com a palavra 'STOP' obriga a parar completamente o veículo.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! É obrigatório parar e olhar antes de avançar.",
+        "explanation": "Verdadeiro! É obrigatório parar e olhar antes de avançar."
+      },
+      {
+        "id": "em_2_f10_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Os sinais de trânsito redondos com fundo azul indicam uma ___",
+        "question": "Os sinais de trânsito redondos com fundo azul indicam uma ___",
+        "opcoes": [
+          "Obrigação",
+          "Proibição",
+          "Informação"
+        ],
+        "options": [
+          "Obrigação",
+          "Proibição",
+          "Informação"
+        ],
+        "resposta": "Obrigação",
+        "correctAnswer": "Obrigação",
+        "explicacao": "Sinais azuis redondos indicam ações obrigatórias (ex: pista obrigatória de ciclistas).",
+        "explanation": "Sinais azuis redondos indicam ações obrigatórias (ex: pista obrigatória de ciclistas)."
+      },
+      {
+        "id": "em_2_f10_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Qual destes comportamentos é CORRETO dentro do autocarro escolar?",
+        "question": "Qual destes comportamentos é CORRETO dentro do autocarro escolar?",
+        "opcoes": [
+          "🪑 Ir sentado com cinto apertado e em silêncio",
+          "🏃 Correr no corredor a gritar",
+          "🚪 Tentar abrir a porta em andamento"
+        ],
+        "options": [
+          "🪑 Ir sentado com cinto apertado e em silêncio",
+          "🏃 Correr no corredor a gritar",
+          "🚪 Tentar abrir a porta em andamento"
+        ],
+        "resposta": "🪑 Ir sentado com cinto apertado e em silêncio",
+        "correctAnswer": "🪑 Ir sentado com cinto apertado e em silêncio",
+        "explicacao": "A segurança no transporte coletivo exige ir sentado com o cinto apertado! 🪑",
+        "explanation": "A segurança no transporte coletivo exige ir sentado com o cinto apertado! 🪑"
+      },
+      {
+        "id": "em_2_f10_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Quando sais do automóvel, por que lado deves sempre sair?",
+        "question": "Quando sais do automóvel, por que lado deves sempre sair?",
+        "resposta": "Pelo lado do passeio (longe dos carros)",
+        "correctAnswer": "Pelo lado do passeio (longe dos carros)",
+        "explicacao": "Sair para o passeio protege-te do fluxo de trânsito da estrada.",
+        "explanation": "Sair para o passeio protege-te do fluxo de trânsito da estrada."
+      },
+      {
+        "id": "em_2_f10_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "Um peão à noite na estrada deve usar roupas escuras sem nenhum refletor.",
+        "question": "Um peão à noite na estrada deve usar roupas escuras sem nenhum refletor.",
+        "resposta": "false",
+        "correctAnswer": "false",
+        "explicacao": "Falso! Deve usar colete refletor ou roupas claras para ser visto pelos condutores.",
+        "explanation": "Falso! Deve usar colete refletor ou roupas claras para ser visto pelos condutores."
+      },
+      {
+        "id": "em_2_f10_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os sinais circulares com rebordo vermelho indicam...",
+        "question": "Os sinais circulares com rebordo vermelho indicam...",
+        "resposta": "Proibição (algo que não se pode fazer)",
+        "correctAnswer": "Proibição (algo que não se pode fazer)",
+        "explicacao": "Rebordo vermelho circular = Proibição estrita!",
+        "explanation": "Rebordo vermelho circular = Proibição estrita!"
+      },
+      {
+        "id": "em_2_f10_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Associa o formato do sinal ao seu significado:",
+        "question": "Associa o formato do sinal ao seu significado:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Conhecedor exímio do código da estrada e segurança infantil!",
+        "explanation": "Conhecedor exímio do código da estrada e segurança infantil!",
+        "pairs": {
+          "Triângulo vermelho": "Sinal de Perigo ⚠️",
+          "Círculo com borda vermelha": "Sinal de Proibição 🚫",
+          "Círculo azul": "Sinal de Obrigação 🔵",
+          "Retângulo azul": "Sinal de Informação ℹ️"
+        },
+        "pares": {
+          "Triângulo vermelho": "Sinal de Perigo ⚠️",
+          "Círculo com borda vermelha": "Sinal de Proibição 🚫",
+          "Círculo azul": "Sinal de Obrigação 🔵",
+          "Retângulo azul": "Sinal de Informação ℹ️"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f11",
+    "numero": 11,
+    "titulo": "O Passado e as Histórias dos Avós",
+    "title": "O Passado e as Histórias dos Avós",
+    "descricao": "Objetos antigos e modernos, como viviam os nossos antepassados e a árvore genealógica.",
+    "description": "Objetos antigos e modernos, como viviam os nossos antepassados e a árvore genealógica.",
+    "dificuldade": "MEDIO",
+    "difficulty": "MEDIUM",
+    "emoji": "🕰️",
+    "imageEmoji": "🕰️",
+    "exercicios": [
+      {
+        "id": "em_2_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como ouviam música e notícias os nossos bisavós quando não havia computadores nem telemóveis?",
+        "question": "Como ouviam música e notícias os nossos bisavós quando não havia computadores nem telemóveis?",
+        "opcoes": [
+          "Num rádio a pilhas ou grafonola",
+          "Pelo smartwatch",
+          "Pelo YouTube"
+        ],
+        "options": [
+          "Num rádio a pilhas ou grafonola",
+          "Pelo smartwatch",
+          "Pelo YouTube"
+        ],
+        "resposta": "Num rádio a pilhas ou grafonola",
+        "correctAnswer": "Num rádio a pilhas ou grafonola",
+        "explicacao": "O rádio antigo de madeira era o centro de convívio das famílias à noite!",
+        "explanation": "O rádio antigo de madeira era o centro de convívio das famílias à noite!"
+      },
+      {
+        "id": "em_2_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A árvore genealógica representa visualmente os membros da nossa família ao longo das gerações.",
+        "question": "A árvore genealógica representa visualmente os membros da nossa família ao longo das gerações.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Mostra pais, avós, bisavós, tios e primos.",
+        "explanation": "Verdadeiro! Mostra pais, avós, bisavós, tios e primos."
+      },
+      {
+        "id": "em_2_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Antigamente, as pessoas escreviam cartas à mão e usavam máquinas de ___ mecânicas.",
+        "question": "Antigamente, as pessoas escreviam cartas à mão e usavam máquinas de ___ mecânicas.",
+        "opcoes": [
+          "escrever",
+          "lavar loiça",
+          "fotocópias digitais"
+        ],
+        "options": [
+          "escrever",
+          "lavar loiça",
+          "fotocópias digitais"
+        ],
+        "resposta": "escrever",
+        "correctAnswer": "escrever",
+        "explicacao": "As máquinas de escrever tinham teclas de ferro e fita com tinta!",
+        "explanation": "As máquinas de escrever tinham teclas de ferro e fita com tinta!"
+      },
+      {
+        "id": "em_2_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que objeto antigo se usava para iluminar as casas antes de haver lâmpadas elétricas?",
+        "question": "Que objeto antigo se usava para iluminar as casas antes de haver lâmpadas elétricas?",
+        "opcoes": [
+          "🕯️ Candeia de azeite / Vela",
+          "💡 Lâmpada LED",
+          "🔦 Lanterna a laser"
+        ],
+        "options": [
+          "🕯️ Candeia de azeite / Vela",
+          "💡 Lâmpada LED",
+          "🔦 Lanterna a laser"
+        ],
+        "resposta": "🕯️ Candeia de azeite / Vela",
+        "correctAnswer": "🕯️ Candeia de azeite / Vela",
+        "explicacao": "Usavam-se candeias a petróleo, azeite ou velas! 🕯️",
+        "explanation": "Usavam-se candeias a petróleo, azeite ou velas! 🕯️"
+      },
+      {
+        "id": "em_2_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os pais dos teus pais são teus...",
+        "question": "Os pais dos teus pais são teus...",
+        "opcoes": [
+          "Avós",
+          "Tios",
+          "Irmãos"
+        ],
+        "options": [
+          "Avós",
+          "Tios",
+          "Irmãos"
+        ],
+        "resposta": "Avós",
+        "correctAnswer": "Avós",
+        "explicacao": "Os teus avós maternos e paternos são os pais da tua mãe e do teu pai!",
+        "explanation": "Os teus avós maternos e paternos são os pais da tua mãe e do teu pai!"
+      },
+      {
+        "id": "em_2_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No tempo antigo, as roupas eram lavadas nos lavadouros públicos comunitários com sabão azul e branco.",
+        "question": "No tempo antigo, as roupas eram lavadas nos lavadouros públicos comunitários com sabão azul e branco.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! As mulheres juntavam-se no lavadouro para lavar a roupa à mão.",
+        "explanation": "Verdadeiro! As mulheres juntavam-se no lavadouro para lavar a roupa à mão."
+      },
+      {
+        "id": "em_2_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os brinquedos tradicionais antigos eram feitos principalmente de...",
+        "question": "Os brinquedos tradicionais antigos eram feitos principalmente de...",
+        "opcoes": [
+          "Madeira, lata e trapos",
+          "Plástico elétrico",
+          "Ecrãs de vidro"
+        ],
+        "options": [
+          "Madeira, lata e trapos",
+          "Plástico elétrico",
+          "Ecrãs de vidro"
+        ],
+        "resposta": "Madeira, lata e trapos",
+        "correctAnswer": "Madeira, lata e trapos",
+        "explicacao": "Pecos, arcos de madeira, bonecas de trapos e piões de madeira!",
+        "explanation": "Pecos, arcos de madeira, bonecas de trapos e piões de madeira!"
+      },
+      {
+        "id": "em_2_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga o objeto antigo ao seu correspondente moderno:",
+        "question": "Liga o objeto antigo ao seu correspondente moderno:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástica viagem pela evolução da história e da tecnologia!",
+        "explanation": "Fantástica viagem pela evolução da história e da tecnologia!",
+        "pairs": {
+          "Carroça puxada a cavalo": "Automóvel elétrico",
+          "Carta em papel postal": "Correio eletrónico (E-mail)",
+          "Ferro de engomar a brasas de carvão": "Ferro a vapor elétrico",
+          "Fogão a lenha": "Placa de indução moderna"
+        },
+        "pares": {
+          "Carroça puxada a cavalo": "Automóvel elétrico",
+          "Carta em papel postal": "Correio eletrónico (E-mail)",
+          "Ferro de engomar a brasas de carvão": "Ferro a vapor elétrico",
+          "Fogão a lenha": "Placa de indução moderna"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f11_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Como ouviam música e notícias os nossos bisavós quando não havia computadores nem telemóveis?",
+        "question": "Como ouviam música e notícias os nossos bisavós quando não havia computadores nem telemóveis?",
+        "opcoes": [
+          "Num rádio a pilhas ou grafonola",
+          "Pelo smartwatch",
+          "Pelo YouTube"
+        ],
+        "options": [
+          "Num rádio a pilhas ou grafonola",
+          "Pelo smartwatch",
+          "Pelo YouTube"
+        ],
+        "resposta": "Num rádio a pilhas ou grafonola",
+        "correctAnswer": "Num rádio a pilhas ou grafonola",
+        "explicacao": "O rádio antigo de madeira era o centro de convívio das famílias à noite!",
+        "explanation": "O rádio antigo de madeira era o centro de convívio das famílias à noite!"
+      },
+      {
+        "id": "em_2_f11_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "A árvore genealógica representa visualmente os membros da nossa família ao longo das gerações.",
+        "question": "A árvore genealógica representa visualmente os membros da nossa família ao longo das gerações.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Mostra pais, avós, bisavós, tios e primos.",
+        "explanation": "Verdadeiro! Mostra pais, avós, bisavós, tios e primos."
+      },
+      {
+        "id": "em_2_f11_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "Antigamente, as pessoas escreviam cartas à mão e usavam máquinas de ___ mecânicas.",
+        "question": "Antigamente, as pessoas escreviam cartas à mão e usavam máquinas de ___ mecânicas.",
+        "opcoes": [
+          "escrever",
+          "lavar loiça",
+          "fotocópias digitais"
+        ],
+        "options": [
+          "escrever",
+          "lavar loiça",
+          "fotocópias digitais"
+        ],
+        "resposta": "escrever",
+        "correctAnswer": "escrever",
+        "explicacao": "As máquinas de escrever tinham teclas de ferro e fita com tinta!",
+        "explanation": "As máquinas de escrever tinham teclas de ferro e fita com tinta!"
+      },
+      {
+        "id": "em_2_f11_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Que objeto antigo se usava para iluminar as casas antes de haver lâmpadas elétricas?",
+        "question": "Que objeto antigo se usava para iluminar as casas antes de haver lâmpadas elétricas?",
+        "opcoes": [
+          "🕯️ Candeia de azeite / Vela",
+          "💡 Lâmpada LED",
+          "🔦 Lanterna a laser"
+        ],
+        "options": [
+          "🕯️ Candeia de azeite / Vela",
+          "💡 Lâmpada LED",
+          "🔦 Lanterna a laser"
+        ],
+        "resposta": "🕯️ Candeia de azeite / Vela",
+        "correctAnswer": "🕯️ Candeia de azeite / Vela",
+        "explicacao": "Usavam-se candeias a petróleo, azeite ou velas! 🕯️",
+        "explanation": "Usavam-se candeias a petróleo, azeite ou velas! 🕯️"
+      },
+      {
+        "id": "em_2_f11_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os pais dos teus pais são teus...",
+        "question": "Os pais dos teus pais são teus...",
+        "opcoes": [
+          "Avós",
+          "Tios",
+          "Irmãos"
+        ],
+        "options": [
+          "Avós",
+          "Tios",
+          "Irmãos"
+        ],
+        "resposta": "Avós",
+        "correctAnswer": "Avós",
+        "explicacao": "Os teus avós maternos e paternos são os pais da tua mãe e do teu pai!",
+        "explanation": "Os teus avós maternos e paternos são os pais da tua mãe e do teu pai!"
+      },
+      {
+        "id": "em_2_f11_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No tempo antigo, as roupas eram lavadas nos lavadouros públicos comunitários com sabão azul e branco.",
+        "question": "No tempo antigo, as roupas eram lavadas nos lavadouros públicos comunitários com sabão azul e branco.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! As mulheres juntavam-se no lavadouro para lavar a roupa à mão.",
+        "explanation": "Verdadeiro! As mulheres juntavam-se no lavadouro para lavar a roupa à mão."
+      },
+      {
+        "id": "em_2_f11_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Os brinquedos tradicionais antigos eram feitos principalmente de...",
+        "question": "Os brinquedos tradicionais antigos eram feitos principalmente de...",
+        "opcoes": [
+          "Madeira, lata e trapos",
+          "Plástico elétrico",
+          "Ecrãs de vidro"
+        ],
+        "options": [
+          "Madeira, lata e trapos",
+          "Plástico elétrico",
+          "Ecrãs de vidro"
+        ],
+        "resposta": "Madeira, lata e trapos",
+        "correctAnswer": "Madeira, lata e trapos",
+        "explicacao": "Pecos, arcos de madeira, bonecas de trapos e piões de madeira!",
+        "explanation": "Pecos, arcos de madeira, bonecas de trapos e piões de madeira!"
+      },
+      {
+        "id": "em_2_f11_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Liga o objeto antigo ao seu correspondente moderno:",
+        "question": "Liga o objeto antigo ao seu correspondente moderno:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Fantástica viagem pela evolução da história e da tecnologia!",
+        "explanation": "Fantástica viagem pela evolução da história e da tecnologia!",
+        "pairs": {
+          "Carroça puxada a cavalo": "Automóvel elétrico",
+          "Carta em papel postal": "Correio eletrónico (E-mail)",
+          "Ferro de engomar a brasas de carvão": "Ferro a vapor elétrico",
+          "Fogão a lenha": "Placa de indução moderna"
+        },
+        "pares": {
+          "Carroça puxada a cavalo": "Automóvel elétrico",
+          "Carta em papel postal": "Correio eletrónico (E-mail)",
+          "Ferro de engomar a brasas de carvão": "Ferro a vapor elétrico",
+          "Fogão a lenha": "Placa de indução moderna"
+        }
+      }
+    ]
+  },
+  {
+    "id": "em_2_f12",
+    "numero": 12,
+    "titulo": "Ambiente, Reciclagem e os 3 R's",
+    "title": "Ambiente, Reciclagem e os 3 R's",
+    "descricao": "Reduzir, Reutilizar, Reciclar, os ecopontos e a proteção da natureza.",
+    "description": "Reduzir, Reutilizar, Reciclar, os ecopontos e a proteção da natureza.",
+    "dificuldade": "DESAFIO",
+    "difficulty": "CHALLENGE",
+    "emoji": "♻️",
+    "imageEmoji": "♻️",
+    "exercicios": [
+      {
+        "id": "em_2_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que significam os famosos 3 R's da sustentabilidade?",
+        "question": "O que significam os famosos 3 R's da sustentabilidade?",
+        "opcoes": [
+          "Reduzir, Reutilizar e Reciclar",
+          "Rir, Rezar e Rolar",
+          "Rasgar, Riscar e Roer"
+        ],
+        "options": [
+          "Reduzir, Reutilizar e Reciclar",
+          "Rir, Rezar e Rolar",
+          "Rasgar, Riscar e Roer"
+        ],
+        "resposta": "Reduzir, Reutilizar e Reciclar",
+        "correctAnswer": "Reduzir, Reutilizar e Reciclar",
+        "explicacao": "Reduzir o consumo, reutilizar o que pudermos e reciclar o lixo separado!",
+        "explanation": "Reduzir o consumo, reutilizar o que pudermos e reciclar o lixo separado!"
+      },
+      {
+        "id": "em_2_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No Ecoponto AMARELO colocamos embalagens de plástico, metal e pacotes de leite.",
+        "question": "No Ecoponto AMARELO colocamos embalagens de plástico, metal e pacotes de leite.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Plásticos, latas e pacotes de bebidas vão para o contentor amarelo.",
+        "explanation": "Verdadeiro! Plásticos, latas e pacotes de bebidas vão para o contentor amarelo."
+      },
+      {
+        "id": "em_2_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O papel, cartão, jornais e revistas devem ser colocados no Ecoponto ___",
+        "question": "O papel, cartão, jornais e revistas devem ser colocados no Ecoponto ___",
+        "opcoes": [
+          "AZUL",
+          "VERDE",
+          "VERMELHO"
+        ],
+        "options": [
+          "AZUL",
+          "VERDE",
+          "VERMELHO"
+        ],
+        "resposta": "AZUL",
+        "correctAnswer": "AZUL",
+        "explicacao": "O ecoponto azul é exclusivo para papel e cartão limpos!",
+        "explanation": "O ecoponto azul é exclusivo para papel e cartão limpos!"
+      },
+      {
+        "id": "em_2_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Onde deves colocar as garrafas e frascos de vidro vazios?",
+        "question": "Onde deves colocar as garrafas e frascos de vidro vazios?",
+        "resposta": "🟢 Ecoponto Verde (Vidrão)",
+        "correctAnswer": "🟢 Ecoponto Verde (Vidrão)",
+        "explicacao": "O vidrão verde recebe garrafas e frascos de vidro para derreter e criar novos frascos! 🟢",
+        "explanation": "O vidrão verde recebe garrafas e frascos de vidro para derreter e criar novos frascos! 🟢"
+      },
+      {
+        "id": "em_2_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde se devem depositar as pilhas e baterias velhas gastas?",
+        "question": "Onde se devem depositar as pilhas e baterias velhas gastas?",
+        "resposta": "No Pilhão (contentor especial vermelho)",
+        "correctAnswer": "No Pilhão (contentor especial vermelho)",
+        "explicacao": "As pilhas contêm metais pesados e devem ir sempre para o Pilhão!",
+        "explanation": "As pilhas contêm metais pesados e devem ir sempre para o Pilhão!"
+      },
+      {
+        "id": "em_2_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O plástico demora centenas de anos a decompor-se se for atirado para a praia ou oceanos.",
+        "question": "O plástico demora centenas de anos a decompor-se se for atirado para a praia ou oceanos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O lixo plástico sufoca peixes e tartarugas marinas.",
+        "explanation": "Verdadeiro! O lixo plástico sufoca peixes e tartarugas marinas."
+      },
+      {
+        "id": "em_2_f12_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Reutilizar significa...",
+        "question": "Reutilizar significa...",
+        "opcoes": [
+          "Dar uma nova utilidade a um objeto em vez de o deitar logo ao lixo",
+          "Comprar 10 coisas novas iguais",
+          "Queimar tudo"
+        ],
+        "options": [
+          "Dar uma nova utilidade a um objeto em vez de o deitar logo ao lixo",
+          "Comprar 10 coisas novas iguais",
+          "Queimar tudo"
+        ],
+        "resposta": "Dar uma nova utilidade a um objeto em vez de o deitar logo ao lixo",
+        "correctAnswer": "Dar uma nova utilidade a um objeto em vez de o deitar logo ao lixo",
+        "explicacao": "Exemplo: transformar um frasco de compota num porta-lápis colorido!",
+        "explanation": "Exemplo: transformar um frasco de compota num porta-lápis colorido!"
+      },
+      {
+        "id": "em_2_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Separa corretamente os resíduos no seu respetivo Ecoponto:",
+        "question": "Separa corretamente os resíduos no seu respetivo Ecoponto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Guardião Oficial da Natureza do 2.º Ano!",
+        "explanation": "Parabéns, Guardião Oficial da Natureza do 2.º Ano!",
+        "pairs": {
+          "Garrafa de azeite de vidro": "Ecoponto Verde (Vidro)",
+          "Caixa de sapatos de cartão": "Ecoponto Azul (Papel)",
+          "Lata de refrigerante de alumínio": "Ecoponto Amarelo (Metal/Plástico)",
+          "Pilhas gastas de lanterna": "Pilhão Vermelho"
+        },
+        "pares": {
+          "Garrafa de azeite de vidro": "Ecoponto Verde (Vidro)",
+          "Caixa de sapatos de cartão": "Ecoponto Azul (Papel)",
+          "Lata de refrigerante de alumínio": "Ecoponto Amarelo (Metal/Plástico)",
+          "Pilhas gastas de lanterna": "Pilhão Vermelho"
+        }
+      }
+    ],
+    "exercises": [
+      {
+        "id": "em_2_f12_e1",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "O que significam os famosos 3 R's da sustentabilidade?",
+        "question": "O que significam os famosos 3 R's da sustentabilidade?",
+        "opcoes": [
+          "Reduzir, Reutilizar e Reciclar",
+          "Rir, Rezar e Rolar",
+          "Rasgar, Riscar e Roer"
+        ],
+        "options": [
+          "Reduzir, Reutilizar e Reciclar",
+          "Rir, Rezar e Rolar",
+          "Rasgar, Riscar e Roer"
+        ],
+        "resposta": "Reduzir, Reutilizar e Reciclar",
+        "correctAnswer": "Reduzir, Reutilizar e Reciclar",
+        "explicacao": "Reduzir o consumo, reutilizar o que pudermos e reciclar o lixo separado!",
+        "explanation": "Reduzir o consumo, reutilizar o que pudermos e reciclar o lixo separado!"
+      },
+      {
+        "id": "em_2_f12_e2",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "No Ecoponto AMARELO colocamos embalagens de plástico, metal e pacotes de leite.",
+        "question": "No Ecoponto AMARELO colocamos embalagens de plástico, metal e pacotes de leite.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! Plásticos, latas e pacotes de bebidas vão para o contentor amarelo.",
+        "explanation": "Verdadeiro! Plásticos, latas e pacotes de bebidas vão para o contentor amarelo."
+      },
+      {
+        "id": "em_2_f12_e3",
+        "tipo": "COMPLETING",
+        "type": "COMPLETING",
+        "pergunta": "O papel, cartão, jornais e revistas devem ser colocados no Ecoponto ___",
+        "question": "O papel, cartão, jornais e revistas devem ser colocados no Ecoponto ___",
+        "opcoes": [
+          "AZUL",
+          "VERDE",
+          "VERMELHO"
+        ],
+        "options": [
+          "AZUL",
+          "VERDE",
+          "VERMELHO"
+        ],
+        "resposta": "AZUL",
+        "correctAnswer": "AZUL",
+        "explicacao": "O ecoponto azul é exclusivo para papel e cartão limpos!",
+        "explanation": "O ecoponto azul é exclusivo para papel e cartão limpos!"
+      },
+      {
+        "id": "em_2_f12_e4",
+        "tipo": "CHOOSE_IMAGE",
+        "type": "CHOOSE_IMAGE",
+        "pergunta": "Onde deves colocar as garrafas e frascos de vidro vazios?",
+        "question": "Onde deves colocar as garrafas e frascos de vidro vazios?",
+        "resposta": "🟢 Ecoponto Verde (Vidrão)",
+        "correctAnswer": "🟢 Ecoponto Verde (Vidrão)",
+        "explicacao": "O vidrão verde recebe garrafas e frascos de vidro para derreter e criar novos frascos! 🟢",
+        "explanation": "O vidrão verde recebe garrafas e frascos de vidro para derreter e criar novos frascos! 🟢"
+      },
+      {
+        "id": "em_2_f12_e5",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Onde se devem depositar as pilhas e baterias velhas gastas?",
+        "question": "Onde se devem depositar as pilhas e baterias velhas gastas?",
+        "resposta": "No Pilhão (contentor especial vermelho)",
+        "correctAnswer": "No Pilhão (contentor especial vermelho)",
+        "explicacao": "As pilhas contêm metais pesados e devem ir sempre para o Pilhão!",
+        "explanation": "As pilhas contêm metais pesados e devem ir sempre para o Pilhão!"
+      },
+      {
+        "id": "em_2_f12_e6",
+        "tipo": "TRUE_FALSE",
+        "type": "TRUE_FALSE",
+        "pergunta": "O plástico demora centenas de anos a decompor-se se for atirado para a praia ou oceanos.",
+        "question": "O plástico demora centenas de anos a decompor-se se for atirado para a praia ou oceanos.",
+        "resposta": "true",
+        "correctAnswer": "true",
+        "explicacao": "Verdadeiro! O lixo plástico sufoca peixes e tartarugas marinas.",
+        "explanation": "Verdadeiro! O lixo plástico sufoca peixes e tartarugas marinas."
+      },
+      {
+        "id": "em_2_f12_e7",
+        "tipo": "MULTIPLE_CHOICE",
+        "type": "MULTIPLE_CHOICE",
+        "pergunta": "Reutilizar significa...",
+        "question": "Reutilizar significa...",
+        "opcoes": [
+          "Dar uma nova utilidade a um objeto em vez de o deitar logo ao lixo",
+          "Comprar 10 coisas novas iguais",
+          "Queimar tudo"
+        ],
+        "options": [
+          "Dar uma nova utilidade a um objeto em vez de o deitar logo ao lixo",
+          "Comprar 10 coisas novas iguais",
+          "Queimar tudo"
+        ],
+        "resposta": "Dar uma nova utilidade a um objeto em vez de o deitar logo ao lixo",
+        "correctAnswer": "Dar uma nova utilidade a um objeto em vez de o deitar logo ao lixo",
+        "explicacao": "Exemplo: transformar um frasco de compota num porta-lápis colorido!",
+        "explanation": "Exemplo: transformar um frasco de compota num porta-lápis colorido!"
+      },
+      {
+        "id": "em_2_f12_e8",
+        "tipo": "MATCHING",
+        "type": "MATCHING",
+        "pergunta": "Separa corretamente os resíduos no seu respetivo Ecoponto:",
+        "question": "Separa corretamente os resíduos no seu respetivo Ecoponto:",
+        "resposta": "",
+        "correctAnswer": "",
+        "explicacao": "Parabéns, Guardião Oficial da Natureza do 2.º Ano!",
+        "explanation": "Parabéns, Guardião Oficial da Natureza do 2.º Ano!",
+        "pairs": {
+          "Garrafa de azeite de vidro": "Ecoponto Verde (Vidro)",
+          "Caixa de sapatos de cartão": "Ecoponto Azul (Papel)",
+          "Lata de refrigerante de alumínio": "Ecoponto Amarelo (Metal/Plástico)",
+          "Pilhas gastas de lanterna": "Pilhão Vermelho"
+        },
+        "pares": {
+          "Garrafa de azeite de vidro": "Ecoponto Verde (Vidro)",
+          "Caixa de sapatos de cartão": "Ecoponto Azul (Papel)",
+          "Lata de refrigerante de alumínio": "Ecoponto Amarelo (Metal/Plástico)",
+          "Pilhas gastas de lanterna": "Pilhão Vermelho"
+        }
+      }
+    ]
+  }
+]
