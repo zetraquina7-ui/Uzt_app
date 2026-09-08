@@ -26,7 +26,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v3
 
-      - name: Generate Keystores
+      - name: Generate KeyStore File
         run: |
           mkdir -p ~/.android
           keytool -genkey -v -keystore ~/.android/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
@@ -37,7 +37,8 @@ jobs:
         run: ./gradlew assembleDebug || gradle assembleDebug
 
       - name: Build Release AAB
-        run: ./gradlew bundleRelease || gradle bundleRelease
+        run: |
+          ./gradlew bundleRelease -Pandroid.injected.signing.store.file=$(pwd)/my-upload-key.jks -Pandroid.injected.signing.store.password=android -Pandroid.injected.signing.key.alias=my-key-alias -Pandroid.injected.signing.key.password=android || gradle bundleRelease -Pandroid.injected.signing.store.file=$(pwd)/my-upload-key.jks -Pandroid.injected.signing.store.password=android -Pandroid.injected.signing.key.alias=my-key-alias -Pandroid.injected.signing.key.password=android
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
