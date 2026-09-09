@@ -202,28 +202,28 @@ fun VideosScreen(
                     name = "Músicas",
                     emoji = "🎵",
                     accentColor = Color(0xFFE91E63),
-                    playlistId = "UUrRCYfAdzBO3ViaOseB9dJw"
+                    playlistId = "PLSsrAc3exDx0"
                 ),
                 YouTubeSubCategory(
                     key = "pt_aprender",
                     name = "Aprender",
                     emoji = "🧠",
                     accentColor = Color(0xFFEA580C),
-                    playlistId = "UUdFnXETzOn-BQT_ZtQE1nTw"
+                    playlistId = "PLAHA0KA1fztw"
                 ),
                 YouTubeSubCategory(
                     key = "pt_brincar",
                     name = "Brincar",
                     emoji = "🪁",
                     accentColor = Color(0xFF06B6D4),
-                    playlistId = "UUF8C_W8v0_n6VdCLjmHsOSA"
+                    playlistId = "PLWywOKJSEg6E"
                 ),
                 YouTubeSubCategory(
                     key = "pt_historias",
                     name = "Histórias",
                     emoji = "📚",
                     accentColor = Color(0xFF8B5CF6),
-                    playlistId = "UURLLJsy8MHv-dIa7J36jZnQ"
+                    playlistId = "PLTHYqcQWhhUI"
                 )
             )
         }
