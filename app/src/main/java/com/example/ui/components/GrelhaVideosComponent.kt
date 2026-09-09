@@ -144,9 +144,9 @@ fun GrelhaVideosComponent(
 
                 itemsIndexed(
                     items = videos,
-                    key = { index, track -> "${track.videoId ?: track.id}_$index" }
+                    key = { index, track -> "${track.cleanVideoId}_$index" }
                 ) { index, track ->
-                    val isSelected = (selectedVideoId == track.videoId)
+                    val isSelected = (selectedVideoId != null && (selectedVideoId == track.cleanVideoId || selectedVideoId == track.videoId || selectedVideoId == track.id))
                     GrelhaVideoVerticalCardItem(
                         track = track,
                         index = index + 1,
@@ -241,9 +241,9 @@ fun GrelhaVideosHorizontalCarousel(
 
                 itemsIndexed(
                     items = videos,
-                    key = { index, track -> "land_${track.videoId ?: track.id}_$index" }
+                    key = { index, track -> "land_${track.cleanVideoId}_$index" }
                 ) { index, track ->
-                    val isSelected = (selectedVideoId == track.videoId)
+                    val isSelected = (selectedVideoId != null && (selectedVideoId == track.cleanVideoId || selectedVideoId == track.videoId || selectedVideoId == track.id))
                     GrelhaVideoHorizontalCardItem(
                         track = track,
                         index = index + 1,
@@ -289,7 +289,7 @@ fun GrelhaVideoVerticalCardItem(
                 shape = RoundedCornerShape(10.dp),
                 ambientColor = if (isSelected) accentColor.copy(alpha = 0.4f) else Color.Black.copy(alpha = 0.1f)
             )
-            .testTag("grelha_video_card_${track.videoId ?: index}"),
+            .testTag("grelha_video_card_${track.cleanVideoId.ifBlank { index.toString() }}"),
         shape = RoundedCornerShape(10.dp),
         colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.98f)),
         border = BorderStroke(
@@ -307,16 +307,17 @@ fun GrelhaVideoVerticalCardItem(
                     .background(Color(0xFF0F172A)),
                 contentAlignment = Alignment.Center
             ) {
-                val thumbnailUrl = track.thumbnailUrl ?: "https://img.youtube.com/vi/${track.videoId}/hqdefault.jpg"
+                val thumbnailUrl = track.cleanThumbnailUrl
                 val imgReq = remember(thumbnailUrl) {
                     ImageRequest.Builder(context)
                         .data(thumbnailUrl)
                         .crossfade(true)
+                        .allowHardware(false)
                         .build()
                 }
                 SafeAsyncImage(
                     model = imgReq,
-                    contentDescription = track.title,
+                    contentDescription = track.cleanTitle,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.fillMaxSize()
                 )
@@ -370,9 +371,9 @@ fun GrelhaVideoVerticalCardItem(
             Spacer(modifier = Modifier.height(3.dp))
 
             Text(
-                text = "$index. ${track.title}",
-                fontSize = 9.sp,
-                lineHeight = 11.sp,
+                text = "$index. ${track.cleanTitle}",
+                fontSize = 10.sp,
+                lineHeight = 12.sp,
                 fontWeight = FontWeight.Bold,
                 color = if (isSelected) accentColor else Color(0xFF1E293B),
                 maxLines = 2,
@@ -388,7 +389,7 @@ fun GrelhaVideoVerticalCardItem(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = if (track.publishedDate.isNotBlank()) track.publishedDate else track.duration,
+                    text = if (track.publishedDate.isNotBlank()) track.publishedDate else track.cleanDuration,
                     fontSize = 7.5.sp,
                     color = Color(0xFF64748B),
                     fontWeight = FontWeight.Medium,
@@ -462,16 +463,17 @@ fun GrelhaVideoHorizontalCardItem(
                     .background(Color(0xFF0F172A)),
                 contentAlignment = Alignment.Center
             ) {
-                val thumbnailUrl = track.thumbnailUrl ?: "https://img.youtube.com/vi/${track.videoId}/hqdefault.jpg"
+                val thumbnailUrl = track.cleanThumbnailUrl
                 val imgReq = remember(thumbnailUrl) {
                     ImageRequest.Builder(context)
                         .data(thumbnailUrl)
                         .crossfade(true)
+                        .allowHardware(false)
                         .build()
                 }
                 SafeAsyncImage(
                     model = imgReq,
-                    contentDescription = track.title,
+                    contentDescription = track.cleanTitle,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.fillMaxSize()
                 )
@@ -523,7 +525,7 @@ fun GrelhaVideoHorizontalCardItem(
             Spacer(modifier = Modifier.height(1.5.dp))
 
             Text(
-                text = "$index. ${track.title}",
+                text = "$index. ${track.cleanTitle}",
                 fontSize = 7.5.sp,
                 lineHeight = 9.sp,
                 fontWeight = FontWeight.Bold,
@@ -541,7 +543,7 @@ fun GrelhaVideoHorizontalCardItem(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 Text(
-                    text = if (track.publishedDate.isNotBlank()) track.publishedDate else track.duration,
+                    text = if (track.publishedDate.isNotBlank()) track.publishedDate else track.cleanDuration,
                     fontSize = 6.sp,
                     color = Color(0xFF64748B),
                     fontWeight = FontWeight.Medium,

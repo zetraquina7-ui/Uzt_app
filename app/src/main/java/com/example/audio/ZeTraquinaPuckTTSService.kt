@@ -1,6 +1,9 @@
 package com.example.audio
 
 import android.content.Context
+import android.media.AudioAttributes
+import android.media.AudioFormat
+import android.media.AudioTrack
 import android.net.Uri
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
@@ -46,6 +49,7 @@ object ZeTraquinaPuckTTSService {
     const val PUCK_SPEED = 1.08f
 
     private var exoPlayer: ExoPlayer? = null
+    private var activeAudioTrack: AudioTrack? = null
     private var nativeTts: TextToSpeech? = null
     private var isNativeTtsReady = false
 
@@ -126,37 +130,8 @@ object ZeTraquinaPuckTTSService {
         _isGeneratingAudio.value = true
 
         CoroutineScope(Dispatchers.IO).launch {
-            val apiKey = BuildConfig.MY_GEMINI_KEY.ifBlank { BuildConfig.GEMINI_API_KEY }
-
-            // Try Gemini Cloud TTS with the fixed "Puck" Voice and intelligent retry strategy
-            val audioBytes = if (apiKey.isNotBlank()) {
-                fetchGeminiTTSAudioWithRetry(apiKey, cleanText)
-            } else {
-                Log.w(TAG, "No Gemini API key available for TTS, using local Puck voice synthesis.")
-                null
-            }
-
-            if (audioBytes != null && audioBytes.isNotEmpty()) {
-                val wavData = ensureValidWavFormat(audioBytes)
-                try {
-                    FileOutputStream(cachedWav).use { fos -> fos.write(wavData) }
-                    withContext(Dispatchers.Main) {
-                        playAudioFile(context, cachedWav.absolutePath, onPlaybackStarted) {
-                            _isSpeaking.value = false
-                            _isGeneratingAudio.value = false
-                            onComplete?.invoke()
-                        }
-                    }
-                    return@launch
-                } catch (e: Throwable) {
-                    Log.e(TAG, "Error writing Puck voice cache", e)
-                    cachedWav.delete()
-                }
-            }
-
-            // Fallback: If Gemini Cloud TTS is offline, timed out, or unavailable,
-            // fallback immediately to the native TTS tuned with the identical Puck profile (pitch/speed).
-            Log.d(TAG, "Using resilient local Puck voice fallback (pitch=$PUCK_PITCH, speed=$PUCK_SPEED)")
+            // Força voz nativa de imediato para ser instantâneo e garantir voz de "menino de portugal".
+            Log.d(TAG, "Using fast local Puck voice (pitch=\$PUCK_PITCH, speed=\$PUCK_SPEED)")
             withContext(Dispatchers.Main) {
                 playNativeTts(cleanText, onPlaybackStarted) {
                     _isSpeaking.value = false
@@ -165,6 +140,190 @@ object ZeTraquinaPuckTTSService {
                 }
             }
         }
+    }
+
+    /**
+     * Sintetiza voz usando o modelo Gemini TTS com streaming (SSE). Toca cada pedaço de
+     * áudio PCM assim que chega, através de um AudioTrack em modo streaming — em vez de
+     * esperar pela resposta completa como no método antigo. Também guarda o áudio completo
+     * em cache (WAV) no final, para que a próxima vez que se disser o mesmo texto seja instantâneo.
+     * Devolve true se conseguiu tocar áudio com sucesso.
+     */
+    private suspend fun streamGeminiTTS(
+        apiKey: String,
+        text: String,
+        cacheFile: File,
+        onPlaybackStarted: (() -> Unit)?
+    ): Boolean {
+        val streamingModels = listOf("gemini-3.1-flash-tts-preview")
+
+        for (model in streamingModels) {
+            if (tryStreamModel(apiKey, model, text, cacheFile, onPlaybackStarted)) {
+                return true
+            }
+        }
+        return false
+    }
+
+    private suspend fun tryStreamModel(
+        apiKey: String,
+        model: String,
+        text: String,
+        cacheFile: File,
+        onPlaybackStarted: (() -> Unit)?
+    ): Boolean {
+        var audioTrack: AudioTrack? = null
+        var sampleRate = 24000
+        val pcmBuffer = ByteArrayOutputStream()
+        var hasStartedPlayback = false
+        val streamStartTime = System.currentTimeMillis()
+
+        try {
+            val rootJson = JSONObject()
+            val contents = JSONArray()
+            val contentObj = JSONObject()
+            val parts = JSONArray()
+            parts.put(JSONObject().put("text", text))
+            contentObj.put("role", "user")
+            contentObj.put("parts", parts)
+            contents.put(contentObj)
+            rootJson.put("contents", contents)
+
+            val generationConfig = JSONObject()
+            val responseModalities = JSONArray()
+            responseModalities.put("AUDIO")
+            generationConfig.put("responseModalities", responseModalities)
+
+            val speechConfig = JSONObject()
+            val voiceConfig = JSONObject()
+            val prebuiltVoiceConfig = JSONObject()
+            prebuiltVoiceConfig.put("voiceName", VOICE_NAME)
+            voiceConfig.put("prebuiltVoiceConfig", prebuiltVoiceConfig)
+            speechConfig.put("voiceConfig", voiceConfig)
+            generationConfig.put("speechConfig", speechConfig)
+            rootJson.put("generationConfig", generationConfig)
+
+            val mediaType = "application/json; charset=utf-8".toMediaType()
+            val requestBody = rootJson.toString().toRequestBody(mediaType)
+            val url = "https://generativelanguage.googleapis.com/v1beta/models/$model:streamGenerateContent?alt=sse&key=$apiKey"
+            val request = Request.Builder().url(url).post(requestBody).build()
+
+            client.newCall(request).execute().use { response ->
+                if (!response.isSuccessful) {
+                    Log.w(TAG, "Streaming TTS HTTP error ${response.code} on model $model: ${response.message}")
+                    return false
+                }
+                val source = response.body?.source() ?: return false
+
+                while (!source.exhausted()) {
+                    val line = source.readUtf8Line() ?: break
+                    if (!line.startsWith("data:")) continue
+                    val jsonStr = line.removePrefix("data:").trim()
+                    if (jsonStr.isBlank() || jsonStr == "[DONE]") continue
+
+                    try {
+                        val chunkJson = JSONObject(jsonStr)
+                        val candidates = chunkJson.optJSONArray("candidates") ?: continue
+                        if (candidates.length() == 0) continue
+                        val candidate = candidates.getJSONObject(0)
+                        val cParts = candidate.optJSONObject("content")?.optJSONArray("parts") ?: continue
+
+                        for (i in 0 until cParts.length()) {
+                            val p = cParts.getJSONObject(i)
+                            val inlineData = p.optJSONObject("inlineData") ?: continue
+                            val mimeType = inlineData.optString("mimeType", "")
+                            Regex("rate=(\\d+)").find(mimeType)?.groupValues?.get(1)?.toIntOrNull()?.let {
+                                sampleRate = it
+                            }
+                            val base64Data = inlineData.optString("data")
+                            if (base64Data.isBlank()) continue
+
+                            val pcmChunk = Base64.decode(base64Data, Base64.DEFAULT)
+                            pcmBuffer.write(pcmChunk)
+
+                            if (audioTrack == null) {
+                                audioTrack = createStreamingAudioTrack(sampleRate)
+                                activeAudioTrack = audioTrack
+                                audioTrack?.play()
+                            }
+                            audioTrack?.write(pcmChunk, 0, pcmChunk.size)
+
+                            if (!hasStartedPlayback) {
+                                hasStartedPlayback = true
+                                withContext(Dispatchers.Main) {
+                                    _isGeneratingAudio.value = false
+                                    _isSpeaking.value = true
+                                    onPlaybackStarted?.invoke()
+                                }
+                            }
+                        }
+                    } catch (e: Exception) {
+                        Log.w(TAG, "Error parsing streaming TTS chunk: ${e.message}")
+                    }
+                }
+            }
+
+            if (!hasStartedPlayback || pcmBuffer.size() == 0) {
+                Log.w(TAG, "Streaming TTS produced no audio for model $model")
+                audioTrack?.let { try { it.stop(); it.release() } catch (_: Throwable) {} }
+                if (activeAudioTrack == audioTrack) activeAudioTrack = null
+                return false
+            }
+
+            // Deixa o AudioTrack terminar de tocar o que já foi escrito antes de libertar.
+            val totalBytes = pcmBuffer.size()
+            val bytesPerSecond = sampleRate * 2 // mono, 16-bit
+            val totalDurationMs = if (bytesPerSecond > 0) (totalBytes * 1000L) / bytesPerSecond else 0L
+            val elapsedMs = System.currentTimeMillis() - streamStartTime
+            val remainingMs = (totalDurationMs - elapsedMs).coerceAtLeast(0L)
+            if (remainingMs > 0) {
+                kotlinx.coroutines.delay(remainingMs)
+            }
+
+            audioTrack?.let { try { it.stop(); it.release() } catch (_: Throwable) {} }
+            if (activeAudioTrack == audioTrack) activeAudioTrack = null
+
+            // Guarda em cache para a próxima vez ser instantâneo (0ms)
+            try {
+                val wavData = ensureValidWavFormat(pcmBuffer.toByteArray(), sampleRate = sampleRate, channels = 1)
+                FileOutputStream(cacheFile).use { it.write(wavData) }
+            } catch (e: Throwable) {
+                Log.w(TAG, "Error caching streamed Puck audio", e)
+            }
+
+            return true
+        } catch (e: Exception) {
+            Log.w(TAG, "Streaming TTS failed on model $model: ${e.message}")
+            audioTrack?.let { try { it.stop(); it.release() } catch (_: Throwable) {} }
+            if (activeAudioTrack == audioTrack) activeAudioTrack = null
+            return false
+        }
+    }
+
+    private fun createStreamingAudioTrack(sampleRate: Int): AudioTrack {
+        val minBufSize = AudioTrack.getMinBufferSize(
+            sampleRate,
+            AudioFormat.CHANNEL_OUT_MONO,
+            AudioFormat.ENCODING_PCM_16BIT
+        ).coerceAtLeast(4096)
+
+        return AudioTrack.Builder()
+            .setAudioAttributes(
+                AudioAttributes.Builder()
+                    .setUsage(AudioAttributes.USAGE_MEDIA)
+                    .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
+                    .build()
+            )
+            .setAudioFormat(
+                AudioFormat.Builder()
+                    .setSampleRate(sampleRate)
+                    .setChannelMask(AudioFormat.CHANNEL_OUT_MONO)
+                    .setEncoding(AudioFormat.ENCODING_PCM_16BIT)
+                    .build()
+            )
+            .setBufferSizeInBytes(minBufSize * 3)
+            .setTransferMode(AudioTrack.MODE_STREAM)
+            .build()
     }
 
     private fun playAudioFile(
@@ -205,6 +364,14 @@ object ZeTraquinaPuckTTSService {
                         if (state == Player.STATE_ENDED) {
                             _isSpeaking.value = false
                             _isGeneratingAudio.value = false
+                            try {
+                                player.stop()
+                                player.clearMediaItems()
+                                player.release()
+                            } catch (_: Throwable) {}
+                            if (exoPlayer == player) {
+                                exoPlayer = null
+                            }
                             onComplete?.invoke()
                         }
                     }
@@ -214,6 +381,14 @@ object ZeTraquinaPuckTTSService {
                     Log.e(TAG, "Player error: ${error.message}")
                     _isSpeaking.value = false
                     _isGeneratingAudio.value = false
+                    try {
+                        player.stop()
+                        player.clearMediaItems()
+                        player.release()
+                    } catch (_: Throwable) {}
+                    if (exoPlayer == player) {
+                        exoPlayer = null
+                    }
                     onComplete?.invoke()
                 }
             })
@@ -460,6 +635,11 @@ object ZeTraquinaPuckTTSService {
             exoPlayer?.stop()
             exoPlayer?.release()
             exoPlayer = null
+            activeAudioTrack?.let { track ->
+                try { track.pause(); track.flush(); track.stop() } catch (_: Throwable) {}
+                try { track.release() } catch (_: Throwable) {}
+            }
+            activeAudioTrack = null
             nativeTts?.stop()
             _isSpeaking.value = false
         } catch (e: Exception) {

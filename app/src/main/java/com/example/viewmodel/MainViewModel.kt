@@ -9,8 +9,8 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.api.AdaptiveAnalysisResult
 import com.example.api.GeminiAdaptiveLearningService
-import com.example.audio.MiniMaxStorytellingService
-import com.example.audio.StoryPlaybackState
+
+
 import com.example.audio.TTSManager
 import com.example.audio.SoundManager
 import com.example.data.AppDatabase
@@ -82,7 +82,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     val storytellingService by lazy {
         try {
             Log.d(TAG, "Initializing MiniMaxStorytellingService...")
-            MiniMaxStorytellingService(application)
+            // removed
         } catch (e: Throwable) {
             Log.e(TAG, "Error initializing MiniMaxStorytellingService", e)
             null
@@ -129,8 +129,8 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         }
     }
 
-    val storyPlaybackState: StateFlow<StoryPlaybackState> =
-        storytellingService?.playbackState ?: MutableStateFlow<StoryPlaybackState>(StoryPlaybackState.Idle).asStateFlow()
+    val storyPlaybackState: StateFlow<String> = MutableStateFlow("Idle").asStateFlow() //
+        // removed
 
     private val _userProgress = MutableStateFlow(UserProgress())
     val userProgress: StateFlow<UserProgress> = _userProgress.asStateFlow()
@@ -183,18 +183,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                         seeded = true
                         val now = System.currentTimeMillis()
                         val dayMs = 86400000L
-                        val initialSamples = listOf(
-                            CompletedItem(id = "sample_1", category = "Jogos", title = "Jogo da Memória dos Animais", timestamp = now - (dayMs * 0.1).toLong()),
-                            CompletedItem(id = "sample_2", category = "Aprender", title = "Alfabeto Zé Traquina: Letra A", timestamp = now - (dayMs * 0.3).toLong()),
-                            CompletedItem(id = "sample_3", category = "Chat", title = "Conversa sobre os Dinossauros com ZéAI", timestamp = now - (dayMs * 0.8).toLong()),
-                            CompletedItem(id = "sample_4", category = "Vídeos", title = "A Dança das Cores do Zé Traquina", timestamp = now - (dayMs * 1.2).toLong()),
-                            CompletedItem(id = "sample_5", category = "Jogos", title = "Quebra-Cabeça da Quinta", timestamp = now - (dayMs * 1.8).toLong()),
-                            CompletedItem(id = "sample_6", category = "Aprender", title = "Contar Números 1 a 10", timestamp = now - (dayMs * 2.5).toLong()),
-                            CompletedItem(id = "sample_7", category = "Jogos", title = "Jogo das Formas Geométricas", timestamp = now - (dayMs * 3.2).toLong()),
-                            CompletedItem(id = "sample_8", category = "Vídeos", title = "A Canção do Alfabeto Divertido", timestamp = now - (dayMs * 4.1).toLong()),
-                            CompletedItem(id = "sample_9", category = "Aprender", title = "Descobrir as Cores Primárias", timestamp = now - (dayMs * 5.0).toLong()),
-                            CompletedItem(id = "sample_10", category = "Chat", title = "Adivinhas de Animaizinhos", timestamp = now - (dayMs * 6.0).toLong())
-                        )
+                        val initialSamples = emptyList<com.example.data.CompletedItem>()
                         repository?.seedSampleItemsIfEmpty(initialSamples)
                     }
                     if (_adaptiveAnalysisState.value == null && list.isNotEmpty()) {
@@ -754,29 +743,9 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             if (!_userProgress.value.soundEnabled) return
 
             val prefs = getApplication<Application>().getSharedPreferences("ze_traquina_prefs", android.content.Context.MODE_PRIVATE)
-            val apiKey = prefs.getString("minimax_api_key", "") ?: ""
-            val groupId = prefs.getString("minimax_group_id", "412800306253115401")?.ifBlank { "412800306253115401" } ?: "412800306253115401"
-            val voiceId = prefs.getString("minimax_voice_id", "moss_audio_042825f2-9a3c-11f0-a95b-4a1f35de8f62")?.ifBlank { "moss_audio_042825f2-9a3c-11f0-a95b-4a1f35de8f62" } ?: "moss_audio_042825f2-9a3c-11f0-a95b-4a1f35de8f62"
 
-            storytellingService?.tellStory(
-                title = title,
-                storyContent = storyContent,
-                apiKey = apiKey,
-                groupId = groupId,
-                voiceId = voiceId,
-                onFallbackNativeTTS = { text ->
-                    speak(text)
-                }
-            )
-        } catch (e: Throwable) {
-            Log.e(TAG, "Error telling story", e)
-        }
-    }
-
-    fun stopStory() {
-        try {
-            storytellingService?.stopStory()
-            ttsManager?.stop()
+            // tellStory is not supported anymore because MiniMaxStorytellingService was deleted.
+            speak("Eu adorava contar a história: \$title")
         } catch (e: Throwable) {
             Log.e(TAG, "Error stopping story", e)
         }
@@ -786,7 +755,6 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
         super.onCleared()
         try {
             SpeechRecognitionHelper.safeDestroy(speechRecognizer)
-            storytellingService?.stopStory()
             ttsManager?.shutdown()
             soundManager?.release()
         } catch (e: Throwable) {

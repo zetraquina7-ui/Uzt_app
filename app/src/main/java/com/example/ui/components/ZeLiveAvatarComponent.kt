@@ -65,6 +65,7 @@ import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -131,6 +132,8 @@ import com.example.viewmodel.LiveAvatarState
 import com.example.audio.ZeTraquinaPuckTTSService
 import kotlinx.coroutines.launch
 
+private var hasSpokenWelcomeInSession = false
+
 private val VIDEO_URL_IDLE = com.example.util.ZeAvatarCacheManager.VIDEO_URL_IDLE
 private val VIDEO_URL_LISTENING = com.example.util.ZeAvatarCacheManager.VIDEO_URL_LISTENING
 private val VIDEO_URL_TALKING = com.example.util.ZeAvatarCacheManager.VIDEO_URL_TALKING
@@ -165,6 +168,14 @@ fun ZeLiveAvatarComponent(
 
     val isPreviewMode = LocalInspectionMode.current || PreviewConfig.isInPreview()
     var hasHeardSpeech by remember { mutableStateOf(false) }
+
+    LaunchedEffect(Unit) {
+        if (!hasSpokenWelcomeInSession) {
+            hasSpokenWelcomeInSession = true
+            delay(600)
+            ZeTraquinaPuckTTSService.speak(context, lastResponseText)
+        }
+    }
 
     DisposableEffect(Unit) {
         onDispose {
@@ -383,41 +394,29 @@ fun ZeLiveAvatarComponent(
         avatarViewModel.setAvatarState(targetAvatarState)
     }
 
-    Box(modifier = modifier.fillMaxSize()) {
-        Column(
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(horizontal = 6.dp)
+            .imePadding()
+    ) {
+        // ==========================================
+        // 1. Full Screen Live Avatar Video Player Container
+        // ==========================================
+        Card(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(horizontal = 8.dp, vertical = 4.dp)
-                .imePadding()
-                .navigationBarsPadding(),
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            // ==========================================
-            // 1. Central Live Avatar Video Player Container
-            // Uses Column weight and Modifier.aspectRatio(1f) to prevent distortion across all device sizes
-            // ==========================================
-            BoxWithConstraints(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .weight(1.2f)
-                    .padding(vertical = 2.dp),
-                contentAlignment = Alignment.Center
-            ) {
-                val videoCardSize = minOf(maxWidth, maxHeight)
-                Card(
-                    modifier = Modifier
-                        .size(videoCardSize)
-                        .aspectRatio(1f)
-                        .shadow(
-                            elevation = if (avatarState != LiveAvatarState.IDLE) 10.dp else 5.dp,
-                            shape = RoundedCornerShape(24.dp),
-                            spotColor = stateBorderColor.copy(alpha = glowAlpha)
-                        )
-                        .testTag("live_avatar_video_card"),
+                .padding(bottom = 6.dp)
+                .shadow(
+                    elevation = if (avatarState != LiveAvatarState.IDLE) 8.dp else 4.dp,
                     shape = RoundedCornerShape(24.dp),
-                    colors = CardDefaults.cardColors(containerColor = Color(0xFF0F172A)),
-                    border = BorderStroke(2.dp, stateBorderColor)
-                ) {
+                    spotColor = stateBorderColor.copy(alpha = glowAlpha)
+                )
+                .testTag("live_avatar_video_card"),
+            shape = RoundedCornerShape(24.dp),
+            colors = CardDefaults.cardColors(containerColor = Color(0xFF0F172A)),
+            border = BorderStroke(2.dp, stateBorderColor)
+        ) {
                     Box(
                         modifier = Modifier.fillMaxSize(),
                         contentAlignment = Alignment.Center
@@ -460,11 +459,13 @@ fun ZeLiveAvatarComponent(
                                 val badgeColor = when {
                                     avatarState == LiveAvatarState.TALKING -> Color(0xFFEC4899)
                                     avatarState == LiveAvatarState.LISTENING -> Color(0xFF10B981)
-                                    else -> Color(0xFFEF4444)
+                                    avatarState == LiveAvatarState.THINKING -> Color(0xFFF59E0B)
+                                    else -> Color(0xFF3B82F6)
                                 }
                                 val badgeText = when {
                                     avatarState == LiveAvatarState.TALKING -> "FALANDO..."
                                     avatarState == LiveAvatarState.LISTENING -> "A OUVIR..."
+                                    avatarState == LiveAvatarState.THINKING -> "A PENSAR..."
                                     else -> "AO VIVO"
                                 }
                                 Box(
@@ -483,6 +484,35 @@ fun ZeLiveAvatarComponent(
                             }
                         }
 
+                        // Thinking indicator overlay
+                        if (avatarState == LiveAvatarState.THINKING) {
+                            Surface(
+                                shape = RoundedCornerShape(16.dp),
+                                color = Color.Black.copy(alpha = 0.65f),
+                                modifier = Modifier
+                                    .align(Alignment.Center)
+                                    .padding(8.dp)
+                            ) {
+                                Row(
+                                    modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                ) {
+                                    CircularProgressIndicator(
+                                        modifier = Modifier.size(18.dp),
+                                        color = Color(0xFFFBBF24),
+                                        strokeWidth = 2.5.dp
+                                    )
+                                    Text(
+                                        text = "A pensar...",
+                                        fontSize = 13.sp,
+                                        fontWeight = FontWeight.Bold,
+                                        color = Color.White
+                                    )
+                                }
+                            }
+                        }
+
                         // Microphone status overlay inside the video area, absolute bottom-centered
                         ZeListeningPulseIndicator(
                             isListening = isListeningVoice,
@@ -495,19 +525,23 @@ fun ZeLiveAvatarComponent(
                         )
                     }
                 }
-            }
 
-            Spacer(modifier = Modifier.height(4.dp))
-
+        // UI Overlay on top of the Video
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .align(Alignment.BottomCenter)
+                .padding(horizontal = 6.dp, vertical = 12.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
             // ==========================================
             // 2. Speech / Subtitle Bubble Card
-            // Uses weight to adapt responsively, with internal scroll for long responses
             // ==========================================
             Card(
                 modifier = Modifier
-                    .fillMaxWidth(0.96f)
-                    .weight(0.8f)
-                    .padding(vertical = 2.dp)
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp, vertical = 2.dp)
+                    .heightIn(max = 130.dp)
                     .shadow(3.dp, RoundedCornerShape(16.dp)),
                 shape = RoundedCornerShape(16.dp),
                 colors = CardDefaults.cardColors(containerColor = Color.White.copy(alpha = 0.95f)),
@@ -515,8 +549,9 @@ fun ZeLiveAvatarComponent(
             ) {
                 Column(
                     modifier = Modifier
-                        .fillMaxSize()
-                        .padding(horizontal = 12.dp, vertical = 8.dp)
+                        .fillMaxWidth()
+                        .wrapContentHeight()
+                        .padding(horizontal = 10.dp, vertical = 6.dp)
                         .verticalScroll(rememberScrollState()),
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
@@ -660,7 +695,7 @@ fun ZeLiveAvatarComponent(
             Row(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(vertical = 6.dp)
+                    .padding(horizontal = 16.dp, vertical = 4.dp)
                     .background(Color.White, RoundedCornerShape(50))
                     .border(
                         width = 1.5.dp,
@@ -669,7 +704,7 @@ fun ZeLiveAvatarComponent(
                         ),
                         shape = RoundedCornerShape(50)
                     )
-                    .padding(horizontal = 4.dp, vertical = 4.dp),
+                    .padding(horizontal = 6.dp, vertical = 2.dp),
                 verticalAlignment = Alignment.CenterVertically,
                 horizontalArrangement = Arrangement.SpaceBetween
             ) {
@@ -688,24 +723,28 @@ fun ZeLiveAvatarComponent(
                     else -> Icons.Default.MicNone
                 }
 
-                IconButton(
-                    onClick = {
-                        if (isLoading) return@IconButton
-                        if (speechErrorMessage != null) {
-                            speechErrorMessage = null
-                        }
-                        toggleVoiceInput()
-                    },
-                    enabled = !isLoading,
+                Box(
                     modifier = Modifier
-                        .size(36.dp)
+                        .size(48.dp)
+                        .clip(CircleShape)
                         .background(micBgColor, CircleShape)
-                        .testTag("live_avatar_mic_btn")
+                        .clickable(
+                            enabled = !isLoading,
+                            onClick = {
+                                if (isLoading) return@clickable
+                                if (speechErrorMessage != null) {
+                                    speechErrorMessage = null
+                                }
+                                toggleVoiceInput()
+                            }
+                        )
+                        .testTag("live_avatar_mic_btn"),
+                    contentAlignment = Alignment.Center
                 ) {
                     if (isLoading) {
                         CircularProgressIndicator(
                             color = Color.White,
-                            modifier = Modifier.size(16.dp),
+                            modifier = Modifier.size(20.dp),
                             strokeWidth = 2.dp
                         )
                     } else {
@@ -713,7 +752,7 @@ fun ZeLiveAvatarComponent(
                             imageVector = micIcon,
                             contentDescription = "Falar ao Microfone",
                             tint = Color.White,
-                            modifier = Modifier.size(18.dp)
+                            modifier = Modifier.size(22.dp)
                         )
                     }
                 }
@@ -734,6 +773,7 @@ fun ZeLiveAvatarComponent(
                     },
                     modifier = Modifier
                         .weight(1f)
+                        .heightIn(min = 48.dp)
                         .testTag("live_avatar_text_input"),
                     colors = TextFieldDefaults.colors(
                         focusedContainerColor = Color.Transparent,
@@ -975,19 +1015,13 @@ private fun LiveAvatarPlayer(
         modifier = modifier
             .fillMaxSize()
             .clip(RoundedCornerShape(24.dp)),
-        contentAlignment = Alignment.TopCenter
+        contentAlignment = Alignment.Center
     ) {
-        val containerWidth = maxWidth
-        val containerHeight = maxHeight
-        val calculatedHeight = if (videoRatio > 0f) containerWidth / videoRatio else containerHeight
-        val finalHeight = maxOf(containerHeight, calculatedHeight)
-
         if (exoPlayer != null) {
             AndroidView(
                 modifier = Modifier
-                    .fillMaxWidth()
-                    .height(finalHeight)
-                    .align(Alignment.TopCenter),
+                    .fillMaxSize()
+                    .align(Alignment.Center),
                 factory = { ctx ->
                     try {
                         (android.view.LayoutInflater.from(ctx).inflate(R.layout.exo_texture_player, null) as androidx.media3.ui.PlayerView).apply {
@@ -1007,11 +1041,13 @@ private fun LiveAvatarPlayer(
                         try {
                             (android.view.LayoutInflater.from(ctx).inflate(R.layout.exo_texture_player, null) as androidx.media3.ui.PlayerView).apply {
                                 useController = false
+                                resizeMode = androidx.media3.ui.AspectRatioFrameLayout.RESIZE_MODE_FILL
                                 player = exoPlayer
                             }
                         } catch (e2: Throwable) {
                             androidx.media3.ui.PlayerView(ctx).apply {
                                 useController = false
+                                resizeMode = androidx.media3.ui.AspectRatioFrameLayout.RESIZE_MODE_FILL
                                 player = exoPlayer
                             }
                         }

@@ -40,6 +40,7 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -91,12 +92,12 @@ fun ShortsGrid(
 
             itemsIndexed(
                 items = shorts,
-                key = { index, item -> "${item.videoId ?: item.id}_$index" }
+                key = { index, item -> "${item.cleanVideoId}_$index" }
             ) { index, track ->
                 ShortCardItem(
                     track = track,
                     index = index + 1,
-                    isSelected = (selectedVideoId != null && selectedVideoId == track.videoId),
+                    isSelected = (selectedVideoId != null && (selectedVideoId == track.cleanVideoId || selectedVideoId == track.videoId)),
                     accentColor = accentColor,
                     onClick = { onShortSelected(track) }
                 )
@@ -144,12 +145,12 @@ fun ShortsHorizontalCarousel(
 
             itemsIndexed(
                 items = shorts,
-                key = { index, item -> "short_land_${item.videoId ?: item.id}_$index" }
+                key = { index, item -> "short_land_${item.cleanVideoId}_$index" }
             ) { index, track ->
                 ShortCardItem(
                     track = track,
                     index = index + 1,
-                    isSelected = (selectedVideoId != null && selectedVideoId == track.videoId),
+                    isSelected = (selectedVideoId != null && (selectedVideoId == track.cleanVideoId || selectedVideoId == track.videoId)),
                     accentColor = accentColor,
                     onClick = { onShortSelected(track) }
                 )
@@ -169,17 +170,15 @@ fun ShortCardItem(
 ) {
     val context = LocalContext.current
 
-    val imageRequest = remember(track.thumbnailUrl, track.videoId) {
-        val rawUrl = track.thumbnailUrl
-            ?: (if (!track.videoId.isNullOrBlank()) "https://img.youtube.com/vi/${track.videoId}/hqdefault.jpg" else "")
-            
+    val imageRequest = remember(track.cleanThumbnailUrl, track.cleanVideoId) {
         ImageRequest.Builder(context)
-            .data(rawUrl)
+            .data(track.cleanThumbnailUrl)
             .crossfade(250)
+            .allowHardware(false)
             .memoryCachePolicy(CachePolicy.ENABLED)
             .diskCachePolicy(CachePolicy.ENABLED)
-            .memoryCacheKey("short_thumb_${track.videoId ?: track.id}")
-            .diskCacheKey("short_thumb_${track.videoId ?: track.id}")
+            .memoryCacheKey("short_thumb_${track.cleanVideoId}")
+            .diskCacheKey("short_thumb_${track.cleanVideoId}")
             .build()
     }
 
@@ -187,7 +186,8 @@ fun ShortCardItem(
         modifier = modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(10.dp))
-            .clickable { onClick() },
+            .clickable { onClick() }
+            .testTag("short_card_${track.cleanVideoId.ifBlank { index.toString() }}"),
         shape = RoundedCornerShape(10.dp),
         colors = CardDefaults.cardColors(
             containerColor = Color.White.copy(alpha = 0.96f)
@@ -214,7 +214,7 @@ fun ShortCardItem(
                 AsyncImage(
                     model = imageRequest,
                     imageLoader = AppImageLoader.get(context),
-                    contentDescription = track.title,
+                    contentDescription = track.cleanTitle,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.fillMaxSize()
                 )
@@ -266,7 +266,7 @@ fun ShortCardItem(
             Spacer(modifier = Modifier.height(2.dp))
 
             Text(
-                text = track.title,
+                text = track.cleanTitle,
                 fontSize = 8.5.sp,
                 lineHeight = 10.5.sp,
                 fontWeight = FontWeight.Bold,

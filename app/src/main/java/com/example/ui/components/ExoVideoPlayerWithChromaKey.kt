@@ -115,19 +115,7 @@ private fun StandardExoVideoPlayer(
 
             val renderersFactory = com.example.util.ExoPlayerHelper.createRenderersFactory(context)
 
-            val loadControl = androidx.media3.exoplayer.DefaultLoadControl.Builder()
-                .setBufferDurationsMs(
-                    /* minBufferMs = */ 15_000,
-                    /* maxBufferMs = */ 50_000,
-                    /* bufferForPlaybackMs = */ 200,
-                    /* bufferForPlaybackAfterRebufferMs = */ 400
-                )
-                .setPrioritizeTimeOverSizeThresholds(true)
-                .setBackBuffer(
-                    /* backBufferDurationMs = */ 10_000,
-                    /* retainBackBufferFromKeyframe = */ true
-                )
-                .build()
+            val loadControl = com.example.util.ExoPlayerHelper.createLoadControl()
 
             val resolvedUri = com.example.util.ZeAvatarCacheManager.getMediaUri(context, videoUrl)
 
@@ -247,19 +235,7 @@ private fun ChromaKeyExoVideoPlayer(
 
             val renderersFactory = com.example.util.ExoPlayerHelper.createRenderersFactory(context)
 
-            val loadControl = androidx.media3.exoplayer.DefaultLoadControl.Builder()
-                .setBufferDurationsMs(
-                    /* minBufferMs = */ 15_000,
-                    /* maxBufferMs = */ 50_000,
-                    /* bufferForPlaybackMs = */ 200,
-                    /* bufferForPlaybackAfterRebufferMs = */ 400
-                )
-                .setPrioritizeTimeOverSizeThresholds(true)
-                .setBackBuffer(
-                    /* backBufferDurationMs = */ 10_000,
-                    /* retainBackBufferFromKeyframe = */ true
-                )
-                .build()
+            val loadControl = com.example.util.ExoPlayerHelper.createLoadControl()
 
             ExoPlayer.Builder(context, renderersFactory)
                 .setMediaSourceFactory(mediaSourceFactory)
@@ -366,7 +342,7 @@ private fun ChromaKeyExoVideoPlayer(
                 try {
                     (android.view.LayoutInflater.from(ctx).inflate(R.layout.exo_texture_player, null) as androidx.media3.ui.PlayerView).apply {
                         useController = false
-                        resizeMode = androidx.media3.ui.AspectRatioFrameLayout.RESIZE_MODE_ZOOM
+                        resizeMode = androidx.media3.ui.AspectRatioFrameLayout.RESIZE_MODE_FILL
                         player = exoPlayer
                         setKeepContentOnPlayerReset(true)
                     }
@@ -374,7 +350,7 @@ private fun ChromaKeyExoVideoPlayer(
                     Log.e("ExoVideoPlayer", "Failed to inflate PlayerView", e)
                     androidx.media3.ui.PlayerView(ctx).apply {
                         useController = false
-                        resizeMode = androidx.media3.ui.AspectRatioFrameLayout.RESIZE_MODE_ZOOM
+                        resizeMode = androidx.media3.ui.AspectRatioFrameLayout.RESIZE_MODE_FILL
                         player = exoPlayer
                     }
                 }

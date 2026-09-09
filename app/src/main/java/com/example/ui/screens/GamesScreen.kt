@@ -79,7 +79,7 @@ import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.VolumeOff
 import androidx.compose.material.icons.filled.VolumeUp
-import com.example.audio.AudioSynthesizer
+
 import androidx.compose.material.icons.filled.Star
 import com.example.data.UserProgress
 import androidx.compose.material3.Button
@@ -1838,7 +1838,7 @@ fun MagicPianoGameView(
                                 if (type == "piano") layoutStyle = "keyboard"
                                 if (type == "xylophone") layoutStyle = "bars"
                                 if (!isPreview) {
-                                    AudioSynthesizer.stopMelody()
+                                    // AudioSynthesizer removed
                                 }
                                 isPlayingDemoSong = false
                             }
@@ -1896,7 +1896,7 @@ fun MagicPianoGameView(
                         color = Color.Red.copy(alpha = 0.15f),
                         modifier = Modifier.clickable {
                             if (!isPreview) {
-                                AudioSynthesizer.stopMelody()
+                                // AudioSynthesizer removed
                             }
                             isPlayingDemoSong = false
                         }
@@ -1938,11 +1938,7 @@ fun MagicPianoGameView(
                                 lastPlayedKey = "${key.note} (${key.label})"
 
                                 if (!isPreview) {
-                                    AudioSynthesizer.playSynthNote(
-                                        freqHz = key.frequencyHz,
-                                        durationMs = if (selectedInstrument == "xylophone") 400 else 550,
-                                        instrumentType = selectedInstrument
-                                    )
+                                     // removed 
 
                                     if (voiceGuideEnabled) {
 
@@ -2026,11 +2022,7 @@ fun MagicPianoGameView(
                                 lastPlayedKey = "${key.note} (${key.label})"
 
                                 if (!isPreview) {
-                                    AudioSynthesizer.playSynthNote(
-                                        freqHz = key.frequencyHz,
-                                        durationMs = if (selectedInstrument == "xylophone") 400 else 550,
-                                        instrumentType = selectedInstrument
-                                    )
+                                     // removed 
 
                                     if (voiceGuideEnabled) {
 
@@ -2100,7 +2092,7 @@ fun MagicPianoGameView(
                         onClick = {
                             isPlayingDemoSong = true
                             lastPlayedKey = title
-                            AudioSynthesizer.playSongMelody(songIdx, false)
+                            // AudioSynthesizer removed
                         },
                         colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFE2E8F0)),
                         shape = RoundedCornerShape(10.dp),

@@ -148,6 +148,19 @@ fun HomeVideoPlayerCard(
         videoUrl.contains("youtube") || videoUrl.contains("youtu.be")
     }
 
+    DisposableEffect(lifecycleOwner) {
+        val observer = androidx.lifecycle.LifecycleEventObserver { _, event ->
+            if (event == androidx.lifecycle.Lifecycle.Event.ON_PAUSE || event == androidx.lifecycle.Lifecycle.Event.ON_STOP) {
+                isPlaying = false
+                exoPlayerState.value?.pause()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+        }
+    }
+
     DisposableEffect(appContext, isYouTubeVideo, videoUrl) {
         if (isYouTubeVideo) {
             exoPlayerState.value = null
@@ -167,6 +180,7 @@ fun HomeVideoPlayerCard(
                     .setMediaSourceFactory(
                         DefaultMediaSourceFactory(dataSourceFactory, com.example.util.ExoPlayerHelper.createExtractorsFactory())
                     )
+                    .setLoadControl(com.example.util.ExoPlayerHelper.createLoadControl())
                     .build().apply {
                         val audioAttributes = AudioAttributes.Builder()
                             .setUsage(C.USAGE_MEDIA)

@@ -26,15 +26,33 @@ data class CachedVideoEntity(
     val orderIndex: Int = 0
 ) {
     fun toYouTubeVideoTrack(): YouTubeVideoTrack {
+        val realVideoId = when {
+            !videoId.isNullOrBlank() && !videoId.contains(":") && videoId.length in 8..15 -> videoId
+            !id.contains(":") && id.substringAfterLast("_").length in 8..15 -> id.substringAfterLast("_")
+            !thumbnailUrl.isNullOrBlank() && !thumbnailUrl.startsWith("http") && thumbnailUrl.length in 8..15 -> thumbnailUrl
+            else -> videoId ?: id
+        }
+        val realDuration = when {
+            duration.isNotBlank() && duration != "Vídeo" && duration != "Short" -> duration
+            !videoId.isNullOrBlank() && videoId.contains(":") -> videoId
+            else -> if (isShort) "Short" else "Vídeo"
+        }
+        val realThumb = when {
+            !thumbnailUrl.isNullOrBlank() && thumbnailUrl.startsWith("http") -> thumbnailUrl
+            realVideoId.isNotBlank() && !realVideoId.contains(":") -> "https://i.ytimg.com/vi/$realVideoId/hqdefault.jpg"
+            else -> "https://i.ytimg.com/vi/wOnvZxQ-Iio/hqdefault.jpg"
+        }
+
         return YouTubeVideoTrack(
-            id = videoId ?: id,
+            id = realVideoId,
             title = title,
-            videoId = videoId,
-            thumbnailUrl = thumbnailUrl,
-            duration = duration,
+            videoId = realVideoId,
+            thumbnailUrl = realThumb,
+            duration = realDuration,
             emoji = emoji,
             publishedDate = publishedDate,
-            isShort = isShort
+            isShort = isShort,
+            remoteThumbnailUrl = realThumb
         )
     }
 
@@ -47,14 +65,15 @@ data class CachedVideoEntity(
             isDownloaded: Boolean = false,
             localFilePath: String? = null
         ): CachedVideoEntity {
-            val uniqueId = "${categoryKey}_${track.videoId ?: track.id.ifBlank { orderIndex.toString() }}"
+            val vid = track.cleanVideoId
+            val uniqueId = "${categoryKey}_${vid.ifBlank { orderIndex.toString() }}"
             return CachedVideoEntity(
                 id = uniqueId,
                 playlistOrCategoryKey = categoryKey,
-                title = track.title,
-                videoId = track.videoId ?: track.id,
-                thumbnailUrl = track.thumbnailUrl,
-                duration = track.duration,
+                title = track.cleanTitle,
+                videoId = vid,
+                thumbnailUrl = track.cleanThumbnailUrl,
+                duration = track.cleanDuration,
                 emoji = track.emoji,
                 publishedDate = track.publishedDate,
                 isShort = track.isShort,

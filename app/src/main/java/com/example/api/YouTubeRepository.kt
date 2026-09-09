@@ -290,7 +290,7 @@ class YouTubeRepository(private val customApiKey: String? = null) {
         }
     }
 
-    fun getFallbackShorts(): List<YouTubeVideoTrack> = emptyList()
+    fun getFallbackShorts(): List<YouTubeVideoTrack> = com.example.ui.screens.getFallbackPlaylistTracks("ze_shorts")
 
     suspend fun carregarVideosDoCanal(canal: CanalRecomendado, maxResultados: Int = 6): List<VideoModel> = withContext(Dispatchers.IO) {
         val playlistId = canal.channelId.replaceFirst("UC", "UU")
@@ -338,6 +338,25 @@ class YouTubeRepository(private val customApiKey: String? = null) {
             Log.e("YouTubeRepo", "Error carregarVideosDoCanal", e)
         } finally {
             connection?.disconnect()
+        }
+        if (videos.isEmpty()) {
+            val fallbackTracks = when (canal.nomeCanal) {
+                "Panda e os Caricas" -> com.example.ui.screens.getFallbackPlaylistTracks("pt_musicas")
+                "Xana Toc Toc" -> com.example.ui.screens.getFallbackPlaylistTracks("pt_brincar")
+                "Rádio Recreio" -> com.example.ui.screens.getFallbackPlaylistTracks("pt_historias")
+                "RTP Zig Zag" -> com.example.ui.screens.getFallbackPlaylistTracks("pt_aprender")
+                else -> emptyList()
+            }
+            return@withContext fallbackTracks.take(maxResultados).map {
+                val vid = it.videoId ?: it.id
+                VideoModel(
+                    id = vid,
+                    titulo = it.title,
+                    nomeCanal = canal.nomeCanal,
+                    urlThumbnail = it.remoteThumbnailUrl ?: it.thumbnailUrl ?: "https://img.youtube.com/vi/$vid/hqdefault.jpg",
+                    categoria = canal.categoria
+                )
+            }
         }
         videos
     }

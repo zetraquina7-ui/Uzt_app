@@ -1,8 +1,11 @@
 package com.example.ui.screens
 
+import android.Manifest
 import android.content.Context
 import android.util.Log
 import android.widget.Toast
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.RepeatMode
@@ -39,6 +42,8 @@ import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.filled.Link
+import androidx.compose.material.icons.filled.Mic
+import androidx.compose.material.icons.filled.MicOff
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material.icons.filled.ScreenRotation
@@ -47,12 +52,15 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.ui.focus.onFocusChanged
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
@@ -64,6 +72,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -95,6 +104,7 @@ import com.example.ui.components.ShortsGrid
 import com.example.ui.components.VideoPlayer
 import com.example.ui.components.parseYouTubePlaylistId
 import com.example.ui.components.parseYouTubeVideoId
+import com.example.util.AudioPermissionHelper
 import com.example.util.CustomVideoStorageHelper
 import com.example.viewmodel.MainViewModel
 import kotlinx.coroutines.Dispatchers
@@ -120,8 +130,61 @@ data class YouTubeVideoTrack(
     val duration: String = "Vídeo",
     val emoji: String = "🎵",
     val publishedDate: String = "",
-    val isShort: Boolean = false
-)
+    val isShort: Boolean = false,
+    val channelTitle: String = "Zé Traquina",
+    val remoteThumbnailUrl: String? = null
+) {
+    val cleanVideoId: String
+        get() {
+            if (!videoId.isNullOrBlank() && !videoId.contains(":") && videoId.length in 8..15) {
+                return videoId
+            }
+            if (!id.contains(":") && id.length in 8..15) {
+                return id
+            }
+            if (!thumbnailUrl.isNullOrBlank() && !thumbnailUrl.startsWith("http") && !thumbnailUrl.contains(":") && thumbnailUrl.length in 8..15) {
+                return thumbnailUrl
+            }
+            return videoId ?: id
+        }
+
+    val cleanThumbnailUrl: String
+        get() {
+            val remote = remoteThumbnailUrl?.trim()?.takeIf { it.startsWith("http") }
+            if (!remote.isNullOrEmpty()) return remote
+            val thumb = thumbnailUrl?.trim()?.takeIf { it.startsWith("http") }
+            if (!thumb.isNullOrEmpty()) return thumb
+            val vid = cleanVideoId
+            return if (vid.isNotBlank() && !vid.contains(":")) {
+                "https://i.ytimg.com/vi/$vid/hqdefault.jpg"
+            } else {
+                "https://i.ytimg.com/vi/wOnvZxQ-Iio/hqdefault.jpg"
+            }
+        }
+
+    val cleanDuration: String
+        get() {
+            if (duration.isNotBlank() && duration != "Vídeo" && duration != "Short") {
+                return duration
+            }
+            if (!videoId.isNullOrBlank() && videoId.contains(":")) {
+                return videoId
+            }
+            return if (isShort) "Short" else "Vídeo"
+        }
+
+    val cleanTitle: String
+        get() {
+            return title
+                .replace("&amp;", "&")
+                .replace("&quot;", "\"")
+                .replace("&#39;", "'")
+                .replace("&apos;", "'")
+                .replace("&lt;", "<")
+                .replace("&gt;", ">")
+                .trim()
+        }
+}
 
 data class YouTubeSubCategory(
     val key: String,
@@ -137,7 +200,84 @@ enum class VideoMainSection(val title: String, val emoji: String, val gradient: 
     ZE_TRAQUINA("Zé Traquina", "👦🏻", listOf(Color(0xFFEA580C), Color(0xFFF59E0B))),
     CANTINHO_PT("Cantinho PT", "🇵🇹", listOf(Color(0xFF0284C7), Color(0xFF10B981)))
 }
-fun getFallbackPlaylistTracks(playlistId: String): List<YouTubeVideoTrack> = emptyList()
+fun getFallbackPlaylistTracks(key: String): List<YouTubeVideoTrack> {
+    val list = when (key) {
+        "ze_musicas", "PLHz1Xt0IaQWM" -> listOf(
+            YouTubeVideoTrack(id = "wOnvZxQ-Iio", title = "Sou de Viana", duration = "3:15", videoId = "wOnvZxQ-Iio", thumbnailUrl = "https://i.ytimg.com/vi/wOnvZxQ-Iio/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/wOnvZxQ-Iio/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "FRnUep_E3x4", title = "Canção da alegria", duration = "3:02", videoId = "FRnUep_E3x4", thumbnailUrl = "https://i.ytimg.com/vi/FRnUep_E3x4/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/FRnUep_E3x4/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "FunPMvy6He8", title = "Os melhores avós do mundo", duration = "3:20", videoId = "FunPMvy6He8", thumbnailUrl = "https://i.ytimg.com/vi/FunPMvy6He8/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/FunPMvy6He8/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "jYYvwC3L2kI", title = "Férias de verão", duration = "2:55", videoId = "jYYvwC3L2kI", thumbnailUrl = "https://i.ytimg.com/vi/jYYvwC3L2kI/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/jYYvwC3L2kI/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "GXDSVN0nfJo", title = "Marcha dos Santos populares", duration = "3:10", videoId = "GXDSVN0nfJo", thumbnailUrl = "https://i.ytimg.com/vi/GXDSVN0nfJo/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/GXDSVN0nfJo/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "VbUX6EODgc0", title = "Um coração para ti - Dia da mãe", duration = "3:05", videoId = "VbUX6EODgc0", thumbnailUrl = "https://i.ytimg.com/vi/VbUX6EODgc0/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/VbUX6EODgc0/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "Ce6QVBTkSUI", title = "Juntos somos o mundo", duration = "3:40", videoId = "Ce6QVBTkSUI", thumbnailUrl = "https://i.ytimg.com/vi/Ce6QVBTkSUI/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/Ce6QVBTkSUI/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "npjny0rOVok", title = "A luz de Jesus venceu", duration = "3:12", videoId = "npjny0rOVok", thumbnailUrl = "https://i.ytimg.com/vi/npjny0rOVok/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/npjny0rOVok/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "Cdys2zuYpVs", title = "É NATAL! - Zé Traquina", duration = "3:30", videoId = "Cdys2zuYpVs", thumbnailUrl = "https://i.ytimg.com/vi/Cdys2zuYpVs/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/Cdys2zuYpVs/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "JT5dhPkaXLI", title = "É Halloween, que divertido!", duration = "2:45", videoId = "JT5dhPkaXLI", thumbnailUrl = "https://i.ytimg.com/vi/JT5dhPkaXLI/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/JT5dhPkaXLI/hqdefault.jpg")
+        )
+        "ze_educativo", "PLT7ZV5QsDKA4" -> listOf(
+            YouTubeVideoTrack(id = "pmMVHEF0zQg", title = "Animais do ABC", duration = "4:15", videoId = "pmMVHEF0zQg", thumbnailUrl = "https://i.ytimg.com/vi/pmMVHEF0zQg/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/pmMVHEF0zQg/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "S5gzoD269E4", title = "Os planetas do sistema solar", duration = "4:50", videoId = "S5gzoD269E4", thumbnailUrl = "https://i.ytimg.com/vi/S5gzoD269E4/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/S5gzoD269E4/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "wr8fKW8nlug", title = "O corpo humano 🇵🇹", duration = "3:55", videoId = "wr8fKW8nlug", thumbnailUrl = "https://i.ytimg.com/vi/wr8fKW8nlug/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/wr8fKW8nlug/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "5U-cinIL2uY", title = "Reciclagem ♻️ 🇵🇹", duration = "3:40", videoId = "5U-cinIL2uY", thumbnailUrl = "https://i.ytimg.com/vi/5U-cinIL2uY/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/5U-cinIL2uY/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "qd0DxrOngz4", title = "Volta ao mundo... PORTUGAL 🇵🇹", duration = "4:20", videoId = "qd0DxrOngz4", thumbnailUrl = "https://i.ytimg.com/vi/qd0DxrOngz4/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/qd0DxrOngz4/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "_SVda7zfTx8", title = "Restauração da independência", duration = "3:35", videoId = "_SVda7zfTx8", thumbnailUrl = "https://i.ytimg.com/vi/_SVda7zfTx8/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/_SVda7zfTx8/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "wnr1gdlgJQk", title = "FELIZ NATAL em várias línguas", duration = "3:10", videoId = "wnr1gdlgJQk", thumbnailUrl = "https://i.ytimg.com/vi/wnr1gdlgJQk/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/wnr1gdlgJQk/hqdefault.jpg")
+        )
+        "ze_historias", "PLZjPDfJ2Av4c" -> listOf(
+            YouTubeVideoTrack(id = "vK9PtdwQ1Wo", title = "O mistério das estrelas", duration = "5:10", videoId = "vK9PtdwQ1Wo", thumbnailUrl = "https://i.ytimg.com/vi/vK9PtdwQ1Wo/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/vK9PtdwQ1Wo/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "4F1P2WDNfXk", title = "O nascimento de Jesus", duration = "4:30", videoId = "4F1P2WDNfXk", thumbnailUrl = "https://i.ytimg.com/vi/4F1P2WDNfXk/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/4F1P2WDNfXk/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "DsaedkDd6KU", title = "Carta ao Pai Natal", duration = "4:05", videoId = "DsaedkDd6KU", thumbnailUrl = "https://i.ytimg.com/vi/DsaedkDd6KU/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/DsaedkDd6KU/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "m4gFmngzMHE", title = "O pedido especial do Zé Traquina", duration = "4:45", videoId = "m4gFmngzMHE", thumbnailUrl = "https://i.ytimg.com/vi/m4gFmngzMHE/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/m4gFmngzMHE/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "DhvP0v6uZEI", title = "Dia da família", duration = "3:50", videoId = "DhvP0v6uZEI", thumbnailUrl = "https://i.ytimg.com/vi/DhvP0v6uZEI/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/DhvP0v6uZEI/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "Xkbtbam05_w", title = "Dia da criança - Magia no ar", duration = "3:40", videoId = "Xkbtbam05_w", thumbnailUrl = "https://i.ytimg.com/vi/Xkbtbam05_w/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/Xkbtbam05_w/hqdefault.jpg")
+        )
+        "ze_diversao", "PLHXyMYX6Yxxc" -> listOf(
+            YouTubeVideoTrack(id = "yXdbHR-h8KI", title = "O Sr. Guloso", duration = "3:15", videoId = "yXdbHR-h8KI", thumbnailUrl = "https://i.ytimg.com/vi/yXdbHR-h8KI/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/yXdbHR-h8KI/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "OeuZJufOB9Y", title = "Missão Verde", duration = "3:30", videoId = "OeuZJufOB9Y", thumbnailUrl = "https://i.ytimg.com/vi/OeuZJufOB9Y/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/OeuZJufOB9Y/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "hrpeW39DYTM", title = "Festa de Carnaval", duration = "3:05", videoId = "hrpeW39DYTM", thumbnailUrl = "https://i.ytimg.com/vi/hrpeW39DYTM/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/hrpeW39DYTM/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "fe4HmhQRCUg", title = "Um mundo melhor", duration = "3:25", videoId = "fe4HmhQRCUg", thumbnailUrl = "https://i.ytimg.com/vi/fe4HmhQRCUg/hqdefault.jpg", channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/fe4HmhQRCUg/hqdefault.jpg")
+        )
+        "ze_shorts", "ze_shorts_auto" -> listOf(
+            YouTubeVideoTrack(id = "-YnSfxwxw7s", title = "Canção da alegria", duration = "0:45", videoId = "-YnSfxwxw7s", thumbnailUrl = "https://i.ytimg.com/vi/-YnSfxwxw7s/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/-YnSfxwxw7s/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "SlT77519BiU", title = "Os melhores avós do mundo", duration = "0:50", videoId = "SlT77519BiU", thumbnailUrl = "https://i.ytimg.com/vi/SlT77519BiU/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/SlT77519BiU/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "eZ76ofmDfNI", title = "Férias de verão", duration = "0:40", videoId = "eZ76ofmDfNI", thumbnailUrl = "https://i.ytimg.com/vi/eZ76ofmDfNI/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/eZ76ofmDfNI/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "R792le9BMGU", title = "Zé Traquina apoia a seleção", duration = "0:35", videoId = "R792le9BMGU", thumbnailUrl = "https://i.ytimg.com/vi/R792le9BMGU/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/R792le9BMGU/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "wnxQMND0L0g", title = "Universo Zé Traquina", duration = "0:45", videoId = "wnxQMND0L0g", thumbnailUrl = "https://i.ytimg.com/vi/wnxQMND0L0g/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/wnxQMND0L0g/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "AZ1GYo7pgMs", title = "Marcha dos Santos populares", duration = "0:55", videoId = "AZ1GYo7pgMs", thumbnailUrl = "https://i.ytimg.com/vi/AZ1GYo7pgMs/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/AZ1GYo7pgMs/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "sltydmw3zYU", title = "Dia da criança - Magia no ar", duration = "0:40", videoId = "sltydmw3zYU", thumbnailUrl = "https://i.ytimg.com/vi/sltydmw3zYU/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/sltydmw3zYU/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "793hLL96h1M", title = "Dia da família", duration = "0:45", videoId = "793hLL96h1M", thumbnailUrl = "https://i.ytimg.com/vi/793hLL96h1M/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/793hLL96h1M/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "FFEla7pde4M", title = "Animais do ABC", duration = "0:50", videoId = "FFEla7pde4M", thumbnailUrl = "https://i.ytimg.com/vi/FFEla7pde4M/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/FFEla7pde4M/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "fmx2m_1IbhQ", title = "Um coração para ti", duration = "0:42", videoId = "fmx2m_1IbhQ", thumbnailUrl = "https://i.ytimg.com/vi/fmx2m_1IbhQ/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/fmx2m_1IbhQ/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "hVL5L3o1rIA", title = "Juntos somos o mundo", duration = "0:48", videoId = "hVL5L3o1rIA", thumbnailUrl = "https://i.ytimg.com/vi/hVL5L3o1rIA/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/hVL5L3o1rIA/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "IGGV40rABS4", title = "A luz de Jesus venceu", duration = "0:50", videoId = "IGGV40rABS4", thumbnailUrl = "https://i.ytimg.com/vi/IGGV40rABS4/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/IGGV40rABS4/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "QipCENBx8ik", title = "Sistema Solar 🌍✨", duration = "0:58", videoId = "QipCENBx8ik", thumbnailUrl = "https://i.ytimg.com/vi/QipCENBx8ik/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/QipCENBx8ik/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "ARZSwAM8BnA", title = "Zé Traquina e D.A.M.A.", duration = "0:52", videoId = "ARZSwAM8BnA", thumbnailUrl = "https://i.ytimg.com/vi/ARZSwAM8BnA/hqdefault.jpg", isShort = true, channelTitle = "Zé Traquina", remoteThumbnailUrl = "https://i.ytimg.com/vi/ARZSwAM8BnA/hqdefault.jpg")
+        )
+        "pt_musicas", "PLSsrAc3exDx0" -> listOf(
+            YouTubeVideoTrack(id = "ybN2N_hAf1M", title = "Cantinho PT - Músicas 1", duration = "2:45", videoId = "ybN2N_hAf1M", thumbnailUrl = "https://i.ytimg.com/vi/ybN2N_hAf1M/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/ybN2N_hAf1M/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "iTvK5uGSyZk", title = "Cantinho PT - Músicas 2", duration = "3:10", videoId = "iTvK5uGSyZk", thumbnailUrl = "https://i.ytimg.com/vi/iTvK5uGSyZk/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/iTvK5uGSyZk/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "pZ5NxMN88Jg", title = "Cantinho PT - Músicas 3", duration = "2:35", videoId = "pZ5NxMN88Jg", thumbnailUrl = "https://i.ytimg.com/vi/pZ5NxMN88Jg/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/pZ5NxMN88Jg/hqdefault.jpg")
+        )
+        "pt_aprender", "PLAHA0KA1fztw" -> listOf(
+            YouTubeVideoTrack(id = "IoCjrOM_36s", title = "Cantinho PT - Aprender 1", duration = "3:15", videoId = "IoCjrOM_36s", thumbnailUrl = "https://i.ytimg.com/vi/IoCjrOM_36s/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/IoCjrOM_36s/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "pw-TbcdIi7E", title = "Cantinho PT - Aprender 2", duration = "2:50", videoId = "pw-TbcdIi7E", thumbnailUrl = "https://i.ytimg.com/vi/pw-TbcdIi7E/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/pw-TbcdIi7E/hqdefault.jpg")
+        )
+        "pt_brincar", "PLWywOKJSEg6E" -> listOf(
+            YouTubeVideoTrack(id = "4HTBp8IEfUk", title = "Cantinho PT - Brincar 1", duration = "3:05", videoId = "4HTBp8IEfUk", thumbnailUrl = "https://i.ytimg.com/vi/4HTBp8IEfUk/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/4HTBp8IEfUk/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "56N-ycOW2Mk", title = "Cantinho PT - Brincar 2", duration = "3:30", videoId = "56N-ycOW2Mk", thumbnailUrl = "https://i.ytimg.com/vi/56N-ycOW2Mk/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/56N-ycOW2Mk/hqdefault.jpg")
+        )
+        "pt_historias", "PLTHYqcQWhhUI" -> listOf(
+            YouTubeVideoTrack(id = "WvW6G9-K8kU", title = "Cantinho PT - Histórias 1", duration = "7:45", videoId = "WvW6G9-K8kU", thumbnailUrl = "https://i.ytimg.com/vi/WvW6G9-K8kU/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/WvW6G9-K8kU/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "SVBnWiU1ix8", title = "Cantinho PT - Histórias 2", duration = "5:50", videoId = "SVBnWiU1ix8", thumbnailUrl = "https://i.ytimg.com/vi/SVBnWiU1ix8/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/SVBnWiU1ix8/hqdefault.jpg")
+        )
+        "pt_amigos", "PLAXFI56mD-HQ" -> listOf(
+            YouTubeVideoTrack(id = "4ZXQ2MyDG-g", title = "Cantinho PT - Amigos 1", duration = "5:20", videoId = "4ZXQ2MyDG-g", thumbnailUrl = "https://i.ytimg.com/vi/4ZXQ2MyDG-g/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/4ZXQ2MyDG-g/hqdefault.jpg"),
+            YouTubeVideoTrack(id = "RbEVVSOE-6Y", title = "Cantinho PT - Amigos 2", duration = "6:15", videoId = "RbEVVSOE-6Y", thumbnailUrl = "https://i.ytimg.com/vi/RbEVVSOE-6Y/hqdefault.jpg", channelTitle = "Cantinho PT", remoteThumbnailUrl = "https://i.ytimg.com/vi/RbEVVSOE-6Y/hqdefault.jpg")
+        )
+        else -> emptyList()
+    }
+    return list.shuffled()
+}
 
 private var hasShownRotationHintInSession = false
 
@@ -156,7 +296,7 @@ suspend fun fetchYouTubePlaylistItems(
     } catch (e: Exception) {
         Log.e("VideosScreen", "Error fetching YouTube playlist: $playlistId", e)
     }
-    resultList
+    resultList.shuffled()
 }
 
 @Composable
@@ -222,8 +362,15 @@ fun VideosScreen(
                     key = "pt_historias",
                     name = "Histórias",
                     emoji = "📚",
-                    accentColor = Color(0xFF8B5CF6),
+                    accentColor = Color(0xFF7C3AED),
                     playlistId = "PLTHYqcQWhhUI"
+                ),
+                YouTubeSubCategory(
+                    key = "pt_amigos",
+                    name = "Amigos",
+                    emoji = "👫",
+                    accentColor = Color(0xFFFF7043),
+                    playlistId = "PLAXFI56mD-HQ"
                 )
             )
         }
@@ -238,7 +385,20 @@ fun VideosScreen(
         var refreshTrigger by remember { mutableIntStateOf(0) }
 
         var categoryTracksMap by remember {
-            mutableStateOf<Map<String, List<YouTubeVideoTrack>>>(emptyMap())
+            mutableStateOf<Map<String, List<YouTubeVideoTrack>>>(
+                mapOf(
+                    "ze_musicas" to getFallbackPlaylistTracks("ze_musicas"),
+                    "ze_educativo" to getFallbackPlaylistTracks("ze_educativo"),
+                    "ze_historias" to getFallbackPlaylistTracks("ze_historias"),
+                    "ze_diversao" to getFallbackPlaylistTracks("ze_diversao"),
+                    "ze_shorts" to getFallbackPlaylistTracks("ze_shorts"),
+                    "pt_musicas" to getFallbackPlaylistTracks("pt_musicas"),
+                    "pt_aprender" to getFallbackPlaylistTracks("pt_aprender"),
+                    "pt_brincar" to getFallbackPlaylistTracks("pt_brincar"),
+                    "pt_historias" to getFallbackPlaylistTracks("pt_historias"),
+                    "pt_amigos" to getFallbackPlaylistTracks("pt_amigos")
+                )
+            )
         }
         var isLoadingTracks by remember { mutableStateOf(false) }
         var apiErrorMessage by remember { mutableStateOf<String?>(null) }
@@ -256,6 +416,11 @@ fun VideosScreen(
             val hasRealCache = roomList.isNotEmpty()
             if (hasRealCache) {
                 categoryTracksMap = categoryTracksMap + (activeKey to roomList)
+            } else if (existing.isEmpty()) {
+                val fallbacks = getFallbackPlaylistTracks(activeKey)
+                if (fallbacks.isNotEmpty()) {
+                    categoryTracksMap = categoryTracksMap + (activeKey to fallbacks)
+                }
             }
 
             val isExpired = VideoCacheManager.isCacheExpired(context, activeKey)
@@ -266,7 +431,7 @@ fun VideosScreen(
                 return@LaunchedEffect
             }
 
-            if (!hasRealCache) {
+            if (!hasRealCache && (categoryTracksMap[activeKey]?.isEmpty() == true)) {
                 isLoadingTracks = true
             }
 
@@ -328,17 +493,25 @@ fun VideosScreen(
                 } else if (hasRealCache) {
                     // Keep real cached tracks
                 } else {
-                    categoryTracksMap = categoryTracksMap + (activeKey to emptyList())
+                    val fallbacks = getFallbackPlaylistTracks(activeKey)
+                    categoryTracksMap = categoryTracksMap + (activeKey to fallbacks)
+                    if (fallbacks.isNotEmpty()) {
+                        VideoCacheManager.syncFreshTracks(context, activeKey, fallbacks)
+                    }
                 }
             } catch (e: Exception) {
                 Log.e("VideosScreen", "Error loading tracks for $activeKey", e)
+                val fallbacks = getFallbackPlaylistTracks(activeKey)
+                if (fallbacks.isNotEmpty() && categoryTracksMap[activeKey].isNullOrEmpty()) {
+                    categoryTracksMap = categoryTracksMap + (activeKey to fallbacks)
+                }
             } finally {
                 isLoadingTracks = false
             }
         }
 
         val activeTracks = categoryTracksMap[activeKey] ?: emptyList()
-        val activeVideoId = selectedVideoId ?: activeTracks.firstOrNull()?.videoId
+        val activeVideoId = selectedVideoId ?: activeTracks.firstOrNull()?.cleanVideoId
 
         // --- DIALOG: ADICIONAR VÍDEO YOUTUBE ---
         if (showAddVideoDialog) {
@@ -498,6 +671,7 @@ fun VideosScreen(
 
         if (isLandscape) {
             LandscapeImmersiveVideoPlayer(
+                mainViewModel = mainViewModel,
                 selectedSection = selectedSection,
                 onSectionSelected = { newSection ->
                     if (selectedSection != newSection) {
@@ -505,20 +679,12 @@ fun VideosScreen(
                         selectedVideoId = null
                     }
                 },
-                activeSubCategory = activeSubCategory,
-                subCategories = if (selectedSection == VideoMainSection.ZE_TRAQUINA) zeTraquinaSubCategories else cantinhoPtSubCategories,
-                onSubCategorySelected = { newSub ->
-                    if (selectedSection == VideoMainSection.ZE_TRAQUINA) {
-                        selectedZeSub = newSub
-                    } else {
-                        selectedPtSub = newSub
-                    }
-                    selectedVideoId = null
-                },
+                zeTraquinaSubCategories = zeTraquinaSubCategories,
+                cantinhoPtSubCategories = cantinhoPtSubCategories,
                 categoryTracksMap = categoryTracksMap,
                 activeVideoId = activeVideoId,
                 onVideoSelected = { track ->
-                    selectedVideoId = track.videoId ?: track.id
+                    selectedVideoId = track.cleanVideoId
                 }
             )
         } else {
@@ -606,18 +772,10 @@ fun VideosScreen(
             ) {
                 VideoPlayer(
                     youtubeId = activeVideoId,
-                    playlistId = if (selectedVideoId == null && selectedSection == VideoMainSection.ZE_TRAQUINA && activeSubCategory.playlistId?.startsWith("ze_") != true && !activeSubCategory.isCustom) activeSubCategory.playlistId else null,
+                    playlistId = null,
                     modifier = Modifier.fillMaxSize(),
                     onVideoEnded = {
-                        val currentIndex = activeTracks.indexOfFirst { (it.videoId ?: it.id) == activeVideoId }
-                        val nextTrack = if (currentIndex != -1 && currentIndex < activeTracks.size - 1) {
-                            activeTracks[currentIndex + 1]
-                        } else {
-                            activeTracks.firstOrNull()
-                        }
-                        if (nextTrack != null) {
-                            selectedVideoId = nextTrack.videoId ?: nextTrack.id
-                        }
+                        // User requested to not start another video automatically when one ends.
                     }
                 )
 
@@ -715,7 +873,7 @@ fun VideosScreen(
                     selectedVideoId = activeVideoId,
                     isLoading = isLoadingTracks,
                     onShortSelected = { track ->
-                        selectedVideoId = track.videoId ?: track.id
+                        selectedVideoId = track.cleanVideoId
                     },
                     modifier = Modifier
                         .fillMaxWidth()
@@ -728,16 +886,16 @@ fun VideosScreen(
                     isLoading = isLoadingTracks,
                     accentColor = activeSubCategory.accentColor,
                     onVideoSelected = { track ->
-                        selectedVideoId = track.videoId ?: track.id
+                        selectedVideoId = track.cleanVideoId
                     },
                     onDeleteVideo = if (activeSubCategory.isCustom || activeKey == "ze_meus_videos") {
                         { track ->
-                            val vid = track.videoId ?: track.id
+                            val vid = track.cleanVideoId
                             CustomVideoStorageHelper.deleteCustomVideo(context, vid)
                             val updated = CustomVideoStorageHelper.loadCustomVideos(context)
                             categoryTracksMap = categoryTracksMap + (activeKey to updated)
                             if (selectedVideoId == vid) {
-                                selectedVideoId = updated.firstOrNull()?.videoId
+                                selectedVideoId = updated.firstOrNull()?.cleanVideoId
                             }
                         }
                     } else null,
@@ -778,20 +936,66 @@ fun VideosScreen(
 
 @Composable
 private fun LandscapeImmersiveVideoPlayer(
+    mainViewModel: MainViewModel,
     selectedSection: VideoMainSection,
     onSectionSelected: (VideoMainSection) -> Unit,
-    activeSubCategory: YouTubeSubCategory,
-    subCategories: List<YouTubeSubCategory>,
-    onSubCategorySelected: (YouTubeSubCategory) -> Unit,
+    zeTraquinaSubCategories: List<YouTubeSubCategory>,
+    cantinhoPtSubCategories: List<YouTubeSubCategory>,
     categoryTracksMap: Map<String, List<YouTubeVideoTrack>>,
     activeVideoId: String?,
     onVideoSelected: (YouTubeVideoTrack) -> Unit
 ) {
+    val context = LocalContext.current
     var mostrarMenu by remember { mutableStateOf(false) }
     var resetTimerTrigger by remember { mutableStateOf(0) }
+    var searchQuery by remember { mutableStateOf("") }
+    val isListeningVoice by mainViewModel.isListening.collectAsStateWithLifecycle()
+
+    val micPermissionLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.RequestPermission()
+    ) { isGranted ->
+        if (isGranted) {
+            mainViewModel.startListening(onResult = { spoken ->
+                searchQuery = spoken
+                resetTimerTrigger++
+            })
+        }
+    }
+
+    fun startVoiceSearch() {
+        AudioPermissionHelper.checkAndRequestAudioPermission(
+            context = context,
+            onPermissionGranted = {
+                mainViewModel.startListening(onResult = { spoken ->
+                    searchQuery = spoken
+                    resetTimerTrigger++
+                })
+            },
+            onShowRationale = {
+                micPermissionLauncher.launch(Manifest.permission.RECORD_AUDIO)
+            }
+        )
+    }
+
+    // Todos os vídeos de cada menu (juntando todas as sub-playlists), sem filtro de sub-categoria
+    val zeCombined = remember(categoryTracksMap, zeTraquinaSubCategories) {
+        zeTraquinaSubCategories.flatMap { categoryTracksMap[it.key] ?: emptyList() }
+    }
+    val ptCombined = remember(categoryTracksMap, cantinhoPtSubCategories) {
+        cantinhoPtSubCategories.flatMap { categoryTracksMap[it.key] ?: emptyList() }
+    }
+
+    // Baralha cada menu uma vez quando a lista fica disponível (não a cada recomposição)
+    var zeShuffled by remember { mutableStateOf<List<YouTubeVideoTrack>>(emptyList()) }
+    var ptShuffled by remember { mutableStateOf<List<YouTubeVideoTrack>>(emptyList()) }
+    LaunchedEffect(zeCombined.size) {
+        if (zeCombined.isNotEmpty()) zeShuffled = zeCombined
+    }
+    LaunchedEffect(ptCombined.size) {
+        if (ptCombined.isNotEmpty()) ptShuffled = ptCombined
+    }
 
     // Control visibility of system bars in landscape
-    val context = LocalContext.current
     val window = (context as? android.app.Activity)?.window
     val view = androidx.compose.ui.platform.LocalView.current
     
@@ -807,16 +1011,22 @@ private fun LandscapeImmersiveVideoPlayer(
         }
     }
 
+    var isSearchFocused by remember { mutableStateOf(false) }
+    
     // 5-second inactivity auto-hide
-    LaunchedEffect(mostrarMenu, resetTimerTrigger) {
-        if (mostrarMenu) {
+    LaunchedEffect(mostrarMenu, resetTimerTrigger, isSearchFocused) {
+        if (mostrarMenu && !isSearchFocused) {
             delay(5000)
             mostrarMenu = false
         }
     }
 
-    // Only display tracks for the currently selected subcategory playlist (strictly separated)
-    val currentTracks = categoryTracksMap[activeSubCategory.key] ?: emptyList()
+    // Se há pesquisa: mostra resultados dos DOIS menus. Senão: menu ativo, baralhado.
+    val currentTracks = if (searchQuery.isBlank()) {
+        if (selectedSection == VideoMainSection.ZE_TRAQUINA) zeShuffled else ptShuffled
+    } else {
+        (zeCombined + ptCombined).filter { it.title.contains(searchQuery, ignoreCase = true) }
+    }
 
     Column(
         modifier = Modifier
@@ -839,7 +1049,7 @@ private fun LandscapeImmersiveVideoPlayer(
                     },
                 verticalArrangement = Arrangement.spacedBy(4.dp)
             ) {
-                // Top: Section Toggles (Tabs Zé Traquina and Cantinho PT)
+                // Top: Section Toggles (Tabs Zé Traquina and Cantinho PT) + caixa de pesquisa
                 Row(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.spacedBy(8.dp),
@@ -855,7 +1065,7 @@ private fun LandscapeImmersiveVideoPlayer(
                                 color = if (isSelected) Color.White else Color.White.copy(alpha = 0.3f)
                             ),
                             modifier = Modifier
-                                .weight(1f)
+                                .weight(0.85f)
                                 .height(32.dp)
                                 .clickable { 
                                     onSectionSelected(section)
@@ -873,44 +1083,53 @@ private fun LandscapeImmersiveVideoPlayer(
                             }
                         }
                     }
-                }
 
-                // Sub-category Pills (Playlists)
-                LazyRow(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.spacedBy(6.dp),
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    items(subCategories.size) { index ->
-                        val subCategory = subCategories[index]
-                        val isSelected = activeSubCategory.key == subCategory.key
-                        Surface(
-                            shape = RoundedCornerShape(10.dp),
-                            color = if (isSelected) subCategory.accentColor else Color.White.copy(alpha = 0.15f),
-                            border = BorderStroke(
-                                width = if (isSelected) 1.5.dp else 0.5.dp,
-                                color = if (isSelected) Color.White else Color.White.copy(alpha = 0.25f)
-                            ),
-                            modifier = Modifier
-                                .height(28.dp)
-                                .clickable {
-                                    onSubCategorySelected(subCategory)
+                    OutlinedTextField(
+                        value = searchQuery,
+                        onValueChange = {
+                            searchQuery = it
+                            resetTimerTrigger++
+                        },
+                        modifier = Modifier
+                            .weight(1.1f)
+                            .heightIn(min = 48.dp)
+                            .onFocusChanged { focusState ->
+                                isSearchFocused = focusState.isFocused
+                                if (focusState.isFocused) resetTimerTrigger++
+                            },
+                        placeholder = { Text("Pesquisar...", fontSize = 11.sp) },
+                        singleLine = true,
+                        textStyle = androidx.compose.ui.text.TextStyle(color = Color.White, fontSize = 12.sp),
+                        colors = OutlinedTextFieldDefaults.colors(
+                            focusedBorderColor = Color.White,
+                            unfocusedBorderColor = Color.White.copy(alpha = 0.4f),
+                            cursorColor = Color.White,
+                            focusedContainerColor = Color.Black.copy(alpha = 0.4f),
+                            unfocusedContainerColor = Color.Black.copy(alpha = 0.4f)
+                        ),
+                        leadingIcon = {
+                            IconButton(
+                                onClick = {
                                     resetTimerTrigger++
-                                }
-                        ) {
-                            Box(
-                                contentAlignment = Alignment.Center,
-                                modifier = Modifier.padding(horizontal = 8.dp)
+                                    startVoiceSearch()
+                                },
+                                modifier = Modifier.size(24.dp)
                             ) {
-                                Text(
-                                    text = "${subCategory.emoji} ${subCategory.name}",
-                                    color = Color.White,
-                                    fontSize = 10.sp,
-                                    fontWeight = if (isSelected) FontWeight.Bold else FontWeight.Medium
+                                Icon(
+                                    imageVector = if (isListeningVoice) Icons.Default.MicOff else Icons.Default.Mic,
+                                    contentDescription = "Pesquisar por voz",
+                                    tint = if (isListeningVoice) Color(0xFFEF4444) else Color.White
                                 )
                             }
+                        },
+                        trailingIcon = {
+                            if (searchQuery.isNotEmpty()) {
+                                IconButton(onClick = { searchQuery = "" }, modifier = Modifier.size(20.dp)) {
+                                    Icon(Icons.Default.Clear, contentDescription = "Limpar", tint = Color.White)
+                                }
+                            }
                         }
-                    }
+                    )
                 }
             }
         }
@@ -936,15 +1155,7 @@ private fun LandscapeImmersiveVideoPlayer(
                     playlistId = null,
                     modifier = Modifier.fillMaxSize(),
                     onVideoEnded = {
-                        val currentIndex = currentTracks.indexOfFirst { (it.videoId ?: it.id) == activeVideoId }
-                        val nextTrack = if (currentIndex != -1 && currentIndex < currentTracks.size - 1) {
-                            currentTracks[currentIndex + 1]
-                        } else {
-                            currentTracks.firstOrNull()
-                        }
-                        if (nextTrack != null) {
-                            onVideoSelected(nextTrack)
-                        }
+                        // User requested to not start another video automatically when one ends.
                     }
                 )
             }
@@ -982,10 +1193,10 @@ private fun LandscapeImmersiveVideoPlayer(
                     videos = currentTracks,
                     selectedVideoId = activeVideoId,
                     isLoading = false,
-                    accentColor = activeSubCategory.accentColor,
+                    accentColor = selectedSection.gradient.first(),
                     onVideoSelected = { track ->
                         onVideoSelected(track)
-                        resetTimerTrigger++
+                        mostrarMenu = false
                     },
                     modifier = Modifier.fillMaxWidth()
                 )

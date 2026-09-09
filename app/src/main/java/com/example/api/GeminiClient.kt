@@ -178,7 +178,13 @@ FORMATO E REGRAS DA RESPOSTA:
                 .put("temperature", 0.55)
                 .put("topP", 0.95)
                 .put("topK", 40)
-                .put("maxOutputTokens", 800)
+                .put("maxOutputTokens", 200)
+            // Desliga/reduz o "thinking" (raciocínio interno) para respostas mais rápidas.
+            // IMPORTANTE: os modelos Gemini 3.x usam "thinkingLevel" (não "thinkingBudget",
+            // que é só para a geração antiga 2.5) — usar o campo errado faz o pedido falhar
+            // sempre com erro 400, daí cair no modo offline.
+            val thinkingConfig = JSONObject().put("thinkingLevel", "minimal")
+            genConfig.put("thinkingConfig", thinkingConfig)
             rootJson.put("generationConfig", genConfig)
 
             // Safety Settings adjusted to allow natural educational conversations without false positives
@@ -199,7 +205,7 @@ FORMATO E REGRAS DA RESPOSTA:
 
             // Contents history + new query with explicit roles
             val contentsArray = JSONArray()
-            history.takeLast(10).forEach { (user, model) ->
+            history.takeLast(6).forEach { (user, model) ->
                 var histUser = user
                 var histModel = model
                 if (user.trim().startsWith("{") && user.trim().endsWith("}")) {
@@ -231,100 +237,94 @@ FORMATO E REGRAS DA RESPOSTA:
             val mediaType = "application/json; charset=utf-8".toMediaType()
             val requestBody = rootJson.toString().toRequestBody(mediaType)
 
-            val candidateModels = listOf("gemini-3.5-flash", "gemini-flash-latest", "gemini-3.1-flash-lite-preview")
-            var lastResponseBody: String? = null
+            val modelsToTry = listOf("gemini-2.0-flash", "gemini-flash-latest")
+            var finalReplyText: String? = null
             var lastApiErrorMsg: String? = null
 
-            for (modelName in candidateModels) {
-                val url = "https://generativelanguage.googleapis.com/v1beta/models/$modelName:generateContent?key=$apiKey"
+            for (modelName in modelsToTry) {
+                val url = "https://generativelanguage.googleapis.com/v1beta/models/$modelName:streamGenerateContent?alt=sse&key=$apiKey"
                 val request = Request.Builder()
                     .url(url)
                     .post(requestBody)
                     .build()
 
-                android.util.Log.d("GeminiClient", "Sending request to Gemini API ($modelName)...")
+                android.util.Log.d("GeminiClient", "Sending streaming request to Gemini API ($modelName)...")
 
                 try {
                     client.newCall(request).execute().use { response ->
-                        val bodyStr = response.body?.string() ?: ""
-                        android.util.Log.d("GeminiClient", "Received response from Gemini API ($modelName). HTTP Code: ${response.code}, isSuccessful: ${response.isSuccessful}")
-
                         if (!response.isSuccessful) {
                             lastApiErrorMsg = "HTTP ${response.code}"
-                            android.util.Log.e("GeminiClient", "API call failed for $modelName (HTTP ${response.code}): $bodyStr")
+                            android.util.Log.e("GeminiClient", "API stream call failed for $modelName (HTTP ${response.code})")
                             return@use
                         }
+                        val source = response.body?.source() ?: return@use
+                        val accumulated = StringBuilder()
 
-                        val resObj = JSONObject(bodyStr)
+                        while (!source.exhausted()) {
+                            val line = source.readUtf8Line() ?: break
+                            if (!line.startsWith("data:")) continue
+                            val jsonStr = line.removePrefix("data:").trim()
+                            if (jsonStr.isBlank() || jsonStr == "[DONE]") continue
 
-                        // Content safety check (safetyRatings)
-                        val promptFeedback = resObj.optJSONObject("promptFeedback")
-                        val blockReason = promptFeedback?.optString("blockReason")
-                        if (blockReason != null && blockReason.isNotBlank()) {
-                            android.util.Log.w("GeminiClient", "Prompt blocked by safety filter: blockReason=$blockReason")
-                            val blockedReply = "Essa é uma pergunta que não posso responder. Posso ajudar-te com uma pergunta sobre ciência, animais, escola ou outra coisa educativa."
-                            return@withContext if (isInputJson) {
-                                JSONObject().put("resposta", blockedReply).put("acao", "continuar").toString()
-                            } else {
-                                blockedReply
+                            try {
+                                val chunkJson = JSONObject(jsonStr)
+                                val candidates = chunkJson.optJSONArray("candidates") ?: continue
+                                if (candidates.length() == 0) continue
+                                val firstCandidate = candidates.getJSONObject(0)
+                                val contentObj = firstCandidate.optJSONObject("content")
+                                val parts = contentObj?.optJSONArray("parts") ?: continue
+                                for (i in 0 until parts.length()) {
+                                    val textChunk = parts.getJSONObject(i).optString("text", "")
+                                    if (textChunk.isNotEmpty()) {
+                                        accumulated.append(textChunk)
+                                    }
+                                }
+                            } catch (e: Exception) {
+                                android.util.Log.w("GeminiClient", "Error parsing streaming text chunk: ${e.message}")
                             }
                         }
 
-                        val candidates = resObj.optJSONArray("candidates")
-                        if (candidates != null && candidates.length() > 0) {
-                            val firstCandidate = candidates.getJSONObject(0)
-
-                            val finishReason = firstCandidate.optString("finishReason")
-                            if (finishReason == "SAFETY" || finishReason == "RECITATION") {
-                                android.util.Log.w("GeminiClient", "Response blocked or restricted: finishReason=$finishReason")
-                                val safetyReply = "Não posso ajudar com esse assunto, mas posso ensinar-te algo interessante sobre ciência, natureza ou história."
-                                return@withContext if (isInputJson) {
-                                    JSONObject().put("resposta", safetyReply).put("acao", "continuar").toString()
-                                } else {
-                                    safetyReply
-                                }
-                            }
-
-                            val contentObj = firstCandidate.optJSONObject("content")
-                            val parts = contentObj?.optJSONArray("parts")
-                            if (parts != null && parts.length() > 0) {
-                                val reply = parts.getJSONObject(0).optString("text")
-                                if (reply.isNotBlank()) {
-                                    val cleanReply = reply.trim()
-                                    android.util.Log.d("GeminiClient", "Successfully retrieved text answer from Gemini API ($modelName): '$cleanReply'")
-
-                                    var speechText = cleanTextForDisplayAndSpeech(cleanReply)
-                                    var responseAction = "continuar"
-                                    if (cleanReply.startsWith("{") && cleanReply.endsWith("}")) {
-                                        try {
-                                            val parsedRes = JSONObject(cleanReply)
-                                            speechText = cleanTextForDisplayAndSpeech(parsedRes.optString("resposta", cleanReply))
-                                            responseAction = parsedRes.optString("acao", "continuar")
-                                        } catch (_: Exception) {}
-                                    }
-
-                                    // Save successful raw response text to local cache
-                                    saveToLocalCache(parsedText, normalizedQuery, category, speechText, cacheDao)
-
-                                    return@withContext if (isInputJson) {
-                                        JSONObject()
-                                            .put("resposta", speechText)
-                                            .put("acao", responseAction)
-                                            .toString()
-                                    } else {
-                                        speechText
-                                    }
-                                }
-                            }
+                        val resultStr = accumulated.toString().trim()
+                        if (resultStr.isNotBlank()) {
+                            finalReplyText = resultStr
+                            android.util.Log.d("GeminiClient", "Successfully retrieved streamed answer from Gemini API ($modelName): '$finalReplyText'")
+                            break
                         }
                     }
                 } catch (e: Exception) {
-                    android.util.Log.e("GeminiClient", "Exception during Gemini API call to $modelName", e)
+                    android.util.Log.e("GeminiClient", "Exception during Gemini API stream call to $modelName", e)
+                    lastApiErrorMsg = e.message
                 }
+
+                if (finalReplyText != null) break
             }
 
-            android.util.Log.w("GeminiClient", "All Gemini models failed or returned no text. Falling back to local cache/knowledge base.")
-            return@withContext resolveFromLocalCacheOrOffline(parsedText, normalizedQuery, category, cacheDao, isInputJson, lastApiErrorMsg)
+            if (!finalReplyText.isNullOrBlank()) {
+                val cleanReply = finalReplyText!!.trim()
+                var speechText = cleanTextForDisplayAndSpeech(cleanReply)
+                var responseAction = "continuar"
+                if (cleanReply.startsWith("{") && cleanReply.endsWith("}")) {
+                    try {
+                        val parsedRes = JSONObject(cleanReply)
+                        speechText = cleanTextForDisplayAndSpeech(parsedRes.optString("resposta", cleanReply))
+                        responseAction = parsedRes.optString("acao", "continuar")
+                    } catch (_: Exception) {}
+                }
+
+                saveToLocalCache(parsedText, normalizedQuery, category, speechText, cacheDao)
+
+                return@withContext if (isInputJson) {
+                    JSONObject()
+                        .put("resposta", speechText)
+                        .put("acao", responseAction)
+                        .toString()
+                } else {
+                    speechText
+                }
+            } else {
+                android.util.Log.w("GeminiClient", "Gemini stream models failed or returned no text. Falling back to local cache/knowledge base.")
+                return@withContext resolveFromLocalCacheOrOffline(parsedText, normalizedQuery, category, cacheDao, isInputJson, lastApiErrorMsg)
+            }
         } catch (e: Exception) {
             android.util.Log.e("GeminiClient", "Exception during Gemini API request preparation: ${e.message}", e)
             return@withContext resolveFromLocalCacheOrOffline(parsedText, normalizedQuery, category, cacheDao, isInputJson, null)

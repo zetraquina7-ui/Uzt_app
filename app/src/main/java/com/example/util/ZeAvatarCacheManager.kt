@@ -6,6 +6,8 @@ import android.util.Log
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.launch
 import java.io.File
 import java.io.FileOutputStream
@@ -22,9 +24,9 @@ object ZeAvatarCacheManager {
 
     private const val TAG = "ZeAvatarCacheManager"
 
-    const val VIDEO_URL_IDLE = "https://files.catbox.moe/q9fduq.mp4"
-    const val VIDEO_URL_LISTENING = "https://files.catbox.moe/b8tryz.mp4"
-    const val VIDEO_URL_TALKING = "https://files.catbox.moe/51a3tn.mp4"
+    const val VIDEO_URL_IDLE = "https://res.cloudinary.com/jwpukrs4/video/upload/v1788961068/lv_0_20260820124441.mp4"
+    const val VIDEO_URL_LISTENING = "https://res.cloudinary.com/jwpukrs4/video/upload/v1788961067/lv_0_20260820124355.mp4"
+    const val VIDEO_URL_TALKING = "https://res.cloudinary.com/jwpukrs4/video/upload/v1788961068/lv_0_20260820124514.mp4"
     const val VIDEO_URL_HOME = "https://files.catbox.moe/cxlun5.mp4"
 
     private val ALL_VIDEOS = listOf(
@@ -110,28 +112,28 @@ object ZeAvatarCacheManager {
     }
 
     /**
-     * Returns a local file Uri if cached, or the remote network Uri if not yet cached.
-     * Also triggers a background cache attempt if missing.
+     * Returns a local file Uri if cached. If not cached, downloads synchronously and returns local Uri (or remote Uri as fallback).
      */
     fun getMediaUri(context: Context, url: String): Uri {
-        val file = getCacheFile(context, url)
-        if (isCached(context, url)) {
-            return Uri.fromFile(file)
-        }
-        // Trigger background preload if missing
-        preloadVideo(context, url)
-        return Uri.parse(url)
+        return getOrDownloadMediaUri(context, url)
     }
 
     /**
      * Preloads all live avatar videos in background.
      * Can be invoked on Application startup or MainActivity creation.
+     * Descarrega tudo em paralelo (não um de cada vez) e dá prioridade ao vídeo
+     * "a falar" — o primeiro que a criança vê ao entrar no ZéAI e começar a ouvir.
      */
     fun preloadAll(context: Context) {
         scope.launch {
-            ALL_VIDEOS.forEach { url ->
-                preloadVideoInternal(context, url)
-            }
+            listOf(
+                VIDEO_URL_TALKING,
+                VIDEO_URL_IDLE,
+                VIDEO_URL_LISTENING,
+                VIDEO_URL_HOME
+            ).map { url ->
+                scope.async { preloadVideoInternal(context, url) }
+            }.awaitAll()
         }
     }
 

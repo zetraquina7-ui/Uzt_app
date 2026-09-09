@@ -1,6 +1,8 @@
 package com.example.ui.screens
 
 import android.util.Log
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.foundation.border
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -55,128 +57,150 @@ fun ZeAIScreen(
         }
     }
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .imePadding()
-            .padding(horizontal = 8.dp, vertical = 2.dp),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
+    FundoApp {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(horizontal = 8.dp, vertical = 0.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
             // ==========================================
-            // 1. Header Superior
+            // 1. Cabecalho Integrado (ZéAI Amigo virtual + Abas)
             // ==========================================
-            Row(
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 4.dp),
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.SpaceBetween
-            ) {
-                ScreenHeader(
-                    title = "Universo Zé Traquina",
-                    subtitle = "ZéAI Amigo Virtual",
-                    icon = "🤖",
-                    gradientColors = listOf(Color(0xFFDB2777), Color(0xFF9333EA)),
-                    modifier = Modifier.weight(1f)
-                )
-                
-                // Remover indicador artificial de Offline/Online baseado em API Key
-                // O estado da conexão agora depende puramente da resposta de rede do Gemini.
-            }
+            val topColor = Color(0xFFDB2777)
+            val bottomColor = Color(0xFF9333EA)
+            val headerShape = RoundedCornerShape(20.dp)
 
-            Spacer(modifier = Modifier.height(6.dp))
-
-            // ==========================================
-            // 2. Seletor de Abas ZéAI: Conversar / Histórico
-            // ==========================================
-            Surface(
+            Box(
                 modifier = Modifier
-                    .fillMaxWidth(0.92f)
-                    .height(46.dp)
-                    .shadow(4.dp, RoundedCornerShape(24.dp)),
-                shape = RoundedCornerShape(24.dp),
-                color = Color.White.copy(alpha = 0.95f)
+                    .fillMaxWidth()
+                    .padding(horizontal = 6.dp, vertical = 2.dp)
+                    .shadow(elevation = 10.dp, shape = headerShape, ambientColor = topColor.copy(alpha = 0.45f), spotColor = topColor.copy(alpha = 0.45f))
+                    .clip(headerShape)
+                    .background(
+                        brush = Brush.verticalGradient(
+                            colors = listOf(topColor.copy(alpha = 0.70f), bottomColor.copy(alpha = 0.85f))
+                        )
+                    )
+                    .border(
+                        width = 1.2.dp,
+                        brush = Brush.verticalGradient(listOf(topColor.copy(alpha = 0.95f), Color.White.copy(alpha = 0.85f), bottomColor.copy(alpha = 0.75f))),
+                        shape = headerShape
+                    )
+                    .padding(horizontal = 12.dp, vertical = 8.dp)
             ) {
-                Row(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .padding(4.dp),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    modifier = Modifier.fillMaxWidth()
                 ) {
-                    // Aba 1: Conversar
-                    val isConversar = selectedTab == ZeAITab.CONVERSAR
-                    Surface(
-                        onClick = {
-                            mainViewModel.playClickSound()
-                            chatViewModel.selectTab(ZeAITab.CONVERSAR)
-                        },
-                        modifier = Modifier
-                            .weight(1f)
-                            .fillMaxHeight()
-                            .testTag("tab_zeai_conversar"),
-                        shape = RoundedCornerShape(20.dp),
-                        color = if (isConversar) Color(0xFF9333EA) else Color.Transparent
+                    // Texto do Cabecalho
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.Center,
+                        modifier = Modifier.fillMaxWidth()
                     ) {
-                        Row(
-                            modifier = Modifier.fillMaxSize(),
-                            horizontalArrangement = Arrangement.Center,
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            Icon(
-                                imageVector = Icons.Default.Mic,
-                                contentDescription = null,
-                                tint = if (isConversar) Color.White else Color(0xFF6B7280),
-                                modifier = Modifier.size(18.dp)
-                            )
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text(
-                                text = "Conversar",
-                                color = if (isConversar) Color.White else Color(0xFF4B5563),
-                                fontSize = 14.sp,
-                                fontWeight = if (isConversar) FontWeight.Bold else FontWeight.Medium
-                            )
-                        }
+                        Text(
+                            text = "🤖 ZéAI Amigo virtual",
+                            fontSize = 17.sp,
+                            fontWeight = FontWeight.Black,
+                            color = Color.White
+                        )
                     }
 
-                    Spacer(modifier = Modifier.width(4.dp))
+                    Spacer(modifier = Modifier.height(8.dp))
 
-                    // Aba 2: Histórico
-                    val isHistorico = selectedTab == ZeAITab.HISTORICO
+                    // Botoes integrados
                     Surface(
-                        onClick = {
-                            mainViewModel.playClickSound()
-                            chatViewModel.selectTab(ZeAITab.HISTORICO)
-                        },
                         modifier = Modifier
-                            .weight(1f)
-                            .fillMaxHeight()
-                            .testTag("tab_zeai_historico"),
+                            .fillMaxWidth()
+                            .height(42.dp),
                         shape = RoundedCornerShape(20.dp),
-                        color = if (isHistorico) Color(0xFF9333EA) else Color.Transparent
+                        color = Color.White.copy(alpha = 0.25f)
                     ) {
                         Row(
-                            modifier = Modifier.fillMaxSize(),
-                            horizontalArrangement = Arrangement.Center,
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .padding(3.dp),
+                            horizontalArrangement = Arrangement.SpaceBetween,
                             verticalAlignment = Alignment.CenterVertically
                         ) {
-                            Icon(
-                                imageVector = Icons.Default.History,
-                                contentDescription = null,
-                                tint = if (isHistorico) Color.White else Color(0xFF6B7280),
-                                modifier = Modifier.size(18.dp)
-                            )
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text(
-                                text = "Histórico",
-                                color = if (isHistorico) Color.White else Color(0xFF4B5563),
-                                fontSize = 14.sp,
-                                fontWeight = if (isHistorico) FontWeight.Bold else FontWeight.Medium
-                            )
+                            // Aba 1: Conversar
+                            val isConversar = selectedTab == ZeAITab.CONVERSAR
+                            Surface(
+                                onClick = {
+                                    mainViewModel.playClickSound()
+                                    chatViewModel.selectTab(ZeAITab.CONVERSAR)
+                                },
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .fillMaxHeight()
+                                    .testTag("tab_zeai_conversar"),
+                                shape = RoundedCornerShape(18.dp),
+                                color = if (isConversar) Color.White.copy(alpha = 0.95f) else Color.Transparent
+                            ) {
+                                Row(
+                                    modifier = Modifier.fillMaxSize(),
+                                    horizontalArrangement = Arrangement.Center,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Icon(
+                                        imageVector = Icons.Default.Mic,
+                                        contentDescription = null,
+                                        tint = if (isConversar) bottomColor else Color.White,
+                                        modifier = Modifier.size(18.dp)
+                                    )
+                                    Spacer(modifier = Modifier.width(6.dp))
+                                    Text(
+                                        text = "Conversar",
+                                        color = if (isConversar) bottomColor else Color.White,
+                                        fontSize = 14.sp,
+                                        fontWeight = if (isConversar) FontWeight.Bold else FontWeight.Medium
+                                    )
+                                }
+                            }
+
+                            Spacer(modifier = Modifier.width(4.dp))
+
+                            // Aba 2: Histórico
+                            val isHistorico = selectedTab == ZeAITab.HISTORICO
+                            Surface(
+                                onClick = {
+                                    mainViewModel.playClickSound()
+                                    chatViewModel.selectTab(ZeAITab.HISTORICO)
+                                },
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .fillMaxHeight()
+                                    .testTag("tab_zeai_historico"),
+                                shape = RoundedCornerShape(18.dp),
+                                color = if (isHistorico) Color.White.copy(alpha = 0.95f) else Color.Transparent
+                            ) {
+                                Row(
+                                    modifier = Modifier.fillMaxSize(),
+                                    horizontalArrangement = Arrangement.Center,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Icon(
+                                        imageVector = Icons.Default.History,
+                                        contentDescription = null,
+                                        tint = if (isHistorico) bottomColor else Color.White,
+                                        modifier = Modifier.size(18.dp)
+                                    )
+                                    Spacer(modifier = Modifier.width(6.dp))
+                                    Text(
+                                        text = "Histórico",
+                                        color = if (isHistorico) bottomColor else Color.White,
+                                        fontSize = 14.sp,
+                                        fontWeight = if (isHistorico) FontWeight.Bold else FontWeight.Medium
+                                    )
+                                }
+                            }
                         }
                     }
                 }
             }
 
-            Spacer(modifier = Modifier.height(8.dp))
+            Spacer(modifier = Modifier.height(0.dp))
 
             // ==========================================
             // 3. Conteúdo da Aba Ativa
@@ -211,4 +235,5 @@ fun ZeAIScreen(
                 }
             }
         }
+    }
 }

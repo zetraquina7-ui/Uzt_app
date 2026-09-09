@@ -144,6 +144,53 @@ object ExoPlayerHelper {
             requiresSecureDecoder: Boolean,
             requiresTunnelingDecoder: Boolean
         ): MutableList<androidx.media3.exoplayer.mediacodec.MediaCodecInfo> {
+            if (EmulatorUtils.isEmulator) {
+                try {
+                    val softwareDecoders = mutableListOf<androidx.media3.exoplayer.mediacodec.MediaCodecInfo>()
+                    val codecList = android.media.MediaCodecList(android.media.MediaCodecList.REGULAR_CODECS)
+                    val clazz = androidx.media3.exoplayer.mediacodec.MediaCodecInfo::class.java
+                    val constructor = clazz.declaredConstructors.firstOrNull()
+                    if (constructor != null) {
+                        constructor.isAccessible = true
+                        for (info in codecList.codecInfos) {
+                            if (info.isEncoder) continue
+                            val name = info.name.lowercase()
+                            val isSoftware = name.startsWith("c2.android.") || name.startsWith("omx.google.") || 
+                                (android.os.Build.VERSION.SDK_INT >= 29 && info.isSoftwareOnly)
+                            if (isSoftware) {
+                                for (type in info.supportedTypes) {
+                                    if (type.equals(mimeType, ignoreCase = true)) {
+                                        try {
+                                            // Instantiate via reflection matching constructor parameters
+                                            val instance = constructor.newInstance(
+                                                info.name,
+                                                mimeType,
+                                                mimeType,
+                                                null,
+                                                false,
+                                                true,
+                                                false,
+                                                false,
+                                                requiresSecureDecoder,
+                                                requiresTunnelingDecoder
+                                            ) as? androidx.media3.exoplayer.mediacodec.MediaCodecInfo
+                                            if (instance != null) {
+                                                softwareDecoders.add(instance)
+                                            }
+                                        } catch (ignored: Throwable) {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    if (softwareDecoders.isNotEmpty()) {
+                        return softwareDecoders
+                    }
+                } catch (e: Throwable) {
+                    Log.w("ExoPlayerHelper", "Error creating software decoders via reflection on emulator: ${e.message}")
+                }
+            }
+
             val decoders = try {
                 MediaCodecSelector.DEFAULT.getDecoderInfos(
                     mimeType,
@@ -155,14 +202,22 @@ object ExoPlayerHelper {
                 emptyList()
             }
             
-            // Prioritize standard hardware/OMX decoders first and keep c2.android.* software decoders
-            // as secondary fallbacks. In AOSP Codec2, querying c2.android.* components as primary decoders
-            // causes CCodec to fail component interface queries for system resources (error 6).
-            val (c2AndroidDecoders, primaryDecoders) = decoders.partition {
-                it.name.startsWith("c2.android.")
+            val safeDecoders = decoders.filterNot { decoder ->
+                val name = decoder.name.lowercase()
+                name.contains("goldfish") || name.contains("ranchu") || name.contains("vbox")
             }
 
-            val ordered = (primaryDecoders + c2AndroidDecoders).toMutableList()
+            val targetList = if (safeDecoders.isNotEmpty()) safeDecoders else decoders
+
+            val (softwareDecoders, hwDecoders) = targetList.partition {
+                it.softwareOnly || it.name.startsWith("c2.android.") || it.name.startsWith("OMX.google.")
+            }
+
+            val ordered = if (mimeType.startsWith("audio/") || EmulatorUtils.isEmulator) {
+                (softwareDecoders + hwDecoders).toMutableList()
+            } else {
+                (hwDecoders + softwareDecoders).toMutableList()
+            }
             return if (ordered.isNotEmpty()) ordered else decoders.toMutableList()
         }
     }
@@ -185,6 +240,18 @@ object ExoPlayerHelper {
         }
     }
 
+    fun createLoadControl(): androidx.media3.exoplayer.LoadControl {
+        return androidx.media3.exoplayer.DefaultLoadControl.Builder()
+            .setBufferDurationsMs(
+                /* minBufferMs = */ 30_000,
+                /* maxBufferMs = */ 60_000,
+                /* bufferForPlaybackMs = */ 200,
+                /* bufferForPlaybackAfterRebufferMs = */ 400
+            )
+            .setPrioritizeTimeOverSizeThresholds(true)
+            .build()
+    }
+
     fun createExoPlayer(
         context: Context,
         isAudioOnly: Boolean = true,
@@ -193,11 +260,14 @@ object ExoPlayerHelper {
         return try {
             ExoPlayer.Builder(context.applicationContext, renderersFactory)
                 .setMediaSourceFactory(createMediaSourceFactory(context))
+                .setLoadControl(createLoadControl())
                 .build()
         } catch (e: Throwable) {
             Log.e("ExoPlayerHelper", "Failed to create ExoPlayer with custom factory", e)
             try {
-                ExoPlayer.Builder(context.applicationContext).build()
+                ExoPlayer.Builder(context.applicationContext)
+                    .setLoadControl(createLoadControl())
+                    .build()
             } catch (e2: Throwable) {
                 Log.e("ExoPlayerHelper", "Failed fallback ExoPlayer creation", e2)
                 null

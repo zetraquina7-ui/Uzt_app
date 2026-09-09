@@ -258,10 +258,8 @@ class MusicService : Service() {
         }
     }
 
-    private fun loadTrack(track: Track) {
-        exoPlayer?.stop()
-        exoPlayer?.release()
-
+    private fun getOrCreatePlayer(): ExoPlayer {
+        exoPlayer?.let { return it }
         val renderersFactory = com.example.util.ExoPlayerHelper.createRenderersFactory(
             this,
             DefaultRenderersFactory.EXTENSION_RENDERER_MODE_OFF,
@@ -269,24 +267,20 @@ class MusicService : Service() {
         )
         val player = ExoPlayer.Builder(this, renderersFactory)
             .setMediaSourceFactory(com.example.util.ExoPlayerHelper.createMediaSourceFactory(this))
+            .setLoadControl(com.example.util.ExoPlayerHelper.createLoadControl())
             .build()
-        exoPlayer = player
-
-        val mediaItem = if (track.rawResId != null) {
-            try {
-                val rawUri = com.example.util.ExoPlayerHelper.getRawResourceAsFileUri(this, track.rawResId, "track_${track.id}.mp3")
-                MediaItem.Builder()
-                    .setUri(rawUri)
-                    .setMimeType(androidx.media3.common.MimeTypes.AUDIO_MPEG)
-                    .build()
-            } catch (_: Throwable) {
-                if (track.uri != null) MediaItem.Builder().setUri(track.uri).build() else null
-            }
-        } else if (track.uri != null) {
-            MediaItem.Builder().setUri(track.uri).build()
-        } else null
 
         player.addListener(object : Player.Listener {
+            override fun onMediaItemTransition(mediaItem: MediaItem?, reason: Int) {
+                val index = player.currentMediaItemIndex
+                if (index in _playlist.value.indices) {
+                    currentTrackIndex = index
+                    val track = _playlist.value[index]
+                    _currentTrack.value = track
+                    startForegroundSafely(track, _isPlaying.value)
+                }
+            }
+
             override fun onPlaybackStateChanged(state: Int) {
                 if (state == Player.STATE_ENDED) {
                     when (_repeatMode.value) {
@@ -295,14 +289,15 @@ class MusicService : Service() {
                             player.play()
                         }
                         RepeatMode.REPEAT_ALL -> {
-                            next()
+                            if (player.currentMediaItemIndex >= _playlist.value.size - 1) {
+                                player.seekTo(0, 0L)
+                                player.play()
+                            }
                         }
                         RepeatMode.OFF -> {
-                            if (currentTrackIndex < _playlist.value.size - 1) {
-                                next()
-                            } else {
+                            if (player.currentMediaItemIndex >= _playlist.value.size - 1) {
                                 pause()
-                                player.seekTo(0)
+                                player.seekTo(0, 0L)
                             }
                         }
                     }
@@ -314,28 +309,50 @@ class MusicService : Service() {
             }
 
             override fun onPlayerError(error: androidx.media3.common.PlaybackException) {
-                Log.e("MusicService", "ExoPlayer playback error on track '${track.title}': ${error.message}", error)
-                com.example.util.MediaFailureTracker.addFailedUrl(track.uri?.toString() ?: "raw:${track.rawResId ?: ""}")
-                try {
-                    exoPlayer?.stop()
-                    exoPlayer?.clearMediaItems()
-                    exoPlayer?.release()
-                } catch (_: Throwable) {}
-                exoPlayer = null
+                val track = _currentTrack.value
+                Log.e("MusicService", "ExoPlayer playback error on track '${track?.title}': ${error.message}", error)
+                if (track != null) {
+                    com.example.util.MediaFailureTracker.addFailedUrl(track.uri?.toString() ?: "raw:${track.rawResId ?: ""}")
+                }
                 _isPlaying.value = false
                 if (_playlist.value.size > 1 && currentTrackIndex < _playlist.value.size - 1) {
-                    next()
+                    player.seekToNextMediaItem()
+                    player.play()
                 }
             }
         })
 
-        if (mediaItem != null) {
-            val url = track.uri?.toString() ?: "raw:${track.rawResId ?: ""}"
-            if (com.example.util.MediaFailureTracker.isUrlFailed(url)) {
-                Log.w("MusicService", "Skipping known failed URL: $url")
-                return
-            }
-            player.setMediaItem(mediaItem)
+        exoPlayer = player
+        return player
+    }
+
+    private fun loadTrack(track: Track) {
+        val player = getOrCreatePlayer()
+        val list = _playlist.value
+        val startIndex = list.indexOfFirst { it.id == track.id }.takeIf { it != -1 } ?: currentTrackIndex.coerceAtLeast(0)
+        currentTrackIndex = startIndex
+
+        val mediaItems = list.mapNotNull { t ->
+            val mediaItem = if (t.rawResId != null) {
+                try {
+                    val rawUri = com.example.util.ExoPlayerHelper.getRawResourceAsFileUri(this, t.rawResId, "track_${t.id}.mp3")
+                    MediaItem.Builder()
+                        .setUri(rawUri)
+                        .setMimeType(androidx.media3.common.MimeTypes.AUDIO_MPEG)
+                        .build()
+                } catch (_: Throwable) {
+                    if (t.uri != null) MediaItem.Builder().setUri(t.uri).build() else null
+                }
+            } else if (t.uri != null) {
+                MediaItem.Builder().setUri(t.uri).build()
+            } else null
+            mediaItem
+        }
+
+        if (mediaItems.isNotEmpty()) {
+            player.stop()
+            player.clearMediaItems()
+            player.setMediaItems(mediaItems, startIndex, 0L)
             player.prepare()
             if (_isPlaying.value) {
                 player.play()

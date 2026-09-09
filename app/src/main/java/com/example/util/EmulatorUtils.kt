@@ -14,7 +14,6 @@ object EmulatorUtils {
     }
 
     val isEmulator: Boolean by lazy { 
-        if (!hasDriRenderNode) return@lazy true
         val finger = (Build.FINGERPRINT ?: "").lowercase()
         val model = (Build.MODEL ?: "").lowercase()
         val prod = (Build.PRODUCT ?: "").lowercase()
@@ -25,7 +24,7 @@ object EmulatorUtils {
         val board = (Build.BOARD ?: "").lowercase()
         val host = (Build.HOST ?: "").lowercase()
 
-        finger.contains("generic") || finger.contains("redroid") || finger.contains("aosp") ||
+        val isKnownEmulator = finger.contains("generic") || finger.contains("redroid") || finger.contains("aosp") ||
                 hardware.contains("gce") || model.contains("gce") || prod.contains("gce") ||
                 model.contains("aosp") || hardware.contains("aosp") || prod.contains("aosp") ||
                 model.contains("redroid") || hardware.contains("redroid") || manufacturer.contains("redroid") ||
@@ -46,10 +45,21 @@ object EmulatorUtils {
                 board.contains("cutf") ||
                 host.contains("android-build") ||
                 manufacturer.contains("genymotion") ||
-                manufacturer.contains("google") ||
                 hardware.contains("qemu") ||
                 hardware.contains("kvm") ||
                 hardware.contains("x86")
+
+        if (isKnownEmulator) return@lazy true
+
+        // Additional file-based checks for virtualization / qemu pipes
+        try {
+            val qemuPipe = java.io.File("/dev/qemu_pipe").exists()
+            val goldfishPipe = java.io.File("/dev/goldfish_pipe").exists()
+            if (qemuPipe || goldfishPipe) return@lazy true
+        } catch (_: Throwable) {}
+
+        // Fallback: If no DRI render node exists, it's definitely running in a headless/software emulator
+        !hasDriRenderNode
     }
 
     fun initWebViewEnvironment(context: android.content.Context) {
