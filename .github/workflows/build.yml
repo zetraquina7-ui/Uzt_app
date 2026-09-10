@@ -24,6 +24,7 @@ jobs:
       - name: Inject API Key into .env
         run: |
           echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
+      echo "YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }}" >> .env
 
       - name: Generate debug keystore for GitHub Runner
         run: |
